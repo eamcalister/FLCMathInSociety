@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<frontmatter xml:id="frontmatter">
+
+<titlepage>
+    <author>
+      <personname></personname>
+    </author>
+    <date><today /></date>
+</titlepage>
+
+<colophon>
+
+	<credit>
+      <role>Project Lead</role>
+      <entity>Cara Lee</entity>
+    </credit>
+    <credit>
+      <role>Contributing Authors</role>
+      <entity>Jess Brooks, Cara Lee, Sonya Redmond, Cindy Rochester-Gefre</entity>
+    </credit>
+    <credit>
+      <role>Technology Editor</role>
+      <entity>Emiliano Vega</entity>
+    </credit>
+    <edition>1.0</edition>
+
+    <website>
+      <name>https://spot.pcc.edu/math/mathinsociety/</name>
+      <address>https://spot.pcc.edu/math/mathinsociety/</address>
+    </website>
+
+    <paragraphs>
+    <title></title>
+    <p>
+    	This book is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/">Math in Society</url>, by David Lippman, et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
+    </p>
+    <p>
+		Licensed by Portland Community College under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-By-SA 3.0</url>
+    </p>
+    <p>
+    	This book was made possible by <url href="https://openoregon.org/">Open Oregon Educational Resources</url>.
+    </p>
+    </paragraphs>
+
+</colophon>
+
+<preface xml:id="Notes">
+<title>Notes</title>
+    <blockquote>
+    	<p>
+    		We dedicate this book to our students. May you have greater ease in paying for college and grow your proficiency and confidence in math.
+    	</p>
+    </blockquote>
+</preface>
+<preface>
+<title><init>Word</init>, <init>PDF</init> and Print Versions</title>
+    <p>
+    	This book is available free online at <url href="http://spot.pcc.edu/~caralee/Math_105.html">http://spot.pcc.edu/~caralee/Math_105.html</url>. There are Microsoft Word documents and PDF versions of each chapter. There is a PDF version of the required chapters (1-4) online and available at the bookstore for the cost of printing. Only the required chapters are in the printed version, to make the print version cheaper.
+   	</p>
+    <p>
+   		This course includes one or more instructor choice topics which may be accessed either from the website above, or <url href="http://www.opentextbookstore.com/mathinsociety/index.html">http://www.opentextbookstore.com/mathinsociety/index.html</url>.
+    	</p>
+</preface>
+<preface>
+<title>Accessibility</title>
+   	<p>
+   		The word version of each chapter is accessible for use with screen readers. The accessible features include heading navigation, MathType and alternate text on all images. For truth tables and Venn diagrams, files with detailed figure descriptions and graphics optimized for tactile production can be found on the textbook website listed above. If you find anything that can improve the accessibility of this book, please email cara.lee@pcc.edu.
+    </p>
+</preface>
+<preface>
+<title>MyOpenMath</title>
+	<p>
+		Online homework problems are available for free at <url href="https://www.myopenmath.com/">https://www.myopenmath.com/</url>.
+   		</p>
+</preface>
+<preface>
+<title>Philosophy</title>
+	<p>
+   		We emphasize technology, conceptual understanding and communication over rote calculation. However, some manual calculation is important to understand what the technology is doing. We emphasize readily available spreadsheets and <url href="www.geogebra.com">GeoGebra</url> throughout the text.
+   	</p>
+</preface>
+<preface>
+<title>Acknowledgements</title>
+		<p>
+		We would like to thank Amy Hofer of OpenOregon and the PCC OER steering committee. Thanks also to Kaela Parks and Michael Cantino of Disability Services for their expertise on accessibility and for producing the tactile model files.
+	</p>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Cover Image: <url href="https://commons.wikimedia.org/w/index.php?curid=27460218">Portland, Oregon Skyline from the Ross Island Bridge</url>, by Visitor7, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0 Unported</url>, cropped.
+				</p>
+			</li>
+			<li>
+				<p>
+					<xref ref="language_logic_rules"></xref> is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Logic</url>, by David Lippman and Morgan Chase, and <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Sets</url> by David Lippman, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<xref ref="chap_two_simple_compound"></xref>, <xref ref="chap_two_savings_plan"></xref> and <xref ref="chap_two_loans"></xref> are a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Finance</url>, by David Lippman, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<xref ref="chap_two_intro_spreadsheet"></xref> and <xref ref="chap_two_credit_cards"></xref> are original to Portland Community College.
+				</p>
+			</li>
+			<li>
+				<p>
+					<xref ref="tax_buckets"></xref>: <url href="https://www.trailfp.com/financial-planning/how-about-them-tax-apples/">Tax Buckets</url> by <url href="https://www.trailfp.com/">John Chesbrough</url>, used under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-ND-NC 4.0</url>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<xref ref="statistics"></xref> is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Describing Data and Statistics</url>, by David Lippman, Jeff Eldridge and <url href="http://www.onlinestatbook.com/">www.onlinestatbook.com</url>, and <url href="http://www.onlinestatbook.com/">www.onlinestatbook.com</url>, by David M. Lane, et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<xref ref="probability"></xref> is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Probability</url>, by David Lippman, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Technology Screenshots: All spreadsheet screenshots use Microsoft Excel under fair use. If you plan to redistribute this book, please consider whether your use is also fair use.
+				</p>
+			</li>
+			<li>
+				<p>
+					GeoGebra screenshots are used for non-commercial use under <url href="https://www.geogebra.org/license#NonCommercialLicenseAgreement">https://www.geogebra.org/license#NonCommercialLicenseAgreement</url>
+				</p>
+			</li>
+		</ul>
+	</p>
+</preface>
+</frontmatter>

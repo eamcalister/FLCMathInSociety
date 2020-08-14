@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *********************************************************************-->
+<!-- Copyright 2020                                                  -->
+<!-- Portland Community College                                           -->
+<!--                                                                      -->
+<!-- (Math In Society).                                                             -->
+<!--                                                                      -->
+<!-- Open Resources for Community College Algebra is licensed under a     -->
+<!-- Creative Commons Attribution 4.0 International License.              -->
+<!--                                                                      -->
+<!-- Under this license, any user of this textbook or the textbook        -->
+<!-- contents must provide proper attribution as follows.                 -->
+<!--                                                                      -->
+<!-- If you redistribute all or part of this textbook, then you must      -->
+<!-- include in every digital format page view (including but not         -->
+<!-- limited to EPUB, PDF, and HTML) and on every physical printed page   -->
+<!-- the following attribution:                                           -->
+<!--                                                                      -->
+<!-- Original source material, products with readable and accessible      -->
+<!-- math content, and other information freely available at              -->
+
+<!--                                                                      -->
+<!--                                                                                                                 -->
+<!-- For questions regarding this license, please contact                 -->
+<!--                                                  -->
+<!-- *********************************************************************-->
+
+<publication>
+
+    <!-- HTML-Specific Options -->
+    <html>
+        <index-page ref="frontmatter"/>
+        <video privacy="yes"/>
+    </html>
+</publication>

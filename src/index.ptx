@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+<docinfo>
+<!-- <rename element="question" lang="en-US">Guided Practice</rename> -->
+</docinfo>
+
+<book>
+<title>Math in Society: Mathematics for liberal arts majors</title>
+
+<xi:include href="./frontmatter.ptx" />
+ 
+<xi:include href="./language_logic_rules.ptx" />
+<xi:include href="./financial_math.ptx" />
+<xi:include href="./statistics.ptx" />
+<xi:include href="./probability.ptx" />
+<xi:include href="./democracy.ptx" />
+
+<!-- <backmatter xml:id="backmatter">  
+</backmatter> -->
+</book>
+</pretext>

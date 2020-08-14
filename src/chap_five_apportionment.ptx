@@ -1,0 +1,2767 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="chap_five_apportionment">
+<title>Apportionment</title>
+
+<objectives>
+<title><xref ref="chap_five_apportionment"></xref></title>
+	<introduction>
+		<p>
+			Students will be able to:
+		</p>
+	</introduction>
+		<ul>
+			<li>
+				<p>
+					Explain the historical context of the formation of the U.S Government, including colonization, slavery and the Three-fifths Compromise, and how they relate to systemic inequality today
+				</p>
+			</li>
+			<li>
+				<p>
+					Apportion representatives using Hamilton’s method
+				</p>
+			</li>
+			<li>
+				<p>
+					Apportion representatives using Jefferson’s method
+				</p>
+			</li>
+			<li>
+				<p>
+					Apportion representatives using Webster’s method
+				</p>
+			</li>
+			<li>
+				<p>
+					Apportion representatives using the Hill-Huntington Method
+				</p>
+			</li>
+		</ul>
+</objectives>
+
+<subsection>
+<title></title>
+	<paragraphs>
+	<title>Dr. Graciela Chichilnisky and Social Choice</title>
+		<sidebyside>
+			<image width="70%" source="images/democracy/5_1/gc_pic.png"></image>
+		</sidebyside>
+		<p>
+			Dr. Graciela Chichilnisky is a professor of Economics and Mathematical Statistics at Columbia University. She was born in Argentina. After a military coup she left for the United States, became a citizen, and resides in New York City. She holds two Ph.D. degrees, in Mathematics and Economics from MIT and University of California Berkeley.
+		</p>
+		<p>
+			Dr. Chichilnisky applied algebraic topology to voting theory and the theory of social choice. She accounted for not only the order of voting preference but also the intensity of preference among the alternatives. Due to her innovative work in this area, continuous social choice has become an international subdiscipline.
+		</p>
+		<p>
+			More recently, Dr. Chichilnisky has combined her research in math and economics to focus on climate change. She worked extensively on the Kyoto Protocol, creating and designing the carbon market that became international law in 2005. As a world-renowned economist, she is the creator of the formal theory of Sustainable Development and acted as the lead U.S. author on the Intergovernmental Panel on Climate Change. Her pioneering work uses innovative market mechanisms to create Green Capitalism.
+		</p>
+		<p>
+			Dr. Chichilnisky is the CEO and Co-founder of <url href="https://globalthermostat.com/">Global Thermostat</url>, a company in which she co-invented a <q>Carbon Negative Technology</q> that captures CO2 from the air and transforms it into profitable assets such as biofuels, food, beverages, polymers, and valuable building materials.
+		</p>
+		<p>
+			Dr. Chichilnisky has taught previously at Harvard, Essex and Stanford Universities. She was elected one of the Ten Most Influential Latinos in the U.S. She is a frequent political and economic speaker on CNN, ABC, BBC TV News, and Bloomberg News, as well as a frequent keynote speaker at leading international conferences and universities. Her two most recent books are <q>The Economics of Climate Change</q> and <q>Saving Kyoto</q>.
+		</p>
+	</paragraphs>
+</subsection>
+
+<subsection>
+<title></title>
+	<p>
+		In this chapter, we are going to study some of the math used in the United States government. In doing that, it is important to acknowledge that Native Americans were on this land before the colonists. In addition, slavery and the Three-Fifths Compromise are often left out of math texts. We are un-erasing these practices to show how these racist policies, laws and practices continue to contribute to the systemic racism that persists today.
+	</p>
+</subsection>
+
+<subsection>
+<title>Stolen Land</title>
+	<p>
+		We acknowledge that the United States was created on stolen land. Portland, Oregon is on land where the Multnomah, Kathlamet, and Clackamas bands of the Chinook, Tualatin, Kalapuya, Molalla and many other Tribes made their homes along the Columbia River. Multnomah is a band of Chinooks that lived in this area.
+	</p>
+	<p>
+		We thank the descendants of these tribes for being the original stewards and protectors of these lands since time immemorial. We also acknowledge that Portland, OR has one of the largest Urban Native American populations in the U.S. with over 380 federally recognized tribes represented in the Urban Portland Metropolitan area. We also acknowledge the systemic policies of genocide, relocation, and assimilation that still impact many Indigenous/Native American families today.
+	</p>
+	<p>
+		We are honored by the collective work of many Native Nations, leaders and families who are demonstrating resilience, resistance, revitalization, healing and creativity. We are honored to be guests upon these lands. Thank you, and thanks also to our colleagues at the Portland State University Indigenous Nations Studies Program for crafting this acknowledgement.
+	</p>
+</subsection>
+
+<subsection>
+<title>Formation of the US Government</title>
+	<p>
+		The first colonists arrived in America in 1607 and African slaves were separated from their families and homeland and first brought to Jamestown in 1619. In 1785, the Treaty of Hopewell was signed in Georgia, which set a western boundary on white settlement. It wasn’t long before the treaty was violated and on May 28, 1830, the Indian Removal Act was signed by President Jackson. The Act relocated Native Americans to land west of the Mississippi and the journey was nicknamed the <q>Trail of Tears.</q> You can find a timeline of Native American history on this website<fn><url href="https://www.history.com/topics/native-american-history/native-american-timeline">https://www.history.com/topics/native-american-history/native-american-timeline</url></fn>.
+	</p>
+	<p>
+		The U.S. government was formed in 1787. During the Constitutional Convention, the framers were tasked with making decisions on the three branches of government and how people (or those considered to be people) would be represented. In creating the Legislative Branch of government, it was decided that Congress would be made up of the Senate and the House of Representatives. Representation for the Senate would be equal with two senators per state. To account for the different sizes of the states, the representation in the House of Representatives would be proportional to the state’s population. At this time only white men with property were allowed to vote.
+	</p>
+</subsection>
+
+<subsection>
+<title>Three-Fifths Compromise</title>
+	<p>
+		During the Constitutional Convention, the northern and southern states were at odds on how to count the population. The South wanted more representation in Congress which would also increase their power in elections, so they argued to count slaves as part of their population. The southern states did not want slaves to be counted for taxation, however, because that would result in them paying more taxes.
+	</p>
+	<p>
+		Slaves were considered property, not humans, and they were not citizens. Therefore, they did not have the right to vote or participate in government. The anti-slavery North only wanted to count free people, which included free Blacks. This led to the Three-Fifths Compromise that determined three out of every five slaves would be counted toward a state’s population (Clayton, 2015). 
+	</p>
+	<p>
+		Slaves were freed by Abraham Lincoln’s Emancipation Proclamation on January 1st, 1863 and the 13th Amendment was ratified on December 6, 1865. It was not until June 19th, 1865 that the last group of slaves in Texas learned they had been freed. This is now celebrated as the Juneteenth<fn><url href="https://www.juneteenth.com/history.htm">https://www.juneteenth.com/history.htm</url></fn> holiday. While slavery had ended, racism and numerous racist policies like segregation, racial profiling, redlining and voter suppression continue to this day to limit the freedoms, rights and economic prospects of African Americans.
+	</p>
+</subsection>
+
+<subsection>
+<title>What is Apportionment?</title>
+	<p>
+		The number of representatives each state gets is based on its population, so once the framers decided how to count the population, they had to figure out how to divide up the representatives. This math problem is called apportionment. It is also important to note that there are about 4 million U.S. Citizens who live in the territories of Guam, the Virgin Islands, the Northern Mariana Islands and Puerto Rico who do not have representatives or senators. They pay federal taxes like Social Security and Medicare but not Federal Income tax.
+	</p>
+	<p>
+		<alert>Apportionment</alert> is the problem of dividing up a fixed number of things among groups of different sizes. In the United States, there is a certain number of representatives as stated in the constitution, currently 435, and they need to be divided fairly among the 50 states. Since the states are different sizes, and we cannot use fractions of people, this is not an easy task. In addition, the population in each state may change over time. Every 10 years after the census is taken, the representatives are re-apportioned.
+	</p>
+	<p>
+		The apportionment problem comes up in a variety of non-political areas too. Here are the rules for apportionment in general
+	</p>
+	<assemblage>
+		<title>Apportionment rules</title>
+		<p>
+			<ol label="1">
+				<li>
+					<p>
+						The things being divided up can exist only in whole numbers.
+					</p>
+				</li>
+				<li>
+					<p>
+						We must use all of the things being divided up, and we cannot use any more.			
+					</p>
+				</li>
+				<li>
+					<p>
+						Each group must get at least one of the things being divided up.	
+					</p>
+				</li>
+				<li>
+					<p>
+						The number of things assigned to each group should be at least approximately proportional to the population of the group. (Exact proportionality isn’t possible because of the whole number requirement, but we should try to be close.)
+					</p>
+				</li>
+			</ol>
+		</p>
+	</assemblage>
+	<p>
+		In terms of the apportionment of the United States House of Representatives, these rules imply:
+		<ol label="1">
+			<li>
+				<p>
+					We can only have whole representatives (a state can’t have 3.4 representatives).
+				</p>
+			</li>
+			<li>
+				<p>
+					We can only use the 435 representatives available.	
+				</p>
+			</li>
+			<li>
+				<p>
+					Every state gets at least one representative.		
+				</p>
+			</li>
+			<li>
+				<p>
+					The number of representatives each state gets should be approximately proportional to the state population. This way, the number of constituents each representative has should be approximately equal.	
+				</p>
+			</li>
+		</ol>
+	</p>
+	<p>
+		We will look at four ways of solving the apportionment problem, developed by different people: Hamilton, Jefferson, Webster, and the Huntington-Hill method that is used today. Since there was race-based chattel slavery in the United States while these methods were being formed, we will also explore Hamilton, Jefferson and Webster’s relationship to slavery.
+	</p>
+</subsection>
+
+<subsection>
+<title>Hamilton's Method</title>
+	<p>
+		Alexander Hamilton was raised in St. Croix in the U.S. Virgin Islands by a poor family. He was motivated by his low socioeconomic status to work himself into a higher social standing. He eventually came to the colonies and worked himself into circles of wealth and influence. While Hamilton wasn’t pro-slavery and considered himself an abolitionist, when choosing between his societal status and moral obligation, he chose the former.
+	</p>
+	<p>
+		He wed Elizabeth Schuyler, who was from a prominent family who owned slaves. He was involved with the transactions of slaves for his in-laws which further muddled his anti-slavery stance. Furthermore, Hamilton also traded and sold slaves as part of his duties for the Continental Army.
+	</p>
+	<p>
+		Alexander Hamilton proposed the method that now bears his name. His method was approved by Congress in 1791 but was vetoed by President Washington. It was later adopted in 1852 and used through 1911. He begins by determining, to several decimal places, how many people each representative should represent (the divisor).
+	</p>
+	<assemblage>
+	<title>Hamilton’s Method</title>
+		<p>
+			1. Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the divisor.
+		</p>
+		<p>
+			2. Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the quota.
+		</p>
+		<p>
+			Since we can only allocate whole representatives, Hamilton resolved the whole number problem as follows:
+		</p>
+		<p>
+			3. Cut off all the decimal parts of all the quotas (but don’t forget what the decimals were). This is the initial apportionment and will always be less than or equal to the total number of representatives. Add up the whole numbers.
+		</p>
+		<p>
+			4. If the total from Step 3 is less than the total number of representatives, assign the remaining representatives, one each, to the states whose decimal parts of the quota were largest, until the desired total is reached.
+		</p>
+		<p>
+			Make sure that each state ends up with at least one representative.
+		</p>
+	</assemblage>
+	<p>
+		Let’s see how this works in an example
+	</p>
+	<example>
+		<statement>
+		<p>
+			The state of Delaware has three counties: Kent, New Castle, and Sussex. The Delaware state House of Representatives has 41 members. If Delaware wants to divide this representation along county lines (which is <em>not</em> required, but let’s pretend they do), let’s use Hamilton’s method to apportion them. The populations of the counties are as follows (from the 2010 Census):
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>162,310</cell>
+			</row>
+			<row>
+				<cell>New Castle</cell>
+				<cell>538,479</cell>
+			</row>
+			<row>
+				<cell>Sussex</cell>
+				<cell>197,145</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>897,934</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Step 1: First, we divide the total population by the number of representatives to find the divisor: <m>897934/41 = 21900.82927</m>.
+		</p>
+		<p>
+			Step 2: Now we determine each county’s quota by dividing the county’s population by the divisor: For example, for Kent, we take <m>162,310/21,900.82927</m> which equals 7.4111.
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>162,310</cell>
+				<cell>7.4111</cell>
+			</row>
+			<row>
+				<cell>New Castle</cell>
+				<cell>538,479</cell>
+				<cell>24.5872</cell>
+			</row>
+			<row>
+				<cell>Sussex</cell>
+				<cell>197,945</cell>
+				<cell>9.0017</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>897,934</cell>
+				<cell></cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Step 3: Removing the decimal parts of the quotas gives our initial apportionment and we add those numbers up.
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>162,310</cell>
+				<cell>7.4111</cell>
+				<cell>7</cell>
+			</row>
+			<row>
+				<cell>New Castle</cell>
+				<cell>538,479</cell>
+				<cell>24.5872</cell>
+				<cell>24</cell>
+			</row>
+			<row>
+				<cell>Sussex</cell>
+				<cell>197,945</cell>
+				<cell>9.0017</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>897,934</cell>
+				<cell></cell>
+				<cell>40</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Step 4: We need 41 representatives, and right now we only have 40. The remaining one goes to the county with the largest decimal part, which is New Castle:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+				<cell>Final</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>162,310</cell>
+				<cell>7.4111</cell>
+				<cell>7</cell>
+				<cell>7</cell>
+			</row>
+			<row>
+				<cell>New Castle</cell>
+				<cell>538,479</cell>
+				<cell>24.<em>5872</em></cell>
+				<cell>24<em>+1</em></cell>
+				<cell>25</cell>
+			</row>
+			<row>
+				<cell>Sussex</cell>
+				<cell>197,945</cell>
+				<cell>9.0017</cell>
+				<cell>9</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>897,934</cell>
+				<cell></cell>
+				<cell>40</cell>
+				<cell>41</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Our final apportionment is Kent: 7, New Castle: 25, Sussex: 9, for a total of 41 representatives.
+		</p>
+		</statement>
+	</example>
+
+	<example>
+		<statement>
+		<p>
+			Use Hamilton’s method to apportion the 75 seats of Rhode Island’s House of Representatives among its five counties.
+		</p>
+		<sidebyside>
+		<tabular>
+			<row>
+				<cell></cell>
+				<cell></cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		</statement>
+		<solution>
+			<p>
+				Step 1: The divisor is <m>1,052,567/75 = 14,034.22667</m>.
+			</p>
+			<p>
+				Step 2: Determine each county’s quota by dividing its population by the divisor:
+			</p>
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>County</cell>
+					<cell>Population</cell>
+					<cell>Quota</cell>
+				</row>
+				<row>
+					<cell>Bristol</cell>
+					<cell>49,875</cell>
+					<cell>3.5538</cell>
+				</row>
+				<row>
+					<cell>Kent</cell>
+					<cell>166,158</cell>
+					<cell>11.8395</cell>
+				</row>
+				<row>
+					<cell>Newport</cell>
+					<cell>82,888</cell>
+					<cell>5.9061</cell>
+				</row>
+				<row>
+					<cell>Providence</cell>
+					<cell>626,667</cell>
+					<cell>44.6528</cell>
+				</row>
+				<row>
+					<cell>Washington</cell>
+					<cell>126,979</cell>
+					<cell>9.0478</cell>
+				</row>
+				<row>
+					<cell>Total</cell>
+					<cell>1,052,567</cell>
+					<cell></cell>
+				</row>
+			</tabular>
+			</sidebyside>
+			<p>
+				Step 3: Remove the decimal part of each quota and add up the initial apportionment:
+			</p>
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>County</cell>
+					<cell>Population</cell>
+					<cell>Quota</cell>
+					<cell>Initial</cell>
+				</row>
+				<row>
+					<cell>Bristol</cell>
+					<cell>49,875</cell>
+					<cell>3.5538</cell>
+					<cell>3</cell>
+				</row>
+				<row>
+					<cell>Kent</cell>
+					<cell>166,158</cell>
+					<cell>11.8395</cell>
+					<cell>11</cell>
+				</row>
+				<row>
+					<cell>Newport</cell>
+					<cell>82,888</cell>
+					<cell>5.9061</cell>
+					<cell>5</cell>
+				</row>
+				<row>
+					<cell>Providence</cell>
+					<cell>626,667</cell>
+					<cell>44.6528</cell>
+					<cell>44</cell>
+				</row>
+				<row>
+					<cell>Washington</cell>
+					<cell>126,979</cell>
+					<cell>9.0478</cell>
+					<cell>9</cell>
+				</row>
+				<row>
+					<cell>Total</cell>
+					<cell>1,052,567</cell>
+					<cell></cell>
+					<cell>72</cell>
+				</row>
+			</tabular>
+			</sidebyside>
+			<p>
+				Step 4: We need 75 representatives and we only have 72, so we assign the remaining three, one each, to the three counties with the largest decimal parts, which are Newport, Kent, and Providence in that order:
+			</p>
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>County</cell>
+					<cell>Population</cell>
+					<cell>Quota</cell>
+					<cell>Initial</cell>
+					<cell>Final</cell>
+				</row>
+				<row>
+					<cell>Bristol</cell>
+					<cell>49,875</cell>
+					<cell>3.5538</cell>
+					<cell>3</cell>
+					<cell>3</cell>
+				</row>
+				<row>
+					<cell>Kent</cell>
+					<cell>166,158</cell>
+					<cell>11.<em>8395</em></cell>
+					<cell>11<em>+1</em></cell>
+					<cell>12</cell>
+				</row>
+				<row>
+					<cell>Newport</cell>
+					<cell>82,888</cell>
+					<cell>5.<em>9061</em></cell>
+					<cell>5<em>+1</em></cell>
+					<cell>6</cell>
+				</row>
+				<row>
+					<cell>Providence</cell>
+					<cell>626,667</cell>
+					<cell>44.<em>6528</em></cell>
+					<cell>44<em>+1</em></cell>
+					<cell>45</cell>
+				</row>
+				<row>
+					<cell>Washington</cell>
+					<cell>126,979</cell>
+					<cell>9.0478</cell>
+					<cell>9</cell>
+					<cell>9</cell>
+				</row>
+				<row>
+					<cell>Total</cell>
+					<cell>1,052,567</cell>
+					<cell></cell>
+					<cell>72</cell>
+					<cell>75</cell>
+				</row>
+			</tabular>
+			</sidebyside>
+			<p>
+				Our final apportionment is Bristol: 3, Kent: 12, Newport: 6, Providence: 45, and Washington: 9 for a total of 75 representatives.
+			</p>
+			<p>
+				Note that even though Bristol County’s decimal part is greater than .5, it isn’t big enough to get an additional representative, because three other counties have greater decimal parts.
+			</p>
+		</solution>
+	</example>
+
+	<p>
+		Hamilton’s method obeys something called the Quota Rule. The Quota Rule isn’t a law, but an idea that some people think is a good one.
+	</p>
+	<assemblage>
+	<title>Quota Rule</title>
+		<p>
+			The Quota Rule says that the final number of representatives a state gets should be within one of that state’s quota. Since we’re dealing with whole numbers for our final answers, that means that each state should either go up to the next whole number above its quota, or down to the next whole number below its quota.
+		</p>
+	</assemblage>
+
+	<p>
+		Problems with Hamilton’s Method. After using Hamilton’s method for many years, three paradoxes happened, on separate occasions, where unfair things happened in new apportionments. This led to other methods being needed.
+	</p>
+	<question>
+	<title>The Alabama Paradox</title>
+		<statement>
+		<p>
+			The Alabama Paradox is named for an incident that happened during the apportionment that took place after the 1880 census. (A similar incident happened ten years earlier involving the state of Rhode Island, but the paradox is named after Alabama.) The post-1880 apportionment had been completed, using Hamilton’s method and the new population numbers from the census. Then it was decided that because of the country’s growing population, the House of Representatives should be made larger. That meant that the apportionment would need to be done again, still using Hamilton’s method and the same 1880 census numbers, but with more representatives. The assumption was that some states would gain another representative and others would stay with the same number they already had (since there weren’t enough new representatives being added to give one more to every state). The paradox is that Alabama ended up <em>losing</em> a representative in the process, even though no populations were changed, and the total number of representatives increased.
+		</p>
+		</statement>
+	</question>
+
+	<question>
+	<title>The New States Paradox</title>
+		<statement>
+		<p>
+			The New States Paradox happened when Oklahoma became a state in 1907. Oklahoma had enough population to qualify for five representatives in Congress. Those five representatives would need to come from somewhere, though, so five states, presumably, would lose one representative each. That happened, but another thing also happened:  Maine gained a representative (from New York).
+		</p>
+		</statement>
+	</question>
+
+	<question>
+	<title>The Population Paradox</title>
+		<statement>
+		<p>
+			The Population Paradox happened between the apportionments after the census of 1900 and of 1910. In those ten years, Virginia’s population grew at an average annual rate of 1.07%, while Maine’s grew at an average annual rate of 0.67%. Virginia started with more people, grew at a faster rate, grew by more people, and ended up with more people than Maine. By itself, that doesn’t mean that Virginia should gain representatives or Maine shouldn’t, because there are lots of other states involved. But Virginia ended up losing a representative <em>to Maine</em>.
+		</p>
+		</statement>
+	</question>
+</subsection>
+
+<subsection>
+<title>Jefferson's Method</title>
+	<p>
+		<q>All men are created equal,</q> are words penned by our third president and Founding Father, Thomas Jefferson, in the preamble to the Constitution. However, over the course of his life, Jefferson owned around 600 slaves. Among these hundreds of slaves, Jefferson fathered at least six children with one of his slaves, Sally Hennings.
+	</p>
+	<p>
+		Over his lifetime and his writings, Jefferson wrestled with his conscience regarding slavery, which can be seen in documents such as drafts of the Constitution before its final version. In the end, his personal and monetary gain surpassed that of his concern for the enslaved.
+	</p>
+	<p>
+		Thomas Jefferson proposed a different method for apportionment. After Washington vetoed Hamilton’s method, Jefferson’s method was adopted, and used in Congress from 1791 through 1842. Jefferson, of course, had political reasons for wanting his method to be used rather than Hamilton’s. Primarily, his method favors larger states, and his own home state of Virginia was the largest at the time. He would also argue that it’s the ratio of people to representatives that is the critical thing, and apportionment methods should be based on that.
+	</p>
+	<p>
+		Jefferson’s Method. The first three steps of Jefferson’s method are the same as Hamilton’s. He found the same divisor and the same quota and cut off the decimal parts in the same way, giving the same initial apportionment that is less than the required total.
+	</p>
+	<p>
+		What changes is how Jefferson assigned the remaining representatives. He said that since we ended up with an answer that is too small, our divisor must have been too big. He changed the divisor by making it smaller and looked at the new total. He would raise or lower the divisor until he found one that produced the required total. This is a trial and error process that takes some patience.
+	</p>
+	<assemblage>
+	<title>Jefferson’s Method (The first three steps are the same as Hamilton’s)</title>
+		<p>
+			<ol label="1">
+				<li>
+					<p>
+						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Cut off all the decimal parts of all the quotas (but don’t forget what the decimals were). This is the <alert>initial</alert> apportionment and will always be less than or equal to the total number of representatives. Add up the whole numbers.
+					</p>
+				</li>
+				<li>
+					<p>
+						If the total from Step 3 was less than the total number of representatives, reduce the divisor and recalculate the quota and allocation. If you lower it too far, increase it. Continue doing this until the total in Step 3 is equal to the total number of representatives. The divisor you end up using is called the <alert>modified divisor</alert>. This is a trial-and-error process.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</assemblage>
+
+	<example>
+		<statement>
+		<p>
+			We’ll return to Delaware and apply Jefferson’s method. We begin, as we did with Hamilton’s method, by finding the quotas with the original divisor, 21,900.82927.
+		</p>
+		<p>
+			Steps 1-3 are the same as Hamilton’s Method. Since we will be using different divisors, we will write the divisor above the population column to be clear what we are dividing each number in that column by. 
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%21,900.82927</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>162,310</cell>
+				<cell>7.4111</cell>
+				<cell>7</cell>
+			</row>
+			<row>
+				<cell>New Castle</cell>
+				<cell>538,479</cell>
+				<cell>24.5872</cell>
+				<cell>24</cell>
+			</row>
+			<row>
+				<cell>Sussex</cell>
+				<cell>197,145</cell>
+				<cell>9.0017</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>897,934</cell>
+				<cell></cell>
+				<cell>40</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			We need 41 representatives, and this divisor gives only 40. We must reduce the divisor until we get 41 representatives. Let’s try 21,500 as the divisor
+		</p>
+		<p>
+			Step 4:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%21,500</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>162,310</cell>
+				<cell>7.5493</cell>
+				<cell>7</cell>
+			</row>
+			<row>
+				<cell>New Castle</cell>
+				<cell>538479</cell>
+				<cell>25.0455</cell>
+				<cell>25</cell>
+			</row>
+			<row>
+				<cell>Sussex</cell>
+				<cell>197,145</cell>
+				<cell>9.1695</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>897,934</cell>
+				<cell></cell>
+				<cell>41</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			That worked and our final apportionment is Kent: 7, New Castle: 25, and Sussex: 9.
+		</p>
+		<p>
+			Notice that with the new, lower divisor, the quota for New Castle County (the largest county in the state) increased by much more than those of Kent County or Sussex County.
+		</p>
+		<p>
+			In this example, we got lucky and found the modified divisor on the first try. If we still had 40, we would reduce the divisor more. If we had more than 41, we would need to raise it. We will show how to do the trial-and-error part in the next example.
+		</p>
+		</statement>
+	</example>
+
+	<example>
+		<statement>
+		<p>
+			We’ll apply Jefferson’s method for Rhode Island. The original divisor of 14,034.22667 gave these results:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.5538</cell>
+				<cell>3</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>11.8395</cell>
+				<cell>11</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>5.9061</cell>
+				<cell>5</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>44.6528</cell>
+				<cell>44</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.0478</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell>72</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			We need 75 representatives and we only have 72, so we need to use a smaller divisor.  Let’s try lowering it to 13,500:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%13,500</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.6944</cell>
+				<cell>3</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>12.3080</cell>
+				<cell>12</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>6.1399</cell>
+				<cell>6</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>46.4198</cell>
+				<cell>46</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.4059</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell>76</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			We got a total of 76 representatives which is too many, so we lowered it too far. We need a divisor that’s greater than 13,500 but less than 14,034.22667. Let’s try 13,700:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%13,700</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.6405</cell>
+				<cell>3</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>12.1283</cell>
+				<cell>12</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>6.0502</cell>
+				<cell>6</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>45.7421</cell>
+				<cell>45</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.2685</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell>75</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Using a modified divisor of 13,700 gives us exactly 75 representatives. Note there is usually more than one modified divisor that will work.
+		</p>
+		<p>
+			This can take a lot of writing, so in practice, we can write this all out in one table. With each try we are dividing the population by the new divisor to get the new quotas.
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell><em>%13,500</em></cell>
+				<cell></cell>
+				<cell><em>%13,700</em></cell>
+				<cell></cell>		
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+				<cell>2nd Quota</cell>
+				<cell>2nd Try</cell>
+				<cell>3rd Quota</cell>
+				<cell>Final</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.5538</cell>
+				<cell>3</cell>
+				<cell>3.6944</cell>
+				<cell>3</cell>
+				<cell>3.6405</cell>
+				<cell>3</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>11.8395</cell>
+				<cell>11</cell>
+				<cell>12.3080</cell>
+				<cell>12</cell>
+				<cell>12.1283</cell>
+				<cell>12</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>5.9061</cell>
+				<cell>5</cell>
+				<cell>6.1399</cell>
+				<cell>6</cell>
+				<cell>6.0502</cell>
+				<cell>6</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>44.6528</cell>
+				<cell>44</cell>
+				<cell>46.4198</cell>
+				<cell>46</cell>
+				<cell>45.7421</cell>
+				<cell>45</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.0478</cell>
+				<cell>9</cell>
+				<cell>9.4059</cell>
+				<cell>9</cell>
+				<cell>9.2685</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell>72</cell>
+				<cell></cell>
+				<cell>76</cell>
+				<cell></cell>
+				<cell>75</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Notice, in comparison to Hamilton’s method, that although the results were the same, they came about in a different way, and the outcome was almost different. Providence County (the largest) almost went up to 46 representatives before Kent (which is much smaller) got to 12. Although that didn’t happen here, it can. Divisor-adjusting methods like Jefferson’s are not guaranteed to follow the quota rule.
+		</p>
+		</statement>
+	</example>
+</subsection>
+
+<subsection>
+<title>Webster's Method</title>
+	<p>
+		Daniel Webster (1782-1852) was a lawyer, congressman and Senator of Massachusetts. He was the U.S. Secretary of State from 1841-1843 and 1850-1852. He was from the North and did not own slaves. He was an opponent of slavery extension and he spoke against annexing Texas and against going to war with Mexico. He argued, however, that no law was needed to prevent the further extension of slavery and he supported the compromise of 1850, disappointing his abolitionist supporters<fn><url href="https://www.history.com/topics/abolitionist-movement/compromise-of-1850">https://www.history.com/topics/abolitionist-movement/compromise-of-1850</url></fn>.
+	</p>
+	<p>
+		Webster proposed a method similar to Jefferson’s in 1832. It was adopted by Congress in 1842 but replaced by Hamilton’s method in 1852. It was then adopted again in 1901. The difference is that Webster rounded the quotas to the nearest whole number rather than dropping the decimal parts. If that didn’t produce the exact number of representatives, he adjusted the divisor like in Jefferson’s method. (In Jefferson’s case, the first adjustment will always be to make the divisor smaller. That is not always the case with Webster’s method because some numbers may be rounded up.)
+	</p>
+	<assemblage>
+	<title>Webster’s Method (Steps 1-2 are the same as Hamilton and Jefferson)</title>
+		<p>
+			<ol label="1">
+				<li>
+					<p>
+						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the divisor.
+					</p>
+				</li>
+				<li>
+					<p>
+						Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the quota.
+					</p>
+				</li>
+				<li>
+					<p>
+						Round all the quotas to the nearest whole number (but don’t forget what the decimals were). This is the initial apportionment. Add up the whole numbers.
+					</p>
+				</li>
+				<li>
+					<p>
+						If the total from Step 3 is less than the total number of representatives, reduce the divisor and recalculate the quota and allocation. If the total from step 3 is larger than the total number of representatives, increase the divisor and recalculate the quota and allocation. Continue doing this until the total in Step 3 is equal to the total number of representatives. The divisor we end up using is called the modified divisor. This is a trial-and-error process.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</assemblage>
+	<p>
+		Let’s see how Webster’s method works in this example:
+	</p>
+	<example>
+		<statement>
+		<p>
+			We will look at Delaware again, with an initial divisor of 21,900.82927 and 41 representatives:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%21,900.82927</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>162,310</cell>
+				<cell>7.4111</cell>
+				<cell>7</cell>
+			</row>
+			<row>
+				<cell>New Castle</cell>
+				<cell>538,479</cell>
+				<cell><em>24.5872</em></cell>
+				<cell>25</cell>
+			</row>
+			<row>
+				<cell>Sussex</cell>
+				<cell>197,145</cell>
+				<cell>9.0017</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>897,934</cell>
+				<cell></cell>
+				<cell>41</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			This time New Castle is the only county with a decimal of 0.5 or higher, so it gets rounded up. This gives the required total, so we’re done.
+		</p>
+		</statement>
+	</example>
+
+	<example>
+		<statement>
+		<p>
+			Let’s look at Rhode Island again, with an initial divisor of 14,034.22667 and 75 representatives:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.5538</cell>
+				<cell>4</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>11.8395</cell>
+				<cell>12</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>5.9061</cell>
+				<cell>6</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>44.6528</cell>
+				<cell>45</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.0478</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell>76</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			This is too many, so we need to increase the divisor. Let’s try 14,100:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%14,100</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.5372</cell>
+				<cell>4</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>11.7843</cell>
+				<cell>12</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>5.8786</cell>
+				<cell>6</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>44.4445</cell>
+				<cell>44</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.0056</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell>75</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			This gives us exactly 75, so we’re done. This is how it would look all in one table:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>%14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell><em>%14,100</em></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Initial</cell>
+				<cell>2nd Quota</cell>
+				<cell>2nd Try</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.5538</cell>
+				<cell>4</cell>
+				<cell>3.5371</cell>
+				<cell>4</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>11.8395</cell>
+				<cell>12</cell>
+				<cell>11.7843</cell>
+				<cell>12</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>5.9061</cell>
+				<cell>6</cell>
+				<cell>5.8786</cell>
+				<cell>6</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>44.6528</cell>
+				<cell>45</cell>
+				<cell>44.4445</cell>
+				<cell>44</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.0478</cell>
+				<cell>9</cell>
+				<cell>9.0056</cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell>76</cell>
+				<cell></cell>
+				<cell>75</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		</statement>
+	</example>
+
+	<p>
+		Like Jefferson’s method, Webster’s method carries a bias in favor of larger states but rounding the quotas to the nearest whole number greatly reduces this bias. Notice that Providence County, the largest, is the one that gets a representative trimmed because of the increased quota.
+	</p>
+	<p>
+		Also, like Jefferson’s method, Webster’s method does not always follow the quota rule, but it follows the quota rule much more often than Jefferson’s method does. In fact, if Webster’s method had been applied to every apportionment of Congress in all of U.S. history, it would have followed the quota rule every single time.
+	</p>
+	<p>
+		In 1980, two mathematicians, Peyton Young and Mike Balinski, proved what we now call the Balinski-Young Impossibility Theorem.
+	</p>
+	<assemblage>
+	<title>Balinski-Young Impossibility Theorem</title>
+		<p>
+			The Balinski-Young Impossibility Theorem shows that any apportionment method which always follows the quota rule will be subject to the possibility of paradoxes like the Alabama, New States, or Population paradoxes. In other words, we can choose a method that avoids those paradoxes, but only if we are willing to give up the guarantee of following the quota rule.
+		</p>
+	</assemblage>
+</subsection>
+
+<subsection>
+<title>Huntington-Hill Method</title>
+	<p>
+		In 1920, no new apportionment was done, because Congress couldn’t agree on the method to be used. They appointed a committee of mathematicians to investigate, and they recommended the Huntington-Hill Method. They continued to use Webster’s method in 1931, but after a second report recommending Huntington-Hill, it was adopted in 1941 and is the method of apportionment still used today.
+	</p>
+	<p>
+		The Huntington-Hill Method is similar to Webster’s method, but attempts to minimize the difference in the percentage of how many people each representative will represent.
+	</p>
+	<assemblage>
+	<title>Huntington-Hill Method (The first 2 steps are the same as the previous methods)</title>
+		<p>
+			<ol label="1">
+				<li>
+					<p>
+						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Cut off the decimal part of the quota to obtain the <alert>lower quota</alert>, which we’ll call <m>n</m>. Compute <m>\sqrt{n(n+1)}</m>, which is the geometric mean of the lower quota and one value higher.
+					</p>
+				</li>
+				<li>
+					<p>
+						Instead of using 0.5 to round like we are used to, we use the geometric mean. If the quota is as large or larger than the geometric mean, round up; if the quota is smaller than the geometric mean, round down. This is the <alert>initial</alert> allocation. Add up the resulting whole numbers.
+					</p>
+				</li>
+				<li>
+					<p>
+						If the total from Step 4 is less than the total number of representatives, reduce the divisor and recalculate the quota and allocation. If the total from step 4 is larger than the total number of representatives, increase the divisor and recalculate. Continue doing this until the total is equal to the exact number of representatives. The divisor we end up using is called the <alert>modified divisor</alert>. This is a trial-and-error process.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</assemblage>
+</subsection>
+
+<subsection>
+<title>What is the Geometric Mean</title>
+	<p>
+		Let’s look at why Hill and Huntington decided to use the geometric mean for rounding instead of the arithmetic mean of 0.5, which is halfway between two numbers. By calculating some geometric means and looking at them in a table we can see a pattern:
+	</p>
+	<sidebyside>
+	<tabular>
+		<row>
+			<cell colspan="2">Geometric Mean</cell>
+		</row>
+		<row>
+			<cell><m>n</m></cell>
+			<cell><m>\sqrt{n(n+1)}</m></cell>
+		</row>
+		<row>
+			<cell>1</cell>
+			<cell><m>\sqrt{(1(1+1)}=\sqrt{1(2)}\approx 1.414</m></cell>
+		</row>
+		<row>
+			<cell>2</cell>
+			<cell><m>\sqrt{(2(2+1)}=\sqrt{2(3)}\approx 2.449</m></cell>
+		</row>
+		<row>
+			<cell>3</cell>
+			<cell><m>\sqrt{(3(3+1)}=\sqrt{3(4)}\approx 3.464</m></cell>
+		</row>
+		<row>
+			<cell>4</cell>
+			<cell><m>\sqrt{(4(4+1)}=\sqrt{4(5)}\approx 4.472</m></cell>
+		</row>
+		<row>
+			<cell><ellipsis /></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>10</cell>
+			<cell><m>\sqrt{(10(10+1)}=\sqrt{10(11)}\approx 10.488</m></cell>
+		</row>
+		<row>
+			<cell><ellipsis /></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>100</cell>
+			<cell><m>\sqrt{(100(100+1)}=\sqrt{100(101)}\approx 199.499</m></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		Notice that each geometric mean is between <m>n</m> and <m>n+1</m>. For smaller numbers, the decimal part is less than 0.5 and as n gets larger, the decimal part gets closer and closer to 0.5. This gives smaller states a chance to round up before larger states. That’s how the Hill-Huntington method reduces the bias in favor of larger states.
+	</p>
+	<p>
+		Now let’s see how to use the geometric mean in an example.
+	</p>
+	<example>
+		<statement>
+		<p>
+			Again, we will practice with Delaware, with an initial divisor of 21,900.82927 and 41 representatives:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Lower Quota</cell>
+				<cell>Geometric Mean</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>162,310</cell>
+				<cell>7.4111</cell>
+				<cell>7</cell>
+				<cell><m>\sqrt{7(8)} \approx 7.48</m></cell>
+				<cell>7</cell>
+			</row>
+			<row>
+				<cell>New Castle</cell>
+				<cell>538,479</cell>
+				<cell>24.5872</cell>
+				<cell>24</cell>
+				<cell><m>\sqrt{24(25)} \approx 24.49</m></cell>
+				<cell>25</cell>
+			</row>
+			<row>
+				<cell>Sussex</cell>
+				<cell>197,945</cell>
+				<cell>9.0017</cell>
+				<cell>9</cell>
+				<cell><m>\sqrt{9(10)} \approx 9.49</m></cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>897,934</cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell>41</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Notice that for New Castle, the quota of 24.5872 is above the geometric mean of 24.49, so we round up to 25. This gives the required total, so we’re done.
+		</p>
+		</statement>
+	</example>
+
+	<example>
+		<statement>
+		<p>
+			Again, here is Rhode Island, with an initial divisor of 14,034.22667:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Lower Quota</cell>
+				<cell>Geometric Mean</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.5538</cell>
+				<cell>3</cell>
+				<cell><m>\sqrt{3(4)} \approx 3.46</m></cell>
+				<cell>4</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>11.8395</cell>
+				<cell>11</cell>
+				<cell><m>\sqrt{11(12)} \approx 11.49</m></cell>
+				<cell>12</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>5.9061</cell>
+				<cell>5</cell>
+				<cell><m>\sqrt{5(6)} \approx 5.48</m></cell>
+				<cell>5</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>44.6528</cell>
+				<cell>44</cell>
+				<cell><m>\sqrt{44(45)} \approx 44.50</m></cell>
+				<cell>45</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.0478</cell>
+				<cell>9</cell>
+				<cell><m>\sqrt{9(10)} \approx 9.49</m></cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell>76</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			We end up with 76 which is too many, so we need to increase the divisor. Let’s try 14,100:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell></cell>
+				<cell><em>14,100</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>County</cell>
+				<cell>Population</cell>
+				<cell>Quota</cell>
+				<cell>Lower Quota</cell>
+				<cell>Geometric Mean</cell>
+				<cell>Initial</cell>
+			</row>
+			<row>
+				<cell>Bristol</cell>
+				<cell>49,875</cell>
+				<cell>3.5372</cell>
+				<cell>3</cell>
+				<cell><m>\approx 3.46</m></cell>
+				<cell>4</cell>
+			</row>
+			<row>
+				<cell>Kent</cell>
+				<cell>166,158</cell>
+				<cell>11.7843</cell>
+				<cell>11</cell>
+				<cell><m>\approx 11.49</m></cell>
+				<cell>12</cell>
+			</row>
+			<row>
+				<cell>Newport</cell>
+				<cell>82,888</cell>
+				<cell>5.8786</cell>
+				<cell>5</cell>
+				<cell><m>\approx 5.48</m></cell>
+				<cell>5</cell>
+			</row>
+			<row>
+				<cell>Providence</cell>
+				<cell>626,667</cell>
+				<cell>44.4445</cell>
+				<cell>44</cell>
+				<cell><m>\approx 44.50</m></cell>
+				<cell>45</cell>
+			</row>
+			<row>
+				<cell>Washington</cell>
+				<cell>126,979</cell>
+				<cell>9.0056</cell>
+				<cell>9</cell>
+				<cell><m>\approx 9.49</m></cell>
+				<cell>9</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>1,052,567</cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell>75</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			This time Providence had a quota less than its geometric mean, so it did not get rounded up and we have exactly 75 representatives.
+		</p>
+		<p>
+			In both these cases, the apportionment produced by the Huntington-Hill method was the same as those from Webster’s method, but that will not always be the case.
+		</p>
+		</statement>
+	</example>
+
+	<example>
+		<statement>
+		<p>
+			Consider a small country with 5 states, two of which are much larger than the others. We need to apportion 70 representatives. Apportion the representatives using both Webster’s method and the Huntington-Hill method.
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>State</cell>
+				<cell>Population</cell>
+			</row>
+			<row>
+				<cell>A</cell>
+				<cell>300,500</cell>
+			</row>
+			<row>
+				<cell>B</cell>
+				<cell>200,000</cell>
+			</row>
+			<row>
+				<cell>C</cell>
+				<cell>50,000</cell>
+			</row>
+			<row>
+				<cell>D</cell>
+				<cell>38,000</cell>
+			</row>
+			<row>
+				<cell>E</cell>
+				<cell>21,500</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		</statement>
+		<solution>
+			<p>
+				Step 1: The total population is 610,000. Dividing this by the 70 representatives gives the divisor: 8714.286.
+			</p>
+			<p>
+				Step 2: Dividing each state’s population by the divisor gives the quotas.
+			</p>
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>State</cell>
+					<cell>Population</cell>
+					<cell>Quota</cell>
+					<cell>Initial</cell>
+				</row>
+				<row>
+					<cell>A</cell>
+					<cell>300,500</cell>
+					<cell>34.48361</cell>
+					<cell>34</cell>
+				</row>
+				<row>
+					<cell>B</cell>
+					<cell>200,000</cell>
+					<cell>22.95082</cell>
+					<cell>6</cell>
+				</row>
+				<row>
+					<cell>C</cell>
+					<cell>50,000</cell>
+					<cell>5.737705</cell>
+					<cell>6</cell>
+				</row>
+				<row>
+					<cell>D</cell>
+					<cell>38,000</cell>
+					<cell>4.360656</cell>
+					<cell>4</cell>
+				</row>
+				<row>
+					<cell>E</cell>
+					<cell>21,500</cell>
+					<cell>2.467213</cell>
+					<cell>2</cell>
+				</row>
+			</tabular>
+			</sidebyside>
+			<p>
+				Webster’s Method
+			</p>
+			<p>
+				Step 3: Using Webster’s method, we round each quota to the nearest whole number using the rounding rule of 0.5 or higher to round up.
+			</p>
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>State</cell>
+					<cell>Population</cell>
+					<cell>Quota</cell>
+					<cell>Initial</cell>
+				</row>
+				<row>
+					<cell>A</cell>
+					<cell>300,500</cell>
+					<cell>34.48361</cell>
+					<cell>34</cell>
+				</row>
+				<row>
+					<cell>B</cell>
+					<cell>200,000</cell>
+					<cell>22.95082</cell>
+					<cell>23</cell>
+				</row>
+				<row>
+					<cell>C</cell>
+					<cell>50,000</cell>
+					<cell>5.737705</cell>
+					<cell>6</cell>
+				</row>
+				<row>
+					<cell>D</cell>
+					<cell>38,000</cell>
+					<cell>4.360656</cell>
+					<cell>4</cell>
+				</row>
+				<row>
+					<cell>E</cell>
+					<cell>21,500</cell>
+					<cell>2.467213</cell>
+					<cell>2</cell>
+				</row>
+			</tabular>
+			</sidebyside>
+			<p>
+				Step 4: Adding these up only gives us 69 representatives, so we adjust the divisor down. We try 8,700, which gives us 70 representatives. Notice that State A, the largest state, is the one that got rounded up the second time.
+			</p>
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell></cell>
+					<cell><em>%8,700</em></cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
+				<row>
+					<cell>State</cell>
+					<cell>Population</cell>
+					<cell>Quota</cell>
+					<cell>Initial</cell>
+				</row>
+				<row>
+					<cell>A</cell>
+					<cell>300,500</cell>
+					<cell>34.54023</cell>
+					<cell>35</cell>
+				</row>
+				<row>
+					<cell>B</cell>
+					<cell>200,000</cell>
+					<cell>22.98851</cell>
+					<cell>23</cell>
+				</row>
+				<row>
+					<cell>C</cell>
+					<cell>50,000</cell>
+					<cell>5.747126</cell>
+					<cell>6</cell>
+				</row>
+				<row>
+					<cell>D</cell>
+					<cell>38,000</cell>
+					<cell>4.367816</cell>
+					<cell>4</cell>
+				</row>
+				<row>
+					<cell>E</cell>
+					<cell>21,500</cell>
+					<cell>2.471264</cell>
+					<cell>2</cell>
+				</row>
+			</tabular>
+			</sidebyside>
+			<p>
+				Huntington-Hill Method
+			</p>
+			<p>
+				Step 3: Using the Huntington-Hill method, we cut off the decimal to find the lower quota, then calculate the geometric mean based on each lower quota. If the quota is less than the geometric mean, we round down; if the quota is more than the geometric mean, we round up.
+			</p>
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>State</cell>
+					<cell>Population</cell>
+					<cell>Quota</cell>
+					<cell><line>Lower</line><line>Quota</line></cell>
+					<cell><line>Geometric</line><line>Mean</line></cell>
+					<cell>Initial</cell>
+				</row>
+				<row>
+					<cell>A</cell>
+					<cell>300,500</cell>
+					<cell>34.48361</cell>
+					<cell>34</cell>
+					<cell>34.49638</cell>
+					<cell>34</cell>
+				</row>
+				<row>
+					<cell>B</cell>
+					<cell>200,000</cell>
+					<cell>22.95082</cell>
+					<cell>23</cell>
+					<cell>22.49444</cell>
+					<cell>23</cell>
+				</row>
+				<row>
+					<cell>C</cell>
+					<cell>50,000</cell>
+					<cell>5.737705</cell>
+					<cell>6</cell>
+					<cell>5.477226</cell>
+					<cell>6</cell>
+				</row>
+				<row>
+					<cell>D</cell>
+					<cell>38,000</cell>
+					<cell>4.360656</cell>
+					<cell>4</cell>
+					<cell>4.472136</cell>
+					<cell>4</cell>
+				</row>
+				<row>
+					<cell>E</cell>
+					<cell>21,500</cell>
+					<cell>2.467213</cell>
+					<cell>2</cell>
+					<cell>2.44949</cell>
+					<cell>3</cell>
+				</row>
+			</tabular>
+			</sidebyside>
+			<p>
+				These allocations add up to 70. Notice that this allocation is different than that produced by Webster’s method. In this case, state E, which is smaller, got one more seat and state A got one less.
+			</p>
+			<p>
+				In this section we have learned four different methods of apportionment. There is no right answer when it comes to choosing a method for apportionment. Each method has advantages and disadvantages and favors states of different sizes.
+			</p>
+		</solution>
+	</example>
+</subsection>
+
+<exercises>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			In exercises 1-14, determine the apportionment using
+			<ol label="a">
+				<li>
+					<p>
+						Hamilton’s Method
+					</p>
+				</li>
+				<li>
+					<p>
+						Jefferson’s Method
+					</p>
+				</li>
+				<li>
+					<p>
+						Webster’s Method
+					</p>
+				</li>
+				<li>
+					<p>
+						Huntington-Hill Method
+					</p>
+				</li>
+			</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		A college offers tutoring in Math, English, Chemistry, and Biology. The number of students enrolled in each subject is listed below. If the college can only afford to hire 15 tutors, determine how many tutors should be assigned to each subject.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Math: 330</cell>
+			<cell>English: 265</cell>
+			<cell>Chemistry: 130</cell>
+			<cell>Biology: 70</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						Math: 6 tutors, English: 5 tutors, Chemistry: 3 tutors, Biology: 1 tutor
+
+					</p>
+				</li>
+				<li>
+					<p>
+						Math: 7 tutors, English: 5 tutors, Chemistry: 2 tutors, Biology: 1 tutor, Modified divisor 47
+					</p>
+				</li>
+				<li>
+					<p>
+						Math: 6 tutors, English: 5 tutors, Chemistry: 3 tutors, Biology: 1 tutor, Modified divisor 52
+					</p>
+				</li>
+				<li>
+					<p>
+						Math: 6 tutors, English: 5 tutors, Chemistry: 3 tutors, Biology: 1 tutor, Divisor 53
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Reapportion the previous problem if the college can hire 20 tutors.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						Math: 8 tutors, English: 7 tutors, Chemistry: 3 tutors, Biology: 2 tutors
+					</p>
+				</li>
+				<li>
+					<p>
+						Math: 9 tutors, English: 7 tutors, Chemistry: 3 tutors, Biology: 1 tutor, Modified divisor 36
+					</p>
+				</li>
+				<li>
+					<p>
+						Math: 8 tutors, English: 7 tutors, Chemistry: 3 tutors, Biology: 2 tutors, Divisor 39.75
+					</p>
+				</li>
+				<li>
+					<p>
+						Math: 8 tutors, English: 7 tutors, Chemistry: 3 tutors, Biology: 2 tutors, Divisor 39.75
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift. Apportion 20 salespeople given the information below.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Shift</cell>
+			<cell>Morning</cell>
+			<cell>Midday</cell>
+			<cell>Afternoon</cell>
+			<cell>Evening</cell>
+		</row>
+		<row>
+			<cell><line>Avereage number</line><line>of customers</line></cell>
+			<cell>95</cell>
+			<cell>305</cell>
+			<cell>435</cell>
+			<cell>515</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						Morning: 1 salesperson, Midday: 5 salespeople, Afternoon: 6 salespeople, Evening: 8 salespeople
+					</p>
+				</li>
+				<li>
+					<p>
+						Morning: 1 salesperson, Midday: 4 salespeople, Afternoon: 7 salespeople, Evening: 8 salespeople, Modified divisor 62
+					</p>
+				</li>
+				<li>
+					<p>
+						Morning: 1 salesperson, Midday: 5 salespeople, Afternoon: 6 salespeople, Evening: 8 salespeople, Divisor 67.5
+					</p>
+				</li>
+				<li>
+					<p>
+						Morning: 1 salesperson, Midday: 5 salespeople, Afternoon: 6 salespeople, Evening: 8 salespeople, Divisor 67.5
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Reapportion the previous problem if the store has 25 salespeople.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						Morning: 2 salespeople, Midday: 6 salespeople, Afternoon: 8 salespeople, Evening: 9 salespeople
+					</p>
+				</li>
+				<li>
+					<p>
+						Morning: 1 salesperson, Midday: 6 salespeople, Afternoon: 8 salespeople, Evening: 10 salespeople, Modified divisor 50
+					</p>
+				</li>
+				<li>
+					<p>
+						Morning: 2 salespeople, Midday: 6 salespeople, Afternoon: 8 salespeople, Evening: 9 salespeople, Modified divisor 55
+					</p>
+				</li>
+				<li>
+					<p>
+						Morning: 2 salespeople, Midday: 6 salespeople, Afternoon: 8 salespeople, Evening: 9 salespeople, Modified divisor 55
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Three people invest in a treasure dive, each investing the amount listed below. The dive results in 36 gold coins. Apportion those coins to the investor.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Aisha: $7,600</cell>
+			<cell>Basir: $5,900</cell>
+			<cell>Carlos: $1,400</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						Aisha: 18 coins, Basir: 14 coins, Carlos: 4 coins
+					</p>
+				</li>
+				<li>
+					<p>
+						Aisha: 19 coins, Basir: 14 coins, Carlos: 3 coins, Modified divisor 400 
+					</p>
+				</li>
+				<li>
+					<p>
+						Aisha: 19 coins, Basir: 14 coins, Carlos: 3 coins, Modified divisor 410
+					</p>
+				</li>
+				<li>
+					<p>
+						Aisha: 19 coins, Basir: 14 coins, Carlos: 3 coins, Modified divisor 410
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Reapportion the previous problem if 37 gold coins are recovered.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						Aisha: 19 coins, Basir: 15 coins, Carlos: 3 coins
+					</p>
+				</li>
+				<li>
+					<p>
+						Aisha: 19 coins, Basir: 15 coins, Carlos: 3 coins, Modified divisor 390
+					</p>
+				</li>
+				<li>
+					<p>
+						Aisha: 19 coins, Basir: 15 coins, Carlos: 3 coins, Divisor 402.7
+					</p>
+				</li>
+				<li>
+					<p>
+						Aisha: 19 coins, Basir: 15 coins, Carlos: 3 coins, Modified divisor 405
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A small country consists of four states, whose populations are listed below. If the legislature has 116 seats, apportion the seats.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A: 33,700</cell>
+			<cell>B: 559,500</cell>
+			<cell>C: 141,300</cell>
+			<cell>D: 89,100</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A: 5 seats, B: 79 seats, C: 20 seats, D: 12 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 4 seats, B: 80 seats, C: 20 seats, D: 12 seats, Modified divisor 6950
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 5 seats, B: 78 seats, C: 20 seats, D: 13 seats, Modified divisor 7128
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 5 seats, B: 78 seats, C: 20 seats, D: 13 seats, Modified divisor 6950
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #8 -->
+	<statement>
+	<p>
+		Reapportion the previous problem with 124 seats.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A: 5 seats, B: 84 seats, C: 21 seats, D: 14 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 5 seats, B: 85 seats, C: 21 seats, D: 13 seats, Modified divisor 6550
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 5 seats, B: 85 seats, C: 21 seats, D: 13 seats, Modified divisor 6620
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 5 seats, B: 85 seats, C: 21 seats, D: 13 seats, Modified divisor 6610
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise xml:id="example7">
+	<statement>
+	<p>
+		A small country consists of five states, whose populations are listed below. If the legislature has 119 seats, apportion the seats.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A: 810,000</cell>
+			<cell>B: 473,000</cell>
+			<cell>C: 292,000</cell>
+			<cell>D: 594,000</cell>
+			<cell>E: 211,000</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A: 40 seats, B: 24 seats, C: 15 seats, D: 30 seats, E: 10 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 41 seats, B: 24 seats, C: 14 seats, D: 30 seats, E: 10 seats, Modified divisor 19,700
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 40 seats, B: 24 seats, C: 15 seats, D: 30 seats, E: 10 seats, Modified divisor 20,100
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 40 seats, B: 24 seats, C: 15 seats, D: 30 seats, E: 10 seats, Modified divisor 20,125
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Reapportion the previous problem with 126 seats.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A: 43 seats, B: 25 seats, C: 16 seats, D: 31 seats, E: 11 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 43 seats, B: 25 seats, C: 15 seats, D: 32 seats, E: 11 seats, Modified divisor 18,500
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 43 seats, B: 25 seats, C: 15 seats, D: 32 seats, E: 11 seats, Modified divisor 18,850
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 43 seats, B: 25 seats, C: 15 seats, D: 32 seats, E: 11 seats, Modified divisor 18,850
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A small country consists of six states, whose populations are listed below. If the legislature has 200 seats, apportion the seats.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A: 3,411</cell>
+			<cell>B: 2,421</cell>
+			<cell>C: 11,586</cell>
+			<cell>D: 4,494</cell>
+			<cell>E: 3,126</cell>
+			<cell>F: 4,962</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A: 23 seats, B: 16 seats, C: 77 seats, D: 30 seats, E: 21 seats, F: 33 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 22 seats, B: 16 seats, C: 78 seats, D: 30 seats, E: 21 seats, F: 33 seats, Modified divisor 148.5
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 23 seats, B: 16 seats, C: 77 seats, D: 30 seats, E: 21 seats, F: 33 seats, Divisor 150
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 23 seats, B: 16 seats, C: 77 seats, D: 30 seats, E: 21 seats, F: 33 seats, Divisor 150
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Reapportion the previous problem with 180 seats
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A: 20 seats, B: 15 seats, C: 69 seats, D: 27 seats, E: 19 seats, F: 30 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 20 seats, B: 14 seats, C: 70 seats, D: 27 seats, E: 19 seats, F: 30 seats, Modified divisor 164
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 20 seats, B: 15 seats, C: 69 seats, D: 27 seats, E: 19 seats, F: 30 seats, Modified divisor 166.9
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 20 seats, B: 15 seats, C: 69 seats, D: 27 seats, E: 19 seats, F: 30 seats, Modified divisor 167
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A small country consists of six states, whose populations are listed below. If the legislature has 250 seats, apportion the seats.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A: 82,500</cell>
+			<cell>B: 84,600</cell>
+			<cell>C: 96,000</cell>
+			<cell>D: 98,000</cell>
+			<cell>E: 356,500</cell>
+			<cell>F: 382,500</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						. A: 19 seats, B: 19 seats, C: 22 seats, D: 22 seats, E: 81 seats, F: 87 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 28 seats, B: 19 seats, C: 22 seats, D: 22 seats, E: 82 seats, F: 87 seats, Modified divisor 4347
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 19 seats, B: 19 seats, C: 22 seats, D: 22 seats, E: 81 seats, F: 87 seats, Divisor 4400.4
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 19 seats, B: 19 seats, C: 22 seats, D: 22 seats, E: 81 seats, F: 87 seats, Divisor 4400.4
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Reapportion the previous problem with 240 seats.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A: 18 seats, B: 19 seats, C: 21 seats, D: 21 seats, E: 78 seats, F: 83 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 18 seats, B: 18 seats, C: 21 seats, D: 21 seats, E: 78 seats, F: 84 seats, Modified divisor 4550
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 18 seats, B: 18 seats, C: 21 seats, D: 21 seats, E: 78 seats, F: 84 seats, Modified divisor 4580
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 18 seats, B: 18 seats, C: 21 seats, D: 21 seats, E: 78 seats, F: 84 seats, Modified divisor 4580
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+</exercisegroup>
+
+<exercise>
+	<statement>
+	<p>
+		A small country consists of three states, whose populations are listed below.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A: 6,000</cell>
+			<cell>B: 6,000</cell>
+			<cell>C: 2,000</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					If the legislature has 10 seats, use Hamilton’s method to apportion the seats.
+				</p>
+			</li>
+			<li>
+				<p>
+					If the legislature grows to 11 seats, use Hamilton’s method to apportion the seats.
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain what happened in part b. What do you think would be a fair solution?
+				</p>
+			</li>
+			<li>
+				<p>
+					Try Jefferson’s method for 11 seats. Does that solve the problem?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A: 4 seats, B: 4 seats, C: 2 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						It is not possible to assign 11 seats with Hamilton’s method in this case.
+					</p>
+				</li>
+				<li>
+					<p>
+						States A and C are the same size, so they have the same decimal value. They would both get an additional seat at the same time but there is only one seat to give. Answers will vary on fair solutions.
+					</p>
+				</li>
+				<li>
+					<p>
+						Yes, with a modified divisor of 1200 we get A: 5 seats, B: 5 seats and C: 1 seat.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A small country consists of three states, whose populations are listed below.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A: 10,000</cell>
+			<cell>B: 10,000</cell>
+			<cell>C: 1,000</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					If the legislature has 10 seats, use Hamilton’s method to apportion the seats. Which rule is not met in this case?
+				</p>
+			</li>
+			<li>
+				<p>
+					If the legislature grows to 11 seats, use Hamilton’s method to apportion the seats.
+				</p>
+			</li>
+			<li>
+				<p>
+					If there could only be 10 seats, what do you think would be a fair solution?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					A: 5 seats, B: 5 seats, C: 0 seats. Each state must have at least one seat so that rule is not met.
+				</p>
+			</li>
+			<li>
+				<p>
+					With 11 seats we have 5 seats, B: 5 seats, C: 1 seat, so it works in this case.
+				</p>
+			</li>
+			<li>
+				<p>
+					Answers will vary on fair solutions.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A state with five counties has 50 seats in their legislature. Using Hamilton’s method, apportion the seats based on the 2010 census, then again using the 2020 census. Explain what happened in 2020 apportionment. Do you think it is fair?
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>County</cell>
+			<cell>2000 Population</cell>
+			<cell>2010 Population</cell>
+		</row>
+		<row>
+			<cell>Douglass</cell>
+			<cell>60,000</cell>
+			<cell>60,000</cell>
+		</row>
+		<row>
+			<cell>Parks</cell>
+			<cell>31,200</cell>
+			<cell>31,200</cell>
+		</row>
+		<row>
+			<cell>King</cell>
+			<cell>69,200</cell>
+			<cell>72,400</cell>
+		</row>
+		<row>
+			<cell>Du Bois</cell>
+			<cell>81,600</cell>
+			<cell>81,600</cell>
+		</row>
+		<row>
+			<cell>Lewis</cell>
+			<cell>118,000</cell>
+			<cell>118,400</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			2010: Douglass: 8, Parks: 4, King: 10, Du Bois: 11, Lewis: 17
+		</p>
+		<p>
+			2020: Douglass: 8, Parks: 5, King: 10, Du Bois: 11, Lewis: 16
+		</p>
+		<p>
+			The populations in King and Lewis counties grew, but Parks got an extra seat from Lewis. This doesn’t seem fair.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A state with five counties has 62 seats in their legislature. Using Hamilton’s method, apportion the seats based on the 2010 census, then again using the 2010 census. Explain what happened in 2020 apportionment. Do you think it is fair?
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>County</cell>
+			<cell>2000 Population</cell>
+			<cell>2010 Population</cell>
+		</row>
+		<row>
+			<cell>Gray</cell>
+			<cell>75,000</cell>
+			<cell>83,200</cell>
+		</row>
+		<row>
+			<cell>Castile</cell>
+			<cell>89,000</cell>
+			<cell>89,000</cell>
+		</row>
+		<row>
+			<cell>Brown</cell>
+			<cell>32,500</cell>
+			<cell>32,500</cell>
+		</row>
+		<row>
+			<cell>Taylor</cell>
+			<cell>153,000</cell>
+			<cell>153,000</cell>
+		</row>
+		<row>
+			<cell>Floyd</cell>
+			<cell>109,000</cell>
+			<cell>112,000</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			2010: Gray: 10, Castile: 12, Brown: 4, Taylor: 21, Floyd: 15
+		</p>
+		<p>
+			2020: Gray: 11, Castile: 12, Brown: 4, Taylor: 20, Floyd: 15
+		</p>
+		<p>
+			The populations in Gray and Floyd counties grew, and Gray got an extra seat from Taylor. This seems reasonable because Gray grew more than Floyd did.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A school district has two high schools:  Clatsop, serving 1715 students, and Siletz, serving 7364. The district could only afford to hire 13 guidance counselors. 
+		<ol label="a">
+			<li>
+				<p>
+					Determine how many counselors should be assigned to each school using Hamilton's method.
+				</p>
+			</li>
+			<li>
+				<p>
+					The following year, the district expands to include a third school, Cayuse, serving an additional 2989 students. Based on the divisor from above, how many additional counselors should be hired for Cayuse?
+				</p>
+			</li>
+			<li>
+				<p>
+					After hiring that many new counselors, the district recalculates the reapportion using Hamilton's method. Determine the outcome.
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain what happened in the new apportionment. Do you think the outcome from part c is fair? Why or why not.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						Clatsop: 2 counselors, Siletz: 11 counselors
+					</p>
+				</li>
+				<li>
+					<p>
+						The divisor was 698.38, so 4 new guidance counselors should be hired for Cayuse.
+					</p>
+				</li>
+				<li>
+					<p>
+						Clatsop: 3 counselors, Siletz: 10 counselors, Cayuse: 4 counselors
+					</p>
+				</li>
+				<li>
+					<p>
+						Cayuse did get 4 counselors, but one of the counselors from Siletz went to Clatsop. That doesn’t seem fair because their populations didn’t change.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A school district has two middle schools: Tubman, serving 451 students, and Blackshear, serving 176. The district could afford to hire 8 art teachers.
+		<ol label="a">
+			<li>
+				<p>
+					Determine how many art teachers should be assigned to each school using Hamilton's method.
+				</p>
+			</li>
+			<li>
+				<p>
+					The following year, the district expands to include a third school, Banneker, serving 231 additional students. Based on the divisor from above, how many additional art teachers should be hired for the new school?
+				</p>
+			</li>
+			<li>
+				<p>
+					After hiring that many new art teachers, the district recalculates the reapportion using Hamilton's method. Determine the outcome.
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain what happened in the new apportionment. Do you think the outcome from part c is fair? Why or why not.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						Tubman: 6 art teachers, Blackshear: 2 art teachers
+					</p>
+				</li>
+				<li>
+					<p>
+						The divisor was 78.375 so 2 new art teachers should be hired for Banneker.
+					</p>
+				</li>
+				<li>
+					<p>
+						Tubman: 5 art teachers, Blackshear: 2 art teachers, Banneker: 3 art teachers
+					</p>
+				</li>
+				<li>
+					<p>
+						In the new apportionment, Banneker got 3 art teachers, taking one from Tubman school. The quota for Banneker was 2.947, so it seems reasonable that Banneker would get 3 art teachers.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+</exercises>
+
+</section>

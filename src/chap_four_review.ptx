@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="chap_four_review">
+<title>Chapter 4 Review Questions</title>
+
+<exercises>
+<title>Chapter 4 Review Questions</title>
+
+<exercise><!--  #1 -->
+	<statement>
+	<p>
+		A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell></cell>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>Total</cell>
+		</row>
+		<row>
+			<cell>Morning Class</cell>
+			<cell>14</cell>
+			<cell>11</cell>
+			<cell>7</cell>
+			<cell>32</cell>
+		</row>
+		<row>
+			<cell>Afternoon Class</cell>
+			<cell>11</cell>
+			<cell>13</cell>
+			<cell>4</cell>
+			<cell>28</cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell>25</cell>
+			<cell>24</cell>
+			<cell>11</cell>
+			<cell>60</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		If one student was chosen at random, find each probability:
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					P(in the afternoon class)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned an A)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned a B and was in the afternoon class)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned a C given the student was in the morning class)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(is in the morning class given that the student earned a B)
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					P(in the afternoon class) <m>\approx 28/60=0.4667</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned an A) <m>25/60 \approx 0.4167</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned a B and was in the afternoon class) <m>= 13/60 \approx 0.2167</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned a C given the student was in the morning class) <m>=7/32 \approx 0.2188</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(is in the morning class given that the student earned a B) <m>=11/24 \approx 0.4583</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #2 -->
+	<statement>
+	<p>
+		A professor gave a test to students in a science class and in a math class during the same week. The grades are summarized below.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell></cell>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>Total</cell>
+		</row>
+		<row>
+			<cell>Science Class</cell>
+			<cell>7</cell>
+			<cell>18</cell>
+			<cell>13</cell>
+			<cell>38</cell>
+		</row>
+		<row>
+			<cell>Math Class</cell>
+			<cell>10</cell>
+			<cell>8</cell>
+			<cell>9</cell>
+			<cell>27</cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell>17</cell>
+			<cell>26</cell>
+			<cell>22</cell>
+			<cell>65</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		If one student was chosen at random, find each probability:
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					P(in the math class)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned a B)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned an A and was in the math class)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned a B given the student was in the science class)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(is in the math class given that the student earned a B)
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					P(in the math class) <m>=27/65 \approx 0.4154</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned a B) <m>=26/65=0.40</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned an A and was in the math  class) <m>= 10/65 \approx 0.1538</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(earned a B given the student was in the science class) <m>= 18/38 \approx 0.4737</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(is in the math class given that the student earned a C) <m>=8/26 \approx 0.3077</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #3 -->
+	<statement>
+	<p>
+		Four Cable Channels (2, 6, 8, 12) have Drama series, Sitcoms, Game Shows, and News. The number of each type of show is listed in the table below. Complete the table and use it to answer the questions.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Type</cell>
+			<cell>Channel 2</cell>
+			<cell>Channel 6</cell>
+			<cell>Channel 8</cell>
+			<cell>Channel 12</cell>
+			<cell>Total</cell>
+		</row>
+		<row>
+			<cell>Drama</cell>
+			<cell>5</cell>
+			<cell>2</cell>
+			<cell>4</cell>
+			<cell></cell>
+			<cell>15</cell>
+		</row>
+		<row>
+			<cell>Sitcom</cell>
+			<cell>6</cell>
+			<cell></cell>
+			<cell>7</cell>
+			<cell>3</cell>
+			<cell>25</cell>
+		</row>
+		<row>
+			<cell>Game Show</cell>
+			<cell></cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell>4</cell>
+			<cell>15</cell>
+		</row>
+		<row>
+			<cell>News</cell>
+			<cell>3</cell>
+			<cell>2</cell>
+			<cell></cell>
+			<cell>3</cell>
+			<cell>10</cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell>65</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					P(Sitcom or Game Show)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Drama and Channel 8)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Channel 8 or Channel 2)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Drama given that it is on Channel 6)
+				</p>
+			</li>
+			<li>
+				<p>
+					Given that the show is a sitcom, find the probability it is on channel 12.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the probability that a show is a game show, given that the show is on channel 2.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>Type</cell>
+				<cell>Channel 2</cell>
+				<cell>Channel 6</cell>
+				<cell>Channel 8</cell>
+				<cell>Channel 12</cell>
+				<cell>Total</cell>
+			</row>
+			<row>
+				<cell>Drama</cell>
+				<cell>5</cell>
+				<cell>2</cell>
+				<cell>4</cell>
+				<cell><alert>4</alert></cell>
+				<cell>15</cell>
+			</row>
+			<row>
+				<cell>Sitcom</cell>
+				<cell>6</cell>
+				<cell><alert>9</alert></cell>
+				<cell>7</cell>
+				<cell>3</cell>
+				<cell>25</cell>
+			</row>
+			<row>
+				<cell>Game Show</cell>
+				<cell><alert>4</alert></cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell>4</cell>
+				<cell>15</cell>
+			</row>
+			<row>
+				<cell>News</cell>
+				<cell>3</cell>
+				<cell>2</cell>
+				<cell><alert>2</alert></cell>
+				<cell>3</cell>
+				<cell>10</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell><alert>18</alert></cell>
+				<cell><alert>17</alert></cell>
+				<cell><alert>16</alert></cell>
+				<cell><alert>14</alert></cell>
+				<cell>65</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					P(Sitcom or Game Show) <m>=40/65 \approx 0.6154</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Drama and Channel 8) <m>=4/65 \approx 0.0615</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Channel 8 or Channel 2) <m>=34/65 \approx 0.5231</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Drama given that it is on Channel 6) <m>=2/17 \approx 0.1176</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Channel 12 given that it’s a sitcom) <m>=3/25=0.12</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Game show given that it is on Channel 2) <m>=4/18 \approx 0.2222</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #4 -->
+	<statement>
+	<p>
+		Four Cable Channels (3, 5, 7, 13) have Reality shows, Crime dramas, Cooking Shows, and Community Programming. The number of each type of show is listed in the table below. Complete the table and use it to answer the questions.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Type</cell>
+			<cell>Channel 3</cell>
+			<cell>Channel 5</cell>
+			<cell>Channel 7</cell>
+			<cell>Channel 13</cell>
+			<cell>Total</cell>
+		</row>
+		<row>
+			<cell>Reality</cell>
+			<cell>6</cell>
+			<cell></cell>
+			<cell>8</cell>
+			<cell>6</cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Crime</cell>
+			<cell>2</cell>
+			<cell>1</cell>
+			<cell></cell>
+			<cell>2</cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Cooking</cell>
+			<cell>5</cell>
+			<cell>5</cell>
+			<cell>9</cell>
+			<cell></cell>
+			<cell>11</cell>
+		</row>
+		<row>
+			<cell>Community</cell>
+			<cell></cell>
+			<cell>8</cell>
+			<cell>4</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell>15</cell>
+			<cell>21</cell>
+			<cell>25</cell>
+			<cell></cell>
+			<cell>83</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					P(Reality or Crime Show)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Cooking and Channel 3)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Channel 3 or Channel 13)
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Community Program given that it is on Channel 5)
+				</p>
+			</li>
+			<li>
+				<p>
+					Given that the show is a crime show, find the probability it is on channel 3.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the probability that a show is a cooking show, given that it is on channel 7.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>Type</cell>
+				<cell>Channel 3</cell>
+				<cell>Channel 5</cell>
+				<cell>Channel 7</cell>
+				<cell>Channel 13</cell>
+				<cell>Total</cell>
+			</row>
+			<row>
+				<cell>Reality</cell>
+				<cell>6</cell>
+				<cell><alert>7</alert></cell>
+				<cell>8</cell>
+				<cell>6</cell>
+				<cell><alert>27</alert></cell>
+			</row>
+			<row>
+				<cell>Crime</cell>
+				<cell>2</cell>
+				<cell>1</cell>
+				<cell><alert>4</alert></cell>
+				<cell>2</cell>
+				<cell><alert>9</alert></cell>
+			</row>
+			<row>
+				<cell>Cooking</cell>
+				<cell>5</cell>
+				<cell>5</cell>
+				<cell>9</cell>
+				<cell>11</cell>
+				<cell><alert>30</alert></cell>
+			</row>
+			<row>
+				<cell>Community</cell>
+				<cell><alert>2</alert></cell>
+				<cell>8</cell>
+				<cell>4</cell>
+				<cell><alert>3</alert></cell>
+				<cell><alert>17</alert></cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>15</cell>
+				<cell>21</cell>
+				<cell>25</cell>
+				<cell><alert>22</alert></cell>
+				<cell>83</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					P(Reality or Crime Show) <m>=36/83 \approx 0.4337</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Cooking and Channel 3) <m>=5/83 \approx 0.0602</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Channel 3 or Channel 13) <m>=37/83 \approx 0.4458</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Community Program given that it is on Channel 5) <m>=8/21 \approx 0.3810</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Channel 3 given it is a crime show) <m>=2/9 \approx 0.2222</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					P(Cooking show given it is on channel 7) <m>=9/25=0.36</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #5 -->
+	<statement>
+	<p>
+		A ball is drawn randomly from a jar containing 12 red marbles, 8 white marbles, and 5 yellow marbles. Find the probability of:
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Drawing a red marble.
+				</p>
+			</li>
+			<li>
+				<p>
+					Not drawing a white marble.
+				</p>
+			</li>
+			<li>
+				<p>
+					Drawing a yellow or red marble.
+				</p>
+			</li>
+			<li>
+				<p>
+					Drawing a blue marble.
+				</p>
+			</li>
+			<li>
+				<p>
+					Drawing two red marbles if you draw with replacement.
+				</p>
+			</li>
+			<li>
+				<p>
+					Drawing first a red marble then a yellow marble if marbles are drawn without replacement.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					<m>\text{P(red)}=12/25=0.48</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(not white)}=17/25=0.68</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Yellow or Red)}=17/25=0.68</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Blue)}=0/25=0</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Two reds)}=144/625=0.2304</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Red then yellow)}=60/600=0.10</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #6 -->
+	<statement>
+	<p>
+		A ball is drawn randomly from a jar containing 18 black marbles, 4 purple marbles, and 9 blue marbles. Find the probability of:
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Drawing a black marble.
+				</p>
+			</li>
+			<li>
+				<p>
+					Not drawing a purple marble.
+				</p>
+			</li>
+			<li>
+				<p>
+					Drawing a blue or purple marble.
+				</p>
+			</li>
+			<li>
+				<p>
+					Drawing a yellow marble.
+				</p>
+			</li>
+			<li>
+				<p>
+					Drawing two black marbles if you draw with replacement.
+				</p>
+			</li>
+			<li>
+				<p>
+					Drawing first a blue marble then a black marble if marbles are drawn without replacement.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					<m>\text{P(Black)}=18/31 \approx 0.5806</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Not purple)}=27/31 \approx 0.8710</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Blue or purple)}=13/31 \approx 0.4194</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Yellow)}=0/31=0</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Two black)}=324/961 \approx 0.3371</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Blue then black)}=162/930 \approx 0.1742</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #7 -->
+	<statement>
+	<p>
+		What is the probability of flipping a coin four times
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					and getting a head each time?
+				</p>
+			</li>
+			<li>
+				<p>
+					not getting a head at all?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					<m>\text{P(Four heads)}=0.0625</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(No heads)}=0.0625</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		What is the probability of flipping a coin 7 times
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					and getting all tails?
+				</p>
+			</li>
+			<li>
+				<p>
+					getting all heads?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					<m>\text{P(All tails)} \approx 0.0078</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(All heads)} \approx 0.0078</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		According to a survey by Pew Research in 2020, 68% of U.S. adults say the federal government is doing too little to protect water quality. (+/- 1.6%)<fn><url href="  https://www.pewresearch.org/fact-tank/2020/04/21/how-americans-see-climate-change-and-the-environment-in-7-charts/">https://www.pewresearch.org/fact-tank/2020/04/21/how-americans-see-climate-change-and-the-environment-in-7-charts/</url></fn> If you pick two adults at random, what is the probability that
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Both of them think the government is doing too little to protect water quality.
+				</p>
+			</li>
+			<li>
+				<p>
+					Neither of them thinks the government is doing too little to protect water quality.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					<m>\text{P(Both too little)} \approx 0.4624</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(Neither too little)} \approx 0.1024</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #10 -->
+	<statement>
+	<p>
+		According to a national AP-NORC Survey, 95% of U.S. adults think changes are needed in the criminal justice system (+/- 3.7%).<fn><url href="http://www.apnorc.org/projects/Pages/Widespread-Desire-for-Policing-and-Criminal-Justice-Reform.aspx">http://www.apnorc.org/projects/Pages/Widespread-Desire-for-Policing-and-Criminal-Justice-Reform.aspx</url></fn> If you pick 3 people at random, what is the probability that
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					All of them support criminal justice reform.
+				</p>
+			</li>
+			<li>
+				<p>
+					None of them support criminal justice reform
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					<m>\text{P(All support)} \approx 0.8574</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\text{P(None support)} \approx 0.0001</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise> <!-- #11 -->
+	<statement>
+	<p>
+		A bag contains 2 black marbles, 4 orange marbles, and 20 yellow marbles. Someone offers to play this game: You randomly select one marble from the bag. If it is black, you win $3. If it is orange, you win $2. If it is yellow, you lose $1.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Make a probability model for this game.
+				</p>
+			</li>
+			<li>
+				<p>
+					What is your expected value if you play this game?
+				</p>
+			</li>
+			<li>
+				<p>
+					Should you play this game?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<sidebyside>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>Color</cell>
+						<cell>Black</cell>
+						<cell>Orange</cell>
+						<cell>Yellow</cell>
+					</row>
+					<row>
+						<cell>x</cell>
+						<cell>$3</cell>
+						<cell>$2</cell>
+						<cell>-$1</cell>
+					</row>
+					<row>
+						<cell>P(x)</cell>
+						<cell><m>2/26</m></cell>
+						<cell><m>4/26</m></cell>
+						<cell><m>20/26</m></cell>
+					</row>
+				</tabular>
+				</sidebyside>
+			</li>
+			<li>
+				<p>
+					The expected value is -$0.23.
+				</p>
+			</li>
+			<li>
+				<p>
+					No, you should not play this game because it has a negative expected value.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A friend devises a game that is played by rolling a single six-sided die once. If you roll a 6, he pays you $10; if you roll a 5, he pays you nothing; if you roll a number less than 5, you pay him $1.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Make a probability model for this game.
+				</p>
+			</li>
+			<li>
+				<p>
+					Compute the expected value for this game. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Should you play this game?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<sidebyside>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>Roll</cell>
+						<cell>6</cell>
+						<cell>5</cell>
+						<cell>4</cell>
+						<cell>3</cell>
+						<cell>2</cell>
+						<cell>1</cell>
+					</row>
+					<row>
+						<cell>x</cell>
+						<cell>$10</cell>
+						<cell>$0</cell>
+						<cell>-$1</cell>
+						<cell>-$1</cell>
+						<cell>-$1</cell><cell>-$1</cell>
+					</row>
+					<row>
+						<cell>P(x)</cell>
+						<cell><m>1/6</m></cell>
+						<cell><m>1/6</m></cell>
+						<cell><m>1/6</m></cell>
+						<cell><m>1/6</m></cell>
+						<cell><m>1/6</m></cell>
+						<cell><m>1/6</m></cell>
+					</row>
+				</tabular>
+				</sidebyside>
+			</li>
+			<li>
+				<p>
+					The expected value is $1.00.
+				</p>
+			</li>
+			<li>
+				<p>
+					Yes, you should expect to win money because this game has a positive expected value.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #13 -->
+	<statement>
+	<p>
+		A company wants to offer a 2-year extended warranty in case their product fails after the original warranty period but within 2 years of the purchase. They estimate that 1.5% of their products will fail during that time, and it will cost them $450 to replace a failed product. If they charge $55 for the extended warranty, what is the company's expected profit or loss on each warranty sold?
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>Outcome</cell>
+				<cell>Product Failed</cell>
+				<cell>Didn't Fail</cell>
+			</row>
+			<row>
+				<cell>x</cell>
+				<cell>-$450</cell>
+				<cell>$0</cell>
+			</row>
+			<row>
+				<cell>P(x)</cell>
+				<cell>0.015</cell>
+				<cell>0.985</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			The expected loss per warranty is $48.25. (Note that if you include the $55.00 a person pays for a warranty, the expected profit will be $6.75 per warranty)
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #14 -->
+	<statement>
+	<p>
+		You purchase a raffle ticket to help out a charity. The raffle ticket costs $10. The charity is selling 2000 tickets. One of them will be drawn and the person holding the ticket will be given a prize worth $8000. Compute the expected value for this raffle.
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>Outcome</cell>
+				<cell>Winning Ticket</cell>
+				<cell>No Winning Ticket</cell>
+			</row>
+			<row>
+				<cell>x</cell>
+				<cell>$8000</cell>
+				<cell>$0</cell>
+			</row>
+			<row>
+				<cell>P(x)</cell>
+				<cell><m>1/2000</m></cell>
+				<cell><m>1999/2000</m></cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			The expected loss per ticket is $6.00. So the expected value is -$6.00. (Note that if you inlucde the $10 it costs to but the ticket, the expected value is a profit of $4.00)
+		</p>
+	</solution>
+</exercise>
+
+</exercises>
+
+</section>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="chap_two_review">
+<title>Chapter 2 Review Questions</title>
+
+<exercises>
+<title>Chapter 2 Review Questions</title>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Simple Interest, Compound Interest and Continuously Compounded Interest
+	</p>
+	</introduction>
+
+	<exercise>
+		<statement>
+		<p>
+			If you deposit $1,525 in an account at 5.6% APR for fourteen years, how much will you have in the account and how much interest did you earn after 14 years if: 
+			<ol label="a">
+				<li>
+					<p>
+						The interest is compounded using simple interest.
+					</p>
+				</li>
+				<li>
+					<p>
+						The interest is compounded quarterly.
+					</p>
+				</li>
+				<li>
+					<p>
+						The interest is compounded weekly.
+					</p>
+				</li>
+				<li>
+					<p>
+						The interest is compounded continuously.
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+			<p>
+			<ol label="a">
+				<li>
+					<p>
+						<m>I=1525(0.056)(14)</m>
+					</p>
+					<p>
+						<m>A=1525+1525(0.056)(14)</m>
+					</p>
+					<p>
+						The interest is $1,195.6 and balance is $2,720.6.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A=1525(1+\frac{0.056}{4})^{4*14}</m>
+					</p>
+					<p>
+						Or, <c>=FV(0.056/4, 4*14, 0, 1525)</c>
+					</p>
+					<p>
+						The interest is $1,796.97 and the balance is $3,321.97.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A=1525(1+\frac{0.056}{52})^{52*14}</m>
+					</p>
+					<p>
+						Or, <c>=FV(0.056/52, 52*14, 0, 1525)</c>
+					</p>
+					<p>
+						The interest is $1,813.67 and the balance is $3,338.67.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A=1525e^{0.056*14}</m>
+					</p>
+					<p>
+						Or, <c>=1525*EXP(0.056*14)</c>
+					</p>
+					<p>
+						The interest is $1,815.08 and the balance is $3,340.08.
+					</p>
+				</li>
+			</ol>
+			</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			Alicia takes out a $2,300 loan that charges 15% APR simple interest. How much will she pay if she has the loan for 3 years? How much interest did she pay?
+		</p>
+		</statement>
+		<solution>
+			<p>
+				<m>I=2300(0.15)(3)</m>
+			</p>
+			<p>
+				<m>A=2300+2300(0.15)(3)</m>
+			</p>
+			<p>
+				The interest is $1,035 and the amount paid is $3,335.
+			</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			Devon invests $25,000 into an account for 15 years. He earns 6.5% interest compounded quarterly. What is the future value and how much interest did he earn?
+		</p>
+		</statement>
+		<solution>
+			<p>
+				<m>A=25000(1+\frac{0.065}{4})^{4*15}</m>
+			</p>
+			<p>
+				<m>I=65761.77-25000=40761.77</m>
+			</p>
+			<p>
+				Or, <c>=FV(0.065/4, 4*15, 0, 25000)</c>
+			</p>
+			<p>
+				The interest is $40,761.77 and the amount paid is $65,761.77.
+			</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			The current inflation rate is 2.92%. If this continues for the next 10 years find the cost of the following items in the year 2029. Note: Inflation is Continuous Compound Interest.  
+			<ol label="a">
+				<li>
+					<p>
+						Gas Average: $3.49
+					</p>
+				</li>
+				<li>
+					<p>
+						Dozen Eggs: $1.99
+					</p>
+				</li>
+				<li>
+					<p>
+						Bread: $3.29
+					</p>
+				</li>
+				<li>
+					<p>
+						Basic Monthly Cell Phone bill: $79.99
+					</p>
+				</li>
+				<li>
+					<p>
+						Average cost of downloading a song: $1.99
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+			<p>
+			<ol label="a">
+				<li>
+					<p>
+						<m>A=3.49e^{0.0292*10}</m>. Or, <c>=3.49*EXP(0.0292*10)</c>. The cost of gas would be $4.67.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A=1.99e^{0.0292*10}</m>. Or, <c>=1.99*EXP(0.0292*10)</c>. The cost of eggs would be $2.66.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A=3.29e^{0.0292*10}</m>. Or, <c>=3.29*EXP(0.0292*10)</c>. The cost of bread would be $4.41.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A=79.99e^{0.0292*10}</m>. Or, <c>=79.99*EXP(0.0292*10)</c> The cell phone bill would be $107.11.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A=1.99e^{0.0292*10}</m>. Or, <c>=1.99*EXP(0.0292*10)</c> The cost of a song download would be $2.66.
+					</p>
+				</li>
+			</ol>
+			</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			You are purchasing new furniture that costs $3500. You are required to make a down payment of $350. The loan will be a simple interest at 13% APR and the length of the loan will be 28 months. What is your monthly payment and how much did you pay back?
+		</p>
+		</statement>
+		<solution>
+			<p>
+				<m>P=3500-350=$3150</m>
+			</p>
+			<p>
+				<m>I=3150(0.13)(2.33) \approx $955.50</m>
+			</p>
+			<p>
+				You would pay $4,105.50 in 28 months with $146.63 as your monthly payments.
+			</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			Tom has misplaced the sales contract for his car and cannot remember the amount he originally financed. He does know that the interest rate was 9.6% APR for 60 months and the simple interest loan required a total of 60 payments at $254.23. What is the amount of money that Tom borrowed?
+		</p>
+		</statement>
+		<solution>
+			<p>
+				<m>P(0.096)(5)+P=15253.8</m>
+			</p>
+			<p>
+				The amount borrowed was $10,306.62.
+			</p>
+		</solution>
+	</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Savings Plans
+	</p>
+	</introduction>
+
+	<exercise>
+		<statement>
+		<p>
+			For each find the Future Value, the total amount deposited, and the interest earned.
+			<ol label="a">
+				<li>
+					<p>
+						Regular Deposit $350, Compounded Monthly, 6.5% APR for 25 years
+					</p>
+				</li>
+				<li>
+					<p>
+						Regular Deposit $500, Compounded Quarterly, 6.5% APR for 15 years
+					</p>
+				</li>
+				<li>
+					<p>
+						Regular Deposit $75, Compounded Weekly, 4.5% APR for 30 years
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+			<p>
+			<ol label="a">
+				<li>
+					<p>
+						<m>A= \frac{350((1+\frac{0.065}{12})^{12*25}-1)}{\frac{0.065}{12}}</m>
+					</p>
+					<p>
+						Or, <c>=FV(0.065/12, 12*25, 350, 0)</c>
+					</p>
+					<p>
+						The future value is $262,092.78 and the interest earned is $157,092.78.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A= \frac{500((1+\frac{0.065}{4})^{4*15}-1)}{\frac{0.065}{4}}</m>
+					</p>
+					<p>
+						Or, <c>=FV(0.065/4, 4*15, 500, 0)</c>
+					</p>
+					<p>
+						The future value is $50,168.34 and the interest earned is $20,168.34.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>A= \frac{75((1+\frac{0.045}{52})^{52*30}-1)}{\frac{0.045}{52}}</m>
+					</p>
+					<p>
+						Or, <c>=FV(0.045/52, 52*30, 75, 0)</c>
+					</p>
+					<p>
+						The future value is $247,448.43 and the interest earned is $130,448.43.
+					</p>
+				</li>
+			</ol>
+			</p>
+		</solution>
+	</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Loan Payments
+	</p>
+	</introduction>
+
+	<exercise>
+		<statement>
+		<p>
+			For each house find the monthly payment for a 30 year loan and 5% APR. Find the amount of interest you pay on each loan.
+			<ul>
+				<li>
+					<p>
+						House 1: John’s Landing Townhouse:  $299,900
+					</p>
+				</li>
+				<li>
+					<p>
+						House 2: Gresham 4 bedroom House: $389,900
+					</p>
+				</li>
+			</ul>
+		</p>
+		</statement>
+		<solution>
+			<p>
+				House 1: <m>D = \frac{239920\frac{0.05}{12}}{(1-(1+\frac{0.05}{12}^{-12*30}))}</m>
+			</p>
+			<p>
+				<c>=PMT(0.05/12, 12*30, 239920, 0)</c>
+			</p>
+			<p>
+				Monthly payment $9,996.67, Total Paid $463,658.40, Interest Paid $223,738.40
+			</p>
+			<p>
+				House 2: <m>D = \frac{311920\frac{0.05}{12}}{(1-(1+\frac{0.05}{12}^{-12*30}))}</m>
+			</p>
+			<p>
+				<c>=PMT(0.05/12, 12*30, 3119200, 0)</c>
+			</p>
+			<p>
+				Monthly Payment $1,674.45, Total Paid $602,803.45, Interest Paid $290,883.45
+			</p>
+		</solution>
+	</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Budgeting
+	</p>
+	</introduction>
+
+	<exercise>
+		<statement>
+		<p>
+			Find the net monthly cash flow (1 month = 4 weeks)
+		</p>
+		<sidebyside>
+		<tabular>
+			<row bottom="minor">
+				<cell>Income:</cell>
+				<cell>Expense</cell>
+			</row>
+			<row>
+				<cell>Job Income: $475 per week</cell>
+				<cell>Rent: $650 per month</cell>
+			</row>
+			<row>
+				<cell>Loan: $2500 per term. (10 weeks)</cell>
+				<cell>Groceries: $55 per week</cell>
+			</row>
+			<row>
+				<cell></cell>
+				<cell>Tuition and fees: $3000 per term</cell>
+			</row>
+			<row>
+				<cell></cell>
+				<cell>Books: $255 per term</cell>
+			</row>
+			<row>
+				<cell></cell>
+				<cell>Miscellaneous: $75 per week</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		</statement>
+		<solution>
+			<p>
+				The net monthly cash flow is $428.
+			</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			Pat loves painting. With tax, the total spent is about $46 each month on supplies. Once a week (52 weeks per year) the art class cost Pat $15.75. How much is Pat spending on painting in a year?
+		</p>
+		</statement>
+		<solution>
+			<p>
+				Pat is spending $1,371 a year painting.
+			</p>
+		</solution>
+	</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Taxes
+	</p>
+	</introduction>
+
+	<exercise>
+		<statement>
+		<p>
+			If you are in the 12% tax bracket and can take a $1,000 deduction, how much will your tax bill decrease by?
+		</p>
+		</statement>
+		<solution>
+			<p>
+				<m>1000(0.12) = 120</m>. Your tax bill will be decreased by $120.
+			</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			If you are in the 12% tax bracket and can take a $1,000 credit, how much will your tax bill decrease by?
+		</p>
+		</statement>
+		<solution>
+			<p>
+				Your tax bill will be decreased by $1,000.
+			</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			Amir’s made $43,000 in wages and $1000 in tips. He contributed $3,000 into his IRA account.
+			<ol label="a">
+				<li>
+					<p>
+						Find Amir’s Gross Income.
+					</p>
+				</li>
+				<li>
+					<p>
+						Find Amir’s Adjusted Gross Income (AGI).
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+			<p>
+			<ol label="a">
+				<li>
+					<p>
+						<m>43,000+1,000 = 44,000</m>. Amir’s gross income is $44,000.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>44,000-3,000=41000</m>. Amir’s adjusted gross income is $41,000.
+					</p>
+				</li>
+			</ol>
+		</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			Amir has $9,540 he could take in itemized deductions. The standard deduction for a single filer is $12,000.
+			<ol label="a">
+				<li>
+					<p>
+						Find Amir’s taxable income.
+					</p>
+				</li>
+				<li>
+					<p>
+						Use the 2018 tax table determine to determine how much Amir owes in taxes.
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+			<p>
+			<ol label="a">
+				<li>
+					<p>
+						<m>41,000-12,000= 29,000</m>. Amir’s taxable income is $29,000.
+					</p>
+				</li>
+				<li>
+					<p>
+					<md>
+						<mrow>=0.1(9525)+0.12(29000-9525)</mrow>
+						<mrow>=952.5+2337</mrow>
+						<mrow>=3289.5</mrow>
+					</md>
+					</p>
+					<p>
+						Amir owes $3289.50 in taxes.
+					</p>
+				</li>
+			</ol>
+		</p>
+		</solution>
+	</exercise>
+
+	<exercise>
+		<statement>
+		<p>
+			Amir can take a $1200 education credit and has had $2700 withheld from his paychecks.
+			<ol label="a">
+				<li>
+					<p>
+						Determine the amount Amir will owe or be refunded.
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+			<p>
+			<ol label="a">
+				<li>
+					<p>
+						<m>3289.5-1200-2700=-610.5</m>. Amir will be refunded $610.50.
+					</p>
+				</li>
+			</ol>
+			</p>
+		</solution>
+	</exercise>
+</exercisegroup>
+
+</exercises>
+
+</section>

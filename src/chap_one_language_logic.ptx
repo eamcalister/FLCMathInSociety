@@ -1,0 +1,2860 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="chap_one_language_logic">
+<title>The Language and Rules of Logic</title>
+
+<objectives>
+<title><xref ref="chap_one_language_logic"></xref> The Language and Rules of Logic</title>
+	<introduction>
+		<p>
+			Students will be able to:
+		</p>
+	</introduction>
+	<ul>
+		<li>
+			<p>
+				Identify propositions
+			</p>
+		</li>
+		<li>
+			<p>
+				Compose and interpret the negation of a statement
+			</p>
+		</li>
+		<li>
+			<p>
+				Use logical connectors (and/or) and conditional statements (if, then) 
+			</p>
+		</li>
+		<li>
+			<p>
+				Use truth tables to find truth values of basic and complex statements
+			</p>
+		</li>
+	</ul>
+</objectives>
+
+<subsection>
+	<title></title>
+	<paragraphs>
+	<title>Dr. Jonathan Farley and Partially Ordered Sets</title>
+		<sidebyside>
+			<image width="70%" source="images/language_logic_rules/1_1/jf_pic.png"></image>
+		</sidebyside>
+		<p>
+			Dr. Jonathan Farley grew up near Rochester, New York and got his mathematics degree from Harvard University. He then went to Oxford University in the United Kingdom. (Later he would return as a Fulbright Distinguished Scholar.) He was awarded Oxford’s highest mathematics awards for graduate students, the Senior Mathematical Prize and the Johnson Prize, and earned his doctorate a year later. He had a two-year visit to the Mathematical Sciences Research Institute from 1995 to 1997. He is currently an Associate Professor at Morgan State University, a historically Black college.
+		</p>
+		<p>
+			Dr. Farley solved decades-old unsolved problems in the theory of ordered sets. Now he uses his expertise to help with counterterrorism. Dr. Farley applies lattice theory, a branch of mathematics that deals with ordered sets, to determine the probability that a terrorist cell has been disrupted after some of its members have been captured. A group at Los Alamos National Laboratory used lattice theory for counterterrorism in the following way: A concept lattice can be drawn so that people who share many of the same characteristics are grouped together as one node, and links between nodes indicate that all the members of a subset with certain attributes must also have other attributes. Dr. Farley’s work has been recognized both nationally and internationally and used by the Ministry of National Security in Jamaica.
+		</p>
+		<p>
+			Dr. Farley is also interested in making math more accessible and mentoring women in mathematics. He conceived of and co-organized a symposium on women and mathematics at Stanford University’s Institute for Research on Women and Gender, called <q>Proof and Prejudice.</q> He has co-founded Girls Equal Math, Equations of Peace, and an enterprise that creates math-themed fashion to encourage girls to go into math, Peren Linn Fashion.
+		</p>
+		<p>
+			Dr. Farley has also been a mathematics consultant for the hit TV shows <em>Numb3rs, Medium,</em> and <em>Elementary</em>. Dr. Farley’s projects and applications of math continue to make it more interesting and relatable to a wider audience. You can read more on his <url href="http://www.latticetheory.net/">website</url>.
+		</p>
+	</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>Logic</title>
+	<p>
+		<alert>Logic</alert> is the study of reasoning. Our goal in this chapter is to examine arguments to determine their validity and soundness. In this section we will look at propositions and logical connectors that are the building blocks of arguments. We will also use truth tables to help us examine complex statements.
+	</p>
+</subsection>
+
+<subsection>
+<title>Propositions</title>
+	<p>
+		A <alert>propostion</alert> is a complete sentence that is either true or false. Opinions can be propositions, but questions or phrases cannot.
+	</p> 
+	<example>
+		<statement>
+		<p>
+			Which of the following are propositions?
+			<ol label ="a">
+				<li>
+					<p>
+						I am reading a math book.
+					</p>
+				</li>
+				<li>
+					<p>
+						Math is fun!
+					</p>
+				</li>
+				<li>
+					<p>
+						Do you like turtles?
+					</p>
+				</li>
+					<li>
+					<p>
+						My cat
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+		<p>
+			The first and second items are propositions. The third one is a question and the fourth is a phrase, so they are not. We are not concerned right now about whether a statement is true or false. We will come back to that later when we examine full arguments. 
+		</p>
+		</solution>
+	</example>
+	<p>
+		Arguments are made of one or more propositions (called <alert>premises</alert>), along with a <alert>conclusion</alert>. Propositions may be <alert>negated</alert>, or combined with <alert>connectors</alert> like “and”, and “or”. Let’s take a closer look at how these negations and logical connectors are used to create more complex statements. 
+	</p>
+</subsection>
+
+<subsection>
+	<title>Negation (not)</title>
+	<p>
+		One way to change a proposition is to use its <alert>negation</alert>, or opposite meaning. We often use the word <q>not</q> to negate a statement.
+	</p>
+	<example>
+		<statement>
+		<p>
+			Write the negation of the following propositions.
+		<ol label ="a">
+			<li>
+				<p>
+					I am reading a math book.
+				</p>
+			</li>
+			<li>
+				<p>
+					Math is fun!
+				</p>
+			</li>
+			<li>
+				<p>
+					The sky is not green.
+				</p>
+			</li>
+			<li>
+				<p>
+					Cars have wheels
+				</p>
+			</li>
+		</ol>
+		</p>
+	</statement>
+		<solution>
+			<p>
+			<ol label ="a">
+				<li>
+					<p>
+						Negation: I am <insert>not</insert> reading a math book.
+					</p>
+				</li>
+				<li>
+					<p>
+						Negation: Math is <insert>not</insert> fun!
+					</p>
+				</li>
+				<li>
+					<p>
+						Negation: The sky is green (or <insert>not</insert> not green)
+					</p>
+				</li>
+					<li>
+					<p>
+						Negation: Cars do <insert>not</insert> have wheels.
+					</p>
+				</li>
+			</ol>
+			</p>
+		</solution>
+	</example>
+</subsection>
+
+<subsection>
+	<title>Multiple Negations</title>
+
+	<p>
+		It is possible to use more than one negation in a statement. If you’ve ever said something like, <q>I can’t not go,</q> you are really saying you must go. It’s a lot like multiplying two negative numbers which gives a positive result.
+	</p>
+	<p>
+		In the media and in ballot measures we often see multiple negations and it can be confusing to figure out what a statement means. 
+	</p>
+
+	<example>
+		<statement>
+		<p>
+			Read the statement to determine the outcome of a yes vote.
+		</p>
+		<p>
+			<q>Vote for this measure to repeal the ban on plastic bags.</q>
+		</p>
+		</statement>
+		<solution>
+			<p>
+				If you said that a yes vote would enable plastic bag usage, you are correct. The ban stopped plastic bag usage, so to repeal the ban would allow it again. This measure has a double negation and is also not very good for the environment. 
+			</p>
+		</solution>
+	</example>
+	
+	<example>
+		<statement>
+		<p>
+			Read the statement to determine the outcome on mandatory minimum sentencing. 
+		</p>
+		<p>
+			<q>The bill that overturned the ban on mandatory minimum sentencing was vetoed.</q>
+		</p>
+		</statement>
+		<solution>
+			<p>
+				In this case mandatory minimum sentencing would not be allowed. The ban would stop it, and the bill to overturn it was vetoed. This is an example of a triple negation. 
+			</p>
+		</solution>
+	</example>
+</subsection>
+
+<subsection>
+	<title>Logical Connectors (and, or)</title>
+
+	<p>
+		When we use the word <q>and</q> between two propositions, it connects them to create a new statement that is also a proposition. For example, if you said <q>To finish this project, I need a screwdriver <alert>and</alert> a wrench,</q> then you are expressing the need for both tools. For an <q>and</q> statement to be true, the connected propositions must both be true. If even one proposition is false (for instance, you didn’t need a wrench) then the entire connected statement is false.
+	</p>
+	<p>
+		The word <q>or</q> between two propositions similarly connects the propositions to create a new statement. In this case, if you said <q>To finish this project, I need a screwdriver <alert>or</alert> a wrench,</q> then you are expressing the need for one of the tools (but probably not both). For an <q>or</q> statement to be true, at least one of the propositions must be true (or both could be true).
+	</p>
+</subsection>
+
+<subsection>
+	<title>Exclusive vs. Inclusive <em>or</em></title>
+	<p>
+		In English we often mean for <em>or</em> to be <alert>exclusive</alert>: one or the other, but not both. In math, however, <em>or</em> is usually <alert>inclusive</alert>: one or the other, or both. The thing we are including, or excluding is the <q>both</q> option.
+	</p>
+	<example>
+		<statement>
+		<p>
+			Determine whether each <em>or</em> statement is inclusive or exclusive.
+			<ol label ="a">
+				<li>
+					<p>
+						Would you like a chicken or vegan meal?
+					</p>
+				</li>
+				<li>
+					<p>
+						We want to hire someone who speaks Spanish or Chinese
+					</p>
+				</li>
+				<li>
+					<p>
+						Are you going to wear sandals or tennis shoes?
+					</p>
+				</li>
+				<li>
+					<p>
+						Are you going to visit Thailand or Vietnam on your trip?
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+			<p>
+				The first <em>or</em> statement is a choice of one or the other, but not both, so it is exclusive. The second statement is inclusive because they could find a candidate who speaks both languages. The third statement is exclusive because you can’t wear both at the same time. The fourth statement is inclusive because you could visit both countries on your trip. 
+			</p>
+		</solution>
+	</example>
+</subsection>
+
+<subsection>
+	<title>Conditional Statements (if, then)</title>
+	<p>
+		A <alert>conditional</alert> statement connects two propositions with <em>if, then</em>. An example of a conditional statement would be <q><em>If</em> it is raining, <em>then</em> we’ll go to the mall.</q>
+	</p>
+	<p>
+		The statement <q>If it is raining,</q> may be true or false for any given day. If the condition is true, then we will follow the course of action and go to the mall. If the condition is false, though, we haven’t said anything about what we will or won’t do. 
+	</p>
+</subsection>
+
+<subsection>
+	<title>Basic Truth Tables</title>
+	<p>
+		In logic we can use a <alert>truth table</alert> to analyze a complex statement by summarizing all the possibilities and their <alert>truth values</alert> (true or false). To do this, we break the statement down to its smallest elements, the propositions. Then we can see the outcome of the complex statement for all possible combinations of true and false for the propositions.
+	</p>
+	<p>
+		For example, let’s work with two propositions:
+		<ul>
+			<li>
+				<p>
+					<em>R</em>: You paid your rent this month.
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>E</em>: You paid your electric bill this month.
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		We will use these two propositions to demonstrate the truth tables for <em>not, and,</em> and <em>or.</em>
+	</p>
+		<figure>
+		<caption></caption>
+		<sidebyside>
+			<p>
+				To set up a truth table, we list all the possible truth value combinations in a systematic way. The standard way of doing this is to make the first column half true, then half false, then cut the pattern in half with each succeeding column. For two propositions, the first two columns are shown to the right.
+			</p>
+			<table>
+				<title>Truth Table  Setup for Two Propositions</title>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>R</cell>
+						<cell>E</cell>
+						<cell><!-- <fillin characters="4" /> --></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell></cell>
+					</row>
+				</tabular>
+			</table>
+		</sidebyside>
+	</figure>
+
+	<p>
+		The four possible combinations are
+			<ul>
+				<li>
+					<p>
+						Row 1: You have paid your rent and electric bill
+					</p>
+				</li>
+				<li>
+					<p>
+						Row 2: You have paid your rent but not your electric bill
+					</p>
+				</li>
+				<li>
+					<p>
+						Row 3: You have not paid your rent but you have paid your electric bill
+					</p>
+				</li>
+				<li>
+					<p>
+						Row 4: You haven’t paid either your rent or electric bill (yet).
+					</p>
+				</li>
+			</ul>
+	</p>
+				    
+	<p>
+		Once we fill in the starting columns, we add additional columns for the more complex statements. We can add as many columns as needed. Below are the basic truth tables for <em>not, and,</em> and <em>or.</em>
+	</p>
+
+	<p>
+		Basic Truth Tables
+	</p>
+	<sidebyside>
+	<table>
+	<title>In the <em>not R</em> column, the truth value is the opposite of the value for <em>R</em>. For example, if <em>R</em> is true (you paid your rent) then <em>not R</em> (you did not pay your rent) is false.</title>
+		<tabular>
+			<row bottom="minor">
+				<cell halign="center" colspan="2"><alert>Not</alert></cell>
+			</row>
+			<row halign="center" left="minor" bottom="minor">
+				<cell right="minor"><em>R</em></cell>
+				<cell right="minor"><em>not R</em></cell>
+			</row>
+			<row halign="center" left="minor" bottom="minor">
+				<cell right="minor">T</cell>
+				<cell right="minor">F</cell>
+			</row>
+			<row halign="center" left="minor" bottom="minor">
+				<cell right="minor">F</cell>
+				<cell right="minor">T</cell>
+			</row>
+		</tabular>
+		</table>
+	<table>
+			<title>In the <em>R and E</em> column, you must have paid both your rent and electric bill. Otherwise <em>R and E</em> is false.</title>
+				<tabular>
+					<row bottom="minor">
+						<cell halign="center" colspan="3"><alert>And</alert></cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor"><em>R</em></cell>
+						<cell right="minor"><em>E</em></cell>
+						<cell right="minor"><em>R and E</em></cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor">T</cell>
+						<cell right="minor">T</cell>
+						<cell right="minor">T</cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor">T</cell>
+						<cell right="minor">F</cell>
+						<cell right="minor">F</cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor">F</cell>
+						<cell right="minor">T</cell>
+						<cell right="minor">F</cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor">F</cell>
+						<cell right="minor">F</cell>
+						<cell right="minor">F</cell>
+					</row>
+				</tabular>
+			</table>
+
+			<table>
+				<title>In the <em>R or E</em> column, you must have paid either your rent or electric bill, or both (inclusive or). Otherwise <em>R or E</em> is false.</title>
+				<tabular>
+					<row bottom="minor">
+						<cell halign="center" colspan="4"><alert>Or</alert></cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor"><em>R</em></cell>
+						<cell right="minor"><em>E</em></cell>
+						<cell right="minor"><em>R or E</em></cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor">T</cell>
+						<cell right="minor">T</cell>
+						<cell right="minor">T</cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor">T</cell>
+						<cell right="minor">F</cell>
+						<cell right="minor">T</cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor">F</cell>
+						<cell right="minor">T</cell>
+						<cell right="minor">T</cell>
+					</row>
+					<row halign="center" left="minor" bottom="minor">
+						<cell right="minor">F</cell>
+						<cell right="minor">F</cell>
+						<cell right="minor">F</cell>
+					</row>
+				</tabular>
+			</table>
+		</sidebyside>
+</subsection>
+
+<subsection>
+	<title>Conditional Truth Tables</title>
+	<p>
+		We talked about conditional statements (<em>if, then</em> statements), earlier. In logical arguments the first part (the <q><em>if</em></q> part) is usually a <alert>hypothesis</alert> and the second part (the <q><em>then</em></q> part) is a <alert>conclusion</alert>.
+	</p>
+	<p>
+	 	To understand the truth table values for a conditional statement it is helpful to look at an example. Let’s say a friend tells you, <q>If you post that photo to Facebook, you’ll lose your job.</q> Under what conditions can you say that your friend was wrong?
+	</p>
+	<p>
+	 	There are four possible outcomes:
+	 	<ol>
+	 		<li>
+	 			<p>
+	 				You post the photo and lose your job
+	 			</p>
+	 		</li>
+	 		<li>
+	 			<p>
+	 				You post the photo and don’t lose your job
+	 			</p>
+	 		</li>
+	 		<li>
+	 			<p>
+	 				You don’t post the photo and lose your job
+	 			</p>
+	 		</li>
+	 		<li>
+	 			<p>
+	 				You don’t post the photo and don’t lose your job
+	 			</p>
+	 		</li>
+	 	</ol>
+	</p>
+	<p>
+	 	The only case where you can say your friend was wrong is the second case, in which you post the photo but still keep your job.
+	</p>
+	<p>
+	 	Your friend didn’t say anything about what would happen if you didn’t post the photo, so you can’t say the last two statements are wrong. Even if you didn’t post the photo and lost your job anyway, your friend never said that you were guaranteed to keep your job if you didn’t post it.
+	</p>
+	<p>
+	  The four cases above correspond to the four rows of the truth table. For this truth table we will use P for <q>posting the photo,</q> and L for <q>losing your job.</q>
+	</p>
+
+		<table>
+		<title>Truth table for a conditional statement</title>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell><em>P</em></cell>
+				<cell><em>L</em></cell>
+				<cell>If <em>P</em>, then <em>L</em></cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+	</table>
+
+		<p>
+			If the hypothesis (the <q>if</q> part) is false, we cannot say that the statement is a lie, so the result of the third and fourth rows is true. Notice that we are using a double negation in this explanation.
+		</p>
+
+	<p>
+		We are using the words <em>and, or, not</em> and <em>if then</em> in this book, but if you look up other resources on truth tables you are likely to see these symbols.
+	</p>
+
+	<assemblage>
+		<title>Symbols used in other resources</title>
+		<p>
+			<m>A \text{ and } B</m> is written <m>A ⋀ B</m>
+		</p>
+		<p>
+			<m>A \text{ or } B</m> is written <m>A ⋁ B</m>
+		</p>
+		<p>
+			<m>\text{not } A</m> is written <m>\text{~}A</m>
+		</p>
+		<p>
+			<m>\text{If } A\text{, then } B</m> is written <m>A→B</m>
+		</p>
+	</assemblage>
+</subsection>
+
+<subsection>
+	<title>Truth Tables for Complex Statements</title>
+	<p>
+		Truth tables really become useful when we analyze more complex statements. In this case we will have several columns. It helps to work from the inside out and create a column in the table for each intermediate statement.
+	</p>
+	<example>
+		<statement>
+		<p>
+			Create a truth table for the statement <em>A or not B</em>
+		</p>
+		</statement>
+		<solution>
+		<sidebyside>
+			<p>
+				When we create the truth table, we start with columns for the propositions, <em>A</em> and <em>B</em>. Then we add a column for <em>not B</em> because that is part of the final statement. Our last column is the final statement <em>A or not B</em>.
+			</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell><em>A</em></cell>
+					<cell><em>B</em></cell>
+					<cell><em>not B</em></cell>
+					<cell><em>A or not B</em></cell>
+				</row>
+				<row>
+					<cell>T</cell>
+					<cell>T</cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
+				<row>
+					<cell>T</cell>
+					<cell>F</cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
+				<row>
+					<cell>F</cell>
+					<cell>T</cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
+				<row>
+					<cell>F</cell>
+					<cell>F</cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
+			</tabular>
+	</sidebyside>
+
+	<sidebyside>
+			<p>
+				To complete the third column, <em>not B</em>, we take the opposite of the <em>B</em> column. Then to complete the fourth column, we only look at the <em>A</em> and the <em>not B</em> columns and compare them using <em>or</em>.
+			</p>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell><em>A</em></cell>
+					<cell><em>B</em></cell>
+					<cell><em>not B</em></cell>
+					<cell><em>A or not B</em></cell>
+				</row>
+				<row>
+					<cell>T</cell>
+					<cell>T</cell>
+					<cell>F</cell>
+					<cell>T</cell>
+				</row>
+				<row>
+					<cell>T</cell>
+					<cell>F</cell>
+					<cell>T</cell>
+					<cell>T</cell>
+				</row>
+				<row>
+					<cell>F</cell>
+					<cell>T</cell>
+					<cell>F</cell>
+					<cell>F</cell>
+				</row>
+				<row>
+					<cell>F</cell>
+					<cell>F</cell>
+					<cell>T</cell>
+					<cell>T</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+	</solution>
+	</example>
+</subsection>
+
+<subsection>
+	<title>Truth Tables with Three Propositions</title>
+	<p>
+		To create a truth table with three propositions we need eight rows for all the possible combinations. We will first determine the columns we need to get to our final statement. Then we will fill in the first three columns using the same methodology as before. Start with half true, half false, then cut the pattern in half each time.
+	</p>
+	<example>
+		<statement>
+			<p>
+				Create a truth table for the statement <em>A and not (B or C)</em>
+			</p>
+		</statement>
+		<solution>
+		<p>
+			First let’s figure out the columns we will need. We have <em>A, B, C,</em> then we need the statement in the parentheses, <em>(B or C)</em>. Then we need the negation of that column, <em>not (B or C)</em>. Then we conclude with our final statement, <em>A and not (B or C)</em>. 
+		</p>
+		<p>
+			Here is the initial table:
+		</p>
+			<table>
+			<title></title>
+				<tabular halign= "center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell><em>A</em></cell>
+						<cell><em>B</em></cell>
+						<cell><em>C</em></cell>
+						<cell><em>B or C</em></cell>
+						<cell><em>not (B or C)</em></cell>
+						<cell><em>A and not (B or C)</em></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+				</tabular>
+			</table>
+		<p>
+			Now we complete the columns one at a time. We use the <em>B</em> column and <em>C</em> column to complete <em>B or C,</em>. Then <em>not (B or C)</em> is the opposite of that column. For the final column we only need to look at the first and fifth columns, shaded in blue, with <em>and</em>. Here is the completed table.
+		</p>
+			<table>
+				<title></title>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell><em>A</em></cell>
+						<cell><em>B</em></cell>
+						<cell><em>C</em></cell>
+						<cell><em>B or C</em></cell>
+						<cell><em>not (B or C)</em></cell>
+						<cell><em>A and not (B or C)</em></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+					</row>
+				</tabular>
+			</table>
+		<p>
+			For this statement A must be true and neither B or C can be true, so it is only true in the fourth row. For an example of this statement, let’s define these propositions in the context of professional baseball:
+		</p>
+		<p>
+			Let <em>A</em> = Anaheim wins, <em>B</em> = Baltimore wins, <em>C</em> = Cleveland wins. 
+		</p>
+		<p>
+			Suppose that Anaheim will make the playoffs if: (1) Anaheim wins, and (2) neither Boston nor Cleveland wins. TFF is the only scenario in which Anaheim will make the playoffs. 
+		</p>
+	</solution>
+	</example>
+
+	<example>
+		<statement>
+			<p>
+				Construct a truth table for the statement <em>if m and not p, then r</em>.
+			</p>
+		</statement>
+			<solution>
+		<p>
+			First, it may help to add parentheses to help you clarify the order. Our statement could also be written, <em>if (m and not p), then r</em>. To build this table, we will build the statement in parentheses and then repeat the <em>r</em> column after it. It’s easier to read the conditional statement from left to right. Here are the columns for the table: 
+		</p>
+			<table>
+				<title></title>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell><em>m</em></cell>
+						<cell><em>p</em></cell>
+						<cell><em>r</em></cell>
+						<cell><em>not p</em></cell>
+						<cell><em>m and not p</em></cell>
+						<cell><em>r</em></cell>
+						<cell><em>If (m and not p), then r</em></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+				</tabular>
+			</table>
+		<p>
+			For the fourth column, we take the opposite of <em>p</em>. Then we use the first and fourth columns to complete <em>m and not p</em>. With the <em>r</em> column repeated we can use columns five and six to complete our conditional statement. Here is the completed table:
+		</p>
+			<table>
+				<title></title>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell><em>m</em></cell>
+						<cell><em>p</em></cell>
+						<cell><em>r</em></cell>
+						<cell><em>not p</em></cell>
+						<cell><em>m and not p</em></cell>
+						<cell><em>r</em></cell>
+						<cell><em>If (m and not p), then r</em></cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>T</cell>
+					</row>
+					<row>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+						<cell>F</cell>
+						<cell>F</cell>
+						<cell>T</cell>
+					</row>
+				</tabular>
+			</table>
+		<p>
+		 	When <em>m</em> is true, <em>p</em> is false, and <em>r</em> is false—the fourth row of the table—then the hypothesis <em>m</em> and not <em>p</em> will be true, but the conclusion is false, resulting in an invalid conditional statement; every other case gives a true result.
+		</p>
+		<p>
+		 	If you want a real-life situation that could be modeled by if <em>m</em> and not <em>p</em>, then <em>r</em>, consider this: 
+		</p>
+		<p>
+		 	Let <em>m</em> = we order meatballs, <em>p</em> = we order pasta, and <em>r</em> = Ruba is happy.
+		</p>
+		<p>
+		 	The statement if <em>m and not p</em>, then <em>r</em> is, <q>if we order meatballs and don’t order pasta, then Ruba is happy</q>. If <em>m</em> is true (we order meatballs), <em>p</em> is false (we don’t order pasta), and <em>r</em> is false (Ruba is not happy), then the statement is false, because we satisfied the premise, but Ruba did not satisfy the conclusion.
+		</p>
+	</solution>
+	</example> 
+	<p>
+		In this section we have discussed propositions, logical connectors and truth tables. In the next section, we will look at set relationships before we analyze arguments.
+	</p>
+</subsection>
+
+<exercises>
+<title>Exercises 1.1</title>
+	
+<exercise>
+	<statement>
+	<p>
+		Which of the following are propositions?
+	</p>
+	<p>
+		<ol label ="a">
+			<li>
+				<p>
+					Pigs can fly.
+				</p>
+			</li>
+			<li>
+				<p>
+					What?
+				</p>
+			</li>
+			<li>
+				<p>
+					I don't know.
+				</p>
+			</li>
+			<li>
+				<p>
+					I like tofu.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Proposition
+				</p>
+			</li>
+			<li>
+				<p>
+					Not a proposition
+				</p>
+			</li>
+			<li>
+				<p>
+					Proposition
+				</p>
+			</li>
+			<li>
+				<p>
+					Proposition
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Which of the following are propositions?
+	</p>
+	<p>
+		<ol label ="a">
+			<li>
+				<p>
+					How far?
+				</p>
+			</li>
+			<li>
+				<p>
+					Portland is not in Oregon.
+				</p>
+			</li>
+			<li>
+				<p>
+					Portland Community College.
+				</p>
+			</li>
+			<li>
+				<p>
+					It is raining.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Not a proposition
+				</p>
+			</li>
+			<li>
+				<p>
+					Proposition
+				</p>
+			</li>
+			<li>
+				<p>
+					Not a proposition
+				</p>
+			</li>
+			<li>
+				<p>
+					Proposition
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Write the negation of each proposition.
+	</p>
+	<p>
+		<ol label ="a">
+			<li>
+				<p>
+					I ride my bike to campus.
+				</p>
+			</li>
+			<li>
+				<p>
+					Portland is not in Oregon.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					I do not ride my bike to campus.
+				</p>
+			</li>
+			<li>
+				<p>
+					Portland is in Oregon.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Write the negation of each proposition.
+	</p>
+	<p>
+		<ol label ="a">
+			<li>
+				<p>
+					You should see this movie.
+				</p>
+			</li>
+			<li>
+				<p>
+					Lashonda is wearing blue.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					You should not see this movie.
+				</p>
+			</li>
+			<li>
+				<p>
+					Lashonda is not wearing blue.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		Write a proposition that contains a double negative.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Answers will vary. Example: You can’t not do your homework.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Write a proposition that contains a triple negative.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Answers will vary. Example: They decided not to cancel the ban on pesticides.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		For each situation, decide whether the “or” is most likely exclusive or inclusive.
+	</p>
+	<p>
+		<ol label ="a">
+			<li>
+				<p>
+					An entrée at a restaurant includes soup or salad.
+				</p>
+			</li>
+			<li>
+				<p>
+					You should bring an umbrella or a raincoat with you.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Exclusive
+				</p>
+			</li>
+			<li>
+				<p>
+					Inclusive
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
+	</p>
+	<p>
+		<ol label ="a">
+			<li>
+				<p>
+					We can keep driving on I-5 or get on I-405 at the next exit.		
+				</p>
+			</li>
+			<li>
+				<p>
+					You should save this document on your computer or a flash drive.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Exclusive
+				</p>
+			</li>
+			<li>
+				<p>
+					Inclusive
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #9 -->
+	<statement>
+	<p>
+		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					I will wear a sweater or a jacket.
+				</p>
+			</li>
+			<li>
+				<p>
+					My next vacation will be on the Oregon Coast or Mount Hood.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Inclusive
+				</p>
+			</li>
+			<li>
+				<p>
+					Exclusive
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #10 -->
+	<statement>
+	<p>
+		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					While in California I will go to the beach or Disneyland.
+				</p>
+			</li>
+			<li>
+				<p>
+					The insurance agent offers car or boat insurance.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Inclusive
+				</p>
+			</li>
+			<li>
+				<p>
+					Inclusive
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Rewrite the statement in the conditional form <em>if p, then q.</em>
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Whenever it is sunny, I go swimming.
+				</p>
+			</li>
+			<li>
+				<p>
+					I go see a movie on Fridays.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					If it is sunny, then I will go swimming.
+				</p>
+			</li>
+			<li>
+				<p>
+					If it is Friday, then I will go see a movie.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise> <!-- #12 -->
+	<statement>
+	<p>
+		Rewrite the statement in the conditional form <em>if p, then q.</em>
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					I always carry an umbrella when it rains.
+				</p>
+			</li>
+			<li>
+				<p>
+					On the weekend I like to hang out with friends.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					If it is raining, then I carry an umbrella.
+				</p>
+			</li>
+			<li>
+				<p>
+					If it is the weekend, then I am hanging out with friends.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Translate each statement from symbolic notation into English sentences. Let A represent <q>Elvis is alive</q> and let K represent <q>Elvis is the King</q>.
+	</p>
+	<p>
+		<ol label ="a">
+			<li>
+				<p>
+					<em>Not A</em>
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>A or K</em>
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>Not A and K</em>
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>If K, then not A</em>
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Elvis is not alive
+				</p>
+			</li>
+			<li>
+				<p>
+					Elvis is alive or Elvis is the King
+				</p>
+			</li>
+			<li>
+				<p>
+					Elvis is not alive and Elvis is the King
+				</p>
+			</li>
+			<li>
+				<p>
+					If Elvis is the King, then Elvis is not alive
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Translate each statement from symbolic notation into English sentences. Let A represent <q>It rains in Oregon</q> and let B represent <q>I own an umbrella</q>.
+	</p>
+	<p>
+		<ol label ="a">
+			<li>
+				<p>
+					<em>Not B</em>
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>A and not B</em>
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>If A, then B</em>
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>If not B, then A</em>
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					I do not own an umbrella.
+				</p>
+			</li>
+			<li>
+				<p>
+					It rains in Oregon and I do not own an umbrella
+				</p>
+			</li>
+			<li>
+				<p>
+					If it rains in Oregon, then I own an umbrella
+				</p>
+			</li>
+			<li>
+				<p>
+					If I do not own an umbrella, then it rains in Oregon
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #15 -->
+	<statement>
+	<p>
+		Translate each statement from English sentences into symbolic notation. Let A represent <q>I will protest</q> and let B represent <q>There is injustice.</q>
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					There is injustice and I will protest.
+				</p>
+			</li>
+			<li>
+				<p>
+					If there is injustice, then I will protest.
+				</p>
+			</li>
+			<li>
+				<p>
+					I will protest if there is injustice.
+				</p>
+			</li>
+			<li>
+				<p>
+					If there is not injustice, then I will not protest.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					B and A
+				</p>
+			</li>
+			<li>
+				<p>
+					If B, then A
+				</p>
+			</li>
+			<li>
+				<p>
+					If B, then A
+				</p>
+			</li>
+			<li>
+				<p>
+					If not B, then not A
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Translate each statement from English sentences into symbolic notation. Let A represent <q>It’s time to eat</q> and let B represent <q>I am hungry.</q>
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					It’s time to eat and I’m not hungry.
+				</p>
+			</li>
+			<li>
+				<p>
+					It’s not time to eat.
+				</p>
+			</li>
+			<li>
+				<p>
+					If it’s time to eat, then I’m hungry.
+				</p>
+			</li>
+			<li>
+				<p>
+					If I’m not hungry then it’s not time to eat.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					A and not B
+				</p>
+			</li>
+			<li>
+				<p>
+					Not A
+				</p>
+			</li>
+			<li>
+				<p>
+					If A, then B
+				</p>
+			</li>
+			<li>
+				<p>
+					If not B, then not A
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #17 -->
+	<statement>
+	<p>
+		Determine if the entire statement is true or false.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					An apple is a vegetable, or an apple is a fruit.
+				</p>
+			</li>
+			<li>
+				<p>
+					Portland is not a city in Oregon.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					True
+				</p>
+			</li>
+			<li>
+				<p>
+					False
+				</p>
+			</li>	
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #18 -->
+	<statement>
+	<p>
+		Determine if the entire statement is true or false.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Fish can walk and birds can swim.
+				</p>
+			</li>
+			<li>
+				<p>
+					If it is warm outside, then it is sunny.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					False
+				</p>
+			</li>
+			<li>
+				<p>
+					False
+				</p>
+			</li>	
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Complete the truth table for each statement and write the meaning of each statement in the third column.
+	</p>
+	</introduction>
+
+<exercise><!--  #19 -->
+	<statement>
+	<p>
+		Let <em>A</em> be: I live in Oregon.
+	</p>
+	<p>
+		Let <em>B</em> be: I go to Portland Community College
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>A and B</cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>A and B</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T - I live in Oregon and I go to PCC</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F - I live in Oregon and I don't go to PCC</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F - I don't live in Oregon and I go to PCC</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F - I don't live in Oregon and I don't go to PCC</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Let <em>A</em> be: I am a psychology major
+	</p>
+	<p>
+		Let <em>B</em> be: I'm planning to transfer to Portland State
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>A or B</cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>A or B</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T - I am a psychology major and I’m planning to transfer to PSU</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T - I am a psychology major but I’m not planning to transfer to PSU</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T - I am not a psychology major, but I’m planning to transfer to PSU</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F - I am not a psychology major and I’m not planning to transfer to PSU</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Complete the truth table for each statement.
+	</p>
+	</introduction>
+
+<exercise><!--  #21 -->
+	<statement>
+	<p>
+		<em>A and not B</em>
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>Not B</cell>
+			<cell>A and not B</cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>Not B</cell>
+				<cell>A and not B</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+
+<exercise><!--  #22 -->
+	<statement>
+	<p>
+		<em>Not (not A or B)</em>
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>Not A</cell>
+			<cell>Not A or B</cell>
+			<cell>Not (not A or B)</cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>Not A</cell>
+				<cell>Not A or B</cell>
+				<cell>Not (not A or B)</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+
+<exercise><!--  #23 -->
+	<statement>
+	<p>
+		<em>Not (A and B and C)</em>
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>A and B and C</cell>
+			<cell>Not (A and B and C)</cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>C</cell>
+				<cell>A and B and C</cell>
+				<cell>Not (A and B and C)</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+
+<exercise><!--  #24 -->
+	<statement>
+	<p>
+		<em>Not A or (not B and C)</em>
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>Not A</cell>
+			<cell>Not B</cell>
+			<cell>Not B and C</cell>
+			<cell>Not A or (Not B and C)</cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>C</cell>
+				<cell>Not A</cell>
+				<cell>Not B</cell>
+				<cell>Not B and C</cell>
+				<cell>Not A or (Not B and C)</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Create a complete truth table for each statement.
+	</p>
+	</introduction>
+
+<exercise><!--  #25 -->
+	<statement>
+	<p>
+		<em>Not(A and B) or C</em>
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>C</cell>
+				<cell>A and B</cell>
+				<cell>Not (A and B)</cell>
+				<cell>Not (A and B) or C</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		<em>(A or B) and (A or C)</em>
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>C</cell>
+				<cell>A or B</cell>
+				<cell>A or C</cell>
+				<cell>(A or B) and (A or C)</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		<em>If (A and B), then C</em>
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>C</cell>
+				<cell>A and B</cell>
+				<cell>If (A and B), then C</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>			
+		<em>If (A or B), then not C</em>
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>C</cell>
+				<cell>A or B</cell>
+				<cell>Not C</cell>
+				<cell>If (A or B), then not C</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		<em>If (A and C), then not A</em>
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>C</cell>
+				<cell>A and C</cell>
+				<cell>Not A</cell>
+				<cell>If (A and C), then not A</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		<em>If (B or C), then (A and B)</em>
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>C</cell>
+				<cell>B or C</cell>
+				<cell>A and B</cell>
+				<cell>If (B or C), then (A and B)</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+</exercisegroup>
+
+</exercises>
+</section>

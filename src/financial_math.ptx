@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="financial_math">
+<title>Financial Math</title>
+
+<xi:include href="chap_two_intro_spreadsheet.ptx" />
+<xi:include href="chap_two_simple_compound.ptx" />
+<xi:include href="chap_two_savings_plan.ptx" />
+<xi:include href="chap_two_loans.ptx" />
+<xi:include href="chap_two_income_taxes.ptx" />
+<xi:include href="chap_two_review.ptx" />
+<xi:include href="chap_two_credit_cards.ptx" />
+
+</chapter>

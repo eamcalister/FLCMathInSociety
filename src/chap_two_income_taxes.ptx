@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="chap_two_income_taxes">
+<title>Income Taxes</title>
+
+<objectives>
+<title><xref ref="chap_two_income_taxes"> Income Taxes</xref></title>
+	<introduction>
+		<p>
+			Students will be able to:
+		</p>
+	</introduction>
+		<ul>
+			<li>
+				<p>
+					Calculate gross income and adjusted gross income (AGI)
+				</p>
+			</li>
+			<li>
+				<p>
+					Determine the standard deduction according to filing status
+				</p>
+			</li>
+			<li>
+				<p>
+					Determine whether to use the standard or itemized deductions and calculate taxable income
+				</p>
+			</li>
+			<li>
+				<p>
+					Calculate income tax from tables 
+				</p>
+			</li>
+			<li>
+				<p>
+					Compare taxes owed to withholdings to determine whether a refund is due or a payment is required
+				</p>
+			</li>
+		</ul>
+</objectives>
+
+<subsection>
+<title>A Very Brief History of Taxes</title>
+	<p>
+		Although Benjamin Franklin famously claimed in 1789 that “in this world nothing can be said to be certain, except death and taxes”, it wasn’t until 1913 that the 16th amendment was ratified, and income tax was legalized. Prior to this, taxes were primarily collected through tariffs on imported goods, poll taxes, and property taxes. A <alert>poll tax</alert>, also referred to as a head tax, was a fixed amount every liable individual had to pay. Payment of the poll tax was often required before a person could register to vote or be issued a hunting or fishing license. 
+	</p>
+	<p>
+		Tax policy in the United States is a politically divisive issue. In general, Democrats seek to lower taxes for low and middle income earners and raise taxes for the wealthy, while Republicans support a variety of tax cuts and limiting the amount wealthy earners are taxed. There is even debate as to the current length of the tax code! Some claim that the code is over 70,000 pages while others insist it is just over 2,000. Nevertheless, there is at least one thing everyone can agree with - you don't want to be on the wrong side of the Internal Revenue Service (IRS)! 
+	</p>
+</subsection>
+<subsection>
+	<title>Types of Income Tax</title>
+	<p>
+		<alert>Income tax</alert> is a tax that is levied on earned income or profit. Income taxes are collected by the federal government, states, and even some municipalities. Income taxes are an important source of funding, and are used to finance social programs, maintain and expand infrastructure, and provide foreign aid, among other things. 
+	</p>
+</subsection>
+<subsection>
+	<title>Federal Income Tax</title>
+	<p>
+		Anyone who earns income over a certain amount (approximately $10,000 for an individual) must file a federal tax return and have taxes collected on their behalf. The amount of federal tax owed is determined by your <alert>filing status</alert> and <alert>taxable income</alert>. 
+	</p>
+</subsection>
+<subsection>
+	<title>State Income Tax</title>
+	<p>
+		Forty-one states and the District of Columbia collect taxes on income from wages and investment. Seven states - Washington, Nevada, South Dakota, Wyoming, Alaska, Texas, and Florida – do not collect tax on wage or investment income, and two states – New Hampshire and Tennessee – only collect tax on investment income. The amount of tax collected varies by state, with each state averaging between $500 and $3000 per person.
+	</p>
+</subsection>
+<subsection>
+	<title>Municipal Income Tax</title>
+	<p>
+		Some municipalities (urban districts) also collect income taxes. For example, business owners in Multnomah County pay a municipal tax on their business income, and workers in the Tri-met district (area served by Tri-met) have their wages taxed at 0.7537%.
+	</p>
+</subsection>
+<subsection>
+	<title>Calculating Federal Income Tax</title>
+	<p>
+		Not all income is taxed, and not all income that gets taxed is taxed at the same rate. The general process of calculating the amount of federal income tax you owe is outlined in the chart below.
+	</p>
+	<figure>
+		<caption>Steps to Calculate Federal Income Tax</caption>
+		<image width="100%" source="images/financial_math/2_5/calculating_federal.png">
+		<description>Five rectangles showing the steps: 1. Calculate gross income by adding all income; 2. Calculate adjusted gross income (AGI) by subtracting any pre-tax adjustments; 3. Calculate taxable income by subtracting deductions (itemized or standard); 4. Calculate tax using tax table for your filing status; 5. Calculate refund or amount owed by subtracting credits and withholdings. If the amount is negative you get a refund; if the amount is positive you owe money.</description>
+		</image>
+	</figure>
+</subsection>
+
+<subsection>
+	<title>Gross Income</title>
+	<p>
+		<alert>Gross income</alert> includes all wages, tips, earned interest, dividends, rents and royalties, alimony, property gains, income tax refunds, etc. Keep in mind that ALL income means ALL income. Even income earned from a crime must be reported!
+	</p> 
+</subsection>
+
+<subsection>
+	<title>Adjusted Gross Income</title>
+	<p>
+		<alert>Adjustments</alert> are eligible expenses used to reduce your gross income. Adjustments are tax-exempt and thus reduce the amount owed in taxes. Eligible expenses include contributions to tax deferred savings plans (401k, Individual Retirement Plan (IRA)), school tuition, student loan interest, moving expenses, business expenses, flexible spending accounts and health savings account contributions. 
+	</p>
+</subsection>
+<subsection>
+	<title>Taxable Income</title>
+	<p>
+		<alert>Taxable income</alert> is determined by subtracting your <alert>deductions</alert> from your adjusted gross income. You may choose to take <em>either</em> a <alert>standard deduction</alert>, which is determined by your filing status, or you may choose to <alert>itemize</alert> your deductions. Itemized deductions may include state and local income taxes, property taxes, medical expenses, mortgage interest, and charitable donations.
+	</p>
+	<p>
+		Prior to the 2018 tax year, you could also claim <alert>personal exemptions</alert>. Exemptions of $4,050 for each member of the household were subtracted from the adjusted gross income along with either the standard or itemized deduction to determine taxable income. Starting in 2018, however, the standard deduction was doubled, and personal exemptions were eliminated.
+	</p>
+	<p>
+		Let’s look at an example of how to calculate gross income and adjusted gross income (AGI).
+	</p>
+
+	<example>
+		<p>
+			Sasha received $45,000 in wages and earned $1,300 in interest from his savings plan. He paid $1,400 in student loan interest, and put $4,000 into his Individual Retirement Account (IRA). Determine Sasha’s adjusted gross income. 
+		</p>
+		<p>
+			To calculate Sasha’s adjusted gross income, we need to first determine his gross income. His gross income includes his wages and earned interest:
+		</p>
+		<p>
+			Gross Income <m>=$45,000+$1,300=$46,300</m>
+		</p>
+		<p>
+			To find his adjusted gross income, we need to subtract eligible adjustments from his gross income. His eligible adjustments include the interest paid on his student loans, and his contributions to his IRA:
+		</p>
+		<p>
+			Adjusted Gross Income <m>=$46,300-$1,400-$4,000=$40,900</m>
+		</p>
+	</example>
+</subsection>
+
+<subsection>
+	<title>Filing Status</title>
+	<p>
+		Your <alert>filing status</alert> is determined by your family situation. Are you married, widowed, divorced, caring for a family member? It is possible to fall into more than one category, but you may choose the one that is most beneficial for you.
+		<ul>
+			<li>
+				<p>
+					<alert>Single:</alert> If you are unmarried, legally separated from your spouse, or divorced on the last day of the year.
+				</p>
+			</li>
+			<li>
+				<p>
+					<alert>Married Filing Jointly:</alert> If you are married and both you and your spouse agree to file a joint return. (On a joint return, you report your combined income and deduct your combined allowable expenses.)
+				</p>
+			</li>
+			<li>
+				<p>
+					<alert>Married Filing Separately:</alert> If you are married and you want to be responsible only for your own tax, or if this status results in less tax than a joint return.
+				</p>
+			</li>
+			<li>
+				<p>
+					<alert>Head of Household (with qualifying person):</alert> If you are 1) unmarried or considered unmarried on the last day of the year, 2) paid more than half the cost of keeping up a home for the year, and 3) have a qualifying dependent living with you for more than half the year (except temporary absences, such as school).
+				</p>
+			</li>
+			<li>
+				<p>
+					<alert>Qualifying Widow/Widower (with dependent child):</alert> This status is available for the two years following the death of your spouse.
+				</p>
+			</li>
+		</ul>
+	</p>
+
+	<p>
+		Your filing status determines your standard deduction and tax liability. The standard deduction for each filing status for the tax year 2018 is given in the table below.
+	</p>
+	<sidebyside>
+		<tabular top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell halign="left">Filing Status</cell>
+				<cell halign="center">Standard Deduction for Tax Year 2018</cell>
+			</row>
+			<row>
+				<cell halign="left">Single</cell>
+				<cell halign="center">$12000</cell>
+			</row>
+			<row>
+				<cell halign="left">Married Filing Jointly</cell>
+				<cell halign="center">$24000</cell>
+			</row>
+			<row>
+				<cell halign="left">Married Filing Separately</cell>
+				<cell halign="center">$12000</cell>
+			</row>
+			<row>
+				<cell halign="left">Head of Household</cell>
+				<cell halign="center">$18000</cell>
+			</row>
+			<row>
+				<cell halign="left">Qualifying Widow</cell>
+				<cell halign="center">$24000</cell>
+			</row>
+		</tabular>
+	</sidebyside>
+
+	<p>
+		Here is an example where we calculate adjusted gross income and taxable income.
+	</p>
+		
+	<example>
+		<statement>
+		<p>
+			Maria earned wages of $32,400 from her job as a server. She also earned $8,300 in tips, and received $95 in interest from a savings account. In trying to save for retirement, Maria has put $3,500 into a 401K tax deferred savings plan. She is unmarried and lives with her six year old daughter. Determine Maria’s gross income, adjusted gross income, and taxable income.
+		</p>
+		</statement>
+		<solution>
+		<p>
+			Maria’s gross income includes her wages, tips, and earned interest.
+		</p>
+		<p>
+			Gross Income = $32,400 + $8,300 + $95 = $40,795 
+		</p>
+		<p>
+			Maria can use her 401k contribution as an adjustment.
+		</p>
+		<p>
+			Adjusted Gross Income = $40,795 - $3,500 = $37,295
+		</p>
+		<p>
+			Since Maria is unmarried and is the primary caregiver for her daughter, she can file as the head of household and take the standard deduction of $18,000. 
+		</p>
+		<p>
+			Taxable Income = $37,295 - $18,000 = $19,295
+		</p>
+	</solution>
+	</example>
+</subsection>
+
+<subsection>
+	<title>Tax Tables</title>
+	<p>
+		The United States has a <alert>progressive</alert> federal income tax system which means the more income you have, the more you generally pay in taxes. There are <alert>marginal tax rates</alert> that go up according to our income, but we don’t pay the same rate on all of our income. The ranges of income are called <alert>tax brackets</alert> and the buckets in the illustration below can help us visualize the brackets.
+	</p>
+	
+	<p>
+		The cutoff values in the figure are for a married couple filing jointly, but the percentages are the same for everyone as you’ll see in the table on the next page. We pay 10% of any taxable income in the first bucket. If the first bucket is full, we move to the second bucket and we pay 12% of that income. This couple is in the 22% tax bracket because the 3rd bucket is partially filled. They will pay 22% of the income in that bucket, but they are not paying 22% of their entire income.
+	</p>
+	<figure xml:id="tax_buckets">
+		<caption>Tax Buckets by John Chesbrough, licensed under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-ND-NC 4.0</url>.</caption>
+		<image width="70%" source="images/financial_math/2_5/tax_tables.png">
+		<description>A drawing that shows the tax brackets as buckets being filled from a hose labeled taxable income; the first bucket for the 10% tax bracket is full and has the range of $0-19,050; the second bucket for the 12% tax bracket is also full and has the range of $19051-77,400; the third bucket for the 22% bracket is partially full and has the range of $77,401-165,000; there are buckets for the 24%, 32%, 35% and 37% tax brackets which are empty. The cutoff values for all of these brackets are given in the next table. </description>
+		</image>
+	</figure>
+
+	<p>
+		 Here is a table with cutoff values for each filing status. Everyone pays a tax of 10% on any income in the first tax bracket. Then we all pay 12% of the next bracket of income, 22% of the next bracket, and so on. This keeps going up to the 37% tax bracket.
+	</p>
+	<sidebyside>
+	<tabular top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell colspan="5">2018 Tax Year</cell>
+		</row>
+		<row>
+			<cell><line>Marginal Tax Rate</line><line>On Taxable Income</line></cell>
+			<cell>Filing Single</cell>
+			<cell><line>Filing as Head</line><line>of Household</line></cell>
+			<cell><line>Married filing</line><line>Jointly</line></cell>
+			<cell><line>Married filing</line><line>Separately</line></cell>
+		</row>
+		<row>
+			<cell halign="center">10%</cell>
+			<cell>First $9,525</cell>
+			<cell>First $13,600</cell>
+			<cell>First $19,050</cell>
+			<cell>First $9,525</cell>
+		</row>
+		<row>
+			<cell halign="center">12%</cell>
+			<cell>$9,525 – $38,700</cell>
+			<cell>$13,600 – $51,800</cell>
+			<cell>$19,050 – $77,400</cell>
+			<cell>$9,525 – $38,700</cell>
+		</row>
+		<row>
+			<cell halign="center">22%</cell>
+			<cell>$38,700 – $82,500</cell>
+			<cell>$51,800 – $82,500</cell>
+			<cell>$77,400 – $165,000</cell>
+			<cell>$38,700 – $82,500</cell>
+		</row>
+		<row>
+			<cell halign="center">24%</cell>
+			<cell>$82,500 – $157,500</cell>
+			<cell>$82,500 – $157,500</cell>
+			<cell>$165,000 – $315,000</cell>
+			<cell>$82,500 – $157,500</cell>
+		</row>
+		<row>
+			<cell halign="center">32%</cell>
+			<cell>$157,500 – $200,000</cell>
+			<cell>$157,500 – $200,000</cell>
+			<cell>$315,000 – $400,000</cell>
+			<cell>$157,500 – $200,000</cell>
+		</row>
+		<row>
+			<cell halign="center">35%</cell>
+			<cell>$200,000 – $500,000</cell>
+			<cell>$200,000 – $500,000</cell>
+			<cell>$400,000 – $600,000</cell>
+			<cell>$200,000 – $300,000</cell>
+		</row>
+		<row>
+			<cell halign="center">37%</cell>
+			<cell>Over $500,000</cell>
+			<cell>Over $500,000</cell>
+			<cell>Over $600,000</cell>
+			<cell>Over $300,000</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		Let’s see how to use this table to calculate taxes in an example.
+	</p>
+
+	<example>
+		<statement>
+		<p>
+			If Avery is filing single and has $55,100 in taxable income, calculate their tax.
+		</p>
+		</statement>
+		<solution>
+			<p>
+				We begin with the lowest tax bracket and take 10% of $9,525. Since their income is higher than that, we add 12% of the next amount, found by subtracting the values in that bracket. Avery’s taxable income is in the 22% tax bracket, so we find the amount over $38,700 by subtracting. Here is the full calculation:
+			</p>
+			<p>
+				<md>
+					<mrow>0.10($9,525)+0.12($38,700-$9,525)+0.22($55,100-$38,700)</mrow>
+					<mrow>=0.10($9,525)+0.12($29,175)+0.22($16,400)</mrow>
+					<mrow>=$952.50+$3,501+$3,608</mrow>
+					<mrow>=$4,435.50+$3,608</mrow>
+					<mrow>=$8,043.50</mrow>
+				</md>
+			</p>
+			<p>
+				Avery would owe $8,043.50 in taxes. Note that their overall tax rate is somewhere between 10% and 22%. We can calculate the actual rate by dividing their tax owed by their taxable income:
+			</p>
+			<p>
+				<m>\frac{$8,043.50}{$55,100}=0.1459</m> or about 15%
+			</p>
+		</solution>
+</example>
+
+	<p>
+		We could calculate all taxes this way, but you might notice that the first few terms will be the same if the buckets are full. For this reason, we can simplify these tax tables. The tax tables below give the value for all of the lower tax buckets that are full. There is a tax table for each filing status and the cutoffs are regularly adjusted for inflation, so they usually vary from year to year.
+	</p>
+	<p>
+		2018 Federal Income Tax Tables
+	</p>
+	<sidebyside>
+		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell colspan="2">Single (2018)</cell>
+			</row>
+			<row>
+				<cell>If taxable income is:</cell>
+				<cell>The tax is:</cell>
+			</row>
+			<row>
+				<cell>Not over $9,525</cell>
+				<cell>10% of the taxable income</cell>
+			</row>
+			<row>
+				<cell>Over $9,525 but not over $38,700</cell>
+				<cell>$952.50 plus 12% of the excess over $9,525</cell>
+			</row>
+			<row>
+				<cell>Over $38,700 but not over $82,500</cell>
+				<cell>$4,453.50 plus 22% of the excess over $38,700</cell>
+			</row>
+			<row>
+				<cell>Over $82,500 but not over $157,500</cell>
+				<cell>$14,089.50 plus 24% of the excess over $82,500</cell>
+			</row>
+			<row>
+				<cell>Over $157,500 but not over $200,000</cell>
+				<cell>$32,089.50 plus 32% of the excess over $157,500</cell>
+			</row>
+			<row>
+				<cell>Over $200,000 but not over $500,000</cell>
+				<cell>$45,689.50 plus 35% of the excess over $200,000</cell>
+			</row>
+			<row>
+				<cell>Over $500,000</cell>
+				<cell>$150,689.50 plus 37% of the excess over $500,000</cell>
+			</row>
+		</tabular>
+	</sidebyside>
+
+	<sidebyside>
+		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell colspan="2">Head of Household (2018)</cell>
+			</row>
+			<row>
+				<cell>If taxable income is:</cell>
+				<cell>The tax is:</cell>
+			</row>
+			<row>
+				<cell>Not over $13,600</cell>
+				<cell>10% of the taxable income</cell>
+			</row>
+			<row>
+				<cell>Over $13,600 but not over $51,800</cell>
+				<cell>$1,360 plus 12% of the excess over $13,600</cell>
+			</row>
+			<row>
+				<cell>Over $51,800 but not over $82,500</cell>
+				<cell>$5,944 plus 22% of the excess over $51,800</cell>
+			</row>
+			<row>
+				<cell>Over $82,500 but not over $157,500</cell>
+				<cell>$12,698 plus 24% of the excess over $82,500</cell>
+			</row>
+			<row>
+				<cell>Over $157,500 but not over $200,000</cell>
+				<cell>$30,698 plus 32% of the excess over $157,500</cell>
+			</row>
+			<row>
+				<cell>Over $200,000 but not over $500,000</cell>
+				<cell>$44,298 plus 35% of the excess over $200,000</cell>
+			</row>
+			<row>
+				<cell>Over $500,000</cell>
+				<cell>$149,298 plus 37% of the excess over $500,000</cell>
+			</row>
+		</tabular>
+	</sidebyside>
+
+	<sidebyside>
+		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell colspan="2">Married Filing Jointly (2018)</cell>
+			</row>
+			<row>
+				<cell>If taxable income is:</cell>
+				<cell>The tax is:</cell>
+			</row>
+			<row>
+				<cell>Not over $19,050</cell>
+				<cell>10% of the taxable income</cell>
+			</row>
+			<row>
+				<cell>Over $19,050 but not over $77,400</cell>
+				<cell>$1,905 plus 12% of the excess over $19,050</cell>
+			</row>
+			<row>
+				<cell>Over $77,400 but  not over $165,000</cell>
+				<cell>$8,907 plus 22% of the excess over $77,400</cell>
+			</row>
+			<row>
+				<cell>Over $165,000 but not over $315,000</cell>
+				<cell>$28,179 plus 24% of the excess over $165,000</cell>
+			</row>
+			<row>
+				<cell>Over $315,000 but not over $400,000</cell>
+				<cell>$64,179 plus 32% of the excess over $315,000</cell>
+			</row>
+			<row>
+				<cell>Over $400,000 but not over $600,000</cell>
+				<cell>$91,379 plus 35% of the excess over $400,000</cell>
+			</row>
+			<row>
+				<cell>Over $600,000</cell>
+				<cell>$161,379 plus 37% of the excess over $600,000</cell>
+			</row>
+		</tabular>
+	</sidebyside>
+
+	<sidebyside>
+		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell colspan="2">Married Filing Separately (2018)</cell>
+			</row>
+			<row>
+				<cell>If taxable income is:</cell>
+				<cell>The tax is:</cell>
+			</row>
+			<row>
+				<cell>Not over $9,525</cell>
+				<cell>10% of the taxable income</cell>
+			</row>
+			<row>
+				<cell>Over $9,525 but not over $38,700</cell>
+				<cell>$952.50 plus 12% of the excess over $9,525</cell>
+			</row>
+			<row>
+				<cell>Over $38,700 but not over $82,500</cell>
+				<cell>$4,453.50 plus 22% of the excess over $38,700</cell>
+			</row>
+			<row>
+				<cell>Over $82,500 but not over $157,500</cell>
+				<cell>$14,089.50 plus 24% of the excess over $82,500</cell>
+			</row>
+			<row>
+				<cell>Over $157,500 but not over $200,000</cell>
+				<cell>$32,089.50 plus 32% of the excess over $157,500</cell>
+			</row>
+			<row>
+				<cell>Over $200,000 but not over $300,000</cell>
+				<cell>$45,689.50 plus 35% of the excess over $200,000</cell>
+			</row>
+			<row>
+				<cell>Over $300,000</cell>
+				<cell>$80,689.50 plus 37% of the excess over $300,000</cell>
+			</row>
+		</tabular>
+	</sidebyside>
+
+	<example>
+		<statement>
+		<p>
+			Suppose Adira is filing as head of household and has a taxable income of $86,450. Calculate her taxes using the individual tax brackets and with the simplified table. 
+		</p>
+		</statement>
+		<solution>
+		<p>
+			We will calculate Adira’s taxes first the long way:
+		</p>
+		<p>
+			<md>
+				<mrow>0.10($13,600)+0.12($51,800-$13,600)+0.22($82,500-$51,800)+0.24($86,450-$82,500)</mrow>
+				<mrow>=0.10($13,600)+0.12($38,200)+0.22($30,700)+0.24($3,950)</mrow>
+				<mrow>=$1,360+$4,584+$6,754+$948</mrow>
+				<mrow>=$12,698+$948</mrow>
+				<mrow>=$13,646</mrow>
+			</md>
+		</p>
+		<p>
+			Now, using the simplified tax table for single filing status, we see that Adira’s taxable income puts her in the 24% tax bracket. The simplified table tells us that her taxes will be equal to $12,698 plus 24% of the excess over $82,500. Notice the number $12,698 is the same value we got for all of the “full” tax brackets, so we only need to calculate the last one. To find the excess over $82,500, we subtract $82,500 from her taxable income. Thus, her taxes are:
+		</p>
+		<p>
+			<md>
+				<mrow>$12,698+0.24($86,450-$82,500)=$12,698+0.24($3,950)</mrow>
+				<mrow>=$12,698+$948</mrow>
+				<mrow>=$13,646</mrow>
+			</md>
+		</p>
+		<p>
+			We see that both methods result in the same value, $13,646, for Adira’s taxes.
+		</p>
+	</solution>
+	</example>
+
+	<example xml:id="phyllis_gladys">
+		<statement>
+		<p>
+		 	Phyllis and Gladys are married and filing jointly. Together their taxable income is $112,000. Use the simplified 2018 tax tables from this section to determine how much they owe in taxes.
+		 </p>
+		</statement>
+		 <solution>
+		 <p>
+		 	Since Phyllis and Gladys are married and filing jointly, their taxable income puts them in the 22% tax bracket. Using the simplified 2018 tax table, their taxes are $8,907 plus 22% of the excess over $77,400:
+		</p>
+		<p>
+			<md>
+				<mrow>$8,907+0.22($112,000-$77,400)=$8,907+0.22($34,600)</mrow>
+				<mrow>=$8,907+$7,612</mrow>
+				<mrow>=$16,519</mrow>
+			</md>
+		</p>
+		<p>
+			Phyllis and Gladys owe $16,519 in taxes. 
+		</p>
+	</solution>
+	</example>
+</subsection>
+<subsection>
+	<title>Tax Credits</title>
+	<p>
+		<alert>Tax credits</alert> are different from deductions in that they reduce the amount of tax you owe by the full amount of the credit, not just a percentage. This makes credits much more valuable than deductions.
+	</p> 
+
+	<p>
+		Common tax credits include child tax credits, earned income credits, child and dependent care credits, American opportunity tax credits, lifetime learning credits, and various federal energy credits.
+	</p>
+
+	<example>
+		<statement>
+		<p>
+			Shiro is in the 22% tax bracket and itemizes his deductions. How much will his tax bill be reduced if he makes a $1,000 contribution to charity? How much will his bill be reduced if he gets a $1,000 tax credit?
+		</p>
+		</statement>
+		<solution>
+		<p>
+			The tax credit will reduce his tax bill by the full amount of the credit, so the $1,000 tax credit will reduce his tax bill by $1,000. As a deduction, however, his contribution to charity will only reduce his tax bill by 22% of the $1,000, or 0.22($1,000) = $220. Tax credits are always better than deductions.
+		</p>
+		</solution>
+	</example>
+</subsection>
+<subsection>
+	<title>Calculating a Refund or Payment Due</title>
+	<p>
+		Employers are required to take out an estimated amount for taxes from each of our paychecks. These withholdings are taken out, so we don’t all have huge tax bills at the end of the year, and so the government has the income it needs to run. When you file your taxes, you compare the amount of tax you actually owe, with the withholdings from your paycheck. If you had more withheld during the year than you owe, you will file for a refund. If your withholdings were less, though, you must pay the difference. Let’s look at a couple of examples with tax credits and withholdings. 
+	</p>
+	<example>
+		<statement>
+		<p>
+			John’s taxes are $4,342.50. He can claim an American opportunity tax credit of $2,300 and he had $4,135 withheld from his paychecks. Determine if John will owe money or get a refund.
+		</p>
+		</statement>
+		<solution>
+		<p>
+			The first step is to reduce John’s taxes by the full amount of the tax credit.
+		</p>
+		<p>
+			<m>$4,342.50-$2,300=$3,042.50</m>
+		</p>
+
+		<p>
+			Next we subtract the amount withheld from his paychecks by his employer. Since his withholdings are greater than the amount he owes after applying the tax credit, he will receive a refund equal to the difference.
+		</p>
+		<p>
+			<m>$3,042.50-$4,135=-$1,092.50</m>
+		</p>
+		<p>
+			John will receive a refund of $1,092.50. Notice that having a negative amount after subtracting credits and withholdings means you will receive a refund, while having a positive amount means you still owe money.
+		</p>
+		</solution>
+	</example>
+
+	<example>
+		<statement>
+		<p>
+			As we discovered in <xref ref="phyllis_gladys"></xref>, Phyllis and Gladys owe $16,519 in taxes. Their employers withheld $8,980 and they received a $7,500 credit for their purchase of an electric car. Will they receive a refund, or will they need to make a payment?
+		</p>
+		</statement>
+		<solution>
+		<p>
+			To determine whether they will receive a refund or if they will still owe money, we will first subtract the full amount of the electric car credit.
+		</p>
+		<p>
+			<m>$16,519-$7,500=$9,019</m>
+		</p>
+		<p>
+			We now subtract their withholdings:
+		</p>
+		<p>
+			<m>$9,019-$8,980=$39</m>
+		</p>
+		<p>
+			Since the value is positive, Phyllis and Gladys still owe $39 in taxes. 
+		</p>
+		</solution>
+	</example>
+</subsection>
+
+<exercises>
+<title>Exercises 2.5</title>
+
+<exercise>
+	<statement>
+	<p>
+		Which decreases your tax bill more, a credit or a deduction?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			A credit decreases your bill more. It decreases your bill by the full amount of the credit. A deduction only decreases your tax bill by a percentage.
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #2 -->
+	<statement>
+		<p>
+			You are in the 12% tax bracket and get a credit of $500. How has the amount of taxes owed changed?
+		</p>
+	</statement>
+	<solution>
+		<p>
+			The amount of taxes owed is decreased by $500.
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #3 -->
+	<statement>
+		<p>
+			You are in the 12% tax bracket and get a deduction of $500. How has the amount of taxes owed changed?
+		</p>
+	</statement>
+	<solution>
+		<p>
+			The amount of taxes owed is decreased by $60 because 12% of $500 is $60.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Can you take the standard deduction and itemize your deductions?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			No, you must choose to take either the standard deduction or itemized deductions.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Can you make adjustments to your income and take the standard deduction?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Yes, you can make adjustments and take a deduction.  Adjustments to your income happen before deductions.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		If you decide to take the standard deduction what have you considered?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			If you decide to take the standard deduction you determine that itemizing would not save you more money.
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #7 -->
+	<statement>
+		<p>
+			Shaysiah has paid $11,500 in mortgage interest which she can take as a deduction and has $1,500 in other deductions that she can take this year. She is filing as single. Should she itemize her deductions or take the standard deduction?
+		</p>
+	</statement>
+	<solution>
+		<p>
+			She should itemize because itemizing reduces her taxable income by $13,000. The standard deduction would have reduced her taxable income by $12,000.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		If you are married do you have to file your taxes together?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			You can either file as married filing jointly or married filing separately.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Fredrick is concerned about the effect of a raise on his taxes. He’s getting a raise of $3,000, putting him into a higher tax bracket by $1,000 dollars. He’s concerned about his entire income being taxed at 22% instead of 12%. Should he be concerned? Why or why not?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			No, he should not be concerned. Only the $1000 will be taxed at 22%. The rest of his income will be taxed at a lower level.
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #10 -->
+	<statement>
+		<p>
+			A single person with taxable income of $95,000 will have the first $9,525 of that income taxed at what rate? Determine the taxes owed on just the first $9,525.
+		</p>
+	</statement>
+	<solution>
+		<p>
+			The first $9,525 will be taxed at 10% resulting in $952.50 owed in taxes.
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #11 -->
+	<statement>
+		<p>
+			A single person with taxable income of $185,000 will have the first $9,525 of that income taxed at a different rate than the income between $9,525 and $38,700. Determine the taxes owed on just the second bracket.
+		</p>
+	</statement>
+	<solution>
+		<p>
+			There is a total of $29,175 between $9,525 and $38,700. 12% of $29,175 is $3,501.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Using the simplified 2018 tax table, determine the income tax owed for a single person who has $80,000 of taxable income.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			$80,000 falls into the third tax bracket. The first two brackets resulted in $952.50 and $3,501. The third bracket has $41,300 being taxed at the higher rate of 22%. This results in a tax of $13,539.50.
+		</p>
+		<p>
+			<m>4453.50+0.22*(80000-38700)=$13,539.50</m>
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #13 -->
+	<statement>
+		<p>
+			Doug and Chris are filing jointly. They owe $16,589 in taxes. Throughout the year they had $13,456 withheld from their paychecks, and they can claim an energy credit of $2,500 for purchasing a hybrid vehicle. Determine the amount they will need to pay or will get refunded.
+		</p>
+	</statement>
+	<solution>
+		<p>
+			$16,589 in taxes minus $13,456 for withholdings, and they can claim and $2,500 in credits. This leaves them owing $633.
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #14 -->
+	<statement>
+		<p>
+			Heather owes $7,589 in taxes. Throughout the year she had $6,456 withheld from her paychecks and she can claim an education credit of $1,980. Determine the amount she will need to pay or will get refunded.
+		</p>
+	</statement>
+	<solution>
+		<p>
+			$7,589 in taxes minus $6,456 for withholdings and education credit of $1,980. This leaves her refunded $847.
+		</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #15 -->
+	<statement>
+	<p>
+		Determine the amount of taxes owed or the refund that would result in this situation:
+	</p>
+	<p>
+	<ul>
+		<li>
+			<p>
+				Filing Status: Married filing jointly
+			</p>
+		</li>
+		<li>
+			<p>
+				Gross Income: $125,000
+			</p>
+		</li>
+		<li>
+			<p>
+				Adjustments: $5,600
+			</p>
+		</li>
+		<li>
+			<p>
+				Itemized Deductions: $11,400
+			</p>
+		</li>
+		<li>
+			<p>
+				Credits: $15,000
+			</p>
+			<p>
+			<ol label="a">
+				<li>
+					<p>
+						What is their adjusted gross income (AGI)?
+					</p>
+				</li>
+				<li>
+					<p>
+						Should they itemize or take the standard deduction?
+					</p>
+				</li>
+				<li>
+					<p>
+						Use the simplified 2018 tax tables to determine their taxes.
+					</p>
+				</li>
+				<li>
+					<p>
+						What is their final tax refund or amount still owed?
+					</p>
+				</li>
+			</ol>
+			</p>
+		</li>
+	</ul>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Take the income minus the adjustments <m>125000-5600=$119,400</m>. Their adjusted gross income is $119,400.
+				</p>
+			</li>
+			<li>
+				<p>
+					They should take the standard deduction because itemizing saves them less.
+				</p>
+			</li>
+			<li>
+				<p>
+					Taxable income: <m>119400-24000=95400</m>
+				</p>
+				<p>
+					Taxes owed: <m>8907+0.22*(95400-77400)=$12,867</m>
+				</p>
+				<p>
+					They owe $12,867 in taxes.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>12867-15000=-$2,133</m> Take the taxes owed minus credits and withholdings. They will receive a refund for $2,133. 
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Francis and Edward are planning to get married and they want to determine whether there is an advantage or disadvantage to marrying before the end of the year and filing their taxes jointly. Use the information below to calculate the amount they would owe or receive if they each filed as single, and the amount they would owe or receive if they filed jointly as a married couple. Which is the better choice?
+	</p>
+	<p>
+	<ul>
+		<li>
+			<p>
+				Filing Status: TBD
+			</p>
+		</li>
+		<li>
+			<p>
+				Francis' Gross Income: $35,000
+			</p>
+		</li>
+		<li>
+			<p>
+				Edward's Gross Income: $40,000
+			</p>
+		</li>
+		<li>
+			<p>
+				Francis' Adjustments: $7000
+			</p>
+		</li>
+		<li>
+			<p>
+				Edward's Adjustments: $3000
+			</p>
+		</li>
+		<li>
+			<p>
+				Francis' Withholdings: $14000
+			</p>
+		</li>
+		<li>
+			<p>
+				Edward's Withholdings: $5500
+			</p>
+		</li>
+		<li>
+			<p>
+				Francis' Credits: $4000
+			</p>
+		</li>
+		<li>
+			<p>
+				Edward's Credits: $5000
+			</p>
+		</li>
+	</ul>
+	</p>
+	</statement>
+	<solution>
+		<p>
+			SINGLE CASE:
+			<ul>
+				<li>
+					<p>
+						Francis: Taxable Income <m>35000-7000-12000 = $16,000</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						Tax from Table: <m> 952.5+0.12*(16000-9525) = $1,729.50</m> 
+					</p>
+				</li>
+				<li>
+					<p>
+						Owed/Refund: <m>1729.50 – 14000-4000 = -$ 16,270.50</m>
+					</p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<p>
+						Edward: Taxable Income <m> 40000-3000-12000 = $25,000</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						Tax from Table: <m>952.50+0.12*(25000-9525) = $2,809.50</m> 
+					</p>
+				</li>
+				<li>
+					<p>
+						Owed/Refund: <m> 2809.50 -5500-5000 = - $7,690.50</m>
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			Altogether, they will get a <m>16270.50+7690.50 = $23,961</m> refund. 
+		</p>
+		<p>
+			MARRIED CASE:
+			<ul>
+				<li>
+					<p>
+						Taxable income: <m>(35000+40000) – (7000+3000) – 24000 = $41,000</m> 
+					</p>
+				</li>
+				<li>
+					<p>
+						Tax from Table: <m>1905 + 0.12*(41000-19050) = $4,539</m> 
+					</p>
+				</li>
+				<li>
+					<p>
+						Owed/Refund: <m>4539 – (14000 + 5500) – (4000+5000) = - $23,961</m>
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			Same either way! No marriage penalty unless it takes away credits.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Janice is unmarried and has two kids. She earned $76,000 in wages last year, received $750 in interest from a savings account, and contributed $25,000 to a tax deferred savings account. Her itemized deductions are $19,600.
+	</p>
+	<p>
+	<ol label="a">
+		<li>
+			<p>
+				Determine Janice’s gross income.
+			</p>
+		</li>
+		<li>
+			<p>
+				Determine Janice’s adjusted gross income.
+			</p>
+		</li>
+		<li>
+			<p>
+				Should Janice take the standard deduction or itemize? Explain.
+			</p>
+		</li>
+		<li>
+			<p>
+				Determine Janice’s taxable income.
+			</p>
+		</li>
+		<li>
+			<p>
+				If Janice has $4,200 in child tax credits and had $6,300 withheld for taxes from her wages, will Janice owe money, or will she receive a refund? Calculate the amount.
+			</p>
+		</li>
+	</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Gross Income: <m> 76000+750 = $76,750</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					Adjusted Gross Income: <m> 76750-25000 = $51,750</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					She should take itemized deductions since they are greater than the standard deduction for head of household.
+				</p>
+			</li>
+			<li>
+				<p>
+					Taxable Income: <m> 51750-19600 = $32,150 </m>
+				</p>
+			</li>
+			<li>
+				<p>
+					Tax from Table: <m>1360+0.12*(32150-13600) = $3,586</m>. Owed/Refund: <m> 3586 – 4200 – 6300 = - $6,914</m>
+				</p>
+				<p>
+					Janice will receive a refund for $6,914.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+</exercises>
+</section>

@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="chap_three_review">
+<title>Chapter 3 Review Questions</title>
+
+<exercises>
+<title>Chapter 3 Review Questions</title>
+
+<exercise>
+	<statement>
+	<p>
+		Portland Community College serves nearly 73,000 full-time and part-time students in the greater Portland area at four main campuses (SE, Cascade, Sylvania, and RC). Student Affairs would like to know how students get to campus. They randomly select 250 students from each of the four main campus and ask them how they got to classes on campus. The following are the results of their survey:
+		<ul>
+			<li>
+				<p>
+					Public Transportation: 435
+				</p>
+			</li>
+			<li>
+				<p>
+					Driving: 475
+				</p>
+			</li>
+			<li>
+				<p>
+					Biking: 65
+				</p>
+			</li>
+			<li>
+				<p>
+					Walking: 30
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Identify the population and state its size.
+				</p>
+			</li>
+			<li>
+				<p>
+					Identify the sample and state its size.
+				</p>
+			</li>
+			<li>
+				<p>
+					What sampling method was used?
+				</p>
+			</li>
+			<li>
+				<p>
+					What type of data was collected? 
+				</p>
+			</li>
+			<li>
+				<p>
+					Give the statistic for the percentage of students who use public transportation.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The population is PCC students and 73,000 is the sample size.
+				</p>
+			</li>
+			<li>
+				<p>
+					The sample is 250 students from the 4 main campuses.
+				</p>
+			</li>
+			<li>
+				<p>
+					Stratified Sample
+				</p>
+			</li>
+			<li>
+				<p>
+					Categorical or Qualitative
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>435/1000 = 0.435 = 43.5\%</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+	
+<exercise>
+	<statement>
+	<p>
+		CNN conducted a survey of 500 American adults. 62% of those surveyed answered yes to the question, <q>Do you favor a law to ban the sale of assault weapons and semiautomatic rifles?</q> The reported margin of error was <m>\pm 4\%</m>.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					What population is being studied?
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the sample?
+				</p>
+			</li>
+			<li>
+				<p>
+					What type of data is this?
+				</p>
+			</li>
+			<li>
+				<p>
+					Is the 62% reported in the problem an example of a statistic or a parameter?
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the confidence interval? Is the confidence interval about the statistic or the parameter?
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain what the confidence interval tells you.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The population being studied is American adults.
+				</p>
+			</li>
+			<li>
+				<p>
+					The sample is 500 American adults.
+				</p>
+			</li>
+			<li>
+				<p>
+					Categorical or Qualitative
+				</p>
+			</li>
+			<li>
+				<p>
+					The 62% reported in the problem an example of a statistic because it comes from a sample.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>62\% - 4\% = 58\%</m> and <m>62\% + 4\% = 66\%</m>. The confidence interval is <m>(58\%, 66\%)</m> and it is in relation to the parameter.
+				</p>
+			</li>
+			<li>
+				<p>
+					We are confident that the true proportion of all adult Americans who favor a law to ban the sale of assault weapons and semi automatic rifles is between 58% and 66%.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A survey of 265 PCC students found that 23%, plus or minus 4% prefer to study at the library.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					What population is being studied?
+				</p>
+			</li>
+			<li>
+				<p>
+					What type of data was collected?
+				</p>
+			</li>
+			<li>
+				<p>
+					Is the reported 23% a statistic or a parameter?
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the margin of error?
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the confidence interval?
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain what the confidence interval tells you.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The population being studied is PCC Students.
+				</p>
+			</li>
+			<li>
+				<p>
+					Categorical or Qualitative
+				</p>
+			</li>
+			<li>
+				<p>
+					23% is a statistic because it is from a sample.
+				</p>
+			</li>
+			<li>
+				<p>
+					The margin of error is 4%.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>23\% - 4\% = 19\%</m> and <m>23\% + 4\% = 27\%</m>. The confidence interval is <m>(19\%, 27\%)</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					We are confident that the true proportion of all PCC students who prefer to study at the library is between 19% and 27%
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Identify the sampling method. Just the name will suffice.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Researchers select every 5th customer who walks into the store to take a survey.
+				</p>
+			</li>
+			<li>
+				<p>
+					Raffle tickets are distributed and collected in a bag, where they are mixed and ten are drawn for prizes.
+				</p>
+			</li>
+			<li>
+				<p>
+					I asked the shoppers near me in the shoe department what size they wear.
+				</p>
+			</li>
+			<li>
+				<p>
+					An IRS auditor randomly selects 25 taxpayers in each filing status (single, head of household, married filing jointly, and married filing separately).
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Systematic
+				</p>
+			</li>
+			<li>
+				<p>
+					Simple Random Sample
+				</p>
+			</li>
+			<li>
+				<p>
+					Convenience
+				</p>
+			</li>
+			<li>
+				<p>
+					Systematic
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Identify the most relevant source of bias in each situation.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					An opinion poll is posted on Facebook and Twitter asking how you are most likely to vote for in the next election.
+				</p>
+			</li>
+			<li>
+				<p>
+					Keller Auditorium ask all the people in the front three rows if they enjoyed the Broadway play.
+				</p>
+			</li>
+			<li>
+				<p>
+					To determine opinions on voter support for a downtown farmers market, a surveyor randomly questions people working close to the park where the farmers market would be.
+				</p>
+			</li>
+			<li>
+				<p>
+					A survey asks people to report the number of hours they work out each week.
+				</p>
+			</li>
+			<li>
+				<p>
+					A survey randomly calls people on their landlines and ask them if they would support a school bond measure in the next election.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Voluntary Response Bias
+				</p>
+			</li>
+			<li>
+				<p>
+					Sampling Bias
+				</p>
+			</li>
+			<li>
+				<p>
+					Sampling Bias
+				</p>
+			</li>
+			<li>
+				<p>
+					Response bias
+				</p>
+			</li>
+			<li>
+				<p>
+					Perceived lack of anonymity
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Identify whether each situation describes an observational study or an experiment. If it is an experiment.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Subjects are asked to run a mile and record their time.
+				</p>
+			</li>
+			<li>
+				<p>
+					Fifty students were asked to go to a quiet space in the library to memorize a poem. Fifty students were asked to go to a noisy location in the cafeteria to memorize the poem.  Each student recorded how much time it took to memorize the poem.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					Observational
+				</p>
+			</li>
+			<li>
+				<p>
+					Experiment
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		For the clinical trial of a migraine drug, subjects were randomly divided into two groups. The first received an inert pill, while the second received the test medicine. Patients were not aware of which group they were in. After one month, patients reported how many migraines they experienced.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Which is the treatment group?
+				</p>
+			</li>
+			<li>
+				<p>
+					Which is the control group (if there is one)?
+				</p>
+			</li>
+			<li>
+				<p>
+					Is this study blind, double-blind, or neither?
+				</p>
+			</li>
+			<li>
+				<p>
+					Is this best described as an experiment, a controlled experiment, or a placebo-controlled experiment?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The treatment group is the group receiving the test medicine for migraines.
+				</p>
+			</li>
+			<li>
+				<p>
+					The control group is the group receiving the inert pill.
+				</p>
+			</li>
+			<li>
+				<p>
+					This is a blind study.
+				</p>
+			</li>
+			<li>
+				<p>
+					This is a placebo-controlled experiment.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		In a recent study<fn><url href="https://clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1">https://clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1</url></fn>, 380 high risk adolescents involved in the juvenile justice system were recruited to test an app designed to increase mindfulness and reduce substance use. Participants were randomly and equally assigned to use the app (Rewire) or receive services as usual from the Department of Youth Services. Participants were assessed to determine a baseline for substance use at the beginning of the study, and were asked to complete follow up assessments after 1 and 3 months. Assessments consisted of online surveys asking about substance use, emotion regulation, family demographics, and mindfulness practices. Urine samples were collected at each interview to verify self-reported substance use.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Describe the treatment group.
+				</p>
+			</li>
+			<li>
+				<p>
+					Describe the control group (if there is one). 
+				</p>
+			</li>
+			<li>
+				<p>
+					Is this study blind, double-blind, or neither? Explain
+				</p>
+			</li>
+			<li>
+				<p>
+					Is this best described as an experiment, a controlled experiment, or a placebo-controlled experiment?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The treatment group is the group assigned to use the Rewire app.
+				</p>
+			</li>
+			<li>
+				<p>
+					The control group is the group that receives the usual services from the Department of Youth Services.
+				</p>
+			</li>
+			<li>
+				<p>
+					This study is neither blind nor double-blind because the researchers and the youth know whether they are using the Rewire app of receiving the usual services from the Department of Youth Services.
+				</p>
+			</li>
+			<li>
+				<p>
+					This is a controlled experiment.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		In a 2010 survey, US teens aged 12-18 were asked what their favorite movie genre was. The results are shown below.
+		<ul>
+			<li>
+				<p>
+					Action:351
+				</p>
+			</li>
+			<li>
+				<p>
+					Adventure: 171
+				</p>
+			</li>
+			<li>
+				<p>
+					Comedy: 651
+				</p>
+			</li>
+			<li>
+				<p>
+					Drama: 389
+				</p>
+			</li>
+			<li>
+				<p>
+					Horror: 287
+				</p>
+			</li>
+			<li>
+				<p>
+					Romance: 107
+				</p>
+			</li>
+			<li>
+				<p>
+					Undecided: 51
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					What is the implied population?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people were sampled?
+				</p>
+			</li>
+			<li>
+				<p>
+					What type of data is this?
+				</p>
+			</li>
+			<li>
+				<p>
+					Create a relative frequency bar chart of the results.
+				</p>
+			</li>
+			<li>
+				<p>
+					Create a pie chart of the results.
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain the advantages/disadvantages of the two charts.
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the statistic for the percentage of teens whose favorite movie genre is horror?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The implied population is United States teenagers.
+				</p>
+			</li>
+			<li>
+				<p>
+					There were 2007 teens surveyed.
+				</p>
+			</li>
+			<li>
+				<p>
+					Qualitative or Categorical
+				</p>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="70%" source="images/statistics/3_5/review_movie_solution1.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="70%" source="images/statistics/3_5/review_movie_solution2.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+			<li>
+				<p>
+					Answers will vary
+				</p>
+			</li>
+			<li>
+				<p>
+					About 14.3% of teens chose horror as their favorite movie genre.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A survey of 5325 Portland residents was conducted to determine the primary purpose of using TriMet. The results are shown below.
+	</p>
+	<sidebyside>
+	<image width="30%" source="images/statistics/3_5/review_trimet.png">
+		<description></description>
+	</image>
+	</sidebyside>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					How many people use TriMet for personal business?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people use TriMet to get to the airport?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					426 people use TriMet for personal business. <!-- <m>0.08 \times 5325 = 426</m> -->
+				</p>
+			</li>
+			<li>
+				<p>
+					479 people people use TriMet to get to the airport. <!-- <m>0.09 \times 5325 = 479</m> -->
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise> 
+
+<exercise>
+	<statement>
+	<p>
+		A group of college students were asked what the price of gas would need to be before they would start using public transportation to get to school instead of driving. Their responses in $/gallon are listed below:
+	</p>
+	<p>
+		5.25, 5.00, 4.25, 3.75, 5.00, 4.50, 3.95, 3.75, 5.75, 4.75, 3.25, 3.75, 4.75, 5.00, 8.95
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Find the mean and median. Round to two decimal places and include units.
+				</p>
+			</li>
+			<li>
+				<p>
+					Based on the mean and median, would you expect the distribution to be symmetric, skewed left, or skewed right? Explain.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the standard deviation. Round to two decimal places and include units.
+				</p>
+			</li>
+			<li>
+				<p>
+					Calculate the z-scores for the responses of $3.25 and $8.95. Are either of these values unusual? 
+				</p>
+			</li>
+			<li>
+				<p>
+					Determine the 5-number summary for the data.
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the range and IQR of the data set? Round to two decimal places and include units.
+				</p>
+			</li>
+			<li>
+				<p>
+					Use the 5-number summary to construct a box plot.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The mean is $4.78. The median is $4.75.
+				</p>
+			</li>
+			<li>
+				<p>
+					The mean and median is about the same value therefore the data is symmetric.
+				</p>
+			</li>
+			<li>
+				<p>
+					The standard deviation is $1.34.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>z_{$3.25}=\frac{$3.25-$4.78}{$1.34}=\frac{-$1.53}{$1.34}=-1.14</m>
+				</p>
+				<p>
+					<m>z_{$8.95}=\frac{$8.95-$4.78}{$1.34}=\frac{$4.17}{$1.34}=3.11</m>
+				</p>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="70%" source="images/statistics/3_5/review_five_num_summary.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+			<li>
+				<p>
+					<m>\text{Range}=$8.95-$3.25=$5.70</m>
+				</p>
+				<p>
+					<m>\text{IQR}=$5-$3.75=$1.25</m>
+				</p>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="70%" source="images/statistics/3_5/review_five_num_box.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		The following is a sample of scores from a recent Math 105 exam:
+	</p>
+	<p>
+		32, 71, 72, 73, 73, 73, 76, 77, 78, 78, 79, 86, 88, 88, 88, 94, 94, 99
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Find the mean of the data. Round to one decimal place if necessary.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the median of the data. Round to one decimal place if necessary. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Just comparing the mean and the median, do you expect the distribution to be skewed left, skewed right, or symmetric. Explain.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the standard deviation of the data. Round to one decimal place if needed.
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain what the mean and standard deviation tell you about the sampled test scores. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Is the score of 99 unusual? Use z-scores to support your claim.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the 5-number summary.
+				</p>
+			</li>
+			<li>
+				<p>
+					Use the 5-number summary to create a box plot.
+				</p>
+			</li>
+			<li>
+				<p>
+					Create a histogram of the data. Start your scale at 0, and use a bin size of 10.
+				</p>
+			</li>
+			<li>
+				<p>
+					Describe the shape of the distribution. Be sure to address all three characteristics (modality, symmetry, and outliers).
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The mean is about 78.9.
+				</p>
+			</li>
+			<li>
+				<p>
+					The median is 78.
+				</p>
+			</li>
+			<li>
+				<p>
+					The mean is greater than the median therefore the data is left skewed.
+				</p>
+			</li>
+			<li>
+				<p>
+					The standard deviation is about 14.5.
+				</p>
+			</li>
+			<li>
+				<p>
+					The majority of values are between 64.4 and 93.4.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>z=\frac{(99-78.9)}{14.5}=1.39</m>. This 99 is only 1.39 standard deviations above the mean. This is not unusual. Generally, a value should be more than three deviations  above or below the mean to be considered unusual.
+				</p>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="40%" source="images/statistics/3_5/review_five_num_summary2.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="70%" source="images/statistics/3_5/review_five_num_box2.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="70%" source="images/statistics/3_5/review_boxplot_summary2.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		The following table shows the cost of purchasing a car at a local dealership. Some of the cars sold were new and some were used.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell><line>Cost (Thousands</line><line>of dollars)</line></cell>
+			<cell>Frequency</cell>
+		</row>
+		<row>
+			<cell>12</cell>
+			<cell>6</cell>
+		</row>
+		<row>
+			<cell>15</cell>
+			<cell>7</cell>
+		</row>
+		<row>
+			<cell>18</cell>
+			<cell>12</cell>
+		</row>
+		<row>
+			<cell>22</cell>
+			<cell>10</cell>
+		</row>
+		<row>
+			<cell>30</cell>
+			<cell>12</cell>
+		</row>
+		<row>
+			<cell>32</cell>
+			<cell>11</cell>
+		</row>
+		<row>
+			<cell>40</cell>
+			<cell>6</cell>
+		</row>
+		<row>
+			<cell>45</cell>
+			<cell>6</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Find the mean and standard deviation of the data. Round to two decimal places and include units.
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain what standard deviation tell you about how much cars are selling for at this dealership.
+				</p>
+			</li>
+			<li>
+				<p>
+					Determine the five-number summary.
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the range and IQR?
+				</p>
+			</li>
+			<li>
+				<p>
+					Use the five-number summary to construct a boxplot of the data.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The mean is about $26,200 and the standard deviation is about $10,000.
+				</p>
+			</li>
+			<li>
+				<p>
+					The majority of cars sell for between $16,200 and $36,200.
+				</p>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="70%" source="images/statistics/3_5/review_five_num_summary3.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+			<li>
+				<p>
+					<m>\text{Range} = 45 - 12 = 33</m>
+				</p>
+				<p>
+					<m>\text{IQR}= 32 - 18 = 14</m>
+				</p>
+			</li>
+			<li>
+				<sidebyside>
+				<image width="70%" source="images/statistics/3_5/review_five_num_box3.png">
+					<description></description>
+				</image>
+				</sidebyside>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		The double box-and-whisker plot<fn><url href="https://brainly.com/question/11978942">Source: https://brainly.com/question/11978942</url></fn> shows the goals scored per game by two soccer teams during a 25 game season.
+	</p>
+	<sidebyside>
+	<image width="70%" source="images/statistics/3_5/review_teama_teamb.png">
+		<description></description>		
+	</image>
+	</sidebyside>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Estimate the 25th, 50th and 75th percentiles for Team A and Team B goals.
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the median number of goals for Team A? Team B?
+				</p>
+			</li>
+			<li>
+				<p>
+					What percentage of the goals for Team B is more than the maximum number of Team A?
+				</p>
+			</li>
+			<li>
+				<p>
+					What Team data is more symmetric?
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the shape of the distribution for Team B?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The 25th, 50th, and 75th percentile for Team A  goals are 2, 4, and 5, respectively.
+				</p>
+				<p>
+					The 25th, 50th, and 75th percentile for Team B  goals are 6, 8, and 9, respectively.
+				</p>
+			</li>
+			<li>
+				<p>
+					The Median for Team A is 4.
+				</p>
+				<p>
+					The Median for Team B is 8.
+				</p>
+			</li>
+			<li>
+				<p>
+					Fifty percent of the goals for Team B exceed the maximum number for goals for Team A.
+				</p>
+			</li>
+			<li>
+				<p>
+					The data for Team A is more symmetric than for Team B.
+				</p>
+			</li>
+			<li>
+				<p>
+					The data for Team B is skewed left.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Suppose you buy a new car whose advertised gas mileage is 35 mpg (miles per gallon). After driving the car for several months, you find that you are getting only 30.4 mpg. You phone the manufacturer and learn that the standard deviation for that model is 1.35 mpg.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Find the z-score for the gas mileage of your car.
+				</p>
+			</li>
+			<li>
+				<p>
+					Does it appear that your car is getting unusually low gas mileage? Explain your answer using your z-score.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					<m>z=\frac{(30.4-35)}{1.35}=\frac{-4.6}{1.35} \approx -3.41</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					30.4 mpg is 3.41 standard deviations below the mean so the car is getting unusually low gas mileage.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise> 
+
+<exercise>
+	<statement>
+	<p>
+		This data is a sample of the average number of minutes per week that a driver is delayed by road congestion in 13 cities:
+	</p>
+	<p>
+		66, 55, 53, 50, 36, 45, 34, 43, 52, 40, 76, 45, 63
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Find the mean and the standard deviation, including units.
+				</p>
+			</li>
+			<li>
+				<p>
+					What is the z-score for the city with an average delay time of 42 hours per week?
+				</p>
+			</li>
+			<li>
+				<p>
+					Is an average delay time of 42 hours per week unusual? Explain using the calculated z-score.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a">
+			<li>
+				<p>
+					The mean is approximately 50.6 minutes per week. The standard deviation approximately 12.2 minutes per week.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>z=\frac{(42-50.6)}{12.2} \approx -0.70</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					42 minutes per week is 0.70 standard deviations below the mean, so it is not unusual.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+</exercises>
+
+</section>

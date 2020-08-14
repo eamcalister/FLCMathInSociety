@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="chap_one_review">
+<title>Chapter 1 Review Questions</title>
+
+<exercises>
+<title>Chapter 1 Review Questions</title>
+
+<exercise>
+	<statement>
+	<p>
+		Identify which of the following is a proposition.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Airplanes are the safest form of travel.
+				</p>
+			</li>
+			<li>
+				<p>
+					Portland is a city in Oregon and Maine.
+				</p>
+			</li>
+			<li>
+				<p>
+					Is it raining outside?
+				</p>
+			</li>
+			<li>
+				<p>
+					Say what?
+				</p>
+			</li>
+			<li>
+				<p>
+					I'm going on vacation on Monday.
+				</p>
+			</li>
+			<li>
+				<p>
+					Everyone is addicted to technology.	
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Yes
+				</p>
+			</li>
+			<li>
+				<p>
+					Yes
+				</p>
+			</li>
+			<li>
+				<p>
+					No
+				</p>
+			</li>
+			<li>
+				<p>
+					No
+				</p>
+			</li>
+			<li>
+				<p>
+					Yes
+				</p>
+			</li>
+			<li>
+				<p>
+					Yes		
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		Write the negation of each proposition.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					I take public transportation to get to class.
+				</p>
+			</li>
+			<li>
+				<p>
+					I went to a movie on Friday.
+				</p>
+			</li>
+			<li>
+				<p>
+					I don't want to go golfing today.
+				</p>
+			</li>
+			<li>
+				<p>
+					I love watching basketball.
+				</p>
+			</li>
+			<li>
+				<p>
+					Breylynn's favorite color is green
+				</p>
+			</li>
+			<li>
+				<p>
+					Mirriam is a theater major.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					I don't take public transportation to get to class.
+				</p>
+			</li>
+			<li>
+				<p>
+					I didn't go to a movie on Friday.
+				</p>
+			</li>
+			<li>
+				<p>
+					I want to go golfing today
+				</p>
+			</li>
+			<li>
+				<p>
+					I don't love watching basketball.
+				</p>
+			</li>
+			<li>
+				<p>
+					Breylynn's favorite color is not green.
+				</p>
+			</li>
+			<li>
+				<p>
+					Mirriam is not a theater major.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					I like watching soccer or basketball.
+				</p>
+			</li>
+			<li>
+				<p>
+					You should pack shorts or capris for our vacation.
+				</p>
+			</li>
+			<li>
+				<p>
+					We should take the train or bus to Portland to Eugene.
+				</p>
+			</li>
+			<li>
+				<p>
+					I would like to paint the room grey or blue.
+				</p>
+			</li>
+			<li>
+				<p>
+					The best reality TV show is Amazing Race or Big Brother.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Inclusive
+				</p>
+			</li>
+			<li>
+				<p>
+					Inclusive
+				</p>
+			</li>
+			<li>
+				<p>
+					Exclusive
+				</p>
+			</li>
+			<li>
+				<p>
+					Exclusive
+				</p>
+			</li>
+			<li>
+				<p>
+					Exclusive
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		Express in the form of <em>if p, then q</em>. Identify p and q
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Doing homework helps increase your grade in class.
+				</p>
+			</li>
+			<li>
+				<p>
+					Riding public transportation will help you save money.
+				</p>
+			</li>
+			<li>
+				<p>
+					Squirrels, bury their food.
+				</p>
+			</li>
+			<li>
+				<p>
+					You will get sick if you eat too much candy.
+				</p>
+			</li>
+			<li>
+				<p>
+					Go to the doctor if you think you have the flu.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					If you do homework, then it helps increase your grade in class.
+				</p>
+			</li>
+			<li>
+				<p>
+					If you ride public transportation, then it will help you save money.
+				</p>
+			</li>
+			<li>
+				<p>
+					If it is a squirrel, then it will bury their food.
+				</p>
+			</li>
+			<li>
+				<p>
+					If you eat to much candy, then you will get sick.
+				</p>
+			</li>
+			<li>
+				<p>
+					If you think you have the flu, then go too the doctor.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+<exercise><!--  #5 -->
+	<statement>
+	<p>
+		Translate each statement from symbolic notation into English sentences. Let A represent <q>I will buy an iPhone</q> and Let B represent <q>I learn how to use new technology fast</q>.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Negation of A
+				</p>
+			</li>
+			<li>
+				<p>
+					Negation of B
+				</p>
+			</li>
+			<li>
+				<p>
+					A or B
+				</p>
+			</li>
+			<li>
+				<p>
+					A and not B
+				</p>
+			</li>
+			<li>
+				<p>
+					If B, then A
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					I will not buy an iPhone.
+				</p>
+			</li>
+			<li>
+				<p>
+					I do not learn how to use technology fast.
+				</p>
+			</li>
+			<li>
+				<p>
+					I will buy an iPhone or I learn how to use technology fast.
+				</p>
+			</li>
+			<li>
+				<p>
+					I will buy an iPhone and I don't learn how to use technology fast.
+				</p>
+			</li>
+			<li>
+				<p>
+					If I learn to use new technology, then I will buy an iPhone.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #6 -->
+	<statement>
+	<p>
+		Complete the truth table for the following.
+	</p>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Let A: I will buy an iPhone
+				</p>
+			</li>
+			<li>
+				<p>
+					Let B: I learn how to use new technology fast.
+				</p>
+			</li>
+		</ul>
+	</p>
+	<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>Not A</cell>
+				<cell>Not A and B</cell>
+				<cell>Not (Not A and B)</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>Not A</cell>
+				<cell>Not A and B</cell>
+				<cell>Not (Not A and B)</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+
+<exercise><!--  #7 -->
+	<statement>
+	<p>
+		Complete the truth table for the following<!--  and explain the meaning as it relates to the context of the problems -->.
+	</p>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Let A: I will buy an iPhone
+				</p>
+			</li>
+			<li>
+				<p>
+					Let B: I learn how to use new technology fast.
+				</p>
+			</li>
+		</ul>
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>If A, then B</cell>
+		</row>
+		<row>
+			<cell>T</cell>
+			<cell>T</cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>T</cell>
+			<cell>F</cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>F</cell>
+			<cell>T</cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>F</cell>
+			<cell>F</cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>A</cell>
+				<cell>B</cell>
+				<cell>If A, then B</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>T</cell>
+				<cell>F</cell>
+				<cell>F</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>T</cell>
+				<cell>T</cell>
+			</row>
+			<row>
+				<cell>F</cell>
+				<cell>F</cell>
+				<cell>T</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+	</solution>
+</exercise>
+
+<exercise><!--  #8 -->
+	<statement>
+	<p>
+		The following Venn Diagram shows how 70 customers at the local coffee shop like their coffee.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/language_logic_rules/1_4/like_your_coffee_venn.png">
+		</image>
+	</sidebyside>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					How many people only like cream in their coffee?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people put sugar in their coffee?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people put sugar or cream in their coffee?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people don't like cream in their coffee?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					<m>27</m> people only like cream in their coffee.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>13+20=33</m>
+				</p>
+				<p>
+					<m>33</m> people put sugar in their coffee
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>27+13+20=60</m>
+				</p>
+				<p>
+					<m>60</m> people put sugar or cream in their coffee.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>20+10=30</m>
+				</p>
+				<p>
+					<m>30</m> people don't like cream in their coffee.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #9 -->
+	<statement>
+	<p>
+		In a group of 30 students at PCC, 21 have Biology this term, 12 have Math 105 and 7 are studying both Biology and Math 105.
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Create a two-circle Venn diagram that summarizes the results of the survey.
+				</p>
+			</li>
+			<li>
+				<p>
+					How many students are not taking either course?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<sidebyside>
+					<image width="70%" source="images/language_logic_rules/1_4/bio_mth105_venn.png">
+				</image>
+				</sidebyside>
+			</li>
+			<li>
+				<p>
+					<m>30-26=4</m>
+				</p>
+				<p>
+					<m>4</m> students are not taking either course.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<exercise><!--  #10 -->
+	<statement>
+	<p>
+		The following data was collected at a local coffee shop. 120 customers were asked if they like coffee and chocolate. The results are in the table below.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell></cell>
+			<cell>Liked coffee</cell>
+			<cell>Disliked coffee</cell>
+			<cell>Total</cell>
+		</row>
+		<row>
+			<cell>Liked chocolate</cell>
+			<cell>23</cell>
+			<cell>37</cell>
+			<cell>60</cell>
+		</row>
+		<row>
+			<cell>Disliked chocolate</cell>
+			<cell>42</cell>
+			<cell>18</cell>
+			<cell>60</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		Create a two-circle Venn diagram that summarizes the results of the survey.
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+			<image width="70%" source="images/language_logic_rules/1_4/coffee_chocolate_venn.png">
+			</image>
+		</sidebyside>
+	</solution>
+</exercise>
+
+<exercise><!--  #11 -->
+	<statement>
+	<p>
+		A 120 people were surveyed and it reveals the following results about how people learn about news events happening around the world.
+	</p>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Twitter 35
+				</p>
+			</li>
+			<li>
+				<p>
+					Websites 55
+				</p>
+			</li>
+			<li>
+				<p>
+					Newspapers 10
+				</p>
+			</li>
+			<li>
+				<p>
+					Newspaper and Website 5 
+				</p>
+			</li>
+			<li>
+				<p>
+					Newspaper and Twitte 4
+				</p>
+			</li>
+			<li>
+				<p>
+					Website and Twitter 25
+				</p>
+			</li>
+			<li>
+				<p>
+					All three sources 3
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		<ol label="a">
+			<li>
+				<p>
+					Create a three-circle Venn diagram that summarizes the results of the survey.
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people get their news from Twitter or a Website?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people do not get their news from any of the three sources?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people use only Twitter?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many people use Twitter or a Website but not a Newspaper?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a">
+			<li>
+				<sidebyside>
+					<image width="70%" source="images/language_logic_rules/1_4/twitter_newspaper_website_venn.png">
+					</image>
+				</sidebyside>
+			</li>
+			<li>
+				<p>
+					<m>7+22+28+1+3+2=63</m>.
+				</p>
+				<p>
+					63 people get thier news from Twitter or a website.
+				</p>
+			</li>
+			<li>
+				<p>
+					53 people do not get their news from any of the three sources.
+				</p>
+			</li>
+			<li>
+				<p>
+					7 people use only Twitter.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>7+22+28=57</m>.
+				</p>
+				<p>
+					57 people use Twitter or a website, but not a newspaper.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</solution>
+</exercise>
+
+<!-- <exercisegroup>
+	<introduction>
+	<p>
+		Rewrite each of the following arguments in their <q>premise, premise, conclusion</q> form, and determine whether the argument is inductive or deductive. If the argument is inductive, determine deductive, use sets to illustrate and determine the validity of the argument, and state whether the argument is sound.
+	</p>
+	</introduction>
+<exercise>
+	<statement>
+	<p>
+		If an animal is a kitten, then it is a mammal. Tulip is a kitten. Tulip is a mammal.
+	</p>
+	</statement>
+	<solution>
+		<p>
+		</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		Doctors must know CPR. Trevon is a Doctor. Trevon knows CPR.
+	</p>
+	</statement>
+	<solution>
+		<p>
+		</p>
+	</solution>
+</exercise>
+</exercisegroup> -->
+
+<exercisegroup>
+	<introduction>
+	<p>
+		For each, draw the appropriate illustration of sets (Subset, Disjoint or Overlapping).Then put an X to represent the subject of the conclusion. Alternatively, use two question marks to illustrate the subject could fit into two locations. Finally, state if the conclusion is valid.
+	</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		All baseball parks have hotdogs.
+	</p>
+	<p>
+		<insert>Wrigley Field is a baseball park.</insert>
+	</p>
+	<p>
+		Wrigley Field has hotdogs.
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+			<image width="70%" source="images/language_logic_rules/1_4/baseball_hotdog_venn.png">
+			</image>
+		</sidebyside>
+		<p>
+			Valid and sound
+		</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		All dogs to run in the park.
+	</p>
+	<p>
+		<insert>Henry does not like to run in the park.</insert>
+	</p>
+	<p>
+		Henry is not a dog.
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+			<image width="70%" source="images/language_logic_rules/1_4/solution_animals_park.png">
+			</image>
+		</sidebyside>
+		<p>
+			Valid, but not sound
+		</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		Some students play sports.
+	</p>
+	<p>
+		<insert>Javeer plays soccer.</insert>
+	</p>
+	<p>
+		Javeer is a student.
+	</p>
+	</statement>
+	<solution>
+		<sidebyside>
+			<image width="70%" source="images/language_logic_rules/1_4/solution_students_sports.png">
+			</image>
+		</sidebyside>
+		<p>
+			Not valid and not sound
+		</p>
+	</solution>
+</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+	<p>
+		Name the common Fallacy. Identify the Premise(s) and Conclusion.
+	</p>
+	</introduction>
+<!-- <exercise>
+	<statement>
+	<p>
+		Kate posts inappropriate things on Facebook. I really don't think she should be the PTA President.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Premise: Kate posts inappropriate things on Facebook.
+		</p>
+		<p>
+			Conclusion: I really don't think she should be the PTA President.
+		</p>
+		<p>
+			Fallacy: Strawman / Strawperson
+		</p>
+	</solution>
+</exercise> -->
+<exercise>
+	<statement>
+	<p>
+		Most people find out what's happening on Twitter or Facebook, so it is the most reliable source for news.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Premise: Most people find out what's happening on Twitter or Facebook.
+		</p>
+		<p>
+			Conclusion: It is the most reliable source for news.
+		</p>
+		<p>
+			Fallacy: Appeal to popularity
+		</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		<q>Finding the Loch Ness Monster</q> has yet to provide evidence that Loch Ness exists, so all those sightings are obviously bogus.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Premise: <q>Finding the Loch Ness Monster</q> has yet to provide evidence that Loch Ness exists.
+		</p>
+		<p>
+			Conclusion: All those sightings are obviously bogus.
+		</p>
+		<p>
+			Fallacy: Appeal to ignorance
+		</p>
+	</solution>
+</exercise>
+<exercise>
+	<statement>
+	<p>
+		Sampson bought a new car, and then he got a traffic ticket for speeding. Buying the new car must have caused him to speed.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Premise: Sampson bought a new car, and then he got a traffic ticket for speeding.
+		</p>
+		<p>
+			Conclusion: Buying the new car must have caused him to speed.
+		</p>
+		<p>
+			Fallacy: Post Hoc
+		</p>
+	</solution>
+</exercise>
+
+</exercisegroup>
+
+</exercises>
+
+</section>

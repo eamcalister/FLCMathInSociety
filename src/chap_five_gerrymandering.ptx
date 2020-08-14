@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="chap_five_gerrymandering">
+<title>Gerrymandering and How to Measure It</title>
+
+<objectives>
+<title><xref ref="chap_five_gerrymandering"></xref></title>
+	<introduction>
+		<p>
+			Students will be able to:
+		</p>
+	</introduction>
+			<ul>
+				<li>
+					<p>
+						Calculate the efficiency gap for a given map
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate the percentage of the population that each seat represents
+					</p>
+				</li>
+				<li>
+					<p>
+						Determine the number of seats that the efficiency gap represents
+					</p>
+				</li>
+				<li>
+					<p>
+						Draw district boundaries to form a gerrymandered map and a fair map
+					</p>
+				</li>
+			</ul>
+</objectives>
+
+<subsection>
+<title>Forming State Legislative Districts</title>
+	<p>
+		As we saw in <xref ref="chap_five_apportionment"></xref> the U.S. House of Representatives has 435 seats that are re-apportioned among the states every 10 years after the census. For example, in Oregon we currently have 5 legislative districts. After the 2020 census is finished, that number could change. It has been projected that Oregon may get a 6th representative due to population growth from 2010 to 2020.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/district_pic.jpg"></image>
+	</sidebyside>
+	<p>
+		After the reapportionment, it is up to each state government to divide their population into equal districts which each elect their representative to the U.S. House. As this Mail Tribune article<fn><url href="https://mailtribune.com/news/top-stories/oregon-could-add-a-congressional-district-but-not-without-disruptive-fight">https://mailtribune.com/news/top-stories/oregon-could-add-a-congressional-district-but-not-without-disruptive-fight</url></fn> suggests, it may be challenging to draw new boundaries to change Oregon from 5 to 6 districts.
+	</p>
+	<p>
+		Each representative should represent approximately the same number of people, but their areas may not be the same. Due to different population densities in urban and rural areas, you can see in the map of Oregon that the districts are not geographically equal.
+	</p>
+	<p>
+		Currently in most states, the state legislature draws the district boundaries. That means the party in power is in charge of drawing the new districts and they could redraw the lines to help their own party. This is called gerrymandering. <alert>Gerrymandering</alert>, pronounced, <q>Jerrymandering,</q> is when districts are drawn to the political advantage of those drawing the boundaries.
+	</p>
+	<p>
+		Gerrymandering got its name from Elbridge Gerry, the governor of Massachusetts who signed a bill in 1812 that created the unusual district pictured here that looked like a salamander. It gave then Democrat-Republicans a bigger state Senate majority, even though the Federalist party got more votes statewide.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/district_pic2.jpg"></image>
+	</sidebyside>
+	<p>
+		Some other well-known gerrymanders are Pennsylvania’s <q><url href="/washingtonpost.com/blogs/the-fix/post/name-that-district-contest-winner-goofy-kicking-donald-duck/2011/12/29/gIQA2Fa2OP_blog.html">Goofy Kicking Donald Duck</url></q> and Ohio’s <q><url href="https://en.wikipedia.org/wiki/Ohio%27s_9th_congressional_district">Lake Erie Monster</url>.</q>
+	</p>
+	<p>
+		Gerrymandering has occurred by both parties. Gerrymandering by race is illegal due to the Voting Rights Act of 1965, so people of color cannot be spread out to dilute their vote. Groups with similar interests may want to be put together to form voting blocks, but that is controversial. Gerrymandering by political party has been the subject of many lawsuits and Supreme Court cases. One of the challenges is how to measure gerrymandering to prove that it has occurred. The measurement must be easy to explain and understand in court.
+	</p>
+	<p>
+		Several ways to measure gerrymandering have been proposed. Some of the first methods used geometry to measure how compact a district is, rather than the sprawling salamander. But it has been shown that being compact does not equate with fairness. More recent methods use computer simulations to determine whether a certain map is an extreme outlier compared to other possible maps, or measure something called <url href="https://projects.fivethirtyeight.com/partisan-gerrymandering-north-carolina/">partisan bias</url>.
+	</p>
+	<p>
+		In this book we will focus on the efficiency gap, proposed in 2015 by Nicholas Stephanopoulos and Eric McGhee. The <alert>efficiency gap</alert> is a measure of the advantage one party has over the other party due to the partisanship of the voters in each district.
+	</p>
+	<p>
+		We will learn how to calculate and interpret the efficiency gap. First, let’s look at a simplified state map and draw some districts.
+	</p>
+</subsection>
+
+<subsection>
+<title>How to Gerrymander</title>
+	<p>
+		There are two main ways to gerrymander a map, by packing and cracking. <alert>Packing</alert> is when all the people of one political party are packed into a district. Since a party only needs a plurality or majority to win, all those extra votes would be surplus. <alert>Cracking</alert> dilutes a party’s votes by spreading out the voters so they can’t win as many districts.
+	</p>
+	<p>
+		Here is a small sample map to see how this works. In this fictitious state, we have 35 people and 5 districts. So we will need 7 people in each district. You can see how they are spread out in the map below, with Republicans denoted by R’s and Democrats marked with D’s. To keep it simple, we are only looking at two parties and they will need a majority to win an election. We are also assuming that all voters will vote and that they vote according to their party which may not always be the case.
+	</p>
+	<figure>
+	<caption>A simplified state map</caption>
+		<image width="70%" source="images/democracy/5_4/simplified_state_map1.png"></image>
+	</figure>
+</subsection>
+
+<subsection>
+<title>Proportionality</title>
+	<p>
+		For a map to be fair, we would expect the portion of seats that a political party wins in an election to be about the same as the portion of that party in the state. This is called <alert>proportionality</alert>. For example, if a state is 50:50 Democrat to Republican, they should each get about half of the seats. There is nothing in the constitution that guarantees proportionality, but this is a basic measure of fairness.
+	</p>
+	<p>
+		For example, in our state above, we have a population that is close to 50:50, but an odd number of seats. How do we draw the district lines to be fair? We would expect to have either 3 Republicans and 2 Democrats or 2 Republicans and 3 Democrats. Before we draw a fair map, let’s try gerrymandering it for Democrats and then for the Republicans.
+	</p>
+	<example>
+		<statement>
+		<p>
+			We will first try to advantage the Democrats. There are 7 people in each district, so a party needs 4 votes to win the election. We will draw the lines to put 4 Democrats in each district along with 3 Republicans to spread them out by cracking. Here is our map.
+		</p>
+		<figure>
+		<caption>The map gerrymandered in favor of Democrats</caption>
+			<image width="70%" source="images/democracy/5_4/simplified_state_map2.png"></image>
+		</figure>
+		<p>
+			We were able to get 4 Democrats and 3 Republicans in districts 1, 2, 3 and 5. The Republicans will win in district 4 because it will be 5-2, but if the 5th Republican had been in another district, the map would have been more fair. As it is drawn, the population is 17:18 but the seats are 1:4, which does not seem fair.
+		</p>
+		</statement>
+	</example>
+</subsection>
+
+<subsection>
+<title>The Efficiency Gap</title>
+	<p>
+		To try to measure how unfair the map is, let’s learn how to calculate the efficiency gap. First, we will tally the votes in the table below, and note how the election results would turn out by highlighting the party with more voters in each district. For example, there are 4 D’s and 3 R’s in district 1, so the Democrats would theoretically win that district.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>District</cell>
+			<cell>D Votes</cell>
+			<cell>R Votes</cell>
+			<cell>D Surplus Votes</cell>
+			<cell>R Surplus Vote</cell>
+		</row>
+		<row>
+			<cell>1</cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>2</cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>3</cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>4</cell>
+			<cell>2</cell>
+			<cell>5</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>5</cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell>18</cell>
+			<cell>17</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		Election Results:
+		<ul>
+			<li>
+				<p>
+					Democrats win 4 seats
+				</p>
+			</li>
+			<li>
+				<p>
+					Republicans win 1 seat
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		Next, we will calculate how many votes would be extra over the amount needed to win the election. These are the <alert>surplus votes</alert>. In this example, with 7 voters, the majority of a district is 4 votes, so we will subtract 4 from each winning side. From each losing side, all of the votes are considered surplus because they did not go toward electing a candidate of their party. Then we add all the surplus votes for each party.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>District</cell>
+			<cell>D Votes</cell>
+			<cell>R Votes</cell>
+			<cell>D Surplus Votes</cell>
+			<cell>R Surplus Vote</cell>
+		</row>
+		<row>
+			<cell>1</cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell><m>4-4=0</m></cell>
+			<cell>3</cell>
+		</row>
+		<row>
+			<cell>2</cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell><m>4-4=0</m></cell>
+			<cell>3</cell>
+		</row>
+		<row>
+			<cell>3</cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell><m>4-4=0</m></cell>
+			<cell>3</cell>
+		</row>
+		<row>
+			<cell>4</cell>
+			<cell>2</cell>
+			<cell>5</cell>
+			<cell>2</cell>
+			<cell><m>5-4=1</m></cell>
+		</row>
+		<row>
+			<cell>5</cell>
+			<cell>4</cell>
+			<cell>3</cell>
+			<cell><m>4-4=0</m></cell>
+			<cell>3</cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell>18</cell>
+			<cell>17</cell>
+			<cell>2</cell>
+			<cell>13</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		The difference between the surplus votes as a percentage of the population is the efficiency gap. As a formula it is written:
+	</p>
+	<p>
+		<m>\frac{\text{Party A Surplus Votes } - \text{ Party B Surplus Votes}}{\text{Total Votes}}</m>
+	</p>
+	<p>
+		To get a positive result, we put the larger number first and we have
+	</p>
+	<p>
+		<m>\frac{13-2}{35}=\frac{11}{35} \approx 0.314</m> or, 31.4%.
+	</p>
+	<p>
+		The efficiency gap is 31.4%. To understand what this percentage means, we compare it with the percentage that each district represents in the state. Since our state has 5 districts, each one is 20% of the population. Here’s how we got that by dividing or as a fraction of the state.
+	</p>
+	<p>
+		<m>100\% \div 5</m> districts <m>=20\%</m>, or, <m>\frac{1}{5}=0.20</m> or, 20%
+	</p>
+	<p>
+		In this case, the efficiency gap is worth more than one full seat, which suggests that the Democratic party has at least one extra seat than they would with proportional representation.
+	</p>
+	<example>
+		<statement>
+		<p>
+			For another example, we will take the same map and gerrymander it for the Republicans. This time we will pack as many Democrats as we can into the middle, and then use cracking to form the rest of the districts, trying to get 4 R’s in as many as we can. Here is the map.
+		</p>
+		<figure>
+		<caption>The map gerrymandered in favor of Republicans</caption>
+			<image width="70%" source="images/democracy/5_4/simplified_state_map3.png"></image>
+		</figure>
+		<p>
+			Now, let's fill in our table:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>District</cell>
+				<cell>D Votes</cell>
+				<cell>R Votes</cell>
+				<cell>D Surplus Votes</cell>
+				<cell>R Surplus Vote</cell>
+			</row>
+			<row>
+				<cell>1</cell>
+				<cell>3</cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell><m>4-4=0</m></cell>
+			</row>
+			<row>
+				<cell>2</cell>
+				<cell>7</cell>
+				<cell>0</cell>
+				<cell><m>7-4=3</m></cell>
+				<cell>0</cell>
+			</row>
+			<row>
+				<cell>3</cell>
+				<cell>3</cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell><m>4-4=0</m></cell>
+			</row>
+			<row>
+				<cell>4</cell>
+				<cell>2</cell>
+				<cell>5</cell>
+				<cell>2</cell>
+				<cell><m>5-4=1</m></cell>
+			</row>
+			<row>
+				<cell>5</cell>
+				<cell>3</cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell><m>4-4=0</m></cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>18</cell>
+				<cell>17</cell>
+				<cell>14</cell>
+				<cell>1</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Election Results:
+			<ul>
+				<li>
+					<p>
+						Democrats win 1 seat
+					</p>
+				</li>
+				<li>
+					<p>
+						Republicans win 4 seats
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			To calculate our efficiency gap,
+		</p>
+		<p>
+			<m>\frac{\text{Party A Surplus Votes } - \text{ Party B Surplus Votes}}{\text{Total Votes}} = \frac{14-1}{35}=\frac{13}{35} \ approx 0.371</m> or, 37.1%.
+		</p>
+		<p>
+			This shows the opposite unfairness where the population is 17:18 but the seats are 4:1. We can calculate the number of seats that the efficiency gap is worth by dividing 37.1% by 20%.
+		</p>
+		<p>
+			<m>37.1\% \div 20\% = 1.855</m>
+		</p>
+		<p>
+			The efficiency gap is worth approximately 1.9 seats.
+		</p>
+		<p>
+			Stephanopoulos and McGhee gave a guideline of around 8% or less for the efficiency gap and this one is 37.1%. The Republicans have at least one extra seat than they would if the seats were proportional to the population.
+		</p>
+		</statement>
+	</example>
+
+	<example>
+		<statement>
+		<p>
+			Now we will try to create a fair map and see what the efficiency gap is. There are an odd number of districts and the population is 17:18 so it might be challenging to make it fair.
+		</p>
+		<figure>
+		<caption>A more fair map</caption>
+			<image width="70%" source="images/democracy/5_4/simplified_state_map4.png"></image>
+		</figure>
+		<p>
+			With this map, we tried to have two districts that favored Democrats, two that favored Republicans, and one that might go either way. Since there is one extra Democrat, the population is 17:18 and the seats are 2:3
+		</p>
+		<p>
+			Let’s see how the efficiency gap comes out in this situation:
+		</p>
+		<sidebyside>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell>District</cell>
+				<cell>D Votes</cell>
+				<cell>R Votes</cell>
+				<cell>D Surplus Votes</cell>
+				<cell>R Surplus Vote</cell>
+			</row>
+			<row>
+				<cell>1</cell>
+				<cell>3</cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell><m>4-4=0</m></cell>
+			</row>
+			<row>
+				<cell>2</cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell><m>4-4=0</m></cell>
+				<cell>3</cell>
+			</row>
+			<row>
+				<cell>3</cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell><m>4-4=0</m></cell>
+				<cell>3</cell>
+			</row>
+			<row>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell><m>4-4=0</m></cell>
+			</row>
+			<row>
+				<cell>5</cell>
+				<cell>4</cell>
+				<cell>3</cell>
+				<cell><m>4-4=0</m></cell>
+				<cell>3</cell>
+			</row>
+			<row>
+				<cell>Total</cell>
+				<cell>18</cell>
+				<cell>17</cell>
+				<cell>6</cell>
+				<cell>9</cell>
+			</row>
+		</tabular>
+		</sidebyside>
+		<p>
+			Election Results:
+			<ul>
+				<li>
+					<p>
+						Democrats win 3 seats
+					</p>
+				</li>
+				<li>
+					<p>
+						Republicans win 2 seats
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			The efficiency gap is
+		</p>
+		<p>
+			<m>\frac{\text{Party A Surplus Votes } - \text{ Party B Surplus Votes}}{\text{Total Votes}} = \frac{9-6}{35}=\frac{3}{35} \ approx 0.0857</m> or, 8.57%.
+		</p>
+		<p>
+			This gap is much smaller than in our gerrymandered examples and near the 8% guideline. Due to the odd number of seats and even distribution of the parties, this is as small as we can get the efficiency gap in this situation. It is much less than 20%, which is one seat.
+		</p>
+		<p>
+			<m>8.57\% \div 20\% = 0.4285</m>
+		</p>
+		<p>
+			The efficiency gap is worth less than half a seat or about 0.42 seats.
+		</p>
+	</statement>
+	</example>
+
+	<p>
+		There are still many court cases in progress alleging gerrymandered maps so it seems like a new solution is needed. Some alternatives are appointing independent commissions to draw the lines, or changing the system altogether with <url href="https://www.fairvote.org/fair_representation#what_is_fair_voting">proportional representation</url>. The statisticians at FiveThirtyEight used a web application to draw new lines in all of the states according to six different measures. You can read about it in <url href="https://fivethirtyeight.com/features/hating-gerrymandering-is-easy-fixing-it-is-harder/">this article</url>.
+	</p>
+</subsection>
+
+<exercises>
+<title>Exercises</title>
+
+<exercise>
+	<statement>
+	<p>
+		When does redistricting of state districts happen?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Redistricting happens every 10 years after the census is completed. A state might not change its districts unless the number of seats in the U.S. House of Representatives has changed.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Who determines where the district lines are drawn?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			Each state government is in charge of drawing the lines.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		What are the two rules for drawing district lines?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The rules are districts must be contiguous and you can’t gerrymander by race.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		What are the two ways to gerrymander?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The two ways to gerrymander are by packing, putting all of one party in a district, or by cracking, splitting up a party into many districts, so their votes are ineffective.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		If a state with 7 seats is 62% Republican and 38% Democrat, how many seats would each party have if the representation was proportional?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The most proportional representation would be 4 Republican seats and 3 Democratic seats.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		If a state with 12 seats is 43% Republican and 57% Democrat, how many seats would each party have if the representation was proportional?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The most proportional representation would be 5 Republican seats and 7 Democratic seats.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		If a state with 3 seats is 4/5 Republican and 1/5 Democrat, how many seats would each party have if the representation was proportional?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The most proportional representation would be 2 Republican seats and 1 Democratic seat.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		If a state with 9 seats is 3/8 Republican and 5/8 Democrat, how many seats would each party have if the representation was proportional?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The most proportional representation would be 3 Republican seats and 6 Democratic seats.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		If a state with 11 seats is 52% Republican, 40% Democrat and 8% Green Party, how many seats would each party have if the representation was proportional?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The most proportional representation would be 6 Republican seats, 4 Democratic seats and 1 Green Party seat.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		If a state with 18 seats is 31% Republican, 58% Democrat and 11% Progressive Party, how many seats would each party have if the representation was proportional?
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The most proportional representation would be 6 Republican seats, 10 Democratic seats and 2 Progressive Party seats.
+		</p>
+	</solution>
+</exercise>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			For each map in problems 11-20,
+		</p>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						How many votes are needed for a majority?
+					</p>
+				</li>
+				<li>
+					<p>
+						How many seats are won by each party?
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate the efficiency gap.
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate the percentage of the state that each district represents.
+					</p>
+				</li>
+				<li>
+					<p>
+						How many district seats the efficiency gap is worth?
+					</p>
+				</li>
+				<li>
+					<p>
+						Explain whether you think the map is fair and why or why not.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 4 districts with 7 people in each district.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_11.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 4 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 2 seats and the Republicans won 2 seats.			
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>5/28= 17.86 \%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>1</cell>
+							<cell>6</cell>
+							<cell>1</cell>
+							<cell><m>6-4=2</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>3</cell>
+							<cell>4</cell>
+							<cell>2</cell>
+							<cell><m>4-4=0</m></cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>6</cell>
+							<cell>1</cell>
+							<cell><m>6-4=2</m></cell>
+							<cell>1</cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>7</cell>
+							<cell>0</cell>
+							<cell><m>7-4=3</m></cell>
+							<cell>0</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>17</cell>
+							<cell>11</cell>
+							<cell>8</cell>
+							<cell>3</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 25% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth less than one seat (0.71).
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is ok because the efficiency gap is less than one seat. It should either be D3, R1 or D2, R2.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 4 districts with 9 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_12.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 5 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won all 4 seats.			
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>13/36= 36.11\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+							<cell>4</cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+							<cell>4</cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>6</cell>
+							<cell>2</cell>
+							<cell><m>6-5=1</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+							<cell>4</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>21</cell>
+							<cell>15</cell>
+							<cell>1</cell>
+							<cell>14</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 25% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth 1.44 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because the efficiency gap is more than one seat. A fairer map would be D3, R1.			
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 5 districts with 5 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_13.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 3 votes.		
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won all 4 seats.				
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>7/25= 28\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>2</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>2</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>4</cell>
+							<cell>1</cell>
+							<cell><m>4-3=1</m></cell>
+							<cell>1</cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>2</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>21</cell>
+							<cell>15</cell>
+							<cell>8</cell>
+							<cell>1</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 20% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth 1.4 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because the efficiency gap is more than one seat. A fairer map would be D3, R2 or D2, R3.	
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 5 districts with 7 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_14.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 4 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 3 seats and the Republicans won 2 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>3/35= 8.57\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>3</cell>
+							<cell>4</cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>5</cell>
+							<cell>2</cell>
+							<cell><m>5-4=1</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>3</cell>
+							<cell>4</cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>5</cell>
+							<cell>2</cell>
+							<cell><m>5-4=1</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>5</cell>
+							<cell>2</cell>
+							<cell><m>5-4=1</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>21</cell>
+							<cell>14</cell>
+							<cell>9</cell>
+							<cell>6</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 20% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth less than one seat (0.43).
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is fair because the efficiency gap is around 8% and the representation is exactly proportional to the population.	
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 5 districts with 9 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_15.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						MISSING
+					</p>
+				</li>
+				<li>
+					<p>
+						MISSING
+					</p>
+				</li>
+				<li>
+					<p>
+						Partially missing?
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>2</cell>
+							<cell>7</cell>
+							<cell>2</cell>
+							<cell><m>7-5=2</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+							<cell>4</cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell>7</cell>
+							<cell>2</cell>
+							<cell><m>7-5=2</m></cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+							<cell>4</cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>18</cell>
+							<cell>27</cell>
+							<cell>8</cell>
+							<cell>12</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 20% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth less than one seat (0.44).
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is fair because the efficiency gap is around 8% and the representation is exactly proportional to the population.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 5 districts with 11 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_16.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 6 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 1 seats and the Republicans won 4 seats.		
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>17/55= 30.91\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>5</cell>
+							<cell>6</cell>
+							<cell>5</cell>
+							<cell><m>6-6=0</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>5</cell>
+							<cell>6</cell>
+							<cell>5</cell>
+							<cell><m>6-6=0</m></cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>7</cell>
+							<cell>4</cell>
+							<cell><m>7-6=1</m></cell>
+							<cell>4</cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>5</cell>
+							<cell>6</cell>
+							<cell>5</cell>
+							<cell><m>6-6=0</m></cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>5</cell>
+							<cell>6</cell>
+							<cell>5</cell>
+							<cell><m>6-6=0</m></cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>27</cell>
+							<cell>28</cell>
+							<cell>21</cell>
+							<cell>4</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 20% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth 1.55 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because the efficiency gap is more than one seat. A more fair map would be D2, R3.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 6 districts with 5 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_17.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 3 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 5 seats and the Republicans won 1 seat.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>12/30= 40\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>3</cell>
+							<cell>2</cell>
+							<cell><m>3-3=0</m></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell>6</cell>
+							<cell>0</cell>
+							<cell>5</cell>
+							<cell>0</cell>
+							<cell><m>5-3=2</m></cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>15</cell>
+							<cell>15</cell>
+							<cell>0</cell>
+							<cell>12</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 16.67% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth 2.4 seats.		
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because the efficiency gap is more than one seat. A more fair map would be D3, R3 because the population is evenly split.	
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 6 districts with 7 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_18.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 4 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 1 seat and the Republicans won 5 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>16/42= 38.10\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>3</cell>
+							<cell>4</cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>2</cell>
+							<cell>5</cell>
+							<cell>2</cell>
+							<cell><m>5-4=1</m></cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>3</cell>
+							<cell>4</cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>3</cell>
+							<cell>4</cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>7</cell>
+							<cell>0</cell>
+							<cell><m>7-4=3</m></cell>
+							<cell>0</cell>
+						</row>
+						<row>
+							<cell>6</cell>
+							<cell>3</cell>
+							<cell>4</cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>21</cell>
+							<cell>21</cell>
+							<cell>17</cell>
+							<cell>1</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 16.67% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth 2.3 seats.		
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because the efficiency gap is more than one seat. A more fair map would be D3, R3 because the population is evenly split.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 6 districts with 9 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_19.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 5 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 1 seat and the Republicans won 5 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>6/54= 11.11\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>2</cell>
+							<cell>7</cell>
+							<cell>2</cell>
+							<cell><m>7-5=2</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>2</cell>
+							<cell>7</cell>
+							<cell>2</cell>
+							<cell><m>7-5=2</m></cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>9</cell>
+							<cell>0</cell>
+							<cell><m>9-5=4</m></cell>
+							<cell>0</cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>2</cell>
+							<cell>7</cell>
+							<cell>2</cell>
+							<cell><m>7-5=2</m></cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>1</cell>
+							<cell>8</cell>
+							<cell>1</cell>
+							<cell><m>8-5=3</m></cell>
+						</row>
+						<row>
+							<cell>6</cell>
+							<cell>4</cell>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>20</cell>
+							<cell>34</cell>
+							<cell>15</cell>
+							<cell>9</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 16.67% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth less than 1 seat. (0.67)
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because even though the efficiency gap is less than one seat, The Democrats should have at least 2 seats. A more fair map would be D2, R4.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 6 districts with 11 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_20.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						A majority is 6 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 4 seats and the Republicans won 2 seats.	
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>26/66= 39.39\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>0</cell>
+							<cell>11</cell>
+							<cell>0</cell>
+							<cell><m>11-6=5</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>8</cell>
+							<cell>3</cell>
+							<cell><m>8-6=2</m></cell>
+							<cell>3</cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell>0</cell>
+							<cell>11</cell>
+							<cell>0</cell>
+							<cell><m>11-6=5</m></cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>6</cell>
+							<cell>5</cell>
+							<cell><m>6-6=0</m></cell>
+							<cell>5</cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>6</cell>
+							<cell>5</cell>
+							<cell><m>6-6=0</m></cell>
+							<cell>5</cell>
+						</row>
+						<row>
+							<cell>6</cell>
+							<cell>6</cell>
+							<cell>5</cell>
+							<cell><m>6-6=0</m></cell>
+							<cell>5</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>26</cell>
+							<cell>40</cell>
+							<cell>2</cell>
+							<cell>28</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 16.67% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth 2.36 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because the efficiency gap is worth more than one seat. The Republicans should have at least 3 seats. A more fair map would be D3, R3 or D2, R4.		
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			For each map in problems 21-24, draw your own districts to find
+		</p>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						The most seats you can win for the Democrats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The most seats you can win for the Republicans.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 5 districts with 7 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_21.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						The most seats that can be won by the Democrats is 4 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The most seats that can be won by the Republicans is 4 seats.		
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 5 districts with 9 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_22.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						The most seats that can be won by the Democrats is 4 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The most seats that can be won by the Republicans is 4 seats.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 6 districts with 7 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_23.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						The most seats that can be won by the Democrats is 4 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The most seats that can be won by the Republicans is 5 seats.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 6 districts with 9 people in each.
+	</p>
+	<sidebyside>
+		<image width="70%" source="images/democracy/5_4/exercise_24.png"></image>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a">
+				<li>
+					<p>
+						The most seats that can be won by the Democrats is 6 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The most seats that can be won by the Republicans is 4 seats.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+</exercisegroup>
+
+</exercises>
+
+</section>
