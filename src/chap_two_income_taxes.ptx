@@ -117,13 +117,13 @@
 			To calculate Sasha’s adjusted gross income, we need to first determine his gross income. His gross income includes his wages and earned interest:
 		</p>
 		<p>
-			Gross Income <m>=$45,000+$1,300=$46,300</m>
+			Gross Income <m>=\$45,000+\$1,300=\$46,300</m>
 		</p>
 		<p>
 			To find his adjusted gross income, we need to subtract eligible adjustments from his gross income. His eligible adjustments include the interest paid on his student loans, and his contributions to his IRA:
 		</p>
 		<p>
-			Adjusted Gross Income <m>=$46,300-$1,400-$4,000=$40,900</m>
+			Adjusted Gross Income <m>=\$46,300-\$1,400-\$4,000=\$40,900</m>
 		</p>
 	</example>
 </subsection>
@@ -324,18 +324,18 @@
 			</p>
 			<p>
 				<md>
-					<mrow>0.10($9,525)+0.12($38,700-$9,525)+0.22($55,100-$38,700)</mrow>
-					<mrow>=0.10($9,525)+0.12($29,175)+0.22($16,400)</mrow>
-					<mrow>=$952.50+$3,501+$3,608</mrow>
-					<mrow>=$4,435.50+$3,608</mrow>
-					<mrow>=$8,043.50</mrow>
+					<mrow>0.10(\$9,525)+0.12(\$38,700-\$9,525)+0.22(\$55,100-\$38,700)</mrow>
+					<mrow>=0.10(\$9,525)+0.12(\$29,175)+0.22(\$16,400)</mrow>
+					<mrow>=\$952.50+\$3,501+\$3,608</mrow>
+					<mrow>=\$4,435.50+\$3,608</mrow>
+					<mrow>=\$8,043.50</mrow>
 				</md>
 			</p>
 			<p>
 				Avery would owe $8,043.50 in taxes. Note that their overall tax rate is somewhere between 10% and 22%. We can calculate the actual rate by dividing their tax owed by their taxable income:
 			</p>
 			<p>
-				<m>\frac{$8,043.50}{$55,100}=0.1459</m> or about 15%
+				<m>\frac{\$8,043.50}{\$55,100}=0.1459</m> or about 15%
 			</p>
 		</solution>
 </example>
@@ -518,11 +518,11 @@
 		</p>
 		<p>
 			<md>
-				<mrow>0.10($13,600)+0.12($51,800-$13,600)+0.22($82,500-$51,800)+0.24($86,450-$82,500)</mrow>
-				<mrow>=0.10($13,600)+0.12($38,200)+0.22($30,700)+0.24($3,950)</mrow>
-				<mrow>=$1,360+$4,584+$6,754+$948</mrow>
-				<mrow>=$12,698+$948</mrow>
-				<mrow>=$13,646</mrow>
+				<mrow>0.10(\$13,600)+0.12(\$51,800-\$13,600)+0.22(\$82,500-\$51,800)+0.24(\$86,450-\$82,500)</mrow>
+				<mrow>=0.10(\$13,600)+0.12(\$38,200)+0.22(\$30,700)+0.24(\$3,950)</mrow>
+				<mrow>=\$1,360+\$4,584+\$6,754+\$948</mrow>
+				<mrow>=\$12,698+\$948</mrow>
+				<mrow>=\$13,646</mrow>
 			</md>
 		</p>
 		<p>
@@ -530,9 +530,9 @@
 		</p>
 		<p>
 			<md>
-				<mrow>$12,698+0.24($86,450-$82,500)=$12,698+0.24($3,950)</mrow>
-				<mrow>=$12,698+$948</mrow>
-				<mrow>=$13,646</mrow>
+				<mrow>\$12,698+0.24(\$86,450-\$82,500)=\$12,698+0.24(\$3,950)</mrow>
+				<mrow>=\$12,698+\$948</mrow>
+				<mrow>=\$13,646</mrow>
 			</md>
 		</p>
 		<p>
@@ -553,9 +553,9 @@
 		</p>
 		<p>
 			<md>
-				<mrow>$8,907+0.22($112,000-$77,400)=$8,907+0.22($34,600)</mrow>
-				<mrow>=$8,907+$7,612</mrow>
-				<mrow>=$16,519</mrow>
+				<mrow>\$8,907+0.22(\$112,000-\$77,400)=\$8,907+0.22(\$34,600)</mrow>
+				<mrow>=\$8,907+\$7,612</mrow>
+				<mrow>=\$16,519</mrow>
 			</md>
 		</p>
 		<p>
@@ -603,14 +603,14 @@
 			The first step is to reduce John’s taxes by the full amount of the tax credit.
 		</p>
 		<p>
-			<m>$4,342.50-$2,300=$3,042.50</m>
+			<m>\$4,342.50-\$2,300=\$3,042.50</m>
 		</p>
 
 		<p>
 			Next we subtract the amount withheld from his paychecks by his employer. Since his withholdings are greater than the amount he owes after applying the tax credit, he will receive a refund equal to the difference.
 		</p>
 		<p>
-			<m>$3,042.50-$4,135=-$1,092.50</m>
+			<m>\$3,042.50-\$4,135=-\$1,092.50</m>
 		</p>
 		<p>
 			John will receive a refund of $1,092.50. Notice that having a negative amount after subtracting credits and withholdings means you will receive a refund, while having a positive amount means you still owe money.
@@ -629,13 +629,13 @@
 			To determine whether they will receive a refund or if they will still owe money, we will first subtract the full amount of the electric car credit.
 		</p>
 		<p>
-			<m>$16,519-$7,500=$9,019</m>
+			<m>\$16,519-\$7,500=\$9,019</m>
 		</p>
 		<p>
 			We now subtract their withholdings:
 		</p>
 		<p>
-			<m>$9,019-$8,980=$39</m>
+			<m>\$9,019-\$8,980=\$39</m>
 		</p>
 		<p>
 			Since the value is positive, Phyllis and Gladys still owe $39 in taxes. 
@@ -801,7 +801,7 @@
 			$80,000 falls into the third tax bracket. The first two brackets resulted in $952.50 and $3,501. The third bracket has $41,300 being taxed at the higher rate of 22%. This results in a tax of $13,539.50.
 		</p>
 		<p>
-			<m>4453.50+0.22*(80000-38700)=$13,539.50</m>
+			<m>4453.50+0.22*(80000-38700)=\$13,539.50</m>
 		</p>
 	</solution>
 </exercise>
@@ -896,7 +896,7 @@
 		<ol label="a">
 			<li>
 				<p>
-					Take the income minus the adjustments <m>125000-5600=$119,400</m>. Their adjusted gross income is $119,400.
+					Take the income minus the adjustments <m>125000-5600=\$119,400</m>. Their adjusted gross income is $119,400.
 				</p>
 			</li>
 			<li>
@@ -909,7 +909,7 @@
 					Taxable income: <m>119400-24000=95400</m>
 				</p>
 				<p>
-					Taxes owed: <m>8907+0.22*(95400-77400)=$12,867</m>
+					Taxes owed: <m>8907+0.22*(95400-77400)=\$12,867</m>
 				</p>
 				<p>
 					They owe $12,867 in taxes.
@@ -917,7 +917,7 @@
 			</li>
 			<li>
 				<p>
-					<m>12867-15000=-$2,133</m> Take the taxes owed minus credits and withholdings. They will receive a refund for $2,133. 
+					<m>12867-15000=-\$2,133</m> Take the taxes owed minus credits and withholdings. They will receive a refund for $2,133. 
 				</p>
 			</li>
 		</ol>
@@ -986,57 +986,57 @@
 			<ul>
 				<li>
 					<p>
-						Francis: Taxable Income <m>35000-7000-12000 = $16,000</m>
+						Francis: Taxable Income <m>35000-7000-12000 = \$16,000</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						Tax from Table: <m> 952.5+0.12*(16000-9525) = $1,729.50</m> 
+						Tax from Table: <m> 952.5+0.12*(16000-9525) = \$1,729.50</m> 
 					</p>
 				</li>
 				<li>
 					<p>
-						Owed/Refund: <m>1729.50 – 14000-4000 = -$ 16,270.50</m>
+						Owed/Refund: <m>1729.50 – 14000-4000 = -\$16,270.50</m>
 					</p>
 				</li>
 			</ul>
 			<ul>
 				<li>
 					<p>
-						Edward: Taxable Income <m> 40000-3000-12000 = $25,000</m>
+						Edward: Taxable Income <m> 40000-3000-12000 = \$25,000</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						Tax from Table: <m>952.50+0.12*(25000-9525) = $2,809.50</m> 
+						Tax from Table: <m>952.50+0.12*(25000-9525) = \$2,809.50</m> 
 					</p>
 				</li>
 				<li>
 					<p>
-						Owed/Refund: <m> 2809.50 -5500-5000 = - $7,690.50</m>
+						Owed/Refund: <m> 2809.50 -5500-5000 = -\$7,690.50</m>
 					</p>
 				</li>
 			</ul>
 		</p>
 		<p>
-			Altogether, they will get a <m>16270.50+7690.50 = $23,961</m> refund. 
+			Altogether, they will get a <m>16270.50+7690.50 = \$23,961</m> refund. 
 		</p>
 		<p>
 			MARRIED CASE:
 			<ul>
 				<li>
 					<p>
-						Taxable income: <m>(35000+40000) – (7000+3000) – 24000 = $41,000</m> 
+						Taxable income: <m>(35000+40000) – (7000+3000) – 24000 = \$41,000</m> 
 					</p>
 				</li>
 				<li>
 					<p>
-						Tax from Table: <m>1905 + 0.12*(41000-19050) = $4,539</m> 
+						Tax from Table: <m>1905 + 0.12*(41000-19050) = \$4,539</m> 
 					</p>
 				</li>
 				<li>
 					<p>
-						Owed/Refund: <m>4539 – (14000 + 5500) – (4000+5000) = - $23,961</m>
+						Owed/Refund: <m>4539 – (14000 + 5500) – (4000+5000) = -\$23,961</m>
 					</p>
 				</li>
 			</ul>
@@ -1087,12 +1087,12 @@
 		<ol label="a">
 			<li>
 				<p>
-					Gross Income: <m> 76000+750 = $76,750</m>
+					Gross Income: <m> 76000+750 = \$76,750</m>
 				</p>
 			</li>
 			<li>
 				<p>
-					Adjusted Gross Income: <m> 76750-25000 = $51,750</m>
+					Adjusted Gross Income: <m> 76750-25000 = \$51,750</m>
 				</p>
 			</li>
 			<li>
@@ -1102,12 +1102,12 @@
 			</li>
 			<li>
 				<p>
-					Taxable Income: <m> 51750-19600 = $32,150 </m>
+					Taxable Income: <m> 51750-19600 = \$32,150 </m>
 				</p>
 			</li>
 			<li>
 				<p>
-					Tax from Table: <m>1360+0.12*(32150-13600) = $3,586</m>. Owed/Refund: <m> 3586 – 4200 – 6300 = - $6,914</m>
+					Tax from Table: <m>1360+0.12*(32150-13600) = \$3,586</m>. Owed/Refund: <m> 3586 – 4200 – 6300 = - \$6,914</m>
 				</p>
 				<p>
 					Janice will receive a refund for $6,914.

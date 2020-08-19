@@ -155,7 +155,7 @@
 			<cd>=FV(0.06/12, 12 / 20, 100, 0)</cd>
 		</p>
 		<p>
-			<m>=$46,204.09</m>
+			<m>=\$46,204.09</m>
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_3/savings_plan1.png">
@@ -166,7 +166,7 @@
 			Remember that the output of the formula gives the answer with the opposite sign as the principal and payments. For our purposes we will ignore the signs. To use the formula, we use the one solved for <em>A</em>, since we want to know the final amount.
 		</p>
 		<p>
-			<m>d=$100</m> the monthly deposit 
+			<m>d=\$100</m> the monthly deposit 
 		</p>
 		<p>
 			<m>r=0.06</m> 6% annual rate
@@ -187,7 +187,7 @@
 			<m>A=\frac{100[(1.005)^{240}-1]}{(0.005)}</m>
 		</p>
 		<p>
-			<m>=$46.204.09</m>
+			<m>=\$46.204.09</m>
 		</p>
 		<p>
 			With U.S. dollars we round to the nearest cent. The account will grow to $46,204.09 after 20 years.
@@ -196,14 +196,14 @@
 			To find the <alert>amount of interest earned</alert>, calculate the total of all your deposits.
 		</p>
 		<p>
-			<m>$100(20)(12)=$24,000</m>
+			<m>\$100(20)(12)=\$24,000</m>
 		</p>
 
 		<p>
 			The difference between the total amount and the deposits is the interest earned.
 		</p>
 		<p>
-			<m>$46,204.09=$24,000=$22,204.09</m>
+			<m>\$46,204.09-\$24,000=\$22,204.09</m>
 		</p>
 		<p>
 			The total amount of interest you earned was $22,204.09.
@@ -212,7 +212,7 @@
 			To find the <alert>percentage of the balance that is interest</alert> we will divide the interest by the total balance.
 		</p>
 		<p>
-			<m>\frac{22,204.09}{$46,204.09}</m> or 48.1%
+			<m>\frac{\$22,204.09}{\$46,204.09}</m> or 48.1%
 		</p>
 		<p>
 			After 20 years 48.1% of the balance is from interest. 
@@ -237,7 +237,7 @@
 			<cd>=FV(0.055/12, 12*30, 150,1500)</cd>
 		</p>
 		<p>
-			<m>=$144,822.87</m>.
+			<m>=\$144,822.87</m>.
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_3/savings_plan2.png">
@@ -309,7 +309,7 @@
 			<cd>=PMT(0.08/12, 12*30, 0, 500000)</cd>
 		</p>
 		<p>
-			<m>=$335.49</m>.
+			<m>=\$335.49</m>.
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_3/finding_payments1.png">
@@ -330,7 +330,7 @@
 			<m>t=30</m> 30 years
 		</p>
 		<p>
-			<m>A=$500,000</m> The amount we want to have in 30 years
+			<m>A=\$500,000</m> The amount we want to have in 30 years
 		</p>
 		<p></p>
 		<p>
@@ -340,7 +340,7 @@
 			<m>=\frac{500000(\frac{0.08}{12})}{[(1+\frac{0.08}{12})^{12\cdot 30}-1]}</m>
 		</p>
 		<p>
-			<m>=$335.49</m>
+			<m>=\$335.49</m>
 		</p>
 		<p>
 			So, you would need to deposit $335.49 each month to have $500,000 in 30 years if your account earns 8% interest.
@@ -370,7 +370,7 @@
 			<cd>=FV(0.03/365, 365*10, 5,0)</cd>
 		</p>
 		<p>
-			<m>=$21,282.07</m>
+			<m>=\$21,282.07</m>
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_3/finding_payments2.png">
@@ -382,7 +382,7 @@
 			To use a mathematical formula, we choose the one solved for <em>A</em>:
 		</p>
 		<p>
-			<m>d=$5</m> the daily deposit
+			<m>d=\$5</m> the daily deposit
 		</p>
 		<p>
 			<m>r=0.03</m> 3% annual rate
@@ -398,21 +398,21 @@
 			<m>A=\frac{5[(1+\frac{0.03}{365})^{365\cdot 10}-1]}{(\frac{0.03}{365})}</m>
 		</p>
 		<p>
-			<m>=$21,282.07</m>
+			<m>=\$21,282.07</m>
 		</p>
 		<p>
 			To find the amount of interest, we will calculate how much was deposited in the account. Since you put in $5 a day for 10 years we get
 		</p>
 		<p>
-			<m>$5(365)(10)=$18,250</m>.
+			<m>\$5(365)(10)=\$18,250</m>.
 		</p>
 
 		<p>
-			The interest earned is <m>$21,282.07-$18,250=$3,032.07</m>
+			The interest earned is <m>\$21,282.07-\$18,250=\$3,032.07</m>
 		</p>
 
 		<p>
-			To find the percentage we divide by the total balance to get <m>\frac{$3,032.07}{$21,282.07}=0.1424</m> or 14.24%.
+			To find the percentage we divide by the total balance to get <m>\frac{\$3,032.07}{\$21,282.07}=0.1424</m> or 14.24%.
 		</p>
 
 		<p>
@@ -447,7 +447,7 @@
 			<cd>=FV(0.10/12, 12*15, 200,0)</cd>
 		</p>
 		<p>
-			<m>=$82,894.07</m>.
+			<m>=\$82,894.07</m>.
 		</p>
 		<sidebyside>
 		<image width="70%" source="images/financial_math/2_3/comparing_payments1.png">
@@ -462,7 +462,7 @@
 			<cd>=FV(0.10/12, 12*20, 0, 82894.07)</cd>
 		</p>
 		<p>
-			<m>=$607,453.85</m>.
+			<m>=\$607,453.85</m>.
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_3/comparing_payments2.png">
@@ -478,17 +478,17 @@
 			<m>A=\frac{200[(1+\frac{0.10}{12})^{12\cdot 15}-1]}{(\frac{0.10}{12})}</m>
 		</p>
 		<p>
-			<m>=$82,894.07</m>
+			<m>=\$82,894.07</m>
 		</p>
 
 		<p>
 			And for the second step we use the compound interest formula from <xref ref="chap_two_simple_compound"></xref>.
 		</p>
 		<p>
-			<m>A=$82,894.07(1+\frac{0.10}{12})^{12\cdot 20}</m>
+			<m>A=\$82,894.07(1+\frac{0.10}{12})^{12\cdot 20}</m>
 		</p>
 		<p>
-			<m>=$607,453.85</m>
+			<m>=\$607,453.85</m>
 		</p>
 
 		<p>
@@ -498,7 +498,7 @@
 			<cd>=FV(0.10/12, 12*20, 200,0)</cd>
 		</p>
 		<p>
-			<m>=$151,873.77</m>.
+			<m>=\$151,873.77</m>.
 		</p>
 
 		<sidebyside>
@@ -514,7 +514,7 @@
 			<m>A=\frac{200[(1+\frac{0.10}{12})^{12\cdot 20}-1]}{(\frac{0.10}{12})}</m>
 		</p>
 		<p>
-			<m>=$151,873.77</m>
+			<m>=\$151,873.77</m>
 		</p>
 		<p>
 			Were you surprised by these numbers? You would put in less money in scenario 1 and end up with four times as much. The key to compounding interest is to start early. If you remember the graph of compound interest in <xref ref="chap_two_simple_compound"></xref>, we can see that as time goes on, the balance increases exponentially. 
@@ -558,7 +558,7 @@
 	</p>
 
 	<p>
-		<m>d=$100</m> our deposit per month
+		<m>d=\$100</m> our deposit per month
 	</p>
 
 	<p>

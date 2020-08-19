@@ -29,8 +29,8 @@
       <address>https://spot.pcc.edu/math/mathinsociety/</address>
     </website>
 
-    <paragraphs>
-    <title></title>
+    <!-- <paragraphs>
+    <title></title> -->
     <p>
     	This book is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/">Math in Society</url>, by David Lippman, et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
     </p>
@@ -40,8 +40,8 @@
     <p>
     	This book was made possible by <url href="https://openoregon.org/">Open Oregon Educational Resources</url>.
     </p>
-    </paragraphs>
-
+<!--     </paragraphs>
+ -->
 </colophon>
 
 <preface xml:id="Notes">

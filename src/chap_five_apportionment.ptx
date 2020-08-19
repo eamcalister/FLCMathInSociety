@@ -1323,7 +1323,7 @@
 </subsection>
 
 <subsection>
-<title>What is the Geometric Mean</title>
+<title>What is the Geometric Mean?</title>
 	<p>
 		Let’s look at why Hill and Huntington decided to use the geometric mean for rounding instead of the arithmetic mean of 0.5, which is halfway between two numbers. By calculating some geometric means and looking at them in a table we can see a pattern:
 	</p>
@@ -1366,7 +1366,7 @@
 		</row>
 		<row>
 			<cell>100</cell>
-			<cell><m>\sqrt{(100(100+1)}=\sqrt{100(101)}\approx 199.499</m></cell>
+			<cell><m>\sqrt{(100(100+1)}=\sqrt{100(101)}\approx 100.499</m></cell>
 		</row>
 	</tabular>
 	</sidebyside>

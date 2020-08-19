@@ -39,6 +39,31 @@
 		</ul>
 </objectives>
 
+<subsection>
+	<title></title>
+	<paragraphs>
+	<title>Dr. David Blackwell and Statistics</title>
+		<sidebyside>
+			<image width="70%" source="images/statistics/3_1/db_pic.png"></image>
+		</sidebyside>
+		<p>
+			Dr. David Blackwell (1919 – 2010) was a theoretical statistician noted for his teaching and work in game theory and probability theory. He was the first and only African-American member of the National Academy of Sciences. Blackwell’s research in mathematics and statistics have found application in many fields including economics and accounting.
+		</p>
+		<p>
+			Dr. Blackwell grew up in Centralia, Ill. In school, he was intrigued by geometry and calculus. His high school math club advisor would challenge members with problems from the School Science and Mathematics journal and submit their solutions. Blackwell was identified three times in the magazine as having solved problems and one of his solutions was published.
+		</p>
+		<p>
+			At 16, Blackwell enrolled at the University of Illinois and majored in mathematics. After three years, he graduated and continued at the university to obtain his master’s and doctorate degrees. Dr. Blackwell was given a one-year appointment as a Rosenwald Postdoctoral Fellow at the Institute for Advanced Study at Princeton University in 1941. It was common for Institute members to be made visiting fellows of Princeton. This created a controversy because there were no Black students enrolled at the university during that time. Princeton’s president wrote a letter to the Institute protesting Blackwell’s admission, but the Institute upheld the appointment.
+		</p>
+		<p>
+			When his fellowship was drawing to a close, Dr. Blackwell applied for teaching positions at 105 Black colleges. He didn’t apply to white institutions because he assumed they would not accept him because of his race. His first teaching job was at Southern University in Baton Rouge, La.
+		</p>
+		<p>
+			Dr. Blackwell’s focus later shifted to the field of statistics and is famous for the Rao-Blackwell Theorem. In 1954, he accepted a professorship at the University of California at Berkeley, where he was previously unable to teach due to racism. By 1956, he was appointed chairman of the statistics department. He continued teaching and publishing a substantial amount of research until his retirement as professor emeritus in 1989. He is the recipient of numerous awards and holds honorary degrees from 12 universities, among them Carnegie-Mellon, Yale, Howard and Harvard.
+		</p>
+	</paragraphs>
+</subsection>
+
 <introduction>
 	<title>Introduction to Statistics</title>
 	<p>
@@ -565,7 +590,7 @@
 			If the margin of error was calculated to be plus or minus $85.63, then with a confidence level of 95% we could say that the average amount spent by the population is somewhere between $365.69 and $536.95.
 		</p>
 		<p>
-			These values are found by computing <m>$451.32 - $85.63 = $365.69</m> and <m>$451.32 + $85.63 = $536.95</m>
+			These values are found by computing <m>\$451.32 - \$85.63 = \$365.69</m> and <m>\$451.32 + \$85.63 = \$536.95</m>
 		</p>
 		<p>
 			We could also write this as a <alert>confidence interval</alert>: ($365.69, $536.95).
@@ -760,7 +785,7 @@
 			</li>
 			<li>
 				<p>
-					The confidence interval is <m>(45%, 55%)</m> and tells us that the true percentage of the state congress representatives in support of the new education (the parameter) likely lies between 45% and 55%. 
+					The confidence interval is <m>(45\%, 55\%)</m> and tells us that the true percentage of the state congress representatives in support of the new education (the parameter) likely lies between 45% and 55%. 
 				</p>
 			</li>
 		</ol>
@@ -828,7 +853,7 @@
 			</li>
 			<li>
 				<p>
-					The confidence interval is <m>(28.5%, 35.5%)</m> and tells us that the true percentage of registered voters who will vote for Brown is likely to lie between 28.5% and 35.5%.
+					The confidence interval is <m>(28.5\%, 35.5\%)</m> and tells us that the true percentage of registered voters who will vote for Brown is likely to lie between 28.5% and 35.5%.
 				</p>
 			</li>
 		</ol>

@@ -89,16 +89,16 @@
 	<example>
 		<statement>
 		<p>
-			Azmi gets a credit card from Company A, with 19.99% APR compounding daily. He uses the card to buy a $1000 laptop. He does not make any payments during the 10-day interest-free grace period. His next payment is due 30 days later, i.e. 40 days since the purchase date.  Thus, his outstanding balance is <m>$1000 (1+\frac{0.1999}{365})^{40} \approx $1022.14</m>.
+			Azmi gets a credit card from Company A, with 19.99% APR compounding daily. He uses the card to buy a $1000 laptop. He does not make any payments during the 10-day interest-free grace period. His next payment is due 30 days later, i.e. 40 days since the purchase date.  Thus, his outstanding balance is <m>\$1000 (1+\frac{0.1999}{365})^{40} \approx \$1022.14</m>.
 		</p>
 		<p>
 			Following the fine print in the credit card agreement, the minimum payment is calculated by Company A to be 2% of this outstanding balance after applying the APR; or $25, whichever is larger.
 		</p>
 		<p>
-			<q>Applying the APR</q> would be <m>$1022.14(1+0.1999) \approx $1226.46</m>.
+			<q>Applying the APR</q> would be <m>\$1022.14(1+0.1999) \approx \$1226.46</m>.
 		</p>
 		<p>
-			Two percent of that figure is <m>0.02($12226.46) \approx $24.53</m>.
+			Two percent of that figure is <m>0.02(\$12226.46) \approx \$24.53</m>.
 		</p>
 		<p>
 			However, $24.53 is not larger than $25.
@@ -112,13 +112,13 @@
 	<example>
 		<statement>
 		<p>
-			Bilqis gets a credit card from Company B, with 17.99% APR compounding daily. She uses the card to buy a $900 plane ticket. She does not make any payments during the interest-free grace period. Her first payment is due 35 days since the grace period ended. Thus, her outstanding balance is <m>$900(1+\frac{0.1799}{365})^{35} \approx $915.66</m>.
+			Bilqis gets a credit card from Company B, with 17.99% APR compounding daily. She uses the card to buy a $900 plane ticket. She does not make any payments during the interest-free grace period. Her first payment is due 35 days since the grace period ended. Thus, her outstanding balance is <m>\$900(1+\frac{0.1799}{365})^{35} \approx \$915.66</m>.
 		</p>
 		<p>
 			Following the fine print in the credit card agreement, the minimum payment is calculated by Company B to be one percentage point more than the APR of this outstanding balance; or $25, whichever is larger.
 		</p>
 		<p>
-			<q>One percentage point more than the APR of this outstanding balance</q> would be <m>$915.66 (0.01 + 0.1799) \approx $173.88</m>.
+			<q>One percentage point more than the APR of this outstanding balance</q> would be <m>\$915.66 (0.01 + 0.1799) \approx \$173.88</m>.
 		</p>
 		<p>
 			$173.88 is larger than $25.
@@ -133,7 +133,7 @@
 		We will need one more piece of mathematical notation before we can write down the formulas. This is to deal with that last step, where we have to decide whether something is larger than $25 or not. In general, the <alert>max function</alert> takes a set of numbers as its input, and returns the largest member of that set as its output.  The notation is <q>max{number 1, number 2, number 3, …}</q>.  Here are a few examples:
 	</p>
 	<p>
-		max{1,2,3}=3 ; max{-3,-2,-1}=-1 ; max{5,0.5,0.25,0.125,-0.5,-2}=5 ; max{24.53,25}=25
+		max{1,2,3}=3 ; max{-3,-2,-1\}=-1 ; max{5,0.5,0.25,0.125,-0.5,-2}=5 ; max{24.53,25}=25
 	</p>
 	<p>
 		As we can see, the methods used to calculate a monthly minimum payment differ by credit card, so be sure to read the fine print on your credit card bill. Azmi and Bilqis’s situations exemplify the two most common methods. These two methods lead to different formulas, even before we plug the specific numbers in:
@@ -144,7 +144,7 @@
 				</p>
 				<p>
 					<md>
-						<mrow>d=max{$25,0.02P(1+r)}</mrow>
+						<mrow>d=max\{\$25,0.02P(1+r)\}</mrow>
 					</md>
 				</p>
 				<p>
@@ -160,7 +160,7 @@
 				</p>
 				<p>
 					<md>
-						<mrow>d=max{$25,P(0.01+r)}</mrow>
+						<mrow>d=max\{\$25,P(0.01+r)\}</mrow>
 					</md>
 				</p>
 			</li>
@@ -195,22 +195,22 @@
 			Chitra buys a $100 textbook with her new, previously unused credit card with 16.99% APR on March 15th. Her payment due dates are the 25th of every month.
 		</p>
 		<p>
-			On March 25th, she makes a payment to the credit card company of $50. Her new outstanding balance is <m> $100-$50=$50</m>.
+			On March 25th, she makes a payment to the credit card company of $50. Her new outstanding balance is <m> \$100-\$50=\$50</m>.
 		</p>
 		<p>
 			On April 25th, her next payment is due. Interest will be charged, compounding daily <em>since March 15th</em>, on that $50. There are 31 days in March, so that is <m>(31-15)+25=41</m> days.
 		</p>
 		<p>
-			So Chitra’s outstanding balance on April 25th, before payment, is <m>$50(1+\frac{0.1699}{365})^{41} \approx $50.96</m>.
+			So Chitra’s outstanding balance on April 25th, before payment, is <m>\$50(1+\frac{0.1699}{365})^{41} \approx \$50.96</m>.
 		</p>
 		<p>
 			Therefore her minimum payment due on April 25th is $25.  (Check this yourself! Both <q>company</q> and <q>government</q> methods result in $25 after applying the max function.)
 		</p>
 		<p>
-			She pays the $25 and her new outstanding balance on April 25th, after payment, is <m>$50.96-$25=$25.96</m>.
+			She pays the $25 and her new outstanding balance on April 25th, after payment, is <m>\$50.96-\$25=\$25.96</m>.
 		</p>
 		<p>
-			She makes no purchases with this credit card during the next month, so on May 25th her next payment is due, with interest having compounded daily over the 30 days between April 25th and May 25th. This results in a balance of <m>$25.96(1+\frac{0.1699}{365})^{30} \approx $26.32</m>, and again the minimum payment is $25.
+			She makes no purchases with this credit card during the next month, so on May 25th her next payment is due, with interest having compounded daily over the 30 days between April 25th and May 25th. This results in a balance of <m>\$25.96(1+\frac{0.1699}{365})^{30} \approx \$26.32</m>, and again the minimum payment is $25.
 		</p>
 		<p>
 			Not wanting to drag this on any longer, Chitra decides to send in the full $26.32 on May 25th, and her debt is now fully repaid.
@@ -265,13 +265,13 @@
 			Drusilla has a credit card with an 18% APR compounding daily, and uses it to make a $1,200 purchase on December 7th. The <q>company method</q> is used to calculate minimum payments, and she makes these minimum payments on the last day of each month.
 		</p>
 		<p>
-			On December 31st, her first payment is due. No interest has been charged, because of the grace period, so <m>P=1200</m>. The payment due is <m>d=max{$25,0.02P(1+r)}=max{$25,0.02($1200)(1+0.18)}=max{$25,$47.2}=$28.32</m>.
+			On December 31st, her first payment is due. No interest has been charged, because of the grace period, so <m>P=1200</m>. The payment due is <m>d=max\{\$25,0.02P(1+r)\}=max\{\$25,0.02(\$1200)(1+0.18)\}=max\{\$25,\$47.2\}=\$28.32</m>.
 		</p>
 		<p>
-			On January 31st, her next payment is due. It has been <m>m=(31-7)+31=55</m> days, so the outstanding amount owed is <m>P_{new}=(P_{old}-d_{old})(1+\frac{r}{n})^{m}=($1200-$28.32)(1+\frac{0.18}{365}^{55}) \approx $1203.89</m>. Her payment is <m>d=max{$25,0.02P(1+r)}=max{$25,0.02($1189.73)(1+0.18)} \approx max{$25,$28.41}=$28.41</m>.
+			On January 31st, her next payment is due. It has been <m>m=(31-7)+31=55</m> days, so the outstanding amount owed is <m>P_{new}=(P_{old}-d_{old})(1+\frac{r}{n})^{m}=(\$1200-\$28.32)(1+\frac{0.18}{365}^{55}) \approx \$1203.89</m>. Her payment is <m>d=max{\$25,0.02P(1+r)}=max{\$25,0.02(\$1189.73)(1+0.18)} \approx max{\$25,\$28.41}=\$28.41</m>.
 		</p>
 		<p>
-			On February 28th, the next payment is due. It has been <m>m=28</m> days, so the outstanding amount owed is <m>P_{new}=(P_{old}-d_{old})(1+\frac{r}{n})^{m}=($1203.89-$28.41)(1+\frac{0.18}{365}^{28}) \approx $1191.81</m>. Her payment is <m>d=max{$25,0.02P(1+r)}=max{$25,0.02($1191.81)(1+0.18)} \approx max{$25,$28.13}=$28.13</m>.
+			On February 28th, the next payment is due. It has been <m>m=28</m> days, so the outstanding amount owed is <m>P_{new}=(P_{old}-d_{old})(1+\frac{r}{n})^{m}=(\$1203.89-\$28.41)(1+\frac{0.18}{365}^{28}) \approx \$1191.81</m>. Her payment is <m>d=max{\$25,0.02P(1+r)}=max{\$25,0.02(\$1191.81)(1+0.18)} \approx max{\$25,\$28.13}=\$28.13</m>.
 		</p>
 		<p>
 			Continuing to follow this method, we have the results as shown in the table below:
@@ -284,7 +284,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			That’s right, it will take Drusilla 6.75 years to repay a credit card debt of $1,200, if the APR is 18% and she only pays the monthly minimum! (Side note: we could make an adjustment for the leap year, but this would have a small effect and not change the number of payments required.) Notice that from April of the second year onwards, the payment is always $25. If we zoom in on that calculation, we have <m>d=max{25,0.02P(1+r)}=max{25,0.02(1052.48)(1+.18)} \approx max{25,24.84}=$25</m>. In other words, the <q>complicated part</q> of the formula spits out $24.84, but this is less than $25 so it’s not allowed. This continues until the very last month, when she owes less than $25: at this point she repays the total outstanding amount of $18.55.
+			That’s right, it will take Drusilla 6.75 years to repay a credit card debt of $1,200, if the APR is 18% and she only pays the monthly minimum! (Side note: we could make an adjustment for the leap year, but this would have a small effect and not change the number of payments required.) Notice that from April of the second year onwards, the payment is always $25. If we zoom in on that calculation, we have <m>d=max{25,0.02P(1+r)}=max{25,0.02(1052.48)(1+.18)} \approx max{25,24.84}=\$25</m>. In other words, the <q>complicated part</q> of the formula spits out $24.84, but this is less than $25 so it’s not allowed. This continues until the very last month, when she owes less than $25: at this point she repays the total outstanding amount of $18.55.
 		</p>
 		<p>
 			Clearly this is not an efficient way to repay a loan. The credit company likes it just fine though: if we total all of the payments made by Drusilla, it comes to $2,072.36. Since she only borrowed $1,200 to begin with, their total profit was $872.36, or about 73% of the initial amount.
@@ -293,7 +293,7 @@
 	</example>
 
 	<p>
-		The previous example with Drusilla is one of the main reasons behind the other formula, suggested by the Department of the Treasury. Let’s look at the same example, but this time using <q>the government method</q>, where <m>d=max{$25,P(0.01+r)}</m>.
+		The previous example with Drusilla is one of the main reasons behind the other formula, suggested by the Department of the Treasury. Let’s look at the same example, but this time using <q>the government method</q>, where <m>d=max{\$25,P(0.01+r)}</m>.
 	</p>
 	<example xml:id="drusilla2">
 		<statement>
@@ -485,7 +485,7 @@
 			Siufan uses a credit card with 20% APR to buy a video game console for $500 on April 16th. The <q>company method</q> is used to calculate minimum payments, and she makes payments on the last day of each month. She decides to pay it off in one year. If she doesn’t buy anything else with the same card, how much will her monthly payments be?
 		</p>
 		<p>
-			The rough estimate is <m>d=\frac{P(\frac{r}{n})}{1-(1+\frac{r}{n})^{-nt}} \frac{365}{12} = \frac{$500(\frac{0.2}{365})}{1-(1+\frac{0.2}{365})^{-365(1)}} \frac{365}{12} \approx $45.98</m>.
+			The rough estimate is <m>d=\frac{P(\frac{r}{n})}{1-(1+\frac{r}{n})^{-nt}} \frac{365}{12} = \frac{\$500(\frac{0.2}{365})}{1-(1+\frac{0.2}{365})^{-365(1)}} \frac{365}{12} \approx \$45.98</m>.
 		</p>
 		<p>
 			We can get the same amount using Excel, by typing: <c>=PMT(0.2/365,365,-500,0)*365/12</c>.
@@ -494,10 +494,10 @@
 			We need to check that this is more than the monthly minimum payment every month, or she will end up with penalties. The minimums go down as the outstanding balance goes down (until it flatlines at $25 minimum anyway). Therefore we only need to compare to the first and second month’s minimums; we are including the second to err on the safe side, since there is no interest charged during the grace period.
 		</p>
 		<p>
-			On April 30th, no interest has been charged, because of the grace period, so <m>P=$500</m>. The minimum payment due is <m>d=max{$25,0.02P(1+r)}=max{$25,0.02($500)(1+0.2)}=max{$25,$12}=$25</m>. Thus her planned payment of $45.98 is above the minimum and she’s safe to pay that amount.
+			On April 30th, no interest has been charged, because of the grace period, so <m>P=\$500</m>. The minimum payment due is <m>d=max{\$25,0.02P(1+r)}=max{\$25,0.02(\$500)(1+0.2)}=max{\$25,\$12}=\$25</m>. Thus her planned payment of $45.98 is above the minimum and she’s safe to pay that amount.
 		</p>
 		<p>
-			On May 31st, her next payment is due. It has been <m>m=(30-16)+31=45</m> days, so the outstanding amount owed is <m>P_{new} = (P_{old}-d_{old}) (1+\frac{r}{n})^{m}= ($500-$45.98)(1+\frac{0.2/365})^{45} \approx $465.35</m>. Her minimum payment is <m>d=max{$25,0.02P(1+r)}=max{$25,0.02($465.35)(1+0.2)} \approx max{$25,$11.17}=$25</m>. Again, this is less than $45.98 so she is safe to continue paying that much per month.
+			On May 31st, her next payment is due. It has been <m>m=(30-16)+31=45</m> days, so the outstanding amount owed is <m>P_{new} = (P_{old}-d_{old}) (1+\frac{r}{n})^{m}= (\$500-\$45.98)(1+\frac{0.2/365})^{45} \approx \$465.35</m>. Her minimum payment is <m>d=max{\$25,0.02P(1+r)}=max{\$25,0.02(\$465.35)(1+0.2)} \approx max{\$25,\$11.17}=\$25</m>. Again, this is less than $45.98 so she is safe to continue paying that much per month.
 		</p>
 		<p>
 			Turning to Excel, applying the interest and the flat $45.98 payment each month, we find that the debt is indeed completely paid off by the end of one year. The final payment on March 31st of the next year would only need to be $35.87.
@@ -1079,7 +1079,7 @@
 		<ol label="a">
 			<li>
 				<p>
-					<c>=FV(0.2499/365,35,0,2345)</c> or, <m>$2345(1+\frac{0.2499}{365})^{35} \approx $2401.85</m>
+					<c>=FV(0.2499/365,35,0,2345)</c> or, <m>\$2345(1+\frac{0.2499}{365})^{35} \approx \$2401.85</m>
 				</p>
 				<p>
 					Her outstanding balance is $2,401.85.
@@ -1087,12 +1087,12 @@
 			</li>
 			<li>
 				<p>
-					Her minimum payment is <m>$2401.85(0.02+0.2499) \approx $648.26</m>
+					Her minimum payment is <m>\$2401.85(0.02+0.2499) \approx \$648.26</m>
 				</p>
 			</li>
 			<li>
 				<p>
-					Her new balance is <m>$2,401.85 - $648.26 \approx $1,753.59</m>
+					Her new balance is <m>\$2,401.85 - $648.26 \approx \$1,753.59</m>
 				</p>
 			</li>
 		</ol>
@@ -1130,7 +1130,7 @@
 		<ol label="a">
 			<li>
 				<p>
-					<c>=FV(0.1799/365,35,0,150)</c> or, <m>$150(1+\frac{0.1799}{365})^{35} \approx $152.61</m>
+					<c>=FV(0.1799/365,35,0,150)</c> or, <m>\$150(1+\frac{0.1799}{365})^{35} \approx \$152.61</m>
 				</p>
 				<p>
 					Her outstanding balance is $152.61.
@@ -1138,12 +1138,12 @@
 			</li>
 			<li>
 				<p>
-					Her minimum payment is <m>$152.61(0.03+0.1799) \approx $32.03</m>
+					Her minimum payment is <m>\$152.61(0.03+0.1799) \approx \$32.03</m>
 				</p>
 			</li>
 			<li>
 				<p>
-					Her new balance is <m>$152.61 - $32.03 \approx $120.58</m>
+					Her new balance is <m>\$152.61 - \$32.03 \approx \$120.58</m>
 				</p>
 			</li>
 		</ol>
@@ -1181,7 +1181,7 @@
 		<ol label="a">
 			<li>
 				<p>
-					<c>=FV(0.2099/365,35,0,30)</c> or, <m>$30(1+\frac{0.2099}{365})^{35} \approx $30.61</m>
+					<c>=FV(0.2099/365,35,0,30)</c> or, <m>\$30(1+\frac{0.2099}{365})^{35} \approx \$30.61</m>
 				</p>
 				<p>
 					Their outstanding balance is $30.61
@@ -1189,7 +1189,7 @@
 			</li>
 			<li>
 				<p>
-					<m>$30.61(0.01+0.2099) \approx $6.72</m>
+					<m>\$30.61(0.01+0.2099) \approx \$6.72</m>
 				</p>
 				<p>
 					Since $6.72 is less than $25, their minimum payment is $2.
@@ -1197,7 +1197,7 @@
 			</li>
 			<li>
 				<p>
-					Their new balance is <m>$32.03 - $25 \approx $7.03</m>
+					Their new balance is <m>\$32.03 - \$25 \approx \$7.03</m>
 				</p>
 			</li>
 		</ol>

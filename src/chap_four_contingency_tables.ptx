@@ -948,7 +948,7 @@
 					</tabular>
 					</sidebyside>
 		 			<p>
-		 				<m>P(\text{not pregnant gien positve test})=\frac{5}{75} \approx 0.067</m> or 6.7%
+		 				<m>P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067</m> or 6.7%
 		 			</p>
 		 		</li>
 		 		<li>
@@ -1516,7 +1516,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(In morning class)}=\frac{39}{65}</mrow>
-						<mrow> = 0.60 \text{ or 60%}</mrow>
+						<mrow>= 0.60 \text{ or 60%}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1524,7 +1524,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(Earned a C)}=\frac{25}{65}</mrow>
-						<mrow> \approx 0.385 \text{ or 38.5%}</mrow>
+						<mrow>\approx 0.385 \text{ or } 38.5\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1532,7 +1532,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(Earned an A and in afternoon class)}=\frac{10}{65}</mrow>
-						<mrow> \approx 0.154 \text{ or 15.4%}</mrow>
+						<mrow>\approx 0.154 \text{ or } 15.4\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1540,7 +1540,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(Earned an A given in morning class)}=\frac{8}{39}</mrow>
-						<mrow> \approx 0.205 \text{ or 20.5%}</mrow>
+						<mrow>\approx 0.205 \text{ or } 20.5\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1548,7 +1548,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(In morning class or earned B)}=\frac{43}{65}</mrow>
-						<mrow> \approx 0.662 \text{ or 66.2%}</mrow>
+						<mrow>\approx 0.662 \text{ or } 66.2\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1636,7 +1636,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(in morning class)}=\frac{32}{60}</mrow>
-						<mrow> \approx 0.533 \text{ or 53.3%}</mrow>
+						<mrow>\approx 0.533 \text{ or } 53.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1644,7 +1644,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(Freshman)}=\frac{17}{60}</mrow>
-						<mrow> \approx 0.283 \text{ or 28.3%}</mrow>
+						<mrow>\approx 0.283 \text{ or  }28.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1652,7 +1652,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(Senior and in afternoon class)}=\frac{2}{60}</mrow>
-						<mrow> \approx 0.033 \text{ or 3.3%}</mrow>
+						<mrow>\approx 0.033 \text{ or } 3.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1660,7 +1660,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(Sophomore given in morning class)}=\frac{5}{32}</mrow>
-						<mrow> \approx 0.156 \text{ or 15.6%}</mrow>
+						<mrow>\approx 0.156 \text{ or } 15.6\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1668,7 +1668,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(in morning class or Junior)}=\frac{40}{60}</mrow>
-						<mrow> \approx 0.667 \text{ or 66.7%}</mrow>
+						<mrow>\approx 0.667 \text{ or } 66.7\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1762,7 +1762,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(no credit cards)}=\frac{27}{81}</mrow>
-						<mrow> \approx 0.333 \text{ or 33.3%}</mrow>
+						<mrow>\approx 0.333 \text{ or } 33.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1770,7 +1770,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(one credit card)}=\frac{15}{81}</mrow>
-						<mrow> \approx 0.185 \text{ or 18.5%}</mrow>
+						<mrow>\approx 0.185 \text{ or } 18.5\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1778,7 +1778,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(no credit cards and over age 35)}=\frac{18}{81}</mrow>
-						<mrow> \approx 0.222 \text{ or 22.2%}</mrow>
+						<mrow>\approx 0.222 \text{ or } 22.2\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1786,7 +1786,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(between ages of 18 and 35,or have zero credit cards)}=\frac{51}{81}</mrow>
-						<mrow> \approx 0.630 \text{ or 63.0%}</mrow>
+						<mrow>\approx 0.630 \text{ or } 63.0\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1794,7 +1794,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(no credit cards given between ages of 18 and 35)}=\frac{9}{33}</mrow>
-						<mrow> \approx 0.273 \text{ or 27.3%}</mrow>
+						<mrow>\approx 0.273 \text{ or } 27.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1802,7 +1802,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(no credit cards given over age 35)}=\frac{18}{48}</mrow>
-						<mrow>=0.375 \text{ or 37.5%}</mrow>
+						<mrow>=0.375 \text{ or } 37.5\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1891,7 +1891,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(inoculated)}=\frac{244}{6224}</mrow>
-						<mrow>\approx 0.039\text{ or 3.9%}</mrow>
+						<mrow>\approx 0.039\text{ or } 3.9\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1899,7 +1899,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(lived)}=\frac{5374}{6224}</mrow>
-						<mrow>\approx 0.863 \text{ or 86.3%}</mrow>
+						<mrow>\approx 0.863 \text{ or } 86.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1907,7 +1907,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(ied given or inoculated)}=\frac{1088}{6224}</mrow>
-						<mrow>\approx 0.175 \text{ or 17.5%}</mrow>
+						<mrow>\approx 0.175 \text{ or } 17.5\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1915,7 +1915,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(ied given inoculated)}=\frac{6}{244}</mrow>
-						<mrow>\approx 0.025 \text{ or 2.5%}</mrow>
+						<mrow>\approx 0.025 \text{ or } 2.5\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -1923,7 +1923,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(died given not inoculated)}=\frac{844}{5980}</mrow>
-						<mrow>\approx 0.141 \text{ or 14.1%}</mrow>
+						<mrow>\approx 0.141 \text{ or } 14.1\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2030,7 +2030,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(not survive)}=\frac{1490}{2201}</mrow>
-						<mrow>\approx 0.677 \text{ or 67.7%}</mrow>
+						<mrow>\approx 0.677 \text{ or } 67.7\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2038,7 +2038,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(crew)}=\frac{885}{2201}</mrow>
-						<mrow>\approx 0.402 \text{ or 40.2%}</mrow>
+						<mrow>\approx 0.402 \text{ or } 40.2\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2046,7 +2046,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(first class and not survive)}=\frac{122}{2201}</mrow>
-						<mrow>\approx 0.055 \text{ or 5.5%}</mrow>
+						<mrow>\approx 0.055 \text{ or } 5.5\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2054,7 +2054,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(not survive or crew)}=\frac{1702}{2201}</mrow>
-						<mrow>\approx 0.773 \text{ or 77.3%}</mrow>
+						<mrow>\approx 0.773 \text{ or } 77.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2062,7 +2062,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(survived given first class)}=\frac{203}{325}</mrow>
-						<mrow>\approx 0.625 \text{ or 62.5%}</mrow>
+						<mrow>\approx 0.625 \text{ or } 62.5\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2070,7 +2070,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(survived given second class)}=\frac{118}{285}</mrow>
-						<mrow>\approx 0.414 \text{ or 41.4%}</mrow>
+						<mrow>\approx 0.414 \text{ or } 41.4\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2078,7 +2078,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(survived given third class)}=\frac{178}{706}</mrow>
-						<mrow>\approx 0.252 \text{ or 25.2%}</mrow>
+						<mrow>\approx 0.252 \text{ or } 25.2\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2165,40 +2165,40 @@
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(foreign and government)}=\frac{1%}{100%}</mrow>
-						<mrow>= 0.01 \text{ or 1%}</mrow>
+						<mrow>\text{P(foreign and government)}=\frac{1\%}{100\%}</mrow>
+						<mrow>= 0.01 \text{ or } 1\%</mrow>
 					</md>
 				</p>
 			</li>
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(U.S. and corporation)}=\frac{45%}{100%}</mrow>
-						<mrow>=0.45 text{ or 45%}</mrow>
+						<mrow>\text{P(U.S. and corporation)}=\frac{45\%}{100\%}</mrow>
+						<mrow>=0.45 text{ or } 45\%</mrow>
 					</md>
 				</p>
 			</li>
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(foreign or government)}=\frac{47%}{100%}</mrow>
-						<mrow>=0.47 \text{ or 47%}</mrow>
+						<mrow>\text{P(foreign or government)}=\frac{47\%}{100\%}</mrow>
+						<mrow>=0.47 \text{ or } 47\%</mrow>
 					</md>
 				</p>
 			</li>
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(U.S. given individual)}=\frac{8%}{11%}</mrow>
-						<mrow>\approx 0.727 \text{ or 72.7%}</mrow>
+						<mrow>\text{P(U.S. given individual)}=\frac{8\%}{11\%}</mrow>
+						<mrow>\approx 0.727 \text{ or } 72.7\%</mrow>
 					</md>
 				</p>
 			</li>
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(foreign given government)}=\frac{1%}{3%}</mrow>
-						<mrow>\approx 0.333 \text{ or 33.3%}</mrow>
+						<mrow>\text{P(foreign given government)}=\frac{1\%}{3\%}</mrow>
+						<mrow>\approx 0.333 \text{ or } 33.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2311,32 +2311,32 @@
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(no computer and no game/software)}=\frac{70%}{100%}</mrow>
-						<mrow>=0.7 \text{ or 70%}</mrow>
+						<mrow>\text{P(no computer and no game/software)}=\frac{70\%}{100\%}</mrow>
+						<mrow>=0.7 \text{ or } 70\%</mrow>
 					</md>
 				</p>
 			</li>
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(computer or game/software)}=\frac{30%}{100%}</mrow>
-						<mrow>=0.3 \text{ or 30%}</mrow>
+						<mrow>\text{P(computer or game/software)}=\frac{30\%}{100\%}</mrow>
+						<mrow>=0.3 \text{ or } 30\%</mrow>
 					</md>
 				</p>
 			</li>
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(game/software given computer)}=\frac{10%}{15%}</mrow>
-						<mrow>\approx 0.667 \text{ or 66.7%}</mrow>
+						<mrow>\text{P(game/software given computer)}=\frac{10\%}{15\%}</mrow>
+						<mrow>\approx 0.667 \text{ or } 66.7\%</mrow>
 					</md>
 				</p>
 			</li>
 			<li>
 				<p>
 					<md>
-						<mrow>\text{P(game/software given no computer)}=\frac{15%}{85%}</mrow>
-						<mrow>\approx 0.176 \text{ or 17.6%}</mrow>
+						<mrow>\text{P(game/software given no computer)}=\frac{15\%}{85\%}</mrow>
+						<mrow>\approx 0.176 \text{ or } 17.6\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2461,7 +2461,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(injury)}=\frac{73}{400}</mrow>
-						<mrow>\approx 0.183 \text{ or 18.3%}</mrow>
+						<mrow>\approx 0.183 \text{ or } 18.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2469,7 +2469,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(injury and did not stretch)}=\frac{21}{400}</mrow>
-						<mrow>\approx 0.053 \text{ or 5.3%}</mrow>
+						<mrow>\approx 0.053 \text{ or } 5.3\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2477,7 +2477,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(stretched or no injury)}=\frac{379}{400}</mrow>
-						<mrow>\approx 0.948 \text{ or 94.8%}</mrow>
+						<mrow>\approx 0.948 \text{ or } 94.8\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2485,7 +2485,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(injury give stretched)}=\frac{52}{322}</mrow>
-						<mrow>\approx 0.161 \text{ or 16.1%}</mrow>
+						<mrow>\approx 0.161 \text{ or } 16.1\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2493,7 +2493,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(injury give did not stretch)}=\frac{21}{78}</mrow>
-						<mrow>\approx 0.269 \text{ or 26.9%}</mrow>
+						<mrow>\approx 0.269 \text{ or } 26.9\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2597,7 +2597,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(non-fiction and paperback)}=\frac{8}{95}</mrow>
-						<mrow>\approx 0.084 \text{ or 8.4%}</mrow>
+						<mrow>\approx 0.084 \text{ or } 8.4\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2605,7 +2605,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(fiction given hardcover)}=\frac{13}{28}</mrow>
-						<mrow>\approx 0.464 \text{ or 46.4%}</mrow>
+						<mrow>\approx 0.464 \text{ or } 46.4\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2704,7 +2704,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(pass and no contingency table)}=\frac{23}{32}</mrow>
-						<mrow>\approx 0.719 \text{ or 71.9%}</mrow>
+						<mrow>\approx 0.719 \text{ or } 71.9\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -2712,7 +2712,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(pass given no contingency table)}=\frac{4}{7}</mrow>
-						<mrow>\approx 0.571 \text{ or 57.1%}</mrow>
+						<mrow>\approx 0.571 \text{ or } 57.1\%</mrow>
 					</md>
 				</p>
 			</li>

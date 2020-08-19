@@ -652,7 +652,7 @@
 						<mrow>P(\text{red and then red})</mrow>
 						<mrow>=P(\text{red})\cdot P(\text{red})</mrow>
 						<mrow>=\frac{6}{13}\cdot\frac{6}{13}</mrow>
-						<mrow>\approx 0.213 \text{ or, 21.3%}</mrow>
+						<mrow>\approx 0.213 \text{ or, } 21.3\%</mrow>
 						</md>
 					</p>
 				</li>
@@ -665,7 +665,7 @@
 						<mrow>P(\text{red and then red})</mrow>
 						<mrow>=P(\text{red})\cdot P(\text{red given red taken out})</mrow>
 						<mrow>=\frac{6}{13}\cdot\frac{5}{12}</mrow>
-						<mrow>\approx 0.192 \text{ or, 19.2%}</mrow>
+						<mrow>\approx 0.192 \text{ or, } 19.2\%</mrow>
 						</md>
 					</p>
 				</li>
@@ -679,7 +679,7 @@
 						<mrow>=P(\text{red})\cdot P(\text{green given red taken out})</mrow>
 						<mrow>=\frac{6}{13}\cdot\frac{4}{12}</mrow>
 						<mrow>=\frac{6}{13}\cdot\frac{1}{3}</mrow>
-						<mrow>\approx 0.154 \text{ or, 15.4%}</mrow>
+						<mrow>\approx 0.154 \text{ or, } 15.4\%</mrow>
 						</md>
 					</p>
 				</li>
@@ -707,7 +707,7 @@
 					<mrow>=P(\text{no citation on a single ride})^{20}</mrow>
 					<mrow>=(1-0.06)^{20}</mrow>
 					<mrow>=(0.94)^{20}</mrow>
-					<mrow>\approx 0.2901 \text{ or, 29.01%}</mrow>
+					<mrow>\approx 0.2901 \text{ or, } 29.01\%</mrow>
 				</md>
 			</p>
 		</solution>

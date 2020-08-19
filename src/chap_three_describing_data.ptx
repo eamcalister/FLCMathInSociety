@@ -560,7 +560,16 @@
 	</p>
 	<example>
 		<p>
-			Suppose we have collected weights from 100 subjects who identify as male, as part of a nutrition study. For our weight data, we have values ranging from a low of 121 pounds to a high of 263 pounds, giving a total span of <m>263-121 = 142</m>. We could create 7 intervals with a width of around 20, 14 intervals with a width of around 10, or somewhere in between. We often have to experiment with a few possibilities to find something that represents the data well. We will try using a class width of 15. We could start at 121, or at 120 since it is a nice round number.
+			Suppose we have collected weights from 100 subjects who identify as male, as part of a nutrition study. For our weight data, we have values ranging from a low of 121 pounds to a high of 263 pounds, giving a total span of <m>263-121 = 142</m>.
+		</p>
+		<p>
+			There are many ways to draw a histogram and we will explain one way as an example. We will create 10 classes by doing the following calculation: Take the range 142 and divide by 10 to find the class width
+		</p>
+		<p>
+			<m>142/10 = 14.2</m>.
+		</p>
+		<p>
+			Then we round up the class width so that the largest data value will be in one of the classes. So we round up to a class width of 15. Since the minimum data value is 121, we will choose 120 to start with a multiple of 15 that is less than 121.
 		</p>
 		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -610,9 +619,9 @@
 				</row>
 			</tabular>
 		</sidebyside>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_2/class_intervals.png">
-			<description>This is a histogram of the data in the table; the x-axis is labeled weights(pounds) and goes from 120 to 270, with a scale of 15; The y-axis is labeled frequency and goes from 0 to 30 with a scale of 5. There are no spaces between the bars.</description>
+	<sidebyside>
+		<image width="70%" source="images/statistics/3_2/class_intervals.png">
+		<description>This is a histogram of the data in the table; the x-axis is labeled weights(pounds) and goes from 120 to 270, with a scale of 15; The y-axis is labeled frequency and goes from 0 to 30 with a scale of 5. There are no spaces between the bars.</description>
 		</image>
 	</sidebyside>
 	</example>

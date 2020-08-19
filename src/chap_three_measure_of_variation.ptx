@@ -339,7 +339,7 @@
 		The sample standard deviation is
 	</p>
 	<p>
-		<m>s=\sqrt{\frac{0.2733}{4}} \approx $0.2614</m>
+		<m>s=\sqrt{\frac{0.2733}{4}} \approx \$0.2614</m>
 	</p>
 
 	<p>
@@ -377,13 +377,13 @@
 		</statement>
 		<solution>
 		<p>
-			Mean: <cd>=AVERAGE(A1:A36)</cd><m>=$299.58</m>
+			Mean: <cd>=AVERAGE(A1:A36)</cd><m>=\$299.58</m>
 		</p>
 		<p>
-			Median: <cd>=MEDIAN(A1:A36)</cd><m>=$307.50</m>
+			Median: <cd>=MEDIAN(A1:A36)</cd><m>=\$307.50</m>
 		</p>
 		<p>
-			Standard Deviation: <cd>=STDEV.S(A1:A36)</cd><m>=$78.68</m> 
+			Standard Deviation: <cd>=STDEV.S(A1:A36)</cd><m>=\$78.68</m> 
 		</p>
 		<p>
 			The mean and the median are relatively close to each other, so we can expect the distribution to be approximately symmetric with maybe a slight skew to the left, since the mean is smaller. The mean and standard deviation together tell us that the average cost of textbooks for a term is about $299.58, give or take $78.68.
@@ -943,7 +943,7 @@
 				<p>
 					<md>
 						<mrow>=stdev.s(A1:A15)</mrow>
-						<mrow>=$4.82</mrow>
+						<mrow>=\$4.82</mrow>
 					</md>
 				</p>
 				<p>
@@ -1045,7 +1045,7 @@
 				<p>
 					<md>
 						<mrow>s=\sqrt{\frac{325.78}{14}}</mrow>
-						<mrow>=$4.82</mrow>
+						<mrow>=\$4.82</mrow>
 					</md>
 				</p>
 			</li>
@@ -1129,7 +1129,7 @@
 					<md>
 						<mrow>Range = Max - Min</mrow>
 						<mrow>=25-5</mrow>
-						<mrow>=$20</mrow>
+						<mrow>=\$20</mrow>
 					</md>
 				</p>
 				<p>
@@ -1139,7 +1139,7 @@
 					<md>
 						<mrow>IQR = Q_{3} - Q_{1}</mrow>
 						<mrow>=10-7.5</mrow>
-						<mrow>=$2.50</mrow>
+						<mrow>=\$2.50</mrow>
 					</md>
 				</p>
 			</li>
@@ -2088,7 +2088,7 @@
 					<md>
 						<mrow>Range = Max - Min</mrow>
 						<mrow>=108000-4500</mrow>
-						<mrow>=$103,500</mrow>
+						<mrow>=\$103,500</mrow>
 					</md>
 				</p>
 				<p>
@@ -2098,7 +2098,7 @@
 					<md>
 						<mrow>IQR = Q_{3} - Q_{1}</mrow>
 						<mrow>=60000-12800</mrow>
-						<mrow>=$47,200</mrow>
+						<mrow>=\$47,200</mrow>
 					</md>
 				</p>
 				<p>
@@ -2108,7 +2108,7 @@
 					<md>
 						<mrow>Range = Max - Min</mrow>
 						<mrow>=50000-670</mrow>
-						<mrow>=$49,330</mrow>
+						<mrow>=\$49,330</mrow>
 					</md>
 				</p>
 				<p>
@@ -2118,7 +2118,7 @@
 					<md>
 						<mrow>IQR = Q_{3} - Q_{1}</mrow>
 						<mrow>=30000-1600</mrow>
-						<mrow>=$28,400</mrow>
+						<mrow>=\$28,400</mrow>
 					</md>
 				</p>
 			</li>

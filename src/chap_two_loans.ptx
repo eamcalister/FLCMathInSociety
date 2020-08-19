@@ -157,13 +157,13 @@
 			To use a spreadsheet, we use the <c>=PMT</c> formula. For a loan, the loan amount is the present value and the future value is 0, indicating that the loan will be paid off. Teresa is making a down payment, so we also need to subtract that from the cost of the car to find the loan amount:
 		</p>
 		<p>
-			<m>$15,000 – $3,000 = $12,000</m>
+			<m>\$15,000 – \$3,000 = \$12,000</m>
 		</p>
 		<p>
 			Her loan amount is $12,000. For the <insert>3-year</insert> loan at 2.75% APR, we enter:
 		</p>
 		<p>
-			<cd>=PMT(0.0275/12, 12*3, 12000, 0)</cd> <m>=$347.65</m>
+			<cd>=PMT(0.0275/12, 12*3, 12000, 0)</cd> <m>=\$347.65</m>
 		</p>
 		<sidebyside>
 		<image width="70%" source="images/financial_math/2_4/loan_formulas1.png">
@@ -192,7 +192,7 @@
 			<m>d=\frac{12000(\frac{0.0275}{12})}{(1-(1+\frac{0.0275}{12})^{-12\cdot 3})}</m>
 		</p>
 		<p>
-			<m>=$347.65</m>
+			<m>=\$347.65</m>
 		</p>
 
 		<p>
@@ -202,7 +202,7 @@
 			Now for the <insert>5-year loan</insert> at 4% APR, we enter:
 		</p>
 		<p>
-			<cd>=PMT(0.04/12, 12*5, 12000, 0)</cd> <m>=$221.00</m>
+			<cd>=PMT(0.04/12, 12*5, 12000, 0)</cd> <m>=\$221.00</m>
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_4/loan_formulas2.png">
@@ -232,7 +232,7 @@
 			<m>d=\frac{12000(\frac{0.04}{12})}{(1-(1+\frac{0.04}{12})^{-12\cdot 3})}</m>
 		</p>
 		<p>
-			<m>=$221.00</m>
+			<m>=\$221.00</m>
 		</p>
 		<p>
 			Now let’s compare the loans by finding out how much Teresa would pay in interest for each loan.
@@ -242,13 +242,13 @@
 			For the <insert>3-year loan</insert> at 2.75% APR, her payments would total:
 		</p>
 		<p>
-			<m>$347.65(12)(3)=$12,515.40</m>. Her interest would be $515.40.
+			<m>\$347.65(12)(3)=\$12,515.40</m>. Her interest would be $515.40.
 		</p>
 		<p>
 			For the <insert>5-year loan</insert> at 4% APR, her payments would total:
 		</p>
 		<p>
-			<m>$221.00(12)(5)=$13,260.00</m>. Her interest would be $1,260.00.
+			<m>\$221.00(12)(5)=\$13,260.00</m>. Her interest would be $1,260.00.
 		</p>
 
 		<p>
@@ -271,7 +271,7 @@
 			To use a spreadsheet for this problem, we use the <c>=PV</c> formula because we want to know the present value, which is the value of the loan right now. We enter
 		</p>
 		<p>
-			<cd>=PV(0.03/12, 12*5, 200,0)</cd><m>=$11,130.47</m>.
+			<cd>=PV(0.03/12, 12*5, 200,0)</cd><m>=\$11,130.47</m>.
 		</p>
 		<sidebyside>
 		<image width="70%" source="images/financial_math/2_4/loan_formulas3.png">
@@ -283,7 +283,7 @@
 			To use a formula, we are looking for <m>P</m>, the starting amount of the loan.
 		</p>
 		<p>
-			<m>d=$200</m> the monthly loan payment
+			<m>d=\$200</m> the monthly loan payment
 		</p>
 		<p>
 			<m>r=0.03</m> 3% annual rate
@@ -304,7 +304,7 @@
 			<m>P=\frac{200(1-(1.0025)^{-60})}{(0.0025)}</m>
 		</p>
 		<p>
-			<m>=$11,130.47</m>
+			<m>=\$11,130.47</m>
 		</p>
 		<p>
 			You can afford a maximum loan of $11,130.47. If you have a down payment you can add that to get the value of the car you can buy. If there are any closing costs for the loan you also need to take that into consideration.
@@ -313,13 +313,13 @@
 			To find the amount of interest you will pay for this loan, calculate the total of all your payments.
 		</p>
 		<p>
-			<m>$200(5)(12)=$12,000</m>
+			<m>\$200(5)(12)=\$12,000</m>
 		</p>
 		<p>
 			Then take the difference between the total payments and the loan amount.
 		</p>
 		<p>
-			<m>$12,000-$11,130.47=$869.53</m>
+			<m>\$12,000-\$11,130.47=\$869.53</m>
 		</p>
 		<p>
 			In this case, you would be paying $869.53 in interest. 
@@ -342,7 +342,7 @@
 			To use a spreadsheet for this problem, we use the <c>=PMT</c> formula because we want to know the payment amount. The amount of the loan is the present value and to pay off the loan the future value is 0. We enter
 		</p>
 		<p>
-			<cd>=PMT(0.06/12, 12*30, 140000,0)</cd><m>=$839.37</m>.
+			<cd>=PMT(0.06/12, 12*30, 140000,0)</cd><m>=\$839.37</m>.
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_4/loan_formulas4.png">
@@ -363,7 +363,7 @@
 			<m>t=30</m> 30 years
 		</p>
 		<p>
-			<m>P=$140,000</m> the starting loan amount
+			<m>P=\$140,000</m> the starting loan amount
 		</p>
 		<p>
 			In this case, we’re going to use the equation that is solved for <m>d</m>.
@@ -378,25 +378,25 @@
 			<m>=\frac{700}{(1-(1.005)^{-360})}</m>
 		</p>
 		<p>
-			<m>=$839.37</m>
+			<m>=\$839.37</m>
 		</p>
 		<p>
 			You would make payments of $839.37 per month for 30 years. To find out what percentage of the total will go towards interest, we need to total up all of the payments.
 		</p>
 		<p>
-			<m>$839.37(30)(12)=$302,173.20</m>
+			<m>\$839.37(30)(12)=\$302,173.20</m>
 		</p>
 		<p>
 			Then take the difference between the total payments and the loan amount.
 		</p>
 		<p>
-			<m>$302,173.20-$140,000=$162,173.20</m>
+			<m>\$302,173.20-\$140,000=\$162,173.20</m>
 		</p>
 		<p>
 			In this case, you would be paying $162,173.20 in interest over the life of the loan. To find the percentage, we divide the interest by the total amount paid.
 		</p>
 		<p>
-			<m>\frac{$162,173.20}{$302,173.20} \approx 0.5367</m> or 53.7%
+			<m>\frac{\$162,173.20}{\$302,173.20} \approx 0.5367</m> or 53.7%
 		</p>
 		<p>
 			About 53.7% of the total is being paid towards interest. 
@@ -428,7 +428,7 @@
 			To determine this, we need to think backwards. We are looking for the amount of the loan that can be paid off by $1,000 per month in the remaining 25 years. In other words, we’re looking for <m>P</m> when:
 		</p>
 		<p>
-			<m>d=$1,000</m> for the monthly loan payment
+			<m>d=\$1,000</m> for the monthly loan payment
 		</p>
 		<p>
 			<m>r=0.06</m> for 6% annual rate
@@ -443,7 +443,7 @@
 			To use a spreadsheet for this problem, we use the <c>=PV</c> formula because we want to know what the present value would be at the time you want to sell in 5 years. We enter:
 		</p>
 		<p>
-			<cd>=PV(0.06/12, 12*25, 1000,0)</cd><m>=$155,206.86</m>.
+			<cd>=PV(0.06/12, 12*25, 1000,0)</cd><m>=\$155,206.86</m>.
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_4/remaining_balance.png">
@@ -461,7 +461,7 @@
 			<m>=\frac{1000(1-(1.005)^{-300})}{(0.005)}</m>
 		</p>
 		<p>
-			<m>=$155,206.86</m>
+			<m>=\$155,206.86</m>
 		</p>
 		<p>
 			The loan balance with 25 years remaining on the loan will be $155,206.86
@@ -511,7 +511,7 @@
 				Her outstanding balance is $915.66.
 			</p>
 			<p>
-				 <q>One percentage point more than the APR of this outstanding balance</q> would be <m>$915.66(0.01+0.1799) \approx $173.88</m>.
+				 <q>One percentage point more than the APR of this outstanding balance</q> would be <m>\$915.66(0.01+0.1799) \approx \$173.88</m>.
 			</p>
 			<p>
 				$173.88 is larger than $25. So, Bilqis’s first payment must be at least $173.88 if she wants to avoid any penalties.
@@ -520,7 +520,7 @@
 				That payment will be used to decrease the balance.
 			</p>
 			<p>
-				<m>$915.66-$173.88 \approx $741.78</m>.
+				<m>\$915.66-\$173.88 \approx \$741.78</m>.
 			</p>
 			<p>
 				So, her new balance will be $741.78.
@@ -864,7 +864,7 @@
 			<ol label="a">
 				<li>
 					<p>
-						<m>P = \frac{700(1-(1+\frac{5.5\%}{12})^{-12\times 30}}{\frac{5.5\%}{12}}</m>, which gives <m>P \approx $123,285.23</m>
+						<m>P = \frac{700(1-(1+\frac{5.5\%}{12})^{-12\times 30}}{\frac{5.5\%}{12}}</m>, which gives <m>P \approx \$123,285.23</m>
 					</p>
 					<p>
 						or <c>=PV(5.5%/12,12*30,-700)</c> [Note 700 is entered as negative, to signify a payment]
@@ -877,7 +877,7 @@
 				</li>
 				<li>
 					<p>
-						Interest will be the difference between the total payments, and the amount borrowed. So the interest on this loan is <m>$252,000.00 - $123,285.23 = $128,714.77</m>.
+						Interest will be the difference between the total payments, and the amount borrowed. So the interest on this loan is <m>\$252,000.00 - \$123,285.23 = \$128,714.77</m>.
 					</p>
 				</li>
 			</ol>
@@ -915,7 +915,7 @@
 			<ol label="a">
 				<li>
 					<p>
-						<m>P = \frac{250(1-(1+\frac{7\%}{12})^{-12 \times 5})}{\frac{7\%}{12}}</m>, which gives <m>P \approx $12,625.50</m>
+						<m>P = \frac{250(1-(1+\frac{7\%}{12})^{-12 \times 5})}{\frac{7\%}{12}}</m>, which gives <m>P \approx \$12,625.50</m>
 					</p>
 					<p>
 						or <c>=PV(7%/12,12*5,-250)</c>
@@ -928,7 +928,7 @@
 				</li>
 				<li>
 					<p>
-						Interest will be the difference between the total payments, and the amount borrowed. So the interest on this loan is <m>$15,000.00 - $12,625.50 = $2,374.50</m>.
+						Interest will be the difference between the total payments, and the amount borrowed. So the interest on this loan is <m>\$15,000.00 - \$12,625.50 = \$2,374.50</m>.
 					</p>
 				</li>
 			</ol>
@@ -944,7 +944,7 @@
 	</statement>
 	<solution>
 		<p>
-			<m>d = \frac{25000(frac{2\%}{12})}{(1-(1+\frac{2\%}{12})^{-12 \times 4}}</m>, which gives <m>d \approx $542.38</m>
+			<m>d = \frac{25000(frac{2\%}{12})}{(1-(1+\frac{2\%}{12})^{-12 \times 4}}</m>, which gives <m>d \approx \$542.38</m>
 		</p>
 		<p>
 			or <c>=PMT(2%/12,48,25000)</c>
@@ -960,13 +960,13 @@
 	</statement>
 	<solution>
 		<p>
-			<m>d = \frac{12000(\frac{3\%}{12})}{(1-(1+\frac{3\%}{12})^{-12\times 4})}</m>, which gives <m>d \approx $265.61</m>
+			<m>d = \frac{12000(\frac{3\%}{12})}{(1-(1+\frac{3\%}{12})^{-12\times 4})}</m>, which gives <m>d \approx \$265.61</m>
 		</p>
 		<p>
 			or <c>=PMT(3%/12,48,12000)</c>
 		</p>
 		<p>
-			The interest will be the total amount paid, minus the amount of the loan. So the interest here is <m>($265.61 * 48) – $12,000 = $749.28</m>
+			The interest will be the total amount paid, minus the amount of the loan. So the interest here is <m>(\$265.61 * 48) – \$12,000 = \$749.28</m>
 		</p>
 	</solution>
 </exercise>
@@ -1003,14 +1003,14 @@
 					<p>
 						The loan amount will be 90% of $200,000.00
 						<md>
-							<mrow>= (0.9 * $200,000.00)</mrow>
-							<mrow>= $180,000.00</mrow>
+							<mrow>= (0.9 * \$200,000.00)</mrow>
+							<mrow>= \$180,000.00</mrow>
 						</md>
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>d = \frac{180000(\frac{5\%}{12})}{(1-(1+\frac{5\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx $966.28</m>
+						<m>d = \frac{180000(\frac{5\%}{12})}{(1-(1+\frac{5\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx \$966.28</m>
 					</p>
 					<p>
 						or <c>=PMT(5%/12,12*30,180000)</c>
@@ -1018,7 +1018,7 @@
 				</li>
 				<li>
 					<p>
-						<m>d = \frac{180000(\frac{6\%}{12})}{(1-(1+\frac{6\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx $1,079.19</m>
+						<m>d = \frac{180000(\frac{6\%}{12})}{(1-(1+\frac{6\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx \$1,079.19</m>
 					</p>
 					<p>
 						or <c>=PMT(6%/12,12*30,180000)</c>
@@ -1067,15 +1067,15 @@
 				</li>
 				<li>
 					<p>
-						The total of all loan payments will be <m>(12 * 30 * $1,706.58) = $614,368.80</m>.
+						The total of all loan payments will be <m>(12 * 30 * \$1,706.58) = \$614,368.80</m>.
 					</p>
 					<p>
-						So the total interest paid will be <m>$614,368.80 – $270,000.00 = $344,368.80</m>.
+						So the total interest paid will be <m>$614,368.80 – \$270,000.00 = \$344,368.80</m>.
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>($344,368.80 / $614,368.80)</m>, or <m>\approx 56.0525\%</m>
+						<m>(\$344,368.80 / \$614,368.80)</m>, or <m>\approx 56.0525\%</m>
 					</p>
 				</li>
 			</ol>
@@ -1094,7 +1094,7 @@
 			First, we need to find out the amount of the monthly payments for this loan.
 		</p>
 		<p>
-			<m>d = \frac{24000(\frac{3%}{12})}{(1-(1+\frac{3\%}{12})^{-12 \times 5})}</m>, which gives <m>d \approx $431.25</m>
+			<m>d = \frac{24000(\frac{3%}{12})}{(1-(1+\frac{3\%}{12})^{-12 \times 5})}</m>, which gives <m>d \approx \$431.25</m>
 		</p>
 		<p>
 			or <c>=PMT(3%/12,12*5,24000)</c>
@@ -1103,7 +1103,7 @@
 			The amount still owed three years later, is the present value of the two years of remaining payments on the loan.
 		</p>
 		<p>
-			<m>P = \frac{(1-(1+\frac{3\%}{12})^{-12 \times 2})}{\frac{3\%}{12}}</m>, which gives <m>P \approx $10,033.45</m>
+			<m>P = \frac{(1-(1+\frac{3\%}{12})^{-12 \times 2})}{\frac{3\%}{12}}</m>, which gives <m>P \approx \$10,033.45</m>
 		</p>
 		<p>
 			or <c>=PV(3%/12,12*2,-431.25)</c>
@@ -1122,7 +1122,7 @@
 			First, we need to find out the amount of the monthly payments for this loan.
 		</p>
 		<p>
-			<m>d = \frac{120000(\frac{6\%}{12})}{(1-(1+\frac{6\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx $719.46</m>
+			<m>d = \frac{120000(\frac{6\%}{12})}{(1-(1+\frac{6\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx \$719.46</m>
 		</p>
 		<p>
 			or <c>=PMT(6%/12,12*30,120000)</c>
@@ -1131,7 +1131,7 @@
 			The amount still owed fifteen years later, is the present value of the fifteen years of remaining payments on the loan.
 		</p>
 		<p>
-			<m>P = \frac{719.46(1-(1+\frac{6\%}{12})^{-12 \times 15})}{\frac{6\%}{12}}</m>, which gives <m>P \approx $85,258.54</m>
+			<m>P = \frac{719.46(1-(1+\frac{6\%}{12})^{-12 \times 15})}{\frac{6\%}{12}}</m>, which gives <m>P \approx \$85,258.54</m>
 		</p>
 		<p>
 			or <c>=PV(6%/12,12*15,-719.46)</c>
@@ -1239,7 +1239,7 @@
 					The interest is the amount over the $100,000 initial investment, or $29,504.60.
 				</p>
 				<p>
-					The percentage of the total payment sum representing interest will be <m>100*(29,504.60/129,504.60)%</m>, or approximately 22.7827%.
+					The percentage of the total payment sum representing interest will be <m>100*(29,504.60/129,504.60)\%</m>, or approximately 22.7827%.
 				</p>
 			</li>
 		</ol>

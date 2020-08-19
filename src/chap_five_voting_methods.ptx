@@ -250,7 +250,7 @@
 		Continuing <xref ref="example_2"></xref> from above, there are 10 voters, so we divide that by 2 or multiply by 0.5 to find 50%. Then we round up to the next whole number to get just over 50%.
 	</p>
 	<p>
-		<m>10%2=5</m>. Then we round up to 6 votes.
+		<m>10 \div 2=5</m>. Then we round up to 6 votes.
 	</p>
 	<p>
 		Exactly half of the votes would be a tie, so we round up to the next whole number. A candidate would need 6 out of 10 votes to win a majority. If there was an odd number of voters we would divide by 2 and get a decimal. Let’s say there were 13 voters:

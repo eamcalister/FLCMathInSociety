@@ -7,6 +7,6 @@
 <xi:include href="chap_five_voting_methods.ptx" />
 <xi:include href="chap_five_popular_vote.ptx" />
 <xi:include href="chap_five_gerrymandering.ptx" />
-<xi:include href="chap_five_budget_deficit_debt.ptx" />
+<!-- <xi:include href="chap_five_budget_deficit_debt.ptx" /> -->
 
 </chapter>

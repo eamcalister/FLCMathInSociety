@@ -8,6 +8,6 @@
 <xi:include href="chap_two_loans.ptx" />
 <xi:include href="chap_two_income_taxes.ptx" />
 <xi:include href="chap_two_review.ptx" />
-<xi:include href="chap_two_credit_cards.ptx" />
+<!-- <xi:include href="chap_two_credit_cards.ptx" /> -->
 
 </chapter>

@@ -389,75 +389,76 @@
 				<cell right="minor">T</cell>
 			</row>
 		</tabular>
-		</table>
+	</table>
 	<table>
-			<title>In the <em>R and E</em> column, you must have paid both your rent and electric bill. Otherwise <em>R and E</em> is false.</title>
-				<tabular>
-					<row bottom="minor">
-						<cell halign="center" colspan="3"><alert>And</alert></cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor"><em>R</em></cell>
-						<cell right="minor"><em>E</em></cell>
-						<cell right="minor"><em>R and E</em></cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor">T</cell>
-						<cell right="minor">T</cell>
-						<cell right="minor">T</cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor">T</cell>
-						<cell right="minor">F</cell>
-						<cell right="minor">F</cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor">F</cell>
-						<cell right="minor">T</cell>
-						<cell right="minor">F</cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor">F</cell>
-						<cell right="minor">F</cell>
-						<cell right="minor">F</cell>
-					</row>
-				</tabular>
-			</table>
-
-			<table>
-				<title>In the <em>R or E</em> column, you must have paid either your rent or electric bill, or both (inclusive or). Otherwise <em>R or E</em> is false.</title>
-				<tabular>
-					<row bottom="minor">
-						<cell halign="center" colspan="4"><alert>Or</alert></cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor"><em>R</em></cell>
-						<cell right="minor"><em>E</em></cell>
-						<cell right="minor"><em>R or E</em></cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor">T</cell>
-						<cell right="minor">T</cell>
-						<cell right="minor">T</cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor">T</cell>
-						<cell right="minor">F</cell>
-						<cell right="minor">T</cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor">F</cell>
-						<cell right="minor">T</cell>
-						<cell right="minor">T</cell>
-					</row>
-					<row halign="center" left="minor" bottom="minor">
-						<cell right="minor">F</cell>
-						<cell right="minor">F</cell>
-						<cell right="minor">F</cell>
-					</row>
-				</tabular>
-			</table>
-		</sidebyside>
+	<title>In the <em>R and E</em> column, you must have paid both your rent and electric bill. Otherwise <em>R and E</em> is false.</title>
+		<tabular>
+			<row bottom="minor">
+				<cell halign="center" colspan="3"><alert>And</alert></cell>
+			</row>
+			<row halign="center" left="minor" bottom="minor">
+				<cell right="minor"><em>R</em></cell>
+				<cell right="minor"><em>E</em></cell>
+				<cell right="minor"><em>R and E</em></cell>
+			</row>
+			<row halign="center" left="minor" bottom="minor">
+				<cell right="minor">T</cell>
+				<cell right="minor">T</cell>
+				<cell right="minor">T</cell>
+			</row>
+			<row halign="center" left="minor" bottom="minor">
+				<cell right="minor">T</cell>
+				<cell right="minor">F</cell>
+				<cell right="minor">F</cell>
+			</row>
+			<row halign="center" left="minor" bottom="minor">
+				<cell right="minor">F</cell>
+				<cell right="minor">T</cell>
+				<cell right="minor">F</cell>
+			</row>
+			<row halign="center" left="minor" bottom="minor">
+				<cell right="minor">F</cell>
+				<cell right="minor">F</cell>
+				<cell right="minor">F</cell>
+			</row>
+		</tabular>
+	</table>
+	</sidebyside>
+	<sidebyside>
+		<table>
+		<title>In the <em>R or E</em> column, you must have paid either your rent or electric bill, or both (inclusive or). Otherwise <em>R or E</em> is false.</title>
+			<tabular>
+				<row bottom="minor">
+					<cell halign="center" colspan="3"><alert>Or</alert></cell>
+				</row>
+				<row halign="center" left="minor" bottom="minor">
+					<cell right="minor"><em>R</em></cell>
+					<cell right="minor"><em>E</em></cell>
+					<cell right="minor"><em>R or E</em></cell>
+				</row>
+				<row halign="center" left="minor" bottom="minor">
+					<cell right="minor">T</cell>
+					<cell right="minor">T</cell>
+					<cell right="minor">T</cell>
+				</row>
+				<row halign="center" left="minor" bottom="minor">
+					<cell right="minor">T</cell>
+					<cell right="minor">F</cell>
+					<cell right="minor">T</cell>
+				</row>
+				<row halign="center" left="minor" bottom="minor">
+					<cell right="minor">F</cell>
+					<cell right="minor">T</cell>
+					<cell right="minor">T</cell>
+				</row>
+				<row halign="center" left="minor" bottom="minor">
+					<cell right="minor">F</cell>
+					<cell right="minor">F</cell>
+					<cell right="minor">F</cell>
+				</row>
+			</tabular>
+		</table>
+	</sidebyside>
 </subsection>
 
 <subsection>
@@ -545,16 +546,16 @@
 	<assemblage>
 		<title>Symbols used in other resources</title>
 		<p>
-			<m>A \text{ and } B</m> is written <m>A ⋀ B</m>
+			<m>A \text{ and } B</m> is written <m>A \land B</m>
 		</p>
 		<p>
-			<m>A \text{ or } B</m> is written <m>A ⋁ B</m>
+			<m>A \text{ or } B</m> is written <m>A \lor B</m>
 		</p>
 		<p>
-			<m>\text{not } A</m> is written <m>\text{~}A</m>
+			<m>\text{not } A</m> is written <m>~A</m>
 		</p>
 		<p>
-			<m>\text{If } A\text{, then } B</m> is written <m>A→B</m>
+			<m>\text{If } A\text{, then } B</m> is written <m>A\rightarrow B</m>
 		</p>
 	</assemblage>
 </subsection>

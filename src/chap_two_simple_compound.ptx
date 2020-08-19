@@ -52,13 +52,13 @@
 		For example, if you borrowed $100 from a friend and agree to repay it with 5% interest, then the amount of interest you would pay would be 5% of 100. It is very important to remember to change the interest <alert>rate</alert>, r, of 5% into a decimal by moving the decimal two places to the left.
 	</p>
 	<p>
-		<m>(0.05)$100=$5</m>
+		<m>(0.05)\$100=\$5</m>
 	</p>
 	<p>
 		The total amount you would repay is called the <alert>future value</alert> and would be $105, the original principal plus the interest.
 	</p>
 	<p>
-		<m>$100+$5=$105</m>
+		<m>\$100+\$5=\$105</m>
 	</p>
 	<p>
 		Here are the formulas to represent the calculations we just did. 
@@ -109,7 +109,7 @@
 		</statement>
 		<solution>
 		<p>
-			<m>P = $300</m> the principal or present value
+			<m>P = \$300</m> the principal or present value
 		</p>
 		<p>
 			<m>r = 0.03</m> 3% rate
@@ -120,8 +120,8 @@
 		<p>
 			<md>
 				<mrow>I=Pr</mrow>
-				<mrow>=$300(0.03)</mrow>
-				<mrow>=$9</mrow>
+				<mrow>=\$300(0.03)</mrow>
+				<mrow>=\$9</mrow>
 			</md>
 		</p>
 		<p>
@@ -131,7 +131,7 @@
 			<cd>=300*0.03</cd>
 		</p>
 		<p>
-			<m>=$9</m>. You will earn $9 in interest when your friend pays you back.
+			<m>=\$9</m>. You will earn $9 in interest when your friend pays you back.
 		</p>
 		</solution>
 	</example>
@@ -149,24 +149,24 @@
 			Each year, you would earn 5% interest so over the course of five years, you would earn:
 		</p>
 		<p>
-			<m>$1000(0.05)(5)=$250</m>
+			<m>\$1000(0.05)(5)=\$250</m>
 		</p>
 
 		<p>
 			When the bond matures, you would receive back the $1,000 you originally paid and the $250 in interest, so we could also put that into a single calculation:
 		</p>
 		<p>
-			<m>$1000+$1000(0.05)(5)=$1250</m>
+			<m>\$1000+\$1000(0.05)(5)=\$1250</m>
 		</p>
 
 		<p>
 			Using a spreadsheet, you would enter
 		</p>
 		<p>
-			<cd>=1000+1000*0.05*</cd>
+			<cd>=1000+1000*0.05</cd>
 		</p>
 		<p>
-			<m>=$1,250.</m>
+			<m>=\$1,250.</m>
 		</p>
 		<p>
 			The future value of the bond is $1,250. 
@@ -257,7 +257,7 @@
 		</statement>
 		<solution>
 		<p>
-			<m>P = $1000</m> the principal
+			<m>P = \$1000</m> the principal
 		</p>
 		<p>
 			<m>r=\frac{0.04}{2}=0.02</m> interest is being paid semi-annually (twice a year), so the 4% interest will be divided into two 2% payments.
@@ -268,8 +268,8 @@
 		<p>
 			<md>
 				<mrow>I=PRT</mrow>
-				<mrow>=$1000(0.02)(8)</mrow>
-				<mrow>=$160</mrow>
+				<mrow>=\$1000(0.02)(8)</mrow>
+				<mrow>=\$160</mrow>
 			</md>
 		</p>
 		<p>
@@ -278,8 +278,8 @@
 		<p>
 			<md alignment="align">
 				<mrow>A=P+I</mrow>
-				<mrow>=$1000+$160</mrow>
-				<mrow>=$1160</mrow>
+				<mrow>=\$1000+\$160</mrow>
+				<mrow>=\$1160</mrow>
 			</md>
 		</p>
 
@@ -290,7 +290,7 @@
 			<cd>=1000+1000*(0.04/2)*(4*2)</cd>
 		</p>
 		<p>
-			<m>=$1,160</m>
+			<m>=\$1,160</m>
 		</p>
 		<p>
 			The future value of the bond is $1,160. Remember that spreadsheets don’t interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
@@ -313,12 +313,13 @@
 	<p>
 		In the first month,
 	</p>
+
 	<p>
 		<md>
-			<mrow>P=$1000</mrow>
-			<mrow>r=0.0025 \text{ (which is 0.25%)}</mrow>
-			<mrow>I=$1000(0.0025)=$2.60</mrow>
-			<mrow>A=$1000+$2.5=$1002.50</mrow>
+			<mrow>P = \$1000</mrow>
+			<mrow>r =0.0025 \text{ (which is 0.25\%)}</mrow>
+			<mrow>I = \$1000 (0.0025)= \$2.60</mrow>
+			<mrow>A = \$1000 + \$2.5 = \$1002.50</mrow>
 		</md>
 	</p>
 	<p>
@@ -329,9 +330,9 @@
 	</p>
 	<p>
 		<md>
-			<mrow>P=$1002.50</mrow>
-			<mrow>I=$1002.50(0.0025)=$2.51 \text{ (rounded)}</mrow>
-			<mrow>A=$1002.50+$2.51=$1005.01</mrow>
+			<mrow>P=\$1002.50</mrow>
+			<mrow>I=\$1002.50(0.0025)=\$2.51 \text{ (rounded)}</mrow>
+			<mrow>A=\$1002.50+\$2.51=\$1005.01</mrow>
 		</md>
 	</p>
 	<p>
@@ -427,25 +428,25 @@
 		To find an equation to represent this, we will go through a few months to see the pattern:
 	</p>
 	<p>
-		Initial Amount: <m>P=$1000</m>
+		Initial Amount: <m>P=\$1000</m>
 	</p>
 	<p>
-		<m>1^{\text{st}} \text{ Month } A=1.0025($1000)</m>
+		<m>1^{\text{st}} \text{ Month } A=1.0025(\$1000)</m>
 	</p>
 	<p>
-		<m>2^{\text{nd}} \text{ Month } A=1.0025(1.0025($1000))=1.0025^{2}($1000)</m>
+		<m>2^{\text{nd}} \text{ Month } A=1.0025(1.0025(\$1000))=1.0025^{2}(\$1000)</m>
 	</p>
 	<p>
-		<m>3^{\text{rd}} \text{ Month } A=1.0025(1.0025^{2}($1000))=1.0025^{3}($1000)</m>
+		<m>3^{\text{rd}} \text{ Month } A=1.0025(1.0025^{2}(\$1000))=1.0025^{3}(\$1000)</m>
 	</p>
 	<p>
-		<m>4^{\text{th}} \text{ Month } A=1.0025(1.0025^{3}($1000))=1.0025^{4}($1000)</m>
+		<m>4^{\text{th}} \text{ Month } A=1.0025(1.0025^{3}(\$1000))=1.0025^{4}(\$1000)</m>
 	</p>
 	<p>
 		Observing a pattern, we could conclude
 	</p>
 	<p>
-		<m>n^{\text{th}} \text{ Month } A=1.0025^{n}($1000)</m>
+		<m>n^{\text{th}} \text{ Month } A=1.0025^{n}(\$1000)</m>
 	</p>
 	<p>
 		Notice that the $1000 in the equation was P, the starting amount. We found 1.0025 by adding one to the interest rate divided by 12, since we were compounding 12 times per year. Generalizing our result, we could write
@@ -563,7 +564,7 @@
 		</statement>
 		<solution>
 		<p>
-			<m>P = $3000</m> the initial deposit
+			<m>P = \$3000</m> the initial deposit
 		</p>
 		<p>
 			<m>r = 0.06</m> 6% annual rate
@@ -601,7 +602,7 @@
 			<me>A=3000(1+\frac{0.06}{12})^{12\cdot20})</me>
 		</p>
 		<p>
-			<me>=$9930.61</me>
+			<me>=\$9930.61</me>
 		</p>
 		<p>
 			To use a calculator, you would enter the formulas including parentheses around any inside operations. You would enter
@@ -742,7 +743,7 @@
 			<cd>=PV(0.04/4, 4*18, 0, 40000)</cd>
 		</p>
 		<p>
-			<m>= $19,539.84</m> 
+			<m>= \$19,539.84</m> 
 		</p>
 		<p>
 			You would need to deposit $19,539.84 now and keep the same interest rate to have $40,000 in 18 years.
@@ -768,7 +769,7 @@
 			<m>t = 18</m> Since we know the balance in 18 years
 		</p>
 		<p>
-			<m>A = $40,000</m> The amount we have in 18 years
+			<m>A = \$40,000</m> The amount we have in 18 years
 		</p>
 		<p>
 			In this case, we’re going to have to set up the equation, and solve for P.
@@ -855,7 +856,7 @@
 			<cd>=4000*EXP(0.0275*7)</cd>
 		</p>
 		<p>
-			<m>=$4849.11</m>.
+			<m>=\$4849.11</m>.
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/2_2/continuous_interest.png">
@@ -872,7 +873,7 @@
 			<m>P = 4000</m> Amount invested
 		</p>
 		<p>
-			<m>r = .0275</m> Interest rate
+			<m>r = 0.0275</m> Interest rate
 		</p>
 		<p>
 			<m>t = 7</m> Number of years
@@ -881,7 +882,7 @@
 			<m>A=4000e^{0.0275\cdot 7)}</m>
 		</p>
 		<p>
-			<m>=$4849.11</m>
+			<m>=\$4849.11</m>
 		</p>
 		<p>
 			After 7 years your account would be worth $4,849.11. Next, we will calculate the amount of interest earned and the percentage.
@@ -900,7 +901,7 @@
 			Continued: To find the total amount of interest earned, we subtract the principal from the total balance.
 		</p>
 		<p>
-			<m>$4849.11-$4000=$849.11</m>
+			<m>\$4849.11-\$4000=\$849.11</m>
 		</p>
 		<p>
 			The spreadsheet calculation is
@@ -909,7 +910,7 @@
 			<cd>=4849.11 – 4000</cd>
 		</p>
 		<p>
-			<m>=$849.11.</m> 
+			<m>=\$849.11.</m> 
 		</p>
 		<p>
 			You would earn $849.11 in interest.
@@ -918,7 +919,7 @@
 			To find the percentage that is interest, divide the amount of interest by the total amount.
 		</p>
 		<p>
-			<m>\frac{$849.11}{4849.11}=0.1751</m> or 17.5%
+			<m>\frac{\$849.11}{4849.11}=0.1751</m> or 17.5%
 		</p>
 		<p>
 			The spreadsheet calculation is the same:
@@ -1067,7 +1068,7 @@
 		<p>
 		<md>
 			<mrow>A=200+200(0.05)</mrow>
-			<mrow>A=$210</mrow>
+			<mrow>A=\$210</mrow>
 		</md>
 		</p>
 		<p>
@@ -1101,7 +1102,7 @@
 				<p>
 				<md>
 					<mrow>A=100+100(0.03)(0.5)</mrow>
-					<mrow>A=$101.50</mrow>
+					<mrow>A=\$101.50</mrow>
 				</md>
 				</p>
 			</li>
@@ -1109,7 +1110,7 @@
 				<p>
 				<md>
 					<mrow>=101.50-100</mrow>
-					<mrow>=$1.50</mrow>
+					<mrow>=\$1.50</mrow>
 				</md>
 				</p>
 			</li>
@@ -1131,7 +1132,7 @@
 		<p>
 		<md>
 			<mrow>A=200+200(0.06)(1.25)</mrow>
-			<mrow>A=$215</mrow>
+			<mrow>A=\$215</mrow>
 		</md>
 		</p>
 		<p>
@@ -1166,14 +1167,14 @@
 			<li>
 				<md>
 					<mrow>I=1000(0.025)(5)</mrow>
-					<mrow>I=$125</mrow>
+					<mrow>I=\$125</mrow>
 				</md>
 			</li>
 			<li>
 				<p>
 				<md>
 					<mrow>A=1000+1000(0.025)(5)</mrow>
-					<mrow>A=$1125</mrow>
+					<mrow>A=\$1125</mrow>
 				</md>
 				</p>
 			</li>
@@ -1210,7 +1211,7 @@
 				<p>
 				<md>
 					<mrow>A=20000+20000(0.05)(10)</mrow>
-					<mrow>A=$30000</mrow>
+					<mrow>A=\$30000</mrow>
 				</md>
 				</p>
 			</li>
@@ -1218,7 +1219,7 @@
 				<p>
 				<md>
 					<mrow>A=20000(1+0.05)^{10}</mrow>
-					<mrow>A=$32,577.89</mrow>
+					<mrow>A=\$32,577.89</mrow>
 				</md>
 				</p>
 			</li>
@@ -1240,7 +1241,7 @@
 		<p>
 		<md>
 			<mrow>A=4500(1+\frac{0.085}{12})^{12*20}</mrow>
-			<mrow>A=$24,485.59</mrow>
+			<mrow>A=\$24,485.59</mrow>
 		</md>
 		</p>
 		<p>
@@ -1262,7 +1263,7 @@
 		<p>
 		<md>
 			<mrow>A=1000(1+\frac{0.07}{52})^{52*20}</mrow>
-			<mrow>A \approx $4051.38</mrow>
+			<mrow>A \approx \$4051.38</mrow>
 		</md>
 		</p>
 		<p>
@@ -1306,7 +1307,7 @@
 				<p>
 				<md>
 					<mrow>A=3000(1+\frac{0.03}{4})^{4*5}</mrow>
-					<mrow>A \approx $3,483.55</mrow>
+					<mrow>A \approx \$3,483.55</mrow>
 				</md>
 				</p>
 				<p>
@@ -1320,7 +1321,7 @@
 				<p>
 				<md>
 					<mrow>I=3483.53-3000</mrow>
-					<mrow>I=$483.54</mrow>
+					<mrow>I=\$483.54</mrow>
 				</md>
 				</p>
 				<p>
@@ -1373,7 +1374,7 @@
 				<p>
 				<md>
 					<mrow>A=300(1+\frac{0.05}{1})^{1*10}</mrow>
-					<mrow>A \approx $488.67</mrow>
+					<mrow>A \approx \$488.67</mrow>
 				</md>
 				</p>
 				<p>
@@ -1387,7 +1388,7 @@
 				<p>
 				<md>
 					<mrow>I=488.67-300</mrow>
-					<mrow>I=$188.67</mrow>
+					<mrow>I=\$188.67</mrow>
 				</md>
 				</p>
 				<p>
@@ -1446,7 +1447,7 @@
 				<p>
 				<md>
 					<mrow>A=2000(1+\frac{0.03}{12})^{12*20}</mrow>
-					<mrow>A \approx $3,641.51</mrow>
+					<mrow>A \approx \$3,641.51</mrow>
 				</md>
 				</p>
 				<p>
@@ -1460,7 +1461,7 @@
 				<p>
 				<md>
 					<mrow>I=3641.51-2000</mrow>
-					<mrow>I=$1641.51</mrow>
+					<mrow>I=\$1641.51</mrow>
 				</md>
 				</p>
 				<p>
@@ -1528,7 +1529,7 @@
 				<p>
 				<md>
 					<mrow>A=10000(1+\frac{0.04}{52})^{52*25}</mrow>
-					<mrow>A \approx $27,172.37</mrow>
+					<mrow>A \approx \$27,172.37</mrow>
 				</md>
 				</p>
 				<p>
@@ -1542,7 +1543,7 @@
 				<p>
 				<md>
 					<mrow>I=27172.37-10000</mrow>
-					<mrow>I=$17,172.37</mrow>
+					<mrow>I=\$17,172.37</mrow>
 				</md>
 				</p>
 				<p>
@@ -1583,7 +1584,7 @@
 		<p>
 		<md>
 			<mrow>P=\frac{6000}{(1+\frac{0.06}{12})^{12*8}}</mrow>
-			<mrow>P \approx $3,717.14</mrow>
+			<mrow>P \approx \$3,717.14</mrow>
 		</md>
 		</p>
 		<p>
@@ -1604,7 +1605,7 @@
 		<p>
 		<md>
 			<mrow>P=\frac{20000}{(1+\frac{0.05}{4})^{4*4}}</mrow>
-			<mrow>P \approx $16,394.79</mrow>
+			<mrow>P \approx \$16,394.79</mrow>
 		</md>
 		</p>
 		<p>
@@ -1647,7 +1648,7 @@
 				<p>
 				<md>
 					<mrow>A_{Brylan} = 1200(1+\frac{0.046}{52})^{52*15}</mrow>
-					<mrow>A_{Brylan} \approx $2,391.73</mrow>
+					<mrow>A_{Brylan} \approx \$2,391.73</mrow>
 				</md>
 				</p>
 				<p>
@@ -1656,7 +1657,7 @@
 				<p>
 				<md>
 					<mrow>A_{Angad} = 1200(1+\frac{0.0455}{52})^{52*15}</mrow>
-					<mrow>A_{Angad} \approx $2,373.87</mrow>
+					<mrow>A_{Angad} \approx \$2,373.87</mrow>
 				</md>
 				</p>
 				<p>
@@ -1670,7 +1671,7 @@
 				<p>
 				<md>
 					<mrow>A_{Brylan} = 1200(1+\frac{0.046}{52})^{52*30}</mrow>
-					<mrow>A_{Brylan} \approx $4,766.97</mrow>
+					<mrow>A_{Brylan} \approx \$4,766.97</mrow>
 				</md>
 				</p>
 				<p>
@@ -1679,7 +1680,7 @@
 				<p>
 				<md>
 					<mrow>A_{Angad} = 1200(1+\frac{0.0455}{52})^{52*30}</mrow>
-					<mrow>A_{Angad} \approx $4,696.06</mrow>
+					<mrow>A_{Angad} \approx \$4,696.06</mrow>
 				</md>
 				</p>
 				<p>
@@ -1736,7 +1737,7 @@
 				<p>
 				<md>
 					<mrow>A=6700(1+\frac{0.0375}{12})^{12*5}</mrow>
-					<mrow>A \approx $8,079.38</mrow>
+					<mrow>A \approx \$8,079.38</mrow>
 				</md>
 				</p>
 				<p>
@@ -1745,7 +1746,7 @@
 				<p>
 				<md>
 					<mrow>A=6500(1+\frac{0.038}{1})^{1*5}</mrow>
-					<mrow>A \approx $7,832.49</mrow>
+					<mrow>A \approx \$7,832.49</mrow>
 				</md>
 				</p>
 				<p>
@@ -1791,7 +1792,7 @@
 				<p>
 				<md>
 					<mrow>A=5000(1+\frac{0.0345}{4})^{4*10}</mrow>
-					<mrow>A \approx $7,049.51</mrow>
+					<mrow>A \approx \$7,049.51</mrow>
 				</md>
 				</p>
 				<p>
@@ -1800,7 +1801,7 @@
 				<p>
 				<md>
 					<mrow>A=5000(1+\frac{0.034}{365})^{365*10}</mrow>
-					<mrow>A \approx $7,024.63</mrow>
+					<mrow>A \approx \$7,024.63</mrow>
 				</md>
 				</p>
 				<p>
@@ -1846,7 +1847,7 @@
 				<p>
 				<md>
 					<mrow>A=2500e^{0.04*10}</mrow>
-					<mrow>A \approx $3,729.56</mrow>
+					<mrow>A \approx \$3,729.56</mrow>
 				</md>
 				</p>
 				<p>
@@ -1860,7 +1861,7 @@
 				<p>
 				<md>
 					<mrow>I = 3729.56-2500</mrow>
-					<mrow>I = $1229.56</mrow>
+					<mrow>I = \$1229.56</mrow>
 				</md>
 				</p>
 				<p>
@@ -1913,7 +1914,7 @@
 				<p>
 				<md>
 					<mrow>A= 1000e^{0.0575*15}</mrow>
-					<mrow>A \approx $2,369.08</mrow>
+					<mrow>A \approx \$2,369.08</mrow>
 				</md>
 				</p>
 				<p>
@@ -1927,7 +1928,7 @@
 				<p>
 				<md>
 					<mrow>I = 2368.08-1000</mrow>
-					<mrow>I = $1,368.08</mrow>
+					<mrow>I = \$1,368.08</mrow>
 				</md>
 				</p>
 				<p>
@@ -1980,7 +1981,7 @@
 				<p>
 				<md>
 					<mrow>A= 5000e^{0.045*5}</mrow>
-					<mrow>A \approx $6,261.61</mrow>
+					<mrow>A \approx \$6,261.61</mrow>
 				</md>
 				</p>
 				<p>
@@ -1994,7 +1995,7 @@
 				<p>
 				<md>
 					<mrow>I = 6261.61-5000</mrow>
-					<mrow>I = $1,261.61</mrow>
+					<mrow>I = \$1,261.61</mrow>
 				</md>
 				</p>
 				<p>
@@ -2042,7 +2043,7 @@
 				<p>
 				<md>
 					<mrow>A_{You}=10000e^{0.055*10}</mrow>
-					<mrow>A_{You} \approx $17,332.53</mrow>
+					<mrow>A_{You} \approx \$17,332.53</mrow>
 				</md>
 				</p>
 				<p>
@@ -2051,7 +2052,7 @@
 				<p>
 				<md>
 					<mrow>A_{Friend} = 10000(1+\frac{0.055}{1})^{1*10}</mrow>
-					<mrow>A_{Friend} \approx $17,081.44</mrow>
+					<mrow>A_{Friend} \approx \$17,081.44</mrow>
 				</md>
 				</p>
 				<p>
@@ -2065,7 +2066,7 @@
 				<p>
 				<md>
 					<mrow>=17332.53-17081.44</mrow>
-					<mrow>=$251.09</mrow>
+					<mrow>=\$251.09</mrow>
 				</md>
 				</p>
 				<p>
