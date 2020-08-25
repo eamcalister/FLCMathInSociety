@@ -2,6 +2,28 @@
 <section xml:id="chap_five_apportionment">
 <title>Apportionment</title>
 
+<paragraphs>
+	<title>Dr. Graciela Chichilnisky and Social Choice</title>
+	<sidebyside>
+		<image width="40%" source="images/democracy/5_1/gc_pic.png"></image>
+	</sidebyside>
+		<p>
+			Dr. Graciela Chichilnisky is a professor of Economics and Mathematical Statistics at Columbia University. She holds two Ph.D. degrees, in Mathematics and Economics from MIT and University of California Berkeley.
+		</p>
+		<p>
+			Dr. Chichilnisky applied algebraic topology to voting theory and the theory of social choice. She accounted for not only the order of voting preference but also the intensity of preference among the alternatives (Chichilnisky, 1980). Due to her innovative work in this area, continuous social choice has become an international subdiscipline.
+		</p>
+		<p>
+			More recently, Dr. Chichilnisky combined her research in math and economics to focus on climate change. Dr. Chichilnisky acted as the lead author on the Intergovernmental Panel on Climate Change, which received the 2007 Nobel Prize for its work in deciding world policy with respect to climate change, and she worked extensively on the Kyoto Protocol, creating and designing the carbon market that became international law in 2005 (Siegle, 2010).
+		</p>
+		<p>
+			As a world-renowned economist, she is the creator of the formal theory of Sustainable Development (Siegle, 2010). Her pioneering work uses innovative market mechanisms to create Green Capitalism. Dr. Chichilnisky is the CEO and Co-founder of Global Thermostat<fn><url href="https://globalthermostat.com/"></url></fn>, a company in which she co-invented a <q>Carbon Negative Technology</q> that captures CO2 from the air and transforms it into profitable assets such as biofuels, food, beverages, polymers, and valuable building materials (Chichilnisky, 2018).
+		</p>
+		<p>
+			Dr. Chichilnisky taught previously at Harvard, Essex and Stanford Universities. She was elected one of the Ten Most Influential Latinos in the U.S. She is a frequent political and economic speaker on CNN, ABC, BBC TV News, and Bloomberg News, as well as a frequent keynote speaker at leading international conferences and universities. Her two most recent books are <q>Reversing Climate Change: How Carbon Removals Can Resolve Climate Change and Fix the Economy</q> and <q>The Economics of Climate Change</q>. Dr. Chichilnisky is also the author of <q>Saving Kyoto</q>, which one the American Library Association's 2010 Outstanding Academic Title of the Year and the American Geographical Society's Book of the Month Award in October 2009.
+		</p>
+</paragraphs>
+
 <objectives>
 <title><xref ref="chap_five_apportionment"></xref></title>
 	<introduction>
@@ -39,88 +61,58 @@
 </objectives>
 
 <subsection>
-<title></title>
-	<paragraphs>
-	<title>Dr. Graciela Chichilnisky and Social Choice</title>
-		<sidebyside>
-			<image width="70%" source="images/democracy/5_1/gc_pic.png"></image>
-		</sidebyside>
-		<p>
-			Dr. Graciela Chichilnisky is a professor of Economics and Mathematical Statistics at Columbia University. She was born in Argentina. After a military coup she left for the United States, became a citizen, and resides in New York City. She holds two Ph.D. degrees, in Mathematics and Economics from MIT and University of California Berkeley.
-		</p>
-		<p>
-			Dr. Chichilnisky applied algebraic topology to voting theory and the theory of social choice. She accounted for not only the order of voting preference but also the intensity of preference among the alternatives. Due to her innovative work in this area, continuous social choice has become an international subdiscipline.
-		</p>
-		<p>
-			More recently, Dr. Chichilnisky has combined her research in math and economics to focus on climate change. She worked extensively on the Kyoto Protocol, creating and designing the carbon market that became international law in 2005. As a world-renowned economist, she is the creator of the formal theory of Sustainable Development and acted as the lead U.S. author on the Intergovernmental Panel on Climate Change. Her pioneering work uses innovative market mechanisms to create Green Capitalism.
-		</p>
-		<p>
-			Dr. Chichilnisky is the CEO and Co-founder of <url href="https://globalthermostat.com/">Global Thermostat</url>, a company in which she co-invented a <q>Carbon Negative Technology</q> that captures CO2 from the air and transforms it into profitable assets such as biofuels, food, beverages, polymers, and valuable building materials.
-		</p>
-		<p>
-			Dr. Chichilnisky has taught previously at Harvard, Essex and Stanford Universities. She was elected one of the Ten Most Influential Latinos in the U.S. She is a frequent political and economic speaker on CNN, ABC, BBC TV News, and Bloomberg News, as well as a frequent keynote speaker at leading international conferences and universities. Her two most recent books are <q>The Economics of Climate Change</q> and <q>Saving Kyoto</q>.
-		</p>
-	</paragraphs>
-</subsection>
-
-<subsection>
-<title></title>
+<title>Historical Context for This Chapter</title>
 	<p>
-		In this chapter, we are going to study some of the math used in the United States government. In doing that, it is important to acknowledge that Native Americans were on this land before the colonists. In addition, slavery and the Three-Fifths Compromise are often left out of math texts. We are un-erasing these practices to show how these racist policies, laws and practices continue to contribute to the systemic racism that persists today.
+		In this chapter we are going to study some of the math used in the United States government today. In doing this, it is very important to acknowledge the Native American genocide and race-based chattel slavery which are often left out of math textbooks.
+	</p>
+	<p>
+		We are including this history to show how racist policies, laws and practices like segregation, racial profiling, police brutality, mass incarceration, redlining and voter suppression continue to this day to limit the freedoms, rights and economic prospects of African Americans. With the COVID-19 pandemic and the death of George Floyd by a police officer, there is greater awareness of systemic racism than ever before.
 	</p>
 </subsection>
 
 <subsection>
-<title>Stolen Land</title>
+<title>Formation of the United States</title>
 	<p>
-		We acknowledge that the United States was created on stolen land. Portland, Oregon is on land where the Multnomah, Kathlamet, and Clackamas bands of the Chinook, Tualatin, Kalapuya, Molalla and many other Tribes made their homes along the Columbia River. Multnomah is a band of Chinooks that lived in this area.
+		Scholars estimate that people have lived in the Americas for over 20,000 years (Worrall, 2018). By the time Columbus arrived, more than 50 million people were living in the Americas and around 10 million Indegenous people were living in the area that would become the United States (History.com Editors, 2018).
 	</p>
 	<p>
-		We thank the descendants of these tribes for being the original stewards and protectors of these lands since time immemorial. We also acknowledge that Portland, OR has one of the largest Urban Native American populations in the U.S. with over 380 federally recognized tribes represented in the Urban Portland Metropolitan area. We also acknowledge the systemic policies of genocide, relocation, and assimilation that still impact many Indigenous/Native American families today.
+		The first colonists arrived in America in 1607 and African people who had been violently separated from their families and homeland were brought to Jamestown in 1619 as slaves. Slave labor was used on tobacco and cotton plantations, for domestic work and even as part of the labor for building the White House. The system of slavery was an integral part of the United States economic and political system (How Slavery Helped Build a World Economy, 2003).
+	<p>
+	</p>
+		At the same time, white settlements kept encroaching on the homeland of Native Americans. Many treaties were signed and then violated. For example, in 1785, the <alert>Treaty of Hopewell</alert> was signed with the Cherokees in Georgia, which set a boundary on white settlement, but there were already colonists past that border.
 	</p>
 	<p>
-		We are honored by the collective work of many Native Nations, leaders and families who are demonstrating resilience, resistance, revitalization, healing and creativity. We are honored to be guests upon these lands. Thank you, and thanks also to our colleagues at the Portland State University Indigenous Nations Studies Program for crafting this acknowledgement.
-	</p>
-</subsection>
-
-<subsection>
-<title>Formation of the US Government</title>
-	<p>
-		The first colonists arrived in America in 1607 and African slaves were separated from their families and homeland and first brought to Jamestown in 1619. In 1785, the Treaty of Hopewell was signed in Georgia, which set a western boundary on white settlement. It wasn’t long before the treaty was violated and on May 28, 1830, the Indian Removal Act was signed by President Jackson. The Act relocated Native Americans to land west of the Mississippi and the journey was nicknamed the <q>Trail of Tears.</q> You can find a timeline of Native American history on this website<fn><url href="https://www.history.com/topics/native-american-history/native-american-timeline">https://www.history.com/topics/native-american-history/native-american-timeline</url></fn>.
+		The U.S. government was officially formed in 1787. During the <alert>Constitutional Convention</alert>, the framers were tasked with making decisions on the three branches of government and how people (or those considered to be people) would be represented. At that time only white men with property were allowed to vote. Women were also considered to be property of their husband at the time.
 	</p>
 	<p>
-		The U.S. government was formed in 1787. During the Constitutional Convention, the framers were tasked with making decisions on the three branches of government and how people (or those considered to be people) would be represented. In creating the Legislative Branch of government, it was decided that Congress would be made up of the Senate and the House of Representatives. Representation for the Senate would be equal with two senators per state. To account for the different sizes of the states, the representation in the House of Representatives would be proportional to the state’s population. At this time only white men with property were allowed to vote.
-	</p>
-</subsection>
-
-<subsection>
-<title>Three-Fifths Compromise</title>
-	<p>
-		During the Constitutional Convention, the northern and southern states were at odds on how to count the population. The South wanted more representation in Congress which would also increase their power in elections, so they argued to count slaves as part of their population. The southern states did not want slaves to be counted for taxation, however, because that would result in them paying more taxes.
+		In creating the Legislative Branch of government, it was decided that Congress would be made up of the Senate and the House of Representatives. Representation for the <alert>Senate</alert> would be <alert>equal</alert> with two senators per state. To account for the different sizes of the states, the representation in the <alert>House of Representatives</alert> would be <alert>proportional</alert> to the state’s population, but there was a controversy over how to count the population.
 	</p>
 	<p>
-		Slaves were considered property, not humans, and they were not citizens. Therefore, they did not have the right to vote or participate in government. The anti-slavery North only wanted to count free people, which included free Blacks. This led to the Three-Fifths Compromise that determined three out of every five slaves would be counted toward a state’s population (Clayton, 2015). 
+		During the Constitutional Convention, the northern and southern states were at odds on whom to count. The South wanted more representation in Congress which would also increase their power, so they argued to count slaves as part of their population. The southern states did not want to count slaves for taxation, however, because that would result in them paying more taxes.
 	</p>
 	<p>
-		Slaves were freed by Abraham Lincoln’s Emancipation Proclamation on January 1st, 1863 and the 13th Amendment was ratified on December 6, 1865. It was not until June 19th, 1865 that the last group of slaves in Texas learned they had been freed. This is now celebrated as the Juneteenth<fn><url href="https://www.juneteenth.com/history.htm">https://www.juneteenth.com/history.htm</url></fn> holiday. While slavery had ended, racism and numerous racist policies like segregation, racial profiling, redlining and voter suppression continue to this day to limit the freedoms, rights and economic prospects of African Americans.
+		Slaves were considered property, not humans, and they were not citizens. Therefore, they did not have the right to vote or participate in government. The anti-slavery North wanted to count only free people, which included free Blacks. This led to the <alert>Three-Fifths Compromise</alert> that determined three out of every five slaves would be counted toward a state’s population and taxation (Clayton, 2015).
+	</p>
+	<p>
+		It is also important to note that there are about 4 million U.S. Citizens who live in the territories of Guam, the Virgin Islands, the Northern Mariana Islands and Puerto Rico who do not have representatives or senators. They pay federal taxes like Social Security and Medicare but not Federal Income tax.
 	</p>
 </subsection>
 
 <subsection>
 <title>What is Apportionment?</title>
 	<p>
-		The number of representatives each state gets is based on its population, so once the framers decided how to count the population, they had to figure out how to divide up the representatives. This math problem is called apportionment. It is also important to note that there are about 4 million U.S. Citizens who live in the territories of Guam, the Virgin Islands, the Northern Mariana Islands and Puerto Rico who do not have representatives or senators. They pay federal taxes like Social Security and Medicare but not Federal Income tax.
+		The number of representatives each state gets is based on its population, so once the framers decided how to count the population, they had to figure out how to divide up the representatives. This math problem is called apportionment.
 	</p>
 	<p>
-		<alert>Apportionment</alert> is the problem of dividing up a fixed number of things among groups of different sizes. In the United States, there is a certain number of representatives as stated in the constitution, currently 435, and they need to be divided fairly among the 50 states. Since the states are different sizes, and we cannot use fractions of people, this is not an easy task. In addition, the population in each state may change over time. Every 10 years after the census is taken, the representatives are re-apportioned.
+		<alert>Apportionment</alert> is the problem of dividing up a fixed number of things among groups of different sizes. In the United States, there is a certain number of representatives as stated in the constitution, currently 435, and they need to be divided fairly among the 50 states. Since the states are different sizes, and we cannot use fractions of people, this is not an easy task. In addition, the population in each state may change over time. Every 10 years after the census is taken, the representatives are reapportioned.
 	</p>
 	<p>
-		The apportionment problem comes up in a variety of non-political areas too. Here are the rules for apportionment in general
+		The apportionment problem comes up in a variety of non-political areas too. Here are the rules for apportionment in general.
 	</p>
 	<assemblage>
 		<title>Apportionment rules</title>
 		<p>
-			<ol label="1">
+			<ol label="1.">
 				<li>
 					<p>
 						The things being divided up can exist only in whole numbers.
@@ -128,7 +120,7 @@
 				</li>
 				<li>
 					<p>
-						We must use all of the things being divided up, and we cannot use any more.			
+						We must use all of the things being divided up, and we cannot use any more.
 					</p>
 				</li>
 				<li>
@@ -146,7 +138,7 @@
 	</assemblage>
 	<p>
 		In terms of the apportionment of the United States House of Representatives, these rules imply:
-		<ol label="1">
+		<ol label="1.">
 			<li>
 				<p>
 					We can only have whole representatives (a state can’t have 3.4 representatives).
@@ -154,65 +146,77 @@
 			</li>
 			<li>
 				<p>
-					We can only use the 435 representatives available.	
+					We can only use the 435 representatives available.
 				</p>
 			</li>
 			<li>
 				<p>
-					Every state gets at least one representative.		
+					Every state gets at least one representative.
 				</p>
 			</li>
 			<li>
 				<p>
-					The number of representatives each state gets should be approximately proportional to the state population. This way, the number of constituents each representative has should be approximately equal.	
+					The number of representatives each state gets should be approximately proportional to the state population. This way, the number of constituents each representative has should be approximately equal.
 				</p>
 			</li>
 		</ol>
 	</p>
 	<p>
-		We will look at four ways of solving the apportionment problem, developed by different people: Hamilton, Jefferson, Webster, and the Huntington-Hill method that is used today. Since there was race-based chattel slavery in the United States while these methods were being formed, we will also explore Hamilton, Jefferson and Webster’s relationship to slavery.
+		We will look at four ways of solving the apportionment problem, developed by different people: Hamilton, Jefferson, Webster, and the Huntington-Hill method that is used today. We will continue to look at U.S. history throughout this section including Hamilton, Jefferson and Webster’s relationship to slavery.
 	</p>
 </subsection>
 
 <subsection>
 <title>Hamilton's Method</title>
 	<p>
-		Alexander Hamilton was raised in St. Croix in the U.S. Virgin Islands by a poor family. He was motivated by his low socioeconomic status to work himself into a higher social standing. He eventually came to the colonies and worked himself into circles of wealth and influence. While Hamilton wasn’t pro-slavery and considered himself an abolitionist, when choosing between his societal status and moral obligation, he chose the former.
+		Alexander Hamilton (1755 - 1804) was raised in St. Croix in the U.S. Virgin Islands by a poor family. He was motivated by his low socioeconomic status to work himself into a higher social standing. He eventually came to the colonies and worked himself into circles of wealth and influence. While Hamilton wasn’t pro-slavery and considered himself an abolitionist, when choosing between his societal status and moral obligation, he chose the former.
 	</p>
 	<p>
 		He wed Elizabeth Schuyler, who was from a prominent family who owned slaves. He was involved with the transactions of slaves for his in-laws which further muddled his anti-slavery stance. Furthermore, Hamilton also traded and sold slaves as part of his duties for the Continental Army.
 	</p>
 	<p>
-		Alexander Hamilton proposed the method that now bears his name. His method was approved by Congress in 1791 but was vetoed by President Washington. It was later adopted in 1852 and used through 1911. He begins by determining, to several decimal places, how many people each representative should represent (the divisor).
+		Alexander Hamilton proposed the method that now bears his name. His method was approved by Congress in 1791 but was vetoed by President Washington. It was later adopted in 1852 and used through 1910. He begins by determining, to several decimal places, how many people each representative should represent (the divisor).
 	</p>
 	<assemblage>
 	<title>Hamilton’s Method</title>
-		<p>
-			1. Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the divisor.
-		</p>
-		<p>
-			2. Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the quota.
-		</p>
-		<p>
-			Since we can only allocate whole representatives, Hamilton resolved the whole number problem as follows:
-		</p>
-		<p>
-			3. Cut off all the decimal parts of all the quotas (but don’t forget what the decimals were). This is the initial apportionment and will always be less than or equal to the total number of representatives. Add up the whole numbers.
-		</p>
-		<p>
-			4. If the total from Step 3 is less than the total number of representatives, assign the remaining representatives, one each, to the states whose decimal parts of the quota were largest, until the desired total is reached.
-		</p>
-		<p>
-			Make sure that each state ends up with at least one representative.
-		</p>
+	<p>
+		<ol label="1.">
+			<li>
+				<p>
+				Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
+				</p>
+			</li>
+			<li>
+				<p>
+				Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
+				</p>
+				<p>
+				<em>Since we can only allocate whole representatives, Hamilton resolved the whole number problem as follows:</em>
+				</p>
+			</li>
+			<li>
+				<p>
+				Cut off all the decimal parts of all the quotas (but don’t forget what the decimals were). This is the <alert>initial</alert> apportionment and will always be less than or equal to the total number of representatives. Add up the whole numbers.
+				</p>
+			</li>
+			<li>
+				<p>
+				If the total from Step 3 is less than the total number of representatives, assign the remaining representatives, one each, to the states whose decimal parts of the quota were largest, until the desired total is reached.
+				</p>
+				<p>
+				Make sure that each state ends up with at least one representative.
+				</p>
+			</li>
+		</ol>
+	</p>
 	</assemblage>
 	<p>
-		Let’s see how this works in an example
+		Let’s see how this works in an example.
 	</p>
 	<example>
 		<statement>
 		<p>
-			The state of Delaware has three counties: Kent, New Castle, and Sussex. The Delaware state House of Representatives has 41 members. If Delaware wants to divide this representation along county lines (which is <em>not</em> required, but let’s pretend they do), let’s use Hamilton’s method to apportion them. The populations of the counties are as follows (from the 2010 Census):
+			A new state is named after George Floyd, killed by the police in Minneapolis, Minnesota in 2020. Floyd has three counties: King, Garner and Taylor. They are named after Rodney King, Eric Garner and Breonna Taylor, who are all African Americans killed by the police. The Floyd State House of Representatives has 41 members. If the legislature wants to divide this representation along county lines (which is <em>not</em> required, but let’s pretend they do), let’s use Hamilton’s method to apportion them. The populations of the counties are as follows:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -221,15 +225,15 @@
 				<cell>Population</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>162,310</cell>
 			</row>
 			<row>
-				<cell>New Castle</cell>
+				<cell>Garner</cell>
 				<cell>538,479</cell>
 			</row>
 			<row>
-				<cell>Sussex</cell>
+				<cell>Taylor</cell>
 				<cell>197,145</cell>
 			</row>
 			<row>
@@ -242,7 +246,7 @@
 			Step 1: First, we divide the total population by the number of representatives to find the divisor: <m>897934/41 = 21900.82927</m>.
 		</p>
 		<p>
-			Step 2: Now we determine each county’s quota by dividing the county’s population by the divisor: For example, for Kent, we take <m>162,310/21,900.82927</m> which equals 7.4111.
+			Step 2: Now we determine each county’s quota by dividing the county’s population by the divisor: For example, for King, we take <m>162,310/21,900.82927</m> which equals 7.4111.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -252,17 +256,17 @@
 				<cell>Quota</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>162,310</cell>
 				<cell>7.4111</cell>
 			</row>
 			<row>
-				<cell>New Castle</cell>
+				<cell>Garner</cell>
 				<cell>538,479</cell>
 				<cell>24.5872</cell>
 			</row>
 			<row>
-				<cell>Sussex</cell>
+				<cell>Taylor</cell>
 				<cell>197,945</cell>
 				<cell>9.0017</cell>
 			</row>
@@ -285,19 +289,19 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>162,310</cell>
 				<cell>7.4111</cell>
 				<cell>7</cell>
 			</row>
 			<row>
-				<cell>New Castle</cell>
+				<cell>Garner</cell>
 				<cell>538,479</cell>
 				<cell>24.5872</cell>
 				<cell>24</cell>
 			</row>
 			<row>
-				<cell>Sussex</cell>
+				<cell>Taylor</cell>
 				<cell>197,945</cell>
 				<cell>9.0017</cell>
 				<cell>9</cell>
@@ -311,7 +315,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Step 4: We need 41 representatives, and right now we only have 40. The remaining one goes to the county with the largest decimal part, which is New Castle:
+			Step 4: We need 41 representatives, and right now we only have 40. The remaining one goes to the county with the largest decimal part, which is Garner:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -323,21 +327,21 @@
 				<cell>Final</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>162,310</cell>
 				<cell>7.4111</cell>
 				<cell>7</cell>
 				<cell>7</cell>
 			</row>
 			<row>
-				<cell>New Castle</cell>
+				<cell>Garner</cell>
 				<cell>538,479</cell>
 				<cell>24.<em>5872</em></cell>
 				<cell>24<em>+1</em></cell>
 				<cell>25</cell>
 			</row>
 			<row>
-				<cell>Sussex</cell>
+				<cell>Taylor</cell>
 				<cell>197,945</cell>
 				<cell>9.0017</cell>
 				<cell>9</cell>
@@ -353,7 +357,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Our final apportionment is Kent: 7, New Castle: 25, Sussex: 9, for a total of 41 representatives.
+			Our final apportionment is King: 7, Garner: 25, Taylor: 9, for a total of 41 representatives.
 		</p>
 		</statement>
 	</example>
@@ -361,7 +365,7 @@
 	<example>
 		<statement>
 		<p>
-			Use Hamilton’s method to apportion the 75 seats of Rhode Island’s House of Representatives among its five counties.
+			We will use Hamilton’s method again, to apportion 75 seats for a new state of Lewis, which has five counties. Lewis and its counties are named for civil rights leaders John Lewis, Rosa Parks, Dr. Martin Luther King Jr., Ella Baker, Daisy Bates and Roy Wilkins.
 		</p>
 		<sidebyside>
 		<tabular>
@@ -387,27 +391,27 @@
 					<cell>Quota</cell>
 				</row>
 				<row>
-					<cell>Bristol</cell>
+					<cell>Parks</cell>
 					<cell>49,875</cell>
 					<cell>3.5538</cell>
 				</row>
 				<row>
-					<cell>Kent</cell>
+					<cell>King</cell>
 					<cell>166,158</cell>
 					<cell>11.8395</cell>
 				</row>
 				<row>
-					<cell>Newport</cell>
+					<cell>Baker</cell>
 					<cell>82,888</cell>
 					<cell>5.9061</cell>
 				</row>
 				<row>
-					<cell>Providence</cell>
+					<cell>Bates</cell>
 					<cell>626,667</cell>
 					<cell>44.6528</cell>
 				</row>
 				<row>
-					<cell>Washington</cell>
+					<cell>Wilkins</cell>
 					<cell>126,979</cell>
 					<cell>9.0478</cell>
 				</row>
@@ -430,31 +434,31 @@
 					<cell>Initial</cell>
 				</row>
 				<row>
-					<cell>Bristol</cell>
+					<cell>Parks</cell>
 					<cell>49,875</cell>
 					<cell>3.5538</cell>
 					<cell>3</cell>
 				</row>
 				<row>
-					<cell>Kent</cell>
+					<cell>King</cell>
 					<cell>166,158</cell>
 					<cell>11.8395</cell>
 					<cell>11</cell>
 				</row>
 				<row>
-					<cell>Newport</cell>
+					<cell>Baker</cell>
 					<cell>82,888</cell>
 					<cell>5.9061</cell>
 					<cell>5</cell>
 				</row>
 				<row>
-					<cell>Providence</cell>
+					<cell>Bates</cell>
 					<cell>626,667</cell>
 					<cell>44.6528</cell>
 					<cell>44</cell>
 				</row>
 				<row>
-					<cell>Washington</cell>
+					<cell>Wilkins</cell>
 					<cell>126,979</cell>
 					<cell>9.0478</cell>
 					<cell>9</cell>
@@ -468,7 +472,7 @@
 			</tabular>
 			</sidebyside>
 			<p>
-				Step 4: We need 75 representatives and we only have 72, so we assign the remaining three, one each, to the three counties with the largest decimal parts, which are Newport, Kent, and Providence in that order:
+				Step 4: We need 75 representatives and we only have 72, so we assign the remaining three, one each, to the three counties with the largest decimal parts, which are Baker, King, and Bates in that order:
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -480,35 +484,35 @@
 					<cell>Final</cell>
 				</row>
 				<row>
-					<cell>Bristol</cell>
+					<cell>Parks</cell>
 					<cell>49,875</cell>
 					<cell>3.5538</cell>
 					<cell>3</cell>
 					<cell>3</cell>
 				</row>
 				<row>
-					<cell>Kent</cell>
+					<cell>King</cell>
 					<cell>166,158</cell>
 					<cell>11.<em>8395</em></cell>
 					<cell>11<em>+1</em></cell>
 					<cell>12</cell>
 				</row>
 				<row>
-					<cell>Newport</cell>
+					<cell>Baker</cell>
 					<cell>82,888</cell>
 					<cell>5.<em>9061</em></cell>
 					<cell>5<em>+1</em></cell>
 					<cell>6</cell>
 				</row>
 				<row>
-					<cell>Providence</cell>
+					<cell>Bates</cell>
 					<cell>626,667</cell>
 					<cell>44.<em>6528</em></cell>
 					<cell>44<em>+1</em></cell>
 					<cell>45</cell>
 				</row>
 				<row>
-					<cell>Washington</cell>
+					<cell>Wilkins</cell>
 					<cell>126,979</cell>
 					<cell>9.0478</cell>
 					<cell>9</cell>
@@ -524,10 +528,10 @@
 			</tabular>
 			</sidebyside>
 			<p>
-				Our final apportionment is Bristol: 3, Kent: 12, Newport: 6, Providence: 45, and Washington: 9 for a total of 75 representatives.
+				Our final apportionment is Parks: 3, King: 12, Baker: 6, Bates: 45, and Wilkins: 9 for a total of 75 representatives.
 			</p>
 			<p>
-				Note that even though Bristol County’s decimal part is greater than .5, it isn’t big enough to get an additional representative, because three other counties have greater decimal parts.
+				Note that even though Parks County’s decimal part is greater than .5, it isn’t big enough to get an additional representative, because three other counties have greater decimal parts.
 			</p>
 		</solution>
 	</example>
@@ -538,45 +542,34 @@
 	<assemblage>
 	<title>Quota Rule</title>
 		<p>
-			The Quota Rule says that the final number of representatives a state gets should be within one of that state’s quota. Since we’re dealing with whole numbers for our final answers, that means that each state should either go up to the next whole number above its quota, or down to the next whole number below its quota.
+			The <alert>Quota Rule</alert> says that the final number of representatives a state gets should be within one of that state’s quota. Since we’re dealing with whole numbers for our final answers, that means that each state should either go up to the next whole number above its quota, or down to the next whole number below its quota.
 		</p>
 	</assemblage>
+</subsection>
+
+<subsection>
+<title>Problems with Hamilton’s Method</title>
+	<p>
+		After using Hamilton’s method for many years, three paradoxes happened, on separate occasions, where unfair things happened in new apportionments. This led to other methods being needed.
+	</p>
+	<p>
+		<term>The Alabama Paradox</term> is named for an incident that happened during the apportionment that took place after the 1880 census. (A similar incident happened ten years earlier involving the state of Rhode Island, but the paradox is named after Alabama.) The post-1880 apportionment had been completed, using Hamilton’s method and the new population numbers from the census. Then it was decided that because of the country’s growing population, the House of Representatives should be made larger. That meant that the apportionment would need to be done again, still using Hamilton’s method and the same 1880 census numbers, but with more representatives. The assumption was that some states would gain another representative and others would stay with the same number they already had (since there weren’t enough new representatives being added to give one more to every state). The paradox is that Alabama ended up <em>losing</em> a representative in the process, even though no populations were changed, and the total number of representatives increased.
+	</p>
 
 	<p>
-		Problems with Hamilton’s Method. After using Hamilton’s method for many years, three paradoxes happened, on separate occasions, where unfair things happened in new apportionments. This led to other methods being needed.
+		<term>The New States Paradox</term> happened when Oklahoma became a state in 1907. Oklahoma had enough population to qualify for five representatives in Congress. Those five representatives would need to come from somewhere, though, so five states, presumably, would lose one representative each. That happened, but another thing also happened: Maine gained a representative (from New York).
 	</p>
-	<question>
-	<title>The Alabama Paradox</title>
-		<statement>
-		<p>
-			The Alabama Paradox is named for an incident that happened during the apportionment that took place after the 1880 census. (A similar incident happened ten years earlier involving the state of Rhode Island, but the paradox is named after Alabama.) The post-1880 apportionment had been completed, using Hamilton’s method and the new population numbers from the census. Then it was decided that because of the country’s growing population, the House of Representatives should be made larger. That meant that the apportionment would need to be done again, still using Hamilton’s method and the same 1880 census numbers, but with more representatives. The assumption was that some states would gain another representative and others would stay with the same number they already had (since there weren’t enough new representatives being added to give one more to every state). The paradox is that Alabama ended up <em>losing</em> a representative in the process, even though no populations were changed, and the total number of representatives increased.
-		</p>
-		</statement>
-	</question>
 
-	<question>
-	<title>The New States Paradox</title>
-		<statement>
-		<p>
-			The New States Paradox happened when Oklahoma became a state in 1907. Oklahoma had enough population to qualify for five representatives in Congress. Those five representatives would need to come from somewhere, though, so five states, presumably, would lose one representative each. That happened, but another thing also happened:  Maine gained a representative (from New York).
-		</p>
-		</statement>
-	</question>
+	<p>
+		<term>The Population Paradox</term> happened between the apportionments after the census of 1900 and of 1910. In those ten years, Virginia’s population grew at an average annual rate of 1.07%, while Maine’s grew at an average annual rate of 0.67%. Virginia started with more people, grew at a faster rate, grew by more people, and ended up with more people than Maine. By itself, that doesn’t mean that Virginia should gain representatives or Maine shouldn’t, because there are lots of other states involved. But Virginia ended up losing a representative <em>to Maine</em>.
+	</p>
 
-	<question>
-	<title>The Population Paradox</title>
-		<statement>
-		<p>
-			The Population Paradox happened between the apportionments after the census of 1900 and of 1910. In those ten years, Virginia’s population grew at an average annual rate of 1.07%, while Maine’s grew at an average annual rate of 0.67%. Virginia started with more people, grew at a faster rate, grew by more people, and ended up with more people than Maine. By itself, that doesn’t mean that Virginia should gain representatives or Maine shouldn’t, because there are lots of other states involved. But Virginia ended up losing a representative <em>to Maine</em>.
-		</p>
-		</statement>
-	</question>
 </subsection>
 
 <subsection>
 <title>Jefferson's Method</title>
 	<p>
-		<q>All men are created equal,</q> are words penned by our third president and Founding Father, Thomas Jefferson, in the preamble to the Constitution. However, over the course of his life, Jefferson owned around 600 slaves. Among these hundreds of slaves, Jefferson fathered at least six children with one of his slaves, Sally Hennings.
+		<q>All men are created equal,</q> are words penned by our third president and Founding Father, Thomas Jefferson (1743 - 1826), in the preamble to the Constitution. However, over the course of his life, Jefferson owned around 600 slaves. Among these hundreds of slaves, Jefferson fathered at least six children with one of his slaves, Sally Hennings.
 	</p>
 	<p>
 		Over his lifetime and his writings, Jefferson wrestled with his conscience regarding slavery, which can be seen in documents such as drafts of the Constitution before its final version. In the end, his personal and monetary gain surpassed that of his concern for the enslaved.
@@ -585,15 +578,15 @@
 		Thomas Jefferson proposed a different method for apportionment. After Washington vetoed Hamilton’s method, Jefferson’s method was adopted, and used in Congress from 1791 through 1842. Jefferson, of course, had political reasons for wanting his method to be used rather than Hamilton’s. Primarily, his method favors larger states, and his own home state of Virginia was the largest at the time. He would also argue that it’s the ratio of people to representatives that is the critical thing, and apportionment methods should be based on that.
 	</p>
 	<p>
-		Jefferson’s Method. The first three steps of Jefferson’s method are the same as Hamilton’s. He found the same divisor and the same quota and cut off the decimal parts in the same way, giving the same initial apportionment that is less than the required total.
+		The first three steps of Jefferson’s method are the same as Hamilton’s. He found the same divisor and the same quota and cut off the decimal parts in the same way, giving the same initial apportionment that is less than the required total.
 	</p>
 	<p>
 		What changes is how Jefferson assigned the remaining representatives. He said that since we ended up with an answer that is too small, our divisor must have been too big. He changed the divisor by making it smaller and looked at the new total. He would raise or lower the divisor until he found one that produced the required total. This is a trial and error process that takes some patience.
 	</p>
 	<assemblage>
-	<title>Jefferson’s Method (The first three steps are the same as Hamilton’s)</title>
-		<p>
-			<ol label="1">
+	<title>Jefferson’s Method</title>
+		<p><em>The first three steps are the same as Hamilton's</em>
+			<ol label="1.">
 				<li>
 					<p>
 						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
@@ -621,16 +614,16 @@
 	<example>
 		<statement>
 		<p>
-			We’ll return to Delaware and apply Jefferson’s method. We begin, as we did with Hamilton’s method, by finding the quotas with the original divisor, 21,900.82927.
+			We’ll return to the state of Floyd and apply Jefferson’s method. We begin, as we did with Hamilton’s method, by finding the quotas with the original divisor, 21,900.82927.
 		</p>
 		<p>
-			Steps 1-3 are the same as Hamilton’s Method. Since we will be using different divisors, we will write the divisor above the population column to be clear what we are dividing each number in that column by. 
+			Steps 1-3 are the same as Hamilton’s Method. Since we will be using different divisors, we will write the divisor above the population column to be clear what we are dividing each number in that column by.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%21,900.82927</em></cell>
+				<cell><em><obelus/>21,900.82927</em></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
@@ -641,19 +634,19 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>162,310</cell>
 				<cell>7.4111</cell>
 				<cell>7</cell>
 			</row>
 			<row>
-				<cell>New Castle</cell>
+				<cell>Garner</cell>
 				<cell>538,479</cell>
 				<cell>24.5872</cell>
 				<cell>24</cell>
 			</row>
 			<row>
-				<cell>Sussex</cell>
+				<cell>Taylor</cell>
 				<cell>197,145</cell>
 				<cell>9.0017</cell>
 				<cell>9</cell>
@@ -676,7 +669,7 @@
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%21,500</em></cell>
+				<cell><em><obelus/>21,500</em></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
@@ -687,19 +680,19 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>162,310</cell>
 				<cell>7.5493</cell>
 				<cell>7</cell>
 			</row>
 			<row>
-				<cell>New Castle</cell>
+				<cell>Garner</cell>
 				<cell>538479</cell>
 				<cell>25.0455</cell>
 				<cell>25</cell>
 			</row>
 			<row>
-				<cell>Sussex</cell>
+				<cell>Taylor</cell>
 				<cell>197,145</cell>
 				<cell>9.1695</cell>
 				<cell>9</cell>
@@ -713,10 +706,10 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			That worked and our final apportionment is Kent: 7, New Castle: 25, and Sussex: 9.
+			That worked and our final apportionment is King: 7, Garner: 25, and Taylor: 9.
 		</p>
 		<p>
-			Notice that with the new, lower divisor, the quota for New Castle County (the largest county in the state) increased by much more than those of Kent County or Sussex County.
+			Notice that with the new, lower divisor, the quota for Garner County (the largest county in the state) increased by much more than those of King County or Taylor County.
 		</p>
 		<p>
 			In this example, we got lucky and found the modified divisor on the first try. If we still had 40, we would reduce the divisor more. If we had more than 41, we would need to raise it. We will show how to do the trial-and-error part in the next example.
@@ -727,13 +720,13 @@
 	<example>
 		<statement>
 		<p>
-			We’ll apply Jefferson’s method for Rhode Island. The original divisor of 14,034.22667 gave these results:
+			We’ll apply Jefferson’s method for Lewis. The original divisor of 14,034.22667 gave these results:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%14,034.22667</em></cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
@@ -744,31 +737,31 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.5538</cell>
 				<cell>3</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>11.8395</cell>
 				<cell>11</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>5.9061</cell>
 				<cell>5</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>44.6528</cell>
 				<cell>44</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.0478</cell>
 				<cell>9</cell>
@@ -782,13 +775,13 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			We need 75 representatives and we only have 72, so we need to use a smaller divisor.  Let’s try lowering it to 13,500:
+			We need 75 representatives and we only have 72, so we need to use a smaller divisor. Let’s try lowering it to 13,500:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%13,500</em></cell>
+				<cell><em><obelus/>13,500</em></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
@@ -799,31 +792,31 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.6944</cell>
 				<cell>3</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>12.3080</cell>
 				<cell>12</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>6.1399</cell>
 				<cell>6</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>46.4198</cell>
 				<cell>46</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.4059</cell>
 				<cell>9</cell>
@@ -843,7 +836,7 @@
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%13,700</em></cell>
+				<cell><em><obelus/>13,700</em></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
@@ -854,31 +847,31 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.6405</cell>
 				<cell>3</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>12.1283</cell>
 				<cell>12</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>6.0502</cell>
 				<cell>6</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>45.7421</cell>
 				<cell>45</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.2685</cell>
 				<cell>9</cell>
@@ -901,13 +894,13 @@
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%14,034.22667</em></cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
 				<cell></cell>
 				<cell></cell>
-				<cell><em>%13,500</em></cell>
+				<cell><em><obelus/>13,500</em></cell>
 				<cell></cell>
-				<cell><em>%13,700</em></cell>
-				<cell></cell>		
+				<cell><em><obelus/>13,700</em></cell>
+				<cell></cell>
 			</row>
 			<row>
 				<cell>County</cell>
@@ -920,7 +913,7 @@
 				<cell>Final</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.5538</cell>
 				<cell>3</cell>
@@ -930,7 +923,7 @@
 				<cell>3</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>11.8395</cell>
 				<cell>11</cell>
@@ -940,7 +933,7 @@
 				<cell>12</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>5.9061</cell>
 				<cell>5</cell>
@@ -950,7 +943,7 @@
 				<cell>6</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>44.6528</cell>
 				<cell>44</cell>
@@ -960,7 +953,7 @@
 				<cell>45</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.0478</cell>
 				<cell>9</cell>
@@ -982,7 +975,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Notice, in comparison to Hamilton’s method, that although the results were the same, they came about in a different way, and the outcome was almost different. Providence County (the largest) almost went up to 46 representatives before Kent (which is much smaller) got to 12. Although that didn’t happen here, it can. Divisor-adjusting methods like Jefferson’s are not guaranteed to follow the quota rule.
+			Notice, in comparison to Hamilton’s method, that although the results were the same, they came about in a different way, and the outcome was almost different. Bates County (the largest) almost went up to 46 representatives before King (which is much smaller) got to 12. Although that didn’t happen here, it can. Divisor-adjusting methods like Jefferson’s are not guaranteed to follow the quota rule.
 		</p>
 		</statement>
 	</example>
@@ -991,33 +984,33 @@
 <subsection>
 <title>Webster's Method</title>
 	<p>
-		Daniel Webster (1782-1852) was a lawyer, congressman and Senator of Massachusetts. He was the U.S. Secretary of State from 1841-1843 and 1850-1852. He was from the North and did not own slaves. He was an opponent of slavery extension and he spoke against annexing Texas and against going to war with Mexico. He argued, however, that no law was needed to prevent the further extension of slavery and he supported the compromise of 1850, disappointing his abolitionist supporters<fn><url href="https://www.history.com/topics/abolitionist-movement/compromise-of-1850">https://www.history.com/topics/abolitionist-movement/compromise-of-1850</url></fn>.
+		Daniel Webster (1782-1852) was a lawyer, congressman, Senator of Massachusetts and also served as the U.S. Secretary of State. He was from the North and did not own slaves. He was an opponent of slavery extension and he spoke against annexing Texas and against going to war with Mexico. He argued, however, that no law was needed to prevent the further extension of slavery in new states and he supported the Compromise of 1850, which disappointed his abolitionist supporters (History.com Editors, 2018b).
 	</p>
 	<p>
-		Webster proposed a method similar to Jefferson’s in 1832. It was adopted by Congress in 1842 but replaced by Hamilton’s method in 1852. It was then adopted again in 1901. The difference is that Webster rounded the quotas to the nearest whole number rather than dropping the decimal parts. If that didn’t produce the exact number of representatives, he adjusted the divisor like in Jefferson’s method. (In Jefferson’s case, the first adjustment will always be to make the divisor smaller. That is not always the case with Webster’s method because some numbers may be rounded up.)
+		Webster proposed a method similar to Jefferson’s in 1832. It was adopted by Congress in 1842 but replaced by Hamilton’s method in 1852. It was then adopted again in 1911. The difference is that Webster rounded the quotas to the nearest whole number rather than dropping the decimal parts. If that didn’t produce the exact number of representatives, he adjusted the divisor like in Jefferson’s method. (In Jefferson’s case, the first adjustment will always be to make the divisor smaller. That is not always the case with Webster’s method because some numbers may be rounded up.)
 	</p>
 	<assemblage>
-	<title>Webster’s Method (Steps 1-2 are the same as Hamilton and Jefferson)</title>
-		<p>
-			<ol label="1">
+	<title>Webster’s Method</title>
+		<p><em>Steps 1-2 are the same as Hamilton and Jefferson</em>
+			<ol label="1.">
 				<li>
 					<p>
-						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the divisor.
+						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
 					</p>
 				</li>
 				<li>
 					<p>
-						Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the quota.
+						Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
 					</p>
 				</li>
 				<li>
 					<p>
-						Round all the quotas to the nearest whole number (but don’t forget what the decimals were). This is the initial apportionment. Add up the whole numbers.
+						Round all the quotas to the nearest whole number (but don’t forget what the decimals were). This is the <alert>initial</alert> apportionment. Add up the whole numbers.
 					</p>
 				</li>
 				<li>
 					<p>
-						If the total from Step 3 is less than the total number of representatives, reduce the divisor and recalculate the quota and allocation. If the total from step 3 is larger than the total number of representatives, increase the divisor and recalculate the quota and allocation. Continue doing this until the total in Step 3 is equal to the total number of representatives. The divisor we end up using is called the modified divisor. This is a trial-and-error process.
+						If the total from Step 3 is less than the total number of representatives, reduce the divisor and recalculate the quota and allocation. If the total from step 3 is larger than the total number of representatives, increase the divisor and recalculate the quota and allocation. Continue doing this until the total in Step 3 is equal to the total number of representatives. The divisor we end up using is called the <alert>modified divisor</alert>. This is a trial-and-error process.
 					</p>
 				</li>
 			</ol>
@@ -1029,13 +1022,13 @@
 	<example>
 		<statement>
 		<p>
-			We will look at Delaware again, with an initial divisor of 21,900.82927 and 41 representatives:
+			We will look at Floyd again, with an initial divisor of 21,900.82927 and 41 representatives:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%21,900.82927</em></cell>
+				<cell><em><obelus/>21,900.82927</em></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
@@ -1046,19 +1039,19 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>162,310</cell>
 				<cell>7.4111</cell>
 				<cell>7</cell>
 			</row>
 			<row>
-				<cell>New Castle</cell>
+				<cell>Garner</cell>
 				<cell>538,479</cell>
 				<cell><em>24.5872</em></cell>
 				<cell>25</cell>
 			</row>
 			<row>
-				<cell>Sussex</cell>
+				<cell>Taylor</cell>
 				<cell>197,145</cell>
 				<cell>9.0017</cell>
 				<cell>9</cell>
@@ -1072,7 +1065,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			This time New Castle is the only county with a decimal of 0.5 or higher, so it gets rounded up. This gives the required total, so we’re done.
+			This time Garner is the only county with a decimal of 0.5 or higher, so it gets rounded up. This gives the required total, so we’re done.
 		</p>
 		</statement>
 	</example>
@@ -1080,13 +1073,13 @@
 	<example>
 		<statement>
 		<p>
-			Let’s look at Rhode Island again, with an initial divisor of 14,034.22667 and 75 representatives:
+			Let’s look at Lewis again, with an initial divisor of 14,034.22667 and 75 representatives:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%14,034.22667</em></cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
@@ -1097,31 +1090,31 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.5538</cell>
 				<cell>4</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>11.8395</cell>
 				<cell>12</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>5.9061</cell>
 				<cell>6</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>44.6528</cell>
 				<cell>45</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.0478</cell>
 				<cell>9</cell>
@@ -1135,13 +1128,13 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			This is too many, so we need to increase the divisor. Let’s try 14,100:
+			This is one too many, so we need to increase the divisor. Let’s try 14,100:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%14,100</em></cell>
+				<cell><em><obelus/>14,100</em></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
@@ -1152,31 +1145,31 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.5372</cell>
 				<cell>4</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>11.7843</cell>
 				<cell>12</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>5.8786</cell>
 				<cell>6</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>44.4445</cell>
 				<cell>44</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.0056</cell>
 				<cell>9</cell>
@@ -1196,10 +1189,10 @@
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>%14,034.22667</em></cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
 				<cell></cell>
 				<cell></cell>
-				<cell><em>%14,100</em></cell>
+				<cell><em><obelus/>14,100</em></cell>
 				<cell></cell>
 			</row>
 			<row>
@@ -1211,7 +1204,7 @@
 				<cell>2nd Try</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.5538</cell>
 				<cell>4</cell>
@@ -1219,7 +1212,7 @@
 				<cell>4</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>11.8395</cell>
 				<cell>12</cell>
@@ -1227,7 +1220,7 @@
 				<cell>12</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>5.9061</cell>
 				<cell>6</cell>
@@ -1235,7 +1228,7 @@
 				<cell>6</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>44.6528</cell>
 				<cell>45</cell>
@@ -1243,7 +1236,7 @@
 				<cell>44</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.0478</cell>
 				<cell>9</cell>
@@ -1264,20 +1257,27 @@
 	</example>
 
 	<p>
-		Like Jefferson’s method, Webster’s method carries a bias in favor of larger states but rounding the quotas to the nearest whole number greatly reduces this bias. Notice that Providence County, the largest, is the one that gets a representative trimmed because of the increased quota.
+		Like Jefferson’s method, Webster’s method carries a bias in favor of larger states but rounding the quotas to the nearest whole number greatly reduces this bias. Notice that Bates County, the largest, is the one that gets a representative trimmed because of the increased quota.
 	</p>
 	<p>
 		Also, like Jefferson’s method, Webster’s method does not always follow the quota rule, but it follows the quota rule much more often than Jefferson’s method does. In fact, if Webster’s method had been applied to every apportionment of Congress in all of U.S. history, it would have followed the quota rule every single time.
 	</p>
+</subsection>
+
+<subsection>
+<title>More History</title>
 	<p>
-		In 1980, two mathematicians, Peyton Young and Mike Balinski, proved what we now call the Balinski-Young Impossibility Theorem.
+		In 1830 the <alert>Indian Removal Act</alert> was signed by President Jackson. The Act relocated Native Americans to land west of the Mississippi and the forced journey is known as the <alert>Trail of Tears</alert>. To learn more, here is a link to a timeline of Native American history<fn><url href="https://www.history.com/topics/native-american-history/native-american-timeline">https://www.history.com/topics/native-american-history/native-american-timeline</url></fn>.
 	</p>
-	<assemblage>
-	<title>Balinski-Young Impossibility Theorem</title>
-		<p>
-			The Balinski-Young Impossibility Theorem shows that any apportionment method which always follows the quota rule will be subject to the possibility of paradoxes like the Alabama, New States, or Population paradoxes. In other words, we can choose a method that avoids those paradoxes, but only if we are willing to give up the guarantee of following the quota rule.
-		</p>
-	</assemblage>
+	<p>
+		Toward the end of the Civil War, slaves were freed by Abraham Lincoln’s <alert>Emancipation Proclamation</alert> on January 1st, 1863, but it was not until June 19th, 1865 that the last group of slaves in Texas learned they had been freed. This is now celebrated as Juneteenth<fn><url href="https://www.juneteenth.com/history.htm">https://www.juneteenth.com/history.htm</url></fn>.
+	</p>
+	<p>
+		Although they were technically free, Black people still faced unequal and unjust treatment. After Black men were granted the right to vote in 1869, <alert>voter suppression</alert> laws like poll taxes and literacy tests were implemented barriers to voting (American Civil Liberties Union, 2020).
+	</p>
+	<p>
+		In 1887, the <alert>Dawes Act</alert> was passed, which allotted Native American land to individuals and 60 million acres were taken by the government or non-Indian homesteaders (Indian Land Trust Tenure Foundation, 2020). This act also provided citizenship under certain restrictions which theoretically allowed native men to vote. All women were granted the right to vote in 1920, but the barriers enacted for men of color applied to women of color as well.
+	</p>
 </subsection>
 
 <subsection>
@@ -1289,9 +1289,9 @@
 		The Huntington-Hill Method is similar to Webster’s method, but attempts to minimize the difference in the percentage of how many people each representative will represent.
 	</p>
 	<assemblage>
-	<title>Huntington-Hill Method (The first 2 steps are the same as the previous methods)</title>
-		<p>
-			<ol label="1">
+	<title>Huntington-Hill Method</title>
+		<p><em>The first two steps are the same as the previous methods</em>
+			<ol label="1.">
 				<li>
 					<p>
 						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
@@ -1379,7 +1379,7 @@
 	<example>
 		<statement>
 		<p>
-			Again, we will practice with Delaware, with an initial divisor of 21,900.82927 and 41 representatives:
+			Again, we will practice with Floyd, with an initial divisor of 21,900.82927 and 41 representatives:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1392,7 +1392,7 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>162,310</cell>
 				<cell>7.4111</cell>
 				<cell>7</cell>
@@ -1400,7 +1400,7 @@
 				<cell>7</cell>
 			</row>
 			<row>
-				<cell>New Castle</cell>
+				<cell>Garner</cell>
 				<cell>538,479</cell>
 				<cell>24.5872</cell>
 				<cell>24</cell>
@@ -1408,7 +1408,7 @@
 				<cell>25</cell>
 			</row>
 			<row>
-				<cell>Sussex</cell>
+				<cell>Taylor</cell>
 				<cell>197,945</cell>
 				<cell>9.0017</cell>
 				<cell>9</cell>
@@ -1426,7 +1426,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Notice that for New Castle, the quota of 24.5872 is above the geometric mean of 24.49, so we round up to 25. This gives the required total, so we’re done.
+			Notice that for Garner, the quota of 24.5872 is above the geometric mean of 24.49, so we round up to 25. This gives the required total, so we’re done.
 		</p>
 		</statement>
 	</example>
@@ -1434,13 +1434,13 @@
 	<example>
 		<statement>
 		<p>
-			Again, here is Rhode Island, with an initial divisor of 14,034.22667:
+			Again, here is Lewis, with an initial divisor of 14,034.22667:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>14,034.22667</em></cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
 				<cell></cell>
 				<cell></cell>
 				<cell></cell>
@@ -1455,7 +1455,7 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.5538</cell>
 				<cell>3</cell>
@@ -1463,7 +1463,7 @@
 				<cell>4</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>11.8395</cell>
 				<cell>11</cell>
@@ -1471,7 +1471,7 @@
 				<cell>12</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>5.9061</cell>
 				<cell>5</cell>
@@ -1479,7 +1479,7 @@
 				<cell>5</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>44.6528</cell>
 				<cell>44</cell>
@@ -1487,7 +1487,7 @@
 				<cell>45</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.0478</cell>
 				<cell>9</cell>
@@ -1511,7 +1511,7 @@
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
-				<cell><em>14,100</em></cell>
+				<cell><em><obelus/>14,100</em></cell>
 				<cell></cell>
 				<cell></cell>
 				<cell></cell>
@@ -1526,7 +1526,7 @@
 				<cell>Initial</cell>
 			</row>
 			<row>
-				<cell>Bristol</cell>
+				<cell>Parks</cell>
 				<cell>49,875</cell>
 				<cell>3.5372</cell>
 				<cell>3</cell>
@@ -1534,7 +1534,7 @@
 				<cell>4</cell>
 			</row>
 			<row>
-				<cell>Kent</cell>
+				<cell>King</cell>
 				<cell>166,158</cell>
 				<cell>11.7843</cell>
 				<cell>11</cell>
@@ -1542,7 +1542,7 @@
 				<cell>12</cell>
 			</row>
 			<row>
-				<cell>Newport</cell>
+				<cell>Baker</cell>
 				<cell>82,888</cell>
 				<cell>5.8786</cell>
 				<cell>5</cell>
@@ -1550,7 +1550,7 @@
 				<cell>5</cell>
 			</row>
 			<row>
-				<cell>Providence</cell>
+				<cell>Bates</cell>
 				<cell>626,667</cell>
 				<cell>44.4445</cell>
 				<cell>44</cell>
@@ -1558,7 +1558,7 @@
 				<cell>45</cell>
 			</row>
 			<row>
-				<cell>Washington</cell>
+				<cell>Wilkins</cell>
 				<cell>126,979</cell>
 				<cell>9.0056</cell>
 				<cell>9</cell>
@@ -1576,13 +1576,22 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			This time Providence had a quota less than its geometric mean, so it did not get rounded up and we have exactly 75 representatives.
+			This time Bates had a quota less than its geometric mean, so it did not get rounded up and we have exactly 75 representatives.
 		</p>
 		<p>
 			In both these cases, the apportionment produced by the Huntington-Hill method was the same as those from Webster’s method, but that will not always be the case.
 		</p>
 		</statement>
 	</example>
+	<p>
+		In 1980, two mathematicians, Peyton Young and Mike Balinski, proved what we now call the Balinski-Young Impossibility Theorem.
+	</p>
+	<assemblage>
+	<title>Balinski-Young Impossibility Theorem</title>
+		<p>
+			The Balinski-Young Impossibility Theorem shows that any apportionment method which always follows the quota rule will be subject to the possibility of paradoxes like the Alabama, New States, or Population paradoxes. In other words, we can choose a method that avoids those paradoxes, but only if we are willing to give up the guarantee of following the quota rule.
+		</p>
+	</assemblage>
 
 	<example>
 		<statement>
@@ -1666,7 +1675,7 @@
 			</tabular>
 			</sidebyside>
 			<p>
-				Webster’s Method
+				<alert>Webster’s Method</alert>
 			</p>
 			<p>
 				Step 3: Using Webster’s method, we round each quota to the nearest whole number using the rounding rule of 0.5 or higher to round up.
@@ -1718,7 +1727,7 @@
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell></cell>
-					<cell><em>%8,700</em></cell>
+					<cell><em><obelus/>8,700</em></cell>
 					<cell></cell>
 					<cell></cell>
 				</row>
@@ -1761,7 +1770,7 @@
 			</tabular>
 			</sidebyside>
 			<p>
-				Huntington-Hill Method
+				<alert>Huntington-Hill Method</alert>
 			</p>
 			<p>
 				Step 3: Using the Huntington-Hill method, we cut off the decimal to find the lower quota, then calculate the geometric mean based on each lower quota. If the quota is less than the geometric mean, we round down; if the quota is more than the geometric mean, we round up.
@@ -1821,11 +1830,11 @@
 			<p>
 				These allocations add up to 70. Notice that this allocation is different than that produced by Webster’s method. In this case, state E, which is smaller, got one more seat and state A got one less.
 			</p>
-			<p>
-				In this section we have learned four different methods of apportionment. There is no right answer when it comes to choosing a method for apportionment. Each method has advantages and disadvantages and favors states of different sizes.
-			</p>
 		</solution>
 	</example>
+	<p>
+		In this section we have learned four different methods of apportionment used in U.S. history, intertwined with the U.S. treatment of women, Native Americans and Black people. In the next section we will continue with our brief history of voting rights and look at different methods used for voting.
+			</p>
 </subsection>
 
 <exercises>

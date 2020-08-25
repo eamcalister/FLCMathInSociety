@@ -18,7 +18,7 @@
 				</li>
 				<li>
 					<p>
-						Determine the winner of the popular vote 
+						Determine the winner of the popular vote
 					</p>
 				</li>
 				<li>
@@ -37,8 +37,8 @@
 <subsection>
 <title>Choosing the U.S. President</title>
 	<p>
-		In the last section we studied several voting methods. To choose the President of the United States, we use a different method, called the <alert>Electoral College</alert>. The Founders, with their newfound freedom from Britain, wanted to create a democracy where citizens could participate in choosing their president. Prior to the Electoral College, there were three options proposed. They were
-		<ol label="1">
+		In the last section we talked about equal voting rights and studied several voting methods. To choose the President of the United States, we use another method, called the <alert>Electoral College</alert>. The Founders, with their newfound freedom from Britain, wanted to create a democracy where citizens could participate in choosing their president. Prior to the Electoral College, there were three options proposed (Best, 2004; Clayton, 2015). They were
+		<ol label="1.">
 			<li>
 				<p>
 					Congress would elect the president
@@ -50,7 +50,7 @@
 				</p>
 			</li>
 			<li>
-				<p>The people would elect a president by popular vote (Best, 2004; Clayton, 2015).
+				<p>The people would elect a president by popular vote
 				</p>
 			</li>
 		</ol>
@@ -59,16 +59,16 @@
 		The first option of having Congress do this work was declined as this would alter the balance of power among the three separate branches of government. The idea to have State Legislatures also failed as there wouldn’t be the separation between having an independent Federal Government and State Governments.
 	</p>
 	<p>
-		The <alert>popular vote</alert> means a candidate must win a plurality of all the votes cast for president, regardless of which state the voters live in. The popular vote was decided against as they didn’t think all citizens would be informed enough about the candidates to make an educated decision (Clayton, 2015).
+		The <alert>popular vote</alert> means a candidate must win a plurality of all the votes cast for president, regardless of which state the voters live in. The popular vote was decided against as the Founders didn’t think all citizens would be informed enough about the candidates to make an educated decision (Clayton, 2015).
 	</p>
 	<p>
-		Instead, the <alert>Electoral College</alert> was decided upon and, in this system, each state was given a certain number of electoral votes. Each state got an equal two votes for the two senate seats. This gave smaller states a leg up as they would have at least these votes. In addition to this, each state would be given more votes based on their population, equal to their representation in the House (Clayton, 2015). The District of Columbia, which is not a state, also gets 3 electoral votes. A candidate must win a majority of the electoral votes to win the U.S. presidency. If no candidate has a majority then a contingent election would be held by the U.S. House of Representatives between the three candidates with the most electoral votes.
+		Instead, the <alert>Electoral College</alert> was decided upon and, in this system, each state was given a certain number of electoral votes. Each state got an equal two votes for the two senate seats. This gave smaller states a leg up as they would have at least these votes. In addition, each state would be given more votes based on their population, equal to their representation in the House (Clayton, 2015). The District of Columbia, which is not a state, also gets 3 electoral votes. A candidate must win a majority of the electoral votes to win the U.S. presidency. If no candidate has a majority of electoral votes then a contingent election would be held by the U.S. House of Representatives between the three candidates with the most electoral votes.
 	</p>
 	<p>
-		The 4 million U.S. Citizens who live in the territories of Guam, the Virgin Islands, the Northern Mariana Islands and Puerto Rico cannot vote in the presidential elections and do not have any electors for the U.S. President. Additionally, there are U.S. Nationals in American Samoa and other territories that cannot vote. You can learn more about residents of these territories in <url href="https://www.census.gov/prod/2011pubs/12statab/outlying.pdf">this Census Bureau report</url>.
+		The 4 million U.S. Citizens who live in the <alert>U.S. territories</alert> of Guam, the Virgin Islands, the Northern Mariana Islands and Puerto Rico cannot vote in the presidential elections and do not have any electors for the U.S. President. Additionally, there are U.S. Nationals in American Samoa and other territories that cannot vote. You can learn more about residents of these territories in this Census Bureau Report<fn><url href="https://www.census.gov/prod/2011pubs/12statab/outlying.pdf"></url></fn>. We will also reiterate that <alert>voter suppression</alert> still exists and elections will not be truly fair until all of its forms are eliminated.
 	</p>
 	<p>
-		The U.S. currently has 435 representatives in the House. They each serve 2-year terms, while the two senators from each state serve 6-year terms.
+		As stated in the Constitution, the U.S. currently has 435 representatives in the House. They each serve 2-year terms, while the two senators from each state serve 6-year terms.
 	</p>
 	<example>
 		<statement>
@@ -105,7 +105,7 @@
 	<example>
 		<statement>
 		<p>
-			The number of people who voted in the presidential election in 2016 was 136,452,150<fn><url href="https://ballotpedia.org/Presidential_election,_2016"></url></fn>. How many votes would be needed to win a majority of the popular vote?
+			The number of people who voted in the presidential election in 2016 was 136,452,150 (Ballotpedia, n.d.). How many votes would be needed to win a majority of the popular vote?
 		</p>
 		</statement>
 		<solution>
@@ -121,7 +121,7 @@
 	<example>
 		<statement>
 		<p>
-			There were approximately 230,931,921 eligible voters at the time of the 2016 election<fn><url href="http://www.electproject.org/2016g"></url></fn>. What percentage of eligible voters voted?
+			There were approximately 230,931,921 eligible voters at the time of the 2016 election (McDonald, 2016). What percentage of eligible voters voted?
 		</p>
 		</statement>
 		<solution>
@@ -134,20 +134,20 @@
 		</solution>
 	</example>
 	<p>
-		If you are interested in the 2016 election voting rates by race, Hispanic origin and age, you can find them in this <url href="https://www.census.gov/newsroom/blogs/random-samplings/2017/05/voting_in_america.html">Census Bureau report</url>.
+		If you are interested in the 2016 election voting rates by race, Hispanic origin and age, you can find them in this Census Bureau Report<fn><url href="https://www.census.gov/newsroom/blogs/random-samplings/2017/05/voting_in_america.html"></url></fn>.
 	</p>
 </subsection>
 
 <subsection>
 <title>How Electoral Votes are Determined</title>
 	<p>
-		While each state has a set number of electoral votes based on the formula above, the federal government gave states the control of how they distribute and cast their electoral votes (Paiva, 2011). In 48 states, the candidate with the most votes wins all of that state’s electoral votes. In essence, a candidate could win with barely a majority of the popular vote in that state and the entire state’s votes goes to that individual (Clayton, 2015). In 2 states, Maine and Nebraska, they use a district plan where instead of winner-takes-all, they use proportionality. This means that they award electoral votes by how individual districts vote. Each district gives their electoral vote to the winner of their district and the remaining two votes go to the candidate that won statewide.
+		While each state has a set number of electoral votes based on the formula above, the federal government gave states the control of how they distribute and cast their electoral votes (Paiva, 2011). In 48 states, the candidate with the most votes wins all of that state’s electoral votes, often called <alert>winner-takes-all</alert>. In essence, a candidate could win with barely a majority of the popular vote in that state and the entire state’s votes goes to that individual (Clayton, 2015). In 2 states, Maine and Nebraska, however, they use a district plan where instead of winner-takes-all, they use <alert>proportionality</alert>. This means that they award electoral votes by how individual districts vote. Each district gives their electoral vote to the winner of their district and the remaining two votes go to the candidate that won statewide.
 	</p>
 	<p>
-		There is a movement to change from the Electoral College to the popular vote. One way this is happening is through the <url href="https://www.nationalpopularvote.com/">National Popular Vote Interstate Compact</url>. States who adopt this compact, agree to award their electoral votes to the winner of the national popular vote. If states and/or D.C. with at least 270 electoral votes adopt this compact, then the winner of the popular vote would win the electoral college and the presidency. At this time there are 196 electoral votes in states and D.C. who have enacted the bill and the bill has passed one or two legislative houses in additional states with 88 electoral votes.
+		There is a movement to change from the Electoral College to the popular vote. One way this is happening is through the <alert>National Popular Vote Interstate Compact</alert><fn><url href="https://www.nationalpopularvote.com/"></url></fn>. States who adopt this compact agree to award their electoral votes to the winner of the national popular vote. If states and/or D.C. with at least 270 electoral votes adopt this compact, then the winner of the popular vote would win the electoral college and the presidency. At this time there are 196 electoral votes in states and D.C. who have enacted the bill and the bill has passed one or two legislative houses in additional states with 88 electoral votes.
 	</p>
 	<p>
-		After citizens cast their votes on election day in November, electors gather in December and are responsible for casting the votes for their state. Electors cannot be elected officials and are chosen by their parties. Electors are expected to vote in alignment with the state they represent, but there have been faithless electors in the past. The U.S. Supreme Court just ruled in July of 2020 that states can penalize electors who do not vote according to the law of the state.
+		After citizens cast their votes by mail or on election day on the first Tuesday in November, electors gather in December and are responsible for casting the votes for their state. Electors cannot be elected officials and are chosen by their parties. Electors are expected to vote in alignment with the state they represent, but there have been faithless electors in the past. The U.S. Supreme Court ruled in July of 2020 that states can penalize electors who do not vote according to the law of the state.
 	</p>
 	<p>
 		To see how the electoral college and popular votes work, we will look at a made-up country with a smaller number of states.
@@ -197,7 +197,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Determine the number of electors for each state and the total for the country.
@@ -233,7 +233,7 @@
 		</statement>
 		<solution>
 			<p>
-				<ol label="a">
+				<ol label="a.">
 					<li>
 						<p>
 							To find the number of electors for each state, we first divide each state population by 40,000 to determine the number of representatives they will have. We will drop the decimal remainders, similar to Hamilton’s method.
@@ -879,7 +879,7 @@
 	</statement>
 	<solution>
 		<p>
-			There are 538 electors in the Electoral College
+			There are 538 electors in the Electoral College.
 		</p>
 	</solution>
 </exercise>
@@ -1331,7 +1331,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1401,7 +1401,7 @@
 			In each fictional country in problems 11-14, use the rules of the U.S. government (assume that all of a state’s electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						The winner of the popular vote in the country and the percentage of votes they won.
@@ -1463,7 +1463,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1565,7 +1565,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1674,7 +1674,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1790,7 +1790,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1860,7 +1860,7 @@
 			In each fictional country in problems 15-18, use the rules of the U.S. government to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						The state that has the most electoral power
@@ -1919,7 +1919,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2015,7 +2015,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2119,7 +2119,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2231,7 +2231,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">

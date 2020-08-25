@@ -44,19 +44,26 @@
 </objectives>
 
 <subsection>
-<title>Voting</title>
+<title>Voting Rights</title>
 	<p>
-		Now that we have studied how to apportion the number of representatives for each state, we want to look at how representatives and other public officials are elected. There are also many other situations where a group consensus is needed, and some type of voting occurs. You may be most familiar with systems where you get one vote and the candidate with the most votes wins. However, there are many other ways of determining a winner. We will look at several voting methods in this section.	   
+		Now that we have studied how to apportion the number of representatives for each state, along with a brief history of the U.S. government, we want to look at how representatives and other public officials are elected. There are also many other situations where a group consensus is needed, and some type of voting occurs. You may be most familiar with systems where you get one vote and the candidate with the most votes wins. However, there are many other ways of determining a winner. We will look at several voting methods in this section.
+	</p>
+	<p>
+		For an election using any of these methods to be fair, each person must have an equal right to vote and an equal ability to exercise that right. The <alert>Voting Rights Act of 1965</alert> prohibited any election practice that denies the right to vote based on race, but key portions of the law have been invalidated since then. <alert>Voter suppression</alert> continues today in different forms such as purging voter rolls, eliminating polling places and voter identification laws, which can also affect transgender people.
+	</p>
+	<p>
+		<alert>The John Lewis Voting Rights Advancement Act</alert> was passed in the U.S. House of Representatives in 2019 to restore elements of the Voting Rights Act and make it possible to enforce the law. It has not been taken up in the Senate, though. Follow this link if you would like to read a more detailed timeline of voting rights<fn><url href="https://www.aclu.org/voting-rights-act-major-dates-history" target="_blank"></url></fn>.
 	</p>
 </subsection>
 
 <subsection>
 	<title>Ranked Choice Ballots</title>
-	<p>
-		To use some of the methods we are going to study, we need to know more than just each person’s first choice. We also need to know their 2nd and 3rd choices, and so on. A ballot where each person ranks all of the choices in order of their preference is called a <alert>ranked choice ballot</alert>. The image to the right shows an example of a ranked choice ballot. Let’s see how to tally the results from a ranked choice election.   
-	</p>
-	<sidebyside>
-		<image width="70%" source="images/democracy/5_2/voter_card.png">
+	
+	<sidebyside widths="47% 47%" margins="0%">
+		<p>
+			To use some of the methods we are going to study, we need to know more than just each person’s first choice. We also need to know their 2nd and 3rd choices, and so on. A ballot where each person ranks all of the choices in order of their preference is called a <alert>ranked choice ballot</alert>. The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" target="_blank">"Ranked Choice Ballot"</url>, <url href="https://www.rankedchoicevoting.org/" target="_blank">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let’s see how to tally the results from a ranked choice election.
+		</p>
+		<image width="45%" source="images/democracy/5_2/voter_card.png">
 		</image>
 	</sidebyside>
 	<example>
@@ -221,12 +228,12 @@
 				</li>
 				<li>
 					<p>
-						Omar: 3 votes
+						Omar: <m>3</m> votes
 					</p>
 				</li>
 				<li>
 					<p>
-						Helena: 3 votes
+						Helena: <m>3</m> votes
 					</p>
 				</li>
 			</ul>
@@ -254,6 +261,9 @@
 	</p>
 	<p>
 		Exactly half of the votes would be a tie, so we round up to the next whole number. A candidate would need 6 out of 10 votes to win a majority. If there was an odd number of voters we would divide by 2 and get a decimal. Let’s say there were 13 voters:
+	</p>
+	<p>
+		<m>13 \div 2=6.5</m>. Then we round up to 7 votes.
 	</p>
 	<p>
 		Then we round up to the next whole number, which is 7 votes. A candidate can win a plurality with fewer votes than the majority, as long as they have more than any other candidate.
@@ -413,11 +423,11 @@
 		<sidebyside>
 		<tabular>
 			<row>
-				<cell>A: 2</cell>
+				<cell>A: <m>2</m></cell>
 				<cell>B: <m>3+5=8</m></cell>
 				<cell>C: <m>5+1=6</m></cell>
-				<cell>D: 7</cell>
-				<cell>E: 1</cell>
+				<cell>D: <m>7</m></cell>
+				<cell>E: <m>1</m></cell>
 			</row>
 		</tabular>
 		</sidebyside>
@@ -428,26 +438,26 @@
 			<alert>Round 1:</alert> We make our first elimination. Choice E has the fewest first-place votes, so we eliminate E from the election. To transfer the 1 vote, we look at the person who voted for E in the last column. Their second choice was D, so we transfer that one vote to D, who will now have 8 votes:
 		</p>
 		<sidebyside>
-		<tabular>
+		<tabular halign="right">
 			<row>
-				<cell>A: 2</cell>
-				<cell>B: 8</cell>
-				<cell>C: 6</cell>
-				<cell>D: 7</cell>
+				<cell>A: <m>2</m></cell>
+				<cell>B: <m>8</m></cell>
+				<cell>C: <m>6</m></cell>
+				<cell>D: <m>7</m></cell>
 				<cell><delete>E: 1</delete></cell>
 			</row>
 			<row>
 				<cell></cell>
 				<cell></cell>
 				<cell></cell>
-				<cell>+1</cell>
+				<cell><m>\underline{+1}</m></cell>
 				<cell></cell>
 			</row>
 			<row>
 				<cell></cell>
 				<cell></cell>
 				<cell></cell>
-				<cell>8</cell>
+				<cell><m>8</m></cell>
 				<cell></cell>
 			</row>
 		</tabular>
@@ -456,26 +466,26 @@
 			<alert>Round 2:</alert> There are 24 votes in total, so a majority would be 13 votes. Since no candidate has the majority, we eliminate the next candidate with the fewest votes, which is A. We look at the column for the two people who chose A. Their second choice was E, who is already eliminated. Their third choice is B, so their 2 votes are transferred to B, for a total of 10:
 		</p>
 		<sidebyside>
-		<tabular>
+		<tabular halign="right">
 			<row>
 				<cell><delete>A: 2</delete></cell>
-				<cell>B: 8</cell>
-				<cell>C: 6</cell>
-				<cell>D: 7</cell>
+				<cell>B: <m>8</m></cell>
+				<cell>C: <m>6</m></cell>
+				<cell>D: <m>7</m></cell>
 				<cell><delete>E: 1</delete></cell>
 			</row>
 			<row>
 				<cell></cell>
-				<cell>+2</cell>
+				<cell><m>\underline{+2}</m></cell>
 				<cell></cell>
-				<cell>+1</cell>
+				<cell><m>\underline{+1}</m></cell>
 				<cell></cell>
 			</row>
 			<row>
 				<cell></cell>
-				<cell>10</cell>
+				<cell><m>10</m></cell>
 				<cell></cell>
-				<cell>8</cell>
+				<cell><m>8</m></cell>
 				<cell></cell>
 			</row>
 		</tabular>
@@ -484,40 +494,40 @@
 			<alert>Round 3:</alert> Now C has the fewest votes, and the there are two columns for C in the preference schedule. Five people who voted for C chose A second, then E (who have already been eliminated), then D. So, we transfer their 5 votes to D. One person who voted for C selected B as their second choice, so their one vote goes to B. Then we tally the votes for each remaining candidate.
 		</p>
 		<sidebyside>
-		<tabular>
+		<tabular halign="right">
 			<row>
 				<cell><delete>A: 2</delete></cell>
-				<cell>B: 8</cell>
-				<cell>C: 6</cell>
-				<cell>D: 7</cell>
+				<cell>B: <m>8</m></cell>
+				<cell><delete>C: 6</delete></cell>
+				<cell>D: <m>7</m></cell>
 				<cell><delete>E: 1</delete></cell>
 			</row>
 			<row>
 				<cell></cell>
-				<cell>+2</cell>
+				<cell><m>\underline{+2}</m></cell>
 				<cell></cell>
-				<cell>+1</cell>
-				<cell></cell>
-			</row>
-			<row>
-				<cell></cell>
-				<cell>10</cell>
-				<cell></cell>
-				<cell>8</cell>
+				<cell><m>\underline{+1}</m></cell>
 				<cell></cell>
 			</row>
 			<row>
 				<cell></cell>
-				<cell>+1</cell>
+				<cell><m>10</m></cell>
 				<cell></cell>
-				<cell>+5</cell>
+				<cell><m>8</m></cell>
 				<cell></cell>
 			</row>
 			<row>
 				<cell></cell>
-				<cell>11</cell>
+				<cell><m>\underline{+1}</m></cell>
 				<cell></cell>
-				<cell>13</cell>
+				<cell><m>\underline{+5}</m></cell>
+				<cell></cell>
+			</row>
+			<row>
+				<cell></cell>
+				<cell><m>11</m></cell>
+				<cell></cell>
+				<cell><m>13</m></cell>
 				<cell></cell>
 			</row>
 		</tabular>
@@ -531,14 +541,14 @@
 		The Instant Runoff Method is similar to the idea of holding runoff elections, but since every voter’s order of preference is recorded on the ballot, the runoff can be computed quickly without requiring a second costly election. It also makes it safe to vote for a third-party candidate knowing that your vote will go to your second choice if your first choice can’t win.
 	</p>
 	<p>
-		This voting method is used in several places around the world, including the election of members of the Australian House of Representatives, statewide elections in Maine, and local elections in Benton County, Oregon<fn><url href="https://www.fairvote.org/rcv#where_is_ranked_choice_voting_used">https://www.fairvote.org/rcv#where_is_ranked_choice_voting_used</url></fn>. A version of the Instant Runoff Method is used by the International Olympic Committee to select host nations.
+		This voting method is used in several places around the world, including the election of members of the Australian House of Representatives, statewide elections in Maine, and local elections in Benton County, Oregon (Ranked Choice Voting Resource Center, 2020).
 	</p>
 </subsection>
 
 <subsection>
 <title>Borda Count (Point System)</title>
 	<p>
-		Borda Count is another voting method, named for Jean-Charles de Borda, who developed the system in 1770. In this method, points are assigned to each candidate based on their ranking; 1 point for last choice, 2 points for second-to-last choice, and so on. The point values are totaled, and the candidate with the largest point total is the winner. We’ll show you how to do it in the next example		   
+		Borda Count is another voting method, named for Jean-Charles de Borda, who developed the system in 1770. In this method, points are assigned to each candidate based on their ranking; 1 point for last choice, 2 points for second-to-last choice, and so on. The point values are totaled, and the candidate with the largest point total is the winner. We’ll show you how to do it in the next example.
 	</p>
 	<example>
 		<statement>
@@ -638,22 +648,22 @@
 			<ul>
 				<li>
 					<p>
-						Sylvania: <m>1 \times 14 + 2 \times 35 + 3 \times 0 + 4 \times 31=208 </m> points
+						Sylvania: <m>1 \cdot 14 + 2 \cdot 35 + 3 \cdot 0 + 4 \cdot 31=208 </m> points
 					</p>
 				</li>
 				<li>
 					<p>
-						Rock Creek: <m>1 \times 10 + 2 \times 31 + 3 \times 14 + 4 \times 25= 214</m> points
+						Rock Creek: <m>1 \cdot 10 + 2 \cdot 31 + 3 \cdot 14 + 4 \cdot 25= 214</m> points
 					</p>
 				</li>
 				<li>
 					<p>
-						Cascade: <m>1 \times 31 + 2 \times 0 + 3 \times 35 + 4 \times 14= 192</m> points
+						Cascade: <m>1 \cdot 31 + 2 \cdot 0 + 3 \cdot 35 + 4 \cdot 14= 192</m> points
 					</p>
 				</li>
 				<li>
 					<p>
-						Southwest: <m>1 \times 25 + 2 \times 14 + 3 \times 31 + 4 \times 10 = 186</m> points
+						Southwest: <m>1 \cdot 25 + 2 \cdot 14 + 3 \cdot 31 + 4 \cdot 10 = 186</m> points
 					</p>
 				</li>
 			</ul>
@@ -672,12 +682,12 @@
 </subsection>
 
 <subsection>
-<title>Pairwise Comparison (Copeland’s or Condorcet Method)</title>
+<title>Pairwise Comparison: Copeland’s Method</title>
 	<p>
-		Another method, called <alert>pairwise comparison</alert> or the <alert>Condorcet method</alert> or <alert>Copeland’s method</alert>, attempts to be fair by looking at each pair of candidates separately.
+		Another method, called <alert>pairwise comparison</alert>, the <alert>Condorcet method</alert> or <alert>Copeland’s method</alert>, attempts to be fair by looking at each pair of candidates separately.
 	</p>
 	<p>
-		In this method, we look at each pair as if they were the only two candidates running and determine which of the two is more preferred. In Copeland’s method, the more preferred candidate is awarded 1 point. If there is a tie, each candidate is awarded <m>1/2</m> point. After all the pairwise comparisons are made, the candidate with the most points, and hence the most pairwise wins, is declared the winner.
+		In this method, we look at each pair as if they were the only two candidates running and determine which of the two is more preferred. In Copeland’s method, the more preferred candidate is awarded 1 point. If there is a tie, each candidate is awarded <m>\frac{1}{2}</m> point. After all the pairwise comparisons are made, the candidate with the most points, and hence the most pairwise wins, is declared the winner.
 	</p>
 	<p>
 		Variations of Copeland’s Method are used in many professional organizations, including election of the Board of Trustees for the Wikimedia Foundation that runs Wikipedia.
@@ -729,45 +739,48 @@
 				</li>
 				<li>
 					<p>
-						Ana vs. Omar
+						Helena vs. Ana
 					</p>
 				</li>
 				<li>
 					<p>
-						Helena vs. Ana
+						Ana vs. Omar
 					</p>
 				</li>
 			</ul>
+		</p>
+		<p>
+			Next, comparing Helena with Omar, we see that 6 voters, those marked in bold in the table below, would prefer Helena over Omar. Note that Helena doesn’t have to be the voter’s first choice – we’re imagining that Ana wasn’t in the race. The other 4 people chose Omar over Helena.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell></cell>
 				<cell>1</cell>
-				<cell><c>3</c></cell>
+				<cell><alert>3</alert></cell>
 				<cell>3</cell>
-				<cell><c>3</c></cell>
+				<cell><alert>3</alert></cell>
 			</row>
 			<row>
 				<cell>1st choice</cell>
 				<cell>A</cell>
 				<cell>A</cell>
 				<cell>O</cell>
-				<cell><c>H</c></cell>
+				<cell><alert>H</alert></cell>
 			</row>
 			<row>
 				<cell>2nd choice</cell>
 				<cell>O</cell>
-				<cell><c>H</c></cell>
+				<cell><alert>H</alert></cell>
 				<cell>H</cell>
 				<cell>A</cell>
 			</row>
 			<row>
 				<cell>3rd choice</cell>
 				<cell>H</cell>
-				<cell><c>O</c></cell>
+				<cell><alert>O</alert></cell>
 				<cell>A</cell>
-				<cell><c>O</c></cell>
+				<cell><alert>O</alert></cell>
 			</row>
 		</tabular>
 		</sidebyside>
@@ -787,12 +800,12 @@
 				</li>
 				<li>
 					<p>
-						Ana-7 vs Omar-3 (Ana gets 1 point)
+						Helena-6 vs Ana-4 (Helena gets 1 point)
 					</p>
 				</li>
 				<li>
 					<p>
-						Helena-6 vs Ana-4 (Helena gets 1 point)
+						Ana-7 vs Omar-3 (Ana gets 1 point)
 					</p>
 				</li>
 			</ul>
@@ -803,7 +816,7 @@
 		</statement>
 	</example>
 	<p>
-		Now that we’ve seen an example of each voting method, let’s run through each method for the same scenario. 
+		Now that we’ve seen an example of each voting method, let’s run through each method for the same scenario.
 	</p>
 	<example>
 		<statement>
@@ -860,12 +873,12 @@
 				<alert>Plurality Method:</alert> We tally the first-place votes:
 			</p>
 			<sidebyside>
-			<tabular>
+			<tabular halign="right">
 				<row>
 					<cell>A: <m>3+2=5</m></cell>
-					<cell>B: 4</cell>
-					<cell>C: 6</cell>
-					<cell>D:5 </cell>
+					<cell>B: <m>4</m></cell>
+					<cell>C: <m>6</m></cell>
+					<cell>D: <m>5</m> </cell>
 				</row>
 			</tabular>
 			</sidebyside>
@@ -876,24 +889,24 @@
 				<alert>Instant Runoff Method:</alert> We start with the plurality tallies. Then we look for the slogan with the least first-choice votes, and that is B. Looking in the preference schedule at the 4 people who voted for B, we see their second choice is D. So we transfer those 4 votes to D, which now has 9.
 			</p>
 			<sidebyside>
-			<tabular>
+			<tabular halign="right">
 				<row>
-					<cell>A: 5</cell>
+					<cell>A: <m>5</m></cell>
 					<cell><delete>B: 4</delete></cell>
-					<cell>C: 6</cell>
-					<cell>D: 5</cell>
+					<cell>C: <m>6</m></cell>
+					<cell>D: <m>5</m></cell>
 				</row>
 				<row>
 					<cell></cell>
 					<cell></cell>
 					<cell></cell>
-					<cell>+4</cell>
+					<cell><m>\underline{+4}</m></cell>
 				</row>
 				<row>
 					<cell></cell>
 					<cell></cell>
 					<cell></cell>
-					<cell>9</cell>
+					<cell><m>9</m></cell>
 				</row>
 			</tabular>
 			</sidebyside>
@@ -901,36 +914,36 @@
 				Now A has the least number of votes with 5, so we look at the voters who chose A for their first choice. There are two columns, so three of those votes will be transferred to C and 2 will be transferred to D.
 			</p>
 			<sidebyside>
-			<tabular>
+			<tabular halign="right">
 				<row>
 					<cell><delete>A: 5</delete></cell>
 					<cell><delete>B: 4</delete></cell>
-					<cell>C: 6</cell>
-					<cell>D: 5</cell>
+					<cell>C: <m>6</m></cell>
+					<cell>D: <m>5</m></cell>
 				</row>
 				<row>
 					<cell></cell>
 					<cell></cell>
 					<cell></cell>
-					<cell>+4</cell>
+					<cell><m>\underline{+4}</m></cell>
 				</row>
 				<row>
 					<cell></cell>
 					<cell></cell>
 					<cell></cell>
-					<cell>9</cell>
+					<cell><m>9</m></cell>
 				</row>
 				<row>
 					<cell></cell>
 					<cell></cell>
-					<cell>+3</cell>
-					<cell>+2</cell>
+					<cell><m>\underline{+3}</m></cell>
+					<cell><m>\underline{+2}</m></cell>
 				</row>
 				<row>
 					<cell></cell>
 					<cell></cell>
-					<cell>9</cell>
-					<cell>11</cell>
+					<cell><m>9</m></cell>
+					<cell><m>11</m></cell>
 				</row>
 			</tabular>
 			</sidebyside>
@@ -993,22 +1006,22 @@
 				<ul>
 					<li>
 						<p>
-							A: <m>1 \times 0 + 2 \times 10 + 3 \times 5 + 4 \times 5 = 55</m> points
+							A: <m>1 \cdot 0 + 2 \cdot 10 + 3 \cdot 5 + 4 \cdot 5 = 55</m> points
 						</p>
 					</li>
 					<li>
 						<p>
-							B: <m>1 \times 7 + 2 \times 3 + 3 \times 6 + 4 \times 4 = 47</m> points
+							B: <m>1 \cdot 7 + 2 \cdot 3 + 3 \cdot 6 + 4 \cdot 4 = 47</m> points
 						</p>
 					</li>
 					<li>
 						<p>
-							C: <m>1 \times 4 + 2 \times 7 + 3 \times 3 + 4 \times 6 = 51</m> points
+							C: <m>1 \cdot 4 + 2 \cdot 7 + 3 \cdot 3 + 4 \cdot 6 = 51</m> points
 						</p>
 					</li>
 					<li>
 						<p>
-							D: <m>1 \times 9 + 2 \times 0 + 3 \times 6 + 4 \times 5 = 47</m> points
+							D: <m>1 \cdot 9 + 2 \cdot 0 + 3 \cdot 6 + 4 \cdot 5 = 47</m> points
 						</p>
 					</li>
 				</ul>
@@ -1017,41 +1030,45 @@
 				A is the winner of the Borda count method.
 			</p>
 			<p>
-				<alert>Pairwise Comparison:</alert> First we list all the possible pairs:
-				<ul>
-					<li>
-						<p>
-							A vs B
-						</p>
-					</li>
-					<li>
-						<p>
-							B vs C
-						</p>
-					</li>
-					<li>
-						<p>
-							C vs D
-						</p>
-					</li>
-					<li>
-						<p>
-							A vs C
-						</p>
-					</li>
-					<li>
-						<p>
-							B vs D
-						</p>
-					</li>
-					<li>
-						<p>
-							A vs D
-						</p>
-					</li>
-				</ul>
+				<alert>Pairwise Comparison:</alert>
 			</p>
-			<p>
+				<sidebyside>
+				<p>
+					First we list all the possible pairs:
+					<ul>
+						<li>
+							<p>
+								A vs B
+							</p>
+						</li>
+						<li>
+							<p>
+								A vs C
+							</p>
+						</li>
+						<li>
+							<p>
+								A vs D
+							</p>
+						</li>
+						<li>
+							<p>
+								B vs C
+							</p>
+						</li>
+						<li>
+							<p>
+								B vs D
+							</p>
+						</li>
+						<li>
+							<p>
+								C vs D
+							</p>
+						</li>
+					</ul>
+				</p>
+				<p>
 				Then we count the number of voters who would choose each candidate if they were the only two in the race.
 				<ul>
 					<li>
@@ -1061,17 +1078,17 @@
 					</li>
 					<li>
 						<p>
-							B–4 vs C-16
-						</p>
-					</li>
-					<li>
-						<p>
-							C-9 vs D-11
-						</p>
-					</li>
-					<li>
-						<p>
 							A-14 vs C-6
+						</p>
+					</li>
+					<li>
+						<p>
+							A-11 vs D-9
+						</p>
+					</li>
+					<li>
+						<p>
+							B–4 vs C-16
 						</p>
 					</li>
 					<li>
@@ -1081,11 +1098,12 @@
 					</li>
 					<li>
 						<p>
-							A-11 vs D-9
+							C-9 vs D-11
 						</p>
 					</li>
 				</ul>
 			</p>
+		</sidebyside>
 			<p>
 				Totaling one point for each win and half a point for each tie gives us:
 				<ul>
@@ -1152,46 +1170,29 @@
 	</tabular>
 	</sidebyside>
 	<p>
-		Notice that in this election:
-		<ul>
-			<li>
-				<p>
-					10 people prefer A to B
-				</p>
-			</li>
-			<li>
-				<p>
-					10 people prefer B to C
-				</p>
-			</li>
-			<li>
-				<p>
-					10 people prefer C to A
-				</p>
-			</li>
-		</ul>
+		Notice that in this election: 10 people prefer A to B, 10 people prefer B to C, and 10 people prefer C to A.
 	</p>
 	<p>
-		No matter whom we choose as the winner, <m>2/3</m> of voters would prefer someone else!  This scenario is dubbed Condorcet’s Voting Paradox. In this situation, there is no fair resolution. There are many additional paradoxes and fairness criteria that are explained in David Lippman’s original version of Math in Society<fn><url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Voting Theory</url>, by David Lippman</fn>.
+		No matter whom we choose as the winner, <m>\frac{2}{3}</m> of voters would prefer someone else! This scenario is called <alert>Condorcet’s Voting Paradox</alert>. In this situation, there is no fair resolution. There are many additional paradoxes and fairness criteria that are explained in David Lippman’s original version of <em>Math in Society</em><fn><url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Voting Theory</url>, by David Lippman</fn>.
 	</p>
 	<p>
-		Since it is not possible to have one method that is fair in every situation, we need all of these different methods. It is important to decide which method is the most fair for any given situation.
+		Since it is not possible to have one method that is fair in every situation, it is important to decide which method is the most fair for any given situation.
 	</p>
 </subsection>
 
 <subsection>
-	<title>Primaries and Sequencial Voting</title>
+	<title>Primaries and Sequential Voting</title>
 	<p>
 		For many public offices in the U.S., a sequence of two public votes is held: a primary election and the general election. For non-partisan offices like sheriff and judge, in which political party affiliation is not declared, the primary election is usually used to narrow the field of candidates.
 	</p>
 	<p>
-		For partisan positions, typically, either the top two candidates receiving the most votes move forward, or the top candidate from each party will move forward. This is called <alert>sequential voting</alert> - a process in which voters cast totally new ballots after each round of eliminations. Sequential voting has become quite common in television, where it is used in reality competition shows like the Voice. 
+		For partisan positions, typically, either the top two candidates receiving the most votes move forward, or the top candidate from each party will move forward. This is called <alert>sequential voting</alert> - a process in which voters cast totally new ballots after each round of eliminations. Sequential voting has become quite common in television, where it is used in reality shows like <em>The Voice</em>.
 	</p>
 	<p>
 		In some states a <alert>closed primary</alert> is used, in which only voters of each party can vote for that party’s candidates. In other states, an <alert>open primary</alert> is used, where voters can pick the party whose primary they want to vote in. In other states, <alert>caucuses</alert> are used, which are meetings of the political parties, only open to party members. Closed primaries are often disliked by independent voters, who like the flexibility to change which party they are voting in. Open primaries have the disadvantage of raiding, though, where a voter could vote in their non-preferred party’s primary with the intent of selecting a weaker opponent for their preferred party’s candidate.
 	</p>
 	<p>
-		Regardless of the primary type, the general election is the main election, open to all voters. While rules vary state-to-state, for an independent or minor party candidate to get listed on the ballot, they typically have to gather a certain number of signatures to petition for inclusion.
+		Regardless of the primary type, the general election is the main election. While rules vary state-to-state, for an independent or minor party candidate to get listed on the ballot, they typically have to gather a certain number of signatures to petition for inclusion.
 	</p>
 	<p>
 		In the next section we will look at a different type of election for the President of the United States.
@@ -1541,8 +1542,8 @@
 		</row>
 		<row>
 			<cell>1st choice</cell>
-			<cell>Anthropology</cell>
-			<cell>Anthropology</cell>
+			<cell>Art</cell>
+			<cell>Art</cell>
 			<cell>Biology</cell>
 			<cell>Biology</cell>
 			<cell>Calculus</cell>
@@ -1552,9 +1553,9 @@
 			<cell>2nd choice</cell>
 			<cell>Biology</cell>
 			<cell>Calculus</cell>
-			<cell>Anthropology</cell>
+			<cell>Art</cell>
 			<cell>Calculus</cell>
-			<cell>Anthropology</cell>
+			<cell>Art</cell>
 			<cell>Biology</cell>
 		</row>
 		<row>
@@ -1562,9 +1563,9 @@
 			<cell>Calculus</cell>
 			<cell>Biology</cell>
 			<cell>Calculus</cell>
-			<cell>Anthropology</cell>
+			<cell>Art</cell>
 			<cell>Biology</cell>
-			<cell>Anthropology</cell>
+			<cell>Art</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -1594,7 +1595,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Anthropology 22, Biology 26 and Calculus 24. Biology wins the Borda Count method.
+					The points are: Art 22, Biology 26 and Calculus 24. Biology wins the Borda Count method.
 				</p>
 			</li>
 			<li>
