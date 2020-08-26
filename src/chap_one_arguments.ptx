@@ -100,11 +100,11 @@
 	<p>
 		In general, an <alert>inductive argument</alert> uses a collection of <em>specific</em> examples (i.e. data) as its premises and uses them to propose a <em>general</em> conclusion, while a <alert>deductive argument</alert> uses a collection of <em>general statements</em> (i.e. definitions) as its premises and uses them to propose a <em>specific conclusion</em>. You can see the difference in the pyramids below. We start with the premises at the bottom and build up to the conclusion.
 	</p>
-	<sidebyside>
-		<image width="80%" source="images/language_logic_rules/1_3/ind_ded_argument1.png">
+	<sidebyside width="40%">
+		<image source="images/language_logic_rules/1_3/ind_ded_argument1.png">
 		<description>A pyramid upside down with the narrow end at the bottom for a specific premise, the middle section is another specific premise; the wide part at the top is for the general conclusion</description>
 		</image>
-		<image width="80%" source="images/language_logic_rules/1_3/ind_ded_argument2.png">
+		<image source="images/language_logic_rules/1_3/ind_ded_argument2.png">
 		<description>A pyramid right-side up with the wide base at the bottom for a general premise; another general premise in the middle section, and a specific conclusion in the narrow part at the top</description>
 		</image>
 	</sidebyside>
@@ -113,7 +113,7 @@
 		<statement>
 		<p>
 			Rewrite the following arguments in a precise “premise, premise, conclusion” form, and determine if the argument is inductive or deductive.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						A number is prime if it is only divisible by itself and one. Since the number 13 is only divisible by itself and one, 13 must be prime. 
@@ -129,7 +129,7 @@
 		</statement>
 		<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Premise: If a number is only divisible by itself and one, the number is prime. 
@@ -203,7 +203,7 @@
 		<statement>
 		<p>
 			Use a set diagram to determine whether the argument is valid. If the argument is valid, determine if it is also sound.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<q>All cats are mammals and a tiger is a cat, so a tiger is a mammal.</q>
@@ -234,7 +234,7 @@
 		</statement>
 		<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						First let’s write the argument in its <q>premise, premise, conclusion</q> form. For the problems we will be looking at, you will want to write the first premise as a <alert>qualified proposition</alert> (some, none, all) since this will form the basic structure of our diagram.
@@ -251,8 +251,8 @@
 					<p>
 						From the first premise we know that all cats lie inside the set of mammals (cats are a subset of mammals). From the second premise, we know that tigers lie inside the set of cats (marked with an X), and therefore also lie within the set of mammals.
 					</p>
-					<sidebyside>
-					<image width="70%" source="images/language_logic_rules/1_3/eval_arg1.png">
+					<sidebyside width="65%">
+					<image source="images/language_logic_rules/1_3/eval_arg1.png">
 					<description>A set diagram with the circle for the set of cats contained within the set of mammals. Both are in the universal set rectangle; There is an arrow for tigers pointing to the inside of the cats circle</description>
 					</image>
 					</sidebyside>
@@ -264,8 +264,8 @@
 					<p>
 						From the first premise we know that all water bottles lie inside the set of plastic items (water bottles are a subset of plastic). From the second premise, we know that this particular water bottle must lie within the plastic items set.
 					</p>
-					<sidebyside>
-					<image width="70%" source="images/language_logic_rules/1_3/eval_arg2.png">
+					<sidebyside width="65%">
+					<image source="images/language_logic_rules/1_3/eval_arg2.png">
 					<description>A set diagram with the circle for the set of water bottles contained within the set of plastic.  Both are in the universal set rectangle; There is an arrow for this water bottle pointing to the inside of the water bottle circle</description>
 					</image>
 					</sidebyside>
@@ -277,8 +277,8 @@
 					<p>
 						From the first premise we know that all firefighters lie inside the set of those who know CPR (firefighters are a subset of people who know CPR). From the second premise, we know that Jill is a member of the set of those who know CPR, but we do not have enough information to know whether she is also a member of set of firefighters.
 					</p>
-					<sidebyside>
-					<image width="70%" source="images/language_logic_rules/1_3/eval_arg3.png">
+					<sidebyside width="65%">
+					<image source="images/language_logic_rules/1_3/eval_arg3.png">
 					<description>A set diagram with the circle for the set of firefighters contained within the set of those who know CPR. Both are in the universal set rectangle; There is a question mark inside the firefighter circle and in the larger know CPR region because we don't know which region Jill is in</description>
 					</image>
 					</sidebyside>
@@ -287,8 +287,8 @@
 					</p>
 				</li>
 				<li>
-					<sidebyside>
-					<image width="70%" source="images/language_logic_rules/1_3/eval_arg4.png">
+					<sidebyside width="50%">
+					<image source="images/language_logic_rules/1_3/eval_arg4.png">
 					<description>A set diagram with 2 disjoint sets, people who like to dance and my friends; Both circles are in the universal set rectangle; There is a question mark in the  my friends circle and in the region outside the circles because we don't know where Kai goes.</description>
 					</image>
 					</sidebyside>
@@ -297,8 +297,8 @@
 					</p>
 				</li>
 				<li>
-					<sidebyside>
-					<image width="70%" source="images/language_logic_rules/1_3/eval_arg5.png">
+					<sidebyside width="50%">
+					<image source="images/language_logic_rules/1_3/eval_arg5.png">
 					<description>A set diagram with 2 overlapping sets, young adults and minimum wage earners; There is a question mark in the young adults region and in the intersection of the two circles because we don't know where Tara goes.</description>
 					</image>
 					</sidebyside>
@@ -321,7 +321,7 @@
 		Decide if the argument described is inductive or deductive:
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					The first five terms of the sequence were all odd, therefore the sixth term will also be odd.
@@ -337,7 +337,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					The argument is inductive.
@@ -359,7 +359,7 @@
 		Find the next term of the sequences below.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					3, 6, 9, 12, 15, <fillin />
@@ -375,7 +375,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					The next term is 18.
@@ -417,8 +417,8 @@
 			<p>
 				This is a deductive argument. It is valid. However, it is not sound because the premise all cats are afraid of vacuum cleaners is false. While many cats are afraid of vacuum cleaners not ALL cats are afraid. There are many videos of cats riding electronic vacuum cleaners.
 			</p>
-			<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_vacuums_cats_2.png">
+			<sidebyside width="50%">
+				<image source="images/language_logic_rules/1_3/solution_1.3_vacuums_cats_2.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -479,8 +479,8 @@
 			<p>
 				This is a deductive argument. This argument is not valid. Jimmy could be one of these rude kids, he could also be a kid who is not rude. Because the conclusion is not valid, it is also not sound.
 			</p>
-			<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_rude_people.png">
+			<sidebyside width="50%">
+				<image source="images/language_logic_rules/1_3/solution_1.3_rude_people.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -505,8 +505,8 @@
 			<p>
 				This is a deductive argument. The argument is not valid. Based on the premises, we know that the friend's Harley-Davidson motorcycle has two wheels, but we do not know whethere or not it is a bicycle. Because it is not valid, it is also not sound. 
 			</p>
-			<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_bikes.png">
+			<sidebyside width="50%">
+				<image source="images/language_logic_rules/1_3/solution_1.3_bikes.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -531,8 +531,8 @@
 			<p>
 				This is a deductive argument. The argument is valid. This bar is in the set of chocolate and chocolate is in the set of things that contain milk. However, this conclusion is not sound because not all chocolate contains milk. 
 			</p>
-			<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_milk.png">
+			<sidebyside width="50%">
+				<image source="images/language_logic_rules/1_3/solution_1.3_milk.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -557,8 +557,8 @@
 			<p>
 				This is a deductive argument. The argument is not valid. We can not determine if Brayer is a student or not. Because it is not valid it is also not sound. 
 			</p>
-			<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_coffee.png">
+			<sidebyside width="50%">
+				<image source="images/language_logic_rules/1_3/solution_1.3_coffee.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -602,8 +602,8 @@
 			<p>
 				This argument is deductive. The argument is valid because Laura is outside of the set of self-absorbed people, so she must also be outside of this set of people on this reality show. Determining if this conclusion is sound is more difficult because determining if someone is self-absorbed is subjective. 
 			</p>
-			<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_self_absorbed.png">
+			<sidebyside width="50%">
+				<image source="images/language_logic_rules/1_3/solution_1.3_self_absorbed.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -646,8 +646,8 @@
 		<p>
 			The argument is valid and sound.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_apples_pears.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_3/solution_1.3_apples_pears.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -669,8 +669,8 @@
 		<p>
 			The argument is not valid, and it is not sound.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_young_kids.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_3/solution_1.3_young_kids.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -692,8 +692,8 @@
 		<p>
 			The argument is not valid, and it is not sound.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_faint_goats.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_3/solution_1.3_faint_goats.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -715,8 +715,8 @@
 		<p>
 			This argument is not valid, and because it is not valid it is also not sound. Claudia could have missed 25% of the classes causing her to fail. She could instead be failing because of low test scores.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_failing_class_claudia.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_3/solution_1.3_failing_class_claudia.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -738,8 +738,8 @@
 		<p>
 			This argument is valid, and it is sound. Because Ethan is in the set of folks who missed 25% of the classes he also falls into the set of failing.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_failing_class_ethan.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_3/solution_1.3_failing_class_ethan.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -761,8 +761,8 @@
 		<p>
 			This argument is not valid, and because it is not valid it is also not sound. Mary could be a dog. Mary could also be a worm, horse or human.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_apple_eater.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_3/solution_1.3_apple_eater.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -784,8 +784,8 @@
 		<p>
 			This argument is not valid, and is not sound. We cannot determine if Juan took the test.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_freshman_test.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_3/solution_1.3_freshman_test.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -807,8 +807,8 @@
 		<p>
 			This argument is not valid. Because it is not valid, it is also not sound. We cannot determine if Bob is a cat or not.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_3/solution_1.3_peanuts_cat.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_3/solution_1.3_peanuts_cat.png">
 			</image>
 		</sidebyside>
 	</solution>

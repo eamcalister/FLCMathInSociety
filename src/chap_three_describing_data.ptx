@@ -86,7 +86,7 @@
 
 		<example>
 			<p>
-				<ol label="a">
+				<ol label="a.">
 					<li>
 						<p>
 							Suppose we gather respondents' ZIP codes in a survey to track their geographical location. ZIP codes are numbers, but we can't do any meaningful calculations with them (it doesn't make sense to say that 98036 is "twice" 49018 — that's like saying that Lynnwood, WA is "twice" Battle Creek, MI, which doesn't make sense at all), so ZIP codes are really categorical data.
@@ -263,8 +263,8 @@
 	<p>
 		To draw bar graphs by hand graph paper is useful, or you can use technology. It is also very helpful to label each bar with the frequency or relative frequency.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/bar_graph.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/bar_graph.png">
 		<description>This is a bar graph. Along the x-axis it lists: blue, green, red, white, black and grey. The x-axis is labeled “Vehicle color involved in total-loss collision.” The y-axis is labeled “frequency” and goes from 0 to 55 with a scale of 5. Above each color there is a bar corresponding to the frequency. Blue 25; Green 52; Red 41; White 36; Black 39; Grey 23. </description>
 	</image>
 </sidebyside>
@@ -280,8 +280,8 @@
 	<p>
 		Pie charts can often benefit from including frequencies or relative frequencies in the pie slices.
 	</p>
-	<sidebyside>
-		<image width="60%" source="images/statistics/3_2/pie_chart.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/pie_chart.png">
 		<description>A pie chart for the same data as the previous bar chart. The relative frequencies are given in each pie piece: Green 24%; Red 19%; Black 18%; White 17%; Blue 11%; Grey 11%.</description>
 	</image>
 </sidebyside>
@@ -296,14 +296,14 @@
 	<p>
 		To make a graph using a spreadsheet, place the data from the frequency table into the cells. Then select the data, go to the Insert tab, and choose the bar graph or pie chart that you would like. For this example, we will choose a pie graph.
 	</p>
-	<sidebyside>
-		<image width="60%" source="images/statistics/3_2/use_sheet1.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/use_sheet1.png">
 		<description>A screenshot of the frequency table for car colors entered into a spreadsheet</description>
 		</image>
 	</sidebyside>
-	<sidebyside>
-		<image width="80%" source="images/statistics/3_2/use_sheet2.png">
-		<description>This is a large screen shot of excel  that includes both the data and the Insert tab with various circle graph options. </description>
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/use_sheet2.png">
+		<description>This is a large screen shot of excel that includes both the data and the Insert tab with various circle graph options.</description>
 		</image>
 	</sidebyside>
 
@@ -314,8 +314,8 @@
 	<p>
 		To give your graph a meaningful title, click on Chart Title. There are many other settings that you can experiment with.
 	</p>
-	<sidebyside>
-		<image width="80%" source="images/statistics/3_2/use_sheet3.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/use_sheet3.png">
 		<description>This is a screenshots of excel that shows the frequency table and pie chart and shows the Chart Design Tab.</description>
 		</image>
 	</sidebyside>
@@ -329,11 +329,11 @@
 	</p>
 
 	<example>
-		<sidebyside>
+		<sidebyside valign="middle" width="40%">
 			<p>
 				3-dimensional bar chart like the one shown is usually not as effective as a 2-dimensional graph. The extra dimension does not add any useful information.
 			</p>
-			<image width="70%" source="images/statistics/3_2/misleading.png">
+			<image source="images/statistics/3_2/misleading.png">
 				<description>A 3-D bar graph showing the car color data.</description>
 			</image>
 		</sidebyside>
@@ -353,8 +353,8 @@
 		<p>
 			A labor union might produce this graph to show the difference between the average manager salary and the average worker salary.
 		</p>
-		<sidebyside>
-			<image width="60%" source="images/statistics/3_2/distortion.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_2/distortion.png">
 			<description>There are two bags of money shown. One is larger labeled Mananger Salaries. The other is half as tall and half as wide and labeled workers salaries. There are no numbers or scale shown. </description>
 			</image>
 		</sidebyside>
@@ -374,13 +374,13 @@
 		<p>
 			Compare the two graphs below showing support for same-sex marriage rights from a poll taken in December, 2008<fn>CNN/Opinion Research Corporation Poll.  Dec 19-21, 2008, from <url href="http://www.pollingreport.com/civil.htm">http://www.pollingreport.com/civil.htm</url></fn>. At a glance, the two graphs suggest very different stories. The second graph makes it look like more than three times as many people oppose marriage rights as support them. But when we look at the scale we can see that the difference is about 12%. By not starting at zero the difference looks enlarged.
 		</p>
-		<sidebyside>
-			<image width="80%" source="images/statistics/3_2/misleading_scale1.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_2/misleading_scale1.png">
 			<description>A bar graph with a scale from 0-100%; There is a bar for support at about 44% and a bar for oppose at about 56%.</description>
 			</image>
 		</sidebyside>
-		<sidebyside>
-			<image width="80%" source="images/statistics/3_2/misleading_scale2.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_2/misleading_scale2.png">
 			<description>A bar graph of the same data but the scale goes from 40-60%; This magnifies the difference between the support and oppose groups.</description>
 			</image>
 		</sidebyside>
@@ -431,8 +431,8 @@
 				</row>
 				</tabular>
 			</sidebyside>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_2/stacked_bar1.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_2/stacked_bar1.png">
 			<description>A stacked bar graph with the bars for the expenses for student 2 placed on top of the bars for student 1.</description>
 			</image>
 		</sidebyside>
@@ -440,8 +440,8 @@
 		<p>
 			It would be much easier to interpret the differences in a side-by-side bar chart.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_2/stacked_bar2.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_2/stacked_bar2.png">
 			<description>A side-by-side bar graph with the bars for each student right next to each other.</description>
 			</image>
 		</sidebyside>
@@ -518,8 +518,8 @@
 	<p>
 		A <alert>histogram</alert> is like a bar graph, but the horizontal axis is a number line. Unlike a bar graph, there are no spaces between the bars. Here is a histogram for the data given above. Notice that in this histogram, the two scores of 15 are to the right of 15, or between 15 and 16.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/histogram1.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/histogram1.png">
 		<description>This is a histogram the x-axis is labeled score and goes from 0 to 21, with a scale of 1. The y-axis is labeled frequency an goes from 0 to 9 with a scale of 1. There are no spaces between the bars.</description>
 	</image>
 </sidebyside>
@@ -527,8 +527,8 @@
 	<p>
 		The horizontal scales on histograms can be confusing for this reason. Some people choose to have bars start at ½ values to avoid this ambiguity, as in this second histogram.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/histogram2.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/histogram2.png">
 		<description>This is a histogram of the same data but this time the spaces are labeled 0 to 20 instead of the tick marks.</description>
 	</image>
 </sidebyside>
@@ -619,8 +619,8 @@
 				</row>
 			</tabular>
 		</sidebyside>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/class_intervals.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/class_intervals.png">
 		<description>This is a histogram of the data in the table; the x-axis is labeled weights(pounds) and goes from 120 to 270, with a scale of 15; The y-axis is labeled frequency and goes from 0 to 30 with a scale of 5. There are no spaces between the bars.</description>
 		</image>
 	</sidebyside>
@@ -637,47 +637,47 @@
 		We will be using GeoGebra throughout this chapter to make graphs and calculate summary statistics. There is an online version and one you can download available at <url href="http://www.Geogebra.org/">www.Geogebra.org</url>. The instructions are similar for both.
 	</p>
 
-	<sidebyside>
+	<sidebyside valign="middle" width="40%">
 		<p>
 			The first thing we need to do is enter the data in GeoGebra’s spreadsheet. You can access the spreadsheet from Main Menu <m>\rightarrow</m>View <m>\rightarrow</m>Spreadsheet. Next, enter your data and select that column. Then click on the histogram icon in the menu bar on the left side and select One Variable Analysis.
 		</p>
-			<image width="70%" source="images/statistics/3_2/histogram_tech1.png">
+			<image source="images/statistics/3_2/histogram_tech1.png">
 			<description>A screenshot of GeoGebra showing the icon for One Variable Analysis</description>
 			</image>
 	</sidebyside>
 
-	<sidebyside>
+	<sidebyside valign="middle" width="40%">
 		<p>
 			A new window will pop up showing a visual of the data. There is a drop-down menu for the type of graph, but histogram is the default. Notice that the bars are not lined up with the tick-marks at the bottom, so we want to edit this histogram. The slider bar at the top will let you see different class widths, but we want to choose our class widths manually.
 		</p>
-			<image width="70%" source="images/statistics/3_2/histogram_tech2.png">
+			<image source="images/statistics/3_2/histogram_tech2.png">
 			<description>A screenshot from GeoGebra showing the histogram</description>
 			</image>
 	</sidebyside>
 
-	<sidebyside>
+	<sidebyside valign="middle" width="40%">
 		<p>
 			If you close the menu at the top right by clicking on the left pointing triangle, you will see a settings wheel. Click on the wheel and check the box for set classes manually. To match our previous histogram, we will start at 120 pounds and set a class width of 15 pounds.
 		</p>
-			<image width="70%" source="images/statistics/3_2/histogram_tech3.png">
+			<image source="images/statistics/3_2/histogram_tech3.png">
 			<description>A screenshot from GeoGebra showing the box checked for Set Classes Manually.</description>
 			</image>
 	</sidebyside>
 
-	<sidebyside>
+	<sidebyside valign="middle" width="40%">
 		<p>
 			Now the bars of the histogram match our previous graph, but we need to edit the axis labels to match. Click on the graph tab on the right side and uncheck the box for automatic dimensions. We set the x min, x max, x step, y min, y max and y step as shown.
 		</p>
-			<image width="70%" source="images/statistics/3_2/histogram_tech4.png">
+			<image source="images/statistics/3_2/histogram_tech4.png">
 			<description>A screenshot from GeoGebra showing the box uncheckd for Automatic Dimensions. The dimensions entered are xMin 111; xMax 275; xStep 15; yMin -3.4033; yMax: 30.8; yStep 5 (The y-dimensions were automatic)</description>
 		</image>
 	</sidebyside>
 
-	<sidebyside>
+	<sidebyside valign="middle" width="40%">
 		<p>
 			To put the graph in an assignment or a book such as this one, select the export icon and choose Export as Picture. The downloaded version also has a Copy to Clipboard option. Then insert the graph into any document and add axis labels.
 		</p>
-			<image width="70%" source="images/statistics/3_2/histogram_tech5.png">
+			<image source="images/statistics/3_2/histogram_tech5.png">
 			<description>A screenshot from GeoGebra showing the export icon</description>
 		</image>
 	</sidebyside>
@@ -685,8 +685,8 @@
 	<p>
 		Here is our finished histogram:
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/histogram_tech6.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/histogram_tech6.png">
 		<description>The finished histogram from GeoGebra copied into a Word document. This is the same histogram as in Example 10.</description>
 	</image>
 </sidebyside>
@@ -726,8 +726,8 @@
 		<p>
 			The first graph is <alert>unimodal</alert>, the second is <alert>bimodal</alert> and the third is <alert>multimodal</alert>.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_2/modality.png">
+		<sidebyside width="40%">
+			<image source="images/statistics/3_2/modality.png">
 			<description>Three histograms are shown. The first histogram has one peak. The second histograms has two peaks. The third histogram has three peaks.</description>
 			</image>
 		</sidebyside>
@@ -747,8 +747,8 @@
 		<p>
 			The graph on the left is symmetric and unimodal while the graph on the right is roughly symmetric and bimodal.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_2/symmetry.png">
+		<sidebyside width="40%">
+			<image source="images/statistics/3_2/symmetry.png">
 			<description>Two histograms are shown. The first histogram has one peak in the middle and the bars taper down symmetrically on each side. The second histogram has two peaks. Each of the peaks are similar in size and the graph is roughly symmetric.</description>
 			</image>
 		</sidebyside>
@@ -769,8 +769,8 @@
 	<p>
 		A left skewed graph is also called a <alert>negatively skewed</alert> graph. The longer tail will be on the left or negative side.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/left_skew.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/left_skew.png">
 		<description>This is a histogram with 9 bars. The highest bar is to the right of center and the bars go down to the left gradually.</description>
 	</image>
 </sidebyside>
@@ -781,8 +781,8 @@
 	<p>
 		A right skewed graph is also called a <alert>positively skewed</alert> graph. The longer tail will be on the right or positive side.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/right_skew.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/right_skew.png">
 		<description>This is a histogram with 9 bars. The highest bar is to the left of center and the bars go down to the right gradually.</description>
 	</image>
 </sidebyside>
@@ -793,8 +793,8 @@
 	<p>
 		The <alert>normal distribution</alert> has a very specific shape. It is unimodal and symmetric with a bell-shaped graph.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/normal_dist.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/normal_dist.png">
 		<description></description>
 		</image>
 	</sidebyside>
@@ -806,11 +806,11 @@
 		<alert>Outliers</alert> are data values that are unusually far away from the rest of the data. There is often a gap between the outlier and the rest of the graph. This visual determination of outliers is often subjective and depends on the situation.
 	</p>
 	<example>
-		<sidebyside>
+		<sidebyside valign="middle" width="40%">
 			<p>
 				In the graph to the right we have a unimodal distribution that is skewed to the right. There appears to be an outlier near 20.
 			</p>
-				<image width="70%" source="images/statistics/3_2/outlier.png">
+				<image source="images/statistics/3_2/outlier.png">
 				<description>This distribution has majority of it's data on the left there is a gap in the graph with one bar further away. </description>
 				</image>
 			</sidebyside>
@@ -850,7 +850,7 @@
 	<statement>
 	<p>
 		Is the data described categorial or quantitative?
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					In a study, you ask the subjects their age in years.
@@ -881,7 +881,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Quantitative
@@ -916,7 +916,7 @@
 	<statement>
 	<p>
 		Is the data described categorical or quantitative? 
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					In a study you ask the subjects how many siblings they have.
@@ -947,7 +947,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Quantitative
@@ -1009,13 +1009,13 @@
 	<p>
 		A group of adults were asked how many children they have in their family. The bar graph to the right shows the number of adults who indicated each number of children.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph1.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/exercise_graph1.png">
 			<description>A bar graph showing the frequency for amount of children: 0 kids 5; 2 kid 3; 2 kids 4; 3 kids 2; 4 kids 0; 5 kids 1.</description>
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					How many adults had 3 children?
@@ -1036,7 +1036,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						2 had 3 children.
@@ -1062,13 +1062,13 @@
 	<p>
 		Jasmine was interested in how many days it would take a DVD order from Netflix to arrive at her door. The graph shows the data she collected.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph2.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/exercise_graph2.png">
 		<description>The x-axis is labeled shipping times (days) with 1, 2, 3, 4, and 5. The y-axis is labeld frequency. The bar for 1 goes up to 4, 2 goes up to 8, 3 goes up to 6, there's no bar at 4 and 5 goes up to 1.</description>
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					How many movies took 2 days to arrive?
@@ -1089,7 +1089,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						8 movies took 2 days to arrive.
@@ -1115,8 +1115,8 @@
 	<p>
 		This relative frequency bar graph shows the percentage of students who received each letter grade on their last English paper. The class contains 20 students. What number of students earned an A on their paper?
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph3.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/exercise_graph3.png">
 			<description>There are 4 bars labeled A, B, C, and D. The x-axis is labeled children and the y-axis is labeled frequency (%). A goes up to 25%, B goes up to 35%, C goes up to 25% and D goes up to 15%.</description>
 		</image>
 	</sidebyside>
@@ -1133,8 +1133,8 @@
 	<p>
 		This relative frequency bar graph shows the percentage of each drink type served over the weekend at a local coffee shop. There were 120 drinks served in total. How many served drinks were lattes?
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/drink_histogram.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/drink_histogram.png">
 			<description>A relative frequency bar graph shows the percentage of each type of coffee drink served over a weekend. For coffee, the relative frequency is 45%. For tea, the relative frequency is 15%. For latte, the relative frequency is 20%. For mocha, the relative frequency is 10%. For cappuccino, the relative frequency is 5%. For other, the relative frequency is 5%.</description>
 		</image>
 	</sidebyside>
@@ -1151,8 +1151,8 @@
 	<p>
 		Corey categorized his spending for this month into four categories: Rent, Food, Fun, and Other. The percentages he spent in each category are pictured here. If he spent a total of $2,600 this month, how much did he spend on rent?
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph4.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/exercise_graph4.png">
 			<description>This is a pie chart with four regions. Fun is labeled 16%, Food is labeled 24%, Rent is labeled 26% and Other is labeled 34%.</description>
 		</image>
 	</sidebyside>
@@ -1169,8 +1169,8 @@
 	<p>
 		Habiba categorized the amount of time spent each week into 5 categories: Work, Travel, Housework, Leisure, and Sleep. If there are a total of 168 hours each week, how many hours does Habiba spend travelling each week? 
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/habiba_circle_graph.png">
+	<sidebyside width="40%">
+		<image source="images/statistics/3_2/habiba_circle_graph.png">
 			<description>This is a pie chart with five regions. Work is labled 29%, Travel is labeled 7%, Housework is labeled 12%, Leisure is labeled 23% and Sleep is labeled 29%.</description>
 		</image>
 	</sidebyside>
@@ -1186,7 +1186,7 @@
 	<statement>
 	<p>
 		In a survey<fn>Gallup Poll. March 5-8, 2009. <url href="http://www.pollingreport.com/enviro.htm">http://www.pollingreport.com/enviro.htm</url></fn>, 1012 adults were asked whether they personally worried about a variety of environmental concerns. The number of people who indicated that they worried <q>a great deal</q> about some selected concerns is listed below.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Is this categorical or quantitative data?
@@ -1231,15 +1231,15 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					This data is categorical.	
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_2/solution_environmental_issues.png">
+				<sidebyside width="40%">
+					<image source="images/statistics/3_2/solution_environmental_issues.png">
 						<description>There are four spaced apart bars labeled Pollution of drinking water, Contamination of soil and water by toxic waste, Air pollution, and Global warming. The x-axis is labeled Environmental Issue and the y-axis is labeled frequncy.  Pollution of drinking water goes up to 597, Contamination of soil and drinking water goes up to 526, Air pollution goes up to 455, and Global warming goes up to 354.</description>
 					</image>
 				</sidebyside>
@@ -1258,7 +1258,7 @@
 	<statement>
 	<p>
 		In a survey, 2056 adults were asked about their views on immigration. The percent of people who responded that immigrants to the United States are making each of the following situations in the country better are listed below.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Is this categorical or quantitative data?
@@ -1311,15 +1311,15 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					This data is categorical.
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_2/solution_immigration.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_2/solution_immigration.png">
 						<description>There are six spaced apart bars labeled Food music and the arts, The economy in general, Social and moral values, Job opportunities for you and your family, Taxes, and Crime. The x-axis is labeled Situation and the y-axis is labeled Relative Frequency (%).  Food music and the arts goes up to 57%, The economy in general goes up to 43%, Social and moral values goes up to 31%, Job opportunities for you and your family goes up to 19%, Taxes goes up to 20%, and Crime goes up to 7%.</description>
 					</image>
 				</sidebyside>
@@ -1338,7 +1338,7 @@
 	<statement>
 	<p>
 		The following table is from a sample of five hundred homes in Oregon that were asked the primary source of heating in their home.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					How many of the households heat their home with firewood?
@@ -1382,7 +1382,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					40 households heat their home with firewood.
@@ -1402,7 +1402,7 @@
 	<statement>
 	<p>
 		The following table is from a sample of 50 undergraduate students at Portland State University.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					What percent of the sampled students are below senior class?		
@@ -1442,7 +1442,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					54% of the students are below senior class.
@@ -1462,7 +1462,7 @@
 	<statement>
 	<p>
 		A group of adults were asked how many cars they had in their household.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Is this categorical or quantitative data?
@@ -1520,7 +1520,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					This data is qualitative	
@@ -1549,8 +1549,8 @@
 				</sidebyside>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_2/solution_household_cars.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_2/solution_household_cars.png">
 						<description>The histogram is titled "Histogram of number of cars in household". The x-axis is labeled Number of Cars, the scale goes from 0 to 6 and jumps by 1 unit. There are three bars, one from 0-2, one from 2-4, and one from 4-6. The y-axis is labeled Frequency and the scale goes from 0 to 16 by units of two. The 0-2 bar goes to 7, the 2-4 bar goes to 14, and the 4-6 bar goes to 3.</description>
 					</image>
 				</sidebyside>
@@ -1569,7 +1569,7 @@
 	<statement>
 	<p>
 		The table below shows scores on a math test.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Is this categorical or quantitative data?
@@ -1622,7 +1622,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					This is quantitative data.
@@ -1667,8 +1667,8 @@
 				</sidebyside>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_2/solution_math_scores.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_2/solution_math_scores.png">
 						<description>The histogram is titled "Histogram of math test scores". The x-axis is labeled Scores, the scale goes from 40 to 110 and jumps by 10. There are seven bars, one from 40-50, one from 50-60, one from 60-70, one from 70-80, one from 80-90, one from 90-100, and one from 100-110. The y-axis is labeled Frequency and the scale goes from 0 to 8 by two. The 40-50 bar goes to 1, the 50-60 bar goes to 4, the 60-70 bar goes to 3, the 70-80 bar goes to 6, the 80-90 bar goes to 5, the 90-100 bar goes to 2, and the 100-110 bar goes to 3.</description>
 					</image>
 				</sidebyside>
@@ -1688,8 +1688,8 @@
 	<p>
 		This graph shows the number of adults and kids who prefer each type of soda. There were 130 adults and kids surveyed. Discuss some ways in which the graph could be improved.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph5.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/exercise_graph5.png">
 		<description>This is a 3 dimensional double bar graph. There is a bar for kids and a bar for adults. The x-axis is labeled coke, diet coke, sprite and cherry soda. The y-axis starts at 20  and goes to 45 with a scale of 5. </description>
 		</image>
 	</sidebyside>
@@ -1706,8 +1706,8 @@
 	<p>
 		A poll was taken asking people if they agreed with the positions of the 4 candidates for a county office. Does this pie chart present a good representation of this data? Explain.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph6.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/exercise_graph6.png">
 		<description>A pie chart with 4 regions: Nguyen is labeled 42%, McKee is labeled 35%, Jones is labeled 64% and Brown is labeled 52%.</description>
 	</image>
 	</sidebyside>
@@ -1724,8 +1724,8 @@
 	<p>
 		Why is this a misleading or poor graph?
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/misleading_1.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/misleading_1.png">
 			<description>This is a bar graph and is titled "Favorite Drinks". The x-axis is labeled Drink Type and includes colas, lemon flavored, root beer, teas, coffee, and other. The y-axis is labeled frequency and has no scale.</description>
 		</image>
 	</sidebyside>
@@ -1742,8 +1742,8 @@
 	<p>
 		Why is this a misleading or poor graph?
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/misleading_2.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/misleading_2.png">
 			<description>This is a bar graph and is titled "Profit During First Half of Year". The x-axis is labeled Year and includes January, February, March, April, May, and June. The y-axis is labeled Profits in $. The scale goes from 0 to 4500 by 500. The bar for each month is labeled with the following values: January 4230, February 3760, March 2670, April -1320, May 750, and June 1560. The bar for April is colored red while the remaining bars are colored blue. </description>
 		</image>
 	</sidebyside>
@@ -1759,7 +1759,7 @@
 	<statement>
 	<p>
 		Match each description to one of the graphs.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Normal distribution
@@ -1782,26 +1782,26 @@
 			</li>
 		</ol>
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph7.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/exercise_graph7.png">
 		<description>This histogram has a tall bar on the left side, then the bars decrease significantly and then increase for a peak on the right side.</description>
 		</image>
 	</sidebyside>
 
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph8.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/exercise_graph8.png">
 		<description>This histogram has shorter bars to the left, which gradually get taller. The tallest bar is on the right side of the graph.</description>
 		</image>
 	</sidebyside>
 
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph9.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/exercise_graph9.png">
 			<description>This histogram increases sharply and then decreases gradually. The peak is just to the left of the center.</description>
 		</image>
 	</sidebyside>
 
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_2/exercise_graph10.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_2/exercise_graph10.png">
 			<description>This histogram is symmetric. The highest bar is in the middle and the bars decrease in height as you move away from the middle.</description>
 		</image>
 	</sidebyside>
@@ -1817,7 +1817,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Normal distribution – The number of heads in 24 sets of 100 coin flips.
@@ -1849,38 +1849,38 @@
 		Write a sentence or two to describe each distribution in terms of modality, symmetry, skewness and outliers.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
-			<sidebyside>
-				<image width="70%" source="images/statistics/3_2/exercise_graph11.png">
+			<sidebyside width="50%">
+				<image source="images/statistics/3_2/exercise_graph11.png">
 					<description>This histogram has the tallest bars on the left side and then decreases to the right.</description>
 				</image>
 			</sidebyside>
 		</li>
 		<li>
-			<sidebyside>
-				<image width="70%" source="images/statistics/3_2/exercise_graph12.png">
+			<sidebyside width="50%">
+				<image source="images/statistics/3_2/exercise_graph12.png">
 					<description>The bars in this histogram increase gradually to the center and then decrease. The bars drop off slightly faster to the right.</description>
 				</image>
 			</sidebyside>
 		</li>
 		<li>
-			<sidebyside>
-				<image width="70%" source="images/statistics/3_2/exercise_graph13.png">
+			<sidebyside width="50%">
+				<image source="images/statistics/3_2/exercise_graph13.png">
 					<description>The bars in this histogram increase sharply to the tallest bars on the left side, then decrease and increase to the second tallest bar, then decrease again to the right.</description>
 				</image>
 			</sidebyside>
 		</li>
 		<li>
-			<sidebyside>
-				<image width="70%" source="images/statistics/3_2/exercise_graph14.png">
+			<sidebyside width="50%">
+				<image source="images/statistics/3_2/exercise_graph14.png">
 					<description>The bars on this histogram start out at a middle height and then go down and up in a U shape to the tallest bar to the right of center. Then the bars decrease and increase again for another tall bar on the right.</description>
 				</image>
 			</sidebyside>
 		</li>
 		<li>
-			<sidebyside>
-				<image width="70%" source="images/statistics/3_2/exercise_graph15.png">
+			<sidebyside width="50%">
+				<image source="images/statistics/3_2/exercise_graph15.png">
 					<description>The bars on this histogram gradually increase to the right and drop of quickly after the peak toward the right side of the graph.</description>
 				</image>
 			</sidebyside>
@@ -1890,7 +1890,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					This distribution is unimodal and right skewed. There is a possible outlier between 10 and 11.
@@ -1925,7 +1925,7 @@
 	<statement>
 	<p>
 		Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer drug is currently under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout their treatment. The following data (in months) are collected.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Create a histogram for each dataset, using the same class intervals and scales so you can compare them.
@@ -1947,15 +1947,15 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_2/solution_treatment_men.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_2/solution_treatment_men.png">
 						<description></description>
 					</image>
 				</sidebyside>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_2/solution_treatment_women.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_2/solution_treatment_women.png">
 						<description></description>
 					</image>
 				</sidebyside>

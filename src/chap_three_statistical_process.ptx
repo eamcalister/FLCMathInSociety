@@ -43,20 +43,20 @@
 	<title></title>
 	<paragraphs>
 	<title>Dr. David Blackwell and Statistics</title>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_1/db_pic.png"></image>
+		<sidebyside width="50%">
+			<image source="images/statistics/3_1/db_pic.png"></image>
 		</sidebyside>
 		<p>
-			Dr. David Blackwell (1919 – 2010) was a theoretical statistician noted for his teaching and work in game theory and probability theory. He was the first and only African-American member of the National Academy of Sciences. Blackwell’s research in mathematics and statistics have found application in many fields including economics and accounting.
+			Dr. David Blackwell (1919 – 2010) was a theoretical statistician noted for his teaching and work in game theory and probability theory. He was the first and only African-American member of the National Academy of Sciences (Williams, 2008). Blackwell’s research in mathematics and statistics have found application in many fields including economics and accounting.
 		</p>
 		<p>
-			Dr. Blackwell grew up in Centralia, Ill. In school, he was intrigued by geometry and calculus. His high school math club advisor would challenge members with problems from the School Science and Mathematics journal and submit their solutions. Blackwell was identified three times in the magazine as having solved problems and one of his solutions was published.
+			Dr. Blackwell grew up in Centralia, Ill. In school, he was intrigued by geometry and calculus. His high school math club advisor would challenge members with problems from the School Science and Mathematics journal and submit their solutions. Blackwell was identified three times in the magazine as having solved problems and one of his solutions was published (David Harold Blackwell: National Visionary Leadership Project: African American History, 2013).
 		</p>
 		<p>
-			At 16, Blackwell enrolled at the University of Illinois and majored in mathematics. After three years, he graduated and continued at the university to obtain his master’s and doctorate degrees. Dr. Blackwell was given a one-year appointment as a Rosenwald Postdoctoral Fellow at the Institute for Advanced Study at Princeton University in 1941. It was common for Institute members to be made visiting fellows of Princeton. This created a controversy because there were no Black students enrolled at the university during that time. Princeton’s president wrote a letter to the Institute protesting Blackwell’s admission, but the Institute upheld the appointment.
+			At 16, Blackwell enrolled at the University of Illinois and majored in mathematics. After three years, he graduated and continued at the university to obtain his master’s and doctorate degrees. Dr. Blackwell was given a one-year appointment as a Rosenwald Postdoctoral Fellow at the Institute for Advanced Study at Princeton University in 1941. It was common for Institute members to be made visiting fellows of Princeton. This created a controversy because there were no Black students enrolled at the university during that time. Princeton’s president wrote a letter to the Institute protesting Blackwell’s admission, but the Institute honored the appointment (David Harold Blackwell: National Visionary Leadership Project: African American History, 2013).
 		</p>
 		<p>
-			When his fellowship was drawing to a close, Dr. Blackwell applied for teaching positions at 105 Black colleges. He didn’t apply to white institutions because he assumed they would not accept him because of his race. His first teaching job was at Southern University in Baton Rouge, La.
+			When his fellowship was drawing to a close, Dr. Blackwell applied for teaching positions at 105 Black colleges. He didn’t apply to white institutions because he assumed they would not accept him because of his race (Williams, 2008). His first teaching job was at Southern University in Baton Rouge, La.
 		</p>
 		<p>
 			Dr. Blackwell’s focus later shifted to the field of statistics and is famous for the Rao-Blackwell Theorem. In 1954, he accepted a professorship at the University of California at Berkeley, where he was previously unable to teach due to racism. By 1956, he was appointed chairman of the statistics department. He continued teaching and publishing a substantial amount of research until his retirement as professor emeritus in 1989. He is the recipient of numerous awards and holds honorary degrees from 12 universities, among them Carnegie-Mellon, Yale, Howard and Harvard.
@@ -365,7 +365,7 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Consider a recent study which found that chewing gum may raise math grades in teenagers<fn>Reuters. <url href="http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning">http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning</url>. Retrieved 4/27/09</fn>. This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
@@ -423,7 +423,7 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						A pharmaceutical company tests a new medicine for treating Alzheimer’s disease by administering the drug to 50 elderly patients with recent diagnoses. The treatment here is the new drug.
@@ -459,7 +459,7 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						A drug company study about a weight loss pill might report that people lost an average of 8 pounds while using their new drug. However, in the fine print you find a statement saying that participants were encouraged to also diet and exercise. It is not clear in this case whether the weight loss is due to the pill, to diet and exercise, or a combination of both. In this case confounding has occurred.
@@ -488,7 +488,7 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						To determine if a two-day prep course would help high school students improve their scores on the SAT test, a group of students was randomly divided into two subgroups. The first group, the treatment group, was given a two-day prep course. The second group, the control group, was not given the prep course. Afterwards, both groups took the SAT test.
@@ -529,7 +529,7 @@
 	</p>
 	<example>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					In a study for a new medicine that is dispensed in a pill form, a sugar pill could be used as a placebo. 
@@ -636,7 +636,7 @@
 	<statement>
 	<p>
 		The ASPCC randomly selects 200 students from PCC Cascade campus to participate in a childcare survey in order to determine the demand for additional childcare options for PCC students.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Who is the intended population?
@@ -658,7 +658,7 @@
 	<solution>
 	<p>
 		The intended population is all PCC students.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					All PCC Students
@@ -683,7 +683,7 @@
 	<statement>
 	<p>
 		A local research firm randomly selects 1200 homes in Washington County to determine support for adding compost pick up to residents’ regular garbage service.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Who is the intended population?
@@ -704,7 +704,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					The intended population is all Washington County residences.
@@ -731,7 +731,7 @@
 		A political scientist surveys 28 of the current 106 representatives in a state's congress. Of them, 14 said they were supporting a new education bill, 12 said there were not supporting the bill, and 2 were undecided.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				Who is the population of this survey?
@@ -762,7 +762,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					The representatives in a state's congress.	
@@ -799,7 +799,7 @@
 		The city of Raleigh has 9,500 registered voters. There are two candidates for city council in an upcoming election: Brown and Feliz. The day before the election, a telephone poll of 350 randomly selected registered voters was conducted. 112 said they'd vote for Brown, 207 said they'd vote for Feliz, and 31 were undecided.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				Who is the population of this survey?
@@ -830,7 +830,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					All registered voters in the city of Raleigh.
@@ -932,7 +932,7 @@
 		Which sampling method is being described?
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					In a study, the sample is chosen by separating all cars by size and selecting 10 of each size grouping.
@@ -953,7 +953,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Stratified
@@ -980,7 +980,7 @@
 		Which sampling method is being described?
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				A sample was selected to contain 25 people aged 18-34 and 30 people aged 35-70.
@@ -1001,7 +1001,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Stratified
@@ -1028,7 +1028,7 @@
 		Identify the most relevant source of bias in each situation.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				A survey asks the following: Should the mall prohibit loud and annoying rock music in clothing stores catering to teenagers?
@@ -1064,7 +1064,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Volunteer Bias
@@ -1106,7 +1106,7 @@
 		Identify the most relevant source of bias in each situation.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				A survey asks the following: Should the death penalty be permitted if innocent people might die?
@@ -1142,7 +1142,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Loaded Questions
@@ -1184,7 +1184,7 @@
 		Identify whether each situation describes an observational study or an experiment.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				The temperature on randomly selected days throughout the year was measured.
@@ -1205,7 +1205,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Observational
@@ -1232,7 +1232,7 @@
 		Identify whether each situation describes an observational study or an experiment.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				Subjects are asked to do 20 jumping jacks, and then their heart rates are measured.
@@ -1253,7 +1253,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Observational
@@ -1280,7 +1280,7 @@
 		A team of researchers is testing the effectiveness of a new vaccine for human papilloma virus (HPV). They randomly divide the subjects into two groups. Group 1 receives new HPV vaccine, and Group 2 receives the existing HPV vaccine. The patients in the study do not know which group they are in.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				Which is the treatment group?
@@ -1306,7 +1306,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Group 1
@@ -1338,7 +1338,7 @@
 		Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer treatment is under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout this new treatment.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				What is the population of this study?
@@ -1364,7 +1364,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Cancer patients
@@ -1396,7 +1396,7 @@
 		For the clinical trials of a weight loss drug containing <em>Garcinia Cambogia</em> the subjects were randomly divided into two groups. The first received an inert pill along with an exercise and diet plan, while the second received the test medicine along with the same exercise and diet plan. The patients do not know which group they are in, nor do the fitness and nutrition advisors.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				Which is the treatment group?
@@ -1422,7 +1422,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					2nd Group
@@ -1454,7 +1454,7 @@
 		A study is conducted to determine whether people learn better with routine or crammed studying. Subjects volunteer from an introductory psychology class. At the beginning of the semester 12 subjects volunteer and are assigned to the routine studying group. At the end of the semester 12 subjects volunteer and are assigned to the crammed studying group.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				Identify the target population and the sample.	
@@ -1475,7 +1475,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					All students
@@ -1515,7 +1515,7 @@
 		A poll found that 30%, plus or minus 5% of college freshmen prefer morning classes to afternoon classes.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				What is the margin of error?
@@ -1536,7 +1536,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					0.05 or 5%
@@ -1563,7 +1563,7 @@
 		A poll found that 38% of U.S. employees are engaged at work, plus or minus 3.5%.
 	</p>
 	<p>
-	<ol label="a">
+	<ol label="a.">
 		<li>
 			<p>
 				What is the margin of error?
@@ -1584,7 +1584,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					3.5% or 0.035
@@ -1609,7 +1609,7 @@
 	<statement>
 	<p>
 		A recent study reported a confidence interval of (24%, 36%) for the percentage of U.S. adults who plan to purchase an electric car in the next 5 years.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					What is the statistic from this study?
@@ -1625,7 +1625,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<m>(24+36)/2=30</m>. Thus, 30%.
@@ -1645,7 +1645,7 @@
 	<statement>
 	<p>
 		A recent study reported a confidence interval of (44%, 52%) for the percentage of two-year college students who are food insecure.
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					What is the statistic from this study?
@@ -1661,7 +1661,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<m>(44+52)/2=48</m>. Thus, 48%.

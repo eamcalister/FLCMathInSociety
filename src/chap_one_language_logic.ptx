@@ -34,27 +34,26 @@
 </objectives>
 
 <subsection>
-	<title></title>
+<title></title>
 	<paragraphs>
 	<title>Dr. Jonathan Farley and Partially Ordered Sets</title>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_1/jf_pic.png"></image>
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_1/jf_pic.png"></image>
 		</sidebyside>
 		<p>
-			Dr. Jonathan Farley grew up near Rochester, New York and got his mathematics degree from Harvard University. He then went to Oxford University in the United Kingdom. (Later he would return as a Fulbright Distinguished Scholar.) He was awarded Oxford’s highest mathematics awards for graduate students, the Senior Mathematical Prize and the Johnson Prize, and earned his doctorate a year later. He had a two-year visit to the Mathematical Sciences Research Institute from 1995 to 1997. He is currently an Associate Professor at Morgan State University, a historically Black college.
+			Dr. Jonathan Farley grew up near Rochester, New York and got his mathematics degree from Harvard University. He then went to Oxford University in the United Kingdom. (Later he would return as a Fulbright Distinguished Scholar.) He was awarded Oxford’s highest mathematics awards for graduate students, the Senior Mathematical Prize and the Johnson Prize, and earned his doctorate a year later (MIT, 2005). He had a two-year visit to the Mathematical Sciences Research Institute from 1995 to 1997. He is currently an Associate Professor at Morgan State University, a historically Black college.
 		</p>
 		<p>
-			Dr. Farley solved decades-old unsolved problems in the theory of ordered sets. Now he uses his expertise to help with counterterrorism. Dr. Farley applies lattice theory, a branch of mathematics that deals with ordered sets, to determine the probability that a terrorist cell has been disrupted after some of its members have been captured. A group at Los Alamos National Laboratory used lattice theory for counterterrorism in the following way: A concept lattice can be drawn so that people who share many of the same characteristics are grouped together as one node, and links between nodes indicate that all the members of a subset with certain attributes must also have other attributes. Dr. Farley’s work has been recognized both nationally and internationally and used by the Ministry of National Security in Jamaica.
+			Dr. Farley solved decades-old unsolved problems in the theory of ordered sets. Now he uses his expertise to help with counterterrorism. Dr. Farley applies lattice theory, a branch of mathematics that deals with ordered sets, to determine the probability that a terrorist cell has been disrupted after some of its members have been captured (Stafford, 2006). A group at Los Alamos National Laboratory used lattice theory for counterterrorism in the following way: A concept lattice can be drawn so that people who share many of the same characteristics are grouped together as one node, and links between nodes indicate that all the members of a subset with certain attributes must also have other attributes. Dr. Farley’s work has been recognized both nationally and internationally and used by the Ministry of National Security in Jamaica (Hermoza, 2015).
 		</p>
 		<p>
-			Dr. Farley is also interested in making math more accessible and mentoring women in mathematics. He conceived of and co-organized a symposium on women and mathematics at Stanford University’s Institute for Research on Women and Gender, called <q>Proof and Prejudice.</q> He has co-founded Girls Equal Math, Equations of Peace, and an enterprise that creates math-themed fashion to encourage girls to go into math, Peren Linn Fashion.
+			Dr. Farley is also interested in making math more accessible and mentoring women in mathematics. He conceived of and co-organized a symposium on women and mathematics at Stanford University’s Institute for Research on Women and Gender, called <q>Proof and Prejudice.</q> He has co-founded Girls Equal Math, Equations of Peace, and an enterprise that creates math-themed fashion to encourage girls to go into math, Peren Linn Fashion (Brown, 2015). 
 		</p>
 		<p>
 			Dr. Farley has also been a mathematics consultant for the hit TV shows <em>Numb3rs, Medium,</em> and <em>Elementary</em>. Dr. Farley’s projects and applications of math continue to make it more interesting and relatable to a wider audience. You can read more on his <url href="http://www.latticetheory.net/">website</url>.
 		</p>
 	</paragraphs>
 </subsection>
-
 
 <subsection>
 <title>Logic</title>
@@ -369,7 +368,7 @@
 	<p>
 		Basic Truth Tables
 	</p>
-	<sidebyside>
+	<sidebyside width="40%">
 	<table>
 	<title>In the <em>not R</em> column, the truth value is the opposite of the value for <em>R</em>. For example, if <em>R</em> is true (you paid your rent) then <em>not R</em> (you did not pay your rent) is false.</title>
 		<tabular>
@@ -1077,7 +1076,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Proposition
@@ -1135,7 +1134,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Not a proposition
@@ -1183,7 +1182,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					I do not ride my bike to campus.
@@ -1221,7 +1220,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					You should not see this movie.
@@ -1284,7 +1283,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Exclusive
@@ -1322,7 +1321,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Exclusive
@@ -1344,7 +1343,7 @@
 		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					I will wear a sweater or a jacket.
@@ -1360,7 +1359,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Inclusive
@@ -1382,7 +1381,7 @@
 		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					While in California I will go to the beach or Disneyland.
@@ -1398,7 +1397,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Inclusive
@@ -1420,7 +1419,7 @@
 		Rewrite the statement in the conditional form <em>if p, then q.</em>
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Whenever it is sunny, I go swimming.
@@ -1436,7 +1435,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					If it is sunny, then I will go swimming.
@@ -1458,7 +1457,7 @@
 		Rewrite the statement in the conditional form <em>if p, then q.</em>
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					I always carry an umbrella when it rains.
@@ -1474,7 +1473,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					If it is raining, then I carry an umbrella.
@@ -1522,7 +1521,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Elvis is not alive
@@ -1580,7 +1579,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					I do not own an umbrella.
@@ -1612,7 +1611,7 @@
 		Translate each statement from English sentences into symbolic notation. Let A represent <q>I will protest</q> and let B represent <q>There is injustice.</q>
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There is injustice and I will protest.
@@ -1638,7 +1637,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					B and A
@@ -1670,7 +1669,7 @@
 		Translate each statement from English sentences into symbolic notation. Let A represent <q>It’s time to eat</q> and let B represent <q>I am hungry.</q>
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					It’s time to eat and I’m not hungry.
@@ -1696,7 +1695,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					A and not B
@@ -1728,7 +1727,7 @@
 		Determine if the entire statement is true or false.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					An apple is a vegetable, or an apple is a fruit.
@@ -1744,7 +1743,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					True
@@ -1766,7 +1765,7 @@
 		Determine if the entire statement is true or false.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Fish can walk and birds can swim.
@@ -1782,7 +1781,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					False

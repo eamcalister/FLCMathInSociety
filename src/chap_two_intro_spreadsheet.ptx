@@ -28,26 +28,23 @@
 	<title></title>
 	<paragraphs>
 	<title>Dr. Muhammad Yunus and Microlending</title>
-		<sidebyside>
-			<image width="70%" source="images/financial_math/2_1/my_pic.png"></image>
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_1/my_pic.png"></image>
 		</sidebyside>
 		<p>
-			Muhammad Yunus was born in 1940 in the village of Bathua to a Bengali Muslim family. He went to primary school in the city of Chittagong, Bangladesh and studied at Chittagong Collegiate School. In 1960 and 1961, Dr. Yunus completed his B.A. and M.A. in economics at Dhaka University. In 1965, he received a Fulbright scholarship to study in the United States and earned his Ph.D. In economics from Vanderbilt University. Then he taught economics at Middle Tennessee State University.
+			Muhammad Yunus was born in 1940 in the village of Bathua to a Bengali Muslim family. He went to primary school in the city of Chittagong, Bangladesh and studied at Chittagong Collegiate School. In 1960 and 1961, Dr. Yunus completed his B.A. and M.A. in economics at Dhaka University. In 1965, he received a Fulbright scholarship to study in the United States and earned his Ph.D. In economics from Vanderbilt University. Then he taught economics at Middle Tennessee State University (Wikipedia Contributors, 2019).
 		</p>
 		<p>
-			After returning to Bangladesh he was appointed to the government’s Planning Commission and then led the Chittagong Economics Department. In 1974, during a visit to the village of Jobra, Dr. Yunus met a woman who wove bamboo stools and was struggling to make ends meet. He loaned a total of US$27 of his own money to her and several women in the village. They repaid it in full and on time and were able to make a profit for themselves. Dr. Yunus discovered that making very small loans could make a really big difference and empower people in poverty. He saw credit as a human right and invented the concept of microlending. Traditional banks did not want to risk making tiny loans to the poor and local lenders had excessive or abusive interest rates.
+			After returning to Bangladesh he was appointed to the government’s Planning Commission and then led the Chittagong Economics Department. In 1974, during a visit to the village of Jobra, Dr. Yunus met a woman who wove bamboo stools and was struggling to make ends meet. He loaned a total of US$27 of his own money to her and several women in the village. They repaid it in full and on time and were able to make a profit for themselves (Giridharas &amp; Bradsher, 2006). Dr. Yunus discovered that making very small loans could make a really big difference and empower people in poverty. He saw credit as a human right and invented the concept of microlending (Renton, 2008). Traditional banks did not want to risk making tiny loans to the poor and local lenders had excessive or abusive interest rates.
 		</p>
 		<p>
 			In December 1976, Yunus secured a loan from Janata Bank for a larger pilot program to lend money to villagers in Jobra and by 1983, the project became a full-fledged bank called Grameen Bank (<q>Village Bank</q>). In the late 1980s, Grameen started to diversify into fisheries, irrigation and other equity projects. From 1997 to 2007, the Village Phone project had brought cell phone ownership to 260,000 rural people in over 50,000 villages.
 		</p>
 		<p>
-			More than 94% of Grameen loans have gone to women, who are disproportionately affected by poverty.
+			More than 94% of Grameen loans have gone to women, who are disproportionately affected by poverty. The model developed by Dr. Yunus inspired similar efforts in about 100 developing countries and in the United States, however, some businesses started taking advantage of people.
 		</p>
 		<p>
-			The model developed by Dr. Yunus inspired similar efforts in about 100 developing countries and in the United States, however, some businesses started taking advantage of people.
-		</p>
-		<p>
-			Dr. Yunus was awarded the Nobel Peace Prize in 2006, along with Grameen Bank, for their efforts in social business models and alleviating poverty. By July 2007, Grameen had issued US$6.38 billion to 7.4 million borrowers. To help ensure repayment, the bank uses a system of <q>solidarity groups</q> which are five women who apply together and act as co-guarantors and support each other.
+			Dr. Yunus was awarded the Nobel Peace Prize in 2006, along with Grameen Bank, for their efforts in social business models and alleviating poverty. By July 2007, Grameen had issued US$6.38 billion to 7.4 million borrowers. To help ensure repayment, the bank uses a system of <w>solidarity groups</w> which are five women who apply together and act as co-guarantors and support each other (Wikipedia Contributors, 2019).
 		</p>
 		<p>
 			Dr. Yunus and Grameen bank faced some accusations in 2011, which may have been politically motivated. He was cleared of any misconduct. Dr. Yunus currently chairs <url href="https://www.muhammadyunus.org/">The Yunus Centre</url> in Dhaka, Bangladesh, a think tank for ideas related to social entrepreneurism, poverty alleviation and sustainability.
@@ -62,16 +59,16 @@
 	<p>
 		The rectangles within a spreadsheet are called <alert>cells</alert>, and they can be referenced by their column letter and row number. The first cell in the upper left side highlighted below is A1. If we wanted to talk about the third column and the fifth row, that cell would be C5.
 	</p>
-		<sidebyside>
-		<image width="70%" source="images/financial_math/2_1/intro1.png">
+		<sidebyside width="50%">
+		<image source="images/financial_math/2_1/intro1.png">
 		<description>A blank spreadsheet with the cell A1 highlighted</description>
 		</image>
 		</sidebyside>
 	<p>
 		A spreadsheet file can contain many sheets. Look along the bottom to see if there is more than one sheet and make sure you are on the right sheet.
 	</p>
-		<sidebyside>
-		<image width="70%" source="images/financial_math/2_1/intro2.png">
+		<sidebyside width="50%">
+		<image source="images/financial_math/2_1/intro2.png">
 		<description>A blank spreadsheet showing the sheet tabs at the bottom of the screen.</description>
 		</image>
 		</sidebyside>
@@ -114,7 +111,7 @@
 					</li>
 				</ol>
 			</p>
-			<image width="70%" source="images/financial_math/2_1/basic_calc.png">
+			<image width="40%" source="images/financial_math/2_1/basic_calc.png">
 			<description>A spreadsheet showing the examples entered in the spreadsheet. cell A1 has =3+4, cell A2 has =100-76, cell A3 has =4*18, cell A4 has =0.05/12 and cell A5 has =5^25.</description>
 			</image>
 		</sidebyside>
@@ -154,8 +151,8 @@
 			Let’s make a spreadsheet for the percentage tip example above. We calculated an 18% tip on a bill of $35.75. We might want to tip 18% in general, but our bill will change values. We labeled the first column Bill Amount and the second column Tip. The amount of $35.75 is entered in cell A2. Then when we write our formula in B2, we want to calculate 18% of A2. That way if the number in A2 changes, our tip will automatically update.
 		</p>
 
-	<sidebyside>
-		<image width="70%" source="images/financial_math/2_1/cell_ref1.png">
+	<sidebyside width="50%">
+		<image source="images/financial_math/2_1/cell_ref1.png">
 		<description>A spreadsheet showing a formula with a cell reference, =0.18*A2</description>
 		</image>
 	</sidebyside>
@@ -163,8 +160,8 @@
 		The formula <cd>=0.18*A2</cd> is entered in B2 which gives a result of $6.44 when you hit enter.
 	</p>
 
-	<sidebyside>
-		<image width="70%" source="images/financial_math/2_1/cell_ref2.png">
+	<sidebyside width="50%">
+		<image source="images/financial_math/2_1/cell_ref2.png">
 		<description>The same spreadsheet showing when the input in A1 is changed to $45, the answer to the formula changes to $8.10.</description>
 		</image>
 	</sidebyside>
@@ -186,13 +183,13 @@
 	<p>
 		The <alert>fill-down feature</alert> is very useful for making tables. This allows us to copy values or formulas to save time. Let’s make a tipping reference table with values from $10, to$100, in increments of $10. First, we will enter two values in column A to establish the pattern. Then select those two cells and you will see a small square in the lower right corner. Drag that square down until you get to $100.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/financial_math/2_1/drag_down1.png">
+	<sidebyside width="50%">
+		<image source="images/financial_math/2_1/drag_down1.png">
 		<description>A spreadsheet showing the fill-down feature; cells A2 and  A3 are highligted for the pattern and there is a down arrow by the small square to drag down.</description>
 		</image>
 	</sidebyside>
-	<sidebyside>
-		<image width="70%" source="images/financial_math/2_1/drag_down2.png">
+	<sidebyside width="50%">
+		<image source="images/financial_math/2_1/drag_down2.png">
 		<description>This spreadsheet shows the completed bill amount column from $10 to $100 and shows the fill-down feature for the formula; cell B2 has the equation =0.18*A2 and there is a down arrow by the small square to drag down.</description>
 		</image>
 	</sidebyside>
@@ -203,16 +200,16 @@
 	<p>
 		Here are the formulas with the row numbers updated:
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/financial_math/2_1/drag_down3.png">
+	<sidebyside width="50%">
+		<image source="images/financial_math/2_1/drag_down3.png">
 		<description>This spreadsheet shows the result of filling down the formula. The cell reference changes for each new row.</description>
 		</image>
 	</sidebyside>
 	<p>
 		Here is our completed table with the calculations:
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/financial_math/2_1/drag_down4.png">
+	<sidebyside width="50%">
+		<image source="images/financial_math/2_1/drag_down4.png">
 		<description>This spreadsheet shows the calculated values for tips from $10-100.</description>
 		</image>
 	</sidebyside>
@@ -389,8 +386,8 @@
 		<p>
 			Note, the entry in cell B1 is <c>=15%*A1</c>. (Columns A and B are given dollar formatting)
 		</p>
-		<sidebyside>
-			<image width="60%" source="images/financial_math/2_1/solution_table_1.png">
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_1/solution_table_1.png">
 			<description>A portion of a spreadsheet is shown which includes cells A1 through B25, and with a title heading of Table 1. Cell A1 shows $5.00, cell A2 shows $10.00, and so on.  The pattern shows that each additional cell under A1 is equal to the cell above it, plus $5.00.  This pattern continues down to cell A25, which shows $125.00. Cell B1 shows $0.78, which is 15% of the $5.00 amount shown in cell A1. Cell B2 shows $1.55, which is 15% of the $10.00 amount shown in cell A2. This pattern continues until we reach cell B25, which shows $19.38, and which is 15% of the $125.00 amount shown in cell A25.</description>
 			</image>
 		</sidebyside>
@@ -403,7 +400,7 @@
 		Imagine a certain savings account started out with a balance of $5250.00 on day-one, and today has a current balance of $5780.23
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Exactly how much more money does the account have today, compared with day-one?
@@ -429,7 +426,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<c>=5780.23-5250</c> which gives 530.23 dollars
@@ -461,7 +458,7 @@
 		Imagine that at the start of a certain month, you will make an opening deposit of $500 into a savings account, and you will then leave the account alone (meaning you will make no further deposits or withdrawals). Also, for this account: Every month after the opening deposit, the amount in the account will grow to be 101% of its previous month’s balance.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Use a spreadsheet to enter 500 in cell A1. Using a formula and a cell-reference: Compute in cell A2, the amount in the account after one month has passed. Then using the fill down feature, continue the pattern for another eleven full months (you should end at cell A13). Format all the cells to show dollar signs. What is the amount in the account after one year?
@@ -492,7 +489,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					See the table at the bottom for part a and part b.	
@@ -526,8 +523,8 @@
 			</li>
 		</ol>
 		</p>
-		<sidebyside>
-			<image width="60%" source="images/financial_math/2_1/solution_table_2.png">
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_1/solution_table_2.png">
 			<description>A portion of a spreadsheet is shown covering cells A1 through A25, and with a title heading of Table 2. Cell A1 shows $500.00. Cell A2 shows $505.00, which is 101% of cell A1. Cell A3 shows $510.05, which is 101% of cell A2. This pattern continues until we reach cell A25, which shows $634.87, and which is 101% of cell A24.</description>
 			</image>
 		</sidebyside>
@@ -540,7 +537,7 @@
 		Imagine that at the start of a certain year, you will deposit $1000.00 into a savings account, and then you will leave the account alone. Each year after the opening deposit, the amount in the account will grow to be 103% of its previous year’s balance.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					After two years, the account balance will have experienced two growth amounts of 103%. You can find this account balance amount here, with the spreadsheet computation <c>= 1000 * (103%) * (103%)</c>. Perform this computation in a spreadsheet and write the balance that you find.
@@ -571,7 +568,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<c>=1000*103%*103%</c> which gives 1060.90 dollars.
@@ -605,8 +602,8 @@
 			</li>
 		</ol>
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/financial_math/2_1/solution_table_3.png">
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_1/solution_table_3.png">
 			<description>A portion of a spreadsheet is shown, which includes cells A1 through E32, and with a title heading of Table 3. Cell A1 shows a column title of Year, and cells A2 through A32 contain values of 0 through 30, respectively. Cells D1 through D32 are a copy of cells A1 through A32. Cell B1 shows a column title of Balance. Cell B2 shows $1,000.00, which corresponds to Year 0 displaying in adjacent cell A1. Cell B3 shows $1,030.00, which is 103% of the $1,000 shown in cell B2. Cell B4 shows $1,060.90, which is 103% of the $1,030.00 shown in cell B3. This pattern continues until we get to cell B32, which shows $2,427.26, and which is 103% of the $2,356.57 amount shown in cell B31. Cell E1 shows a column title of Balance. Cell B2 shows $5,000.00, which corresponds to Year 0 displaying in adjacent cell D1. Cell E3 shows $5,150.00, which is 103% of the $5,000 shown in cell E2. Cell E4 shows $5,304.50, which is 103% of the $5,150.00 shown in cell E3. This pattern continues until we get to cell E32, which shows $12,136.31, and which is 103% of the $11,782.83 amount shown in cell E31.</description>
 			</image>
 		</sidebyside>
