@@ -5,17 +5,18 @@
 </docinfo>
 
 <book>
-<title>Math in Society: Mathematics for liberal arts majors</title>
+<title>Math in Society</title>
+<subtitle>Mathematics for liberal arts majors</subtitle>
 
 <xi:include href="./frontmatter.ptx" />
- 
+
 <xi:include href="./language_logic_rules.ptx" />
 <xi:include href="./financial_math.ptx" />
 <xi:include href="./statistics.ptx" />
 <xi:include href="./probability.ptx" />
 <xi:include href="./democracy.ptx" />
 
-<!-- <backmatter xml:id="backmatter">  
-</backmatter> -->
+
+<xi:include href="./backmatter.ptx" />
 </book>
 </pretext>

@@ -171,17 +171,17 @@
 			</li>
 			<li>
 				<p>
-					<xref ref="chap_four_theoretical_probability.ptx"></xref> and <xref ref="chap_four_expected_value.ptx"></xref> are a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Probability</url>, by David Lippman, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
+					<xref ref="chap_four_theoretical_probability"></xref> and <xref ref="chap_four_expected_value"></xref> are a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Probability</url>, by David Lippman, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
 				</p>
 			</li>
 			<li>
 				<p>
-					<xref ref="chap_five_apportionment.ptx"></xref> is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Apportionment</url> and <xref ref="chap_five_voting_methods.ptx"></xref> is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Voting Theory</url>, by David Lippman, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
+					<xref ref="chap_five_apportionment"></xref> is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Apportionment</url> and <xref ref="chap_five_voting_methods"></xref> is a derivative of <url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Voting Theory</url>, by David Lippman, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.
 				</p>
 			</li>
 			<li>
 				<p>
-					<xref ref="chap_two_intro_spreadsheet"></xref>, <xref ref="chap_two_income_taxes.ptx"></xref>, 2.7 Credit Cards (online only), <xref ref="chap_four_contingency_tables.ptx"></xref>, 3.6 Normal Distribution (online only), <xref ref="chap_five_popular_vote.ptx"></xref> <xref ref="chap_five_gerrymandering.ptx"></xref>, and 5.6 Federal Deficit and National Debt (online only) are original to the Portland Community College Math Department.
+					<xref ref="chap_two_intro_spreadsheet"></xref>, <xref ref="chap_two_income_taxes"></xref>, Section 2.7 Credit Cards (online only), <xref ref="chap_four_contingency_tables"></xref>, Section 3.6 Normal Distribution (online only), <xref ref="chap_five_popular_vote"></xref>, <xref ref="chap_five_gerrymandering"></xref> and Section 5.6 Federal Deficit and National Debt (online only) are original to the Portland Community College Math Department.
 					<!-- TODO: add back xrefs for web version 
 					<xref ref="chap_two_credit_cards"></xref>,
 					<xref ref="chap_five_budget_deficit_debt.ptx"></xref>-->

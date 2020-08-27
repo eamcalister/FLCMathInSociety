@@ -942,7 +942,7 @@
 			In each fictional country in problems 7-10, use the rules of the U.S. government to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						The total number of electors in the state.
@@ -1004,7 +1004,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1106,7 +1106,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1215,7 +1215,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">

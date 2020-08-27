@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
 <!-- Thin layer on MathBook XML -->
-<xsl:import href="../../../mathbook/xsl/pretext-latex.xsl" />
+<xsl:import href="../../mathbook/xsl/pretext-latex.xsl" />
 
 <!-- Intend output for rendering by xelatex -->
 <xsl:output method="text" />
@@ -21,7 +21,8 @@
 
 <!-- geometry of the page -->
 <!-- the extra bit is for thumb indexing to bleed; the cut size is still 8x11 -->
-<xsl:param name="latex.geometry" select="'papersize={8.5in,11in},total={6.5in,8in}'"/>
+<!-- TODO: tried changing length from 8 in to 9 in -->
+<xsl:param name="latex.geometry" select="'papersize={8.5in,11in},total={6.5in,9in}'"/>
 
 <!-- hints, answers, solutions -->
 <xsl:param name="exercise.inline.hint" select="'no'"/>

@@ -45,13 +45,11 @@
 
 <subsection>
 <title>Forming State Legislative Districts</title>
+	<sidebyside valign="middle" widths="30% 64%" margins="0%">
 	<p>
-		As we saw in <xref ref="chap_five_apportionment"></xref> the U.S. House of Representatives has 435 seats that are re-apportioned among the states every 10 years after the census. For example, in Oregon we currently have 5 legislative districts as shown in this map<fn><url href="https://web.archive.org/web/20140223235920/http://nationalatlas.gov/printable/images/preview/congdist/pagecgd113_or.gif" target="_blank">"Oregon congressional districts"</url> by <url>National Atlas of the United States of America</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url>
-		</fn>. After the 2020 census is finished, that number could change. It has been projected that Oregon may get a 6th representative due to population growth from 2010 to 2020.
+		As we saw in <xref ref="chap_five_apportionment"></xref> the U.S. House of Representatives has 435 seats that are re-apportioned among the states every 10 years after the census. For example, in Oregon we currently have 5 legislative districts as shown in this map<fn><url href="https://web.archive.org/web/20140223235920/http://nationalatlas.gov/printable/images/preview/congdist/pagecgd113_or.gif" target="_blank">"Oregon congressional districts"</url> by <url>National Atlas of the United States of America</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>. After the 2020 census is finished, that number could change. It has been projected that Oregon may get a 6th representative due to population growth from 2010 to 2020.
 	</p>
-	<sidebyside>
-		<!-- TODO: Please replace this image with the new state of oregon map -->
-		<image width="45%" source="images/democracy/5_4/district_pic.jpg"></image>
+		<image source="images/democracy/5_4/district_pic.png"></image>
 	</sidebyside>
 	<p>
 		After a reapportionment, it is up to each state government to divide their population into equal districts which each elect their representative to the U.S. House. Each representative should represent approximately the same number of people, but their areas may not be the same. Due to different population densities in urban and rural areas, you can see in the map of Oregon that the districts are not geographically equal.
@@ -59,13 +57,25 @@
 	<p>
 		Currently in most states, the state legislature draws the district boundaries. That means the party in power is in charge of drawing the new districts and they could redraw the lines to help their own party. This is called gerrymandering. <alert>Gerrymandering</alert>, pronounced, <q>Jerrymandering,</q> is when districts are drawn to the political advantage of those drawing the boundaries.
 	</p>
-	<sidebyside>
+	<sidebyside valign="middle" widths="47% 47%" Margins="0%">
 		<p>
-			Gerrymandering got its name from Elbridge Gerry, the governor of Massachusetts who signed a bill in 1812 that created the unusual district pictured here that looked like a salamander<fn><url href="https://commons.wikimedia.org/w/index.php?curid=6030613" target="_blank">"The Gerry-Mander"</url> by <url>Elkanah Tisdale (1771-1835)</url>, <url>Originally published in the Boston Centinel, 1812</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>. It gave then Democrat-Republicans a bigger state Senate majority, even though the Federalist party got more votes statewide. Some other well-known gerrymanders are Pennsylvania’s <q>Goofy Kicking Donald Duck</q><fn><url href="https://commons.wikimedia.org/w/index.php?title=File:Pennsylvania_US_Congressional_District_7_(since_2013).tif&amp;oldid=223423398" target="_blank">"Pennsylvania US Congressional District 7 (since 2013).tif"</url> by <url>Wikimedia Commons contributors</url>, <url href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons, the free media repository.</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn> and Ohio's <q>Lake Erie Monster</q><fn><url href="https://en.wikipedia.org/wiki/Ohio%27s_9th_congressional_district#/media/File:Ohio_US_Congressional_District_9_(since_2013).tif" target="_blank">"Ohio US Congressional District 9 (since 2013).tif"</url> by <url>Wikimedia Commons contributors</url>, <url href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons, the free media repository.</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn> shown below.
+			Gerrymandering got its name from Elbridge Gerry, the governor of Massachusetts who signed a bill in 1812 that created the unusual district pictured here that looked like a salamander<fn><url href="https://commons.wikimedia.org/w/index.php?curid=6030613" target="_blank">"The Gerry-Mander"</url> by <url>Elkanah Tisdale (1771-1835)</url>, <url>Originally published in the Boston Centinel, 1812</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>. It gave then Democrat-Republicans a bigger state Senate majority, even though the Federalist party got more votes statewide.
 		</p>
-		<image width="50%" source="images/democracy/5_4/district_pic2.jpg"></image>
+		<image source="images/democracy/5_4/district_pic2.jpg"></image>
 	</sidebyside>
-	<!-- TODO: Add 2 images in a sidebyside: Goofy kicking donald duck and lake erie moster -->
+	<sidebyside valign="middle" widths="30% 64%" Margins="0%">
+		<p>
+			Here are some current well-known gerrymanders. This one is called Pennsylvania’s <q>Goofy Kicking Donald Duck</q><fn><url href="https://commons.wikimedia.org/w/index.php?title=File:Pennsylvania_US_Congressional_District_7_(since_2013).tif&amp;oldid=223423398" target="_blank">"Pennsylvania US Congressional District 7 (since 2013).tif"</url> by <url>Wikimedia Commons contributors</url>, <url href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons, the free media repository.</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>
+		</p>
+		<image width="60%" source="images/democracy/5_4/pennsylvania.png"></image>
+	</sidebyside>
+	<sidebyside valign="middle" widths="30% 64%" Margins="0%">
+		<p>
+			This one is called Ohio's <q>Lake Erie Monster</q><fn><url href="https://en.wikipedia.org/wiki/Ohio%27s_9th_congressional_district#/media/File:Ohio_US_Congressional_District_9_(since_2013).tif" target="_blank">"Ohio US Congressional District 9 (since 2013).tif"</url> by <url>Wikimedia Commons contributors</url>, <url href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons, the free media repository.</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>.
+		</p>
+		<image width="60%" source="images/democracy/5_4/ohio.png"></image>
+	</sidebyside>
+	
 	<p>
 		Gerrymandering has occurred by both parties. Gerrymandering by race is illegal due to the Voting Rights Act of 1965, so people of color cannot be spread out to dilute their vote. Groups with similar interests may want to be put together to form voting blocks, but that is controversial. Gerrymandering by political party has been the subject of many lawsuits and Supreme Court cases. One of the challenges is how to measure gerrymandering to prove that it has occurred. The measurement must be easy to explain and understand in court.
 	</p>
@@ -133,13 +143,13 @@
 	<p>
 		There are two main ways to gerrymander a map, by packing and cracking. <alert>Packing</alert> is when all the people of one political party are packed into a district. Since a party only needs a plurality or majority to win, all those extra votes would be surplus. <alert>Cracking</alert> dilutes a party’s votes by spreading out the voters so they can’t win as many districts.
 	</p>
-	<sidebyside widths="47% 47%" margins="0%">
+	<sidebyside valign="middle" widths="59% 35%" margins="0%">
 		<p>
 			Here is a small sample map to see how this works. In this fictitious state, we have 35 people and 5 districts. So we will need 7 people in each district. You can see how they are spread out in the map, with Republicans denoted by R’s and Democrats marked with D’s. To keep it simple, we are only looking at two parties and they will need a majority to win an election. We are also assuming that all voters will vote and that they vote according to their party which may not always be the case.
 		</p>
 		<figure>
 		<caption>A simplified state map</caption>
-			<image width="45%" source="images/democracy/5_4/simplified_state_map1.png"></image>
+			<image valign="middle" width="45%" source="images/democracy/5_4/simplified_state_map1.png"></image>
 		</figure>
 	</sidebyside>
 	<p>
@@ -147,18 +157,20 @@
 	</p>
 	<example>
 		<statement>
-		<sidebyside widths="47% 47%" margins="0%">
+		<sidebyside valign="middle" widths="59% 35%" margins="0%">
+			<stack>
 			<p>
 				We will first try to advantage the Democrats. There are 7 people in each district, so a party needs 4 votes to win the election. We will draw the lines to put 4 Democrats in each district along with 3 Republicans to spread them out by cracking. Here is our map.
 			</p>
+			<p>
+				We were able to get 4 Democrats and 3 Republicans in districts 1, 2, 3 and 5. The Republicans will win in district 4 because it will be 5-2, but if the 5th Republican had been in another district, the map would have been more fair. As it is drawn, the population is 17:18 but the seats are 1:4, which does not seem fair.
+			</p>
+			</stack>
 			<figure>
 			<caption>The map gerrymandered in favor of Democrats</caption>
-				<image width="45%" source="images/democracy/5_4/simplified_state_map2.png"></image>
+				<image source="images/democracy/5_4/simplified_state_map2.png"></image>
 			</figure>
 		</sidebyside>
-		<p>
-			We were able to get 4 Democrats and 3 Republicans in districts 1, 2, 3 and 5. The Republicans will win in district 4 because it will be 5-2, but if the 5th Republican had been in another district, the map would have been more fair. As it is drawn, the population is 17:18 but the seats are 1:4, which does not seem fair.
-		</p>
 		</statement>
 	</example>
 </subsection>
@@ -315,6 +327,7 @@
 	</p>
 	<example>
 		<statement>
+			<sidebyside valign="middle" widths="59% 35%" margins="0%">
 		<p>
 			For another example, we will take the same map and gerrymander it for the Republicans. This time we will pack as many Democrats as we can into the middle, and then use cracking to form the rest of the districts, trying to get 4 R’s in as many as we can. Here is the map.
 		</p>
@@ -322,6 +335,7 @@
 		<caption>The map gerrymandered in favor of Republicans</caption>
 			<image width="45%" source="images/democracy/5_4/simplified_state_map3.png"></image>
 		</figure>
+	</sidebyside>
 		<p>
 			Now, let's fill in our table:
 		</p>
@@ -416,16 +430,22 @@
 
 	<example>
 		<statement>
-		<p>
-			Now we will try to create a fair map and see what the efficiency gap is. There are an odd number of districts and the population is 17:18 so it might be challenging to make it fair.
-		</p>
+		
+		<sidebyside valign="middle" widths="59% 35%" margins="0%">
+		<stack>
+			<p>
+			Now we will try to create a fair map and see what the efficiency gap is. There is an odd number of districts and the population is 17:18 so it might be challenging to make it fair.
+			</p>
+			<p>
+			With this map, we tried to have two districts that favored Democrats, two that favored Republicans, and one that might go either way. Since there is one extra Democrat, the population is 17:18 and the seats are 2:3
+			</p>
+		</stack>
 		<figure>
 		<caption>A more fair map</caption>
 			<image width="45%" source="images/democracy/5_4/simplified_state_map4.png"></image>
 		</figure>
-		<p>
-			With this map, we tried to have two districts that favored Democrats, two that favored Republicans, and one that might go either way. Since there is one extra Democrat, the population is 17:18 and the seats are 2:3
-		</p>
+		
+		</sidebyside>
 		<p>
 			Let’s see how the efficiency gap comes out in this situation:
 		</p>
@@ -656,7 +676,7 @@
 <exercisegroup>
 	<introduction>
 		<p>
-			For each map in problems 11-20,
+			For each map in problems 11-20, complete the following:
 		</p>
 		<p>
 			<ol label="a.">
@@ -894,7 +914,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						A majority is 3 votes.

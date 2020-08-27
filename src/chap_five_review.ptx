@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="chap_five_review">
+<title>Chapter 5 Review Questions</title>
+
+<exercises>
+<title>Chapter 5 Review Questions</title>
+
+
+<exercisegroup>
+	<introduction>
+		<p>
+			In exercises 1-4, determine the apportionment using
+			<ol label="a.">
+				<li>
+					<p>
+						Hamilton’s Method
+					</p>
+				</li>
+				<li>
+					<p>
+						Jefferson’s Method
+					</p>
+				</li>
+				<li>
+					<p>
+						Webster’s Method
+					</p>
+				</li>
+				<li>
+					<p>
+						Huntington-Hill Method
+					</p>
+				</li>
+			</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		A small country consists of four states, whose populations are listed below. If the legislature has 78 seats, apportion the seats.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A: 96,400</cell>
+			<cell>B: 162,700</cell>
+			<cell>C: 119,900</cell>
+			<cell>D: 384,900</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						A: 10 seats, B: 17 seats, C: 12 seats, D: 39 seats
+
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 10 seats, B: 16 seats, C: 12 seats, D: 40 seats, Modified divisor 9,600
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 10 seats, B: 17 seats, C: 12 seats, D: 39 seats, Divisor 9,793.6
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 10 seats, B: 17 seats, C: 12 seats, D: 39 seats, Divisor 9,793.6
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Reapportion the previous problem with 90 seats.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						A: 12 seats, B: 19 seats, C: 14 seats, D: 45 seats
+
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 11 seats, B: 19 seats, C: 14 seats, D: 46 seats, Modified divisor 8,300
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 11 seats, B: 19 seats, C: 14 seats, D: 46 seats, Modified divisor 8,400
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 11 seats, B: 19 seats, C: 14 seats, D: 46 seats, Modified divisor 8,400
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A small country consists of five states, whose populations are listed below. If the legislature as 100 seats, apportion the seats.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>A: 584,000</cell>
+			<cell>B: 226,600</cell>
+			<cell>C: 88,500</cell>
+			<cell>D: 257,300</cell>
+			<cell>E: 104,300</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						A: 46 seats, B: 18 seats, C: 7 seats, D: 21 seats, E: 8 seats
+
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 47 seats, B: 18 seats, C: 7 seats, D: 20 seats, E: 8 seats, Modified divisor 12,400
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 47 seats, B: 18 seats, C: 7 seats, D: 20 seats, E: 8 seats, Modified divisor 12,555
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 47 seats, B: 18 seats, C: 7 seats, D: 20 seats, E: 8 seats, Modified divisor 12,555
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Reapportion the previous problem with 125 seats.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						A: 58 seats, B: 22 seats, C: 9 seats, D: 26 seats, E: 10 seats
+
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 59 seats, B: 22 seats, C: 8 seats, D: 26 seats, E: 10 seats, Modified divisor 9,890
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 58 seats, B: 22 seats, C: 9 seats, D: 26 seats, E: 10 seats, Divisor 10,085.6
+					</p>
+				</li>
+				<li>
+					<p>
+						A: 58 seats, B: 22 seats, C: 9 seats, D: 26 seats, E: 10 seats, Divisor 10,085.6
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			In exercises 5-8, complete the following:
+			<ol label="a.">
+			<li>
+				<p>
+					How many voters voted in this election?
+				</p>
+			</li>
+			<li>
+				<p>
+					How many votes are needed for a majority?
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the winner under the plurality method.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the winner under the Instant Runoff Voting method.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the winner under the Borda Count Method.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the winner under Copeland’s method.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</introduction>
+
+
+<exercise>
+	<statement>
+	<p>
+		A Portland Community College Board member race has four candidates: E, F, G, H. The votes are:
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Number of voters</cell>
+			<cell>12</cell>
+			<cell>16</cell>
+			<cell>17</cell>
+			<cell>15</cell>
+			<cell>34</cell>
+			<cell>13</cell>
+			<cell>19</cell>
+			<cell>8</cell>
+		</row>
+		<row>
+			<cell>1st choice</cell>
+			<cell>G</cell>
+			<cell>H</cell>
+			<cell>E</cell>
+			<cell>E</cell>
+			<cell>F</cell>
+			<cell>G</cell>
+			<cell>H</cell>
+			<cell>G</cell>
+		</row>
+		<row>
+			<cell>2nd choice</cell>
+			<cell>E</cell>
+			<cell>F</cell>
+			<cell>F</cell>
+			<cell>H</cell>
+			<cell>G</cell>
+			<cell>H</cell>
+			<cell>G</cell>
+			<cell>F</cell>
+		</row>
+		<row>
+			<cell>3rd choice</cell>
+			<cell>F</cell>
+			<cell>G</cell>
+			<cell>G</cell>
+			<cell>F</cell>
+			<cell>H</cell>
+			<cell>E</cell>
+			<cell>F</cell>
+			<cell>E</cell>
+		</row>
+		<row>
+			<cell>4th choice</cell>
+			<cell>H</cell>
+			<cell>E</cell>
+			<cell>H</cell>
+			<cell>G</cell>
+			<cell>E</cell>
+			<cell>F</cell>
+			<cell>E</cell>
+			<cell>H</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a.">
+			<li>
+				<p>
+					There are 134 voters.
+				</p>
+			</li>
+			<li>
+				<p>
+					A majority is 68 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					H wins the plurality method with 35 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					F wins the Instant Runoff Method with 71 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					The points are: E 275, F 364, G 372 and H 329. G wins in the Borda count method.
+				</p>
+			</li>
+			<li>
+				<p>
+					The points are: F 3, G 2, H 1. F wins with Copeland’s method.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A Forest Grove School Board position has four candidates: I, J, K, L. The votes are:
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Number of voters</cell>
+			<cell>15</cell>
+			<cell>13</cell>
+			<cell>25</cell>
+			<cell>16</cell>
+			<cell>18</cell>
+			<cell>10</cell>
+			<cell>7</cell>
+			<cell>11</cell>
+			<cell>2</cell>
+		</row>
+		<row>
+			<cell>1st choice</cell>
+			<cell>K</cell>
+			<cell>I</cell>
+			<cell>J</cell>
+			<cell>L</cell>
+			<cell>K</cell>
+			<cell>L</cell>
+			<cell>I</cell>
+			<cell>I</cell>
+			<cell>L</cell>
+		</row>
+		<row>
+			<cell>2nd choice</cell>
+			<cell>J</cell>
+			<cell>L</cell>
+			<cell>L</cell>
+			<cell>I</cell>
+			<cell>I</cell>
+			<cell>J</cell>
+			<cell>K</cell>
+			<cell>J</cell>
+			<cell>K</cell>
+		</row>
+		<row>
+			<cell>3rd choice</cell>
+			<cell>L</cell>
+			<cell>J</cell>
+			<cell>I</cell>
+			<cell>K</cell>
+			<cell>J</cell>
+			<cell>I</cell>
+			<cell>J</cell>
+			<cell>K</cell>
+			<cell>J</cell>
+		</row>
+		<row>
+			<cell>4th choice</cell>
+			<cell>I</cell>
+			<cell>K</cell>
+			<cell>K</cell>
+			<cell>J</cell>
+			<cell>L</cell>
+			<cell>K</cell>
+			<cell>L</cell>
+			<cell>L</cell>
+			<cell>I</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a.">
+			<li>
+				<p>
+					There are 117 voters.
+				</p>
+			</li>
+			<li>
+				<p>
+					A majority is 59 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					K wins the plurality method with 38 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					L wins the Instant Runoff Method with 66 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					The points are: I 313, J 304, K 261, L 292. I wins in the Borda count method.
+				</p>
+			</li>
+			<li>
+				<p>
+					The points are: I 2, J 2, L 2. I, J and L tie with Copeland’s method.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A Multnomah County Commissioner's race has five candidates: M, N, O, P, Q. The votes are:
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Number of voters</cell>
+			<cell>31</cell>
+			<cell>18</cell>
+			<cell>35</cell>
+			<cell>37</cell>
+			<cell>33</cell>
+			<cell>12</cell>
+		</row>
+		<row>
+			<cell>1st choice</cell>
+			<cell>M</cell>
+			<cell>Q</cell>
+			<cell>O</cell>
+			<cell>N</cell>
+			<cell>P</cell>
+			<cell>Q</cell>
+		</row>
+		<row>
+			<cell>2nd choice</cell>
+			<cell>P</cell>
+			<cell>O</cell>
+			<cell>Q</cell>
+			<cell>P</cell>
+			<cell>M</cell>
+			<cell>N</cell>
+		</row>
+		<row>
+			<cell>3rd choice</cell>
+			<cell>O</cell>
+			<cell>M</cell>
+			<cell>P</cell>
+			<cell>O</cell>
+			<cell>N</cell>
+			<cell>M</cell>
+		</row>
+		<row>
+			<cell>4th choice</cell>
+			<cell>N</cell>
+			<cell>P</cell>
+			<cell>N</cell>
+			<cell>M</cell>
+			<cell>Q</cell>
+			<cell>O</cell>
+		</row>
+		<row>
+			<cell>5th choice</cell>
+			<cell>Q</cell>
+			<cell>N</cell>
+			<cell>M</cell>
+			<cell>Q</cell>
+			<cell>O</cell>
+			<cell>P</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a.">
+			<li>
+				<p>
+					There are 166 voters.
+				</p>
+			</li>
+			<li>
+				<p>
+					A majority is 84 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					N wins the plurality method with 37 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					P wins the Instant Runoff Method with 101 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					The points are: M 486, N 482, O 508, P 590, Q 424. P wins the Borda count method.
+				</p>
+			</li>
+			<li>
+				<p>
+					The points are: M 1, N 2, O 3, P 4. P wins with Copeland’s method.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		The Oregon State Governor's race has five candidates: R, S, T, U, V. The votes are:
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Number of voters</cell>
+			<cell>22</cell>
+			<cell>45</cell>
+			<cell>20</cell>
+			<cell>47</cell>
+			<cell>43</cell>
+			<cell>18</cell>
+			<cell>26</cell>
+		</row>
+		<row>
+			<cell>1st choice</cell>
+			<cell>R</cell>
+			<cell>S</cell>
+			<cell>R</cell>
+			<cell>U</cell>
+			<cell>T</cell>
+			<cell>V</cell>
+			<cell>V</cell>
+		</row>
+		<row>
+			<cell>2nd choice</cell>
+			<cell>T</cell>
+			<cell>V</cell>
+			<cell>S</cell>
+			<cell>T</cell>
+			<cell>U</cell>
+			<cell>S</cell>
+			<cell>T</cell>
+		</row>
+		<row>
+			<cell>3rd choice</cell>
+			<cell>S</cell>
+			<cell>T</cell>
+			<cell>V</cell>
+			<cell>S</cell>
+			<cell>V</cell>
+			<cell>U</cell>
+			<cell>S</cell>
+		</row>
+		<row>
+			<cell>4th choice</cell>
+			<cell>U</cell>
+			<cell>R</cell>
+			<cell>U</cell>
+			<cell>V</cell>
+			<cell>R</cell>
+			<cell>R</cell>
+			<cell>U</cell>
+		</row>
+		<row>
+			<cell>5th choice</cell>
+			<cell>V</cell>
+			<cell>U</cell>
+			<cell>T</cell>
+			<cell>R</cell>
+			<cell>S</cell>
+			<cell>T</cell>
+			<cell>R</cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	<p>
+		
+	</p>
+	</statement>
+	<solution>
+		<p>
+		<ol label="a.">
+			<li>
+				<p>
+					There are 221 voters.
+				</p>
+			</li>
+			<li>
+				<p>
+					A majority is 111 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					U wins the plurality method with 47 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					T wins the Instant Runoff Method with 138 votes.
+				</p>
+			</li>
+			<li>
+				<p>
+					The points are: R 495, S 705, T 768, U 642, V 705. T wins the Borda count method.
+				</p>
+			</li>
+			<li>
+				<p>
+					The points are: S 3, T 4, U 2, V 1. T wins with Copeland’s method.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			In each fictional country in problems 9-10, use the rules of the U.S. government to complete the table and determine the following:
+		</p>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						The total number of electors in the state.
+					</p>
+				</li>
+				<li>
+					<p>
+						The number of electoral votes needed for a majority and win a presidential election.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		In this country there is one representative for every 55,000 residents.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>State</cell>
+			<cell>Population</cell>
+			<cell><line>Number of</line><line>Representatives</line></cell>
+			<cell><line>Number of</line><line>Senators</line></cell>
+			<cell><line>Number of</line><line>Electors</line></cell>
+		</row>
+		<row>
+			<cell>Fonville</cell>
+			<cell>825,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Gurley</cell>
+			<cell>550,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Nevarez</cell>
+			<cell>275,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>State</cell>
+							<cell>Population</cell>
+							<cell><line>Number of</line><line>Representatives</line></cell>
+							<cell><line>Number of</line><line>Senators</line></cell>
+							<cell><line>Number of</line><line>Electors</line></cell>
+						</row>
+						<row>
+							<cell>Fonville</cell>
+							<cell>825,000</cell>
+							<cell>15</cell>
+							<cell>2</cell>
+							<cell>17</cell>
+						</row>
+						<row>
+							<cell>Gurley</cell>
+							<cell>550,000</cell>
+							<cell>10</cell>
+							<cell>2</cell>
+							<cell>12</cell>
+						</row>
+						<row>
+							<cell>Nevarez</cell>
+							<cell>275,000</cell>
+							<cell>5</cell>
+							<cell>2</cell>
+							<cell>7</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>1,650,000</cell>
+							<cell>30</cell>
+							<cell>6</cell>
+							<cell>36</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+					<p>
+						This state has 36 electors.
+					</p>
+				</li>
+				<li>
+					<p>
+						A majority of electoral votes would be 19 votes.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		In this country there is one representative for every 60,000 residents.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>State</cell>
+			<cell>Population</cell>
+			<cell><line>Number of</line><line>Representatives</line></cell>
+			<cell><line>Number of</line><line>Senators</line></cell>
+			<cell><line>Number of</line><line>Electors</line></cell>
+		</row>
+		<row>
+			<cell>Arbery</cell>
+			<cell>720,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Monterrosa</cell>
+			<cell>360,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Bland</cell>
+			<cell>240,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Davis</cell>
+			<cell>480,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>State</cell>
+							<cell>Population</cell>
+							<cell><line>Number of</line><line>Representatives</line></cell>
+							<cell><line>Number of</line><line>Senators</line></cell>
+							<cell><line>Number of</line><line>Electors</line></cell>
+						</row>
+						<row>
+							<cell>Arbery</cell>
+							<cell>720,000</cell>
+							<cell>12</cell>
+							<cell>2</cell>
+							<cell>14</cell>
+						</row>
+						<row>
+							<cell>Monterrosa</cell>
+							<cell>360,000</cell>
+							<cell>6</cell>
+							<cell>2</cell>
+							<cell>8</cell>
+						</row>
+						<row>
+							<cell>Bland</cell>
+							<cell>240,000</cell>
+							<cell>4</cell>
+							<cell>2</cell>
+							<cell>6</cell>
+						</row>
+						<row>
+							<cell>Davis</cell>
+							<cell>480,000</cell>
+							<cell>8</cell>
+							<cell>2</cell>
+							<cell>10</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>1,800,000</cell>
+							<cell>30</cell>
+							<cell>8</cell>
+							<cell>38</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+					<p>
+						This state has 38 electors.
+					</p>
+				</li>
+				<li>
+					<p>
+						A majority of electoral votes would be 20 votes.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			In each fictional country in problems 11-12, use the rules of the U.S. government (assume that all of a state’s electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
+		</p>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						The winner of the popular vote in the country and the percentage of votes they won.
+					</p>
+				</li>
+				<li>
+					<p>
+						The winner of the electoral college who becomes the president and the percentage of electoral votes they won.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		In this country from problem 9, there is one representative for every 55,000 residents.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>State</cell>
+			<cell><line>Votes for</line><line>Candidate A</line></cell>
+			<cell><line>Votes for</line><line>Candidate B</line></cell>
+			<cell><line>Number of Electoral</line><line>Votes for A</line></cell>
+			<cell><line>Number of Electoral</line><line>Votes for B</line></cell>
+		</row>
+		<row>
+			<cell>Fonville</cell>
+			<cell>684,750</cell>
+			<cell>140,250</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Gurley</cell>
+			<cell>257,400</cell>
+			<cell>292,600</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Nevarez</cell>
+			<cell>132,275</cell>
+			<cell>142,725</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Total Votes</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>State</cell>
+							<cell><line>Votes for</line><line>Candidate A</line></cell>
+							<cell><line>Votes for</line><line>Candidate B</line></cell>
+							<cell><line>Number of Electoral</line><line>Votes for A</line></cell>
+							<cell><line>Number of Electoral</line><line>Votes for B</line></cell>
+						</row>
+						<row>
+							<cell>Fonville</cell>
+							<cell>684,750</cell>
+							<cell>140,250</cell>
+							<cell>17</cell>
+							<cell>0</cell>
+						</row>
+						<row>
+							<cell>Gurley</cell>
+							<cell>257,400</cell>
+							<cell>292,600</cell>
+							<cell>0</cell>
+							<cell>12</cell>
+						</row>
+						<row>
+							<cell>Nevarez</cell>
+							<cell>132,275</cell>
+							<cell>142,725</cell>
+							<cell>0</cell>
+							<cell>7</cell>
+						</row>
+						<row>
+							<cell>Total Votes</cell>
+							<cell>1,074,425</cell>
+							<cell>575,575</cell>
+							<cell>17</cell>
+							<cell>19</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+					<p>
+						A wins the popular vote with 65.1% of the votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						B wins the electoral college and becomes the president with 52.8% of the electoral votes.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		In this country from problem 10, there is one representative for every 60,000 residents.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>State</cell>
+			<cell><line>Votes for</line><line>Candidate A</line></cell>
+			<cell><line>Votes for</line><line>Candidate B</line></cell>
+			<cell><line>Number of Electoral</line><line>Votes for A</line></cell>
+			<cell><line>Number of Electoral</line><line>Votes for B</line></cell>
+		</row>
+		<row>
+			<cell>Arbery</cell>
+			<cell>372,240</cell>
+			<cell>347,760</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Monterrosa</cell>
+			<cell>38,880</cell>
+			<cell>321,120</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Bland</cell>
+			<cell>134,640</cell>
+			<cell>105,360</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Davis</cell>
+			<cell>104,160</cell>
+			<cell>375,840</cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Total</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>State</cell>
+							<cell><line>Votes for</line><line>Candidate A</line></cell>
+							<cell><line>Votes for</line><line>Candidate B</line></cell>
+							<cell><line>Number of Electoral</line><line>Votes for A</line></cell>
+							<cell><line>Number of Electoral</line><line>Votes for B</line></cell>
+						</row>
+						<row>
+							<cell>Arbery</cell>
+							<cell>372,240</cell>
+							<cell>347,760</cell>
+							<cell>14</cell>
+							<cell>0</cell>
+						</row>
+						<row>
+							<cell>Monterrosa</cell>
+							<cell>38,880</cell>
+							<cell>321,120</cell>
+							<cell>0</cell>
+							<cell>8</cell>
+						</row>
+						<row>
+							<cell>Bland</cell>
+							<cell>134,640</cell>
+							<cell>105,360</cell>
+							<cell>6</cell>
+							<cell>0</cell>
+						</row>
+						<row>
+							<cell>Davis</cell>
+							<cell>104,160</cell>
+							<cell>375,840</cell>
+							<cell>0</cell>
+							<cell>10</cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>649,920</cell>
+							<cell>1,150,080</cell>
+							<cell>20</cell>
+							<cell>18</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+					<p>
+						B wins the popular vote with 63.9% of the vote.
+					</p>
+				</li>
+				<li>
+					<p>
+						A wins the electoral college and becomes the president with 52.6% of the electoral votes.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			In each fictional country in problems 13-14, use the rules of the U.S. government to complete the table and determine the following:
+		</p>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						The state that has the most electoral power
+					</p>
+				</li>
+				<li>
+					<p>
+						The state that has the least electoral power
+					</p>
+				</li>
+			</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		In this country from problem 9, there is one representative for every 55,000 residents.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>State</cell>
+			<cell>Population</cell>
+			<cell><line>Number of</line><line>Representatives</line></cell>
+			<cell><line>Number of</line><line>Senators</line></cell>
+			<cell><line>Number of</line><line>Electors</line></cell>
+			<cell><line>Electoral Votes per</line><line>55,000 people</line></cell>
+		</row>
+		<row>
+			<cell>Fonville</cell>
+			<cell>825,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Gurley</cell>
+			<cell>550,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Nevarez</cell>
+			<cell>275,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>State</cell>
+							<cell>Population</cell>
+							<cell><line>Number of</line><line>Representatives</line></cell>
+							<cell><line>Number of</line><line>Senators</line></cell>
+							<cell><line>Number of</line><line>Electors</line></cell>
+							<cell><line>Electoral Votes per</line><line>55,000 people</line></cell>
+						</row>
+						<row>
+							<cell>Fonville</cell>
+							<cell>825,000</cell>
+							<cell>15</cell>
+							<cell>2</cell>
+							<cell>17</cell>
+							<cell>1.13</cell>
+						</row>
+						<row>
+							<cell>Gurley</cell>
+							<cell>550,000</cell>
+							<cell>10</cell>
+							<cell>2</cell>
+							<cell>12</cell>
+							<cell>1.20</cell>
+						</row>
+						<row>
+							<cell>Nevarez</cell>
+							<cell>275,000</cell>
+							<cell>5</cell>
+							<cell>2</cell>
+							<cell>7</cell>
+							<cell>1.40</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+					<p>
+						The state of Nevarez has the most electoral power.
+					</p>
+				</li>
+				<li>
+					<p>
+						The state of Fonville has the least electoral power.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		In this country from problem 10, there is one representative for every 60,000 residents.
+	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>State</cell>
+			<cell>Population</cell>
+			<cell><line>Number of</line><line>Representatives</line></cell>
+			<cell><line>Number of</line><line>Senators</line></cell>
+			<cell><line>Number of</line><line>Electors</line></cell>
+			<cell><line>Electoral Votes per</line><line>60,000 people</line></cell>
+		</row>
+		<row>
+			<cell>Arbery</cell>
+			<cell>720,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Monterrosa</cell>
+			<cell>360,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Bland</cell>
+			<cell>240,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>Davis</cell>
+			<cell>480,000</cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+			<cell></cell>
+		</row>
+	</tabular>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>State</cell>
+							<cell>Population</cell>
+							<cell><line>Number of</line><line>Representatives</line></cell>
+							<cell><line>Number of</line><line>Senators</line></cell>
+							<cell><line>Number of</line><line>Electors</line></cell>
+							<cell><line>Electoral Votes per</line><line>60,000 people</line></cell>
+						</row>
+						<row>
+							<cell>Arbery</cell>
+							<cell>720,000</cell>
+							<cell>12</cell>
+							<cell>2</cell>
+							<cell>14</cell>
+							<cell>1.17</cell>
+						</row>
+						<row>
+							<cell>Monterrosa</cell>
+							<cell>360,000</cell>
+							<cell>6</cell>
+							<cell>2</cell>
+							<cell>8</cell>
+							<cell>1.33</cell>
+						</row>
+						<row>
+							<cell>Bland</cell>
+							<cell>240,000</cell>
+							<cell>4</cell>
+							<cell>2</cell>
+							<cell>6</cell>
+							<cell>1.50</cell>
+						</row>
+						<row>
+							<cell>Davis</cell>
+							<cell>480,000</cell>
+							<cell>8</cell>
+							<cell>2</cell>
+							<cell>10</cell>
+							<cell>1.25</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+					<p>
+						The state of Bland has the most electoral power.
+					</p>
+				</li>
+				<li>
+					<p>
+						The state of Arbery has the least electoral power.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			For each map in problems 15-16, complete the following:
+		</p>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						How many votes are needed for a majority?
+					</p>
+				</li>
+				<li>
+					<p>
+						How many seats are won by each party?
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate the efficiency gap.
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate the percentage of the state that each district represents.
+					</p>
+				</li>
+				<li>
+					<p>
+						Calculate how many district seats the efficiency gap is worth.
+					</p>
+				</li>
+				<li>
+					<p>
+						Explain whether you think the map is fair and why or why not.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		This state has 5 districts with 9 people in each district.
+		</p>
+	<sidebyside width="40%">
+		<image source="images/democracy/5_5/review_exercise_15.png"></image>
+		<p></p>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						A majority is 5 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 1 seat and the Republicans won 4 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>20/45= 44.4\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell>4</cell>
+							<cell><alert>5</alert></cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell>4</cell>
+							<cell><alert>5</alert></cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell><alert>9</alert></cell>
+							<cell>0</cell>
+							<cell><m>9-5=4</m></cell>
+							<cell>0</cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell>4</cell>
+							<cell><alert>5</alert></cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell>4</cell>
+							<cell><alert>5</alert></cell>
+							<cell>4</cell>
+							<cell><m>5-5=0</m></cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>25</cell>
+							<cell>20</cell>
+							<cell>20</cell>
+							<cell>0</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 20% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth 2.2 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because the efficiency gap is more than two seats. A more fair map would be D3, R2.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+		<p>
+		This state has 6 districts with 7 people in each.
+		</p>
+	<sidebyside width="40%">
+		<image source="images/democracy/5_5/review_exercise_16.png"></image>
+		<p></p>
+	</sidebyside>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						A majority is 4 votes.
+					</p>
+				</li>
+				<li>
+					<p>
+						The Democrats won 5 seats and the Republicans won 1 seat.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is <m>16/42= 38.10\%</m>
+					</p>
+					<sidebyside>
+					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<row>
+							<cell>District</cell>
+							<cell>D Votes</cell>
+							<cell>R Votes</cell>
+							<cell>D Surplus Votes</cell>
+							<cell>R Surplus Vote</cell>
+						</row>
+						<row>
+							<cell>1</cell>
+							<cell><alert>4</alert></cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+							<cell>3</cell>
+						</row>
+						<row>
+							<cell>2</cell>
+							<cell><alert>4</alert></cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+							<cell>3</cell>
+						</row>
+						<row>
+							<cell>3</cell>
+							<cell><alert>4</alert></cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+							<cell>3</cell>
+						</row>
+						<row>
+							<cell>4</cell>
+							<cell><alert>4</alert></cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+							<cell>3</cell>
+						</row>
+						<row>
+							<cell>5</cell>
+							<cell><alert>4</alert></cell>
+							<cell>3</cell>
+							<cell><m>4-4=0</m></cell>
+							<cell>3</cell>
+						</row>
+						<row>
+							<cell>6</cell>
+							<cell>1</cell>
+							<cell><alert>6</alert></cell>
+							<cell>1</cell>
+							<cell><m>6-4=2</m></cell>
+						</row>
+						<row>
+							<cell>Total</cell>
+							<cell>21</cell>
+							<cell>21</cell>
+							<cell>1</cell>
+							<cell>17</cell>
+						</row>
+					</tabular>
+					</sidebyside>
+				</li>
+				<li>
+					<p>
+						Each seat is worth 16.67% of the voters.
+					</p>
+				</li>
+				<li>
+					<p>
+						The efficiency gap is worth 2.3 seats.
+					</p>
+				</li>
+				<li>
+					<p>
+						This map is not fair because the efficiency gap is more than two seats. A more fair map would be D3, R3 because the population is evenly split.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</exercise>
+</exercisegroup>
+
+</exercises>
+
+</section>

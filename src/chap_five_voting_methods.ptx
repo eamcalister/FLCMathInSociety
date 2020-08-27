@@ -59,9 +59,12 @@
 <subsection>
 	<title>Ranked Choice Ballots</title>
 	
-	<sidebyside widths="47% 47%" margins="0%">
+	<p>
+		To use some of the methods we are going to study, we need to know more than just each person’s first choice. We also need to know their 2nd and 3rd choices, and so on. A ballot where each person ranks all of the choices in order of their preference is called a <alert>ranked choice ballot</alert>.
+	</p>
+	<sidebyside valign="middle" widths="47% 47%" margins="0%">
 		<p>
-			To use some of the methods we are going to study, we need to know more than just each person’s first choice. We also need to know their 2nd and 3rd choices, and so on. A ballot where each person ranks all of the choices in order of their preference is called a <alert>ranked choice ballot</alert>. The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" target="_blank">"Ranked Choice Ballot"</url>, <url href="https://www.rankedchoicevoting.org/" target="_blank">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let’s see how to tally the results from a ranked choice election.
+			The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" target="_blank">"Ranked Choice Ballot"</url>, <url href="https://www.rankedchoicevoting.org/" target="_blank">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let’s see how to tally the results from a ranked choice election.
 		</p>
 		<image width="45%" source="images/democracy/5_2/voter_card.png">
 		</image>
@@ -136,7 +139,7 @@
 	<p>
 		To simplify this data, we create a <alert>preference schedule</alert> which combines all the people who voted with the exact same ranking. For example, Tasha, Lupe, and Helena, all voted in the same way, HAO. So, we will list that combination once, with the number 3 at the top of that column. Three students also voted for AHO, and OHA. One student voted for the ranking AOH. Below is the preference schedule.
 	</p>
-	<sidebyside>
+	<sidebyside valign="middle" widths="47% 47%" margins="0%">
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row>
 			<cell></cell>
@@ -167,10 +170,11 @@
 			<cell>O</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		Notice that by totaling the vote counts across the top of the preference schedule we can see the total number of votes cast: <m>1+3+3+3 = 10</m> total votes.
 	</p>
+	</sidebyside>
+	
 </subsection>
 
 <subsection>
@@ -1300,45 +1304,11 @@
 	</solution>
 </exercise>
 
-<exercise>
-	<statement>
-	<p>
-		The planning committee for a renewable energy trade show is trying to decide what city to hold their next show in.  The votes are shown below.
-	</p>
-	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
-			<cell>Number of voters</cell>
-			<cell>9</cell>
-			<cell>19</cell>
-			<cell>11</cell>
-			<cell>8</cell>
-		</row>
-		<row>
-			<cell>1st choice</cell>
-			<cell>Buffalo</cell>
-			<cell>Atlanta</cell>
-			<cell>Chicago</cell>
-			<cell>Buffalo</cell>
-		</row>
-		<row>
-			<cell>2nd choice</cell>
-			<cell>Atlanta</cell>
-			<cell>Buffalo</cell>
-			<cell>Buffalo</cell>
-			<cell>Chicago</cell>
-		</row>
-		<row>
-			<cell>3rd choice</cell>
-			<cell>Chicago</cell>
-			<cell>Chicago</cell>
-			<cell>Atlanta</cell>
-			<cell>Atlanta</cell>
-		</row>
-	</tabular>
-	</sidebyside>
-	<p>
-		<ol label="a">
+<exercisegroup>
+	<introduction>
+		<p>
+			In exercises 3-18, complete the following:
+			<ol label="a.">
 			<li>
 				<p>
 					How many voters voted in this election?
@@ -1370,11 +1340,53 @@
 				</p>
 			</li>
 		</ol>
+		</p>
+	</introduction>
+
+<exercise>
+	<statement>
+	<p>
+		The planning committee for a renewable energy trade show is trying to decide where to hold their next trade show in. The votes are shown below.
 	</p>
+	<sidebyside>
+	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row>
+			<cell>Number of voters</cell>
+			<cell>9</cell>
+			<cell>19</cell>
+			<cell>11</cell>
+			<cell>8</cell>
+		</row>
+		<row>
+			<cell>1st choice</cell>
+			<cell>Buffalo</cell>
+			<cell>Atlanta</cell>
+			<cell>Chicago</cell>
+			<cell>Buffalo</cell>
+			
+		</row>
+		<row>
+			<cell>2nd choice</cell>
+			<cell>Atlanta</cell>
+			<cell>Buffalo</cell>
+			<cell>Buffalo</cell>
+			<cell>Chicago</cell>
+			
+		</row>
+		<row>
+			<cell>3rd choice</cell>
+			<cell>Chigaco</cell>
+			<cell>Chicago</cell>
+			<cell>Atlanta</cell>
+			<cell>Atlanta</cell>
+			
+		</row>
+	</tabular>
+	</sidebyside>
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 47 voters.
@@ -1382,7 +1394,7 @@
 			</li>
 			<li>
 				<p>
-					A majority is 24 voters.
+					A majority is 24 votes.
 				</p>
 			</li>
 			<li>
@@ -1397,7 +1409,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Atlanta 94, Buffalo 111, and Chicago 77. Buffalo wins in the Borda count method.
+					The points are: Atlanta 94, Buffalo 111 and Chicago 77. Buffalo wins the Borda Count Method.
 				</p>
 			</li>
 			<li>
@@ -1413,7 +1425,7 @@
 <exercise>
 	<statement>
 	<p>
-		A non-profit agency is electing a new chair of the board.  The votes are shown below.
+		A non-profit agency is electing a new chair of the board. The votes are shown below.
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1451,44 +1463,10 @@
 		</row>
 	</tabular>
 	</sidebyside>
-	<p>
-		<ol label="a">
-			<li>
-				<p>
-					How many voters voted in this election?
-				</p>
-			</li>
-			<li>
-				<p>
-					How many votes are needed for a majority?
-				</p>
-			</li>
-			<li>
-				<p>
-					Find the winner under the plurality method.
-				</p>
-			</li>
-			<li>
-				<p>
-					Find the winner under the Instant Runoff Voting method.
-				</p>
-			</li>
-			<li>
-				<p>
-					Find the winner under the Borda Count Method.
-				</p>
-			</li>
-			<li>
-				<p>
-					Find the winner under Copeland’s method.
-				</p>
-			</li>
-		</ol>
-	</p>
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 33 voters.
@@ -1496,7 +1474,7 @@
 			</li>
 			<li>
 				<p>
-					A majority is 17 voters.
+					A majority is 17 votes.
 				</p>
 			</li>
 			<li>
@@ -1511,7 +1489,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Abdulla 65, Beck 61 and Cantos 72. Cantos wins with the Borda Count method.
+					The points are: Abdulla 65, Beck 61 and Cantos 72. Cantos wins the Borda Count Method.
 				</p>
 			</li>
 			<li>
@@ -1527,7 +1505,7 @@
 <exercise>
 	<statement>
 	<p>
-		A group of students is choosing which class to take together. The votes are shown below.
+		A group of students is deciding which class to take together. The votes are shown below.
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1572,7 +1550,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 12 voters.
@@ -1595,12 +1573,12 @@
 			</li>
 			<li>
 				<p>
-					The points are: Art 22, Biology 26 and Calculus 24. Biology wins the Borda Count method.
+					The points are: Art 22, Biology 26 and Calculus 24. Biology wins the Borda Count Method.
 				</p>
 			</li>
 			<li>
 				<p>
-					The points are Biology 2, Calculus 1. Biology wins with Copeland’s method.
+					The points are: Biology 2, Calculus 1. Biology wins with Copeland’s method.
 				</p>
 			</li>
 		</ol>
@@ -1656,7 +1634,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 26 voters.
@@ -1740,7 +1718,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 31 votes.
@@ -1824,7 +1802,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 51 voters.
@@ -1917,7 +1895,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 460 voters.
@@ -2015,7 +1993,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 70 voters.
@@ -2118,7 +2096,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 92 voters.
@@ -2226,7 +2204,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 157 voters.
@@ -2329,7 +2307,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 90 voters.
@@ -2437,7 +2415,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 110 voters.
@@ -2445,7 +2423,7 @@
 			</li>
 			<li>
 				<p>
-					A majorty is 56 votest.
+					A majorty is 56 votes.
 				</p>
 			</li>
 			<li>
@@ -2539,7 +2517,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 107 voters.
@@ -2647,7 +2625,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 92 voters.
@@ -2761,7 +2739,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 127 voters.
@@ -2881,7 +2859,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					There are 198 voters.
@@ -2916,6 +2894,7 @@
 		</p>
 	</solution>
 </exercise>
+
 
 <!-- <exercise xml:id="exercise5">
 	<statement>
@@ -2972,7 +2951,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					How many voters voted in this election?
@@ -3008,7 +2987,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -3099,7 +3078,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					How many voters voted in this election?
@@ -3135,7 +3114,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -3238,7 +3217,7 @@
 </exercise>
 
 </exercisegroup> -->
-
+</exercisegroup>
 </exercises>
 
 
