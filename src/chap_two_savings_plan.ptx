@@ -157,8 +157,8 @@
 		<p>
 			<m>=\$46,204.09</m>
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/financial_math/2_3/savings_plan1.png">
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_3/savings_plan1.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
 		</sidebyside>
@@ -239,8 +239,8 @@
 		<p>
 			<m>=\$144,822.87</m>.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/financial_math/2_3/savings_plan2.png">
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_3/savings_plan2.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
 		</sidebyside>
@@ -311,8 +311,8 @@
 		<p>
 			<m>=\$335.49</m>.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/financial_math/2_3/finding_payments1.png">
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_3/finding_payments1.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
 		</sidebyside>
@@ -372,8 +372,8 @@
 		<p>
 			<m>=\$21,282.07</m>
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/financial_math/2_3/finding_payments2.png">
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_3/finding_payments2.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
 		</sidebyside>
@@ -449,8 +449,8 @@
 		<p>
 			<m>=\$82,894.07</m>.
 		</p>
-		<sidebyside>
-		<image width="70%" source="images/financial_math/2_3/comparing_payments1.png">
+		<sidebyside width="50%">
+		<image source="images/financial_math/2_3/comparing_payments1.png">
 		<description>An image of the spreadsheet showing the formula used and the result.</description>
 		</image>
 		</sidebyside>
@@ -464,8 +464,8 @@
 		<p>
 			<m>=\$607,453.85</m>.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/financial_math/2_3/comparing_payments2.png">
+		<sidebyside width="50%">
+			<image source="images/financial_math/2_3/comparing_payments2.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
 		</sidebyside>
@@ -501,8 +501,8 @@
 			<m>=\$151,873.77</m>.
 		</p>
 
-		<sidebyside>
-		<image width="70%" source="images/financial_math/2_3/comparing_payments3.png">
+		<sidebyside width="50%">
+		<image source="images/financial_math/2_3/comparing_payments3.png">
 		<description>An image of the spreadsheet showing the formula used and the result.</description>
 		</image>
 		</sidebyside>
@@ -696,7 +696,7 @@
 		<statement>
 		<p>
 			You set up a savings plan for retirement in 35 years. You will deposit $250 each month for 35 years. The account will earn an average of 6.5% APR compounded monthly.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will you have in your retirement plan in 35 years? 
@@ -717,7 +717,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{250[(1+\frac{0.065}{12})^{12*35}-1]}{(\frac{0.065}{12})}</m>
@@ -748,7 +748,7 @@
 		<statement>
 		<p>
 			You set up a savings plan for retirement in 40 years. You will deposit $75 each week for 40 years.The account will earn an average of 8.5% APR compounded weekly.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will you have in your retirement plan in 40 years?
@@ -769,7 +769,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{75[(1+\frac{0.085}{52})^{52*40}-1]}{(\frac{0.085}{52})}</m>
@@ -800,7 +800,7 @@
 		<statement>
 		<p>
 			You set up a savings plan for retirement in 30 years. You will deposit $750 each quarter for 30 years. The account will earn an average of 7.75% APR compounded quarterly.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will you have in your retirement plan in 30 years?
@@ -821,7 +821,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{750[(1+\frac{0.0775}{4})^{4*30}-1]}{(\frac{0.0775}{4})}</m>
@@ -852,7 +852,7 @@
 		<statement>
 		<p>
 			You set up a savings plan for retirement in 25 years. You will deposit $20 per day for 25 years. The account will earn an average of 2.35% APR compounded daily.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will you have in your retirement plan in 25 years?
@@ -873,7 +873,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{20[(1+\frac{0.0235}{365})^{365*25}-1]}{(\frac{0.0235}{365})}</m>
@@ -904,7 +904,7 @@
 		<statement>
 		<p>
 			Suppose you invest $130 a month for 5 years into an account earning 9% APR compounded monthly. After 5 years, you leave the money, without making additional deposits, in the account for another 25 years.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will you have in the end?
@@ -925,7 +925,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						In 5 years: <m>\frac{130[(1+\frac{0.09}{12})^{12*5}-1]}{(\frac{0.09}{12})}</m>
@@ -962,7 +962,7 @@
 		<statement>
 		<p>
 			Suppose you invest $200 per month for 10 years into an account earning 5% APR compounded monthly. You then leave the money, without making additional deposits, in the account for another 20 years.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will you have after the first 10 years?
@@ -988,7 +988,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{200[(1+\frac{0.05}{12})^{12*20}-1]}{(\frac{0.05}{12})}</m>
@@ -1106,7 +1106,7 @@
 		<statement>
 		<p>
 			Jose’ inherits $55,000 and decides to put it in the bank for the next 25 years to save for his retirement. He will earn an average of 5.6% APR compounded monthly for the next 25 years. His partner deposits $375 a month in a separate savings plan that earns 5.6% APR compounded monthly for the next 25 years.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will each have at the end of 25 years?
@@ -1127,7 +1127,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Jose: <m>55000(1+\frac{0.056}{12})^{12*25}</m>
@@ -1176,7 +1176,7 @@
 		<statement>
 		<p>
 			Akiko inherits $45,000 and decides to put it in the bank for the next 30 years to save for her retirement. She will earn an average of 7.8% APR compounded monthly for the next 30 years. Her spouse deposits $200 a month in a separate savings plan that earns 7.8% APR compounded monthly for the next 30 years.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will each have at the end of 30 years?
@@ -1197,7 +1197,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Akiko: <m>45000(1+\frac{0.078}{12})^{12*30}</m>
@@ -1246,7 +1246,7 @@
 		<statement>
 		<p>
 			Sylvin makes an initial deposit of $1000 into a savings account and then adds $100 each month for 10 years into an account pays 4.5% APR compounded monthly.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						What will be her final balance?
@@ -1267,7 +1267,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>1000(1+\frac{0.045}{12})^{12*10}+\frac{100[(1+\frac{0.045}{12})^{12*10}-1]}{\frac{0.045}{12}}</m>
@@ -1298,7 +1298,7 @@
 		<statement>
 		<p>
 			Elena makes an initial deposit of $5000 into a savings account and then adds $1000 each year for 20 years into an account pays 2.35% APR compounded annually.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						What will be her final balance?
@@ -1319,7 +1319,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>5000(1+0.0235)^{20}+\frac{1000[(1+0.0235)^{20}-1]}{0.0235}</m>
@@ -1350,7 +1350,7 @@
 		<statement>
 		<p>
 			Vanessa just turned 40 years old. Her plan is to save $100 per month until retirement at age 65. Suppose she deposits that $100 each month into a savings account that earns 4% APR compounded monthly.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						What will her balance be when she turns 65 years old?
@@ -1366,7 +1366,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{100[(1+\frac{0.04}{12})^{12*25}-1]}{\frac{0.04}{12}}</m>
@@ -1398,7 +1398,7 @@
 		<statement>
 		<p>
 			Chris wants to start saving money for retirement. Suppose he deposits $1000 every year into a savings account that pays 5% APR compounded annually.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will Chris have saved in 20 years?
@@ -1414,7 +1414,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{1000[(1+0.05)^{20}-1]}{0.05}</m>
@@ -1446,7 +1446,7 @@
 		<statement>
 		<p>
 			Fareshta and Ahmad want to save to help send their child to college. Their plan is to put aside $50 every week. Suppose they deposit that money into an account that pays 3.5% APR compounded weekly.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much money will be in the account in 18 years? (assume 52 weeks in a year)
@@ -1462,7 +1462,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{50[(1+\frac{0.035}{52})^{52*18}-1]}{\frac{0.035}{52}}</m>
@@ -1494,7 +1494,7 @@
 		<statement>
 		<p>
 			Elisa decides to cancel her cable TV and to deposit the $100 she will save each month into an account that pays 4.5% APR compounded monthly.
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						How much will she have in the account in 10 years?
@@ -1510,7 +1510,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						<m>\frac{100[(1+\frac{0.045}{12})^{12*20}-1]}{\frac{0.045}{12}}</m>

@@ -415,7 +415,7 @@
 		The general process is as follows:
 	</p>
 	<p>
-		<ol label="1">
+		<ol label="1.">
 			<li>
 				<p>
 					Enter the column titles in row 1.
@@ -582,7 +582,7 @@
 		Evaluate each expression:
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					max{0, 1, 5, 11}
@@ -603,7 +603,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -630,7 +630,7 @@
 		Evaluate each expression:
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					max{25.00, 25.45}
@@ -651,7 +651,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -678,7 +678,7 @@
 		Your credit card debt is $8,435.61, on a card with 19.5% APR. You are past the grace period. The monthly payment is due today.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					How much do you have to pay, according to the default company method?
@@ -699,7 +699,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					
@@ -726,7 +726,7 @@
 		Your credit card debt is $1,653.48, on a card with 22.99% APR. You are past the grace period. The monthly payment is due today.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					How much do you have to pay, according to the default company method?
@@ -747,7 +747,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -787,7 +787,7 @@
 		You have just gotten a new credit card with 18% APR. Today is April 16, 2020. You make a $400 purchase. Payments are due on the 1st of each month. Reading the fine print, the company requires a <q>minimum payment of 2% of the outstanding balance after applying the APR, or $25, whichever is larger.</q> The interest-free grace period lasts from the date of purchase until the end of the month. Assume you make no further purchases with the same card.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Calculate the outstanding balance on July 1st (after that day’s payment), using the company method.
@@ -808,7 +808,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -835,7 +835,7 @@
 		You have just gotten a new credit card with 21% APR. Today is October 30, 2020. You make a $4,000 purchase. Payments are due on the 1st of each month. Reading the fine print, the company requires a <q>minimum payment of 2% of the outstanding balance after applying the APR, or $25, whichever is larger.</q> The interest-free grace period lasts from the date of purchase until the end of the month.  Assume you make no further purchases with the same card.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Calculate the outstanding balance on January 1st (after that day’s payment), using the company method.
@@ -856,7 +856,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -883,7 +883,7 @@
 		You have just gotten a new credit card with 22.9% APR. Today is January 7, 2020. You make $5,498.33 in purchases.  Payments are due on the 1st of each month. Reading the fine print, the company requires a <q>minimum payment of 3% of the outstanding balance after applying the APR, or $35, whichever is larger.</q> The interest-free grace period lasts from the date of purchase until the end of the month.  Assume you make no further purchases with the same card.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Calculate the outstanding balance on April 1st (after that day’s payment), using the company method.
@@ -904,7 +904,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -931,7 +931,7 @@
 		Use the situation from <xref ref="example6"></xref>. Assume you make no further purchases with the same card.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Using the company method, how many monthly payments do you make in order to completely pay it off? How much money do you pay in total?
@@ -952,7 +952,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					
@@ -979,7 +979,7 @@
 		Use the situation from <xref ref="example3"></xref>. Your goal is pay off the debt within 2 years. Assume you make no further purchases with the same card.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Estimate monthly flat payment needed to achieve your goal.
@@ -995,7 +995,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -1017,7 +1017,7 @@
 		Use the situation from <xref ref="example4"></xref>. Your goal is pay off the debt within 2 years. Assume you make no further purchases with the same card.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Estimate monthly flat payment needed to achieve your goal.
@@ -1033,7 +1033,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -1055,7 +1055,7 @@
 		Shamsa gets a credit card, with 24.99% APR compounding daily. She uses the card to pay for a $2345 medical bill.  She does not make any payments during the interest-free grace period. Her first payment is due 35 days after the grace period ended. Following the fine print in the credit card agreement, the minimum payment is calculated to be 2% of the outstanding balance after applying the APR; or $25, whichever is larger. 
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					What is her outstanding balance? 
@@ -1076,7 +1076,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<c>=FV(0.2499/365,35,0,2345)</c> or, <m>\$2345(1+\frac{0.2499}{365})^{35} \approx \$2401.85</m>
@@ -1106,7 +1106,7 @@
 		Liz gets a credit card, with 17.99% APR compounding daily.  She uses the card to pay for a $150 phone bill. She does not make any payments during the interest-free grace period. Her first payment is due 35 days after the grace period ended. Following the fine print in the credit card agreement, the minimum payment is calculated to be 3% of the outstanding balance after applying the APR; or $25, whichever is larger.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					What is her outstanding balance? 
@@ -1127,7 +1127,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<c>=FV(0.1799/365,35,0,150)</c> or, <m>\$150(1+\frac{0.1799}{365})^{35} \approx \$152.61</m>
@@ -1157,7 +1157,7 @@
 		Charlie gets a credit card, with 20.99% APR compounding daily. They use the card to pay for a $30 grocery bill.  They do not make any payments during the interest-free grace period. Their first payment is due 35 days after the grace period ended. Following the fine print in the credit card agreement, the minimum payment is calculated to be 1% of the outstanding balance after applying the APR; or $25, whichever is larger. 
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					What is their outstanding balance?
@@ -1178,7 +1178,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<c>=FV(0.2099/365,35,0,30)</c> or, <m>\$30(1+\frac{0.2099}{365})^{35} \approx \$30.61</m>
@@ -1210,7 +1210,7 @@
 	<p>
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 
@@ -1231,7 +1231,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 

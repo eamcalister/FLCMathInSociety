@@ -399,16 +399,16 @@
 		<p>
 			<xref ref="textbook_example_mean_median_sd"></xref> continued: We enter the textbook data into column A of the spreadsheet in GeoGebra. (Main Menu →View →Spreadsheet). Next, select the column title of your data, click on the histogram in the menu bar on the left, and select One Variable Analysis.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/stdev1.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/stdev1.png">
 			<description>A screenshot of GeoGebra showing the icon for One Variable Analysis</description>
 			</image>
 		</sidebyside>
 		<p>
 			Then you will see the histogram. It is always a good idea to check the shape of your distribution before calculating anything. Notice our histogram matches what we found about the distribution from the mean and median. It is approximately symmetric or slightly skewed to the left.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/stdev2.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/stdev2.png">
 			<description>A screenshot of GeoGebra showing the histogram. The summation symbol to show summary statistics is on the right side.</description>
 			</image>
 		</sidebyside>
@@ -419,8 +419,8 @@
 		<p>
 			The statistics we will use are the sample size <m>(n)</m>, the mean, median, and the sample standard deviation <m>(s)</m>. The last five entries in the table – min, Q1, median, Q3, and max – together make up the 5-number summary which we will learn about shortly!
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/stdev3.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/stdev3.png">
 			<description>A screenshot of GeoGebra showing the data, histogram and summary statistics.</description>
 			</image>
 		</sidebyside>
@@ -505,7 +505,7 @@
 			Then we divide the data into two halves. In the case of an even sample size, we split the distribution down the middle. The first 6 data values are the lower half and the next 6 data values are the upper half. Then we find the median of each. The median of the lower half is Q1 and the median of the upper half is Q3.
 		</p>
 		<p>
-			FIX
+			<m>\overbrace{59,60, \underbrace{61, 63,}^{Q1 =\frac{61+63}{2}=62} 64, 64,}^{\text{Lower Half}} \overbrace{66, 66, \underbrace{67, 69,}^{Q3 =\frac{67+69}{2}=68} 70, 72}^{\text{Upper Half}}</m>
 		</p>
 
 		<p>
@@ -531,7 +531,7 @@
 			The data are already in order, but we have an odd number of values. To deal with this we do not use the median in the upper or lower halves. The lower half will include the values strictly below the median, and the upper half will include the values strictly above the median.
 		</p>
 		<p>
-			FIX
+			<m>\overbrace{59,60, \underbrace{61, 63,}^{Q1 =\frac{61+63}{2}=62} 64, 64,}^{\text{Lower Half}} \overbrace{66}^{\text{Median(Ignore)}} \overbrace{66, 67, \underbrace{68, 69,}^{Q3 =\frac{68+69}{2}=68.5} 70, 72}^{\text{Upper Half}}</m>
 		</p>
 
 		<p>
@@ -544,8 +544,8 @@
 		<p>
 			If the data set is small, we can find the first and third quartiles by hand, but we have also seen that they are part of the output from GeoGebra. Here is the output for this data.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/quartile.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/quartile.png">
 			<description>A screenshot of GeoGebra showing the data and the summary statistics.</description>
 			</image>
 		</sidebyside>
@@ -604,8 +604,8 @@
 		<p>
 			As we found before, here is the GeoGebra output. The last five entries of the summary statistics are the five-number summary. Remember to label all of your statistics with units.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/five_num1.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/five_num1.png">
 			<description>A screenshot of GeoGebra showing the data and the summary statistics.</description>
 			</image>
 		</sidebyside>
@@ -637,8 +637,8 @@
 		<p>
 			Next, make vertical lines at the first quartile, median and third quartile and connect them to form a box. This is the middle 50% of the data and you might notice that the width of the box is the IQR. Then, extend the <q>whiskers</q> out to the minimum and maximum values. Note that a boxplot does not have a vertical scale and the height of the box does not matter. Our boxplot looks like this:
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/five_num2.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/five_num2.png">
 			<description>A boxplot with a horizontal scale from $120 to $480 with a scale of $40.</description>
 			</image>
 		</sidebyside>
@@ -661,8 +661,8 @@
 		<p>
 			Following the steps above we have the following GeoGebra output. The last five entries in the statistics table are the five-number summary and we have the boxplot on the right.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/five_num3.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/five_num3.png">
 			<description>A screenshot of GeoGebra showint the data, summary statistics and the boxplot.</description>
 			</image>
 		</sidebyside>
@@ -694,8 +694,8 @@
 		<p>
 			The boxplot can tell us the shape of the distribution, but we cannot tell how many peaks the data has. For that we need a histogram. We can see the histogram and boxplot together by selecting the icon that looks like two rectangles stacked, or an = sign.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/five_num4.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/five_num4.png">
 			<description>A screenshot of GeoGebra showing the histogram and boxplot stacked.</description>
 			</image>
 		</sidebyside>
@@ -709,8 +709,8 @@
 	<p>
 		The default boxplot in GeoGebra is called a <alert>modified box plot</alert>, which shows the data values that are outliers with an X but requires a few more steps to make by hand. To change from the modified box plot to a regular box plot, click on the left pointing arrow in the boxplot window (downloaded version) or the settings wheel (online version) for options, and uncheck “show outliers.” The output window below shows two side-by-side boxplots (the regular boxplot on top and the modified boxplot on the bottom) illustrating the distribution of the annual salaries for 50 randomly selected full-time workers in the Portland Metro area.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_4/five_num5.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_4/five_num5.png">
 		<description>A screenshot of GeoGebra showing two boxplots for the same data stacked. The first one is the regular boxplot and show outliers is unchecked; the second one has 4 outliers on the right side and the box for show outliers is checked.</description>
 		</image>
 	</sidebyside>
@@ -748,8 +748,8 @@
 		</p>
 		</statement>
 		<solution>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/compare_dist1.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/compare_dist1.png">
 			<description>The boxplot for Store 1 shows a 5-number summary of 0.7, 1.8, 2.3, 2.9, 6.3 minutes. The boxplot for Store 2 shows a 5-number summary of 0.5, 1.1, 2.1, 5.7, 9.6 minutes.</description>
 			</image>
 		</sidebyside>
@@ -772,8 +772,8 @@
 		</p>
 		</statement>
 		<solution>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/compare_dist2.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/compare_dist2.png">
 			<description>The boxplot for infants who survived shows a 5-number summary of approximately 1.2, 1.8, 2.2, 2.9, 3.7 kg. The boxplot for infants who died shows a 5-number summary of 1.1, 1.3, 1.5, 2.2, 2.8 kg.</description>
 			</image>
 		</sidebyside>
@@ -847,8 +847,8 @@
 		<p>
 			Apple: <cd>=STANDARDIZE(4.2, 5.8, 1.2)</cd><m>=-1.33</m> standard deviations
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/z_score1.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/z_score1.png">
 			<description>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</description>
 			</image>
 		</sidebyside>
@@ -856,8 +856,8 @@
 		<p>
 			Orange: <cd>=STANDARDIZE (3.5, 4.2, 0.6)</cd><m>=-1.17</m> standard deviations
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/statistics/3_4/z_score2.png">
+		<sidebyside width="50%">
+			<image source="images/statistics/3_4/z_score2.png">
 			<description>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</description>
 			</image>
 		</sidebyside>
@@ -1144,8 +1144,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_mean_prices.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_mean_prices.png">
 					</image>
 				</sidebyside>
 			</li>
@@ -1253,8 +1253,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_commercial_length.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_commercial_length.png">
 					</image>
 				</sidebyside>
 			</li>
@@ -1360,8 +1360,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_puzzle_time.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_puzzle_time.png">
 					</image>
 				</sidebyside>
 			</li>
@@ -1469,8 +1469,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_oreo_weight.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_oreo_weight.png">
 					</image>
 				</sidebyside>
 			</li>
@@ -1625,8 +1625,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_car_purchase.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_car_purchase.png">
 					</image>
 				</sidebyside>
 			</li>
@@ -1810,8 +1810,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_length_characters.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_length_characters.png">
 					</image>
 				</sidebyside>
 			</li>
@@ -1964,8 +1964,8 @@
 				<p>
 					In GeoGebra Classic, enter the data values for Researcher 1 into column A of the spreadsheet, and enter the data values for Research 2 into column B of the spreadsheet. Then use the <q>Multiple Variable Analysis</q> function. Then select <q>Stacked BoxPlots</q> from the drop-down menu.
 				</p>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_lifetime_after_treatement.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_lifetime_after_treatement.png">
 					</image>
 				</sidebyside>
 				<p>
@@ -2123,8 +2123,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_male_female_income.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_male_female_income.png">
 					</image>
 				</sidebyside>
 				<p>
@@ -2376,8 +2376,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_positions_remembered.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_positions_remembered.png">
 					</image>
 				</sidebyside>
 				<p>
@@ -2820,8 +2820,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/solution_leniency.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/solution_leniency.png">
 					</image>
 				</sidebyside>
 				<p>
@@ -2931,8 +2931,8 @@
 				<p>
 					What percentage of CPAs earn less than all actuaries?
 				</p>
-				<sidebyside>
-					<image width="70%" source="images/statistics/3_4/exercise1.png">
+				<sidebyside width="50%">
+					<image source="images/statistics/3_4/exercise1.png">
 					<description>The boxplot for CPA salary shows a 5-number summary of 30, 40, 75, 90, 100 in thousand dollars. The boxplot for Actuary salary shows a 5-number summary of 40, 75, 90, 94, 110 in thousand dollars</description>
 					</image>
 				</sidebyside>
@@ -2973,8 +2973,8 @@
 	<p>
 		Fifty juniors and fifty seniors at a local high school were surveyed to find out how many hours per week they spend studying. The side-by-side boxplots the weekly study times for those high school juniors and seniors.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/statistics/3_4/exercise2.png">
+	<sidebyside width="50%">
+		<image source="images/statistics/3_4/exercise2.png">
 		<description></description>
 		</image>
 	</sidebyside>
@@ -3094,7 +3094,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<md>
@@ -3121,7 +3121,7 @@
 	<statement>
 	<p>
 		This data is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities: 56, 53, 53, 50, 46, 45, 44, 43, 42,40, 36
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Find the mean and the standard deviation, including units.
@@ -3137,7 +3137,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					In GeoGebra:
@@ -3172,7 +3172,7 @@
 		In a survey of 12 companies recruiting for recent college graduates, they reported the following numbers of job applicants per job posting: 123, 123, 134, 127, 115, 122, 125, 101, 130, 143, 110, and 122.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Find the mean and standard deviation, including units.
@@ -3188,7 +3188,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					In GeoGebra:

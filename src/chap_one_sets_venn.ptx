@@ -49,7 +49,7 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						The numbers 2 and 42 are elements of the set of all even numbers.
@@ -103,33 +103,33 @@
 	</p>
 	<example>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
-				<sidebyside>
+				<sidebyside valign="middle" width="40%">
 					<p>
 						If you are searching for books for a research project, the universal set might be all the books in the library, and the books in the library that are relevant to your research project would be a subset of the universal set.
 					</p>
-					<image width="20%" source="images/language_logic_rules/1_2/UV_set_pic1.png">
+					<image source="images/language_logic_rules/1_2/UV_set_pic1.png">
 					<description>A rectangle is drawn for the universal set U, labeled all books in the library; there is a circle inside the rectangle, labeled books relevant to your research project.</description>
 					</image>
 				</sidebyside>
 			</li>
 			<li>
-				<sidebyside>
+				<sidebyside valign="middle" width="40%">
 					<p>
 						If you are wanting to create a group of your Facebook friends that are coworkers, the universal set would be all your Facebook friends and the group of coworkers would be a subset of the universal set.
 					</p>
-					<image width="20%" source="images/language_logic_rules/1_2/UV_set_pic2.png">
+					<image source="images/language_logic_rules/1_2/UV_set_pic2.png">
 					<description>A rectangle is drawn for the universal set U, labeled all your facebook friends; there is a circle inside the rectangle, labeled coworkers.</description>
 					</image>
 				</sidebyside>
 			</li>
 			<li>
-				<sidebyside>
+				<sidebyside valign="middle" width="40%">
 					<p>
 						If you are working with sets of numbers, the universal set might be all whole numbers, and all prime numbers would be a subset of the universal set.
 					</p>
-					<image width="20%" source="images/language_logic_rules/1_2/UV_set_pic3.png">
+					<image source="images/language_logic_rules/1_2/UV_set_pic3.png">
 					<description>A rectangle is drawn for the universal set U, labeled all whole numbers; there is a circle inside the rectangle, labeled all whole numbers.</description>
 					</image>
 				</sidebyside>
@@ -164,7 +164,7 @@
 		<statement>
 		<p>
 			Consider the sets: <em>A</em> = {red, green, blue}, <em>B</em> = {red, yellow, orange}, and <em>C</em> = {red, orange, yellow, green, blue, purple}
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Determine the set <em>A</em> intersect <em>B</em>, and write it in set notation.
@@ -185,7 +185,7 @@
 		</statement>
 		<solution>
 			<p>
-				<ol label="a">
+				<ol label="a.">
 					<li>
 						<p>
 							The intersection contains the elements in both sets: <em>A</em> intersect <em>B</em> = {red}
@@ -214,22 +214,22 @@
 	</p>
 	<figure>
 		<caption></caption>
-		<sidebyside>
+		<sidebyside width="30%">
 			<figure>
             <caption>The <alert>intersection</alert> is where the shading of the two sets overlaps in the center. It contains the elements of A <alert>and</alert> B.</caption>
-            <image width="30%" source="images/language_logic_rules/1_2/Venn_pic1.png">
+            <image source="images/language_logic_rules/1_2/Venn_pic1.png">
             <description>A Venn diagram of two overlapping sets, labeled set A and set B, with 3 regions; the crescent shape in yellow indicates the region for members who are only in set A; the crescent shape shaded blue indicates the members who are only in set B; the overlapping region in the middle is shaded green to indicate member in both sets; the green area is called the intersection</description>
         	</image>
         </figure>
         <figure>
             <caption>The <alert>union</alert> includes all elements of A <alert>or</alert> B or both. It contains all three of the shaded regions.</caption>
-            <image width="30%" source="images/language_logic_rules/1_2/Venn_pic2.png">
+            <image source="images/language_logic_rules/1_2/Venn_pic2.png">
             <description>The same Venn diagram used to illustrate the union is all 3 regions</description>
         	</image>
         </figure>
         <figure>
 	        <caption>The <alert>complement</alert> of set A includes all the elements <alert>not</alert> in A. It is the shaded region outside the set of A, but within the universal set.</caption>
-	        <image width="30%" source="images/language_logic_rules/1_2/Venn_pic3.png">
+	        <image source="images/language_logic_rules/1_2/Venn_pic3.png">
 	        <description>A Venn diagram with only one set A; The region outside the circle for A but inside the rectangle is shaded blue to represent the complement of the set or elements not in set A.</description>
 	    	</image>
         </figure>
@@ -253,8 +253,8 @@
 		<p>
 			All the books that Rose read will lie in her circle, in one of the two regions that make up her set. Likewise for the books Julio read. Since we have already filled in the overlapping region, we put the books that only Rose read in her circle’s <q>cresent moon</q> section, and we put the books that only Julio read in his circle’s <q>cresent moon</q> section. The resulting diagram is shown below.
 		</p>
-		<sidebyside>
-		<image width="70%" source="images/language_logic_rules/1_2/Venn_pic4.png">
+		<sidebyside width="40%">
+		<image source="images/language_logic_rules/1_2/Venn_pic4.png">
 			<description>A Venn diagram with 2 overlapping sets, one for Rose and one for Julio; The books that only rose read are in her crescent: The Hobbit, The tipping Point, and Greek Love; The books that only Julio read are in his crescent: Game of Thrones and Animal Farm; the books they both read are in the center  region: 1984.</description>
 		</image>
 		</sidebyside>
@@ -265,8 +265,8 @@
 		<p>
 			In the last section we discussed the difference between <alert>inclusive <q>or</q></alert> and <alert>exclusive <q>or.</q></alert> In common language, <q>or</q> is usually exclusive, meaning the set <em>A</em> or <em>B</em> includes just <em>A</em> or just <em>B</em> but not both. In logic, however, <q>or</q> is inclusive, so the set <em>A</em> or <em>B</em> includes just <em>A</em>, just <em>B</em>, or both. The difference between the inclusive and exclusive <q>or</q> can be illustrated in a Venn, as shown below.
 		</p>
-		<sidebyside>
-		<image width="80%" source="images/language_logic_rules/1_2/Venn_pic5.png">
+		<sidebyside width="40%">
+		<image source="images/language_logic_rules/1_2/Venn_pic5.png">
 			<description>A previous generic Venn diagram showing 2 ovelapping sets, set A and set B. The yellow crescent is labeled Just A, the blue crescent is labeled Just B, and the green intersection is labeled A and B. The inclusive or includes all 3 regions; the exclusive or is just the yellow and blue regions.</description>
 		</image>
 		</sidebyside>
@@ -288,8 +288,8 @@
 		<p>
 			To answer this question, let’s first create a Venn diagram representing the survey results. Placing the given values, we have the following:
 		</p>
-		<sidebyside>
-		<image width="80%" source="images/language_logic_rules/1_2/ill_data1.png">
+		<sidebyside width="40%">
+		<image source="images/language_logic_rules/1_2/ill_data1.png">
 		<description>A Venn diagram with 2 overlapping sets, labeled coffee and tea; There are 80 people in the crescent for only coffee only, 30 people in the crescent for only tea, and 40 in the overlapping region in the center for coffee and tea</description>
 		</image>
 		</sidebyside>
@@ -299,8 +299,8 @@
 		<p>
 			The number of people who drink tea in the morning includes everyone in the tea circle. This includes those who only drink tea and those who drink both tea and coffee. Thus, the number of people who drink tea is 40 + 30 = 70.
 		</p>
-		<sidebyside>
-		<image width="60%" source="images/language_logic_rules/1_2/ill_data2.png">
+		<sidebyside width="40%">
+		<image source="images/language_logic_rules/1_2/ill_data2.png">
 		<description>The same Venn digram with the number 50 placed outside of the circles and inside the universal set. These are the people who don't drink tea or coffee</description>
 		</image>
 		</sidebyside>
@@ -368,8 +368,8 @@
 		<p>
 			Then we have the overlap of two modes of transportation only. There are 35 people who use their car and bike only, so they go in the overlap of those two sets, but they do not take the bus, so they are outside of the bus set. Similarly, we can enter the 10 and 8. There are 12 people who use all three modes, so they are in the intersection of all three sets. There are 15 people who do not use any of the three modes, so they are placed outside the circles but inside the universal set of all modes of transportation. Here is the completed Venn diagram.
 		</p>
-		<sidebyside>
-		<image width="70%" source="images/language_logic_rules/1_2/ill_data3.png">
+		<sidebyside width="40%">
+		<image source="images/language_logic_rules/1_2/ill_data3.png">
 		<description>A Venn diagram with 3 overlapping circles labeled bus, car and bike; The numbers are places as in the text: bus only, 35; car only, 57; bike only, 20; bus and car only, 10, bus and bike only, 8; bike and car only, 35; the center region for all 3 modes of transportation has 12. The region outside the circles has 15 people</description>
 		</image>
 		</sidebyside>
@@ -429,8 +429,8 @@
 		<p>
 			We work our way out, filling in all the regions. Once we have, we can add up all those regions, getting 91 people in the union of all three sets. This leaves 150 – 91 = 59 who believe in none.
 		</p>
-			<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_2/ill_data4.png">
+			<sidebyside width="40%">
+			<image source="images/language_logic_rules/1_2/ill_data4.png">
 			<description>A Venn diagram with 3 overlapping circles labeled bigfoot, UFO's and ghosts; The numbers are places as in the text: bigfoot only, 14; UFO's only, 30; ghosts only, 28; bigfooot and UFO's only, 3; bigfoot and ghosts only, 6; UFO's and ghosts only, 8; the center region overlapping all 3 has 2. The region outside the circles has 59 people</description>
 			</image>
 			</sidebyside>
@@ -454,7 +454,7 @@
 		Sets overlap if they have members in common. The Venn diagram examples we have looked at in this section are <alert>overlapping</alert> sets.
 	</p>
 	<example>
-		<sidebyside>
+		<sidebyside valign="middle" width="30%">
 			<stack>
 				<p>
 					The set of students living in SE Portland and the set of students taking MTH 105.
@@ -463,7 +463,7 @@
 					Qualified Proposition: <q><alert>Some</alert> students who live in SE Portland take MTH 105.</q>
 				</p>
 			</stack>
-				<image width="20%" source="images/language_logic_rules/1_2/overlap_set.png">
+				<image source="images/language_logic_rules/1_2/overlap_set.png">
 				<description>A set diagram showing 2 overlapping sets, students in SE portland and students in Math 105; the overlapping region is students who live in SE and are taking Math 105; the rectangle is labeled with U for the universal set</description>
 				</image>
 		</sidebyside>
@@ -477,7 +477,7 @@
 	</p>
 
 	<example>
-		<sidebyside>
+		<sidebyside valign="middle" width="30%">
 			<stack>
 				<p>
 					The set of Cats and the set of Dogs.
@@ -486,7 +486,7 @@
 					Qualified Proposition: <q><alert>No</alert> cats are Dogs.</q>
 				</p>
 			</stack>
-				<image width="20%" source="images/language_logic_rules/1_2/disjoint_set.png">
+				<image source="images/language_logic_rules/1_2/disjoint_set.png">
 				<description>A set diagram showing 2 sets that are entirely separate, cats and dogs. The circles do not overlap but they are in the universal set rectangle</description>
 				</image>
 		</sidebyside>
@@ -499,7 +499,7 @@
 		If a set is completely contained in another set, it is called a <alert>subset</alert>.
 	</p>
 	<example>
-		<sidebyside>
+		<sidebyside valign="middle" width="30%">
 			<stack>
 				<p>
 					The set of all Trees and the set of Maples Trees.
@@ -508,7 +508,7 @@
 					Qualified Proposition: <q><alert>All</alert> Maples are Trees.</q>
 				</p>
 			</stack>
-				<image width="20%" source="images/language_logic_rules/1_2/subsets.png">
+				<image source="images/language_logic_rules/1_2/subsets.png">
 				<description>A set diagram showing the circle for the set maple trees inside the circle for the set of trees. Both are inside the universal rectangle, U</description>
 				</image>
 		</sidebyside>
@@ -710,7 +710,7 @@
 			<image width="70%" source="images/language_logic_rules/1_2/solution_movies_venn.png"></image>
 		</sidebyside>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Twenty-four students have seen exactly one of these movies.
@@ -759,7 +759,7 @@
 			<image width="70%" source="images/language_logic_rules/1_2/solution_bike_walk_bus_venn.png"></image>
 		</sidebyside>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 				<li>
 					<p>
 						Eighteen people only ride the bus.
@@ -780,7 +780,7 @@
 	<introduction>
 	<p>
 		Given the qualified propositions:
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Determine the two sets being described.
@@ -808,7 +808,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 			<li>
 				<p>
 					Terriers and dogs
@@ -837,7 +837,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 			<li>
 				<p>
 					Mammals and Things that swim
@@ -866,7 +866,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 			<li>
 				<p>
 					Pigs and things that can fly
@@ -895,7 +895,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 			<li>
 				<p>
 					Children and people that are young
@@ -924,7 +924,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 			<li>
 				<p>
 					There are at least two ways this can be interpreted. Friends and people that remember your birthday OR friends and friends that remember my birthday.
@@ -956,7 +956,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a">
+			<ol label="a.">
 			<li>
 				<p>
 					Lies and truths
@@ -1003,8 +1003,8 @@
 		<p>
 			Explain what each of the regions in the following Venn Diagram represent.
 		</p>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_2/hw_1.2_additional_ex_1.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_2/hw_1.2_additional_ex_1.png">
 			<description>
 			</description>
 			</image>
@@ -1152,8 +1152,8 @@
 	<p>
 		The Venn Diagram below shows the numbers of students in grade 5 at an elementary school who have enrolled for keyboard (K), guitar (G), and drum classes. Fill in the blanks
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/language_logic_rules/1_2/hw_1.2_additional_ex_3.png">
+	<sidebyside width="50%">
+		<image source="images/language_logic_rules/1_2/hw_1.2_additional_ex_3.png">
 		<description>
 		</description>
 		</image>
@@ -1236,8 +1236,8 @@
 	<p>
 		A poll asked 100 coffee drinkers whether they like cream or sugar in their coffee. The information was organized in the following Venn Diagram.
 	</p>
-	<sidebyside>
-		<image width="70%" source="images/language_logic_rules/1_2/hw_1.2_additional_ex_4.png">
+	<sidebyside width="50%">
+		<image source="images/language_logic_rules/1_2/hw_1.2_additional_ex_4.png">
 		<description>
 		</description>
 		</image>
@@ -1284,7 +1284,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Thirty-six coffee drinkers like cream.
@@ -1348,7 +1348,7 @@
 		</ul>
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Draw a Venn diagram to represent this information
@@ -1374,7 +1374,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<sidebyside>
 					<image width="70%" source="images/language_logic_rules/1_2/taste_filling_venn.png"></image>

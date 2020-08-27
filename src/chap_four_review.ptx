@@ -47,7 +47,7 @@
 		If one student was chosen at random, find each probability:
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					P(in the afternoon class)
@@ -78,7 +78,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					P(in the afternoon class) <m>\approx 28/60=0.4667</m>
@@ -150,7 +150,7 @@
 		If one student was chosen at random, find each probability:
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					P(in the math class)
@@ -181,7 +181,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					P(in the math class) <m>=27/65 \approx 0.4154</m>
@@ -270,7 +270,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					P(Sitcom or Game Show)
@@ -358,7 +358,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					P(Sitcom or Game Show) <m>=40/65 \approx 0.6154</m>
@@ -452,7 +452,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					P(Reality or Crime Show)
@@ -540,7 +540,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					P(Reality or Crime Show) <m>=36/83 \approx 0.4337</m>
@@ -582,7 +582,7 @@
 		A ball is drawn randomly from a jar containing 12 red marbles, 8 white marbles, and 5 yellow marbles. Find the probability of:
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Drawing a red marble.
@@ -618,7 +618,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<m>\text{P(red)}=12/25=0.48</m>
@@ -660,7 +660,7 @@
 		A ball is drawn randomly from a jar containing 18 black marbles, 4 purple marbles, and 9 blue marbles. Find the probability of:
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Drawing a black marble.
@@ -696,7 +696,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<m>\text{P(Black)}=18/31 \approx 0.5806</m>
@@ -738,7 +738,7 @@
 		What is the probability of flipping a coin four times
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					and getting a head each time?
@@ -754,7 +754,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<m>\text{P(Four heads)}=0.0625</m>
@@ -776,7 +776,7 @@
 		What is the probability of flipping a coin 7 times
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					and getting all tails?
@@ -792,7 +792,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<m>\text{P(All tails)} \approx 0.0078</m>
@@ -814,7 +814,7 @@
 		According to a survey by Pew Research in 2020, 68% of U.S. adults say the federal government is doing too little to protect water quality. (+/- 1.6%)<fn><url href="  https://www.pewresearch.org/fact-tank/2020/04/21/how-americans-see-climate-change-and-the-environment-in-7-charts/">https://www.pewresearch.org/fact-tank/2020/04/21/how-americans-see-climate-change-and-the-environment-in-7-charts/</url></fn> If you pick two adults at random, what is the probability that
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Both of them think the government is doing too little to protect water quality.
@@ -830,7 +830,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<m>\text{P(Both too little)} \approx 0.4624</m>
@@ -852,7 +852,7 @@
 		According to a national AP-NORC Survey, 95% of U.S. adults think changes are needed in the criminal justice system (+/- 3.7%).<fn><url href="http://www.apnorc.org/projects/Pages/Widespread-Desire-for-Policing-and-Criminal-Justice-Reform.aspx">http://www.apnorc.org/projects/Pages/Widespread-Desire-for-Policing-and-Criminal-Justice-Reform.aspx</url></fn> If you pick 3 people at random, what is the probability that
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					All of them support criminal justice reform.
@@ -868,7 +868,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					<m>\text{P(All support)} \approx 0.8574</m>
@@ -890,7 +890,7 @@
 		A bag contains 2 black marbles, 4 orange marbles, and 20 yellow marbles. Someone offers to play this game: You randomly select one marble from the bag. If it is black, you win $3. If it is orange, you win $2. If it is yellow, you lose $1.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Make a probability model for this game.
@@ -911,7 +911,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -957,7 +957,7 @@
 		A friend devises a game that is played by rolling a single six-sided die once. If you roll a 6, he pays you $10; if you roll a 5, he pays you nothing; if you roll a number less than 5, you pay him $1.
 	</p>
 	<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<p>
 					Make a probability model for this game.
@@ -978,7 +978,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a">
+		<ol label="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
