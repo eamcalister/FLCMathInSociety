@@ -4,6 +4,28 @@
 		Logic and Sets
 	</title>
 
+<introduction>
+	<title>Dr. Jonathan Farley and Partially Ordered Sets</title>
+		<sidebyside valign="middle" widths="60% 38%" margins="0%">
+			<stack>
+			<p>
+				Dr. Jonathan Farley grew up near Rochester, New York and got his mathematics degree from Harvard University. He then went to Oxford University in the United Kingdom. (Later he would return as a Fulbright Distinguished Scholar.) He was awarded Oxford’s highest mathematics awards for graduate students, the Senior Mathematical Prize and the Johnson Prize, and earned his doctorate a year later (MIT, 2005). He had a two-year visit to the Mathematical Sciences Research Institute from 1995 to 1997. He is currently an Associate Professor at Morgan State University, a historically Black college.
+			</p>
+			</stack>
+			<image source="images/language_logic_rules/1_1/jf_pic.png"></image>
+		</sidebyside>
+		
+		<p>
+			Dr. Farley solved decades-old unsolved problems in the theory of ordered sets. Now he uses his expertise to help with counterterrorism. Dr. Farley applies lattice theory, a branch of mathematics that deals with ordered sets, to determine the probability that a terrorist cell has been disrupted after some of its members have been captured (Stafford, 2006). A group at Los Alamos National Laboratory used lattice theory for counterterrorism in the following way: A concept lattice can be drawn so that people who share many of the same characteristics are grouped together as one node, and links between nodes indicate that all the members of a subset with certain attributes must also have other attributes. Dr. Farley’s work has been recognized both nationally and internationally and used by the Ministry of National Security in Jamaica (Hermoza, 2015).
+		</p>
+		<p>
+			Dr. Farley is also interested in making math more accessible and mentoring women in mathematics. He conceived of and co-organized a symposium on women and mathematics at Stanford University’s Institute for Research on Women and Gender, called <q>Proof and Prejudice.</q> He has co-founded Girls Equal Math, Equations of Peace, and an enterprise that creates math-themed fashion to encourage girls to go into math, Peren Linn Fashion (Brown, 2015).
+		</p>
+		<p>
+			Dr. Farley has also been a mathematics consultant for the hit TV shows <em>Numb3rs, Medium,</em> and <em>Elementary</em>. Dr. Farley’s projects and applications of math continue to make it more interesting and relatable to a wider audience. You can read more on his website, Lattice Theory<fn><url href="http://www.latticetheory.net/"></url></fn><fn>Photo of Dr. Jonathan Farley: <copyright/>Jonathan Farley, All rights reserved, used with permission.</fn>.
+		</p>
+</introduction>
+
 <xi:include href="chap_one_language_logic.ptx" />
 <xi:include href="chap_one_sets_venn.ptx" />
 <xi:include href="chap_one_arguments.ptx" />

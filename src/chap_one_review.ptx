@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <section xml:id="chap_one_review">
-<title>Chapter 1 Review Questions</title>
+<title>Chapter 1 Review</title>
 
 <exercises>
-<title>Chapter 1 Review Questions</title>
+	<title>Review Exercises</title>
 
 <exercise>
 	<statement>
@@ -551,7 +551,7 @@
 	<p>
 		The following Venn Diagram shows how 70 customers at the local coffee shop like their coffee.
 	</p>
-	<sidebyside width="50%">
+	<sidebyside width="40%">
 		<image source="images/language_logic_rules/1_4/like_your_coffee_venn.png">
 		</image>
 	</sidebyside>
@@ -641,8 +641,8 @@
 	<p>
 		<ol label="a.">
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/language_logic_rules/1_4/bio_mth105_venn.png">
+				<sidebyside width="50%">
+					<image source="images/language_logic_rules/1_4/bio_mth105_venn.png">
 				</image>
 				</sidebyside>
 			</li>
@@ -691,8 +691,8 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_4/coffee_chocolate_venn.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_4/coffee_chocolate_venn.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -722,7 +722,7 @@
 			</li>
 			<li>
 				<p>
-					Newspaper and Website 5 
+					Newspaper and Website 5
 				</p>
 			</li>
 			<li>
@@ -776,8 +776,8 @@
 	<p>
 		<ol label="a.">
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/language_logic_rules/1_4/twitter_newspaper_website_venn.png">
+				<sidebyside width="50%">
+					<image source="images/language_logic_rules/1_4/twitter_newspaper_website_venn.png">
 					</image>
 				</sidebyside>
 			</li>
@@ -845,7 +845,7 @@
 <exercisegroup>
 	<introduction>
 	<p>
-		For each, draw the appropriate illustration of sets (Subset, Disjoint or Overlapping).Then put an X to represent the subject of the conclusion. Alternatively, use two question marks to illustrate the subject could fit into two locations. Finally, state if the conclusion is valid.
+		For each argument, draw the appropriate illustration of sets (Subset, Disjoint or Overlapping).Then put an X to represent the subject of the conclusion. Alternatively, use two question marks to illustrate the subject could fit into two locations. Finally, state whether the conclusion is valid and whether it is sound.
 	</p>
 	</introduction>
 
@@ -858,12 +858,12 @@
 		<insert>Wrigley Field is a baseball park.</insert>
 	</p>
 	<p>
-		Wrigley Field has hotdogs.
+		Conclusion: Wrigley Field has hotdogs.
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_4/baseball_hotdog_venn.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_4/baseball_hotdog_venn.png">
 			</image>
 		</sidebyside>
 		<p>
@@ -880,12 +880,12 @@
 		<insert>Henry does not like to run in the park.</insert>
 	</p>
 	<p>
-		Henry is not a dog.
+		Conclusion: Henry is not a dog.
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_4/solution_animals_park.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_4/solution_animals_park.png">
 			</image>
 		</sidebyside>
 		<p>
@@ -902,12 +902,12 @@
 		<insert>Javeer plays soccer.</insert>
 	</p>
 	<p>
-		Javeer is a student.
+		Conclusion: Javeer is a student.
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_4/solution_students_sports.png">
+		<sidebyside width="50%">
+			<image source="images/language_logic_rules/1_4/solution_students_sports.png">
 			</image>
 		</sidebyside>
 		<p>

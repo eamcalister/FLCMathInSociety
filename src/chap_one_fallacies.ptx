@@ -22,7 +22,7 @@
 <subsection>
 	<title>Logical Fallacies</title>
 	<p>
-		In the last section we saw that logical arguments are invalid when the premises are not sufficient to guarantee the conclusion, and that even if an argument is valid it may be unsound if the premises are not true. There are other ways that a logical argument my by invalid or unsound. One of the more common ways this can occur is if the argument is a <alert>fallacy</alert>. 
+		In the last section we saw that logical arguments are invalid when the premises are not sufficient to guarantee the conclusion, and that even if an argument is valid it may be unsound if the premises are not true. There are other ways that a logical argument my by invalid or unsound. One of the more common ways this can occur is if the argument is a <alert>fallacy</alert>.
 	</p>
 	<p>
 		A <alert>fallacy</alert> is a type of argument that appears valid but uses a logical error to persuade or deceive. Fallacious arguments are especially common in advertising and politics, so it is important as informed citizens to recognize when we are being presented with a fallacious argument and to not be persuaded by it.
@@ -32,14 +32,14 @@
 <subsection>
 	<title>Common Logical Fallacies</title>
 	<p>
-		There are many logical fallacies, and some go by more than one name. Below we introduce a few of the more common fallacies that you will be asked to recognize by name, but there are many others. 
+		There are many logical fallacies, and some go by more than one name. Below we introduce a few of the more common fallacies that you will be asked to recognize by name, but there are many others.
 	</p>
 </subsection>
 
 <subsection>
 	<title>Personal Attack (Ad hominem)</title>
 		<p>
-			A <alert>personal attack</alert> argument attacks the person making the argument while ignoring the argument itself. A personal attack is not the same as an insult. Rather, a personal attack claims that there is something wrong with the person or group in order to cast doubt on their character and discredit their argument. 
+			A <alert>personal attack</alert> argument attacks the person making the argument while ignoring the argument itself. A personal attack is not the same as an insult. Rather, a personal attack claims that there is something wrong with the person or group in order to cast doubt on their character and discredit their argument.
 		</p>
 		<example>
 			<p>
@@ -51,7 +51,7 @@
 		</example>
 		<example>
 			<p>
-				<q>Jane says that whales aren’t fish, but everyone knows that they’re really mammals. She’s so stupid.</q> 
+				<q>Jane says that whales aren’t fish, but everyone knows that they’re really mammals. She’s so stupid.</q>
 			</p>
 			<p>
 				This certainly isn’t very nice, but it is <em>not</em> a personal attack since a valid counterargument is made (<q>they really are mammals</q>) along with a personal insult. 
@@ -165,12 +165,14 @@
 </subsection>
 
 <exercises>
-<title>Exercises 1.4</title>
-	<introduction>
+<title>Exercises</title>
+	
+	<exercisegroup>
+		<introduction>
 		<p>
 			Determine which type of fallacy each argument represents.
 		</p>
-	</introduction>
+		</introduction>
 <exercise>
 	<statement>
 	<p>
@@ -413,6 +415,7 @@
 		</p>
 	</solution>
 </exercise>
+</exercisegroup>
 
 <exercise>
 	<statement>

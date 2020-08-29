@@ -4,6 +4,35 @@
 		Probability
 	</title>
 
+	<introduction>
+	<title>Dr. Hilda Geiringer and Probability</title>
+		<sidebyside valign="bottom" widths="65% 33%" margins="0%">
+			<stack>
+			<p>
+		Dr. Hilda Geiringer (1893 - 1973) was born in Vienna, Austria, to a Jewish family. When she was in high school she showed great mathematical ability and while many women were discouraged from academics, her parents supported her so she could attend the University of Vienna. She earned her Ph.D. in mathematics in 1917. In 1921, she moved to Berlin, Germany, where she was a research assistant to Richard von Mises in the Institute of Applied Mathematics (Robertson &amp; O’Connor, 2020).
+	</p>
+	<p>
+		Dr. Geiringer was the first woman to teach applied mathematics at a German university (Manning, 2019) and in 1933, she was nominated for an assistant professor position. In the same year, however, the Nazi party took over in Germany and she was dismissed as a result of Nazi anti-Jewish legislation (Freidenreich, 2020). 
+	</p>
+</stack>
+			<image source="images/probability/4_1/hg_pic.png"></image>
+		</sidebyside>
+		
+	
+	<p>
+		After some time in Brussels, Belgium, she fled again to Turkey who welcomed approximately 200 German scholars. She had to learn Turkish to teach and became a professor with a five-year contract (McNeill, 2019). It was there that she thrived, publishing 18 articles and a calculus textbook. She conducted innovative research in probability theory and Mandelian genetics by configuring recursive equations to study the distribution of genotypes and blood types (McNeill, 2019).
+	</p>
+	<p>
+		In 1939, Turkey began replacing Jewish refugees at the university and fearing for her safety again, Dr. Geiringer had another challenge in moving to the United States. In the U.S. she faced open discrimination towards women in mathematics and she could only teach at womens colleges. She accepted an unpaid position at Bryn Mawr College to get a visa to the U.S. (McNeill, 2019) and then settled at Wheaton College in Norton, Massachusetts.
+	</p>
+	<p>
+		While Wheaton was not a research institution, she never gave up her research and she published more than 80 articles, reviews and books on pure and applied mathematics (Manning, 2019). In 1953 she wrote, <q>I have to work scientifically, besides my college work. This is a necessity for me; I never stopped it since my student days, it is the deepest need of my life.</q>
+	</p>
+	<p>
+		Dr. Geiringer is also known for the Geiringer equations that simplify the process of calculating the deformation of metal in slip-line field theory. In 1956 she was elected professor emeritus by the University of Berlin with a full salary and she retired from Wheaton in 1959 (Robertson &amp; O’Connor, 2020).
+	</p>
+</introduction>
+
 <xi:include href="chap_four_contingency_tables.ptx" />
 <xi:include href="chap_four_theoretical_probability.ptx" />
 <xi:include href="chap_four_expected_value.ptx" />

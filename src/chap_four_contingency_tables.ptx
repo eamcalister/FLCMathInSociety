@@ -44,33 +44,6 @@
 	</ul>
 </objectives>
 
-<subsection>
-	<title></title>
-	<paragraphs>
-	<title>Dr. Hilda Geiringer and Probability</title>
-		<sidebyside width="50%">
-			<image source="images/probability/4_1/hg_pic.png"></image>
-		</sidebyside>
-		<p>
-		Dr. Hilda Geiringer (1893 - 1973) was born in Vienna, Austria, to a Jewish family. When she was in high school she showed great mathematical ability and while many women were discouraged from academics, her parents supported her so she could attend the University of Vienna. She earned her Ph.D. in mathematics in 1917. In 1921, she moved to Berlin, Germany, where she was a research assistant to Richard von Mises in the Institute of Applied Mathematics (Robertson &amp; O’Connor, 2020).
-	</p>
-	<p>
-		Dr. Geiringer was the first woman to teach applied mathematics at a German university (Manning, 2019) and in 1933, she was nominated for an assistant professor position. In the same year, however, the Nazi party took over in Germany and she was dismissed as a result of Nazi anti-Jewish legislation (Freidenreich, 2020). 
-	</p>
-	<p>
-		After some time in Brussels, Belgium, she fled again to Turkey who welcomed approximately 200 German scholars. She had to learn Turkish to teach and became a professor with a five-year contract (McNeill, 2019). It was there that she thrived, publishing 18 articles and a calculus textbook. She conducted innovative research in probability theory and Mandelian genetics by configuring recursive equations to study the distribution of genotypes and blood types (McNeill, 2019).
-	</p>
-	<p>
-		In 1939, Turkey began replacing Jewish refugees at the university and fearing for her safety again, Dr. Geiringer tried to secure a visa to move to the United States. In the U.S. she faced open discrimination towards women in mathematics and she could only teach at womens colleges. She accepted an unpaid position at Bryn Mawr College to get a visa to the U.S. (McNeill, 2019) and then settled at Wheaton College in Norton, Massachusetts.
-	</p>
-	<p>
-		While Wheaton was not a research institution, she never gave up her research and she published more than 80 articles, reviews and books on pure and applied mathematics (Manning, 2019). In 1953 she wrote, <q>I have to work scientifically, besides my college work. This is a necessity for me; I never stopped it since my student days, it is the deepest need of my life.</q>
-	</p>
-	<p>
-		Dr. Geiringer is also known for the Geiringer equations that simplify the process of calculating the deformation of metal in slip-line field theory. In 1956 she was elected professor emeritus by the University of Berlin with a full salary and she retired from Wheaton in 1959 (Robertson &amp; O’Connor, 2020).
-	</p>
-	</paragraphs>
-</subsection>
 
 <introduction>
 	<p>
@@ -247,7 +220,7 @@
 	<p>
 		Notice that the numbers in the four regions of the Venn diagram are the same as the four cells in the center of the contingency table and add to the grand total.
 	</p>
-	<sidebyside width="50%">
+	<sidebyside width="35%">
 		<image source="images/probability/4_1/cont_table_venn.png">
 		<description>The same Venn diagram with the number 50 placed outside of the circles and inside the universal set. These are the people who don't drink tea or coffee</description>
 		</image>
@@ -784,16 +757,18 @@
 					To find <m>P(\text{red or ticket})</m>, we need to add those who drive a red car and did not have a speeding ticket (just red), those who had a speeding ticket and do not drive a red car (just ticket) and those who drive a red car and had a speeding ticket (both), and divide by the total number of participants:
 				</p>
 				<p>
-					<m>P(\text{red and no ticket})=\frac{135+45+15}{665}=\frac{195}{665} \approx 0.293</m> or 29.3%
+					<md>
+					<mrow>P(\text{red and no ticket})=\frac{135+45+15}{665}=\frac{195}{665} \approx 0.293\text{ or } 29.3\%</mrow>
+					</md>
 				</p>
 				<p>
 					Recall from our earlier discussion that we could also calculate the or probability as:
 				</p>
 				<p>
 					<md>
-						<mrow>P(\text{red and no ticket})= P(\text{red})+ P(\text{speeding ticket}) - P(\text{red and speeding ticket})</mrow>
-						<mrow>=\frac{150}{665}+\frac{60}{665}-\frac{15}{665}</mrow>
-						<mrow>=\frac{195}{665}</mrow>
+						<mrow>P(\text{red and no ticket})\amp= P(\text{red})+ P(\text{speeding ticket}) - P(\text{red and speeding ticket})</mrow>
+						<mrow>\amp=\frac{150}{665}+\frac{60}{665}-\frac{15}{665}</mrow>
+						<mrow>\amp=\frac{195}{665}</mrow>
 					</md>
 				</p>
 				<p>
@@ -833,7 +808,9 @@
 					The probability <m>P(\text{speeding ticket given red car})</m> is a conditional probability as we have seen before since it is conditional on the given characteristic occurring. In this problem, the given characteristic is owning a red car, so we isolate our attention to just the row of 150 red car owners and see how many have had a speeding ticket in the last year. Looking at the table, we see that there were 15 red car owners who had a speeding ticket in the last year, so we calculate:
 				</p>
 				<p>
-					<m>P(\text{speeding ticket given red car})=\frac{15}{150} = 0.10</m> or 10%
+					<md>
+					<mrow>P(\text{speeding ticket given red car})=\frac{15}{150} = 0.10\text{ or } 10\%</mrow>
+					</md>
 				</p>
 			</li>
 			<li>
@@ -869,7 +846,9 @@
 					This question is also asking for a conditional probability, <m>P(\text{red car given speeding ticket})</m>, but it is phrased more like we would say it. In this case the given characteristic is that the person has received a speeding ticket, so we will isolate our attention to just the speeding ticket column. Among the 60 people who had a speeding ticket in the last year, we see that 15 also drove a red car. Now we can calculate the probability:
 				</p>
 				<p>
-					<m>P(\text{red car given speeding ticket})=\frac{15}{60} = 0.25</m> or 25%
+					<md>
+					<mrow>P(\text{red car given speeding ticket})=\frac{15}{60} = 0.25\text{ or }25\%</mrow>
+					</md>
 				</p>
 				<p>
 					Notice that compared with part e, when we change the conditional characteristic, we change the denominator of the fraction.
@@ -896,7 +875,7 @@
 	<example>
 		<statement>
 		<p>
-			A home pregnancy test was given to a sample of 93 women, and their pregnancy was then verified by a blood test. The contingency table below shows the home pregnancy test and whether or not they were actually pregnant as determined by the blood test. Find the probability that a randomly selected woman in the sample
+			A home pregnancy test was given to a sample of 93 cisgender women, and their pregnancy was then verified by a blood test. The contingency table below shows the home pregnancy test and whether or not they were actually pregnant as determined by the blood test. Find the probability that a randomly selected woman in the sample
 			<ol label="a.">
 				<li>
 					<p>
@@ -976,7 +955,10 @@
 					</tabular>
 					</sidebyside>
 		 			<p>
-		 				<m>P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067</m> or 6.7%
+		 				<md>
+		 				<mrow>P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067\text{ or } 6.7\%
+		 				</mrow>
+		 			</md>
 		 			</p>
 		 		</li>
 		 		<li>
@@ -1012,20 +994,26 @@
 					</tabular>
 					</sidebyside>
 		 			<p>
-		 				<m>P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263</m> or 26.3% This result is referred to as a false positive: A positive test result when the woman is not actually pregnant.
+		 				<md>
+		 				<mrow>P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or } 26.3\% </mrow>
+						</md>
+					</p>
+					<p>
+		 				This result is referred to as a false positive: A positive test result when the woman is not actually pregnant.
 		 			</p>
 		 		</li>
 		 	</ol>
 		</p>
-		<p>
-			In this section we have learned about empirical probability. In the next section we will discuss another kind of probability that you may be familiar with – theoretical probability.
-		</p>
+		
 	</solution>
 	</example>
+	<p>
+		In this section we have learned about empirical probability. In the next section we will discuss another kind of probability that you may be familiar with – theoretical probability.
+	</p>
 </subsection>
 
 <exercises>
-<title>Exercises 4.1</title>
+<title>Exercises</title>
 
 <exercise><!--  #1 -->
 	<statement>
@@ -1096,7 +1084,7 @@
 <exercise><!--  #2 -->
 	<statement>
 	<p>
-		A recent survey asked a random sample of PCC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below. 
+		A recent survey asked a random sample of PCC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below.
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1165,11 +1153,9 @@
 	<p>
 		A recent survey asked PCC students if they regularly eat breakfast and if they regularly floss their teeth Use the completed Venn Diagram to fill in the corresponding contingency table.
 	</p>
-	<sidebyside width="50%">
+	<sidebyside widths="32% 60%">
 		<image source="images/probability/4_1/breakfast_floss_venn.png">
 		</image>
-	</sidebyside>
-	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row>
 			<cell></cell>
@@ -1236,11 +1222,9 @@
 	<p>
 		A recent survey asked PCC students if they used an Apple phone, and if the regularly used a Chromebook outside of school. Use the completed Venn Diagram to fill in the corresponding contingency table.
 	</p>
-	<sidebyside width="50%">
+	<sidebyside widths="32% 60%">
 		<image source="images/probability/4_1/apple_chrome_venn.png">
 		</image>
-	</sidebyside>
-	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row>
 			<cell></cell>
@@ -1544,7 +1528,7 @@
 				<p>
 					<md>
 						<mrow>\text{P(In morning class)}=\frac{39}{65}</mrow>
-						<mrow>= 0.60 \text{ or 60%}</mrow>
+						<mrow>= 0.60\text{ or } 60\%</mrow>
 					</md>
 				</p>
 			</li>

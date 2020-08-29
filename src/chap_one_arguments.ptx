@@ -100,7 +100,7 @@
 	<p>
 		In general, an <alert>inductive argument</alert> uses a collection of <em>specific</em> examples (i.e. data) as its premises and uses them to propose a <em>general</em> conclusion, while a <alert>deductive argument</alert> uses a collection of <em>general statements</em> (i.e. definitions) as its premises and uses them to propose a <em>specific conclusion</em>. You can see the difference in the pyramids below. We start with the premises at the bottom and build up to the conclusion.
 	</p>
-	<sidebyside width="40%">
+	<sidebyside widths="40% 40%">
 		<image source="images/language_logic_rules/1_3/ind_ded_argument1.png">
 		<description>A pyramid upside down with the narrow end at the bottom for a specific premise, the middle section is another specific premise; the wide part at the top is for the general conclusion</description>
 		</image>
@@ -146,16 +146,16 @@
 				</li>
 				<li>
 					<p>
-						Premise: Goober is having puppies. 
+						Premise: Goober is having puppies.
 					</p>
 					<p>
-						Premise: Goober’s last three litters had 5 puppies. 
+						Premise: Goober’s last three litters had 5 puppies.
 					</p>
 					<p>
 						Conclusion: Goober’s current litter will have 5 puppies.
 					</p>
 					<p>
-						This is an example of an <alert>inductive argument</alert> since it uses specific experiences/instances as its premises, and its conclusion is a general expectation based on those specific experiences. 
+						This is an example of an <alert>inductive argument</alert> since it uses specific experiences/instances as its premises, and its conclusion is a general expectation based on those specific experiences.
 					</p>
 				</li>
 			</ol>
@@ -165,7 +165,7 @@
 </subsection>
 
 <subsection>
-	<title>Evaluating Arguments</title> 
+	<title>Evaluating Arguments</title>
 	<p>
 		Inductive arguments cannot be proven. The best we can do is evaluate the <alert>strength</alert> of the argument based on the evidence it provides.
 	</p> 
@@ -297,7 +297,7 @@
 					</p>
 				</li>
 				<li>
-					<sidebyside width="50%">
+					<sidebyside width="40%">
 					<image source="images/language_logic_rules/1_3/eval_arg5.png">
 					<description>A set diagram with 2 overlapping sets, young adults and minimum wage earners; There is a question mark in the young adults region and in the intersection of the two circles because we don't know where Tara goes.</description>
 					</image>
@@ -313,12 +313,12 @@
 </subsection>
  
 <exercises>
-<title>Exercises 1.3</title>
+<title>Exercises</title>
 
 <exercise>
 	<statement>
 	<p>
-		Decide if the argument described is inductive or deductive:
+		Write whether the argument described is inductive or deductive:
 	</p>
 	<p>
 		<ol label="a.">
@@ -394,7 +394,7 @@
 <exercisegroup>
 	<introduction>
 		<p>
-			Rewrite each of the following arguments in their <q>premise, premise, conclusion</q> form, and determine whether the argument is inductive or deductive. If the argument is inductive, determine its strength. If the argument is deductive, use sets to illustrate and determine the validity of the argument, and state whether the argument is sound. 
+			Rewrite each of the following arguments in their <q>premise, premise, conclusion</q> form, and determine whether the argument is inductive or deductive. If the argument is inductive, determine its strength. If the argument is deductive, use sets to illustrate and determine the validity of the argument, and state whether the argument is valid and whether it is sound.
 		</p>
 	</introduction>
 
@@ -626,7 +626,7 @@
 <exercisegroup>
 	<introduction>
 		<p>
-			For each of the following, draw the appropriate illustration of sets (Subset, Disjoint or Overlapping). Then put an X to represent the subject of the conclusion or put two question marks to illustrate the subject could into two locations. Finally, state if the argument is valid.
+			For each of the following, draw the appropriate illustration of sets (Subset, Disjoint or Overlapping). Then put an X to represent the subject of the conclusion or put two question marks to illustrate the subject could into two locations. Finally, state if the argument is valid and whether it is sound.
 		</p>
 	</introduction>
 

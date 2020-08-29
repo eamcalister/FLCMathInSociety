@@ -56,7 +56,7 @@
 	<assemblage>
 	<title>Mean</title>
 		<p>
-			<m>\bar{x}=\frac{\text{sum of data values}}{n}</m>
+			<me>\bar{x}=\frac{\text{sum of data values}}{n}</me>
 		</p>
 	</assemblage>	
 	
@@ -89,14 +89,15 @@
 		<p>
 			<cd>=AVERAGE(3.29 3.59, 3.79, 3.75, 3.99)</cd>
 		</p>
-		<p>
-			<m>=\$3.68</m>
-		</p>
+		
 		<sidebyside width="50%">
 			<image source="images/statistics/3_3/mean1.png">
 			<description>A screenshot of Excel showing the =AVERAGE formula typed in with the values.</description>
 			</image>
 		</sidebyside>
+		<p>
+			and we get an answer of $3.68.
+		</p>
 
 		<p>
 			The other method is to enter the data values into a single column (or row) of the spreadsheet and reference the column (or row) range in the formula. We can enter the range by highlighting the data values. As illustrated below, if we enter the data into column A, the formula is
@@ -104,14 +105,14 @@
 		<p>
 			<cd>=AVERAGE(A1:A5)</cd>
 		</p>
-		<p>
-			<m>=\$3.68</m>
-		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_3/mean2.png">
 			<description>A screenshot of Excel showing the =AVERAGE formula typed in with the cell references. The data is in column A</description>
 			</image>
 		</sidebyside>
+		<p>
+			and we also get an answer of $3.68.
+		</p>
 	</example>
 
 	<p>
@@ -166,20 +167,22 @@
 		</p>
 
 		<p>
-			<m>\bar{x}=\frac{\overbrace{15+ \cdot + 15}^{6 \text{ terms}} + \overbrace{20+ \cdot + 20}^{8 \text{ terms}} + \overbrace{25 + \cdot + 25}^{11 \text{ terms}} + \cdot}{100}</m>
+			<md>
+				<mrow>\bar{x}=\frac{\overbrace{15+ \cdot + 15}^{6 \text{ terms}} + \overbrace{20+ \cdot + 20}^{8 \text{ terms}} + \overbrace{25 + \cdot + 25}^{11 \text{ terms}} + \cdot}{100}</mrow>
+			</md>
 		</p>
 		<p>
 			We could calculate this more easily by noticing that adding 15 to itself six times is the same as <m>(15)(6)=90</m>. Using this simplification, we get
 		</p>
 		<p>
 			<md>
-				<mrow>\bar{x}=\frac{(15)(6)+(20)(8)+(25)(11)+(30)(17)+(35)(19)+(40)(20)+(45)(21)+(50)(7)}{100}</mrow>
-				<mrow>=\frac{3390}{100}</mrow>
-				<mrow>=33.9</mrow>
+				<mrow>\bar{x}\amp=\frac{(15)(6)+(20)(8)+(25)(11)+(30)(17)+(35)(19)+(40)(20)+(45)(21)+(50)(7)}{100}</mrow>
+				<mrow>\amp=\frac{3390}{100}</mrow>
+				<mrow>\amp=33.9</mrow>
 			</md>
 		</p>
 		<p>
-			The mean household income of our sample is 33.9 thousand dollars, or $33,900.
+			The mean household income of our sample is 33.9 thousand dollars or $33,900.
 		</p>
 	</example>
 
@@ -192,13 +195,13 @@
 		</p>
 		<p>
 			<md>
-				<mrow>\bar{x}=\frac{(15)(6)+(20)(8)+(25)(11)+(30)(17)+(35)(19)+(40)(20)+(45)(12)+(50)(7)+(5000)(1)}{100}</mrow>
-				<mrow>=\frac{8390}{101}</mrow>
-				<mrow>=83.069</mrow>
+				<mrow>\bar{x}\amp=\frac{(15)(6)+(20)(8)+(25)(11)+(30)(17)+(35)(19)+(40)(20)+(45)(12)+(50)(7)+(5000)(1)}{100}</mrow>
+				<mrow>\amp=\frac{8390}{101}</mrow>
+				<mrow>\amp=83.069</mrow>
 			</md>
 		</p>
 		<p>
-			While 83.1 thousand dollars, or $83,100 is the correct mean household income for the new sample, it is no longer representative of the neighborhood – in fact, it is greater than every income in the sample aside from the new one we added! 
+			While 83.1 thousand dollars, or $83,100 is the correct mean household income for the new sample, it is no longer representative of the neighborhood – in fact, it is greater than every income in the sample aside from the new one we added!
 		</p>
 	</example>
 
@@ -296,14 +299,14 @@
 		<p>
 			<cd>=MEDIAN(A1:AK)</cd>
 		</p>
-		<p>
-			<m>=6</m> points
-		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_3/median1.png">
 			<description>A screenshot of Excel showing the =MEDIAN formula typed in with the cell references. The data is in row 1</description>
 			</image>
 		</sidebyside>
+		<p>
+			and we get 6 points for the median test score.
+		</p>
 	</example>
 
 <example>
@@ -330,18 +333,19 @@
 	<p>
 		<cd>=MEDIAN(3.29, 3.59, 3.79, 3.75, 3.99)</cd>
 	</p>
-	<p>
-		<m>=\$3.75</m>
-	</p>
+	
 	<sidebyside width="50%">
 		<image source="images/statistics/3_3/median2.png">
 		<description>A screenshot of Excel showing the =MEDIAN formula with all the data values typed in.</description>
 		</image>
 	</sidebyside>
+	<p>
+		and we get a median price of $3.75.
+	</p>
 </example>
 
 	<p>
-		It is worth noting that when you use a spreadsheet to find the median you do not have to order the data first. You can enter the data values in the order they are given to you. 
+		It is worth noting that when you use a spreadsheet to find the median you do not have to order the data first. You can enter the data values in the order they are given to you.
 	</p>
 </subsection>
 
@@ -362,7 +366,7 @@
 		</p>
 		<figure>
 			<caption>Mean <m>=\$67,160</m>, Median <m>=\$53,500</m>, Mean <m>\gt</m> Median</caption>
-			<image width="40%" source="images/statistics/3_3/mean_vs_median1.png">
+			<image width="50%" source="images/statistics/3_3/mean_vs_median1.png">
 			<description>A screenshot of GeoGebra showing the histogram is skewed to the right. The statistics output shows the mean is $67,160 and the Median is $53,500.</description>
 			</image>
 		</figure>
@@ -378,7 +382,7 @@
 
 		<figure>
 			<caption>Mean <m>=81.7</m> points, Median <m>=87.5</m> points, Mean <m>\lt</m> Median</caption>
-			<image width="40%" source="images/statistics/3_3/mean_vs_median2.png">
+			<image width="50%" source="images/statistics/3_3/mean_vs_median2.png">
 			<description>A screenshot of GeoGebra showing the histogram is skewed to the left. The statistics output shows the mean is 81.7 points and the Median is 87.5 points.</description>
 			</image>
 		</figure>
@@ -393,7 +397,7 @@
 		</p>
 		<figure>
 			<caption>Mean <m>=62.6</m> inches, Median <m>=62</m> inches Mean <m>\approx</m> Median</caption>
-			<image width="80%" source="images/statistics/3_3/mean_vs_median3.png">
+			<image width="50%" source="images/statistics/3_3/mean_vs_median3.png">
 			<description>A screenshot of GeoGebra showing the histogram is approximately symmetric. The statistics output shows the mean is 62.6 inches and the Median is 62 inches.</description>
 			</image>
 		</figure>
@@ -417,7 +421,7 @@
 </subsection>
 
 <exercises>
-<title>Exercises 3.3</title>
+<title>Exercises</title>
 
 <exercise xml:id="diners_example"><!--  #1 -->
 	<statement>
@@ -1170,7 +1174,7 @@
 	<statement>
 	<p>
 		An experiment compared the ability of three groups of participants to remember briefly-presented chess positions. The data are shown below. The numbers represent the average number of pieces correctly remembered from three chess positions.
-		<ol>
+		<ol label="a.">
 			<li>
 				<p>
 					Make a histogram for each group.
@@ -1626,7 +1630,7 @@
 	<statement>
 	<p>
 		Make up three data sets with 5 values each that have:
-		<ol>
+		<ol label="a.">
 			<li>
 				<p>
 					The same mean but different medians
@@ -1642,7 +1646,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol>
+		<ol label="a.">
 			<li>
 				<p>
 					There are many possible answers for this problem. Three data sets with 5 values each that have the same mean but different medians are:
@@ -1763,7 +1767,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol>
+		<ol label="a.">
 			<li>
 				<p>
 					Argument for categorical: Because it is not clear that the shoe sizes represent a measure, the data can be considered categorical.

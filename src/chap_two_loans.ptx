@@ -107,7 +107,7 @@
 	<assemblage>
 	<title>Loan Formulas</title>
 		<p>
-			<me>P=\frac{d(1-(1+\frac{r}{n})^{-nt})}{\frac{r}{n}} \text{  or  } d=\frac{P(\frac{r}{n})}{(1-(1+\frac{r}{n})^{-nt})}</me>
+			<me>P=\frac{d\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</me>
 		</p>
 		<p>
 			<dl width="narrow">
@@ -162,10 +162,16 @@
 		<p>
 			Her loan amount is $12,000. For the <insert>3-year</insert> loan at 2.75% APR, we enter:
 		</p>
-		<p>
-			<cd>=PMT(0.0275/12, 12*3, 12000, 0)</cd> <m>=\$347.65</m>
-		</p>
-		<sidebyside width="50%">
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+			<p>
+			<cd>=PMT(0.0275/12, 12*3, 12000, 0)</cd>
+			</p>
+			<p>
+			and get a result of $347.65.
+			</p>
+			</stack>
 		<image source="images/financial_math/2_4/loan_formulas1.png">
 		<description>An image of the spreadsheet showing the formula used and the result.</description>
 		</image>
@@ -186,13 +192,11 @@
 			<m>P=12000</m> Since she can pay $3,000 of the $15,000
 		</p>
 		<p>
-			<m>d=\frac{P(\frac{r}{n})}{(1-(1+\frac{r}{n})^{-nt})}</m>
-		</p>
-		<p>
-			<m>d=\frac{12000(\frac{0.0275}{12})}{(1-(1+\frac{0.0275}{12})^{-12\cdot 3})}</m>
-		</p>
-		<p>
-			<m>=\$347.65</m>
+			<md>
+			<mrow>d\amp=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</mrow>
+			<mrow>\amp=\frac{12000\left(\frac{0.0275}{12}\right)}{\left(1-\left(1+\frac{0.0275}{12}\right)^{-12\cdot 3}\right)}</mrow>
+			<mrow>\amp\approx\$347.65</mrow>
+		</md>
 		</p>
 
 		<p>
@@ -201,10 +205,16 @@
 		<p>
 			Now for the <insert>5-year loan</insert> at 4% APR, we enter:
 		</p>
-		<p>
-			<cd>=PMT(0.04/12, 12*5, 12000, 0)</cd> <m>=\$221.00</m>
-		</p>
-		<sidebyside width="50%">
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+			<p>
+			<cd>=PMT(0.04/12, 12*5, 12000, 0)</cd>
+			</p>
+			<p>
+				and we get $221.00.
+			</p>
+			</stack>
 			<image source="images/financial_math/2_4/loan_formulas2.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -226,31 +236,33 @@
 			<m>P=12000</m> the loan amount
 		</p>
 		<p>
-			<m>d=\frac{P(\frac{r}{n})}{(1-(1+\frac{r}{n})^{-nt})}</m>
-		</p>
-		<p>
-			<m>d=\frac{12000(\frac{0.04}{12})}{(1-(1+\frac{0.04}{12})^{-12\cdot 3})}</m>
-		</p>
-		<p>
-			<m>=\$221.00</m>
+			<md>
+				<mrow>d\amp=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</mrow>
+				<mrow>\amp=\frac{12000\left(\frac{0.04}{12}\right)}{\left(1-\left(1+\frac{0.04}{12}\right)^{-12\cdot 3}\right)}</mrow>
+				<mrow>\amp\approx\$221.00</mrow>
+			</md>
 		</p>
 		<p>
 			Now let’s compare the loans by finding out how much Teresa would pay in interest for each loan.
 		</p>
-
-		<p>
-			For the <insert>3-year loan</insert> at 2.75% APR, her payments would total:
-		</p>
-		<p>
-			<m>\$347.65(12)(3)=\$12,515.40</m>. Her interest would be $515.40.
-		</p>
-		<p>
-			For the <insert>5-year loan</insert> at 4% APR, her payments would total:
-		</p>
-		<p>
-			<m>\$221.00(12)(5)=\$13,260.00</m>. Her interest would be $1,260.00.
-		</p>
-
+		<sidebyside widths="46% 46%" margins="0%">
+			<stack>
+				<p>
+				For the <insert>3-year loan</insert> at 2.75% APR, her payments would total:
+				</p>
+				<p>
+				<m>\$347.65(12)(3)=\$12,515.40</m>. Her interest would be $515.40.
+				</p>
+			</stack>
+			<stack>
+			<p>
+				For the <insert>5-year loan</insert> at 4% APR, her payments would total:
+			</p>
+			<p>
+				<m>\$221.00(12)(5)=\$13,260.00</m>. Her interest would be $1,260.00.
+			</p>
+			</stack>
+		</sidebyside>
 		<p>
 			There are two main differences between these two loans: the monthly payments and the total paid over the life of the loans. The first loan has a higher monthly payment by $126.65 per month. However, she would pay $744.60 less in interest.
 		</p>
@@ -270,10 +282,11 @@
 		<p>
 			To use a spreadsheet for this problem, we use the <c>=PV</c> formula because we want to know the present value, which is the value of the loan right now. We enter
 		</p>
-		<p>
-			<cd>=PV(0.03/12, 12*5, 200,0)</cd><m>=\$11,130.47</m>.
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<p>
+			<cd>=PV(0.03/12, 12*5, 200,0)</cd> which gives $11,130.47.
 		</p>
-		<sidebyside width="50%">
 		<image source="images/financial_math/2_4/loan_formulas3.png">
 		<description>An image of the spreadsheet showing the formula used and the result.</description>
 		</image>
@@ -295,16 +308,12 @@
 			<m>t=5</m> since we’re making monthly payments for 5 years
 		</p>
 		<p>
-			<m>P=\frac{d(1-(1+\frac{r}{n})^{-nt})}{\frac{r}{n}}</m>
-		</p>
-		<p>
-			<m>P=\frac{200(1-(1+\frac{0.03}{12})^{-12\cdot 5})}{\frac{0.03}{12}}</m>
-		</p>
-		<p>
-			<m>P=\frac{200(1-(1.0025)^{-60})}{(0.0025)}</m>
-		</p>
-		<p>
-			<m>=\$11,130.47</m>
+			<md>
+			<mrow>P\amp=\frac{d\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}{\frac{r}{n}}</mrow>
+			<mrow>\amp=\frac{200\left(1-\left(1+\frac{0.03}{12}\right)^{-12\cdot 5}\right)}{\frac{0.03}{12}}</mrow>
+			<mrow>\amp=\frac{200(1-(1.0025)^{-60})}{0.0025}</mrow>
+			<mrow>\amp\approx\$11,130.47</mrow>
+		</md>
 		</p>
 		<p>
 			You can afford a maximum loan of $11,130.47. If you have a down payment you can add that to get the value of the car you can buy. If there are any closing costs for the loan you also need to take that into consideration.
@@ -341,10 +350,11 @@
 		<p>
 			To use a spreadsheet for this problem, we use the <c>=PMT</c> formula because we want to know the payment amount. The amount of the loan is the present value and to pay off the loan the future value is 0. We enter
 		</p>
-		<p>
-			<cd>=PMT(0.06/12, 12*30, 140000,0)</cd><m>=\$839.37</m>.
-		</p>
-		<sidebyside width="50%">
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<p>
+			<cd>=PMT(0.06/12, 12*30, 140000,0)</cd> which gives us $839.37.
+			</p>
 			<image source="images/financial_math/2_4/loan_formulas4.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -369,37 +379,33 @@
 			In this case, we’re going to use the equation that is solved for <m>d</m>.
 		</p>
 		<p>
-			<m>d=\frac{P(\frac{r}{n})}{(1-(1+\frac{r}{n})^{-nt})}</m>
-		</p>
-		<p>
-			<m>=\frac{140000(\frac{0.06}{12})}{(1-(1+\frac{0.06}{12})^{-12\cdot 30})}</m>
-		</p>
-		<p>
-			<m>=\frac{700}{(1-(1.005)^{-360})}</m>
-		</p>
-		<p>
-			<m>=\$839.37</m>
+			<md>
+			<mrow>d\amp=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</mrow>
+			<mrow>\amp=\frac{140000\left(\frac{0.06}{12}\right)}{\left(1-\left(1+\frac{0.06}{12}\right)^{-12\cdot 30}\right)}</mrow>
+			<mrow>\amp=\frac{700}{(1-(1.005)^{-360})}</mrow>
+			<mrow>\amp\approx\$839.37</mrow>
+		</md>
 		</p>
 		<p>
 			You would make payments of $839.37 per month for 30 years. To find out what percentage of the total will go towards interest, we need to total up all of the payments.
 		</p>
 		<p>
-			<m>\$839.37(30)(12)=\$302,173.20</m>
+			<me>\$839.37(30)(12)=\$302,173.20</me>
 		</p>
 		<p>
 			Then take the difference between the total payments and the loan amount.
 		</p>
 		<p>
-			<m>\$302,173.20-\$140,000=\$162,173.20</m>
+			<me>\$302,173.20-\$140,000=\$162,173.20</me>
 		</p>
 		<p>
 			In this case, you would be paying $162,173.20 in interest over the life of the loan. To find the percentage, we divide the interest by the total amount paid.
 		</p>
 		<p>
-			<m>\frac{\$162,173.20}{\$302,173.20} \approx 0.5367</m> or 53.7%
+			<me>\frac{\$162,173.20}{\$302,173.20} \approx 0.5367</me>
 		</p>
 		<p>
-			About 53.7% of the total is being paid towards interest. 
+			About 53.7% of the total is being paid towards interest.
 		</p>
 	</solution>
 	</example>
@@ -442,10 +448,11 @@
 		<p>
 			To use a spreadsheet for this problem, we use the <c>=PV</c> formula because we want to know what the present value would be at the time you want to sell in 5 years. We enter:
 		</p>
-		<p>
-			<cd>=PV(0.06/12, 12*25, 1000,0)</cd><m>=\$155,206.86</m>.
-		</p>
-		<sidebyside width="50%">
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<p>
+			<cd>=PV(0.06/12, 12*25, 1000,0)</cd> which gives us $155,206.86.
+			</p>
 			<image source="images/financial_math/2_4/remaining_balance.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -455,13 +462,11 @@
 			To check this with the formula we have:
 		</p>
 		<p>
-			<m>P=\frac{1000(1-(1+\frac{0.06}{12})^{-12\cdot 25})}{\frac{0.06}{12}}</m>
-		</p>
-		<p>
-			<m>=\frac{1000(1-(1.005)^{-300})}{(0.005)}</m>
-		</p>
-		<p>
-			<m>=\$155,206.86</m>
+			<md>
+			<mrow>P\amp=\frac{1000\left(1-\left(1+\frac{0.06}{12}\right)^{-12\cdot 25}\right)}{\frac{0.06}{12}}</mrow>
+			<mrow>\amp=\frac{1000(1-(1.005)^{-300})}{0.005}</mrow>
+			<mrow>\amp\approx\$155,206.86</mrow>
+			</md>
 		</p>
 		<p>
 			The loan balance with 25 years remaining on the loan will be $155,206.86
@@ -497,33 +502,33 @@
 	<example>
 		<statement>
 		<p>
-			Bilqis gets a credit card, with 17.99% APR compounding daily. She uses the card to buy a $900 plane ticket.  She does not make any payments during the interest-free grace period. Her first payment is due 35 days after the grace period ended. Following the fine print in the credit card agreement, the minimum payment is calculated to be 1% of the outstanding balance after applying the APR; or $25, whichever is larger. What is her outstanding balance? What is her minimum payment? What is her new balance?
+			Bilqis gets a credit card, with 17.99% APR compounding daily. She uses the card to buy a $900 plane ticket.  She does not make any payments during the interest-free grace period. Her first payment is due 35 days after the grace period ended. Following the fine print in the credit card agreement, the minimum payment is calculated to be 1% of the outstanding balance after applying the APR; or $25, whichever is larger. What is her outstanding balance? What is her minimum payment? If she pays the minimum payment what will her new balance be?
 		</p>
 		</statement>
 		<solution>
 			<p>
-				<m>900(1+\frac{0.1799}{365})^{35} \approx 4915.66</m>
+				First we will see what she owes with the 17.99% APR using the compound interest formula for 35 days:
 			</p>
 			<p>
-				The spreadsheet formula for this computation is <c>=FV(0.1799/365,35,0,900)</c>.
+				<me>900\left(1+\frac{0.1799}{365}\right)^{35} \approx 915.66</me>
 			</p>
 			<p>
-				Her outstanding balance is $915.66.
+				The spreadsheet formula for this computation is <cd>=FV(0.1799/365,35,0,900)</cd>.
 			</p>
 			<p>
-				 <q>One percentage point more than the APR of this outstanding balance</q> would be <m>\$915.66(0.01+0.1799) \approx \$173.88</m>.
+				With interest, Bilqis now owes $915.66.
 			</p>
 			<p>
-				$173.88 is larger than $25. So, Bilqis’s first payment must be at least $173.88 if she wants to avoid any penalties.
+				 <q>One percentage point more than the APR of this outstanding balance</q> would be <me>\$915.66(0.01+0.1799) \approx \$173.88</me>.
 			</p>
 			<p>
-				That payment will be used to decrease the balance.
+				$173.88 is larger than $25, so her first payment must be at least $173.88 if she wants to avoid any penalties. If she makes the minimum payment we can subtract to find her new balance:
 			</p>
 			<p>
-				<m>\$915.66-\$173.88 \approx \$741.78</m>.
+				<me>\$915.66-\$173.88 \approx \$741.78</me>.
 			</p>
 			<p>
-				So, her new balance will be $741.78.
+				Her new balance will be $741.78.
 			</p>
 		</solution>
 	</example>
@@ -542,7 +547,7 @@
 				<image source="images/financial_math/2_4/interest_principal.png">
 				</image>
 			</sidebyside>
-
+<!-- TODO: add spreadsheet image or more explanation -->
 			<p>
 				Formulas used: <c>=C3-D3</c>, <c>=B4*(1+0.1799/365)^30</c>, or, <c>=FV(0.1799/365,30,0,B4)</c>, <c>=C4*(0.01+0.1799)</c>, <c>=sum(D3:D19)</c>
 			</p>
@@ -679,7 +684,7 @@
 			Compound Interest
 		</p>
 		<p>
-			<me>A=P(1+\frac{r}{n})^{nt} \text{ or } P=\frac{A}{(1+\frac{r}{n})^{nt}}</me>
+			<me>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</me>
 		</p>
 		<p>
 			Continuously Compounded
@@ -691,13 +696,13 @@
 			Savings Plans
 		</p>
 		<p>
-			<me>A=\frac{d[(1+\frac{r}{n})^{nt}-1]}{(\frac{r}{n})} \text{  or  } d=\frac{A(\frac{r}{n})}{[(1+\frac{r}{n})^{nt}-1]}</me>
+			<me>A=\frac{d\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}</me>
 		</p>
 		<p>
 			Loans
 		</p>
 		<p>
-			<me>P=\frac{d(1-(1+\frac{r}{n})^{-nt})}{\frac{r}{n}} \text{  or  } d=\frac{P(\frac{r}{n})}{(1-(1+\frac{r}{n})^{-nt})}</me>
+			<me>P=\frac{d\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}{\frac{r}{n}} \text{  or  } d=\frac{P\left(\frac{r}{n}\right)}{\left(1-\left(1+\frac{r}{n}\right)^{-nt}\right)}</me>
 		</p>
 		<p>
 			<dl width="narrow">
@@ -827,12 +832,12 @@
 </p>
 
 	<p>
-		Remember, the most important part of answering any kind of question, money or otherwise, is first to correctly identify what the question is really asking, and to determine what approach will best allow you to solve the problem. After practicing with the exercises from this section, you can test yourself with the cumulative chapter 2 exercises.
+		Remember, the most important part of answering any kind of question, money or otherwise, is first to correctly identify what the question is really asking, and to determine what approach will best allow you to solve the problem. After practicing with the exercises from this section, you can test yourself on which formula to use with exercises 14-21.
 	</p>
 </subsection>
 
 <exercises>
-<title>Exercises 2.4</title>
+<title>Exercises</title>
 
 <exercise><!--  #1 -->
 	<statement>
@@ -1370,150 +1375,14 @@
 	</p>
 	</solution>
 </exercise>
-
 </exercisegroup>
 
-</exercises>
-
-<exercises>
-<title>Exploration</title>
-
-<exercise>
-	<p>
-		Pay day loans are short term loans that you take out against future paychecks: The company advances you money against a future paycheck. Either visit a pay day loan company or look one up online. Be forewarned that many companies do not make their fees obvious, so you might need to do some digging or look at several companies.
-	</p>
-	<p>
-		<ol label="a.">
-			<li>
-				<p>
-					Explain the general method by which the loan works.
-				</p>
-			</li>
-			<li>
-				<p>
-					We will assume that we need to borrow $500 and that we will pay back the loan in 14 days. Determine the total amount that you would need to pay back and the effective loan rate. The effective loan rate is the percentage of the original loan amount that you pay back. It is not the same as the APR (annual rate) that is probably published.
-				</p>
-			</li>
-			<li>
-				<p>
-					If you cannot pay back the loan after 14 days, you will need to get an extension for another 14 days. Determine the fees for an extension, determine the total amount you will be paying for the now 28-day loan, and compute the effective loan rate.
-				</p>
-			</li>
-		</ol>
-	</p>
-</exercise>
-<!-- 
-<exercise>
-	<p>
-		Suppose that 10 years ago you bought a home for $110,000, paying 10% as a down payment, and financing the rest at 9% interest for 30 years.
-	</p>
-	<p>
-		<ol label="a.">
-			<p>
-				Let's consider your existing mortgage:
-				<li>
-					<ol>
-						<li>
-							<p>
-								How much money did you pay as your down payment?
-							</p>
-						</li>
-						<li>
-							<p>
-								How much money was your mortgage (loan) for?
-							</p>
-						</li>
-						<li>
-							<p>
-								What is your current monthly payment?
-							</p>
-						</li>
-						<li>
-							<p>
-								How much total interest will you pay over the life of the loan?
-							</p>
-						</li>
-					</ol>
-				</li>
-			</p>
-			<p>
-				This year, you check your loan balance. Only part of your payments have been going to pay down the loan; the rest has been going towards interest. You see that you still have $88,536 left to pay on your loan. Your house is now valued at $150,000.
-				<li>
-					<ol>
-						<li>
-							<p>
-								How much of the loan have you paid off? (i.e., how much have you reduced the loan balance by? Keep in mind that interest is charged each month - it's not part of the loan balance.)
-							</p>
-						</li>
-						<li>
-							<p>
-								How much money have you paid to the loan company so far?
-							</p>
-						</li>
-						<li>
-							<p>
-								How much interest have you paid so far?
-							</p>
-						</li>
-						<li>
-							<p>
-								How much equity do you have in your home (equity is value minus remaining debt)?
-							</p>
-						</li>
-					</ol>
-				</li>
-			</p>
-			<p>
-				Since interest rates have dropped, you consider refinancing your mortgage at a lower 6% rate.
-				<li>
-					<ol>
-						<li>
-							<p>If you took out a new 30-year mortgage at 6% for your remaining loan balance, what would your new monthly payments be?
-							</p>
-						</li>
-						<li>
-							<p>
-								How much interest will you pay over the life of the new loan?
-							</p>
-						</li>
-					</ol>
-				</li>
-			</p>
-			<p>
-				Notice that if you refinance, you are going to be making payments on your home for another 30 years. In addition to the 10 years you've already been paying, that's 40 years total.
-				<li>
-					<ol>
-						<li>
-							<p>
-								How much will you save each month because of the lower monthly payment?
-							</p>
-						</li>
-						<li>
-							<p>
-								How much total interest will you be paying?
-							</p>
-						</li>
-						<li>
-							<p>
-								Does it make sense to refinance? (there isn't a correct answer to this question. Just give your opinion and your reason)
-							</p>
-						</li>
-					</ol>
-				</li>
-			</p>
-		</ol>
-	</p>
-</exercise>	 -->
-</exercises>
-
-<exercises>
-<title>Cumulative Chapter 2 Exercises</title>
 
 <exercisegroup>
-<title></title>
+
 <introduction>
 	<p>
-		For each of the following scenarios, determine which formula to use and solve the problem.
+		For each of the following scenarios, determine which formula from sections 2.2-2.4 to use and solve the problem.
 	</p>
 </introduction>
 <exercise>
@@ -1564,5 +1433,7 @@
 	</p>
 </exercise>
 </exercisegroup>
+
 </exercises>
+
 </section>

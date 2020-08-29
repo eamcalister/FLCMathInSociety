@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <section xml:id="chap_two_review">
-<title>Chapter 2 Review Questions</title>
+<title>Chapter 2 Review</title>
 
 <exercises>
-<title>Chapter 2 Review Questions</title>
+<title>Review Exercises</title>
 
 <exercisegroup>
-	<introduction>
-	<p>
-		Simple Interest, Compound Interest and Continuously Compounded Interest
-	</p>
-	</introduction>
 
 	<exercise>
 		<statement>
@@ -236,11 +231,11 @@
 </exercisegroup>
 
 <exercisegroup>
-	<introduction>
+	<!-- <introduction>
 	<p>
 		Savings Plans
 	</p>
-	</introduction>
+	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -308,11 +303,11 @@
 </exercisegroup>
 
 <exercisegroup>
-	<introduction>
+	<!-- <introduction>
 	<p>
 		Loan Payments
 	</p>
-	</introduction>
+	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -356,11 +351,11 @@
 </exercisegroup>
 
 <exercisegroup>
-	<introduction>
+	<!-- <introduction>
 	<p>
 		Budgeting
 	</p>
-	</introduction>
+	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -418,11 +413,11 @@
 </exercisegroup>
 
 <exercisegroup>
-	<introduction>
+	<!-- <introduction>
 	<p>
 		Taxes
 	</p>
-	</introduction>
+	</introduction> -->
 
 	<exercise>
 		<statement>

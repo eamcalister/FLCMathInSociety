@@ -322,13 +322,13 @@
 			<p>
 				We begin with the lowest tax bracket and take 10% of $9,525. Since their income is higher than that, we add 12% of the next amount, found by subtracting the values in that bracket. Avery’s taxable income is in the 22% tax bracket, so we find the amount over $38,700 by subtracting. Here is the full calculation:
 			</p>
+			<!-- TODO: test -->
 			<p>
 				<md>
-					<mrow>0.10(\$9,525)+0.12(\$38,700-\$9,525)+0.22(\$55,100-\$38,700)</mrow>
-					<mrow>=0.10(\$9,525)+0.12(\$29,175)+0.22(\$16,400)</mrow>
-					<mrow>=\$952.50+\$3,501+\$3,608</mrow>
-					<mrow>=\$4,435.50+\$3,608</mrow>
-					<mrow>=\$8,043.50</mrow>
+					<mrow>0.10(\$9,525)+0.12(\$38,700-\$9,525)+0.22(\$55,100-\$38,700)\amp=0.10(\$9,525)+0.12(\$29,175)+0.22(\$16,400)</mrow>
+					<mrow>\amp=\$952.50+\$3,501+\$3,608</mrow>
+					<mrow>\amp=\$4,435.50+\$3,608</mrow>
+					<mrow>\amp=\$8,043.50</mrow>
 				</md>
 			</p>
 			<p>
@@ -517,12 +517,14 @@
 			We will calculate Adira’s taxes first the long way:
 		</p>
 		<p>
+			<m>0.10(\$13,600)+0.12(\$51,800-\$13,600)+0.22(\$82,500-\$51,800)+0.24(\$86,450-\$82,500)</m>
+		</p>
+		<p>
 			<md>
-				<mrow>0.10(\$13,600)+0.12(\$51,800-\$13,600)+0.22(\$82,500-\$51,800)+0.24(\$86,450-\$82,500)</mrow>
-				<mrow>=0.10(\$13,600)+0.12(\$38,200)+0.22(\$30,700)+0.24(\$3,950)</mrow>
-				<mrow>=\$1,360+\$4,584+\$6,754+\$948</mrow>
-				<mrow>=\$12,698+\$948</mrow>
-				<mrow>=\$13,646</mrow>
+				<mrow>\amp=0.10(\$13,600)+0.12(\$38,200)+0.22(\$30,700)+0.24(\$3,950)</mrow>
+				<mrow>\amp=\$1,360+\$4,584+\$6,754+\$948</mrow>
+				<mrow>\amp=\$12,698+\$948</mrow>
+				<mrow>\amp=\$13,646</mrow>
 			</md>
 		</p>
 		<p>
@@ -530,9 +532,9 @@
 		</p>
 		<p>
 			<md>
-				<mrow>\$12,698+0.24(\$86,450-\$82,500)=\$12,698+0.24(\$3,950)</mrow>
-				<mrow>=\$12,698+\$948</mrow>
-				<mrow>=\$13,646</mrow>
+				<mrow>\$12,698+0.24(\$86,450-\$82,500)\amp=\$12,698+0.24(\$3,950)</mrow>
+				<mrow>\amp=\$12,698+\$948</mrow>
+				<mrow>\amp=\$13,646</mrow>
 			</md>
 		</p>
 		<p>
@@ -553,9 +555,9 @@
 		</p>
 		<p>
 			<md>
-				<mrow>\$8,907+0.22(\$112,000-\$77,400)=\$8,907+0.22(\$34,600)</mrow>
-				<mrow>=\$8,907+\$7,612</mrow>
-				<mrow>=\$16,519</mrow>
+				<mrow>\$8,907+0.22(\$112,000-\$77,400)\amp=\$8,907+0.22(\$34,600)</mrow>
+				<mrow>\amp=\$8,907+\$7,612</mrow>
+				<mrow>\amp=\$16,519</mrow>
 			</md>
 		</p>
 		<p>
@@ -645,7 +647,7 @@
 </subsection>
 
 <exercises>
-<title>Exercises 2.5</title>
+<title>Exercises</title>
 
 <exercise>
 	<statement>

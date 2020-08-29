@@ -255,15 +255,13 @@
 <subsection>
 	<title>Bar graphs</title>
 	<p>
-		A <alert>bar graph</alert> is a graph that displays a bar for each category with the height of the bar indicating the frequency of that category. To construct a bar graph with vertical bars, we label the horizontal axis with the categories. The vertical axis will have a scale for the frequency or relative frequency. 
+		A <alert>bar graph</alert> is a graph that displays a bar for each category with the height of the bar indicating the frequency of that category. To construct a bar graph with vertical bars, we label the horizontal axis with the categories. The vertical axis will have a scale for the frequency or relative frequency.
 	</p>
-	<p>
-		The highest frequency in our car data is 52 collisions, so we will set our vertical axis to go from 0 to 55, with a scale of 5 units.
-	</p>
-	<p>
-		To draw bar graphs by hand graph paper is useful, or you can use technology. It is also very helpful to label each bar with the frequency or relative frequency.
-	</p>
-	<sidebyside width="50%">
+	
+	<sidebyside valign="middle" width="45%" margins="0%">
+		<p>
+		The highest frequency in our car data is 52 collisions, so we will set our vertical axis to go from 0 to 55, with a scale of 5 units. To draw bar graphs by hand graph paper is useful, or you can use technology. It is also very helpful to label each bar with the frequency or relative frequency.
+		</p>
 		<image source="images/statistics/3_2/bar_graph.png">
 		<description>This is a bar graph. Along the x-axis it lists: blue, green, red, white, black and grey. The x-axis is labeled “Vehicle color involved in total-loss collision.” The y-axis is labeled “frequency” and goes from 0 to 55 with a scale of 5. Above each color there is a bar corresponding to the frequency. Blue 25; Green 52; Red 41; White 36; Black 39; Grey 23. </description>
 	</image>
@@ -274,34 +272,25 @@
 <subsection>
 	<title>Pie Charts</title>
 	<p>
-		A natural way to visualize relative frequencies is with a pie chart. A <alert>pie chart</alert> is a circle with wedges cut of varying sizes like slices of pizza or pie. The size of each wedge corresponds to the relative frequency of the category. The slices add up to 100%, just like relative frequencies.
+		A natural way to visualize relative frequencies is with a pie chart. A <alert>pie chart</alert> is a circle with wedges cut of varying sizes like slices of pizza or pie. The size of each wedge corresponds to the relative frequency of the category. The slices add up to 100%, just like relative frequencies. Pie charts can often benefit from including frequencies or relative frequencies in the pie slices.
 	</p>
-
-	<p>
-		Pie charts can often benefit from including frequencies or relative frequencies in the pie slices.
-	</p>
-	<sidebyside width="50%">
+	<sidebyside valign="middle" widths="60% 25%" margin="0%">
+		<p>
+		Pie charts look nice but are harder to draw by hand than bar charts since to draw them accurately we would need to compute the angle each wedge cuts out of the circle, then measure the angle with a protractor. A spreadsheet is much better suited to drawing pie charts.
+		</p>
 		<image source="images/statistics/3_2/pie_chart.png">
 		<description>A pie chart for the same data as the previous bar chart. The relative frequencies are given in each pie piece: Green 24%; Red 19%; Black 18%; White 17%; Blue 11%; Grey 11%.</description>
 	</image>
 </sidebyside>
-
-	<p>
-		Pie charts look nice but are harder to draw by hand than bar charts since to draw them accurately we would need to compute the angle each wedge cuts out of the circle, then measure the angle with a protractor. A spreadsheet is much better suited to drawing pie charts.
-	</p>
 </subsection>
 
 <subsection>
 	<title>Using a Spreadsheet to Make Bar Charts and Pie Charts</title>
-	<p>
+	
+		<p>
 		To make a graph using a spreadsheet, place the data from the frequency table into the cells. Then select the data, go to the Insert tab, and choose the bar graph or pie chart that you would like. For this example, we will choose a pie graph.
 	</p>
-	<sidebyside width="50%">
-		<image source="images/statistics/3_2/use_sheet1.png">
-		<description>A screenshot of the frequency table for car colors entered into a spreadsheet</description>
-		</image>
-	</sidebyside>
-	<sidebyside width="50%">
+	<sidebyside width="100%">
 		<image source="images/statistics/3_2/use_sheet2.png">
 		<description>This is a large screen shot of excel that includes both the data and the Insert tab with various circle graph options.</description>
 		</image>
@@ -314,7 +303,7 @@
 	<p>
 		To give your graph a meaningful title, click on Chart Title. There are many other settings that you can experiment with.
 	</p>
-	<sidebyside width="50%">
+	<sidebyside width="100%">
 		<image source="images/statistics/3_2/use_sheet3.png">
 		<description>This is a screenshots of excel that shows the frequency table and pie chart and shows the Chart Design Tab.</description>
 		</image>
@@ -353,15 +342,16 @@
 		<p>
 			A labor union might produce this graph to show the difference between the average manager salary and the average worker salary.
 		</p>
-		<sidebyside width="50%">
+		<sidebyside valign="middle" widths="60% 30%" margins="0%">
+			<p>
+			The average manager salary is twice as high as the average worker salary as in a bar graph, but the image is also twice as wide. That makes it look like the manager salary is 4 times as large as the worker salary. The area needs to accurately portray the relationship, otherwise we will have a perceptual distortion.
+		</p>
 			<image source="images/statistics/3_2/distortion.png">
 			<description>There are two bags of money shown. One is larger labeled Mananger Salaries. The other is half as tall and half as wide and labeled workers salaries. There are no numbers or scale shown. </description>
 			</image>
 		</sidebyside>
 
-		<p>
-			The average manager salary is twice as high as the average worker salary as in a bar graph, but the image is also twice as wide. That makes it look like the manager salary is 4 times as large as the worker salary. The area needs to accurately portray the relationship, otherwise we will have a perceptual distortion.
-		</p>
+		
 	</example>
 </subsection>
 
@@ -374,12 +364,11 @@
 		<p>
 			Compare the two graphs below showing support for same-sex marriage rights from a poll taken in December, 2008<fn>CNN/Opinion Research Corporation Poll.  Dec 19-21, 2008, from <url href="http://www.pollingreport.com/civil.htm">http://www.pollingreport.com/civil.htm</url></fn>. At a glance, the two graphs suggest very different stories. The second graph makes it look like more than three times as many people oppose marriage rights as support them. But when we look at the scale we can see that the difference is about 12%. By not starting at zero the difference looks enlarged.
 		</p>
-		<sidebyside width="50%">
+
+		<sidebyside widths="45% 45%" margins="0%">
 			<image source="images/statistics/3_2/misleading_scale1.png">
 			<description>A bar graph with a scale from 0-100%; There is a bar for support at about 44% and a bar for oppose at about 56%.</description>
 			</image>
-		</sidebyside>
-		<sidebyside width="50%">
 			<image source="images/statistics/3_2/misleading_scale2.png">
 			<description>A bar graph of the same data but the scale goes from 40-60%; This magnifies the difference between the support and oppose groups.</description>
 			</image>
@@ -431,20 +420,20 @@
 				</row>
 				</tabular>
 			</sidebyside>
-		<sidebyside width="50%">
+		
+
+		<sidebyside widths="47% 47%">
 			<image source="images/statistics/3_2/stacked_bar1.png">
 			<description>A stacked bar graph with the bars for the expenses for student 2 placed on top of the bars for student 1.</description>
 			</image>
-		</sidebyside>
-
-		<p>
-			It would be much easier to interpret the differences in a side-by-side bar chart.
-		</p>
-		<sidebyside width="50%">
 			<image source="images/statistics/3_2/stacked_bar2.png">
 			<description>A side-by-side bar graph with the bars for each student right next to each other.</description>
 			</image>
 		</sidebyside>
+
+		<p>
+			It is much easier to interpret the differences in a side-by-side bar chart.
+		</p>
 	</example>
 </subsection>
 
@@ -516,22 +505,17 @@
 <subsection>
 	<title>Histograms</title>
 	<p>
-		A <alert>histogram</alert> is like a bar graph, but the horizontal axis is a number line. Unlike a bar graph, there are no spaces between the bars. Here is a histogram for the data given above. Notice that in this histogram, the two scores of 15 are to the right of 15, or between 15 and 16.
+		A <alert>histogram</alert> is like a bar graph, but the horizontal axis is a number line. Unlike a bar graph, there are no spaces between the bars. Here are two histograms for the data given above. Notice that in the one on the left, the two scores of 15 are to the right of 15, or between 15 and 16. The horizontal scales on histograms can be confusing for this reason. Some people choose to have bars start at ½ values to avoid this ambiguity, as in the one on the right.
 	</p>
-	<sidebyside width="50%">
+	<sidebyside widths="47% 47%">
 		<image source="images/statistics/3_2/histogram1.png">
 		<description>This is a histogram the x-axis is labeled score and goes from 0 to 21, with a scale of 1. The y-axis is labeled frequency an goes from 0 to 9 with a scale of 1. There are no spaces between the bars.</description>
-	</image>
-</sidebyside>
-
-	<p>
-		The horizontal scales on histograms can be confusing for this reason. Some people choose to have bars start at ½ values to avoid this ambiguity, as in this second histogram.
-	</p>
-	<sidebyside width="50%">
+		</image>
 		<image source="images/statistics/3_2/histogram2.png">
 		<description>This is a histogram of the same data but this time the spaces are labeled 0 to 20 instead of the tick marks.</description>
 	</image>
-</sidebyside>
+	</sidebyside>
+
 
 	<p>
 		If we have a large number of different data values, a frequency table listing every possible value would be way too long. There would be too many bars on the histogram to reveal any patterns. For this reason, it is common with quantitative data to group data into class intervals.
@@ -563,15 +547,15 @@
 			Suppose we have collected weights from 100 subjects who identify as male, as part of a nutrition study. For our weight data, we have values ranging from a low of 121 pounds to a high of 263 pounds, giving a total span of <m>263-121 = 142</m>.
 		</p>
 		<p>
-			There are many ways to draw a histogram and we will explain one way as an example. We will create 10 classes by doing the following calculation: Take the range 142 and divide by 10 to find the class width
+			There are many ways to draw a histogram and we will explain one way as an example. We will create 10 classes by doing the following calculation: Take the range of 142 and divide it by 10 to find the class width.
 		</p>
 		<p>
-			<m>142/10 = 14.2</m>.
+			<m>142/10 = 14.2</m>
 		</p>
 		<p>
-			Then we round up the class width so that the largest data value will be in one of the classes. So we round up to a class width of 15. Since the minimum data value is 121, we will choose 120 to start with a multiple of 15 that is less than 121.
+			Then we round up the class width so that the largest data value will be in one of the classes. So we round up to a class width of 15. Since the minimum data value is 121, we will choose 120 to start with since it is a multiple of 15 that is less than 121.
 		</p>
-		<sidebyside>
+		<sidebyside valign="bottom" widths="47% 47%">
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell><alert>Interval</alert></cell>
@@ -618,12 +602,10 @@
 					<cell>3</cell>
 				</row>
 			</tabular>
-		</sidebyside>
-	<sidebyside width="50%">
-		<image source="images/statistics/3_2/class_intervals.png">
+			<image source="images/statistics/3_2/class_intervals.png">
 		<description>This is a histogram of the data in the table; the x-axis is labeled weights(pounds) and goes from 120 to 270, with a scale of 15; The y-axis is labeled frequency and goes from 0 to 30 with a scale of 5. There are no spaces between the bars.</description>
 		</image>
-	</sidebyside>
+		</sidebyside>
 	</example>
 
 	<p>
@@ -637,7 +619,7 @@
 		We will be using GeoGebra throughout this chapter to make graphs and calculate summary statistics. There is an online version and one you can download available at <url href="http://www.Geogebra.org/">www.Geogebra.org</url>. The instructions are similar for both.
 	</p>
 
-	<sidebyside valign="middle" width="40%">
+	<sidebyside valign="middle" widths="60% 35%">
 		<p>
 			The first thing we need to do is enter the data in GeoGebra’s spreadsheet. You can access the spreadsheet from Main Menu <m>\rightarrow</m>View <m>\rightarrow</m>Spreadsheet. Next, enter your data and select that column. Then click on the histogram icon in the menu bar on the left side and select One Variable Analysis.
 		</p>
@@ -646,7 +628,7 @@
 			</image>
 	</sidebyside>
 
-	<sidebyside valign="middle" width="40%">
+	<sidebyside valign="middle" widths="60% 35%">
 		<p>
 			A new window will pop up showing a visual of the data. There is a drop-down menu for the type of graph, but histogram is the default. Notice that the bars are not lined up with the tick-marks at the bottom, so we want to edit this histogram. The slider bar at the top will let you see different class widths, but we want to choose our class widths manually.
 		</p>
@@ -655,7 +637,7 @@
 			</image>
 	</sidebyside>
 
-	<sidebyside valign="middle" width="40%">
+	<sidebyside valign="middle" widths="60% 35%">
 		<p>
 			If you close the menu at the top right by clicking on the left pointing triangle, you will see a settings wheel. Click on the wheel and check the box for set classes manually. To match our previous histogram, we will start at 120 pounds and set a class width of 15 pounds.
 		</p>
@@ -664,7 +646,7 @@
 			</image>
 	</sidebyside>
 
-	<sidebyside valign="middle" width="40%">
+	<sidebyside valign="middle" widths="60% 35%">
 		<p>
 			Now the bars of the histogram match our previous graph, but we need to edit the axis labels to match. Click on the graph tab on the right side and uncheck the box for automatic dimensions. We set the x min, x max, x step, y min, y max and y step as shown.
 		</p>
@@ -673,7 +655,7 @@
 		</image>
 	</sidebyside>
 
-	<sidebyside valign="middle" width="40%">
+	<sidebyside valign="middle" widths="60% 35%">
 		<p>
 			To put the graph in an assignment or a book such as this one, select the export icon and choose Export as Picture. The downloaded version also has a Copy to Clipboard option. Then insert the graph into any document and add axis labels.
 		</p>
@@ -726,7 +708,7 @@
 		<p>
 			The first graph is <alert>unimodal</alert>, the second is <alert>bimodal</alert> and the third is <alert>multimodal</alert>.
 		</p>
-		<sidebyside width="40%">
+		<sidebyside width="80%">
 			<image source="images/statistics/3_2/modality.png">
 			<description>Three histograms are shown. The first histogram has one peak. The second histograms has two peaks. The third histogram has three peaks.</description>
 			</image>
@@ -747,7 +729,7 @@
 		<p>
 			The graph on the left is symmetric and unimodal while the graph on the right is roughly symmetric and bimodal.
 		</p>
-		<sidebyside width="40%">
+		<sidebyside width="70%">
 			<image source="images/statistics/3_2/symmetry.png">
 			<description>Two histograms are shown. The first histogram has one peak in the middle and the bars taper down symmetrically on each side. The second histogram has two peaks. Each of the peaks are similar in size and the graph is roughly symmetric.</description>
 			</image>
@@ -818,7 +800,7 @@
 </subsection>
 
 <exercises>
-<title>Exercises 3.2</title>
+<title>Exercises</title>
 
 <exercise>
 	<statement>
@@ -1062,7 +1044,7 @@
 	<p>
 		Jasmine was interested in how many days it would take a DVD order from Netflix to arrive at her door. The graph shows the data she collected.
 	</p>
-	<sidebyside width="40%">
+	<sidebyside width="45%">
 		<image source="images/statistics/3_2/exercise_graph2.png">
 		<description>The x-axis is labeled shipping times (days) with 1, 2, 3, 4, and 5. The y-axis is labeld frequency. The bar for 1 goes up to 4, 2 goes up to 8, 3 goes up to 6, there's no bar at 4 and 5 goes up to 1.</description>
 		</image>
@@ -1115,7 +1097,7 @@
 	<p>
 		This relative frequency bar graph shows the percentage of students who received each letter grade on their last English paper. The class contains 20 students. What number of students earned an A on their paper?
 	</p>
-	<sidebyside width="40%">
+	<sidebyside width="45%">
 		<image source="images/statistics/3_2/exercise_graph3.png">
 			<description>There are 4 bars labeled A, B, C, and D. The x-axis is labeled children and the y-axis is labeled frequency (%). A goes up to 25%, B goes up to 35%, C goes up to 25% and D goes up to 15%.</description>
 		</image>
@@ -1151,7 +1133,7 @@
 	<p>
 		Corey categorized his spending for this month into four categories: Rent, Food, Fun, and Other. The percentages he spent in each category are pictured here. If he spent a total of $2,600 this month, how much did he spend on rent?
 	</p>
-	<sidebyside width="40%">
+	<sidebyside width="30%">
 		<image source="images/statistics/3_2/exercise_graph4.png">
 			<description>This is a pie chart with four regions. Fun is labeled 16%, Food is labeled 24%, Rent is labeled 26% and Other is labeled 34%.</description>
 		</image>
@@ -1782,38 +1764,35 @@
 			</li>
 		</ol>
 	</p>
-	<sidebyside width="50%">
+	<sidebyside valign="bottom" widths="40% 40%">
+		<figure>
+			<caption>The frequency of times between eruptions of the Old Faithful geyser.</caption>
 		<image source="images/statistics/3_2/exercise_graph7.png">
 		<description>This histogram has a tall bar on the left side, then the bars decrease significantly and then increase for a peak on the right side.</description>
 		</image>
-	</sidebyside>
-
-	<sidebyside width="50%">
+	</figure>
+	<figure>
+		<caption>Scores on a 20-point statistics quiz.</caption>
 		<image source="images/statistics/3_2/exercise_graph8.png">
 		<description>This histogram has shorter bars to the left, which gradually get taller. The tallest bar is on the right side of the graph.</description>
 		</image>
+	</figure>
 	</sidebyside>
 
-	<sidebyside width="50%">
+	<sidebyside valign="bottom" widths="40% 40%">
+		<figure>
+			<caption>The distribution of scores on a psychology test.</caption>
 		<image source="images/statistics/3_2/exercise_graph9.png">
 			<description>This histogram increases sharply and then decreases gradually. The peak is just to the left of the center.</description>
 		</image>
-	</sidebyside>
-
-	<sidebyside width="50%">
+	</figure>
+	<figure>
+		<caption>The number of heads in 24 sets of 100 coint flips.</caption>
 		<image source="images/statistics/3_2/exercise_graph10.png">
 			<description>This histogram is symmetric. The highest bar is in the middle and the bars decrease in height as you move away from the middle.</description>
 		</image>
+	</figure>
 	</sidebyside>
-	<p>
-		GRAPH LABELS The frequency of times between eruptions of the Old Faithful geyser.
-	
-		Scores on a 20-point statistics quiz.
-	
-		Distribution of scores on a psychology test.
-	
-		The number of heads in 24 sets of 100 coin flips. 13.
-	</p>
 	</statement>
 	<solution>
 		<p>
@@ -1849,43 +1828,35 @@
 		Write a sentence or two to describe each distribution in terms of modality, symmetry, skewness and outliers.
 	</p>
 	<p>
-	<ol label="a.">
-		<li>
-			<sidebyside width="50%">
+		<sidebyside valign="bottom" width="31%">
+			<figure>
 				<image source="images/statistics/3_2/exercise_graph11.png">
 					<description>This histogram has the tallest bars on the left side and then decreases to the right.</description>
 				</image>
-			</sidebyside>
-		</li>
-		<li>
-			<sidebyside width="50%">
+			</figure>
+			<figure>
 				<image source="images/statistics/3_2/exercise_graph12.png">
 					<description>The bars in this histogram increase gradually to the center and then decrease. The bars drop off slightly faster to the right.</description>
 				</image>
-			</sidebyside>
-		</li>
-		<li>
-			<sidebyside width="50%">
+			</figure>
+		</sidebyside>
+		<sidebyside valign="bottom" width="31%" margins="0%">
+			<figure>
 				<image source="images/statistics/3_2/exercise_graph13.png">
 					<description>The bars in this histogram increase sharply to the tallest bars on the left side, then decrease and increase to the second tallest bar, then decrease again to the right.</description>
 				</image>
-			</sidebyside>
-		</li>
-		<li>
-			<sidebyside width="50%">
+			</figure>
+			<figure>
 				<image source="images/statistics/3_2/exercise_graph14.png">
 					<description>The bars on this histogram start out at a middle height and then go down and up in a U shape to the tallest bar to the right of center. Then the bars decrease and increase again for another tall bar on the right.</description>
 				</image>
-			</sidebyside>
-		</li>
-		<li>
-			<sidebyside width="50%">
+			</figure>
+			<figure>
 				<image source="images/statistics/3_2/exercise_graph15.png">
 					<description>The bars on this histogram gradually increase to the right and drop of quickly after the peak toward the right side of the graph.</description>
 				</image>
-			</sidebyside>
-		</li>
-	</ol>
+			</figure>
+		</sidebyside>
 	</p>
 	</statement>
 	<solution>

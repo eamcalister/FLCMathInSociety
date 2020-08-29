@@ -2,12 +2,44 @@
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="financial_math">
 <title>Financial Math</title>
 
+<introduction>
+	<title>Dr. Muhammad Yunus and Microlending</title>
+		<sidebyside valign="middle" widths="56% 42%" margins="0%">
+			<stack>
+			<p>
+			Muhammad Yunus was born in 1940 in the village of Bathua to a Bengali Muslim family. He went to primary school in the city of Chittagong, Bangladesh and studied at Chittagong Collegiate School. In 1960 and 1961, Dr. Yunus completed his B.A. and M.A. in economics at Dhaka University. In 1965, he received a Fulbright scholarship to study in the United States and earned his Ph.D. in economics from Vanderbilt University. Then he taught economics at Middle Tennessee State University (Wikipedia Contributors, 2019).
+			</p>
+			<p>
+			After returning to Bangladesh he was appointed to the government’s Planning Commission and then led the Chittagong Economics Department. In 1974, during a visit to the village of Jobra, Dr. Yunus met a woman who wove bamboo stools and was struggling to make ends meet. He loaned a total of US$27 of his own money to her and several women in the village. They repaid it in full and on time and were able to make a profit for themselves (Giridharas &amp; Bradsher, 2006).
+			</p>
+		</stack>
+			<image source="images/financial_math/2_1/my_pic.png"></image>
+		</sidebyside>
+		<p>
+			Dr. Yunus discovered that making very small loans could make a really big difference and empower people in poverty. He saw credit as a human right and invented the concept of microlending (Renton, 2008). Traditional banks did not want to risk making tiny loans to the poor and local lenders had excessive or abusive interest rates.
+		</p>
+		<p>
+			In December 1976, Yunus secured a loan from Janata Bank for a larger pilot program to lend money to villagers in Jobra and by 1983, the project became a full-fledged bank called Grameen Bank (<q>Village Bank</q>). In the late 1980s, Grameen started to diversify into fisheries, irrigation and other equity projects. From 1997 to 2007, the Village Phone project had brought cell phone ownership to 260,000 rural people in over 50,000 villages.
+		</p>
+		<p>
+			More than 94% of Grameen loans have gone to women, who are disproportionately affected by poverty. The model developed by Dr. Yunus inspired similar efforts in about 100 developing countries and in the United States, however, some businesses started taking advantage of people.
+		</p>
+		<p>
+			Dr. Yunus was awarded the Nobel Peace Prize in 2006, along with Grameen Bank, for their efforts in social business models and alleviating poverty. By July 2007, Grameen had issued US$6.38 billion to 7.4 million borrowers. To help ensure repayment, the bank uses a system of <w>solidarity groups</w> which are five women who apply together and act as co-guarantors and support each other (Wikipedia Contributors, 2019).
+		</p>
+		<p>
+			Dr. Yunus and Grameen bank faced some accusations in 2011, which may have been politically motivated. He was cleared of any misconduct. Dr. Yunus currently chairs <url href="https://www.muhammadyunus.org/">The Yunus Centre</url> in Dhaka, Bangladesh, a think tank for ideas related to social entrepreneurism, poverty alleviation and sustainability.
+		</p>
+</introduction>
+
 <xi:include href="chap_two_intro_spreadsheet.ptx" />
 <xi:include href="chap_two_simple_compound.ptx" />
 <xi:include href="chap_two_savings_plan.ptx" />
 <xi:include href="chap_two_loans.ptx" />
 <xi:include href="chap_two_income_taxes.ptx" />
 <xi:include href="chap_two_review.ptx" />
+
+
 <!-- <xi:include href="chap_two_credit_cards.ptx" /> -->
 
 </chapter>

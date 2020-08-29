@@ -44,7 +44,7 @@
 	<credit>
     	<role>License</role>
     	<entity>
-    		This book is Licensed by the Portland Community College Math Department under <url href="https://creativecommons.org/licenses/by-sa/4.0/us/">CC BY-SA 4.0</url>.
+    		This book is Licensed under <url href="https://creativecommons.org/licenses/by-sa/4.0/us/">CC BY-SA 4.0</url>.
     	</entity>
 	</credit>
 
@@ -83,7 +83,7 @@
 			<alert>Acknowledgements:</alert> We would like to thank Amy Hofer and grant support from <url href="https://openoregon.org/">Open Oregon Educational Resources</url> and the PCC librarians and OER steering committee. Thanks also to Kaela Parks and Michael Cantino of Disability Services for their expertise on accessibility.
 		</p>
 		<p>
-   			<alert>Antiracist and Culturally Responsive Features:</alert> Our goal is for our students to see themselves in this book. We have added stories of mathematicians and economists with identities that have traditionally been underrepresented in textbooks. We use local places and culturally diverse names in the examples and exercises. We have examples with they/them/their pronouns and same-sex couples.
+   			<alert>Antiracist and Culturally Responsive Elements:</alert> Our goal is for our students to see themselves in this book. We have added stories of mathematicians and economists with identities that have traditionally been underrepresented in textbooks. We use local places and culturally diverse names in the examples and exercises. We have examples with they/them/their pronouns and same-sex couples.
    		</p>
    		<p>
    			In the democracy chapter we have included the Native American genocide and slavery which are often left out of math texts. We have also emphasized the names of civil right leaders and African Americans killed by the police in our examples. We recognize there is more to do in this area and welcome contributions and feedback. Please email Cara Lee at <url href="mailto://cara.lee@pcc.edu/">cara.lee@pcc.edu</url> or use the Google Form link below.
@@ -118,7 +118,7 @@
 		<ul>
 			<li>
 				<p>
-					<xref ref="tax_buckets"></xref>: <url href="https://www.trailfp.com/financial-planning/how-about-them-tax-apples/">Tax Buckets</url> by <url href="https://www.trailfp.com/">John Chesbrough</url>, used under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-ND-NC 4.0</url>.
+					<xref ref="tax_buckets"></xref>: <url href="https://www.trailfp.com/financial-planning/how-about-them-tax-apples/">Tax Buckets</url> by <url href="https://www.trailfp.com/">John Chesbrough</url>, used under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-ND-NC 4.0</url>, not modified, used with permission.
 				</p>
 			</li>
 			<li>
@@ -138,7 +138,7 @@
 			</li>
 			<li>
 				<p>
-					GeoGebra screenshots are used for non-commercial use under <url href="https://www.geogebra.org/license#NonCommercialLicenseAgreement">https://www.geogebra.org/license#NonCommercialLicenseAgreement</url>
+					GeoGebra screenshots are used for non-commercial use under <url href="https://www.geogebra.org/license#NonCommercialLicenseAgreement">https://www.geogebra.org/</url>
 				</p>
 			</li>
 		</ul>

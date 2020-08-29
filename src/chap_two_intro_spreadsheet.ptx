@@ -24,33 +24,7 @@
 		</ul>
 </objectives>
 
-<subsection>
-	<title></title>
-	<paragraphs>
-	<title>Dr. Muhammad Yunus and Microlending</title>
-		<sidebyside width="50%">
-			<image source="images/financial_math/2_1/my_pic.png"></image>
-		</sidebyside>
-		<p>
-			Muhammad Yunus was born in 1940 in the village of Bathua to a Bengali Muslim family. He went to primary school in the city of Chittagong, Bangladesh and studied at Chittagong Collegiate School. In 1960 and 1961, Dr. Yunus completed his B.A. and M.A. in economics at Dhaka University. In 1965, he received a Fulbright scholarship to study in the United States and earned his Ph.D. In economics from Vanderbilt University. Then he taught economics at Middle Tennessee State University (Wikipedia Contributors, 2019).
-		</p>
-		<p>
-			After returning to Bangladesh he was appointed to the government’s Planning Commission and then led the Chittagong Economics Department. In 1974, during a visit to the village of Jobra, Dr. Yunus met a woman who wove bamboo stools and was struggling to make ends meet. He loaned a total of US$27 of his own money to her and several women in the village. They repaid it in full and on time and were able to make a profit for themselves (Giridharas &amp; Bradsher, 2006). Dr. Yunus discovered that making very small loans could make a really big difference and empower people in poverty. He saw credit as a human right and invented the concept of microlending (Renton, 2008). Traditional banks did not want to risk making tiny loans to the poor and local lenders had excessive or abusive interest rates.
-		</p>
-		<p>
-			In December 1976, Yunus secured a loan from Janata Bank for a larger pilot program to lend money to villagers in Jobra and by 1983, the project became a full-fledged bank called Grameen Bank (<q>Village Bank</q>). In the late 1980s, Grameen started to diversify into fisheries, irrigation and other equity projects. From 1997 to 2007, the Village Phone project had brought cell phone ownership to 260,000 rural people in over 50,000 villages.
-		</p>
-		<p>
-			More than 94% of Grameen loans have gone to women, who are disproportionately affected by poverty. The model developed by Dr. Yunus inspired similar efforts in about 100 developing countries and in the United States, however, some businesses started taking advantage of people.
-		</p>
-		<p>
-			Dr. Yunus was awarded the Nobel Peace Prize in 2006, along with Grameen Bank, for their efforts in social business models and alleviating poverty. By July 2007, Grameen had issued US$6.38 billion to 7.4 million borrowers. To help ensure repayment, the bank uses a system of <w>solidarity groups</w> which are five women who apply together and act as co-guarantors and support each other (Wikipedia Contributors, 2019).
-		</p>
-		<p>
-			Dr. Yunus and Grameen bank faced some accusations in 2011, which may have been politically motivated. He was cleared of any misconduct. Dr. Yunus currently chairs <url href="https://www.muhammadyunus.org/">The Yunus Centre</url> in Dhaka, Bangladesh, a think tank for ideas related to social entrepreneurism, poverty alleviation and sustainability.
-		</p>
-	</paragraphs>
-</subsection>
+
 
 <introduction>
 	<p>
@@ -81,37 +55,37 @@
 		To do a calculation on a spreadsheet, type an equal sign before the operation. This lets the program know that you want it to calculate the result. When you press enter, you will see the result.
 	</p>
 	<example>
-		<sidebyside>
+		<sidebyside valign="middle" widths="55% 25%">
 			<p>
 				<ol>
 					<li>
 						<p>
-							To add 3 + 4 <cd>=3+4</cd>
+							To add 3 + 4, enter <c>=3+4</c>
 						</p>
 					</li>
 					<li>
 						<p>
-							To subtract 100-76 <cd>=100-76</cd>
+							To subtract 100-76, enter <c>=100-76</c>
 						</p>
 					</li>
 					<li>
 						<p>
-							4 times 18 <cd>=4*18</cd>
+							To multiply 4 times 18, enter <c>=4*18</c>
 						</p>
 					</li>
 					<li>
 						<p>
-							0.05 divided by 12 <cd>=0.05/12</cd>
+							To divide 0.05 by 12, enter <c>=0.05/12</c>
 						</p>
 					</li>
 					<li>
 						<p>
-							To calculate <m>5^{25}</m> <cd>=5^25</cd>
+							To calculate <m>5^{25}</m>, enter <c>=5^25</c>
 						</p>
 					</li>
 				</ol>
 			</p>
-			<image width="40%" source="images/financial_math/2_1/basic_calc.png">
+			<image source="images/financial_math/2_1/basic_calc.png">
 			<description>A spreadsheet showing the examples entered in the spreadsheet. cell A1 has =3+4, cell A2 has =100-76, cell A3 has =4*18, cell A4 has =0.05/12 and cell A5 has =5^25.</description>
 			</image>
 		</sidebyside>
@@ -130,13 +104,13 @@
 		</statement>
 		<solution>
 		<p>
-			To work with a percentage, we need to convert it into a decimal first, and then multiply it by the base amount. In a spreadsheet we would type
+			To work with a percentage, we need to convert it into a decimal first, and then multiply it by the base amount.
 		</p>
 		<p>
-			<cd>=0.18*35.75</cd>
+			In a spreadsheet we would type <cd>=0.18*35.75</cd>
 		</p>
 		<p>
-			=$6.44, <alert>rounded to the nearest cent</alert>. You would leave a tip of $6.44.
+			and get a result of $6.44, <alert>rounded to the nearest cent</alert>. You would leave a tip of $6.44.
 		</p>
 	</solution>
 	</example> 
@@ -145,7 +119,7 @@
 <subsection>
 	<title>Cell References</title>
 		<p>
-			One of the powerful things about spreadsheets is using a cell reference, such as C5 in a calculation. When you use a <alert>cell reference</alert>, the values will automatically update if any of the referenced values change. 
+			One of the powerful things about spreadsheets is using a cell reference, such as C5 in a calculation. When you use a <alert>cell reference</alert>, the values will automatically update if any of the referenced values change.
 		</p>
 		<p>
 			Let’s make a spreadsheet for the percentage tip example above. We calculated an 18% tip on a bill of $35.75. We might want to tip 18% in general, but our bill will change values. We labeled the first column Bill Amount and the second column Tip. The amount of $35.75 is entered in cell A2. Then when we write our formula in B2, we want to calculate 18% of A2. That way if the number in A2 changes, our tip will automatically update.
@@ -183,12 +157,12 @@
 	<p>
 		The <alert>fill-down feature</alert> is very useful for making tables. This allows us to copy values or formulas to save time. Let’s make a tipping reference table with values from $10, to$100, in increments of $10. First, we will enter two values in column A to establish the pattern. Then select those two cells and you will see a small square in the lower right corner. Drag that square down until you get to $100.
 	</p>
-	<sidebyside width="50%">
+	<sidebyside width="45%">
 		<image source="images/financial_math/2_1/drag_down1.png">
 		<description>A spreadsheet showing the fill-down feature; cells A2 and  A3 are highligted for the pattern and there is a down arrow by the small square to drag down.</description>
 		</image>
 	</sidebyside>
-	<sidebyside width="50%">
+	<sidebyside width="45%">
 		<image source="images/financial_math/2_1/drag_down2.png">
 		<description>This spreadsheet shows the completed bill amount column from $10 to $100 and shows the fill-down feature for the formula; cell B2 has the equation =0.18*A2 and there is a down arrow by the small square to drag down.</description>
 		</image>
@@ -200,7 +174,7 @@
 	<p>
 		Here are the formulas with the row numbers updated:
 	</p>
-	<sidebyside width="50%">
+	<sidebyside width="40%">
 		<image source="images/financial_math/2_1/drag_down3.png">
 		<description>This spreadsheet shows the result of filling down the formula. The cell reference changes for each new row.</description>
 		</image>
@@ -208,7 +182,7 @@
 	<p>
 		Here is our completed table with the calculations:
 	</p>
-	<sidebyside width="50%">
+	<sidebyside width="40%">
 		<image source="images/financial_math/2_1/drag_down4.png">
 		<description>This spreadsheet shows the calculated values for tips from $10-100.</description>
 		</image>
@@ -223,33 +197,33 @@
 		<ol>
 			<li>
 				<p>
-					<cd>=FV</cd> to calculate the future values of an investment
+					<c>=FV</c> to calculate the future values of an investment
 				</p>
 			</li>
 			<li>
 				<p>
-					<cd>=PV</cd> to calculate the deposit needed for a desired future balance
+					<c>=PV</c> to calculate the deposit needed for a desired future balance
 				</p>
 			</li>
 			<li>
 				<p>
-					<cd>=PMT</cd> to calculate a loan or savings plan payment
+					<c>=PMT</c> to calculate a loan or savings plan payment
 				</p>
 			</li>
 			<li>
 				<p>
-					<cd>=EFFECT</cd> to calculate the effective rate of an account and compare accounts
+					<c>=EFFECT</c> to calculate the effective rate of an account and compare accounts
 				</p>
 			</li>
 		</ol>
 	</p>
 	<p>
-		In the rest of this chapter we will use spreadsheets and formulas to calculate the future values, interest paid or earned and monthly payments. 
+		In the rest of this chapter we will use spreadsheets and formulas to calculate the future values, interest paid or earned and monthly payments.
 	</p>
 </subsection>
 
 <exercises>
-<title>Exercises 2.1</title>
+<title>Exercises</title>
 <introduction>
 	<p>
 		Use a spreadsheet to compute the following.

@@ -87,7 +87,7 @@
 		<title>Savings Plan Formulas</title>
 		<p>
 			<me>
-				A=\frac{d[(1+\frac{r}{n})^{nt}-1]}{(\frac{r}{n})} \text{  or  } d=\frac{A(\frac{r}{n})}{[(1+\frac{r}{n})^{nt}-1]}
+				A=\frac{d\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}
 			</me>
 		</p>
 		<p>
@@ -151,13 +151,16 @@
 		<p>
 			To use a spreadsheet, we will use <c>=FV</c> because we want to know the balance in the future. We enter 100 for the payment amount and 0 for the present value:
 		</p>
-		<p>
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=FV(0.06/12, 12 / 20, 100, 0)</cd>
 		</p>
 		<p>
-			<m>=\$46,204.09</m>
+			which gives a result of $46,204.09.
 		</p>
-		<sidebyside width="50%">
+			</stack>
 			<image source="images/financial_math/2_3/savings_plan1.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -181,13 +184,11 @@
 			Putting this into the equation we have:
 		</p>
 		<p>
-			<m>A=\frac{100[(1+\frac{0.06}{12})^{12\cdot 20}-1]}{(\frac{0.06}{12})}</m>
-		</p>
-		<p>
-			<m>A=\frac{100[(1.005)^{240}-1]}{(0.005)}</m>
-		</p>
-		<p>
-			<m>=\$46.204.09</m>
+			<md>
+			<mrow>A\amp=\frac{100\left[\left(1+\frac{0.06}{12}\right)^{12\cdot 20}-1\right]}{\left(\frac{0.06}{12}\right)}</mrow>
+			<mrow>\amp=\frac{100[(1.005)^{240}-1]}{(0.005)}</mrow>
+			<mrow>\amp=\$46.204.09</mrow>
+		</md>
 		</p>
 		<p>
 			With U.S. dollars we round to the nearest cent. The account will grow to $46,204.09 after 20 years.
@@ -196,14 +197,14 @@
 			To find the <alert>amount of interest earned</alert>, calculate the total of all your deposits.
 		</p>
 		<p>
-			<m>\$100(20)(12)=\$24,000</m>
+			<me>\$100(20)(12)=\$24,000</me>
 		</p>
 
 		<p>
 			The difference between the total amount and the deposits is the interest earned.
 		</p>
 		<p>
-			<m>\$46,204.09-\$24,000=\$22,204.09</m>
+			<me>\$46,204.09-\$24,000=\$22,204.09</me>
 		</p>
 		<p>
 			The total amount of interest you earned was $22,204.09.
@@ -212,10 +213,10 @@
 			To find the <alert>percentage of the balance that is interest</alert> we will divide the interest by the total balance.
 		</p>
 		<p>
-			<m>\frac{\$22,204.09}{\$46,204.09}</m> or 48.1%
+			<me>\frac{\$22,204.09}{\$46,204.09}</me>
 		</p>
 		<p>
-			After 20 years 48.1% of the balance is from interest. 
+			or 48.1%. After 20 years 48.1% of the balance is from interest. 
 		</p>
 		</solution>
 	</example>
@@ -233,13 +234,16 @@
 		<p>
 			Using the spreadsheet formula, we can enter an initial deposit and a monthly payment. We enter
 		</p>
-		<p>
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=FV(0.055/12, 12*30, 150,1500)</cd>
 		</p>
 		<p>
-			<m>=\$144,822.87</m>.
+			and get a result of $144,822.87.
 		</p>
-		<sidebyside width="50%">
+			</stack>
 			<image source="images/financial_math/2_3/savings_plan2.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -305,13 +309,16 @@
 		<p>
 			To calculate this with a spreadsheet, we will use the <c>=PMT</c> function and enter 0 for the present value and $500,000 for the future value. We cannot enter commas within the numbers however, because spreadsheets use commas to separate the inputs. We enter:
 		</p>
-		<p>
-			<cd>=PMT(0.08/12, 12*30, 0, 500000)</cd>
-		</p>
-		<p>
-			<m>=\$335.49</m>.
-		</p>
-		<sidebyside width="50%">
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+			<p>
+				<cd>=PMT(0.08/12, 12*30, 0, 500000)</cd>
+			</p>
+			<p>
+				and get a result of $335.49.
+			</p>
+			</stack>
 			<image source="images/financial_math/2_3/finding_payments1.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -334,13 +341,11 @@
 		</p>
 		<p></p>
 		<p>
-			<m>d=\frac{A(\frac{r}{n})}{[(1+\frac{r}{n})^{nt}-1]}</m>
-		</p>
-		<p>
-			<m>=\frac{500000(\frac{0.08}{12})}{[(1+\frac{0.08}{12})^{12\cdot 30}-1]}</m>
-		</p>
-		<p>
-			<m>=\$335.49</m>
+			<md>
+			<mrow>d\amp=\frac{A\left(\frac{r}{n}\right)}{\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}</mrow>
+			<mrow>\amp=\frac{500000\left(\frac{0.08}{12}\right)}{\left[\left(1+\frac{0.08}{12}\right)^{12\cdot 30}-1\right]}</mrow>
+			<mrow>\amp\approx\$335.49</mrow>
+		</md>
 		</p>
 		<p>
 			So, you would need to deposit $335.49 each month to have $500,000 in 30 years if your account earns 8% interest.
@@ -366,13 +371,16 @@
 		<p>
 			In this example we are given the regular deposit amount and we are looking for the future value. In a spreadsheet we use the <c>=FV</c> function and enter:
 		</p>
-		<p>
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=FV(0.03/365, 365*10, 5,0)</cd>
 		</p>
 		<p>
-			<m>=\$21,282.07</m>
+			which gives a result of 21,282.07.
 		</p>
-		<sidebyside width="50%">
+			</stack>
 			<image source="images/financial_math/2_3/finding_payments2.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -393,18 +401,17 @@
 		<p>
 			<m>t=10</m> we want the amount after 10 years
 		</p>
-		<p></p>
 		<p>
-			<m>A=\frac{5[(1+\frac{0.03}{365})^{365\cdot 10}-1]}{(\frac{0.03}{365})}</m>
-		</p>
-		<p>
-			<m>=\$21,282.07</m>
+			<md>
+			<mrow>A\amp=\frac{5\left[\left(1+\frac{0.03}{365}\right)^{365\cdot 10}-1\right]}{\left(\frac{0.03}{365}\right)}</mrow>
+			<mrow>\amp\approx\$21,282.07</mrow>
+			</md>
 		</p>
 		<p>
 			To find the amount of interest, we will calculate how much was deposited in the account. Since you put in $5 a day for 10 years we get
 		</p>
 		<p>
-			<m>\$5(365)(10)=\$18,250</m>.
+			<me>\$5(365)(10)=\$18,250</me>.
 		</p>
 
 		<p>
@@ -443,13 +450,16 @@
 		<p>
 			For scenario 1, there are two steps involved. The first part is the monthly payments for 15 years. To calculate this with a spreadsheet we enter
 		</p>
-		<p>
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=FV(0.10/12, 12*15, 200,0)</cd>
 		</p>
 		<p>
-			<m>=\$82,894.07</m>.
+			which gives $82,894.07.
 		</p>
-		<sidebyside width="50%">
+			</stack>
 		<image source="images/financial_math/2_3/comparing_payments1.png">
 		<description>An image of the spreadsheet showing the formula used and the result.</description>
 		</image>
@@ -458,13 +468,16 @@
 		<p>
 			Now you will stop making payments and let the money sit and earn interest for 20 more years. With a spreadsheet we enter
 		</p>
-		<p>
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=FV(0.10/12, 12*20, 0, 82894.07)</cd>
-		</p>
-		<p>
-			<m>=\$607,453.85</m>.
-		</p>
-		<sidebyside width="50%">
+			</p>
+			<p>
+				which gives $607,453.85.
+			</p>
+			</stack>
 			<image source="images/financial_math/2_3/comparing_payments2.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -475,33 +488,36 @@
 		</p>
 
 		<p>
-			<m>A=\frac{200[(1+\frac{0.10}{12})^{12\cdot 15}-1]}{(\frac{0.10}{12})}</m>
-		</p>
-		<p>
-			<m>=\$82,894.07</m>
+			<md>
+			<mrow>A\amp=\frac{200\left[\left(1+\frac{0.10}{12}\right)^{12\cdot 15}-1\right]}{\left(\frac{0.10}{12}\right)}</mrow>
+			<mrow>\amp\approx\$82,894.07</mrow>
+		</md>
 		</p>
 
 		<p>
 			And for the second step we use the compound interest formula from <xref ref="chap_two_simple_compound"></xref>.
 		</p>
 		<p>
-			<m>A=\$82,894.07(1+\frac{0.10}{12})^{12\cdot 20}</m>
-		</p>
-		<p>
-			<m>=\$607,453.85</m>
+			<md>
+			<mrow>A\amp=\$82,894.07\left(1+\frac{0.10}{12}\right)^{12\cdot 20}</mrow>
+			<mrow>\amp\approx\$607,453.85</mrow>
+		</md>
 		</p>
 
 		<p>
 			Now for Scenario 2: Since we are not investing anything for the first 15 years there is nothing to calculate. This is a one-step problem. We will find the future value with the monthly payments of $200 for 20 years. With a spreadsheet we enter
 		</p>
-		<p>
+		
+
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=FV(0.10/12, 12*20, 200,0)</cd>
 		</p>
 		<p>
-			<m>=\$151,873.77</m>.
+			which gives $151,873.77.
 		</p>
-
-		<sidebyside width="50%">
+			</stack>
 		<image source="images/financial_math/2_3/comparing_payments3.png">
 		<description>An image of the spreadsheet showing the formula used and the result.</description>
 		</image>
@@ -511,10 +527,10 @@
 			To check that with the formula we have:
 		</p>
 		<p>
-			<m>A=\frac{200[(1+\frac{0.10}{12})^{12\cdot 20}-1]}{(\frac{0.10}{12})}</m>
-		</p>
-		<p>
-			<m>=\$151,873.77</m>
+			<md>
+			<mrow>A\amp=\frac{200\left[\left(1+\frac{0.10}{12}\right)^{12\cdot 20}-1\right]}{\left(\frac{0.10}{12}\right)}</mrow>
+			<mrow>\amp\approx\$151,873.77</mrow>
+		</md>
 		</p>
 		<p>
 			Were you surprised by these numbers? You would put in less money in scenario 1 and end up with four times as much. The key to compounding interest is to start early. If you remember the graph of compound interest in <xref ref="chap_two_simple_compound"></xref>, we can see that as time goes on, the balance increases exponentially. 
@@ -529,7 +545,7 @@
 		If you are interested in where the savings plan formula came from, we will explain it here. A savings plan with regular payments can be described recursively. Recall that basic compound interest follows from the relationship for each compound period.
 	</p>
 	<p>
-		<m>A=P(1+\frac{r}{n})</m>
+		<m>A=P\left(1+\frac{r}{n}\right)</m>
 	</p>
 
 	<p>
@@ -537,7 +553,7 @@
 	</p>
 
 	<p>
-		<m>A=P(1+\frac{r}{n})+d</m>
+		<m>A=P\left(1+\frac{r}{n}\right)+d</m>
 	</p>
 
 	<p>
@@ -566,7 +582,7 @@
 	</p>
 	
 	<p>
-		<m>P_{m}=(1+\frac{0.06}{12})P_{m-1}+100=(1.005)P_{m-1}+100</m>
+		<m>P_{m}=\left(1+\frac{0.06}{12}\right)P_{m-1}+100=(1.005)P_{m-1}+100</m>
 	</p>
 	<p>
 		Assuming we start with an empty account, we can begin using this relationship:
@@ -599,14 +615,14 @@
 		This equation leaves a lot to be desired, though – it doesn’t make calculating the ending balance any easier! To simplify things, multiply both sides of the equation by 1.005:
 	</p>
 	<p>
-		<m>1.005P_{m}=1.005(100(1.005)^{m-1}+100(1.005)^{m-2}+...+100(1.005)+100)</m>
+		<m>1.005P_{m}=1.005[100(1.005)^{m-1}+100(1.005)^{m-2}+...+100(1.005)+100]</m>
 	</p>
 
 	<p>
 		Distributing on the right side of the equation gives
 	</p>
 	<p>
-		<m>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+100(1.005)^{2}+100(1.005))</m>
+		<m>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+100(1.005)^{2}+100(1.005)</m>
 	</p>
 	<p>
 		Now we’ll line this up with like terms from our original equation, and subtract each side
@@ -648,7 +664,7 @@
 	<title>Savings Plan Formulas</title>
 		<p>
 			<me>
-				A=\frac{d[(1+\frac{r}{n})^{nt}-1]}{(\frac{r}{n})} \text{  or  } d=\frac{A(\frac{r}{n})}{[(1+\frac{r}{n})^{nt}-1]}
+				A=\frac{d\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}
 			</me>
 		</p>
 		<p>

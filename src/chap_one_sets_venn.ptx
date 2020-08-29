@@ -265,7 +265,7 @@
 		<p>
 			In the last section we discussed the difference between <alert>inclusive <q>or</q></alert> and <alert>exclusive <q>or.</q></alert> In common language, <q>or</q> is usually exclusive, meaning the set <em>A</em> or <em>B</em> includes just <em>A</em> or just <em>B</em> but not both. In logic, however, <q>or</q> is inclusive, so the set <em>A</em> or <em>B</em> includes just <em>A</em>, just <em>B</em>, or both. The difference between the inclusive and exclusive <q>or</q> can be illustrated in a Venn, as shown below.
 		</p>
-		<sidebyside width="40%">
+		<sidebyside width="85%">
 		<image source="images/language_logic_rules/1_2/Venn_pic5.png">
 			<description>A previous generic Venn diagram showing 2 ovelapping sets, set A and set B. The yellow crescent is labeled Just A, the blue crescent is labeled Just B, and the green intersection is labeled A and B. The inclusive or includes all 3 regions; the exclusive or is just the yellow and blue regions.</description>
 		</image>
@@ -288,7 +288,7 @@
 		<p>
 			To answer this question, let’s first create a Venn diagram representing the survey results. Placing the given values, we have the following:
 		</p>
-		<sidebyside width="40%">
+		<sidebyside width="85%">
 		<image source="images/language_logic_rules/1_2/ill_data1.png">
 		<description>A Venn diagram with 2 overlapping sets, labeled coffee and tea; There are 80 people in the crescent for only coffee only, 30 people in the crescent for only tea, and 40 in the overlapping region in the center for coffee and tea</description>
 		</image>
@@ -454,11 +454,12 @@
 		Sets overlap if they have members in common. The Venn diagram examples we have looked at in this section are <alert>overlapping</alert> sets.
 	</p>
 	<example>
-		<sidebyside valign="middle" width="30%">
+		<sidebyside valign="middle" widths="30% 40%">
 			<stack>
 				<p>
 					The set of students living in SE Portland and the set of students taking MTH 105.
 				</p>
+
 				<p>
 					Qualified Proposition: <q><alert>Some</alert> students who live in SE Portland take MTH 105.</q>
 				</p>
@@ -477,11 +478,12 @@
 	</p>
 
 	<example>
-		<sidebyside valign="middle" width="30%">
+		<sidebyside valign="middle" widths="30% 40%">
 			<stack>
 				<p>
 					The set of Cats and the set of Dogs.
 				</p>
+				
 				<p>
 					Qualified Proposition: <q><alert>No</alert> cats are Dogs.</q>
 				</p>
@@ -499,11 +501,12 @@
 		If a set is completely contained in another set, it is called a <alert>subset</alert>.
 	</p>
 	<example>
-		<sidebyside valign="middle" width="30%">
+		<sidebyside valign="middle" widths="30% 40%">
 			<stack>
 				<p>
 					The set of all Trees and the set of Maples Trees.
 				</p>
+				
 				<p>
 					Qualified Proposition: <q><alert>All</alert> Maples are Trees.</q>
 				</p>
@@ -516,7 +519,7 @@
 </subsection>
 
 <exercises>
-<title>Exercises 1.2</title>
+<title>Exercises</title>
 <exercise>
 	<statement>
 	<p>
@@ -631,8 +634,8 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_2/solution_movie_watchers_venn.png"></image>
+		<sidebyside width="40%">
+			<image source="images/language_logic_rules/1_2/solution_movie_watchers_venn.png"></image>
 		</sidebyside>
 	</solution>
 </exercise>
@@ -666,8 +669,8 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_2/solution_size_color_venn.png"></image>
+		<sidebyside width="40%">
+			<image source="images/language_logic_rules/1_2/solution_size_color_venn.png"></image>
 		</sidebyside>
 	</solution>
 </exercise>
@@ -706,8 +709,8 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_2/solution_movies_venn.png"></image>
+		<sidebyside width="40%">
+			<image source="images/language_logic_rules/1_2/solution_movies_venn.png"></image>
 		</sidebyside>
 		<p>
 			<ol label="a.">
@@ -755,8 +758,8 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_2/solution_bike_walk_bus_venn.png"></image>
+		<sidebyside width="40%">
+			<image source="images/language_logic_rules/1_2/solution_bike_walk_bus_venn.png"></image>
 		</sidebyside>
 		<p>
 			<ol label="a.">
@@ -820,8 +823,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_2/dog_terrier_venn.png"></image>
+				<sidebyside width="40%">
+				<image source="images/language_logic_rules/1_2/dog_terrier_venn.png"></image>
 				</sidebyside>
 			</li>
 		</ol>
@@ -849,8 +852,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_2/mammal_fish_venn.png"></image>
+				<sidebyside width="40%">
+				<image source="images/language_logic_rules/1_2/mammal_fish_venn.png"></image>
 				</sidebyside>
 			</li>
 		</ol>
@@ -878,8 +881,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_2/pigs_fly_venn.png"></image>
+				<sidebyside width="40%">
+				<image source="images/language_logic_rules/1_2/pigs_fly_venn.png"></image>
 				</sidebyside>
 			</li>
 		</ol>
@@ -903,12 +906,12 @@
 			</li>
 			<li>
 				<p>
-					Subset	
+					Subset
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_2/children_young_venn.png"></image>
+				<sidebyside width="40%">
+				<image source="images/language_logic_rules/1_2/children_young_venn.png"></image>
 				</sidebyside>
 			</li>
 		</ol>
@@ -936,11 +939,11 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_2/friends_birthday_venn1.png"></image>
+				<sidebyside width="60%">
+				<image source="images/language_logic_rules/1_2/friends_birthday_venn1.png"></image>
 				</sidebyside>
-				<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_2/friends_birthday_venn2.png"></image>
+				<sidebyside width="40%">
+				<image source="images/language_logic_rules/1_2/friends_birthday_venn2.png"></image>
 				</sidebyside>
 			</li>
 		</ol>
@@ -968,8 +971,8 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
-				<image width="70%" source="images/language_logic_rules/1_2/lies_truth_venn.png"></image>
+				<sidebyside width="40%">
+				<image source="images/language_logic_rules/1_2/lies_truth_venn.png"></image>
 				</sidebyside>
 			</li>
 		</ol>
@@ -981,11 +984,11 @@
 <exercise>
 	<statement>
 		<p>
-			Suppose someone wants to conduct a study to learn how teenage employment rates differ between boys and girls and between honor students and others. For each teenager in the study, they will need to record the answers to these three questions:
+			Suppose someone wants to conduct a study to learn how teenage employment rates differ among gender identities and honor roll status. For each teenager in the study, they will need to record the answers to these three questions:
 			<ul>
 				<li>
 					<p>
-						Is the teenager a boy or a girl?
+						How does the teenager identify their gender?
 					</p>
 				</li>
 				<li>
@@ -1003,13 +1006,11 @@
 		<p>
 			Explain what each of the regions in the following Venn Diagram represent.
 		</p>
-		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_2/hw_1.2_additional_ex_1.png">
-			<description>
-			</description>
+		<sidebyside valign="middle" widths="40% 40%">
+			<image source="images/language_logic_rules/1_2/hw_1_2_additional_ex_1.png">
 			</image>
-		</sidebyside>
-		<p>
+		<stack>
+			<p>
 		<ul>
 			<li>
 				<p>
@@ -1053,48 +1054,50 @@
 			</li>
 		</ul>
 	</p>
+</stack>
+</sidebyside>
 	</statement>
 	<solution>
 		<p>
 		<ul>
 			<li>
 				<p>
-					Region A: Unemployed non-honor-student boys
+					Region A: Unemployed non-honor-students who identify as boys
 				</p>
 			</li>
 			<li>
 				<p>
-					Region B: Unemployed honor-student boys
+					Region B: Unemployed honor-students who identify as boys
 				</p>
 			</li>
 			<li>
 				<p>
-					Region C: Unemployed honor-student girls
+					Region C: Unemployed honor-students who identify as girls or nonbinary
 				</p>
 			</li>
 			<li>
 				<p>
-					Region D: Employed non-honor-student boys
+					Region D: Employed non-honor-students who identify as boys
 				</p>
 			</li>
 			<li>
 				<p>
-					Region E: Employed honor-student boys
+					Region E: Employed honor-students who identify as boys
 				</p>
 			</li>
 			<li>
 				<p>
-					Region F: Employed honor-student girls
+					Region F: Employed honor-students who identify as girls or nonbinary
 				</p>
 			</li>
 			<li>
 				<p>
-					Region G: Employed non-honor-student girls
+					Region G: Employed non-honor-students who identify as girls or nonbinary
 				</p>
 			</li>
 			<li>
 				<p>
-					Region H: Unemployed non-honor-student girls
+					Region H: Unemployed non-honor-students who identify as girls or nonbinary
 				</p>
 			</li>
 		</ul>
@@ -1137,8 +1140,8 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
-			<image width="70%" source="images/language_logic_rules/1_2/hw_1.2_additional_ex_2_solution.png">
+		<sidebyside width="60%">
+			<image source="images/language_logic_rules/1_2/hw_1_2_additional_ex_2_solution.png">
 			</image>
 		</sidebyside>
 		<p>
@@ -1152,46 +1155,47 @@
 	<p>
 		The Venn Diagram below shows the numbers of students in grade 5 at an elementary school who have enrolled for keyboard (K), guitar (G), and drum classes. Fill in the blanks
 	</p>
-	<sidebyside width="50%">
-		<image source="images/language_logic_rules/1_2/hw_1.2_additional_ex_3.png">
-		<description>
-		</description>
+	<sidebyside valign="middle" widths="35% 59%">
+		<image source="images/language_logic_rules/1_2/hw_1_2_additional_ex_3.png">
+		
 		</image>
-	</sidebyside>
+	<stack>
 	<p>
 		<ul>
 			<li>
 				<p>
-					Students enrolled for keyboard class:<fillin characters="5"/>
+					Students enrolled for keyboard class:<fillin characters="10"/>
 				</p>
 			</li>
 			<li>
 				<p>
-					Students enrolled for keyboard class only:<fillin characters="5"/>
+					Students enrolled for keyboard class only:<fillin characters="10"/>
 				</p>
 			</li>
 			<li>
 				<p>
-					Students didn’t enroll at all:<fillin characters="5"/>
+					Students didn’t enroll at all:<fillin characters="10"/>
 				</p>
 			</li>
 			<li>
 				<p>
-					Students took all three classes:<fillin characters="5"/>
+					Students took all three classes:<fillin characters="10"/>
 				</p>
 			</li>
 			<li>
 				<p>
-					Students enrolled for guitar and drum:<fillin characters="5"/>
+					Students enrolled for guitar and drum:<fillin characters="10"/>
 				</p>
 			</li>
 			<li>
 				<p>
-					Students enrolled for guitar and drum only:<fillin characters="5"/>
+					Students enrolled for guitar and drum only:<fillin characters="10"/>
 				</p>
 			</li>
 		</ul>
 	</p>
+</stack>
+</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1236,12 +1240,14 @@
 	<p>
 		A poll asked 100 coffee drinkers whether they like cream or sugar in their coffee. The information was organized in the following Venn Diagram.
 	</p>
-	<sidebyside width="50%">
-		<image source="images/language_logic_rules/1_2/hw_1.2_additional_ex_4.png">
+	<sidebyside valign="middle" widths="47% 47%">
+		<stack>
+		<image source="images/language_logic_rules/1_2/hw_1_2_additional_ex_4.png">
 		<description>
 		</description>
 		</image>
-	</sidebyside>
+	</stack>
+	<stack>
 	<p>
 		<ol label ="a">
 			<li>
@@ -1281,6 +1287,8 @@
 			</li>
 		</ol>
 	</p>
+</stack>
+</sidebyside>
 	</statement>
 	<solution>
 	<p>
@@ -1376,8 +1384,8 @@
 	<p>
 		<ol label="a.">
 			<li>
-				<sidebyside>
-					<image width="70%" source="images/language_logic_rules/1_2/taste_filling_venn.png"></image>
+				<sidebyside width="50%">
+					<image source="images/language_logic_rules/1_2/taste_filling_venn.png"></image>
 				</sidebyside>
 			</li>
 			<li>

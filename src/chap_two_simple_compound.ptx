@@ -52,13 +52,13 @@
 		For example, if you borrowed $100 from a friend and agree to repay it with 5% interest, then the amount of interest you would pay would be 5% of 100. It is very important to remember to change the interest <alert>rate</alert>, r, of 5% into a decimal by moving the decimal two places to the left.
 	</p>
 	<p>
-		<m>(0.05)\$100=\$5</m>
+		<me>(0.05)\$100=\$5</me>
 	</p>
 	<p>
 		The total amount you would repay is called the <alert>future value</alert> and would be $105, the original principal plus the interest.
 	</p>
 	<p>
-		<m>\$100+\$5=\$105</m>
+		<me>\$100+\$5=\$105</me>
 	</p>
 	<p>
 		Here are the formulas to represent the calculations we just did. 
@@ -117,21 +117,15 @@
 		<p>
 			Using the formula,
 		</p>
-		<p>
+				<p>
 			<md>
-				<mrow>I=Pr</mrow>
-				<mrow>=\$300(0.03)</mrow>
-				<mrow>=\$9</mrow>
+				<mrow>I\amp=Pr</mrow>
+				<mrow>\amp=\$300(0.03)</mrow>
+				<mrow>\amp=\$9</mrow>
 			</md>
 		</p>
 		<p>
-			To calculate this in a spreadsheet, you would enter
-		</p> 
-		<p>
-			<cd>=300*0.03</cd>
-		</p>
-		<p>
-			<m>=\$9</m>. You will earn $9 in interest when your friend pays you back.
+			To calculate this in a spreadsheet, you would enter <cd>=300*0.03</cd> and get a result of $9. You will earn $9 in interest when your friend pays you back.
 		</p>
 		</solution>
 	</example>
@@ -149,27 +143,18 @@
 			Each year, you would earn 5% interest so over the course of five years, you would earn:
 		</p>
 		<p>
-			<m>\$1000(0.05)(5)=\$250</m>
+			<me>\$1000(0.05)(5)=\$250</me>
 		</p>
 
 		<p>
 			When the bond matures, you would receive back the $1,000 you originally paid and the $250 in interest, so we could also put that into a single calculation:
 		</p>
 		<p>
-			<m>\$1000+\$1000(0.05)(5)=\$1250</m>
+			<me>\$1000+\$1000(0.05)(5)=\$1250</me>
 		</p>
 
 		<p>
-			Using a spreadsheet, you would enter
-		</p>
-		<p>
-			<cd>=1000+1000*0.05</cd>
-		</p>
-		<p>
-			<m>=\$1,250.</m>
-		</p>
-		<p>
-			The future value of the bond is $1,250. 
+			Using a spreadsheet, you would enter <cd>=1000+1000*0.05</cd> and get a result of $1,250. The future value of the bond is $1,250.
 		</p>
 		</solution>
 	</example>
@@ -235,7 +220,7 @@
 	</p>
 
 	<p>
-		<m>\frac{0.06}{12}=0.005</m>
+		<me>\frac{0.06}{12}=0.005</me>
 	</p>
 	
 	<p>
@@ -243,7 +228,7 @@
 	</p>
 	
 	<p>
-		<m>\frac{0.04}{4}=0.01</m>
+		<me>\frac{0.04}{4}=0.01</me>
 	</p>
 
 	<p>
@@ -267,9 +252,9 @@
 		</p>
 		<p>
 			<md>
-				<mrow>I=PRT</mrow>
-				<mrow>=\$1000(0.02)(8)</mrow>
-				<mrow>=\$160</mrow>
+				<mrow>I\amp=PRT</mrow>
+				<mrow>\amp=\$1000(0.02)(8)</mrow>
+				<mrow>\amp=\$160</mrow>
 			</md>
 		</p>
 		<p>
@@ -277,9 +262,9 @@
 		</p>
 		<p>
 			<md alignment="align">
-				<mrow>A=P+I</mrow>
-				<mrow>=\$1000+\$160</mrow>
-				<mrow>=\$1160</mrow>
+				<mrow>A\amp=P+I</mrow>
+				<mrow>\amp=\$1000+\$160</mrow>
+				<mrow>\amp=\$1160</mrow>
 			</md>
 		</p>
 
@@ -290,10 +275,7 @@
 			<cd>=1000+1000*(0.04/2)*(4*2)</cd>
 		</p>
 		<p>
-			<m>=\$1,160</m>
-		</p>
-		<p>
-			The future value of the bond is $1,160. Remember that spreadsheets don’t interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
+			which also gives $1,160. The future value of the bond is $1,160. Remember that spreadsheets don’t interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
 		</p>
 	</solution>
 	</example>
@@ -316,10 +298,10 @@
 
 	<p>
 		<md>
-			<mrow>P = \$1000</mrow>
-			<mrow>r =0.0025 \text{ (which is 0.25\%)}</mrow>
-			<mrow>I = \$1000 (0.0025)= \$2.60</mrow>
-			<mrow>A = \$1000 + \$2.5 = \$1002.50</mrow>
+		<mrow>P\amp= \$1000</mrow>
+		<mrow>r\amp=0.0025 \text{ (which is 0.25\%)}</mrow>
+		<mrow>I\amp= \$1000 (0.0025)= \$2.60</mrow>
+		<mrow>A\amp= \$1000 + \$2.5 = \$1002.50</mrow>
 		</md>
 	</p>
 	<p>
@@ -330,9 +312,9 @@
 	</p>
 	<p>
 		<md>
-			<mrow>P=\$1002.50</mrow>
-			<mrow>I=\$1002.50(0.0025)=\$2.51 \text{ (rounded)}</mrow>
-			<mrow>A=\$1002.50+\$2.51=\$1005.01</mrow>
+			<mrow>P\amp=\$1002.50</mrow>
+			<mrow>I\amp=\$1002.50(0.0025)=\$2.51 \text{ (rounded)}</mrow>
+			<mrow>A\amp=\$1002.50+\$2.51=\$1005.01</mrow>
 		</md>
 	</p>
 	<p>
@@ -454,7 +436,7 @@
 	<assemblage>
 		<title>Compound Interest</title>
 		<p>
-			<me>A=P(1+\frac{r}{n})^{nt} \text{ or } P=\frac{A}{(1+\frac{r}{n})^{nt}}</me>
+			<me>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</me>
 		</p>
 		<p>
 		<dl width="narrow">
@@ -577,14 +559,14 @@
 		</p>
 
 		<p>
-			To use a spreadsheet, you would enter
+			To use a spreadsheet, we will use the formula like this
 			<cd>=FV(rate per period, number of periods, payment amount, present value)</cd>
 		</p>
 		<p>
 			<cd>=FV(0.06/12, 12 / 20, 0, 3000)</cd>
 		</p>
 		<p>
-			=$9,930.61, rounded to the nearest cent.
+			and get a result of $9,930.61, rounded to the nearest cent.
 		</p>
 		<sidebyside width="50%">
 			<image source="images/financial_math/2_2/future_value.png">
@@ -599,10 +581,10 @@
 			To use a formula, we are looking for the future value, so we use the formula solved for A:
 		</p>
 		<p>
-			<me>A=3000(1+\frac{0.06}{12})^{12\cdot20})</me>
-		</p>
-		<p>
-			<me>=\$9930.61</me>
+			<md>
+				<mrow>A\amp=3000\left(1+\frac{0.06}{12}\right)^{12\cdot20}</mrow>
+				<mrow>\amp=\$9930.61</mrow>
+			</md>
 		</p>
 		<p>
 			To use a calculator, you would enter the formulas including parentheses around any inside operations. You would enter
@@ -620,6 +602,7 @@
 	<p>
 		Let us compare the amount of money earned from compounding in the previous example against the amount you would earn from simple interest. From the table and graph below we can see that over a long period of time, compounding makes a large difference in the account balance. You may recognize this as the difference between linear growth and exponential growth.
 	</p>
+	<sidebyside valign="bottom" widths="60% 36%" margins="0%">
 	<table>
 	<title></title>
 		<tabular top="minor" left="minor" right="minor" bottom="minor" halign="left">
@@ -670,12 +653,10 @@
 		</row>
 	</tabular>
 	</table>
-	
-	<sidebyside width="50%">
 	<image source="images/financial_math/2_2/comparing_interest.png">
 	<description>A coordinate graph with years on the x-axis and account balance on the y-axis. The simple interest increases in a straight line; the compound interest curves up faster because it is an exponential function.</description>
 	</image>
-	</sidebyside>
+</sidebyside>
 </subsection>
 
 <subsection>
@@ -743,10 +724,7 @@
 			<cd>=PV(0.04/4, 4*18, 0, 40000)</cd>
 		</p>
 		<p>
-			<m>= \$19,539.84</m> 
-		</p>
-		<p>
-			You would need to deposit $19,539.84 now and keep the same interest rate to have $40,000 in 18 years.
+			which gives a value of $19,539.84. You would need to deposit $19,539.84 now and keep the same interest rate to have $40,000 in 18 years.
 		</p>
 		<sidebyside width="50%">
 			<image source="images/financial_math/2_2/present_value.png">
@@ -776,10 +754,10 @@
 		</p>
 
 		<p>
-			<m>P=\frac{4000}{(1+\frac{0.04}{4})^{4\cdot 18}}</m>
-		</p>
-		<p>
-			<m>=19539.84</m>
+			<md>
+			<mrow>P\amp=\frac{4000}{\left(1+\frac{0.04}{4}\right)^{4\cdot 18}}</mrow>
+			<mrow>\amp=19539.84</mrow>
+		</md>
 		</p>
 		<p>
 			You would need to deposit $19,539.84 now to have $40,000 in 18 years.
@@ -849,16 +827,19 @@
 		</p>
 		</statement>
 		<solution>
-		<p>
-			To use a spreadsheet, we look at the formula solved for A, the future value. We enter
-		</p>
-		<p>
-			<cd>=4000*EXP(0.0275*7)</cd>
-		</p>
-		<p>
-			<m>=\$4849.11</m>.
-		</p>
-		<sidebyside width="50%">
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
+				To use a spreadsheet, we look at the formula solved for A, the future value. We enter
+				</p>
+				<p>
+				<cd>=4000*EXP(0.0275*7)</cd>
+				</p>
+				<p>
+				and get a result of $4849.11.
+				</p>
+			</stack>
 			<image source="images/financial_math/2_2/continuous_interest.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -879,10 +860,10 @@
 			<m>t = 7</m> Number of years
 		</p>
 		<p>
-			<m>A=4000e^{0.0275\cdot 7)}</m>
-		</p>
-		<p>
-			<m>=\$4849.11</m>
+			<md>
+			<mrow>A\amp=4000e^{(0.0275\cdot 7)}</mrow>
+			<mrow>\amp=\$4849.11</mrow>
+		</md>
 		</p>
 		<p>
 			After 7 years your account would be worth $4,849.11. Next, we will calculate the amount of interest earned and the percentage.
@@ -901,34 +882,31 @@
 			Continued: To find the total amount of interest earned, we subtract the principal from the total balance.
 		</p>
 		<p>
-			<m>\$4849.11-\$4000=\$849.11</m>
+			<me>\$4849.11-\$4000=\$849.11</me>
 		</p>
 		<p>
 			The spreadsheet calculation is
 		</p>
 		<p>
-			<cd>=4849.11 – 4000</cd>
+			<cd>=4849.11–-4000</cd>
 		</p>
 		<p>
-			<m>=\$849.11.</m> 
-		</p>
-		<p>
-			You would earn $849.11 in interest.
+			which gives a result of $849.11. You would earn $849.11 in interest.
 		</p>
 		<p>
 			To find the percentage that is interest, divide the amount of interest by the total amount.
 		</p>
 		<p>
-			<m>\frac{\$849.11}{4849.11}=0.1751</m> or 17.5%
+			<me>\frac{\$849.11}{4849.11}=0.1751\text{ or } 17.5\%</me>
 		</p>
 		<p>
 			The spreadsheet calculation is the same:
 		</p>
 		<p>
-			<cd>=849.11/4849.11</cd><m>=0.1751</m> or 17.5%.
+			<cd>=849.11/4849.11</cd>
 		</p>
 		<p>
-			This tells us that after 7 years, 17.5% of the account was earned as interest.
+			which is 0.1751 or 17.5%. This tells us that after 7 years, 17.5% of the account was earned as interest.
 		</p>
 	</example>
 </subsection>
@@ -975,13 +953,16 @@
 		<p>
 			For the 5.25% APR account compounded monthly:
 		</p>
-		<p>
+	
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=EFFECT(0.0525,12)</cd>
 		</p>
 		<p>
-			<m>=0.05378</m> or 5.38%
+			which gives 0.05378 or 5.38%
 		</p>
-		<sidebyside width="50%">
+			</stack>
 			<image source="images/financial_math/2_2/effective_rate1.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -989,13 +970,16 @@
 		<p>
 			For the 5% APR account compounded daily:
 		</p>
-		<p>
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=EFFECT(0.05,365)</cd>
 		</p>
 		<p>
-			<m>=0.05127</m> or 5.13%
+			which gives 0.05127 or 5.13%
 		</p>
-		<sidebyside width="50%">
+			</stack>
 			<image source="images/financial_math/2_2/effective_rate2.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -1021,13 +1005,16 @@
 		<p>
 			For the 6% APR account compounded quarterly:
 		</p>
-		<p>
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=EFFECT(0.06,4)</cd>
 		</p>
 		<p>
-			<m>=0.06136</m> or 6.14%
+			which gives 0.06136 or 6.14%
 		</p>
-		<sidebyside width="50%">
+			</stack>
 			<image source="images/financial_math/2_2/effective_rate3.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -1036,13 +1023,16 @@
 		<p>
 			For the 5.975% APR account compounded daily:
 		</p>
-		<p>
+		
+		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+			<stack>
+				<p>
 			<cd>=EFFECT(0.05975,365)</cd>
 		</p>
 		<p>
-			<m>=0.06157</m> or 6.16%
+			which gives 0.06157 or 6.16%
 		</p>
-		<sidebyside width="50%">
+			</stack>
 			<image source="images/financial_math/2_2/effective_rate4.png">
 			<description>An image of the spreadsheet showing the formula used and the result.</description>
 			</image>
@@ -1056,7 +1046,7 @@
 </subsection> 
 
 <exercises>
-<title>Exercises 2.2</title>
+<title>Exercises</title>
 
 <exercise>
 	<statement>
