@@ -7,7 +7,7 @@
 		<sidebyside valign="middle" widths="69% 29%" margins="0%">
 			<stack>
 			<p>
-			Dr. David Blackwell (1919 – 2010) was a theoretical statistician noted for his teaching and work in game theory and probability theory. He was the first and only African-American member of the National Academy of Sciences (Williams, 2008). Blackwell’s research in mathematics and statistics have found application in many fields including economics and accounting.
+			Dr. David Blackwell<fn>Photo: <url href="https://commons.wikimedia.org/wiki/File:David_Blackwell_1999_(re-scanned).jpg#/media/File:David_Blackwell_1999_(re-scanned,_cropped).jpg">"David Blackwell"</url> by George M. Bergman is licensed under <url href="http://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</url>.</fn> (1919 – 2010) was a theoretical statistician noted for his teaching and work in game theory and probability theory. He was the first and only African American member of the National Academy of Sciences (Williams, 2008). Blackwell’s research in mathematics and statistics have found application in many fields including economics and accounting.
 		</p>
 		<p>
 			Dr. Blackwell grew up in Centralia, Ill. In school, he was intrigued by geometry and calculus. His high school math club advisor would challenge members with problems from the School Science and Mathematics journal and submit their solutions. Blackwell was identified three times in the magazine as having solved problems and one of his solutions was published (David Harold Blackwell: National Visionary Leadership Project: African American History, 2013).
@@ -32,6 +32,7 @@
 <xi:include href="chap_three_measure_of_center.ptx" />
 <xi:include href="chap_three_measure_of_variation.ptx" />
 <xi:include href="chap_three_review.ptx" />
-<xi:include href="chap_three_normal_model.ptx" />
+
+ <xi:include href="chap_three_normal_model.ptx" />
 
 </chapter>

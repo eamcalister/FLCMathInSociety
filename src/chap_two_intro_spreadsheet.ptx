@@ -33,7 +33,7 @@
 	<p>
 		The rectangles within a spreadsheet are called <alert>cells</alert>, and they can be referenced by their column letter and row number. The first cell in the upper left side highlighted below is A1. If we wanted to talk about the third column and the fifth row, that cell would be C5.
 	</p>
-		<sidebyside width="50%">
+		<sidebyside width="40%">
 		<image source="images/financial_math/2_1/intro1.png">
 		<description>A blank spreadsheet with the cell A1 highlighted</description>
 		</image>
@@ -41,7 +41,7 @@
 	<p>
 		A spreadsheet file can contain many sheets. Look along the bottom to see if there is more than one sheet and make sure you are on the right sheet.
 	</p>
-		<sidebyside width="50%">
+		<sidebyside width="40%">
 		<image source="images/financial_math/2_1/intro2.png">
 		<description>A blank spreadsheet showing the sheet tabs at the bottom of the screen.</description>
 		</image>
