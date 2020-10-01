@@ -418,7 +418,7 @@
 				This is a deductive argument. It is valid. However, it is not sound because the premise all cats are afraid of vacuum cleaners is false. While many cats are afraid of vacuum cleaners not ALL cats are afraid. There are many videos of cats riding electronic vacuum cleaners.
 			</p>
 			<sidebyside width="50%">
-				<image source="images/language_logic_rules/1_3/solution_1.3_vacuums_cats_2.png">
+				<image source="images/language_logic_rules/1_3/solution_1_3_vacuums_cats_2.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -480,7 +480,7 @@
 				This is a deductive argument. This argument is not valid. Jimmy could be one of these rude kids, he could also be a kid who is not rude. Because the conclusion is not valid, it is also not sound.
 			</p>
 			<sidebyside width="50%">
-				<image source="images/language_logic_rules/1_3/solution_1.3_rude_people.png">
+				<image source="images/language_logic_rules/1_3/solution_1_3_rude_people.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -506,7 +506,7 @@
 				This is a deductive argument. The argument is not valid. Based on the premises, we know that the friend's Harley-Davidson motorcycle has two wheels, but we do not know whethere or not it is a bicycle. Because it is not valid, it is also not sound. 
 			</p>
 			<sidebyside width="50%">
-				<image source="images/language_logic_rules/1_3/solution_1.3_bikes.png">
+				<image source="images/language_logic_rules/1_3/solution_1_3_bikes.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -532,7 +532,7 @@
 				This is a deductive argument. The argument is valid. This bar is in the set of chocolate and chocolate is in the set of things that contain milk. However, this conclusion is not sound because not all chocolate contains milk. 
 			</p>
 			<sidebyside width="50%">
-				<image source="images/language_logic_rules/1_3/solution_1.3_milk.png">
+				<image source="images/language_logic_rules/1_3/solution_1_3_milk.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -558,7 +558,7 @@
 				This is a deductive argument. The argument is not valid. We can not determine if Brayer is a student or not. Because it is not valid it is also not sound. 
 			</p>
 			<sidebyside width="50%">
-				<image source="images/language_logic_rules/1_3/solution_1.3_coffee.png">
+				<image source="images/language_logic_rules/1_3/solution_1_3_coffee.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -603,7 +603,7 @@
 				This argument is deductive. The argument is valid because Laura is outside of the set of self-absorbed people, so she must also be outside of this set of people on this reality show. Determining if this conclusion is sound is more difficult because determining if someone is self-absorbed is subjective. 
 			</p>
 			<sidebyside width="50%">
-				<image source="images/language_logic_rules/1_3/solution_1.3_self_absorbed.png">
+				<image source="images/language_logic_rules/1_3/solution_1_3_self_absorbed.png">
 				</image>
 			</sidebyside>
 		</solution>
@@ -647,7 +647,7 @@
 			The argument is valid and sound.
 		</p>
 		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_3/solution_1.3_apples_pears.png">
+			<image source="images/language_logic_rules/1_3/solution_1_3_apples_pears.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -670,7 +670,7 @@
 			The argument is not valid, and it is not sound.
 		</p>
 		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_3/solution_1.3_young_kids.png">
+			<image source="images/language_logic_rules/1_3/solution_1_3_young_kids.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -693,7 +693,7 @@
 			The argument is not valid, and it is not sound.
 		</p>
 		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_3/solution_1.3_faint_goats.png">
+			<image source="images/language_logic_rules/1_3/solution_1_3_faint_goats.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -716,7 +716,7 @@
 			This argument is not valid, and because it is not valid it is also not sound. Claudia could have missed 25% of the classes causing her to fail. She could instead be failing because of low test scores.
 		</p>
 		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_3/solution_1.3_failing_class_claudia.png">
+			<image source="images/language_logic_rules/1_3/solution_1_3_failing_class_claudia.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -739,7 +739,7 @@
 			This argument is valid, and it is sound. Because Ethan is in the set of folks who missed 25% of the classes he also falls into the set of failing.
 		</p>
 		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_3/solution_1.3_failing_class_ethan.png">
+			<image source="images/language_logic_rules/1_3/solution_1_3_failing_class_ethan.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -762,7 +762,7 @@
 			This argument is not valid, and because it is not valid it is also not sound. Mary could be a dog. Mary could also be a worm, horse or human.
 		</p>
 		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_3/solution_1.3_apple_eater.png">
+			<image source="images/language_logic_rules/1_3/solution_1_3_apple_eater.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -785,7 +785,7 @@
 			This argument is not valid, and is not sound. We cannot determine if Juan took the test.
 		</p>
 		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_3/solution_1.3_freshman_test.png">
+			<image source="images/language_logic_rules/1_3/solution_1_3_freshman_test.png">
 			</image>
 		</sidebyside>
 	</solution>
@@ -808,7 +808,7 @@
 			This argument is not valid. Because it is not valid, it is also not sound. We cannot determine if Bob is a cat or not.
 		</p>
 		<sidebyside width="50%">
-			<image source="images/language_logic_rules/1_3/solution_1.3_peanuts_cat.png">
+			<image source="images/language_logic_rules/1_3/solution_1_3_peanuts_cat.png">
 			</image>
 		</sidebyside>
 	</solution>

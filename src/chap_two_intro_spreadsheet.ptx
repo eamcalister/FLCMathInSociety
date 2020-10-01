@@ -360,7 +360,7 @@
 		<p>
 			Note, the entry in cell B1 is <c>=15%*A1</c>. (Columns A and B are given dollar formatting)
 		</p>
-		<sidebyside width="50%">
+		<sidebyside width="25%">
 			<image source="images/financial_math/2_1/solution_table_1.png">
 			<description>A portion of a spreadsheet is shown which includes cells A1 through B25, and with a title heading of Table 1. Cell A1 shows $5.00, cell A2 shows $10.00, and so on.  The pattern shows that each additional cell under A1 is equal to the cell above it, plus $5.00.  This pattern continues down to cell A25, which shows $125.00. Cell B1 shows $0.78, which is 15% of the $5.00 amount shown in cell A1. Cell B2 shows $1.55, which is 15% of the $10.00 amount shown in cell A2. This pattern continues until we reach cell B25, which shows $19.38, and which is 15% of the $125.00 amount shown in cell A25.</description>
 			</image>
@@ -469,15 +469,15 @@
 					See the table at the bottom for part a and part b.	
 				</p>
 				<p>
-					After 1 year, the account holds $563.41
+					After 1 year, the account holds $563.41.
 				</p>
 			</li>
 			<li>
 				<p>
-					See the table at the bottom for part a and part b.	
+					See the table at the bottom for part a and part b.
 				</p>
 				<p>
-					After 2 years, the account holds $634.87
+					After 2 years, the account holds $634.87.
 				</p>
 			</li>
 			<li>
@@ -497,7 +497,7 @@
 			</li>
 		</ol>
 		</p>
-		<sidebyside width="50%">
+		<sidebyside width="25%">
 			<image source="images/financial_math/2_1/solution_table_2.png">
 			<description>A portion of a spreadsheet is shown covering cells A1 through A25, and with a title heading of Table 2. Cell A1 shows $500.00. Cell A2 shows $505.00, which is 101% of cell A1. Cell A3 shows $510.05, which is 101% of cell A2. This pattern continues until we reach cell A25, which shows $634.87, and which is 101% of cell A24.</description>
 			</image>
@@ -578,7 +578,8 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/financial_math/2_1/solution_table_3.png">
-			<description>A portion of a spreadsheet is shown, which includes cells A1 through E32, and with a title heading of Table 3. Cell A1 shows a column title of Year, and cells A2 through A32 contain values of 0 through 30, respectively. Cells D1 through D32 are a copy of cells A1 through A32. Cell B1 shows a column title of Balance. Cell B2 shows $1,000.00, which corresponds to Year 0 displaying in adjacent cell A1. Cell B3 shows $1,030.00, which is 103% of the $1,000 shown in cell B2. Cell B4 shows $1,060.90, which is 103% of the $1,030.00 shown in cell B3. This pattern continues until we get to cell B32, which shows $2,427.26, and which is 103% of the $2,356.57 amount shown in cell B31. Cell E1 shows a column title of Balance. Cell B2 shows $5,000.00, which corresponds to Year 0 displaying in adjacent cell D1. Cell E3 shows $5,150.00, which is 103% of the $5,000 shown in cell E2. Cell E4 shows $5,304.50, which is 103% of the $5,150.00 shown in cell E3. This pattern continues until we get to cell E32, which shows $12,136.31, and which is 103% of the $11,782.83 amount shown in cell E31.</description>
+			<description>A portion of a spreadsheet is shown, which includes cells A1 through E32, and with a title heading of Table 3. Cell A1 shows a column title of Year, and cells A2 through A32 contain values of 0 through 30, respectively. Cells D1 through D32 are a copy of cells A1 through A32. Cell B1 shows a column title of Balance. Cell B2 shows $1,000.00, which corresponds to Year 0 displaying in adjacent cell A1. Cell B3 shows $1,030.00, which is 103% of the $1,000 shown in cell B2. Cell B4 shows $1,060.90, which is 103% of the $1,030.00 shown in cell B3. This pattern continues until we get to cell B32, which shows $2,427.26, and which is 103% of the $2,356.57 amount shown in cell B31. Cell E1 shows a column title of Balance. Cell B2 shows $5,000.00, which corresponds to Year 0 displaying in adjacent cell D1. Cell E3 shows $5,150.00, which is 103% of the $5,000 shown in cell E2. Cell E4 shows $5,304.50, which is 103% of the $5,150.00 shown in cell E3. This pattern continues until we get to cell E32, which shows $12,136.31, and which is 103% of the $11,782.83 amount shown in cell E31.
+			</description>
 			</image>
 		</sidebyside>
 	</solution>

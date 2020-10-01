@@ -16,7 +16,6 @@
 <xi:include href="./probability.ptx" />
 <xi:include href="./democracy.ptx" />
 
-
 <xi:include href="./backmatter.ptx" />
 </book>
 </pretext>

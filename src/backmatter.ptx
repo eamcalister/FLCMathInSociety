@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <backmatter xml:id="backmatter">
 
+
+<!-- <solutions divisional="solution">
+	<title>Solutions</title>
+</solutions>
+ -->
+
 <references>
 	<p>
 		<em>About the electors.</em> (2019, August 27). National Archives. <url href="https://www.archives.gov/electoral-college/electors">https://www.archives.gov/electoral-college/electors</url>
@@ -98,6 +104,7 @@
 	</p>
 ‌
 </references>
+
 <!-- sample syntax -->
 <!-- <references xml:id="references-section">
                 <title>References</title>
