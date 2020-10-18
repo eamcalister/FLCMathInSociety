@@ -200,4 +200,28 @@
 		</ul>
 	</p>
 </preface>
+
+<preface>
+	<title>Errata</title>
+	<p>
+		These errors have been found since the last printing and fixed in the online version. The next printed books will have these corrections.
+	</p>
+	<table>
+		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
+			<row>
+				<cell><em>Section</em></cell>
+				<cell><em>Error Description</em></cell>
+			</row>
+			<row>
+				<cell>2.4</cell>
+				<cell>Example 2.4.5 was fixed to calculate 1% of the new balance. Example 2.4.6 was removed until it can be corrected.</cell>
+			</row>
+			<row>
+				<cell>5.1</cell>
+				<cell>Rodney King was not killed by the police but he was brutally beaten by four white police officers.</cell>
+			</row>
+		</tabular>
+	</table>
+</preface>
+
 </frontmatter>

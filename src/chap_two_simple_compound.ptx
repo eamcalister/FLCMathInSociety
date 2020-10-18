@@ -1057,8 +1057,8 @@
 	<solution>
 		<p>
 		<md>
-			<mrow>A=200+200(0.05)</mrow>
-			<mrow>A=\$210</mrow>
+			<mrow>A\amp=200+200(0.05)</mrow>
+			<mrow>\amp=\$210</mrow>
 		</md>
 		</p>
 		<p>
@@ -1091,16 +1091,16 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A=100+100(0.03)(0.5)</mrow>
-					<mrow>A=\$101.50</mrow>
+					<mrow>A\amp=100+100(0.03)(0.5)</mrow>
+					<mrow>\amp=\$101.50</mrow>
 				</md>
 				</p>
 			</li>
 			<li>
 				<p>
 				<md>
-					<mrow>=101.50-100</mrow>
-					<mrow>=\$1.50</mrow>
+					<mrow>I\amp=101.50-100</mrow>
+					<mrow>\amp=\$1.50</mrow>
 				</md>
 				</p>
 			</li>
@@ -1121,8 +1121,8 @@
 	<solution>
 		<p>
 		<md>
-			<mrow>A=200+200(0.06)(1.25)</mrow>
-			<mrow>A=\$215</mrow>
+			<mrow>A\amp=200+200(0.06)(1.25)</mrow>
+			<mrow>\amp=\$215</mrow>
 		</md>
 		</p>
 		<p>
@@ -1156,15 +1156,15 @@
 		<ol label="a.">
 			<li>
 				<md>
-					<mrow>I=1000(0.025)(5)</mrow>
-					<mrow>I=\$125</mrow>
+					<mrow>I\amp=1000(0.025)(5)</mrow>
+					<mrow>\amp=\$125</mrow>
 				</md>
 			</li>
 			<li>
 				<p>
 				<md>
-					<mrow>A=1000+1000(0.025)(5)</mrow>
-					<mrow>A=\$1125</mrow>
+					<mrow>A\amp=1000+1000(0.025)(5)</mrow>
+					<mrow>\amp=\$1125</mrow>
 				</md>
 				</p>
 			</li>
@@ -1200,16 +1200,16 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A=20000+20000(0.05)(10)</mrow>
-					<mrow>A=\$30000</mrow>
+					<mrow>A\amp=20000+20000(0.05)(10)</mrow>
+					<mrow>\amp=\$30,000</mrow>
 				</md>
 				</p>
 			</li>
 			<li>
 				<p>
 				<md>
-					<mrow>A=20000(1+0.05)^{10}</mrow>
-					<mrow>A=\$32,577.89</mrow>
+					<mrow>A\amp=20000(1+0.05)^{10}</mrow>
+					<mrow>\amp=\$32,577.89</mrow>
 				</md>
 				</p>
 			</li>
@@ -1224,14 +1224,14 @@
 <exercise><!-- #6 -->
 	<statement>
 	<p>
-		Nico invests $4,500 into an account that has an annual interest rate of 8.5%. The interest is compounding monthly. Twenty years later what is the account balance? 
+		Nico invests $4,500 into an account that has an annual interest rate of 8.5%. The interest is compounding monthly. Twenty years later what is the account balance?
 	</p>
 	</statement>
 	<solution>
 		<p>
 		<md>
-			<mrow>A=4500(1+\frac{0.085}{12})^{12*20}</mrow>
-			<mrow>A=\$24,485.59</mrow>
+			<mrow>A\amp=4500\left(1+\frac{0.085}{12}\right)^{12*20}</mrow>
+			<mrow>\amp=\$24,485.59</mrow>
 		</md>
 		</p>
 		<p>
@@ -1252,8 +1252,8 @@
 	<solution>
 		<p>
 		<md>
-			<mrow>A=1000(1+\frac{0.07}{52})^{52*20}</mrow>
-			<mrow>A \approx \$4051.38</mrow>
+			<mrow>A\amp=1000\left(1+\frac{0.07}{52}\right)^{52*20}</mrow>
+			<mrow>\amp\approx \$4051.38</mrow>
 		</md>
 		</p>
 		<p>
@@ -1263,7 +1263,7 @@
 			Or, <cd>=FV(0.07/52,52*20,0,1000)</cd>
 		</p>
 	</solution>
-</exercise> 
+</exercise>
 
 <exercise>
 	<statement>
@@ -1296,8 +1296,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A=3000(1+\frac{0.03}{4})^{4*5}</mrow>
-					<mrow>A \approx \$3,483.55</mrow>
+					<mrow>A\amp=3000\left(1+\frac{0.03}{4}\right)^{4*5}</mrow>
+					<mrow>\amp\approx \$3,483.55</mrow>
 				</md>
 				</p>
 				<p>
@@ -1310,8 +1310,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>I=3483.53-3000</mrow>
-					<mrow>I=\$483.54</mrow>
+					<mrow>I\amp=3483.53-3000</mrow>
+					<mrow>\amp=\$483.54</mrow>
 				</md>
 				</p>
 				<p>
@@ -1321,7 +1321,7 @@
 			<li>
 				<p>
 				<md>
-					<mrow>\frac{483.54}{3483.54} \approx 0.1388 \rightarrow 13.88\%</mrow>
+					<mrow>\frac{483.54}{3483.54} \approx 0.1388 \text{ or } 13.88\%</mrow>
 				</md>
 				</p>
 				<p>
@@ -1363,8 +1363,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A=300(1+\frac{0.05}{1})^{1*10}</mrow>
-					<mrow>A \approx \$488.67</mrow>
+					<mrow>A\amp=300\left(1+\frac{0.05}{1}\right)^{1*10}</mrow>
+					<mrow>\amp\approx \$488.67</mrow>
 				</md>
 				</p>
 				<p>
@@ -1377,8 +1377,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>I=488.67-300</mrow>
-					<mrow>I=\$188.67</mrow>
+					<mrow>I\amp=488.67-300</mrow>
+					<mrow>\amp=\$188.67</mrow>
 				</md>
 				</p>
 				<p>
@@ -1388,7 +1388,7 @@
 			<li>
 				<p>
 				<md>
-					<mrow>\frac{188.67}{488.67} \approx 0.3861 \rightarrow 38.61\%</mrow>
+					<mrow>\frac{188.67}{488.67} \approx 0.3861 \text{ or } 38.61\%</mrow>
 				</md>
 				</p>
 				<p>
@@ -1436,8 +1436,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A=2000(1+\frac{0.03}{12})^{12*20}</mrow>
-					<mrow>A \approx \$3,641.51</mrow>
+					<mrow>A\amp=2000\left(1+\frac{0.03}{12}\right)^{12*20}</mrow>
+					<mrow>\amp\approx \$3,641.51</mrow>
 				</md>
 				</p>
 				<p>
@@ -1450,8 +1450,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>I=3641.51-2000</mrow>
-					<mrow>I=\$1641.51</mrow>
+					<mrow>I\amp=3641.51-2000</mrow>
+					<mrow>\amp=\$1641.51</mrow>
 				</md>
 				</p>
 				<p>
@@ -1461,7 +1461,7 @@
 			<li>
 				<p>
 				<md>
-					<mrow>\frac{1641l51}{3641.51} \approx 0.4508 \rightarrow 45.08\%</mrow>
+					<mrow>\frac{1641.51}{3641.51} \approx 0.4508 \rightarrow 45.08\%</mrow>
 				</md>
 				</p>
 				<p>
@@ -1518,8 +1518,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A=10000(1+\frac{0.04}{52})^{52*25}</mrow>
-					<mrow>A \approx \$27,172.37</mrow>
+					<mrow>A\amp=10000\left(1+\frac{0.04}{52}\right)^{52*25}</mrow>
+					<mrow>\amp\approx \$27,172.37</mrow>
 				</md>
 				</p>
 				<p>
@@ -1532,8 +1532,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>I=27172.37-10000</mrow>
-					<mrow>I=\$17,172.37</mrow>
+					<mrow>I\amp=27172.37-10000</mrow>
+					<mrow>\amp=\$17,172.37</mrow>
 				</md>
 				</p>
 				<p>
@@ -1573,8 +1573,8 @@
 	<solution>
 		<p>
 		<md>
-			<mrow>P=\frac{6000}{(1+\frac{0.06}{12})^{12*8}}</mrow>
-			<mrow>P \approx \$3,717.14</mrow>
+			<mrow>P\amp=\frac{6000}{\left(1+\frac{0.06}{12}\right)^{12*8}}</mrow>
+			<mrow>\amp\approx \$3,717.14</mrow>
 		</md>
 		</p>
 		<p>
@@ -1584,7 +1584,7 @@
 			Or, <cd>=PV(0.06/12,12*8,0,6000)</cd>
 		</p>
 	</solution>
-</exercise> 
+</exercise>
 <exercise>
 	<statement>
 	<p>
@@ -1594,8 +1594,8 @@
 	<solution>
 		<p>
 		<md>
-			<mrow>P=\frac{20000}{(1+\frac{0.05}{4})^{4*4}}</mrow>
-			<mrow>P \approx \$16,394.79</mrow>
+			<mrow>P\amp=\frac{20000}{\left(1+\frac{0.05}{4}\right)^{4*4}}</mrow>
+			<mrow>\amp\approx \$16,394.79</mrow>
 		</md>
 		</p>
 		<p>
@@ -1637,8 +1637,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A_{Brylan} = 1200(1+\frac{0.046}{52})^{52*15}</mrow>
-					<mrow>A_{Brylan} \approx \$2,391.73</mrow>
+					<mrow>A_{Breylan} \amp= 1200\left(1+\frac{0.046}{52}\right)^{52*15}</mrow>
+					<mrow>\amp\approx \$2,391.73</mrow>
 				</md>
 				</p>
 				<p>
@@ -1646,22 +1646,22 @@
 				</p>
 				<p>
 				<md>
-					<mrow>A_{Angad} = 1200(1+\frac{0.0455}{52})^{52*15}</mrow>
-					<mrow>A_{Angad} \approx \$2,373.87</mrow>
+					<mrow>A_{Angad} \amp= 1200\left(1+\frac{0.0455}{52}\right)^{52*15}</mrow>
+					<mrow>\amp\approx \$2,373.87</mrow>
 				</md>
 				</p>
 				<p>
 					Or, <c>=FV(0.0455/52,15*52,0,1200)</c>
 				</p>
 				<p>
-					Brylan has an account balance of $2,391.73 and Angad has a balance of $2,373.87
+					Breylan has an account balance of $2,391.73 and Angad has a balance of $2,373.87
 				</p>
 			</li>
 			<li>
 				<p>
 				<md>
-					<mrow>A_{Brylan} = 1200(1+\frac{0.046}{52})^{52*30}</mrow>
-					<mrow>A_{Brylan} \approx \$4,766.97</mrow>
+					<mrow>A_{Breylan} \amp= 1200\left(1+\frac{0.046}{52}\right)^{52*30}</mrow>
+					<mrow>\amp\approx \$4,766.97</mrow>
 				</md>
 				</p>
 				<p>
@@ -1669,26 +1669,26 @@
 				</p>
 				<p>
 				<md>
-					<mrow>A_{Angad} = 1200(1+\frac{0.0455}{52})^{52*30}</mrow>
-					<mrow>A_{Angad} \approx \$4,696.06</mrow>
+					<mrow>A_{Angad} \amp= 1200\left(1+\frac{0.0455}{52}\right)^{52*30}</mrow>
+					<mrow>\amp\approx \$4,696.06</mrow>
 				</md>
 				</p>
 				<p>
 					Or, <c>=FV(0.0455/52,30*52,0,1200)</c>
 				</p>
 				<p>
-					Brylan has an account balance of $4,766.97 and Angad has a balance of $4,696.06
+					Breylan has an account balance of $4,766.97 and Angad has a balance of $4,696.06
 				</p>
 			</li>
 			<li>
 				<p>
-					Brylan <c>=EFFECT(0.046,52)</c>, 4.71%
+					Breylan <c>=EFFECT(0.046,52)</c>, which gives 4.71%
 				</p>
 				<p>
-					Angad <c>=EFFECT(0.0455,52)</c>, 4.65%
+					Angad <c>=EFFECT(0.0455,52)</c>, which gives 4.65%
 				</p>
 				<p>
-					Brylan has an effective rate of 4.71% and Angad has an effective rate of 4.65%.
+					Breylan has an effective rate of 4.71% and Angad has an effective rate of 4.65%.
 				</p>
 			</li>
 		</ol>
@@ -1726,8 +1726,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A=6700(1+\frac{0.0375}{12})^{12*5}</mrow>
-					<mrow>A \approx \$8,079.38</mrow>
+					<mrow>A\amp=6700\left(1+\frac{0.0375}{12}\right)^{12*5}</mrow>
+					<mrow>\amp\approx \$8,079.38</mrow>
 				</md>
 				</p>
 				<p>
@@ -1735,8 +1735,8 @@
 				</p>
 				<p>
 				<md>
-					<mrow>A=6500(1+\frac{0.038}{1})^{1*5}</mrow>
-					<mrow>A \approx \$7,832.49</mrow>
+					<mrow>A\amp=6500\left(1+\frac{0.038}{1}\right)^{1*5}</mrow>
+					<mrow>\amp\approx \$7,832.49</mrow>
 				</md>
 				</p>
 				<p>
@@ -1775,14 +1775,14 @@
 		<ol label="a.">
 			<li>
 				<p>
-					<c>=EFFECT(0.0345,4)</c>, 3.49% and <c>=EFFECT(0.034,365)</c>, 3.46%. The effective rates are 3.49% and 3.46%.
+					<c>=EFFECT(0.0345,4)</c>= 3.49% and <c>=EFFECT(0.034,365)</c>= 3.46%. The effective rates are 3.49% and 3.46%.
 				</p>
 			</li>
 			<li>
 				<p>
 				<md>
-					<mrow>A=5000(1+\frac{0.0345}{4})^{4*10}</mrow>
-					<mrow>A \approx \$7,049.51</mrow>
+					<mrow>A\amp=5000\left(1+\frac{0.0345}{4}\right)^{4*10}</mrow>
+					<mrow>\amp\approx \$7,049.51</mrow>
 				</md>
 				</p>
 				<p>
@@ -1790,8 +1790,8 @@
 				</p>
 				<p>
 				<md>
-					<mrow>A=5000(1+\frac{0.034}{365})^{365*10}</mrow>
-					<mrow>A \approx \$7,024.63</mrow>
+					<mrow>A\amp=5000\left(1+\frac{0.034}{365}\right)^{365*10}</mrow>
+					<mrow>\amp\approx \$7,024.63</mrow>
 				</md>
 				</p>
 				<p>
@@ -1836,8 +1836,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A=2500e^{0.04*10}</mrow>
-					<mrow>A \approx \$3,729.56</mrow>
+					<mrow>A\amp=2500e^{0.04*10}</mrow>
+					<mrow>\amp\approx \$3,729.56</mrow>
 				</md>
 				</p>
 				<p>
@@ -1850,8 +1850,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>I = 3729.56-2500</mrow>
-					<mrow>I = \$1229.56</mrow>
+					<mrow>I \amp= 3729.56-2500</mrow>
+					<mrow>\amp= \$1229.56</mrow>
 				</md>
 				</p>
 				<p>
@@ -1903,8 +1903,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A= 1000e^{0.0575*15}</mrow>
-					<mrow>A \approx \$2,369.08</mrow>
+					<mrow>A\amp= 1000e^{0.0575*15}</mrow>
+					<mrow>\amp\approx \$2,369.08</mrow>
 				</md>
 				</p>
 				<p>
@@ -1917,8 +1917,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>I = 2368.08-1000</mrow>
-					<mrow>I = \$1,368.08</mrow>
+					<mrow>I \amp= 2368.08-1000</mrow>
+					<mrow>\amp= \$1,368.08</mrow>
 				</md>
 				</p>
 				<p>
@@ -1970,8 +1970,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A= 5000e^{0.045*5}</mrow>
-					<mrow>A \approx \$6,261.61</mrow>
+					<mrow>A\amp= 5000e^{0.045*5}</mrow>
+					<mrow>\amp\approx \$6,261.61</mrow>
 				</md>
 				</p>
 				<p>
@@ -1984,8 +1984,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>I = 6261.61-5000</mrow>
-					<mrow>I = \$1,261.61</mrow>
+					<mrow>I \amp= 6261.61-5000</mrow>
+					<mrow>\amp= \$1,261.61</mrow>
 				</md>
 				</p>
 				<p>
@@ -2032,8 +2032,8 @@
 			<li>
 				<p>
 				<md>
-					<mrow>A_{You}=10000e^{0.055*10}</mrow>
-					<mrow>A_{You} \approx \$17,332.53</mrow>
+					<mrow>A_{You}\amp=10000e^{0.055*10}</mrow>
+					<mrow>\amp\approx \$17,332.53</mrow>
 				</md>
 				</p>
 				<p>
@@ -2041,22 +2041,21 @@
 				</p>
 				<p>
 				<md>
-					<mrow>A_{Friend} = 10000(1+\frac{0.055}{1})^{1*10}</mrow>
-					<mrow>A_{Friend} \approx \$17,081.44</mrow>
+					<mrow>A_{Friend} \amp= 10000(1+\frac{0.055}{1})^{1*10}</mrow>
+					<mrow>\amp\approx \$17,081.44</mrow>
 				</md>
 				</p>
 				<p>
 					Or, <c>=FV(0.055,10,0,10000)</c>
 				</p>
 				<p>
-					Your balance is $17,332.53 and your friend’s balance is $17,081.44. You have:
+					Your balance is $17,332.53 and your friend’s balance is $17,081.44.
 				</p>
 			</li>
 			<li>
-				<p>
+				<p>The difference is:
 				<md>
-					<mrow>=17332.53-17081.44</mrow>
-					<mrow>=\$251.09</mrow>
+					<mrow>17332.53-17081.44=\$251.09</mrow>
 				</md>
 				</p>
 				<p>

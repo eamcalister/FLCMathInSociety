@@ -329,7 +329,7 @@
 	</statement>
 	<solution>
 		<p>
-			<c>=55.75*20%</c> which gives 11.15 or eleven dollars and fifteen cents
+			<c>=55.75*20%</c> which gives $11.15
 		</p>
 	</solution>
 </exercise>
@@ -342,7 +342,7 @@
 	</statement>
 	<solution>
 		<p>
-			<c>=7.50/44.50</c> which gives approximately 0.168539, or approximately 16.8539%
+			<c>=7.50/44.50</c> which gives approximately 0.1685, or approximately 16.85%
 		</p>
 	</solution>
 </exercise>
@@ -403,7 +403,7 @@
 		<ol label="a.">
 			<li>
 				<p>
-					<c>=5780.23-5250</c> which gives 530.23 dollars
+					<c>=5780.23-5250</c> which gives $530.23
 				</p>
 			</li>
 			<li>
@@ -418,7 +418,7 @@
 			</li>
 			<li>
 				<p>
-					<c>=5250*115.5%</c> which gives exactly 6063.75 dollars
+					<c>=5250*115.5%</c> which gives exactly $6063.75
 				</p>
 			</li>
 		</ol>
@@ -466,7 +466,7 @@
 		<ol label="a.">
 			<li>
 				<p>
-					See the table at the bottom for part a and part b.	
+					See the table at the bottom for part a and part b.
 				</p>
 				<p>
 					After 1 year, the account holds $563.41.
@@ -492,7 +492,7 @@
 			</li>
 			<li>
 				<p>
-					Each starting value increases mathematically by a factor of <m>(1.01)^{12}</m> each year, which is <m>\approx 112.6825\%</m>. So yes, this pattern must continue indefinitely into future years.
+					Each starting value increases mathematically by a factor of <m>(1.01)^{12}</m> each year, which is approximately 112.6825%. So yes, this pattern must continue indefinitely into future years.
 				</p>
 			</li>
 		</ol>
@@ -545,17 +545,17 @@
 		<ol label="a.">
 			<li>
 				<p>
-					<c>=1000*103%*103%</c> which gives 1060.90 dollars.
+					<c>=1000*103%*103%</c> which gives $1060.90
 				</p>
 			</li>
 			<li>
 				<p>
-					<c>=1000*(103%)^2</c> gives the same result of 1060.90 dollars, because raising 103% to the second power means the same as multiplying 103% by itself two times.
+					<c>=1000*(103%)^2</c> gives the same result of $1060.90, because raising 103% to the second power means the same as multiplying 103% by itself two times.
 				</p>
 			</li>
 			<li>
 				<p>
-					<c>=1000*(103%)^15</c> which gives 1557.97 dollars (to the nearest cent).
+					<c>=1000*(103%)^15</c> which gives $1557.97 rounded to the nearest cent
 				</p>
 			</li>
 			<li>

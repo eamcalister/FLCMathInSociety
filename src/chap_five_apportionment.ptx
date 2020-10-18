@@ -194,7 +194,7 @@
 	<example>
 		<statement>
 		<p>
-			A new state is named after George Floyd, killed by the police in Minneapolis, Minnesota in 2020. Floyd has three counties: King, Garner and Taylor. They are named after Rodney King, Eric Garner and Breonna Taylor, who are all African Americans killed by the police. The Floyd State House of Representatives has 41 members. If the legislature wants to divide this representation along county lines (which is <em>not</em> required, but let’s pretend they do), let’s use Hamilton’s method to apportion them. The populations of the counties are as follows:
+			A new state is named after George Floyd, killed by the police in Minneapolis, Minnesota in 2020. Floyd has three counties: King, Garner and Taylor. They are named after African Americans who were also victims of police brutality. Rodney King was brutally beaten by four white police officers and Eric Garner and Breonna Taylor were killed by the police. The Floyd State House of Representatives has 41 members. If the legislature wants to divide this representation along county lines (which is <em>not</em> required, but let’s pretend they do), let’s use Hamilton’s method to apportion them. The populations of the counties are as follows:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">

@@ -494,7 +494,7 @@
 <subsection>
 <title>Credit Cards</title>
 	<p>
-		Credit cards are useful to many people. They can be used to build a credit score, as a short-term loan and as an alternative to physical cash. It is highly advisable to fully pay off a credit card each month because the interest rates are much higher than the conventional installment loan we discussed earlier. There can also be many expensive fees applied when carrying a balance. Because of these higher rates, it can be very easy to get into a lot of debt quickly. 
+		Credit cards are useful to many people. They can be used to build a credit score, as a short-term loan and as an alternative to physical cash. It is highly advisable to fully pay off a credit card each month because the interest rates are much higher than the conventional installment loans we discussed earlier. There can also be many expensive fees applied when carrying a balance. Because of these higher rates, it can be very easy to get into a lot of debt quickly.
 	</p>
 	<p>
 		Credit cards are a common source of loan money, and therefore a common source of debt which must be repaid.  There are much fewer and lower barriers to obtaining and using a credit card than there are to obtaining, for example, a mortgage.  As such, there are some drawbacks both in terms of typically higher interest rates, as well as some structural differences.
@@ -513,27 +513,28 @@
 				<me>900\left(1+\frac{0.1799}{365}\right)^{35} \approx 915.66</me>
 			</p>
 			<p>
-				The spreadsheet formula for this computation is <cd>=FV(0.1799/365,35,0,900)</cd>.
+				The spreadsheet formula for this computation is <cd>=FV(0.1799/365,35,0,900)</cd>
 			</p>
 			<p>
 				With interest, Bilqis now owes $915.66.
 			</p>
 			<p>
-				 <q>One percentage point more than the APR of this outstanding balance</q> would be <me>\$915.66(0.01+0.1799) \approx \$173.88</me>.
+				 Now we will find one percent of the new balance which is <me>\$915.66(0.01) \approx \$9.16</me>.
 			</p>
 			<p>
-				$173.88 is larger than $25, so her first payment must be at least $173.88 if she wants to avoid any penalties. If she makes the minimum payment we can subtract to find her new balance:
+				$25 is larger than $9.16, so her first payment must be at least $25. If she makes the minimum payment we can subtract to find her new balance:
 			</p>
 			<p>
-				<me>\$915.66-\$173.88 \approx \$741.78</me>.
+				<me>\$915.66-\$25 = \$890.66</me>.
 			</p>
 			<p>
-				Her new balance will be $741.78.
+				Her new balance will be $890.66.
 			</p>
 		</solution>
 	</example>
 
-	<example>
+<!-- TODO: add spreadsheet image or more explanation -->
+<!-- <example>
 		<statement>
 		<p>
 			Bilqis continues to only make the minimum payments. How long will it take her to pay off the plane ticket? How much will she pay for this $900 plane ticket?
@@ -543,11 +544,10 @@
 			<p>
 				A spreadsheet is a great way to organize this process.
 			</p>
-			<sidebyside width="50%">
+				<sidebyside width="50%">
 				<image source="images/financial_math/2_4/interest_principal.png">
 				</image>
 			</sidebyside>
-<!-- TODO: add spreadsheet image or more explanation -->
 			<p>
 				Formulas used: <c>=C3-D3</c>, <c>=B4*(1+0.1799/365)^30</c>, or, <c>=FV(0.1799/365,30,0,B4)</c>, <c>=C4*(0.01+0.1799)</c>, <c>=sum(D3:D19)</c>
 			</p>
@@ -556,11 +556,8 @@
 			</p>
 		</solution>
 	</example>
-
+ -->
 </subsection>
-<!-- 	<p>
-		On the next page we will give a summary of all the spreadsheet formulas we have used and when to use them.
-	</p> -->
 
 <subsection>
 <title>Summary of Spreadsheet Formulas</title>
@@ -869,7 +866,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>P = \frac{700(1-(1+\frac{5.5\%}{12})^{-12\times 30}}{\frac{5.5\%}{12}}</m>, which gives <m>P \approx \$123,285.23</m>
+						<m>P = \frac{700\left(1-\left(1+\frac{5.5\%}{12}\right)^{-12\times 30}\right)}{\frac{5.5\%}{12}}</m>, which gives <m>P \approx \$123,285.23</m>
 					</p>
 					<p>
 						or <c>=PV(5.5%/12,12*30,-700)</c> [Note 700 is entered as negative, to signify a payment]
@@ -920,7 +917,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>P = \frac{250(1-(1+\frac{7\%}{12})^{-12 \times 5})}{\frac{7\%}{12}}</m>, which gives <m>P \approx \$12,625.50</m>
+						<m>P = \frac{250\left(1-\left(1+\frac{7\%}{12}\right)^{-12 \times 5}\right)}{\frac{7\%}{12}}</m>, which gives <m>P \approx \$12,625.50</m>
 					</p>
 					<p>
 						or <c>=PV(7%/12,12*5,-250)</c>
@@ -949,7 +946,7 @@
 	</statement>
 	<solution>
 		<p>
-			<m>d = \frac{25000(frac{2\%}{12})}{(1-(1+\frac{2\%}{12})^{-12 \times 4}}</m>, which gives <m>d \approx \$542.38</m>
+			<m>d = \frac{25000\left(\frac{2\%}{12}\right)}{\left(1-\left(1+\frac{2\%}{12}\right)^{-12 \times 4}\right)}</m>, which gives <m>d \approx \$542.38</m>
 		</p>
 		<p>
 			or <c>=PMT(2%/12,48,25000)</c>
@@ -965,7 +962,7 @@
 	</statement>
 	<solution>
 		<p>
-			<m>d = \frac{12000(\frac{3\%}{12})}{(1-(1+\frac{3\%}{12})^{-12\times 4})}</m>, which gives <m>d \approx \$265.61</m>
+			<m>d = \frac{12000\left(\frac{3\%}{12}\right)}{\left(1-\left(1+\frac{3\%}{12}\right)^{-12\times 4}\right)}</m>, which gives <m>d \approx \$265.61</m>
 		</p>
 		<p>
 			or <c>=PMT(3%/12,48,12000)</c>
@@ -1015,7 +1012,7 @@
 				</li>
 				<li>
 					<p>
-						<m>d = \frac{180000(\frac{5\%}{12})}{(1-(1+\frac{5\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx \$966.28</m>
+						<m>d = \frac{180000\left(\frac{5\%}{12}\right)}{\left(1-\left(1+\frac{5\%}{12}\right)^{-12 \times 30}\right)}</m>, which gives <m>d \approx \$966.28</m>
 					</p>
 					<p>
 						or <c>=PMT(5%/12,12*30,180000)</c>
@@ -1023,7 +1020,7 @@
 				</li>
 				<li>
 					<p>
-						<m>d = \frac{180000(\frac{6\%}{12})}{(1-(1+\frac{6\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx \$1,079.19</m>
+						<m>d = \frac{180000\left(\frac{6\%}{12}\right)}{\left(1-\left(1+\frac{6\%}{12}\right)^{-12 \times 30}\right)}</m>, which gives <m>d \approx \$1,079.19</m>
 					</p>
 					<p>
 						or <c>=PMT(6%/12,12*30,180000)</c>
@@ -1064,7 +1061,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>d = \frac{270000(\frac{6.5\%}{12})}{(1-(1+\frac{6.5\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx 1,706.58</m>
+						<m>d = \frac{270000\left(\frac{6.5\%}{12}\right)}{\left(1-\left(1+\frac{6.5\%}{12}\right)^{-12 \times 30}\right)}</m>, which gives <m>d \approx 1,706.58</m>
 					</p>
 					<p>
 						or <c>=PMT(6.5%/12,12*30,270000)</c>
@@ -1075,7 +1072,7 @@
 						The total of all loan payments will be <m>(12 * 30 * \$1,706.58) = \$614,368.80</m>.
 					</p>
 					<p>
-						So the total interest paid will be <m>$614,368.80 – \$270,000.00 = \$344,368.80</m>.
+						So the total interest paid will be <m>\$614,368.80 – \$270,000.00 = \$344,368.80</m>.
 					</p>
 				</li>
 				<li>
@@ -1099,7 +1096,7 @@
 			First, we need to find out the amount of the monthly payments for this loan.
 		</p>
 		<p>
-			<m>d = \frac{24000(\frac{3%}{12})}{(1-(1+\frac{3\%}{12})^{-12 \times 5})}</m>, which gives <m>d \approx \$431.25</m>
+			<m>d = \frac{24000\left(\frac{3\%}{12}\right)}{\left(1-\left(1+\frac{3\%}{12}\right)^{-12 \times 5}\right)}</m>, which gives <m>d \approx \$431.25</m>
 		</p>
 		<p>
 			or <c>=PMT(3%/12,12*5,24000)</c>
@@ -1108,7 +1105,7 @@
 			The amount still owed three years later, is the present value of the two years of remaining payments on the loan.
 		</p>
 		<p>
-			<m>P = \frac{(1-(1+\frac{3\%}{12})^{-12 \times 2})}{\frac{3\%}{12}}</m>, which gives <m>P \approx \$10,033.45</m>
+			<m>P = \frac{\left(1-\left(1+\frac{3\%}{12}\right)^{-12 \times 2}\right)}{\frac{3\%}{12}}</m>, which gives <m>P \approx \$10,033.45</m>
 		</p>
 		<p>
 			or <c>=PV(3%/12,12*2,-431.25)</c>
@@ -1127,7 +1124,7 @@
 			First, we need to find out the amount of the monthly payments for this loan.
 		</p>
 		<p>
-			<m>d = \frac{120000(\frac{6\%}{12})}{(1-(1+\frac{6\%}{12})^{-12 \times 30})}</m>, which gives <m>d \approx \$719.46</m>
+			<m>d = \frac{120000\left(\frac{6\%}{12}\right)}{\left(1-\left(1+\frac{6\%}{12}\right)^{-12 \times 30}\right)}</m>, which gives <m>d \approx \$719.46</m>
 		</p>
 		<p>
 			or <c>=PMT(6%/12,12*30,120000)</c>
@@ -1136,7 +1133,7 @@
 			The amount still owed fifteen years later, is the present value of the fifteen years of remaining payments on the loan.
 		</p>
 		<p>
-			<m>P = \frac{719.46(1-(1+\frac{6\%}{12})^{-12 \times 15})}{\frac{6\%}{12}}</m>, which gives <m>P \approx \$85,258.54</m>
+			<m>P = \frac{719.46\left(1-\left(1+\frac{6\%}{12}\right)^{-12 \times 15}\right)}{\frac{6\%}{12}}</m>, which gives <m>P \approx \$85,258.54</m>
 		</p>
 		<p>
 			or <c>=PV(6%/12,12*15,-719.46)</c>
