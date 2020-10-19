@@ -1324,7 +1324,7 @@
 				</li>
 				<li>
 					<p>
-						We find <m>1-\text{P(No 3s)}</m>. <m>4651/7776</m>
+						<m>1-\text{P(No 3's) }=4651/7776</m>
 					</p>
 				</li>
 			</ol>
@@ -1398,7 +1398,7 @@
 	</statement>
 	<solution>
 		<p>
-			We find <m>1 - \text{P(no dark chocolates)}</m>. <m>84/90=14/15 \rightarrow \approx 0.933 =</m> 93.3%
+			<m>1 - \text{P(no dark chocolates) } = 84/90=14/15 \approx 0.933</m> or 93.3%
 		</p>
 	</solution>
 </exercise>
@@ -1411,7 +1411,7 @@
 	</statement>
 	<solution>
 		<p>
-			<m>60/1320=1/22 \rightarrow \approx 0.045=</m> 4.5%
+			<m>60/1320=1/22 \approx 0.045</m> or 4.5%
 		</p>
 	</solution>
 </exercise>
@@ -1424,7 +1424,7 @@
 	</statement>
 	<solution>
 		<p>
-			<m>125/1728 \rightarrow \approx 0.072=</m> 7.2%
+			<m>125/1728 \approx 0.072</m> or 7.2%
 		</p>
 	</solution>
 </exercise>
@@ -1437,7 +1437,7 @@
 	</statement>
 	<solution>
 		<p>
-			We find <m>1 - \text{P(no blue marbles)}</m>. <m>1110/1320=37/44 \rightarrow \approx 0.841=</m> 84.1%
+			<m>1 - \text{P(no blue marbles) }=1110/1320=37/44 \approx 0.841</m> or 84.1%
 		</p>
 	</solution>
 </exercise>

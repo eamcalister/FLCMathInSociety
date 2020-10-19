@@ -958,12 +958,12 @@
 					In Excel:
 				</p>
 				<p>
-					I entered the data values into cells A1 through A15.
+					Entering the data values into cells A1 through A15.
 				</p>
 				<p>
 					<md>
-						<mrow>=stdev.s(A1:A15)</mrow>
-						<mrow>=\$4.82</mrow>
+						<mrow>s\amp=stdev.s(A1:A15)</mrow>
+						<mrow>\amp=\$4.82</mrow>
 					</md>
 				</p>
 				<p>
@@ -1064,8 +1064,8 @@
 				</p>
 				<p>
 					<md>
-						<mrow>s=\sqrt{\frac{325.78}{14}}</mrow>
-						<mrow>=\$4.82</mrow>
+						<mrow>s\amp=\sqrt{\frac{325.78}{14}}</mrow>
+						<mrow>\amp=\$4.82</mrow>
 					</md>
 				</p>
 			</li>
@@ -1147,9 +1147,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=25-5</mrow>
-						<mrow>=\$20</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=25-5</mrow>
+						<mrow>\amp=\$20</mrow>
 					</md>
 				</p>
 				<p>
@@ -1157,9 +1157,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=10-7.5</mrow>
-						<mrow>=\$2.50</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=10-7.5</mrow>
+						<mrow>\amp=\$2.50</mrow>
 					</md>
 				</p>
 			</li>
@@ -1219,8 +1219,8 @@
 				</p>
 				<p>
 					<md>
-						<mrow>=stdev.s(A1:A12)</mrow>
-						<mrow>=3.78 \text{ hours}</mrow>
+						<mrow>s\amp=stdev.s(A1:A12)</mrow>
+						<mrow>\amp=3.78 \text{ hours}</mrow>
 					</md> 
 				</p>
 			</li>
@@ -1256,9 +1256,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=17-2</mrow>
-						<mrow>=15 \text{ hours}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=17-2</mrow>
+						<mrow>\amp=15 \text{ hours}</mrow>
 					</md>
 				</p>
 				<p>
@@ -1266,9 +1266,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=12.5-7.875</mrow>
-						<mrow>=3.625 \text{ hours}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=12.5-7.875</mrow>
+						<mrow>\amp=3.625 \text{ hours}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1326,8 +1326,8 @@
 				</p>
 				<p>
 					<md>
-						<mrow>=stdev.s(A1:A9)</mrow>
-						<mrow>=4.068 \text{ seconds}</mrow>
+						<mrow>s\amp=stdev.s(A1:A9)</mrow>
+						<mrow>\amp=4.068 \text{ seconds}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1363,9 +1363,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=29.4-15.2</mrow>
-						<mrow>=14.2 \text{ seconds}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=29.4-15.2</mrow>
+						<mrow>\amp=14.2 \text{ seconds}</mrow>
 					</md>
 				</p>
 				<p>
@@ -1373,9 +1373,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=21.95-19.05</mrow>
-						<mrow>=2.9 \text{ seconds}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=21.95-19.05</mrow>
+						<mrow>\amp=2.9 \text{ seconds}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1435,8 +1435,8 @@
 				</p>
 				<p>
 					<md>
-						<mrow>=stdev.s(A1:A9)</mrow>
-						<mrow>=0.039 \text{ grams}</mrow>
+						<mrow>s\amp=stdev.s(A1:A9)</mrow>
+						<mrow>\amp=0.039 \text{ grams}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1472,9 +1472,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=3.61-3.49</mrow>
-						<mrow>=0.12 \text{ grams}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=3.61-3.49</mrow>
+						<mrow>\amp=0.12 \text{ grams}</mrow>
 					</md>
 				</p>
 				<p>
@@ -1482,9 +1482,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=3.565-3.51</mrow>
-						<mrow>=0.055 \text{ grams}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=3.565-3.51</mrow>
+						<mrow>\amp=0.055 \text{ grams}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1592,10 +1592,10 @@
 						<mrow>\text{ Mean + standard deviation } = 43.38 \text{ thousand dollars}</mrow>
 					</md> -->
 				</p>
-				<p>
+				<!-- <p>
 					The mean and standard deviation together tell us that most of the cars at the local dealership are selling for between 24.22 and 43.38 thousand dollars.
 				</p>
-			</li>
+ -->			</li>
 			<li>
 				<p>
 					In GeoGebra:
@@ -1628,9 +1628,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=50-15</mrow>
-						<mrow>=35 \text{ thousand dollars}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=50-15</mrow>
+						<mrow>\amp=35 \text{ thousand dollars}</mrow>
 					</md>
 				</p>
 				<p>
@@ -1638,9 +1638,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=40-15</mrow>
-						<mrow>=25 \text{ thousand dollars}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=40-15</mrow>
+						<mrow>\amp=25 \text{ thousand dollars}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1771,14 +1771,14 @@
 				<p>
 					From <xref ref="email_example"></xref>, the mean is 5.3 thousand characters.
 				</p>
-				<p>
+				<!-- <p>
 					<md>
 						<mrow>\text{Mean - standard deviation } =1.1 \text{ thousand characters}</mrow>
 						<mrow>\text{Mean + standard deviation } =9.5 \text{ thousand characters}</mrow>
 					</md>
-				</p>
+				</p> -->
 				<p>
-					The mean and standard deviation together tell us that most of the cars at the local dealership are selling for between 1.1 and 9.5 thousand dollars.
+					The mean and standard deviation together tell us that on average the emails vary from the mean of 5.3 thousand characters by 4.2 thousand characters.
 				</p>
 			</li>
 			<li>
@@ -1813,9 +1813,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=14-0</mrow>
-						<mrow>=14 \text{ thousand characters}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=14-0</mrow>
+						<mrow>\amp=14 \text{ thousand characters}</mrow>
 					</md>
 				</p>
 				<p>
@@ -1823,9 +1823,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=9-1</mrow>
-						<mrow>=8 \text{ thousand characters}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=9-1</mrow>
+						<mrow>\amp=8 \text{ thousand characters}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1944,9 +1944,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=47-3</mrow>
-						<mrow>=44 \text{ months}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=47-3</mrow>
+						<mrow>\amp=44 \text{ months}</mrow>
 					</md>
 				</p>
 				<p>
@@ -1954,9 +1954,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=32.5-15</mrow>
-						<mrow>=17.5 \text{ months}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=32.5-15</mrow>
+						<mrow>\amp=17.5 \text{ months}</mrow>
 					</md>
 				</p>
 				<p>
@@ -1964,9 +1964,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=44-2</mrow>
-						<mrow>=42 \text{ months}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=44-2</mrow>
+						<mrow>\amp=42 \text{ months}</mrow>
 					</md>
 				</p>
 				<p>
@@ -1974,9 +1974,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=30-16</mrow>
-						<mrow>=14 \text{ months}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=30-16</mrow>
+						<mrow>\amp=14 \text{ months}</mrow>
 					</md>
 				</p>
 			</li>
@@ -1985,7 +1985,7 @@
 					In GeoGebra Classic, enter the data values for Researcher 1 into column A of the spreadsheet, and enter the data values for Research 2 into column B of the spreadsheet. Then use the <q>Multiple Variable Analysis</q> function. Then select <q>Stacked BoxPlots</q> from the drop-down menu.
 				</p>
 				<sidebyside width="50%">
-					<image source="images/statistics/3_4/solution_lifetime_after_treatement.png">
+					<image source="images/statistics/3_4/solution_lifetime_after_treatment.png">
 					</image>
 				</sidebyside>
 				<p>
@@ -2106,9 +2106,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=108000-4500</mrow>
-						<mrow>=\$103,500</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=108000-4500</mrow>
+						<mrow>\amp=\$103,500</mrow>
 					</md>
 				</p>
 				<p>
@@ -2116,9 +2116,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=60000-12800</mrow>
-						<mrow>=\$47,200</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=60000-12800</mrow>
+						<mrow>\amp=\$47,200</mrow>
 					</md>
 				</p>
 				<p>
@@ -2126,9 +2126,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=50000-670</mrow>
-						<mrow>=\$49,330</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=50000-670</mrow>
+						<mrow>\amp=\$49,330</mrow>
 					</md>
 				</p>
 				<p>
@@ -2136,9 +2136,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=30000-1600</mrow>
-						<mrow>=\$28,400</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=30000-1600</mrow>
+						<mrow>\amp=\$28,400</mrow>
 					</md>
 				</p>
 			</li>
@@ -2339,9 +2339,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=43.2-22.1</mrow>
-						<mrow>=21.2 \text{ chess pieces}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=43.2-22.1</mrow>
+						<mrow>\amp=21.2 \text{ chess pieces}</mrow>
 					</md>
 				</p>
 				<p>
@@ -2349,9 +2349,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=39.7-26.2</mrow>
-						<mrow>=13.5 \text{ chess pieces}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=39.7-26.2</mrow>
+						<mrow>\amp=13.5 \text{ chess pieces}</mrow>
 					</md>
 				</p>
 				<p>
@@ -2359,9 +2359,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=57.7-32.5</mrow>
-						<mrow>=25.2 \text{ chess pieces}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=57.7-32.5</mrow>
+						<mrow>\amp=25.2 \text{ chess pieces}</mrow>
 					</md>
 				</p>
 				<p>
@@ -2369,9 +2369,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=55.7-39.1</mrow>
-						<mrow>=16.6 \text{ chess pieces}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=55.7-39.1</mrow>
+						<mrow>\amp=16.6 \text{ chess pieces}</mrow>
 					</md>
 				</p>
 				<p>
@@ -2379,9 +2379,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=85.3-40.1</mrow>
-						<mrow>=45.2 \text{ chess pieces}</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=85.3-40.1</mrow>
+						<mrow>\amp=45.2 \text{ chess pieces}</mrow>
 					</md>
 				</p>
 				<p>
@@ -2389,9 +2389,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=75.9-51.2</mrow>
-						<mrow>=24.7 \text{ chess pieces}</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=75.9-51.2</mrow>
+						<mrow>\amp=24.7 \text{ chess pieces}</mrow>
 					</md>
 				</p>
 			</li>
@@ -2763,9 +2763,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=9-2.5</mrow>
-						<mrow>=6.5</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=9-2.5</mrow>
+						<mrow>\amp=6.5</mrow>
 					</md>
 				</p>
 				<p>
@@ -2773,9 +2773,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=6.5-3.5</mrow>
-						<mrow>=3</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=6.5-3.5</mrow>
+						<mrow>\amp=3</mrow>
 					</md>
 				</p>
 				<p>
@@ -2783,9 +2783,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=9-2.5</mrow>
-						<mrow>=6.5</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=9-2.5</mrow>
+						<mrow>\amp=6.5</mrow>
 					</md>
 				</p>
 				<p>
@@ -2793,9 +2793,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=6-3.5</mrow>
-						<mrow>=2.5</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=6-3.5</mrow>
+						<mrow>\amp=2.5</mrow>
 					</md>
 				</p>
 				<p>
@@ -2803,9 +2803,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=8-2.5</mrow>
-						<mrow>=5.5</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=8-2.5</mrow>
+						<mrow>\amp=5.5</mrow>
 					</md>
 				</p>
 				<p>
@@ -2813,9 +2813,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=5.5-4</mrow>
-						<mrow>=1.5</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=5.5-4</mrow>
+						<mrow>\amp=1.5</mrow>
 					</md>
 				</p>
 				<p>
@@ -2823,9 +2823,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>Range = Max - Min</mrow>
-						<mrow>=8-2</mrow>
-						<mrow>=6</mrow>
+						<mrow>Range \amp= Max - Min</mrow>
+						<mrow>\amp=8-2</mrow>
+						<mrow>\amp=6</mrow>
 					</md>
 				</p>
 				<p>
@@ -2833,9 +2833,9 @@
 				</p>
 				<p>
 					<md>
-						<mrow>IQR = Q_{3} - Q_{1}</mrow>
-						<mrow>=5-3</mrow>
-						<mrow>=2</mrow>
+						<mrow>IQR \amp= Q_{3} - Q_{1}</mrow>
+						<mrow>\amp=5-3</mrow>
+						<mrow>\amp=2</mrow>
 					</md>
 				</p>
 			</li>
@@ -3028,7 +3028,7 @@
 		<ol label="a.">
 			<li>
 				<p>
-					The 25th, 50th, and 75th percentiles for weekly study times for the juniors are 1 hour, 3 hours, and 4 hours, respectively. The 25th, 50th, and 75th percentiles for weekly study times the seniors are 5.5 hours, 6 hours, and 9 hours.	
+					The 25th, 50th, and 75th percentiles for weekly study times for the juniors are 1 hour, 3 hours, and 4 hours, respectively. The 25th, 50th, and 75th percentiles for weekly study times the seniors are 5.5 hours, 6 hours, and 9 hours.
 				</p>
 			</li>
 			<li>
@@ -3076,9 +3076,9 @@
 			<li>
 				<p>
 					<md>
-						<mrow>Z=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-						<mrow>=\frac{21.4-25}{1.15}</mrow>
-						<mrow>=-3.13 \text{ standard deviations}</mrow>
+						<mrow>Z\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+						<mrow>\amp=\frac{21.4-25}{1.15}</mrow>
+						<mrow>\amp=-3.13 \text{ standard deviations}</mrow>
 					</md>
 				</p>
 			</li>
@@ -3118,9 +3118,9 @@
 			<li>
 				<p>
 					<md>
-						<mrow>Z=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-						<mrow>=\frac{170-274}{63}</mrow>
-						<mrow>-1.65 \text{ standard deviations}</mrow>
+						<mrow>Z\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+						<mrow>\amp=\frac{170-274}{63}</mrow>
+						<mrow>\amp=-1.65 \text{ standard deviations}</mrow>
 					</md>
 				</p>
 				<p>
@@ -3172,9 +3172,9 @@
 			<li>
 				<p>
 					<md>
-						<mrow>Z=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-						<mrow>=\frac{42-46.2}{6.16}</mrow>
-						<mrow>=-0.68 \text{ standard deviations}</mrow>
+						<mrow>Z\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+						<mrow>\amp=\frac{42-46.2}{6.16}</mrow>
+						<mrow>\amp=-0.68 \text{ standard deviations}</mrow>
 					</md>
 				</p>
 				<p>
@@ -3223,9 +3223,9 @@
 			<li>
 				<p>
 					<md>
-						<mrow>Z=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-						<mrow>=\frac{143-122.9}{10.91}</mrow>
-						<mrow>1.84 \text{ standard deviations}</mrow>
+						<mrow>Z\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+						<mrow>\amp=\frac{143-122.9}{10.91}</mrow>
+						<mrow>\amp=1.84 \text{ standard deviations}</mrow>
 					</md>
 				</p>
 				<p>
@@ -3246,16 +3246,16 @@
 	<solution>
 		<p>
 	 		<md>
-				<mrow>Z_{Math}=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-				<mrow>=\frac{89-75}{7}</mrow>
-				<mrow>=2 \text{ standard deviations}</mrow>
+				<mrow>Z_{Math}\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+				<mrow>\amp=\frac{89-75}{7}</mrow>
+				<mrow>\amp=2 \text{ standard deviations}</mrow>
 			</md>
 		</p>
 		<p>
 			<md>
-				<mrow>Z_{English}=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-				<mrow>=\frac{65-53}{4}</mrow>
-				<mrow>=3 \text{ standard deviations}</mrow>
+				<mrow>Z_{English}\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+				<mrow>\amp=\frac{65-53}{4}</mrow>
+				<mrow>\amp=3 \text{ standard deviations}</mrow>
 			</md>
 		</p>
 		<p>
@@ -3273,16 +3273,16 @@
 	<solution>
 		<p>
 			<md>
-				<mrow>Z_{comedy}=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-				<mrow>=\frac{102-139}{39.7}</mrow>
-				<mrow>=-0.93 \text{ standard deviations}</mrow>
+				<mrow>Z_{comedy}\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+				<mrow>\amp=\frac{102-139}{39.7}</mrow>
+				<mrow>\amp=-0.93 \text{ standard deviations}</mrow>
 			</md>
 		</p>
 		<p>
 			<md>
-				<mrow>Z_{action}=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-				<mrow>=\frac{129-159}{26.2}</mrow>
-				<mrow>=-1.14 \text{ standard deviations}</mrow>
+				<mrow>Z_{action}\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+				<mrow>\amp=\frac{129-159}{26.2}</mrow>
+				<mrow>\amp=-1.14 \text{ standard deviations}</mrow>
 			</md>
 		</p>
 		<p>
@@ -3300,16 +3300,16 @@
 	<solution>
 		<p>
 			<md>
-				<mrow>Z_{Poe}=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-				<mrow>=\frac{20.2-16.5}{1.85}</mrow>
-				<mrow>=2 \text{ standard deviations}</mrow>
+				<mrow>Z_{Poe}\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+				<mrow>\amp=\frac{20.2-16.5}{1.85}</mrow>
+				<mrow>\amp=2 \text{ standard deviations}</mrow>
 			</md>
 		</p>
 		<p>
 			<md>
-				<mrow>Z_{Gibson}=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
-				<mrow>=\frac{107-81}{13}</mrow>
-				<mrow>=2 \text{ standard deviations}</mrow>
+				<mrow>Z_{Gibson}\amp=\frac{\text{data value}-\text{mean}}{\text{standard deviation}}</mrow>
+				<mrow>\amp=\frac{107-81}{13}</mrow>
+				<mrow>\amp=2 \text{ standard deviations}</mrow>
 			</md>
 		</p>
 		<p>
