@@ -72,7 +72,7 @@
 </preface> -->
 
 <preface xml:id="Notes">
-<title>Notes</title>
+<title>Project Notes</title>
     <blockquote>
     	<p>
     		<em>We dedicate this book to our students. May you have greater ease in paying for college and grow your proficiency and confidence in math.</em>
@@ -202,6 +202,33 @@
 </preface>
 
 <preface>
+	<title>Resources</title>
+	<p>
+		This <url href="https://drive.google.com/drive/folders/1XDdf7gX4ZWtipz_gISV2H9F2Y9enjHc6?usp=sharing">Google folder</url> contains the following resources for the course:
+		<ul>
+			<li>
+				<p>
+					A printable pdf of the entire book, and optional sections 3.6 and 5.6.
+				</p>
+			</li>
+			<li>
+				<p>
+					Video notes for the lecture videos in pdf and Word form. The videos in each section can be assigned or used as an extra resource.
+				</p>
+			</li>
+			<li>
+				<p>
+					A pdf of the answers to odd exercises.
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		A MyOpenMath shell is available for instructors to use in their courses. Additional resources are available for instructors by emailing Cara Lee at <url href="mailto://cara.lee@pcc.edu/">cara.lee@pcc.edu</url>. Instructor status will be verified.
+	</p>
+	</preface>
+
+<!-- <preface>
 	<title>Errata</title>
 	<p>
 		These errors have been found since the last printing and fixed in the online version. The next printed books will have these corrections.
@@ -223,5 +250,5 @@
 		</tabular>
 	</table>
 </preface>
-
+ -->
 </frontmatter>

@@ -2,10 +2,10 @@
 <backmatter xml:id="backmatter">
 
 
-<!-- <solutions divisional="solution">
-	<title>All Answers for Instructors Only</title>
+<solutions divisional="solution" admit="odd">
+	<title>Odd Answers</title>
 </solutions>
- -->
+
 
 <references>
 	<p>

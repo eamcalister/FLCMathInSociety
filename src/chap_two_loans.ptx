@@ -33,6 +33,11 @@
 	<p>
 		In the last section, you learned about savings plans. In this section, you will learn about conventional loans (also called amortized loans or installment loans). Examples include student loans, car loans and home mortgages. These techniques do not apply to payday loans, add-on loans, or other loan types where the interest is calculated up front. In this section we will also briefly cover credit cards. There is a more thorough chapter on credit cards available as an optional chapter.
 	</p>
+
+	<figure>
+      <caption>Alternative Video Lessons</caption>
+      <video youtubeplaylist="PLsFUxEAXGFKQ2JRoxVi9CB4YZI5RJsWL3" />
+    </figure>
 </introduction>
 
 <subsection>
@@ -1383,51 +1388,110 @@
 	</p>
 </introduction>
 <exercise>
+	<statement>
 	<p>
 		Keisha received an inheritance of $20,000 and invested it at 6.9% APR, compounded continuously. How much will she have for college in 8 years?
 	</p>
+	</statement>
+	<solution>
+		<p>
+			<c>=20000*EXP(0.069*8)</c> = $34,734.46. Keisha will have $34,734.46 in 8 years.
+		</p>
+	</solution>
 </exercise>
 
 <exercise>
+	<statement>
 	<p>
 		Paul wants to buy a new car. Rather than take out a loan, he decides to save $200 a month in an account earning 3.5% APR compounded monthly. How much will he have saved up after 3 years?
 	</p>
+</statement>
+<solution>
+		<p>
+			<c>=FV(0.035/12,3*12,200,0)</c> = $7,579.95. Paul will have $7,579.95 in 3 years.
+		</p>
+	</solution>
 </exercise>
 
 <exercise>
+	<statement>
 	<p>
 		Sol is managing investments for a non-profit company. They want to invest some money in an account earning 5% APR compounded annually with the goal to have $30,000 in the account in 6 years. How much should Sol deposit into the account?
 	</p>
+</statement>
+<solution>
+		<p>
+			<c>=PV(0.05/1,6*1,0,30000)</c> = $22,386.46. Sol should deposit $22,386.46 to have $30,000 in 6 years.
+		</p>
+	</solution>
 </exercise>
 
 <exercise>
+	<statement>
 	<p>
-		Miao is going to finance new office equipment at a 2.8% APR over a 4-year term. If she can afford monthly payments of $100, how much new equipment can she buy?
+		Miao is going to finance new office equipment at 2.8% APR over a 4-year term. If she can afford monthly payments of $100, how much equipment can she buy?
 	</p>
+</statement>
+<solution>
+		<p>
+			<c>=PV(0.028/12,4*12,100,0)</c> = $4,535.96. Miao can finance $4,535.96 in equipment to have a monthly loan payment of $100 for 4 years.
+		</p>
+	</solution>
 </exercise>
 
 <exercise>
+	<statement>
 	<p>
 		How much would you need to save every month in an account earning 4.1% APR to have $5,000 saved up in two years.
 	</p>
+</statement>
+<solution>
+		<p>
+			<c>=PMT(0.041/12,2*12,0,5000)</c> = $200.26. You would need to save $200.26 every month to have $5,000 in 2 years.
+		</p>
+	</solution>
 </exercise>
 
 <exercise>
+	<statement>
 	<p>
 		Terry and Jess are buying a house for $405,000 and they can afford to put 10% down. Their interest rate is 4.3% APR for 30 years. What will their monthly mortgage payment be?
 	</p>
+</statement>
+<solution>
+		<p>
+			<c>=PMT(0.043/12,30*12,364500,0)</c> = $1,803.81. Their mortgage payment would be $1,803.81.
+		</p>
+	</solution>
 </exercise>
 
 <exercise>
+	<statement>
 	<p>
 		You loan your sister $500 for two years and she agrees to pay you back with 3% simple interest per year. How much will she pay you back
 	</p>
+</statement>
+<solution>
+		<p>
+			<c>=500+500*.03*2</c> = $530. Your sister should pay you back $530 in 2 years.
+		</p>
+	</solution>
 </exercise>
 
 <exercise>
+	<statement>
 	<p>
 		Zahid starts saving $150 per month in an account that pays 4.8% APR compounded monthly. If he continues for 20 years, how much will he have? If he waited 10 years instead and put in $300 per month for 10 years with the same interest, how much would he have?
 	</p>
+</statement>
+<solution>
+		<p>
+			For the first plan: <c>=FV(0.048/12,20*12,150,0)</c> = $60,251.26. Zahid would have $60,251.26 if he puts in $150 per month for 20 years.
+		</p>
+		<p>
+			For the second plan: <c>=FV(0.048/12,10*12,300,0)</c> = $46,089.59. Zahid would only have $46,089.59 if he waited and put in $300 per month for 10 years.
+		</p>
+	</solution>
 </exercise>
 </exercisegroup>
 

@@ -62,10 +62,17 @@
 				</li>
 			</ul>
 </objectives>
+
 <introduction>
 	<p>
 		As we saw in the last section, the <alert>probability</alert> of a specified event is the chance or likelihood that it will occur. We calculated empirical or experimental probabilities using contingency tables. In this section, we will focus on <alert>theoretical</alert> probability and compare the two types.
 	</p>
+
+	<figure>
+      <caption>Alternative Video Lessons</caption>
+      <video youtubeplaylist="PLsFUxEAXGFKS2R2ViPUxIwQ4VNgONceEv" />
+    </figure>
+
 </introduction>
 
 <subsection>

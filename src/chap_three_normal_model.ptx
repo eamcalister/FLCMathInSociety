@@ -23,6 +23,11 @@
 			</li>
 			<li>
 				<p>
+					Calculate probabilities using technology
+				</p>
+			</li>
+			<li>
+				<p>
 					Calculate and interpret Z-scores
 				</p>
 			</li>
@@ -33,6 +38,13 @@
 			</li>
 		</ul>
 </objectives>
+
+<introduction>
+	<figure>
+      <caption>Alternative Video Lessons</caption>
+      <video youtubeplaylist="PLsFUxEAXGFKQLLCscP23Tm7kerZ63PKQ0" />
+    </figure>
+</introduction>
 
 <subsection>
 <title>Introduction to The Normal Distribution</title>
@@ -83,7 +95,7 @@
 		</ul>
 	</p>
 	<p>
-		Now let's look at an example where we draw and label a Normal distribution given the mean and standard deviation<fn>Most of the Normal drawings in this section were created with an online probability calculator at <url href="http://onlinestatbook.com/2/calculators/normal_dist.html">onlinestatbook.com/2/calculators/normal_dist.html</url> which is in the public domain</fn>.
+		Now let's look at an example where we draw and label a Normal distribution given the mean and standard deviation<fn>All of the Normal drawings in this section were created with the online probability calculator at <url href="http://onlinestatbook.com/2/calculators/normal_dist.html">onlinestatbook.com/2/calculators/normal_dist.html</url> which is in the public domain.</fn>.
 	</p>
 	<example xml:id="mean18_and_sd4">
 		<p>
@@ -100,9 +112,9 @@
 		</p>
 		<p>
 			<md>
-				<mrow>\text{Mean } + 1 \text{ standard deviation} \amp= 18 + 4 = 22</mrow>
-				<mrow>\text{Mean } + 2 \text{ standard deviations} \amp= 18 + 2(4) = 26</mrow>
-				<mrow>\text{Mean } + 3 \text{ standard deviations} \amp= 18 + 3(4) = 30</mrow>
+				<mrow>\text{Mean} + 1 \text{ standard deviation} \amp= 18 + 4 = 22</mrow>
+				<mrow>\text{Mean} + 2 \text{ standard deviations} \amp= 18 + 2(4) = 26</mrow>
+				<mrow>\text{Mean} + 3 \text{ standard deviations} \amp= 18 + 3(4) = 30</mrow>
 			</md>
 		</p>
 		<p>
@@ -110,9 +122,9 @@
 		</p>
 		<p>
 			<md>
-				<mrow>\text{Mean }-1 \text{ standard deviation} = 18-4 = 14</mrow>
-				<mrow>\text{Mean }-2 \text{ standard deviations} = 18-2(4) = 10</mrow>
-				<mrow>\text{Mean }-3 \text{ standard deviations} = 18-3(4) = 6</mrow>
+				<mrow>\text{Mean}-1 \text{ standard deviation} = 18-4 = 14</mrow>
+				<mrow>\text{Mean}-2 \text{ standard deviations} = 18-2(4) = 10</mrow>
+				<mrow>\text{Mean}-3 \text{ standard deviations} = 18-3(4) = 6</mrow>
 			</md>
 		</p>
 	</example>
@@ -224,7 +236,7 @@
 </subsection>
 
 <subsection>
-		<title>Using the Empirical Rule to Calculate Probabilities</title>
+		<title>Using the Empirical Rule to Calculate Approximate Probabilities</title>
 		<p>
 			Now that we have learned about the Empirical rule we can use it to find approximate probabilities. First we will calculate the percentage in each segment of the Normal distribution. Returning to our example of quiz scores with a mean of 18 points and a standard deviation of 4 points, we can divide the curve into segments by drawing a line at each standard deviation.
 		</p>
@@ -372,6 +384,198 @@
 </subsection>
 
 <subsection>
+		<title>Using Technology to Calculate Exact Probabilities</title>
+		<p>
+			The Empirical rule is used to find approximate probabilities and it only works if the number is one of the labels on our scale. We usually want to calculate an exact answer with any value. We will use technology to calculate probabilities with two different methods: <alert>Onlinestatbook.com</alert> and <alert>spreadsheets</alert>. Check with your class notes or instructor on which technology to use.
+		</p>
+		<sidebyside widths="45% 45%">
+			<p>
+				To use Onlinestatbook.com, go to the <url href="http://onlinestatbook.com/2/calculators/normal_dist.html">OnlineStatbook Normal calculator</url> and enter the mean and standard deviation. Then select the option that matches the probability you want to find: Above, Below, Between or Outside and enter the probability you want to find. Then click on the Recalculate button.
+			</p>
+			<image source="images/statistics/3_6/onlinestatbook_general.png"></image>
+		</sidebyside>
+		
+		<p>
+			To use a spreadsheet, we will use the spreadsheet formula
+		</p>
+		<p>
+			<c>=NORM.DIST(value, mean, standard deviation, cumulative)</c>
+		</p>
+		<p>
+			This function always gives the probability to the left of a number or <me>P(X\leq \text{value})</me>. We can use this formula to find greater than, between and outside probabilities as well. Here are the commands we will use and we will explain them in the next example with visuals.
+		</p>
+		<sidebyside>
+			<tabular top="minor" bottom="minor" right="minor" left="minor">
+				<row>
+					<cell halign="center">Probability</cell>
+					<cell halign="left">Spreadsheet Formula</cell>
+				</row>
+				<row>
+					<cell halign="center">Below</cell>
+					<cell halign="left"><c>=NORM.DIST(value, mean, SD, 1)</c></cell>
+				</row>
+				<row>
+					<cell halign="center">Above</cell>
+					<cell halign="left"><c>=1-NORM.DIST(value, mean, SD,1)</c></cell>
+				</row>
+				<row>
+					<cell halign="center">Between</cell>
+					<cell halign="left"><c>=NORM.DIST(upper_value, mean, SD, 1)-Norm.Dist(lower_value, mean, SD, 1)</c></cell>
+				</row>
+				<row>
+					<cell halign="center">Outside</cell>
+					<cell halign="left"><c>=NORM.DIST(lower_value, mean, SD, 1)+1-NORM.DIST(upper_value,mean, SD, 1)</c></cell>
+				</row>
+			</tabular>
+		</sidebyside>
+
+	<example>
+		<p>
+			For the quiz score data that are approximately normally distributed with a mean of 18 points and a standard deviation 4 points, use technology to calculate the following probabilities:
+		</p>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						What percentage of students earned a score below 12 points?
+					</p>
+				</li>
+				<li>
+					<p>
+						What percentage of students earned scores above 27 points?
+					</p>
+				</li>
+				<li>
+					<p>
+						What percentage of students earned scores between 21 and 25 points?
+					</p>
+				</li>
+				<li>
+					<p>
+						What percentage of students earned scores less than 11 or more than 23?
+					</p>
+				</li>
+			</ol>
+		</p>
+
+		<p>
+			Solution
+			<ol label="a.">
+				<li>
+					<sidebyside widths="40% 54%">
+					<stack>
+						<p>
+							First, using OnlineStatbook, we we will enter the mean of 18 points and the standard deviation of 4 points. Then we select Below and enter 12. This gives us a result of <m>0.0668</m> as shown in the image or <m>6.68\%</m>.
+						</p>
+						<p>
+							To use a spreadsheet, we enter <c>=NORM.DIST(12, 18, 4, 1)</c>. The last value is always a 1 to indicate that we want a cumulative probability or area. This also gives us a result of <m>0.0668</m> or <m>6.68\%</m>.
+						</p>
+					</stack>>
+					<image source="images/statistics/3_6/quiz_ex_a.png"></image>
+					</sidebyside>
+				</li>
+				<li>
+					<sidebyside widths="40% 54%">
+						<stack>
+						<p>
+							To use OnlineStatbook, we we will keep our mean of 18 points and standard deviation of 4 points. Then we select Above and enter 27. This gives us a result of <m>0.0122</m> as shown in the image or <m>1.22\%</m>.
+						</p>
+						<p>
+							To use a spreadsheet, NORM.DIST gives us the area to the left so if we want the area to the right we need to find the complement or subtract from 1. We enter <c>=1-NORM.DIST(27, 18, 4, 1)</c>. This also gives us a result of <m>0.0122</m> or <m>1.22\%</m>.
+						</p>
+						</stack>>
+					<image source="images/statistics/3_6/quiz_ex_b.png"></image>
+					</sidebyside>
+				</li>
+				<li>
+					<sidebyside widths="40% 54%">
+					<p>
+						To use OnlineStatbook, we we will keep our mean of 18 points and standard deviation of 4 points. Then we select Between and enter 21 and 25. This gives us a result of <m>0.1866</m> as shown in the image or <m>18.66\%</m>.
+					</p>
+					<image source="images/statistics/3_6/quiz_ex_c.png"></image>
+					</sidebyside>
+					<p>
+						To use a spreadsheet, we need to use NORM.DIST twice. We can find the area to the left of the upper value and then subtract the area to the left of the lower value. That will give us the area between the two values. We enter <c>=NORM.DIST(25, 18, 4, 1)-NORM.DIST(21, 18, 4, 1)</c>. This also gives us a result of <m>0.1866</m> or <m>18.66\%</m>.
+					</p>
+				</li>
+				<li>
+					<sidebyside widths="40% 54%">
+					<p>
+						To use OnlineStatbook, we we will keep our mean of 18 points and standard deviation of 4 points. Then we select Outside and enter 11 and 23. This gives us a result of <m>0.1457</m> as shown in the image or <m>14.57\%</m>.
+					</p>
+					<image source="images/statistics/3_6/quiz_ex_d.png"></image>
+					</sidebyside>
+					<p>
+						To use a spreadsheet, we will find the left and right probabilities and add them together. We enter <c>=NORM.DIST(11, 18, 4, 1)+1-NORM.DIST(23, 18, 4, 1)</c>. This also gives us a result of <m>0.1457</m> or <m>14.57\%</m>.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</example>
+	<p>
+		Now you can this try this example.
+	</p>
+	<example>
+		<statement>
+		<p>
+			Continuing with the black lab dogs whose weights are approximately normally distributed with a mean of 78 pounds and a standard deviation 7 pounds, use technology to calculate the following probabilities:
+		</p>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						The probability that a randomly chosen black lab weighs at least 95 pounds.
+					</p>
+				</li>
+				<li>
+					<p>
+						The probability that a randomly chosen black lab weighs less than 72 pounds.
+					</p>
+				</li>
+				<li>
+					<p>
+						The probability that a black lab weighs less than 65 pounds or greater than 86 pounds.
+					</p>
+				</li>
+				<li>
+					<p>
+						The probability that a black lab weighs between 66 and 75.
+					</p>
+				</li>
+			</ol>
+		</p>
+		</statement>
+		<solution>
+		<p>
+			<ol label="a.">
+				<li>
+					<p>
+						Using OnlineStatbook and/or <c>=1-NORM.DIST(95, 78, 7, 1)</c> we get <m>P(X\geq95)=0.0076</m> or <m>0.76\%</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Using OnlineStatbook and/or <c>=NORM.DIST(72, 78, 7, 1)</c> we get <m>P(X\lt72)=0.1957</m> or <m>19.57\%</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Using OnlineStatbook and/or <c>=NORM.DIST(65, 78, 7, 1)+1-NORM.DIST(86, 78, 7, 1)</c> we get <m>P(X\lt65)+P(X\gt86)=0.1582</m> or <m>15.82\%</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Using OnlineStatbook and/or <c>=NORM.DIST(75, 78, 7, 1)-NORM.DIST(66, 78, 7, 1)</c> we get <m>P(66\leq X\leq 75)=0.2909</m> or <m>29.09\%</m>.
+					</p>
+				</li>
+			</ol>
+		</p>
+		</solution>
+	</example>
+</subsection>
+
+
+<subsection>
 <title>The Standard Normal Distribution and Z-Scores</title>
 	<p>
 		Earlier in the chapter we learned how to calculate a <alert>Z-score</alert>, which is a way to determine how usual or unusual a data value is, or compare values from two different distributions. To calculate the Z-score for a data value, we calculate its distance from the mean. Then we divide that distance by the standard deviation to see how many standard deviations that is. Thus, the <alert>Z-score</alert> of a data value is the number of standard deviations it is away from the mean.
@@ -432,7 +636,7 @@
 <subsection>
 <title>Confidence Intervals and Margin of Error</title>
 	<p>
-		Now that we have learned more about the Normal distribution, we can come back to confidence intervals which we studied in section 3.1. When we take a sample our goal is to infer our statistic to the larger population. Let's say we wanted to know the average height of all 10-year-old kids living in the United States. It would take too much time and money to measure them all so we take a random sample that is representative of the population of 10-year-olds.
+		Now that we have learned more about the Normal distribution, we can come back to confidence intervals which we studied in section 3.1. When we take a sample, our goal is to infer our statistic to the larger population. Let's say we wanted to know the average height of all 10-year-old kids living in the United States. It would take too much time and money to measure them all so we take a random sample that is representative of the population of 10-year-olds.
 </p>
 <p>
 		If we measured 25 randomly selected 10-year-olds and calculated the sample mean of 54.5 inches, that statistic is called a <alert>point estimate</alert>. It is a single value that we got from a sample. However, if we measured another random sample of 25 different kids we would likely get a different mean. That is called sampling variation or sampling error. To be more accurate in our estimation of the height of all 10-year olds we give a range of values called a <alert>confidence interval</alert>.
@@ -441,7 +645,7 @@
 		To construct a confidence interval we need to know the point estimate, the standard error of the data and the desired confidence level. The <alert>standard error</alert> is an estimate for the standard deviation that we calculate from the sample data and the sample size. You can learn more details about sampling distributions, why they are Normally distributed and how to calculate the standard error in a statistics course.
 	</p>
 	<p>
-		The most common confidence level is the 95% confidence level. The 95% confidence interval represents the middle 95% of the normal curve. From the Empirical rule we saw that approximately 95% of the data values are within 2 standard deviations of the mean. Using more exact methods, the middle 95% is 1.96 standard deviations from the mean.
+		The most common confidence level is the 95% confidence level. The 95% confidence interval represents the middle 95% of the Normal curve. From the Empirical rule we saw that approximately 95% of the data values are within 2 standard deviations of the mean. Using more exact methods, the middle 95% is 1.96 standard deviations from the mean.
 	</p>
 	
 	<sidebyside width="40%">
@@ -466,13 +670,13 @@
 		The 95% confidence interval is 51.07 to 57.93 inches or (51.07, 57.93) inches.
 	</p>
 	<p>
-		To interpret a confidence interval we say: <em>We are 95% confident that the true average height of all 10-year-olds is between 51.07 and 57.93 inches.</em> This means if repeated samples were taken and the 95% confidence interval was computed for each sample, about 95% of the intervals would contain the true population mean. Five percent of the intervals would not contain the population mean.
+		To interpret a confidence interval we say: <em>We are 95% confident that the true average height of all 10-year-olds is between 51.07 and 57.93 inches.</em> This means if repeated samples were taken and the 95% confidence interval was computed for each sample, about 95% of the intervals would contain the true population mean. About five percent of the intervals would not contain the population mean.
 	</p>
 	<p>
 		The standard error multiplied by the number of standard deviations for the confidence level is called the <alert>margin of error</alert>. In this example we have <me>1.96 \times \text{SE}</me> <me>1.96(1.75) = 3.43\text{ inches}</me>. The margin of error is the range of values below and above your sample mean in the confidence interval.
 	</p>
 	<p>
-		Since the point estimate is our best guess for the value of the parameter, it makes sense to build the confidence interval around that value. The standard error, which is the measure of the uncertainty associated with the point estimate, provides a guide for how large we should make the confidence interval. When the sampling distribution of a point estimate can reasonable be modeled as normal, the point estimate we observe will be within 1.96 standard errors of the true value of interest. We can be 95% confident this interval captures the true value.
+		Since the point estimate is our best guess for the value of the parameter, it makes sense to build the confidence interval around that value. The standard error, which is the measure of the uncertainty associated with the point estimate, provides a guide for how large we should make the confidence interval. When the sampling distribution of a point estimate can reasonably be modeled as Normal, the point estimate we observe will be within 1.96 standard errors of the true value of interest. We can be 95% confident this interval captures the true value.
 	</p>
 	<p>
 		The idea behind confidence intervals and margin of error is that any survey, study or poll will always be different from the population because samples vary. The confidence interval and margin of error reflect the sample size and the variation in the sample.
@@ -525,7 +729,7 @@
 <exercise>
 	<statement>
 	<p>
-		Two Normal distributions have the same means but different standard deviations. Distribution A has a standard deviation of 10, and Distribution B has a standard deviation of 15. Which curve has a wider spread along the horizontal axis? Why?
+		Two Normal distributions have the same means but different standard deviations. Distribution A has a standard deviation of 10 inches, and distribution B has a standard deviation of 15 inches. Which curve has a wider spread along the horizontal axis? Why?
 	</p>
 	</statement>
 	<solution>
@@ -674,12 +878,12 @@
 
 <exercise>
 	<statement>
-	<p>
-		Suppose a Normal distribution has a mean of 6 and a standard deviation of 1.5.
-		<ol label="a.">
+		<p>
+			Suppose a Normal distribution has a mean of 6 inches and a standard deviation of 1.5 inches.
+			<ol label="a.">
 			<li>
 				<p>
-					Draw and label the normal distribution graph.
+					Draw and label the Normal distribution graph.
 				</p>
 			</li>
 			<li>
@@ -689,37 +893,55 @@
 			</li>
 			<li>
 				<p>
-					What percentage of data falls between 3 and 10.5?
+					What percentage of data fall between 3 and 10.5 inches?
 				</p>
 			</li>
 			<li>
 				<p>
-					What percentage of data falls below 1.5?
+					What percentage of data fall below 1.5 inches?
+				</p>
+			</li>
+		</ol>
+		</p>
+	</statement>
+	<solution>
+	<p>
+		<ol label="a.">
+			<li>
+				<p>Here is the graph:
+					<sidebyside width="40%">
+						<image source="images/statistics/3_6/exercise_15a.png"></image>
+					</sidebyside>
 				</p>
 			</li>
 			<li>
 				<p>
-					Calculate the Z-score for a date value of 6.2.
+					Data values from 4.5 to 6.5 inches fall within one standard deviation of the mean.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of data that fall between 3 and 10.5 inches is <m>13.5\%+34\%+34\%+13.5\%+2.35\%=97.35\%</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of data that fall below 1.5 inches is <m>0.15\%</m>.
 				</p>
 			</li>
 		</ol>
 	</p>
-	</statement>
-	<solution>
-		<p>
-			
-		</p>
 	</solution>
 </exercise>
 
 <exercise>
 	<statement>
 	<p>
-		Suppose a Normal distribution has a mean of 45 and a standard deviation of 10.
+		Suppose a Normal distribution has a mean of 45 cm and a standard deviation of 10 cm.
 		<ol label="a.">
 			<li>
 				<p>
-					Draw and label the normal distribution graph.
+					Draw and label the Normal distribution graph.
 				</p>
 			</li>
 			<li>
@@ -729,17 +951,12 @@
 			</li>
 			<li>
 				<p>
-					What percentage of the data falls between 15 and 55?
+					What percentage of the data fall between 15 and 55 cm?
 				</p>
 			</li>
 			<li>
 				<p>
-					What percentage of the data falls above 55?
-				</p>
-			</li>
-			<li>
-				<p>
-					Calculate the Z-score for a date value of 32.
+					What percentage of the data fall above 55 cm?
 				</p>
 			</li>
 		</ol>
@@ -747,7 +964,30 @@
 	</statement>
 	<solution>
 		<p>
-			
+			<ol label="a.">
+			<li>
+				<p>Here is the graph:
+					<sidebyside width="40%">
+						<image source="images/statistics/3_6/exercise_16a.png"></image>
+					</sidebyside>
+				</p>
+			</li>
+			<li>
+				<p>
+					The range of data values that fall within two standard deviations of the mean is 25 to 65 cm.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data that fall between 15 and 55 cm is <m>2.35\%+13.5\%+34\%+34\%=83.85\%</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data that fall above 55 cm is <m>13.5\%+2.35\%+0.15\%=16\%</m>.
+				</p>
+			</li>
+		</ol>
 		</p>
 	</solution>
 </exercise>
@@ -755,11 +995,11 @@
 <exercise>
 	<statement>
 	<p>
-		Suppose a Normal distribution has a mean of 10 and a standard deviation of 2.
+		Suppose a Normal distribution has a mean of $10 and a standard deviation of $2.
 		<ol label="a.">
 			<li>
 				<p>
-					Draw and label the normal distribution graph.
+					Draw and label the Normal distribution graph.
 				</p>
 			</li>
 			<li>
@@ -769,17 +1009,12 @@
 			</li>
 			<li>
 				<p>
-					What percentage of data lies between 6 and 14?
+					What percentage of data lie between $6 and $14?
 				</p>
 			</li>
 			<li>
 				<p>
-					What percentage of data lies above 14?
-				</p>
-			</li>
-			<li>
-				<p>
-					Calculate the Z-score for a date value of 5.
+					What percentage of data lie above $14?
 				</p>
 			</li>
 		</ol>
@@ -787,7 +1022,30 @@
 	</statement>
 	<solution>
 		<p>
-			
+			<ol label="a.">
+			<li>
+				<p>Here is the graph:
+					<sidebyside width="40%">
+						<image source="images/statistics/3_6/exercise_17a.png"></image>
+					</sidebyside>
+				</p>
+			</li>
+			<li>
+				<p>
+					The range of data values that fall within three standard deviations of the mean is $4 to $16.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of data that lie between $6 and $14 is <m>95\%</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of data that lie above $14 is <m>2.35\%+0.15\%=2.5\%</m>.
+				</p>
+			</li>
+		</ol>
 		</p>
 	</solution>
 </exercise>
@@ -795,11 +1053,11 @@
 <exercise>
 	<statement>
 	<p>
-		Suppose the variable <m>X</m> is normally distributed with mean 15 and standard deviation 3.
+		Suppose the variable <m>X</m> is normally distributed with a mean of 15 miles and a standard deviation of 3 miles.
 		<ol label="a.">
 			<li>
 				<p>
-					Draw and label the normal distribution graph.
+					Draw and label the Normal distribution graph.
 				</p>
 			</li>
 			<li>
@@ -809,17 +1067,12 @@
 			</li>
 			<li>
 				<p>
-					What percentage of the data falls between 9 and 18?
+					What percentage of the data fall between 9 and 18 miles?
 				</p>
 			</li>
 			<li>
 				<p>
-					What percentage of the data falls above 18 and below 9?
-				</p>
-			</li>
-			<li>
-				<p>
-					Calculate the Z-score for a date value of 19.
+					What percentage of the data fall above 18 or below 9 miles?
 				</p>
 			</li>
 		</ol>
@@ -827,7 +1080,271 @@
 	</statement>
 	<solution>
 		<p>
-			
+			<ol label="a.">
+			<li>
+				<p>Here is the graph:
+					<sidebyside width="40%">
+						<image source="images/statistics/3_6/exercise_18a.png"></image>
+					</sidebyside>
+				</p>
+			</li>
+			<li>
+				<p>
+					The range of data values that falls within one standard deviation of the mean is 12 to 18 miles.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data that fall between 9 and 18 miles is <m>13.5\%+34\%+34\%=81.5\%</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data that fall above 18 or below 9 miles is <m>100\%-81.5\%=18.5\%</m>.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+</exercisegroup>
+
+<exercisegroup>
+	<introduction>
+		<p>
+			Use technology to answer these questions.
+		</p>
+	</introduction>
+
+	<exercise>
+	<statement>
+	<p>
+		Suppose a Normal distribution has a mean of 15.5 ounces and a standard deviation of 4.2 ounces.
+		<ol label="a.">
+			<li>
+				<p>
+					Draw and label the Normal distribution graph.
+				</p>
+			</li>
+			<li>
+				<p>
+					What percentage of the data values lie above 18.6 ounces?
+				</p>
+			</li>
+			<li>
+				<p>
+					What percentage of data lie between 9 and 20.2 ounces?
+				</p>
+			</li>
+			<li>
+				<p>
+					What percentage of data lie below 13.7 ounces?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+			<li>
+				<p>Here is the graph:
+					<sidebyside width="40%">
+						<image source="images/statistics/3_6/exercise_19a.png"></image>
+					</sidebyside>
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data values that lie above 18.6 ounces is <m>0.2302</m> or <m>23.028\%</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data values that lie between 9 and 20.2 ounces is <m>0.8076</m> or <m>80.76\%</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data values that lie below 13.7 ounces is <m>0.3341</m> or <m>33.41\%</m>.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Suppose a Normal distribution has a mean of 26.1 grams and a standard deviation of 6.5 grams.
+		<ol label="a.">
+			<li>
+				<p>
+					Draw and label the Normal distribution graph.
+				</p>
+			</li>
+			<li>
+				<p>
+					What percentage of the data values fall above 32.6 grams?
+				</p>
+			</li>
+			<li>
+				<p>
+					What percentage of data is below 15 grams or greater than 36.7 grams?
+				</p>
+			</li>
+			<li>
+				<p>
+					What percentage of the data is less than or equal to 20.8 grams?
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+			<li>
+				<p>Here is the graph:
+					<sidebyside width="40%">
+						<image source="images/statistics/3_6/exercise_20a.png"></image>
+					</sidebyside>
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data values that fall above 32.6 grams is <m>0.1587</m> or <m>15.87\%</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data values that is below 15 grams or greater than 36.7 grams is <m>0.0953</m> or <m>9.53\%</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percentage of the data values that is less than or equal to 20.8 grams is <m>0.2074</m> or <m>20.74\%</m>.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Suppose the variable <m>X</m> is normally distributed with a mean of 85 km and a standard deviation of 7 km.
+		<ol label="a.">
+			<li>
+				<p>
+					Draw and label the Normal distribution graph.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find <m>P(X \leq 82)</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find <m>P(76 \leq X \leq 90)</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find <m>P(X \geq 100)</m>.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+			<li>
+				<p>Here is the graph:
+					<sidebyside width="40%">
+						<image source="images/statistics/3_6/exercise_21a.png"></image>
+					</sidebyside>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>P(X \leq 82)=0.3341</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>P(76 \leq X \leq 90)=0.6632</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>P(X \geq 100)=0.0161</m>.
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		Suppose the variable <m>X</m> is normally distributed with a mean of $7 and a standard deviation of $1.30.
+		<ol label="a.">
+			<li>
+				<p>
+					Draw and label the Normal distribution graph.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find <m>P(X \geq 8)</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find <m>P(X \leq 4.1) \text{ or } P(X \geq 7.8)</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find <m>P(X \leq 7.3)</m>.
+				</p>
+			</li>
+		</ol>
+	</p>
+	</statement>
+	<solution>
+		<p>
+			<ol label="a.">
+			<li>
+				<p>Here is the graph:
+					<sidebyside width="40%">
+						<image source="images/statistics/3_6/exercise_22a.png"></image>
+					</sidebyside>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>P(X \geq 8)=0.2209</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>P(X \leq 4.1) \text{ or } P(X \geq 7.8)=0.282</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>P(X \leq 7.3)=0.5913</m>.
+				</p>
+			</li>
+		</ol>
 		</p>
 	</solution>
 </exercise>
@@ -851,12 +1368,64 @@
 <exercise>
 	<statement>
 	<p>
-		Consider the standard normal distribution. The mean is always <fillin /> and the standard deviation is always <fillin />.
+		Consider the Standard Normal distribution. The mean is always <fillin /> and the standard deviation is always <fillin />.
 	</p>
 	</statement>
 	<solution>
 		<p>
-			
+			For a Standard Normal distribution, the mean is always 0 and the standard deviation is always 1.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+		<p>
+			For the distribution in problem 15, calculate the Z-score for a data value of 6.2 inches.
+		</p>
+	</statement>
+	<solution>
+		<p>
+			<m>Z=\frac{6.2-6}{1.5}\approx=0.13</m> standard deviations.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+		<p>
+			For the distribution in problem 16, calculate the Z-score for a data value of 32 cm.
+		</p>
+	</statement>
+	<solution>
+		<p>
+			<m>Z=\frac{32-45}{10}=-1.3</m> standard deviations.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+		<p>
+			For the distribution in problem 17, calculate the Z-score for a data value of $5.
+		</p>
+	</statement>
+	<solution>
+		<p>
+			<m>Z=\frac{5-10}{2}=-2.5</m> standard deviations.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+		<p>
+			For the distribution in problem 18, calculate the Z-score for a data value of 19 miles.
+		</p>
+	</statement>
+	<solution>
+		<p>
+			<m>Z=\frac{19-15}{3}\approx=1.13</m> standard deviations.
 		</p>
 	</solution>
 </exercise>
@@ -864,12 +1433,12 @@
 <exercise>
 	<statement>
 	<p>
-		A random sample of 45 people who identify as women and carry a purse found that they had an average of $2.35 in change in the bottom of their purse. The margin of error was $0.15. Calculate the 95% confidence interval and interpret the results.
+		A random sample of 45 people who carry a purse found that they had an average of $2.35 in change in the bottom of their purse. The margin of error was $0.15. Calculate the 95% confidence interval and interpret the results.
 	</p>
 	</statement>
 	<solution>
 		<p>
-			
+			The confidence interval is <m>(\$2.20, \$2.50)</m>. This means that we are 95% confident that the true average amount of change for all those who carry a purse is between $2.20 and $2.50.
 		</p>
 	</solution>
 </exercise>
@@ -882,7 +1451,7 @@
 	</statement>
 	<solution>
 		<p>
-			
+			The confidence interval is <m>(12, 16)</m>. This means that we are 95% confident that the true average quiz score is between 12 and 16 points.
 		</p>
 	</solution>
 </exercise>
@@ -890,12 +1459,25 @@
 <exercise>
 	<statement>
 	<p>
-		A researcher works on a study and found that the sample mean to be 84.5 and the standard error of estimate to be 0.11. What is the margin of error for the 95% confidence level? What is the 95% confidence interval for the true mean? Interpret the results.
+		A researcher works on a study and found the sample mean to be 84.5 cm and the standard error of estimate to be 0.11 cm. What is the margin of error for the 95% confidence level? What is the 95% confidence interval for the true mean? Interpret the results.
 	</p>
 	</statement>
 	<solution>
 		<p>
-			
+			The margin of error is 0.2156 cm. The confidence interval is approximately <m>(82.28, 84.72)</m>. This means that we are 95% confident that the true population parameter is between approximately 82.28 and 84.72 cm.
+		</p>
+	</solution>
+</exercise>
+
+<exercise>
+	<statement>
+	<p>
+		A researcher works on a study and found that the sample mean to be $35.4 and the standard error of estimate to be $0.75. What is the margin of error for the 95% confidence level? What is the 95% confidence interval for the true mean? Interpret the results.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			The margin of error is $1.47. The confidence interval is <m>(\$33.93, \$36.87)</m>. This means that we are 95% confident that the true population parameter is between $33.93 and 36.87.
 		</p>
 	</solution>
 </exercise>

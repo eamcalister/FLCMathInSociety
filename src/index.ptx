@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 <docinfo>
+	<!-- <brandlogo url="http://www.pcc.edu/ORCCA" source="images/ORCCAbrandlogo.png" /> -->
 <!-- <rename element="question" lang="en-US">Guided Practice</rename> -->
 </docinfo>
 
