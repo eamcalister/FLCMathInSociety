@@ -43,10 +43,11 @@
 <subsection>
 <title>Installment Loans</title>
 	<p>
-		Installment loans are also called <alert>amortized loans</alert>. They are designed so that the payment amount remains the same over the life (term) of the loan. In order for that amount to remain constant, the amount of money going towards paying the <alert>principal</alert> (amount owed) and towards the <alert>interest</alert> will vary. At the beginning of the loan, the amount owed is the largest. So, at the beginning the amount of interest charged will also be the largest. As the loan gets repaid the amount owed is reduced and therefore the interest is reduced. Therefore, at the beginning of an installment loan payments go mostly towards the interest, towards the end the payments are going mostly towards the principal. 
+		Installment loans are also called <alert>amortized loans</alert>. They are designed so that the payment amount remains the same over the life (term) of the loan. In order for that amount to remain constant, the amount of money going towards paying the <alert>principal</alert> (amount owed) and towards the <alert>interest</alert> will vary. At the beginning of the loan, the amount owed is the largest. So, at the beginning the amount of interest charged will also be the largest. As the loan gets repaid the amount owed is reduced and therefore the interest is reduced. Therefore, at the beginning of an installment loan payments go mostly towards the interest, towards the end the payments are going mostly towards the principal.
 	</p>
 	<sidebyside width="50%">
 		<image source="images/financial_math/2_4/interest_principal.png">
+			<description>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</description>
 		</image>
 	</sidebyside>
 	<p>
@@ -75,7 +76,7 @@
 				<li>
 				<title>rate per period</title>
 					<p>
-						is the interest rate per compounding period, <m>r/n</m> 
+						is the interest rate per compounding period, <m>r/n</m>
 					</p>
 				</li>
 				<li>
@@ -185,16 +186,16 @@
 			For the formula, we use the one solved for <m>d</m>:
 		</p>
 		<p>
-			<m>r=.0275</m> for 2.75% annual rate 
+			<m>r=.0275</m>, for 2.75% annual rate
 		</p>
 		<p>
-			<m>n=12</m> monthly payments
+			<m>n=12</m>, monthly payments
 		</p>
 		<p>
-			<m>t=3</m> for 3 years
+			<m>t=3</m>, for 3 years
 		</p>
 		<p>
-			<m>P=12000</m> Since she can pay $3,000 of the $15,000
+			<m>P=12000</m>, since she can pay $3,000 of the $15,000
 		</p>
 		<p>
 			<md>
@@ -229,16 +230,16 @@
 			To use the formula, we have:
 		</p>
 		<p>
-			<m>r=.04</m> for 4% annual rate
+			<m>r=.04</m>, for 4% annual rate
 		</p>
 		<p>
-			<m>n=12</m> monthly payments
+			<m>n=12</m>, monthly payments
 		</p>
 		<p>
-			<m>t=5</m> for 5 years
+			<m>t=5</m>, for 5 years
 		</p>
 		<p>
-			<m>P=12000</m> the loan amount
+			<m>P=12000</m>, the loan amount
 		</p>
 		<p>
 			<md>
@@ -274,7 +275,7 @@
 	</example>
 
 	<p>
-		In addition to loan payments, we can calculate the amount of loan we can afford given a monthly payment. Let’s look at that in the next example. 
+		In addition to loan payments, we can calculate the amount of loan we can afford given a monthly payment. Let’s look at that in the next example.
 	</p>
 
 	<example>
@@ -301,16 +302,16 @@
 			To use a formula, we are looking for <m>P</m>, the starting amount of the loan.
 		</p>
 		<p>
-			<m>d=\$200</m> the monthly loan payment
+			<m>d=\$200</m>, the monthly loan payment
 		</p>
 		<p>
-			<m>r=0.03</m> 3% annual rate
+			<m>r=0.03</m>, 3% annual rate
 		</p>
 		<p>
-			<m>n=12</m> since we’re doing monthly payments, we’ll compound monthly
+			<m>n=12</m>, since we’re doing monthly payments, we’ll compound monthly
 		</p>
 		<p>
-			<m>t=5</m> since we’re making monthly payments for 5 years
+			<m>t=5</m>, since we’re making monthly payments for 5 years
 		</p>
 		<p>
 			<md>
@@ -336,7 +337,7 @@
 			<m>\$12,000-\$11,130.47=\$869.53</m>
 		</p>
 		<p>
-			In this case, you would be paying $869.53 in interest. 
+			In this case, you would be paying $869.53 in interest.
 		</p>
 		</solution>
 	</example>
@@ -369,16 +370,16 @@
 			To use the formula, we have:
 		</p>
 		<p>
-			<m>r=0.06</m> 6% annual rate
+			<m>r=0.06</m>, 6% annual rate
 		</p>
 		<p>
-			<m>n=12</m> since we’re paying monthly
+			<m>n=12</m>, since we’re paying monthly
 		</p>
 		<p>
-			<m>t=30</m> 30 years
+			<m>t=30</m>, 30 years
 		</p>
 		<p>
-			<m>P=\$140,000</m> the starting loan amount
+			<m>P=\$140,000</m>, the starting loan amount
 		</p>
 		<p>
 			In this case, we’re going to use the equation that is solved for <m>d</m>.
@@ -419,7 +420,7 @@
 <subsection>
 	<title>Remaining Loan Balance</title>
 	<p>
-		With loans, it is often desirable to determine what the remaining loan balance will be after some number of years. For example, if you purchase a home and plan to sell it in five years, you might want to know how much of the loan balance you will have paid off and how much you will have to pay from the sale. 
+		With loans, it is often desirable to determine what the remaining loan balance will be after some number of years. For example, if you purchase a home and plan to sell it in five years, you might want to know how much of the loan balance you will have paid off and how much you will have to pay from the sale.
 	</p>
 	<p>
 		To determine the remaining loan balance after some number of years, we first need to calculate the payment amount, if we don’t already know it. Remember that only a portion of your loan payments go towards the loan balance; a portion is going to go towards interest. For example, if your payments were $1,000 a month, after a year you will <em>not</em> have paid off $12,000 of the loan balance.
@@ -439,16 +440,16 @@
 			To determine this, we need to think backwards. We are looking for the amount of the loan that can be paid off by $1,000 per month in the remaining 25 years. In other words, we’re looking for <m>P</m> when:
 		</p>
 		<p>
-			<m>d=\$1,000</m> for the monthly loan payment
+			<m>d=\$1,000</m>, for the monthly loan payment
 		</p>
 		<p>
-			<m>r=0.06</m> for 6% annual rate
+			<m>r=0.06</m>, for 6% annual rate
 		</p>
 		<p>
-			<m>n=12</m> since we’re doing monthly payments, we’ll compound monthly
+			<m>n=12</m>, since we’re doing monthly payments, we’ll compound monthly
 		</p>
 		<p>
-			<m>t=25</m> since we’d be making monthly payments for 25 more years
+			<m>t=25</m>, since we’d be making monthly payments for 25 more years
 		</p> 
 		<p>
 			To use a spreadsheet for this problem, we use the <c>=PV</c> formula because we want to know what the present value would be at the time you want to sell in 5 years. We enter:
@@ -698,7 +699,7 @@
 			Savings Plans
 		</p>
 		<p>
-			<me>A=\frac{d\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}</me>
+			<me>A=\frac{d\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}</me>
 		</p>
 		<p>
 			Loans
@@ -713,11 +714,11 @@
 					<p>
 						is the principal, starting amount, or present value
 					</p>
-				</li>		
+				</li>
 				<li>
 					<title><m>d</m></title>
 					<p>
-						is your loan payment (your monthly payment, annual payment, etc.) 
+						is your loan payment (your monthly payment, annual payment, etc.)
 					</p>
 				</li>
 				<li>

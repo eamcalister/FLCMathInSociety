@@ -8,6 +8,12 @@
 <book>
 <title>Math in Society</title>
 <subtitle>Mathematics for liberal arts majors</subtitle>
+	<introduction>
+		<p>
+			<image source="images/Portland_Oregon_Skyline.jpg"></image>
+			<description>A picture of the Portland, Oregon skyline taken from the Ross Island Bridge</description>
+		</p>
+	</introduction>
 
 <xi:include href="./frontmatter.ptx" />
 

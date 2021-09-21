@@ -53,6 +53,7 @@
 	</p>
 	<sidebyside width="43%">
 		<image source="images/statistics/3_6/intro_pic.png"></image>
+		<description>A histogram where the bars form a bell shape. A Normal curve is overlaid on the histogram.</description>
 	</sidebyside>
 	<p>
 		Notice how the shape is unimodal and symmetric with larger and smaller values getting less and less common as they get further from the mean. When we take samples from a population we might not get an exact Normal distribution but it is often close. We call this approximately Normal or nearly Normally distributed. The curve drawn over the histogram shows that the data are nearly Normal. Earlier in this chapter we learned about the <alert>mean</alert>, <alert>median</alert> and <alert>mode</alert> as measures of center and the <alert>standard deviation</alert> as a measure of variation or spread. The mean is often written with the greek letter mu, <m>\mu</m>. The standard deviation is usualy represented by the lowercase Greek letter sigma, <m>\sigma</m>.
@@ -80,6 +81,7 @@
 				</p>
 				<sidebyside width="43%">
 					<image source="images/statistics/3_6/mean_median_mode_pic.png"></image>
+					<description>A normal curve with a line drawn in the middle to indicate the mean, median and mode. The drawing shows that 50% of the data values are below the line and 50% are above the line.</description>
 				</sidebyside>
 			</li>
 			<li>
@@ -103,6 +105,7 @@
 		</p>
 		<sidebyside width="42%">
 			<image source="images/statistics/3_6/mean18_sd4_pic2.png"></image>
+			<description>A normal curve with the mean of 18 points labeled in the middle. To the right, 3 standard deviations are labeled 22, 26 and 30 points. To the left 3 standard deviations are labeled 14, 10 and 6 points.</description>
 		</sidebyside>
 		<p>
 			We start by drawing a Normal curve and the horizontal axis. Then we place the mean of 18 points in the center of the graph and make 3 marks on each side, ending where the curve gets close to the axis.
@@ -144,6 +147,7 @@
 		According to the Empirical rule, about 68% of all the data values fall within one standard deviation of the mean, or between 14 and 22 points.
 		</p>
 		<image source="images/statistics/3_6/68perc_pic.png"></image>
+		<description>A graph of a normal curve that shows 68% of the data values shaded within one standard deviation of the mean, in this case between 14 and 22 points.</description>
 	</sidebyside>
 	
 	<sidebyside valign="middle" widths="40% 42%" margins="0%">
@@ -151,6 +155,7 @@
 		About 95% of all the data values fall within two standard deviation, or between 10 and 26 points.
 		</p>
 		<image source="images/statistics/3_6/95perc_pic.png"></image>
+		<description>A graph of a normal curve that shows 95% of the data values shaded within two standard deviations of the mean, in this case between 10 and 26 points.</description>
 	</sidebyside>
 
 	<sidebyside valign="middle" widths="40% 42%" margins="0%">
@@ -158,6 +163,7 @@
 		About 99.7% of all the data values fall within three standard deviations, or between 6 and 30 points.
 		</p>
 		<image source="images/statistics/3_6/99perc_pic.png"></image>
+		<description>A graph of a normal curve that show 99.7% of the data values shaded within 3 standard deviations of the mean, in this case between 6 and 30 points.</description>
 	</sidebyside>
 	<p>
 		Now you can try this next example:
@@ -205,6 +211,7 @@
 						We start by drawing the Normal curve and the horizontal axis, labeling 3 standard deviations on each side.
 						<sidebyside width="45%">
 							<image source="images/statistics/3_6/mean78_sd7_pic.png"></image>
+							<description>A normal curve labeled with 57, 64, 71, 78, 85, 92 and 99 pounds. The title of the graph is weights of black lab dogs in points.</description>
 						</sidebyside>
 					</p>
 				</li>
@@ -242,6 +249,7 @@
 		</p>
 		<sidebyside width="45%">
 			<image source="images/statistics/3_6/mean18_sd4_pic.png"></image>
+			<description>A normal curve labeled with 6, 10, 14, 18, 22, 26 and 30 points. The title is quiz scores in points. There is a line segment at each number listed to divide the curve into segments.</description>
 		</sidebyside>
 		<p>
 			Now, since we know that approximately 68% of the values are between 14 and 22 points, and the graph is symmetric, we divide 68% by 2 to get:
@@ -274,6 +282,7 @@
 		</p>
 		<sidebyside width="60%">
 			<image source="images/statistics/3_6/emperical_rule_pic.png"></image>
+			<description>The previous normal curve with the area of each segment filled in. From left to right the areas are 0.15%, 2.35%, 13.5%, 34%, 34%, 13.5%, 2.35%, 0.15%.</description>
 		</sidebyside>
 		<p>
 			Now let's continue our quiz score example to see how to use the Empirical Rule to find probabilities.
@@ -358,6 +367,7 @@
 			First we need to draw this distribution and label three standard deviations on each side of the mean to determine where these weights fall. That will tell us which segments to add up. Here is our drawing of this distribution from before.
 			<sidebyside width="45%">
 				<image source="images/statistics/3_6/mean78_sd7_pic.png"></image>
+				<description>The previous normal curve of weights of black lab dogs in pounds. The scale at the bottom is 57, 64, 71, 78, 85, 92, 99 pounds.</description>
 			</sidebyside>
 			<ol label="a.">
 				<li>
@@ -393,6 +403,7 @@
 				To use Onlinestatbook.com, go to the <url href="http://onlinestatbook.com/2/calculators/normal_dist.html">OnlineStatbook Normal calculator</url> and enter the mean and standard deviation. Then select the option that matches the probability you want to find: Above, Below, Between or Outside and enter the probability you want to find. Then click on the Recalculate button.
 			</p>
 			<image source="images/statistics/3_6/onlinestatbook_general.png"></image>
+			<description>A screenshot of the onlinestatbook.com normal probability calculator. It shows a normal curve, an input box for the mean and median, and a choice to find above, below, between or outside.</description>
 		</sidebyside>
 		
 		<p>
@@ -472,6 +483,7 @@
 						</p>
 					</stack>>
 					<image source="images/statistics/3_6/quiz_ex_a.png"></image>
+					<description>A screenshot of onlinestatbook showing the inputs and output described above.</description>
 					</sidebyside>
 				</li>
 				<li>
@@ -485,6 +497,7 @@
 						</p>
 						</stack>>
 					<image source="images/statistics/3_6/quiz_ex_b.png"></image>
+					<description>A screenshot of onlinestatbook showing the inputs and output described above.</description>
 					</sidebyside>
 				</li>
 				<li>
@@ -493,6 +506,7 @@
 						To use OnlineStatbook, we we will keep our mean of 18 points and standard deviation of 4 points. Then we select Between and enter 21 and 25. This gives us a result of <m>0.1866</m> as shown in the image or <m>18.66\%</m>.
 					</p>
 					<image source="images/statistics/3_6/quiz_ex_c.png"></image>
+					<description>A screenshot of onlinestatbook showing the inputs and output described above.</description>
 					</sidebyside>
 					<p>
 						To use a spreadsheet, we need to use NORM.DIST twice. We can find the area to the left of the upper value and then subtract the area to the left of the lower value. That will give us the area between the two values. We enter <c>=NORM.DIST(25, 18, 4, 1)-NORM.DIST(21, 18, 4, 1)</c>. This also gives us a result of <m>0.1866</m> or <m>18.66\%</m>.
@@ -504,6 +518,7 @@
 						To use OnlineStatbook, we we will keep our mean of 18 points and standard deviation of 4 points. Then we select Outside and enter 11 and 23. This gives us a result of <m>0.1457</m> as shown in the image or <m>14.57\%</m>.
 					</p>
 					<image source="images/statistics/3_6/quiz_ex_d.png"></image>
+					<description>A screenshot of onlinestatbook showing the inputs and output described above.</description>
 					</sidebyside>
 					<p>
 						To use a spreadsheet, we will find the left and right probabilities and add them together. We enter <c>=NORM.DIST(11, 18, 4, 1)+1-NORM.DIST(23, 18, 4, 1)</c>. This also gives us a result of <m>0.1457</m> or <m>14.57\%</m>.
@@ -594,18 +609,21 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_6/empty_emperical_pic.png"></image>
+		<description>A normal curve labeled with -3, -2, -1, 0, 1, 2, 3 standard deviations. The title is Z-scores. There is a line at each number dividing the curve into segments.</description>
 	</sidebyside>
 	<p>
 		Applying the Empirical Rule in percentage form to the Standard Normal curve looks like this.
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_6/full_emperical_pic1.png"></image>
+		<description>The previous normal curve with the area of each segment filled in. From left to right the areas are 0.15%, 2.35%, 13.5%, 34%, 34%, 13.5%, 2.35%, 0.15%.</description>
 	</sidebyside>
 	<p>
 		Sometimes we may want to use the decimal form of the numbers instead.
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_6/full_emperical_pic2.png"></image>
+		<description>The previous normal curve with the area of each segment filled in in decimal form. From left to right the areas are 0.0015, 0.0235, 0.135, 0.34, 0.34, 0.135, 0.0235, 0.0015.</description>
 	</sidebyside>
 	<p>
 		Applying the Empirical Rule to the Standard Normal distribution, we know that 68% of all Z-scores will be between -1 and 1, 95% of all Z-scores will be between -2 and 2 and 99.7% of all Z-scores will be between -3 and 3. A Z-score below -3 or above 3 is possible, but is very unlikely.
@@ -650,6 +668,7 @@
 	
 	<sidebyside width="40%">
 		<image source="images/statistics/3_6/95perc_interval_pic.png"></image>
+		<description>A normal curve showing the middle 95% of the area shaded, which is 1.96 standard deviations on each side of the mean of 0.</description>
 	</sidebyside>
 	<p>
 		Let's say that our point estimate for the height of 10-year-olds is 54.5 inches and the standard error is 1.75 inches. To estimate the middle 95% of values we multiply the standard error by 1.96 standard deviations.

@@ -18,6 +18,7 @@
 		</p>
 		</stack>
 			<image source="images/democracy/5_1/gc_pic.png"></image>
+			<description>A photo of Dr. Graciela Chichilnisky</description>
 		</sidebyside>
 		<p>
 			As a world-renowned economist, she is the creator of the formal theory of Sustainable Development (Siegle, 2010). Her pioneering work uses innovative market mechanisms to create Green Capitalism.
@@ -35,6 +36,7 @@
 <xi:include href="chap_five_popular_vote.ptx" />
 <xi:include href="chap_five_gerrymandering.ptx" />
 <xi:include href="chap_five_review.ptx" />"
+
 <xi:include href="chap_five_budget_deficit_debt.ptx" />
 
 </chapter>

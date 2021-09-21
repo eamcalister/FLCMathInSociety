@@ -39,7 +39,7 @@
 		<em>Note: Spreadsheets are emphasized in this chapter, but the formulas are also presented so you can understand what the spreadsheet is doing. Be sure to check with your instructor for which method to use.</em>
 	</p>
 	<p>
-		Working with money is a very important skill for everyday life. While balancing a checkbook or calculating our monthly expenditures on espresso requires only arithmetic, when we start saving money, planning for retirement, or need a loan, we need more mathematics and tools. In this section we will calculate and compare simple and compound interest. 
+		Working with money is a very important skill for everyday life. While balancing a checkbook or calculating our monthly expenditures on espresso requires only arithmetic, when we start saving money, planning for retirement, or need a loan, we need more mathematics and tools. In this section we will calculate and compare simple and compound interest.
 	</p>
 
 	<figure>
@@ -51,7 +51,7 @@
 <subsection>
 	<title>Simple Interest</title>
 	<p>
-		Calculating interest starts with the <alert>principal</alert>, <em>P</em>, or the beginning amount in your account. This is also called the <alert>present value</alert>. This could be a starting investment, or the starting amount of a loan. The <alert>interest rate</alert>, <em>I</em>, in its most simple form, is a percentage of the principal. 
+		Calculating interest starts with the <alert>principal</alert>, <em>P</em>, or the beginning amount in your account. This is also called the <alert>present value</alert>. This could be a starting investment, or the starting amount of a loan. The <alert>interest rate</alert>, <em>I</em>, in its most simple form, is a percentage of the principal.
 	</p>
 	<p>
 		For example, if you borrowed $100 from a friend and agree to repay it with 5% interest, then the amount of interest you would pay would be 5% of 100. It is very important to remember to change the interest <alert>rate</alert>, r, of 5% into a decimal by moving the decimal two places to the left.
@@ -66,7 +66,7 @@
 		<me>\$100+\$5=\$105</me>
 	</p>
 	<p>
-		Here are the formulas to represent the calculations we just did. 
+		Here are the formulas to represent the calculations we just did.
 	</p>
 	<assemblage>
 		<title>Simple One-time Interest</title>
@@ -79,7 +79,7 @@
 		<p>
 			<dl width="narrow">
 				<li>
-					<title><m>I</m></title> 
+					<title><m>I</m></title>
 					<p>
 						is the interest
 					</p>
@@ -114,10 +114,10 @@
 		</statement>
 		<solution>
 		<p>
-			<m>P = \$300</m> the principal or present value
+			<m>P = \$300</m>, the principal or present value
 		</p>
 		<p>
-			<m>r = 0.03</m> 3% rate
+			<m>r = 0.03</m>, 3% rate
 		</p>
 		<p>
 			Using the formula,
@@ -247,13 +247,13 @@
 		</statement>
 		<solution>
 		<p>
-			<m>P = \$1000</m> the principal
+			<m>P = \$1000</m>, the principal
 		</p>
 		<p>
-			<m>r=\frac{0.04}{2}=0.02</m> interest is being paid semi-annually (twice a year), so the 4% interest will be divided into two 2% payments.
+			<m>r=\frac{0.04}{2}=0.02</m>, interest is being paid semi-annually (twice a year), so the 4% interest will be divided into two 2% payments.
 		</p>
 		<p>
-			<m>t = 8</m> 4 years, compounded twice a year so <m>t=4\cdot 2=8</m> half-years
+			<m>t = 8</m>, 4 years compounded twice a year gives <m>t=4\cdot 2=8</m> half-years
 		</p>
 		<p>
 			<md>
@@ -289,7 +289,7 @@
 <subsection>
 	<title>Compound Interest</title>
 	<p>
-		In a standard bank account, any interest we earn is automatically added to our balance, and we earn interest on that interest. This reinvestment of interest is called <alert>compounding</alert>. We will develop the mathematical formula for compound interest and then show the equivalent spreadsheet function. 
+		In a standard bank account, any interest we earn is automatically added to our balance, and we earn interest on that interest. This reinvestment of interest is called <alert>compounding</alert>. We will develop the mathematical formula for compound interest and then show the equivalent spreadsheet function.
 	</p>
 	<p>
 		Suppose that we deposit $1000 in a bank account offering 3% interest, compounded monthly. How will our money grow?
@@ -304,9 +304,9 @@
 	<p>
 		<md>
 		<mrow>P\amp= \$1000</mrow>
-		<mrow>r\amp=0.0025 \text{ (which is 0.25\%)}</mrow>
-		<mrow>I\amp= \$1000 (0.0025)= \$2.60</mrow>
-		<mrow>A\amp= \$1000 + \$2.5 = \$1002.50</mrow>
+		<mrow>r\amp=0.0025</mrow>
+		<mrow>I\amp= \$1000 (0.0025)= \$2.50</mrow>
+		<mrow>A\amp= \$1000 + \$2.50 = \$1002.50</mrow>
 		</md>
 	</p>
 	<p>
@@ -326,7 +326,7 @@
 		Notice that in the second month we earned more interest than we did in the first month. This is because we earned interest not only on the original $1000 we deposited, but we also earned interest on the $2.50 of interest we earned the first month. This is the key advantage that compounding gives us.
 	</p>
 	<p>
-		Calculating out a few more months in a table or a spreadsheet we have: 
+		Calculating out a few more months in a table or a spreadsheet we have:
 	</p>
 	<sidebyside>
 	<tabular top="minor" left="minor" right="minor" bottom="minor" halign="left">
@@ -551,16 +551,16 @@
 		</statement>
 		<solution>
 		<p>
-			<m>P = \$3000</m> the initial deposit
+			<m>P = \$3000</m>, the initial deposit
 		</p>
 		<p>
-			<m>r = 0.06</m> 6% annual rate
+			<m>r = 0.06</m>, 6% annual rate
 		</p>
 		<p>
-			<m>n = 12</m> 12 months in 1 year
+			<m>n = 12</m>, 12 months in 1 year
 		</p>
 		<p>
-			<m>t = 20</m> since we’re looking for how much we’ll have after 20 years
+			<m>t = 20</m>, since we’re looking for how much we’ll have after 20 years
 		</p>
 
 		<p>
@@ -568,7 +568,7 @@
 			<cd>=FV(rate per period, number of periods, payment amount, present value)</cd>
 		</p>
 		<p>
-			<cd>=FV(0.06/12, 12 / 20, 0, 3000)</cd>
+			<cd>=FV(0.06/12, 12*20, 0, 3000)</cd>
 		</p>
 		<p>
 			and get a result of $9,930.61, rounded to the nearest cent.
@@ -707,7 +707,7 @@
 			<p>
 				is the amount desired in the future, <m>A</m>
 			</p>
-			</li>			
+			</li>
 		</dl>
 		</p>
 	</assemblage>
@@ -743,16 +743,16 @@
 			To use the mathematical formula, we use the one that is solved for <em>P</em>.
 		</p>
 		<p>
-			<m>r = 0.04</m> 4% APR
+			<m>r = 0.04</m>, 4% APR
 		</p>
 		<p>
-			<m>n = 4</m> 4 quarters in 1 year
+			<m>n = 4</m>, 4 quarters in 1 year
 		</p>
 		<p>
-			<m>t = 18</m> Since we know the balance in 18 years
+			<m>t = 18</m>, since we know the balance in 18 years
 		</p>
 		<p>
-			<m>A = \$40,000</m> The amount we have in 18 years
+			<m>A = \$40,000</m>, the amount we have in 18 years
 		</p>
 		<p>
 			In this case, we’re going to have to set up the equation, and solve for P.
@@ -760,8 +760,8 @@
 
 		<p>
 			<md>
-			<mrow>P\amp=\frac{4000}{\left(1+\frac{0.04}{4}\right)^{4\cdot 18}}</mrow>
-			<mrow>\amp=19539.84</mrow>
+			<mrow>P\amp=\frac{40000}{\left(1+\frac{0.04}{4}\right)^{4\cdot 18}}</mrow>
+			<mrow>\amp\approx19539.84</mrow>
 		</md>
 		</p>
 		<p>
@@ -856,18 +856,18 @@
 			<m>A=Pe^{rt}</m>
 		</p>
 		<p>
-			<m>P = 4000</m> Amount invested
+			<m>P = 4000</m>, amount invested
 		</p>
 		<p>
-			<m>r = 0.0275</m> Interest rate
+			<m>r = 0.0275</m>, interest rate
 		</p>
 		<p>
-			<m>t = 7</m> Number of years
+			<m>t = 7</m>, number of years
 		</p>
 		<p>
 			<md>
 			<mrow>A\amp=4000e^{(0.0275\cdot 7)}</mrow>
-			<mrow>\amp=\$4849.11</mrow>
+			<mrow>\amp\approx\$4849.11</mrow>
 		</md>
 		</p>
 		<p>
@@ -893,7 +893,7 @@
 			The spreadsheet calculation is
 		</p>
 		<p>
-			<cd>=4849.11–-4000</cd>
+			<cd>=4849.11-4000</cd>
 		</p>
 		<p>
 			which gives a result of $849.11. You would earn $849.11 in interest.
@@ -1048,7 +1048,7 @@
 		</p>
 	</solution>
 	</example>
-</subsection> 
+</subsection>
 
 <exercises>
 <title>Exercises</title>

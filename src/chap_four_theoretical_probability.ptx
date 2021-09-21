@@ -735,7 +735,7 @@
 	</p>
 	<sidebyside width="70%">
 		<image source="images/probability/4_2/overlap.png">
-		<description>A set diagram showing 2 sets that are entirely separate, cats and dogs. The circles do not overlap but they are in the universal set rectangle</description>
+		<description>Two set diagrams. The Venn diagram on the left shows two overlapping sets which have an intersecting area; The Venn diagram on the right shows two sets that are entirely separate, like cats and dogs.</description>
 		</image>
 	</sidebyside>
 	<p>

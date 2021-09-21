@@ -2,10 +2,6 @@
 <backmatter xml:id="backmatter">
 
 
-<solutions divisional="solution" admit="odd">
-	<title>Odd Answers</title>
-</solutions>
-
 
 <references>
 	<p>
@@ -105,6 +101,10 @@
 ‌
 </references>
 
+<!-- <solutions divisional="solution" admit="odd">
+	<title>Odd Answers</title>
+</solutions>
+ -->
 <!-- sample syntax -->
 <!-- <references xml:id="references-section">
                 <title>References</title>

@@ -56,60 +56,6 @@
     </website>
 </colophon>
 
-<!-- TODO: Add in after getting permission -->
-
-<!-- <preface xml:id="Land Acknowledgement">
-<title>Land Acknowledgement</title>
-<p>
-		We acknowledge that the United States was created on stolen land. Portland, Oregon is on land where the Multnomah, Kathlamet, and Clackamas bands of the Chinook, Tualatin, Kalapuya, Molalla and many other Tribes made their homes along the Columbia River. Multnomah is a band of Chinooks that lived in this area.
-	</p>
-	<p>
-		We thank the descendants of these tribes for being the original stewards and protectors of these lands since time immemorial. We also acknowledge that Portland, OR has one of the largest Urban Native American populations in the U.S. with over 380 federally recognized tribes represented in the Urban Portland Metropolitan area. We also acknowledge the systemic policies of genocide, relocation, and assimilation that still impact many Indigenous/Native American families today.
-	</p>
-	<p>
-		We are honored by the collective work of many Native Nations, leaders and families who are demonstrating resilience, resistance, revitalization, healing and creativity. We are honored to be guests upon these lands. Thank you, and thanks also to our colleagues at the Portland State University Indigenous Nations Studies Program for crafting this acknowledgement.
-	</p>
-</preface> -->
-
-<preface xml:id="Notes">
-<title>Project Notes</title>
-    <blockquote>
-    	<p>
-    		<em>We dedicate this book to our students. May you have greater ease in paying for college and grow your proficiency and confidence in math.</em>
-    	</p>
-    </blockquote>
-
-       	<p>
-			<alert>Acknowledgements:</alert> We would like to thank Amy Hofer and grant support from <url href="https://openoregon.org/">Open Oregon Educational Resources</url> and the PCC librarians and OER steering committee. Thanks also to Kaela Parks and Michael Cantino of Disability Services for their expertise on accessibility.
-		</p>
-		<p>
-   			<alert>Antiracist and Culturally Responsive Elements:</alert> Our goal is for our students to see themselves in this book. We have added stories of mathematicians and economists with identities that have traditionally been underrepresented in textbooks. We use local places and culturally diverse names in the examples and exercises. We have examples with they/them/their pronouns and same-sex couples.
-   		</p>
-   		<p>
-   			In the democracy chapter we have included the Native American genocide and slavery which are often left out of math texts. We have also emphasized the names of civil right leaders and African Americans killed by the police in our examples. We recognize there is more to do in this area and welcome contributions and feedback. Please email Cara Lee at <url href="mailto://cara.lee@pcc.edu/">cara.lee@pcc.edu</url> or use the Google Form link below.
-   		</p>
-    	<p>
-   			<alert>Philosophy:</alert> Our goal is for the content of this book to be relevant and accessible to our readers. We emphasize technology, conceptual understanding and communication over rote calculation. However, some manual calculation is important to understand what the technology is doing. We emphasize readily available spreadsheets and <url href="www.geogebra.com">GeoGebra</url> throughout the text.
-   		</p>
-   		<p>
-    		<alert>Web and Print Versions:</alert> This book is available free online at <url href="http://spot.pcc.edu/math/mathinsociety.html">http://spot.pcc.edu/math/mathinsociety.html</url>. Chapters 1-5 are available at the PCC bookstore printed by the PCC Print Center.
-   		</p>
-    	<p>
-   			<alert>Additional Topics:</alert> Your course may include one or more instructor choice topics which are available online only from the website above, or from David Lippman's original book at <url href="http://www.opentextbookstore.com/mathinsociety/index.html">http://www.opentextbookstore.com/mathinsociety/index.html</url>.
-    	</p>
-    	<p>
-   			<alert>Accessibility:</alert> The html version of this book is intended to meet or exceed web accessibility standards. The alternate text for images is in progress. If you find anything that can improve the accessibility of this book, please email Cara Lee at <url href="mailto://cara.lee@pcc.edu/">cara.lee@pcc.edu</url> or use the Google Form link below.
-    	</p>
-    	<p>
-			<alert>Online Homework:</alert> Online homework problems are available for free at <url href="https://www.myopenmath.com/">https://www.myopenmath.com/</url>.
-   		</p>
-   		<p>
-			<alert>Typos and Other Feedback:</alert> Please notify us of typos and other feedback using this Google Form<fn><url href="https://forms.gle/s14kNGd7anRmVgCD6">https://forms.gle/s14kNGd7anRmVgCD6</url></fn>.
-   		</p>
-</preface>
-
-
-
 <preface>
 <title>Attributions</title>
 		
@@ -201,6 +147,58 @@
 	</p>
 </preface>
 
+<!-- TODO: Add in after getting permission -->
+
+<!-- <preface xml:id="Land Acknowledgement">
+<title>Land Acknowledgement</title>
+<p>
+		We acknowledge that the United States was created on stolen land. Portland, Oregon is on land where the Multnomah, Kathlamet, and Clackamas bands of the Chinook, Tualatin, Kalapuya, Molalla and many other Tribes made their homes along the Columbia River. Multnomah is a band of Chinooks that lived in this area.
+	</p>
+	<p>
+		We thank the descendants of these tribes for being the original stewards and protectors of these lands since time immemorial. We also acknowledge that Portland, OR has one of the largest Urban Native American populations in the U.S. with over 380 federally recognized tribes represented in the Urban Portland Metropolitan area. We also acknowledge the systemic policies of genocide, relocation, and assimilation that still impact many Indigenous/Native American families today.
+	</p>
+	<p>
+		We are honored by the collective work of many Native Nations, leaders and families who are demonstrating resilience, resistance, revitalization, healing and creativity. We are honored to be guests upon these lands. Thank you, and thanks also to our colleagues at the Portland State University Indigenous Nations Studies Program for crafting this acknowledgement.
+	</p>
+</preface> -->
+
+<preface xml:id="Notes">
+<title>Project Notes</title>
+    <blockquote>
+    	<p>
+    		<em>We dedicate this book to our students. May you have greater ease in paying for college and grow your proficiency and confidence in math.</em>
+    	</p>
+    </blockquote>
+
+       	<p>
+			<alert>Acknowledgements:</alert> We would like to thank Amy Hofer and grant support from <url href="https://openoregon.org/">Open Oregon Educational Resources</url> and the PCC librarians and OER steering committee. Thanks also to Kaela Parks and Michael Cantino of Disability Services for their expertise on accessibility.
+		</p>
+		<p>
+   			<alert>Antiracist and Culturally Responsive Elements:</alert> Our goal is for our students to see themselves in this book. We have added stories of mathematicians and economists with identities that have traditionally been underrepresented in textbooks. We use local places and culturally diverse names in the examples and exercises. We have examples with they/them/their pronouns and same-sex couples.
+   		</p>
+   		<p>
+   			In the democracy chapter we have included the Native American genocide and slavery which are often left out of math texts. We have also emphasized the names of civil right leaders and African Americans killed by the police in our examples. We recognize there is more to do in this area and welcome contributions and feedback. Please email Cara Lee at <url href="mailto://cara.lee@pcc.edu/">cara.lee@pcc.edu</url> or use the Google Form link below.
+   		</p>
+    	<p>
+   			<alert>Philosophy:</alert> Our goal is for the content of this book to be relevant and accessible to our readers. We emphasize technology, conceptual understanding and communication over rote calculation. However, some manual calculation is important to understand what the technology is doing. We emphasize readily available spreadsheets and <url href="www.geogebra.com">GeoGebra</url> throughout the text.
+   		</p>
+   		<p>
+    		<alert>Web and Print Versions:</alert> This book is available free online at <url href="http://spot.pcc.edu/math/mathinsociety.html">http://spot.pcc.edu/math/mathinsociety.html</url>. Chapters 1-5 are available at the PCC bookstore printed by the PCC Print Center.
+   		</p>
+    	<p>
+   			<alert>Additional Topics:</alert> Your course may include one or more instructor choice topics which are available online only from the website above, or from David Lippman's original book at <url href="http://www.opentextbookstore.com/mathinsociety/index.html">http://www.opentextbookstore.com/mathinsociety/index.html</url>.
+    	</p>
+    	<p>
+   			<alert>Accessibility:</alert> The html version of this book is intended to meet or exceed web accessibility standards. The alternate text for images is in progress. If you find anything that can improve the accessibility of this book, please email Cara Lee at <url href="mailto://cara.lee@pcc.edu/">cara.lee@pcc.edu</url> or use the Google Form link below.
+    	</p>
+    	<p>
+			<alert>Online Homework:</alert> Online homework problems are available for free at <url href="https://www.myopenmath.com/">https://www.myopenmath.com/</url>.
+   		</p>
+   		<p>
+			<alert>Typos and Other Feedback:</alert> Please notify us of typos and other feedback using this Google Form<fn><url href="https://forms.gle/s14kNGd7anRmVgCD6">https://forms.gle/s14kNGd7anRmVgCD6</url></fn>.
+   		</p>
+</preface>
+
 <preface>
 	<title>Resources</title>
 	<p>
@@ -228,8 +226,11 @@
 	</p>
 	</preface>
 
-<!-- <preface>
+<preface>
 	<title>Errata</title>
+	<p>
+		Please notify us of typos and other feedback using this Google Form<fn><url href="https://forms.gle/s14kNGd7anRmVgCD6">https://forms.gle/s14kNGd7anRmVgCD6</url></fn>.
+   	</p>
 	<p>
 		These errors have been found since the last printing and fixed in the online version. The next printed books will have these corrections.
 	</p>
@@ -240,15 +241,31 @@
 				<cell><em>Error Description</em></cell>
 			</row>
 			<row>
+				<cell>1.1</cell>
+				<cell>In the symbols box, not A can also be written as ~A.</cell>
+			</row>
+			<row>
+				<cell>2.2</cell>
+				<cell>Example 2.2.3 was fixed so that I = $1000(.0025) = $2.50.</cell>
+			</row>
+			<row>
+				<cell>2.2</cell>
+				<cell>Example 2.2.5 was fixed to have 12*20 in the spreadsheet formula instead of 12/20.</cell>
+			</row>
+			<row>
+				<cell>2.2</cell>
+				<cell>Example 2.2.7 was fixed so that 40,000 in the formula instead of 4000.</cell>
+			</row>
+			<!-- <row>
 				<cell>2.4</cell>
 				<cell>Example 2.4.5 was fixed to calculate 1% of the new balance. Example 2.4.6 was removed until it can be corrected.</cell>
 			</row>
 			<row>
 				<cell>5.1</cell>
 				<cell>Rodney King was not killed by the police but he was brutally beaten by four white police officers.</cell>
-			</row>
+			</row> -->
 		</tabular>
 	</table>
 </preface>
- -->
+
 </frontmatter>

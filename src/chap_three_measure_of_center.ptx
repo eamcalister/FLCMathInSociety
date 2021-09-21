@@ -1821,6 +1821,7 @@
 	<sidebyside width="50%">
 		<image source="images/statistics/3_3/400_exams.png">
 		</image>
+		<description>The bars gradually increase going to the right with the tallest bars near the right side of the graph, then they decrease sharply.</description>
 	</sidebyside>
 	<p>
 		<ol label="a.">
@@ -1863,6 +1864,7 @@
 	<sidebyside width="50%">
 	<image source="images/statistics/3_3/40_coffee.png">
 	</image>
+	<description>The bars on the histogram increase gradually with the tallest bars in the center, then decrease gradually.</description>
 	</sidebyside>
 	<p>
 		<ol label="a.">

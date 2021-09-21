@@ -23,7 +23,7 @@
 		</li>
 		<li>
 			<p>
-				Calculate <q>and</q> empirical probabilities 
+				Calculate <q>and</q> empirical probabilities
 			</p>
 		</li>
 		<li>
@@ -230,7 +230,7 @@
 	</p>
 	<sidebyside width="35%">
 		<image source="images/probability/4_1/cont_table_venn.png">
-		<description>The same Venn diagram with the number 50 placed outside of the circles and inside the universal set. These are the people who don't drink tea or coffee</description>
+		<description>A Venn diagram with two overlapping circles and a box around it. The Cat only region shows 180-52=128; The dog only region shows 95-52=43; the interesection is 52 and the number outside the circles in the universal set is 27.</description>
 		</image>
 	</sidebyside>
 
@@ -1164,6 +1164,7 @@
 	<sidebyside widths="32% 60%">
 		<image source="images/probability/4_1/breakfast_floss_venn.png">
 		</image>
+		<description>A Venn diagram where the breakfast only region shows 3, the floss only region shows 49, the intersection shows 12 and the region outside the circles shows 8 students</description>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row>
 			<cell></cell>
@@ -1233,6 +1234,7 @@
 	<sidebyside widths="32% 60%">
 		<image source="images/probability/4_1/apple_chrome_venn.png">
 		</image>
+		<description>A Venn diagram where the Apple only region shows 120, the Chromebook only region shows 85, the intersection is 65 and the outside region is 45 students.</description>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row>
 			<cell></cell>

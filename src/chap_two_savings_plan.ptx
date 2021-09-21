@@ -34,7 +34,7 @@
 		For most of us it is not practical to deposit a large sum of money in the bank. Instead, we save by depositing smaller amounts of money regularly. We might save in an IRA or 401-K for retirement. We might also save for a down payment on a car or house, or in a college savings plan for our children.
 	</p>
 	<p>
-		Just like the last section, we will emphasize spreadsheets but calculate each example with the formulas as well. Check with your instructor for which way you should do your problems. 
+		Just like the last section, we will emphasize spreadsheets but calculate each example with the formulas as well. Check with your instructor for which way you should do your problems.
 	</p>
 
 	<figure>
@@ -81,8 +81,8 @@
 					<p>
 						is the initial principal. If none, enter <m>0</m>
 					</p>
-				</li>			
-			</dl>	    
+				</li>
+			</dl>
 		</p>
 	</assemblage>
 	<p>
@@ -92,7 +92,7 @@
 		<title>Savings Plan Formulas</title>
 		<p>
 			<me>
-				A=\frac{d\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}
+				A=\frac{d\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}
 			</me>
 		</p>
 		<p>
@@ -138,13 +138,13 @@
 		If you make your deposits every year, use yearly compounding, <m>n=1</m>.
 	</p>
 	<p>
-		If you make your deposits every quarter, use quarterly compounding, <m>n=4</m>. 
+		If you make your deposits every quarter, use quarterly compounding, <m>n=4</m>.
 	</p>
 	<p>
 		If you make your deposits every month, use monthly compounding, <m>n=12</m>, etc.
 	</p>
 	<p>
-		To see how both of these methods work, let’s look at an example. 
+		To see how both of these methods work, let’s look at an example.
 	</p>
 	<example>
 		<statement>
@@ -160,7 +160,7 @@
 		<sidebyside valign="middle" widths="40% 54%" margins="0%">
 			<stack>
 				<p>
-			<cd>=FV(0.06/12, 12 / 20, 100, 0)</cd>
+			<cd>=FV(0.06/12, 12*20, 100, 0)</cd>
 		</p>
 		<p>
 			which gives a result of $46,204.09.
@@ -174,25 +174,25 @@
 			Remember that the output of the formula gives the answer with the opposite sign as the principal and payments. For our purposes we will ignore the signs. To use the formula, we use the one solved for <em>A</em>, since we want to know the final amount.
 		</p>
 		<p>
-			<m>d=\$100</m> the monthly deposit 
+			<m>d=\$100</m>, the monthly deposit
 		</p>
 		<p>
-			<m>r=0.06</m> 6% annual rate
+			<m>r=0.06</m>, 6% annual rate
 		</p>
 		<p>
-			<m>n=12</m> since we’re doing monthly deposits, we’ll compound monthly
+			<m>n=12</m>, since we’re doing monthly deposits, we’ll compound monthly
 		</p>
 		<p>
-			<m>t=20</m> we want the amount after 20 years
+			<m>t=20</m>, we want the amount after 20 years
 		</p>
 		<p>
 			Putting this into the equation we have:
 		</p>
 		<p>
 			<md>
-			<mrow>A\amp=\frac{100\left[\left(1+\frac{0.06}{12}\right)^{12\cdot 20}-1\right]}{\left(\frac{0.06}{12}\right)}</mrow>
-			<mrow>\amp=\frac{100[(1.005)^{240}-1]}{(0.005)}</mrow>
-			<mrow>\amp=\$46.204.09</mrow>
+			<mrow>A\amp=\frac{100\left(\left(1+\frac{0.06}{12}\right)^{12\cdot 20}-1\right)}{\left(\frac{0.06}{12}\right)}</mrow>
+			<mrow>\amp=\frac{100\left((1.005)^{240}-1\right)}{(0.005)}</mrow>
+			<mrow>\amp\approx \$46.204.09</mrow>
 		</md>
 		</p>
 		<p>
@@ -218,10 +218,10 @@
 			To find the <alert>percentage of the balance that is interest</alert> we will divide the interest by the total balance.
 		</p>
 		<p>
-			<me>\frac{\$22,204.09}{\$46,204.09}</me>
+			<me>\frac{\$22,204.09}{\$46,204.09}\approx 0.4810</me>
 		</p>
 		<p>
-			or 48.1%. After 20 years 48.1% of the balance is from interest. 
+			or 48.1%. After 20 years 48.1% of the balance is from interest.
 		</p>
 		</solution>
 	</example>
@@ -260,10 +260,10 @@
 <subsection>
 	<title>Finding Payment Amounts Usings Spreadsheets and Formulas</title>
 	<p>
-		Another important thing we can calculate is how much we need to save in each period to have a specified amount in the future. Say you want to achieve a certain amount for retirement or for your kids’ college. 
+		Another important thing we can calculate is how much we need to save in each period to have a specified amount in the future. Say you want to achieve a certain amount for retirement or for your kids’ college.
 	</p>
 	<p>
-		The mathematical formula for this is the one solved for d, the payment amount, above. There is a new spreadsheet formula to calculate payments, =PMT, that we will introduce now. 
+		The mathematical formula for this is the one solved for d, the payment amount, above. There is a new spreadsheet formula to calculate payments, =PMT, that we will introduce now.
 	</p>
 	<assemblage>
 		<title>Payment Spreadsheet Formula</title>
@@ -277,25 +277,25 @@
 					<p>
 						is the interest rate per compounding period, <m>r/n</m>
 					</p>
-				</li>			
+				</li>
 				<li>
 					<title>number of periods</title>
 					<p>
 						is the total number of periods, <m>n*t</m>
 					</p>
-				</li>			
+				</li>
 				<li>
 					<title>present value</title>
 					<p>
 						is the amount deposited or principal, <m>P</m>
 					</p>
-				</li>			
+				</li>
 				<li>
 					<title>future value</title>
 					<p>
 						is the amount you want in the future, <m>A</m>
 					</p>
-				</li>			
+				</li>
 			</dl>
 		</p>
 	</assemblage>
@@ -333,22 +333,22 @@
 			To see how this works with the formulas, we use the one solved for <em>d</em>, the regular deposit amount.
 		</p>
 		<p>
-			<m>r=0.08</m> 8% annual rate
+			<m>r=0.08</m>, 8% annual rate
 		</p>
 		<p>
-			<m>n=12</m> since we’re depositing monthly
+			<m>n=12</m>, since we’re depositing monthly
 		</p>
 		<p>
-			<m>t=30</m> 30 years
+			<m>t=30</m>, 30 years
 		</p>
 		<p>
-			<m>A=\$500,000</m> The amount we want to have in 30 years
+			<m>A=\$500,000</m>, the amount we want to have in 30 years
 		</p>
 		<p></p>
 		<p>
 			<md>
-			<mrow>d\amp=\frac{A\left(\frac{r}{n}\right)}{\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}</mrow>
-			<mrow>\amp=\frac{500000\left(\frac{0.08}{12}\right)}{\left[\left(1+\frac{0.08}{12}\right)^{12\cdot 30}-1\right]}</mrow>
+			<mrow>d\amp=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}</mrow>
+			<mrow>\amp=\frac{500000\left(\frac{0.08}{12}\right)}{\left(\left(1+\frac{0.08}{12}\right)^{12\cdot 30}-1\right)}</mrow>
 			<mrow>\amp\approx\$335.49</mrow>
 		</md>
 		</p>
@@ -383,7 +383,7 @@
 			<cd>=FV(0.03/365, 365*10, 5,0)</cd>
 		</p>
 		<p>
-			which gives a result of 21,282.07.
+			which gives a result of $21,282.07.
 		</p>
 			</stack>
 			<image source="images/financial_math/2_3/finding_payments2.png">
@@ -395,20 +395,20 @@
 			To use a mathematical formula, we choose the one solved for <em>A</em>:
 		</p>
 		<p>
-			<m>d=\$5</m> the daily deposit
+			<m>d=\$5</m>, the daily deposit
 		</p>
 		<p>
-			<m>r=0.03</m> 3% annual rate
+			<m>r=0.03</m>, 3% annual rate
 		</p>
 		<p>
-			<m>n=365</m> since we’re doing daily deposits, we’ll compound daily
+			<m>n=365</m>, since we’re doing daily deposits, we’ll compound daily
 		</p>
 		<p>
-			<m>t=10</m> we want the amount after 10 years
+			<m>t=10</m>, we want the amount after 10 years
 		</p>
 		<p>
 			<md>
-			<mrow>A\amp=\frac{5\left[\left(1+\frac{0.03}{365}\right)^{365\cdot 10}-1\right]}{\left(\frac{0.03}{365}\right)}</mrow>
+			<mrow>A\amp=\frac{5\left(\left(1+\frac{0.03}{365}\right)^{365\cdot 10}-1\right)}{\left(\frac{0.03}{365}\right)}</mrow>
 			<mrow>\amp\approx\$21,282.07</mrow>
 			</md>
 		</p>
@@ -420,15 +420,15 @@
 		</p>
 
 		<p>
-			The interest earned is <m>\$21,282.07-\$18,250=\$3,032.07</m>
+			The interest earned is <m>\$21,282.07-\$18,250=\$3,032.07</m>.
 		</p>
 
 		<p>
-			To find the percentage we divide by the total balance to get <m>\frac{\$3,032.07}{\$21,282.07}=0.1424</m> or 14.24%.
+			To find the percentage we divide by the total balance to get <m>\frac{\$3,032.07}{\$21,282.07}\approx0.1425</m> or 14.25%.
 		</p>
 
 		<p>
-			After 10 years, about 14.2% of the account is interest.
+			After 10 years, about 14.25% of the account is interest.
 		</p>
 	</solution>
 	</example>
@@ -494,7 +494,7 @@
 
 		<p>
 			<md>
-			<mrow>A\amp=\frac{200\left[\left(1+\frac{0.10}{12}\right)^{12\cdot 15}-1\right]}{\left(\frac{0.10}{12}\right)}</mrow>
+			<mrow>A\amp=\frac{200\left(\left(1+\frac{0.10}{12}\right)^{12\cdot 15}-1\right)}{\left(\frac{0.10}{12}\right)}</mrow>
 			<mrow>\amp\approx\$82,894.07</mrow>
 		</md>
 		</p>
@@ -533,12 +533,12 @@
 		</p>
 		<p>
 			<md>
-			<mrow>A\amp=\frac{200\left[\left(1+\frac{0.10}{12}\right)^{12\cdot 20}-1\right]}{\left(\frac{0.10}{12}\right)}</mrow>
+			<mrow>A\amp=\frac{200\left(\left(1+\frac{0.10}{12}\right)^{12\cdot 20}-1\right)}{\left(\frac{0.10}{12}\right)}</mrow>
 			<mrow>\amp\approx\$151,873.77</mrow>
 		</md>
 		</p>
 		<p>
-			Were you surprised by these numbers? You would put in less money in scenario 1 and end up with four times as much. The key to compounding interest is to start early. If you remember the graph of compound interest in <xref ref="chap_two_simple_compound"></xref>, we can see that as time goes on, the balance increases exponentially. 
+			Were you surprised by these numbers? You would put in less money in scenario 1 and end up with four times as much. The key to compounding interest is to start early. If you remember the graph of compound interest in <xref ref="chap_two_simple_compound"></xref>, we can see that as time goes on, the balance increases exponentially.
 		</p>
 	</solution>
 	</example>
@@ -571,15 +571,15 @@
 		In this example:
 	</p>
 	<p>
-		<m>r=0.06</m> 6% APR
+		<m>r=0.06</m>, 6% APR
 	</p>
 
 	<p>
-		<m>n=12</m> 12 compounds/deposits per year
+		<m>n=12</m>, 12 compounds/deposits per year
 	</p>
 
 	<p>
-		<m>d=\$100</m> our deposit per month
+		<m>d=\$100</m>, our deposit per month
 	</p>
 
 	<p>
@@ -669,7 +669,7 @@
 	<title>Savings Plan Formulas</title>
 		<p>
 			<me>
-				A=\frac{d\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}
+				A=\frac{d\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}
 			</me>
 		</p>
 		<p>
@@ -720,7 +720,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						How much will you have in your retirement plan in 35 years? 
+						How much will you have in your retirement plan in 35 years?
 					</p>
 				</li>
 				<li>
@@ -793,7 +793,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>\frac{75[(1+\frac{0.085}{52})^{52*40}-1]}{(\frac{0.085}{52})}</m>
+						<m>\frac{75\left(\left(1+\frac{0.085}{52}\right)^{52*40}-1\right)}{\left(\frac{0.085}{52}\right)}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.085/52,52*40,75)</c>
@@ -845,7 +845,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>\frac{750[(1+\frac{0.0775}{4})^{4*30}-1]}{(\frac{0.0775}{4})}</m>
+						<m>\frac{750\left(1+\frac{0.0775}{4})^{4*30}-1\right)}{\left(frac{0.0775}{4}\right)}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.0775/4,4*30,750)</c>
@@ -897,7 +897,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>\frac{20[(1+\frac{0.0235}{365})^{365*25}-1]}{(\frac{0.0235}{365})}</m>
+						<m>\frac{20\left(\left(1+\frac{0.0235}{365}\right)^{365*25}-1\right)}{\left(\frac{0.0235}{365}\right)}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.0235/365,365*25,20)</c>
@@ -949,7 +949,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						In 5 years: <m>\frac{130[(1+\frac{0.09}{12})^{12*5}-1]}{(\frac{0.09}{12})}</m>
+						In 5 years: <m>\frac{130\left(\left(1+\frac{0.09}{12}\right)^{12*5}-1\right}{\left(\frac{0.09}{12}\right)}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.09/12,12*5,130)</c>
@@ -971,7 +971,7 @@
 				</li>
 				<li>
 					<p>
-						<m>84450.82/ 92250.82</m>. The final balance will be about 91.5% interest.
+						<m>84450.82/92250.82</m>. The final balance will be about 91.5% interest.
 					</p>
 				</li>
 			</ol>
@@ -1012,7 +1012,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>\frac{200[(1+\frac{0.05}{12})^{12*20}-1]}{(\frac{0.05}{12})}</m>
+						<m>\frac{200\left(\left(1+\frac{0.05}{12}\right)^{12*20}-1\right)}{\left(\frac{0.05}{12}\right)}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.05/12, 12*10, 200)</c>
@@ -1023,7 +1023,7 @@
 				</li>
 				<li>
 					<p>
-						In 20 more years: <m>31056.46(1+\frac{0.05}{12})^{12*20}</m>
+						In 20 more years: <m>31056.46\left(1+\frac{0.05}{12}\right)^{12*20}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.05/12,12*20,0,31056.46)</c>
@@ -1055,7 +1055,7 @@
 		</statement>
 		<solution>
 			<p>
-				<m>\frac{3500(\frac{0.038}{12})}{(1+\frac{0.038}{12})^{30}-1}</m>
+				<m>\frac{3500\left(\frac{0.038}{12}\right)}{\left(1+\frac{0.038}{12}\right)^{30}-1}</m>
 			</p>
 			<p>
 				<c>=PMT(0.038/12,30,0,3500)</c>
@@ -1074,7 +1074,7 @@
 		</statement>
 		<solution>
 			<p>
-				<m>\frac{3000(\frac{0.065}{4})}{(1+\frac{0.065}{4})^{4*2}-1}</m>
+				<m>\frac{3000\left(\frac{0.065}{4}\right)}{\left(1+\frac{0.065}{4}\right)^{4*2}-1}</m>
 			</p>
 			<p>
 				Or, <c>=PMT(0.065/4,4*2,0,3000)</c>
@@ -1093,7 +1093,7 @@
 		</statement>
 		<solution>
 			<p>
-				<m>\frac{450000(\frac{0.06}{12})}{(1+\frac{0.06}{12})^{12*30}-1}</m>
+				<m>\frac{450000\left(\frac{0.06}{12}\right)}{\left(1+\frac{0.06}{12}\right)^{12*30}-1}</m>
 			</p>
 			<p>
 				Or, <c>=PMT(0.06/12,12*30,0,450000)</c>
@@ -1112,7 +1112,7 @@
 		</statement>
 		<solution>
 			<p>
-				<m>\frac{500000(\frac{0.1}{4})}{(1+\frac{0.1}{4})^{4*40}-1}</m>
+				<m>\frac{500000\left(\frac{0.1}{4}\right)}{\left(1+\frac{0.1}{4}\right)^{4*40}-1}</m>
 			</p>
 			<p>
 				Or, <c>=PMT(0.1/4,4*40,0,500000)</c>
@@ -1151,13 +1151,13 @@
 			<ol label="a.">
 				<li>
 					<p>
-						Jose: <m>55000(1+\frac{0.056}{12})^{12*25}</m>
+						Jose: <m>55000\left(1+\frac{0.056}{12}\right)^{12*25}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.056/12,12*25,0,55000)</c>
 					</p>
 					<p>
-						Jose's partner:<m>\frac{375[(1+\frac{0.056}{12})^{12*25}-1]}{(\frac{0.056}{12})}</m>
+						Jose's partner:<m>\frac{375\left(\left(1+\frac{0.056}{12}\right)^{12*25}-1\right)}{\left(\frac{0.056}{12}\right)}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.056/12,12*25,375)</c>
@@ -1179,7 +1179,7 @@
 				</li>
 				<li>
 					<p>
-						Jose: <m>167310.85/222310.85</m>     
+						Jose: <m>167310.85/222310.85</m>
 					</p>
 					<p>
 						Jose’s partner: <m>131947.68/244447.68</m>
@@ -1221,13 +1221,13 @@
 			<ol label="a.">
 				<li>
 					<p>
-						Akiko: <m>45000(1+\frac{0.078}{12})^{12*30}</m>
+						Akiko: <m>45000\left(1+\frac{0.078}{12}\right)^{12*30}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.078/12,12*30,0,45000)</c>
 					</p>
 					<p>
-						Her spouse: <m>\frac{200[(1+\frac{0.078}{12})^{12*30}-1]}{(\frac{0.078}{12})}</m>
+						Her spouse: <m>\frac{200\left(\left(1+\frac{0.078}{12}\right)^{12*30}-1\right)}{\left(\frac{0.078}{12}\right)}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.078/12,12*30,200)</c>
@@ -1241,7 +1241,7 @@
 						Akiko: <m>463631.61 – 45000</m>
 					</p>
 					<p>
-						Her spouse: <m>286243.83– 200*12*30</m>
+						Her spouse: <m>286243.83 – 200*12*30</m>
 					</p>
 					<p>
 						Akiko will earn $418,631.61 and her spouse will earn $214,243.83 in interest.
@@ -1291,7 +1291,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>1000(1+\frac{0.045}{12})^{12*10}+\frac{100[(1+\frac{0.045}{12})^{12*10}-1]}{\frac{0.045}{12}}</m>
+						<m>1000\left(1+\frac{0.045}{12}\right)^{12*10}+\frac{100\left(\left(1+\frac{0.045}{12}\right)^{12*10}-1\right)}{\frac{0.045}{12}}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.045/12,12*10,100,1000)</c>
@@ -1343,7 +1343,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>5000(1+0.0235)^{20}+\frac{1000[(1+0.0235)^{20}-1]}{0.0235}</m>
+						<m>5000(1+0.0235)^{20}+\frac{1000\left(\left(1+0.0235\right)^{20}-1\right)}{0.0235}</m>
 					</p>
 					<p>
 						<c>=FV(0.0235,20,1000,5000)</c>
@@ -1390,7 +1390,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>\frac{100[(1+\frac{0.04}{12})^{12*25}-1]}{\frac{0.04}{12}}</m>
+						<m>\frac{100\left(\left(1+\frac{0.04}{12}\right)^{12*25}-1\right)}{\frac{0.04}{12}}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.04/12,12*25,100)</c>
@@ -1401,7 +1401,7 @@
 				</li>
 				<li>
 					<p>
-						<m>\frac{100[(1+\frac{0.04}{12})^{12*40}-1]}{\frac{0.04}{12}}</m>
+						<m>\frac{100\left(\left(1+\frac{0.04}{12}\right)^{12*40}-1\right)}{\frac{0.04}{12}}</m>
 					</p>
 					<p>
 						<c>=FV(0.04/12,12*40,100</c>
@@ -1438,7 +1438,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>\frac{1000[(1+0.05)^{20}-1]}{0.05}</m>
+						<m>\frac{1000\left((1+0.05)^{20}-1\right)}{0.05}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.05,20,1000)</c>
@@ -1449,7 +1449,7 @@
 				</li>
 				<li>
 					<p>
-						<m>\frac{1000[(1+0.05)^{40}-1]}{0.05}</m>
+						<m>\frac{1000\left((1+0.05)^{40}-1\right)}{0.05}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.05,40,1000)</c>
@@ -1486,7 +1486,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>\frac{50[(1+\frac{0.035}{52})^{52*18}-1]}{\frac{0.035}{52}}</m>
+						<m>\frac{50\left(\left(1+\frac{0.035}{52}\right)^{52*18}-1\right)}{\frac{0.035}{52}}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.035/52,52*18,50)</c>
@@ -1534,7 +1534,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						<m>\frac{100[(1+\frac{0.045}{12})^{12*20}-1]}{\frac{0.045}{12}}</m>
+						<m>\frac{100\left(\left(1+\frac{0.045}{12}\right)^{12*20}-1\right)}{\frac{0.045}{12}}</m>
 					</p>
 					<p>
 						Or, <c>=FV(0.045/12,12*10,100)</c>
@@ -1545,7 +1545,7 @@
 				</li>
 				<li>
 					<p>
-						<m>\frac{15119.81}{(1+\frac{0.045}{12})^{12*10}}</m>
+						<m>\frac{15119.81}{\left(1+\frac{0.045}{12}\right)^{12*10}}</m>
 					</p>
 					<p>
 						Or, <c>=PV(0.045/12,12*10,0,15119.81)</c>

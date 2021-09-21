@@ -538,7 +538,7 @@
 			<m>A \text{ or } B</m> is written <m>A \lor B</m>
 		</p>
 		<p>
-			<m>\text{not } A</m> is written <m>~A</m>
+			<m>\text{not } A</m> is written ~<m>A</m>
 		</p>
 		<p>
 			<m>\text{If } A\text{, then } B</m> is written <m>A\rightarrow B</m>

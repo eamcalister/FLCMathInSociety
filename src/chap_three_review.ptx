@@ -667,7 +667,7 @@
 	</p>
 	<sidebyside width="40%">
 	<image source="images/statistics/3_5/review_trimet.png">
-		<description></description>
+		<description>A bar graph with the following categories and percentages: recreation 45%, work 17%, personal business 8%, shopping 7%, school 6%, medical 3%, visit 3% and other 1%</description>
 	</image>
 	</sidebyside>
 	<p>
@@ -1048,7 +1048,7 @@
 	</p>
 	<sidebyside width="50%">
 	<image source="images/statistics/3_5/review_teama_teamb.png">
-		<description></description>
+		<description>The boxplot for Team A shows a 5-number summary of 0, 2, 4, 5, 8 goals. The boxplot for Team B shows a 5-number summary of 0, 6, 8, 9, 10 goals.</description>
 	</image>
 	</sidebyside>
 	<p>

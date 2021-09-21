@@ -101,7 +101,7 @@ html:
 	install -d $(IMGSRC)
 	cp -a $(IMGSRC) $(HTMLOUT) || :
 	cd $(HTMLOUT); \
-	xsltproc -xinclude --stringparam publisher $(PUBFILE) --stringparam exercise.inline.hint no --stringparam exercise.inline.answer no --stringparam exercise.inline.solution yes --stringparam exercise.divisional.hint no --stringparam exercise.divisional.answer no --stringparam exercise.divisional.solution yes --stringparam html.knowl.exercise.inline no --stringparam html.knowl.example no $(XSL)/mis-html.xsl $(MAINFILE); \
+	xsltproc -xinclude --stringparam publisher $(PUBFILE) --stringparam exercise.inline.hint no --stringparam exercise.inline.answer no --stringparam exercise.inline.solution yes --stringparam exercise.divisional.hint no --stringparam exercise.divisional.answer no --stringparam exercise.divisional.solution no --stringparam html.knowl.exercise.inline no --stringparam html.knowl.example no $(XSL)/mis-html.xsl $(MAINFILE); \
 
 ###########
 # Utilities

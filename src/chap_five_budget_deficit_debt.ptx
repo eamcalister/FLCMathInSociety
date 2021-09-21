@@ -66,7 +66,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/democracy/5_6/fed_income_spending.png">
-		<description>Pie chart showing mandatory (62%), discretionary (30%) and net interest (8%) portions of federal spending in fiscal year 2019.</description>
+		<description>Pie chart showing mandatory spending (62%), discretionary spending (30%) and net interest (8%) portions of federal spending in fiscal year 2019.</description>
 		</image>
 	</sidebyside>
 </subsection>
@@ -94,7 +94,7 @@
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/fed_surplus_deficit.png">
-		<description></description>
+		<description>A bar chart showing the historical and projected federal devicits from 1974 to 2021; The deficits ran from 0 to 500 billion dollars from 1974 to 1996, then there was a budget surplus from 1996 to 2000, then defecits again; The deficits increased to about 1500 billion from 2008 to 2014 and are predected to be less after that.</description>
 		</image>
 	</sidebyside>
 	<p>
@@ -263,7 +263,7 @@
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/debt_to_gdp1.jpg">
-		<description>The growing debt is caused by a structural mismatch between spending and revenues</description>
+		<description>Title: The growing debt is caused by a structural mismatch between spending and revenues; There is a line showing the spending from 1984 to 2049 (predicted) and a line showing the revenue in the same years. Most of the time the spending is higher than the revenue, except in the years there was a budget suplus, from 1996 to 2000.</description>
 		</image>
 	</sidebyside>
 	<p>
@@ -271,7 +271,7 @@
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/debt_to_gdp2.png">
-		<description>Total Deficits and Surpluses</description>
+		<description>Total Deficits and Surpluses; A bar chart that shows the budget deficit or surplus each year as a percentage of GDP.</description>
 		</image>
 	</sidebyside>
 </subsection>
@@ -286,7 +286,7 @@
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/national_debt1.png">
-		<description>Debt rises and falls with wars and changes in the economy. Debt is currently higher than it has been at any point since 1948.</description>
+		<description>Title: Debt rises and falls with wars and changes in the economy. Debt is currently higher than it has been at any point since 1948. A bar chart that shows the total national debt from 1794 to 2019; Total debt was highest during the civil war, world war 1 and 2, the great depression and in 2019.</description>
 		</image>
 	</sidebyside>
 	<p>
@@ -294,7 +294,7 @@
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/national_debt2.jpg">
-		<description></description>
+		<description>A graph showing the amount of interest paid on the national debt from 2009 to 2028 (projected after 2017). The amount of interest paid was around 180 billion dollars in 2009 and stayed pretty level until 2017, then was projected to increase steeply to about 900 billion dollars per year in 2028</description>
 		</image>
 	</sidebyside>
 </subsection>
@@ -544,7 +544,7 @@
 	</p>
 	<sidebyside width="90%">
 		<image source="images/democracy/5_6/gdp_ratio_map.png">
-		<description>World map of GDP ratios in each country</description>
+		<description>World map showing debt to GDP ratios in each country</description>
 		</image>
 	</sidebyside>
 </subsection>
@@ -561,7 +561,7 @@
 		</p>
 		<sidebyside width="60%">
 			<image source="images/democracy/5_6/federal_pie.png">
-			<description></description>
+			<description>A pie chart showing federal revenue for the United States in the fiscal year 2019; The categories are Income taxes 56%, Social Security taxes 36%, Ad valorem taxes 6% and Business and other taxes 2%.</description>
 			</image>
 		</sidebyside>
 		</statement>
@@ -587,12 +587,12 @@
 	<example>
 		<statement>
 		<p>
-			In a previsous example we also saw that the total amount of the federal budget in 2019 was $4.407 trillion. Use the pie chart of federal spending to calculate the dollar amounts of each of the following types of spending.
+			In a previous example we also saw that the total amount of the federal budget in 2019 was $4.407 trillion. Use the pie chart of federal spending to calculate the dollar amounts of each of the following types of spending.
 
 		</p>
 		<sidebyside width="60%">
 			<image source="images/democracy/5_6/federal_pie2.png">
-			<description></description>
+			<description>A pie chart showing Federal Spending for the United States in fiscal year 2019; The categories are pensions 25%, defense 22%, education 3%, health care 28%, interest 8%, wellfare 8%, transportation 2%, protection 1%, general government 1% and other spending 2%</description>
 			</image>
 		</sidebyside>
 		<p>
@@ -1297,7 +1297,7 @@
 	</p>
 	<sidebyside width="45%">
 		<image source="images/democracy/5_6/Virginia_State_Budget.png">
-		<description></description>
+		<description>A pie chart showing the Virginia state budget in 2018-2021; The categories are education 34%, health and human resources 30%, transportation 12%, administration 7%, public safety 6% and other 11%.</description>
 		</image>
 	</sidebyside>
 	<p>
@@ -1351,7 +1351,7 @@
 	</p>
 	<sidebyside width="45%">
 		<image source="images/democracy/5_6/Wisconsin_State_Budget.png">
-		<description></description>
+		<description>A pie chart showing the Wisconsin state budget in 2018; The categories are K-12 education 35%, Higher education 6%, property tax credits 7%, medical assistance 18%, local governments 5%, corrections 7% and other 22%.</description>
 		</image>
 	</sidebyside>
 	<p>
