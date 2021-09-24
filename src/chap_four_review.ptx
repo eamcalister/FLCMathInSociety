@@ -13,7 +13,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
 			<cell>B</cell>
@@ -116,7 +116,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
 			<cell>B</cell>
@@ -219,7 +219,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Type</cell>
 			<cell>Channel 2</cell>
 			<cell>Channel 6</cell>
@@ -307,7 +307,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>Type</cell>
 				<cell>Channel 2</cell>
 				<cell>Channel 6</cell>
@@ -401,7 +401,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Type</cell>
 			<cell>Channel 3</cell>
 			<cell>Channel 5</cell>
@@ -489,7 +489,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>Type</cell>
 				<cell>Channel 3</cell>
 				<cell>Channel 5</cell>
@@ -915,7 +915,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell>Color</cell>
 						<cell>Black</cell>
 						<cell>Orange</cell>
@@ -982,7 +982,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell>Roll</cell>
 						<cell>6</cell>
 						<cell>5</cell>
@@ -1036,7 +1036,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>Outcome</cell>
 				<cell>Product Failed</cell>
 				<cell>Didn't Fail</cell>
@@ -1068,7 +1068,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>Outcome</cell>
 				<cell>Winning Ticket</cell>
 				<cell>No Winning Ticket</cell>

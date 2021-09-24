@@ -57,8 +57,9 @@
 	<p>
 		As we saw in <xref ref="chap_five_apportionment"></xref> the U.S. House of Representatives has 435 seats that are re-apportioned among the states every 10 years after the census. For example, in Oregon we currently have 5 legislative districts as shown in this map<fn><url href="https://web.archive.org/web/20140223235920/http://nationalatlas.gov/printable/images/preview/congdist/pagecgd113_or.gif" target="_blank">"Oregon congressional districts"</url> by <url>National Atlas of the United States of America</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>. After the 2020 census is finished, that number could change. It has been projected that Oregon may get a 6th representative due to population growth from 2010 to 2020.
 	</p>
-		<image source="images/democracy/5_4/district_pic.png"></image>
+		<image source="images/democracy/5_4/district_pic.png">
 		<description>A map of oregon showing the five legislative districts. District 1 is the Northern Coast and West side of Portland, District 2 is the East side of the state, District 3 is the East side of Portland, District 4 is the Southern Coast and West side of the state, District 5 is the central coast over to Salem and surrounding areas.</description>
+		</image>
 	</sidebyside>
 	<p>
 		After a reapportionment, it is up to each state government to divide their population into equal districts which each elect their representative to the U.S. House. Each representative should represent approximately the same number of people, but their areas may not be the same. Due to different population densities in urban and rural areas, you can see in the map of Oregon that the districts are not geographically equal.
@@ -70,22 +71,25 @@
 		<p>
 			Gerrymandering got its name from Elbridge Gerry, the governor of Massachusetts who signed a bill in 1812 that created the unusual district pictured here that looked like a salamander<fn><url href="https://commons.wikimedia.org/w/index.php?curid=6030613" target="_blank">"The Gerry-Mander"</url> by <url>Elkanah Tisdale (1771-1835)</url>, <url>Originally published in the Boston Centinel, 1812</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>. It gave then Democrat-Republicans a bigger state Senate majority, even though the Federalist party got more votes statewide.
 		</p>
-		<image source="images/democracy/5_4/district_pic2.jpg"></image>
+		<image source="images/democracy/5_4/district_pic2.jpg">
 		<description>A map of Massachusetts in 1812 showing the unusual district shape with a salamander drawn over it.</description>
+		</image>
 	</sidebyside>
 	<sidebyside valign="middle" widths="30% 64%" Margins="0%">
 		<p>
 			Here are some current well-known gerrymanders. This one is called Pennsylvania’s <q>Goofy Kicking Donald Duck</q><fn><url href="https://commons.wikimedia.org/w/index.php?title=File:Pennsylvania_US_Congressional_District_7_(since_2013).tif&amp;oldid=223423398" target="_blank">"Pennsylvania US Congressional District 7 (since 2013).tif"</url> by <url>Wikimedia Commons contributors</url>, <url href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons, the free media repository.</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>
 		</p>
-		<image width="60%" source="images/democracy/5_4/pennsylvania.png"></image>
+		<image width="60%" source="images/democracy/5_4/pennsylvania.png">
 		<description>A map of Pennsylvania with the district shaded in that looks like Goofy kicking Donald Duck.</description>
+		</image>
 	</sidebyside>
 	<sidebyside valign="middle" widths="30% 64%" Margins="0%">
 		<p>
 			This one is called Ohio's <q>Lake Erie Monster</q><fn><url href="https://en.wikipedia.org/wiki/Ohio%27s_9th_congressional_district#/media/File:Ohio_US_Congressional_District_9_(since_2013).tif" target="_blank">"Ohio US Congressional District 9 (since 2013).tif"</url> by <url>Wikimedia Commons contributors</url>, <url href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons, the free media repository.</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>.
 		</p>
-		<image width="60%" source="images/democracy/5_4/ohio.png"></image>
+		<image width="60%" source="images/democracy/5_4/ohio.png">
 		<description>A map of Ohio with the district shaded in that is long and thin along Lake Erie that looks like a sea monster.</description>
+		</image>
 	</sidebyside>
 	
 	<p>
@@ -161,8 +165,9 @@
 		</p>
 		<figure>
 		<caption>A simplified state map</caption>
-			<image valign="middle" width="45%" source="images/democracy/5_4/simplified_state_map1.png"></image>
+			<image valign="middle" width="45%" source="images/democracy/5_4/simplified_state_map1.png">
 			<description>A rectangular map with D's and R's spread out to indicate Democrats and Republicans. There are more Democrats concentrated toward the center like a city with more Republicans spread out toward the edges like rural areas.</description>
+			</image>
 		</figure>
 	</sidebyside>
 	<p>
@@ -181,8 +186,9 @@
 			</stack>
 			<figure>
 			<caption>The map gerrymandered in favor of Democrats</caption>
-				<image source="images/democracy/5_4/simplified_state_map2.png"></image>
+				<image source="images/democracy/5_4/simplified_state_map2.png">
 				<description>The previous map with district lines drawn. Districts 1, 2, 3 and 5 have 4 Democrats and 3 Republians each. District 4 has 2 Democrats and 5 Rupublicans.</description>
+				</image>
 			</figure>
 		</sidebyside>
 		</statement>
@@ -196,7 +202,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>District</cell>
 			<cell>D Votes</cell>
 			<cell>R Votes</cell>
@@ -267,7 +273,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>District</cell>
 			<cell>D Votes</cell>
 			<cell>R Votes</cell>
@@ -347,8 +353,9 @@
 		</p>
 		<figure>
 		<caption>The map gerrymandered in favor of Republicans</caption>
-			<image width="45%" source="images/democracy/5_4/simplified_state_map3.png"></image>
+			<image width="45%" source="images/democracy/5_4/simplified_state_map3.png">
 			<description>The previous map with new district lines drawn. This time Districts 1, 3, 4 and 5 have 4 Republicans and 3 Democrats each. District 2 has 7 Democrats packed in and District 4 has 2 Democrats and 5 Rupublicans.</description>
+			</image>
 		</figure>
 	</sidebyside>
 		<p>
@@ -356,7 +363,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>District</cell>
 				<cell>D Votes</cell>
 				<cell>R Votes</cell>
@@ -457,8 +464,9 @@
 		</stack>
 		<figure>
 		<caption>A more fair map</caption>
-			<image width="45%" source="images/democracy/5_4/simplified_state_map4.png"></image>
+			<image width="45%" source="images/democracy/5_4/simplified_state_map4.png">
 			<description>The previous map with new district lines drawn. Districts 2, 3 and 5 have 4 Democrats and 3 Republians each. Districts 1 and 4 have 3 Democrats and 4 Rupublicans each.</description>
+			</image>
 		</figure>
 		
 		</sidebyside>
@@ -467,7 +475,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>District</cell>
 				<cell>D Votes</cell>
 				<cell>R Votes</cell>
@@ -736,8 +744,9 @@
 		This state has 4 districts with 7 people in each district.
 		</p>
 	<sidebyside width="40%">
-		<image source="images/democracy/5_4/exercise_11.png"></image>
+		<image source="images/democracy/5_4/exercise_11.png">
 		<description>A map with 4 districts drawn; Districts 1 has 1 D and 6 R's; District 2 has 3 D's and 4 R's; District 3 has 6 D's and 1 R; District 4 has 7 D's and 0 R's.</description>
+		</image>
 		<p></p>
 	</sidebyside>
 	</statement>
@@ -760,7 +769,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -831,8 +840,9 @@
 		This state has 4 districts with 9 people in each.
 		</p>
 	<sidebyside width="40%">
-		<image source="images/democracy/5_4/exercise_12.png"></image>
+		<image source="images/democracy/5_4/exercise_12.png">
 		<description>A map with 4 districts drawn; Districts 1, 2 and 4 have 5 D's and 4 R's; District 3 has 6 D's and 3 R's.</description>
+		</image>
 		<p></p>
 	</sidebyside>
 	</statement>
@@ -855,7 +865,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -926,8 +936,9 @@
 		This state has 5 districts with 5 people in each.
 		</p>
 	<sidebyside width="40%">
-		<image source="images/democracy/5_4/exercise_13.png"></image>
+		<image source="images/democracy/5_4/exercise_13.png">
 		<description>A map with 5 districts drawn; Districts 1, 2, 3 and 5 have 2 D's and 3 R's; District 4 has 4 D's and 1 R.</description>
+		</image>
 		<p></p>
 	</sidebyside>
 	</statement>
@@ -950,7 +961,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1028,8 +1039,9 @@
 		This state has 5 districts with 7 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_14.png"></image>
+		<image source="images/democracy/5_4/exercise_14.png">
 		<description>A map with 5 districts drawn; Districts 1 and 3 have 3 D's and 4 R's each; Districts 2, 4 and 5 have 5 D's and 2 R's each.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1053,7 +1065,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1131,8 +1143,9 @@
 		This state has 5 districts with 9 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_15.png"></image>
+		<image source="images/democracy/5_4/exercise_15.png">
 		<description>A map with 5 districts drawn; Districts 1 and 3 have 2 D's and 7 R's each; Districts 2 and 4 have 5 D's and 4 R's each; District 5 has 4 D's and 5 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1156,7 +1169,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1234,8 +1247,9 @@
 		This state has 5 districts with 11 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_16.png"></image>
+		<image source="images/democracy/5_4/exercise_16.png">
 		<description>A map with 5 districts drawn; Districts 1, 2, 4 and 5 have 5 D's and 6 R's each; District 3 has 7 D's and 4 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1259,7 +1273,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1337,8 +1351,9 @@
 		This state has 6 districts with 5 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_17.png"></image>
+		<image source="images/democracy/5_4/exercise_17.png">
 		<description>A map with 6 districts drawn; Districts 1 through 5 have 3 D's and 2 R's each; District 6 has 0 D's and 5 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1362,7 +1377,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1447,8 +1462,9 @@
 		This state has 6 districts with 7 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_18.png"></image>
+		<image source="images/democracy/5_4/exercise_18.png">
 		<description>A map with 6 districts drawn; Districts 1, 3, 4 and 6 have 3 D's and 4 R's each; District 2 has 2 D's and 5 R's; District 5 has 7 D's and 0 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1472,7 +1488,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1557,8 +1573,9 @@
 		This state has 6 districts with 9 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_19.png"></image>
+		<image source="images/democracy/5_4/exercise_19.png">
 		<description>A map with 6 districts drawn; Districts 1, 2 and 4 have 2 D's and 7 R's each; District 3 has 9 D's and 0 R's; District 5 has 1 D and 8 R's; District 6 has 4 D's and 5 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1582,7 +1599,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1667,8 +1684,9 @@
 		This state has 6 districts with 11 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_20.png"></image>
+		<image source="images/democracy/5_4/exercise_20.png">
 		<description>A map with 6 districts drawn; Districts 1 and 3 have 0 D's and 11 R's each; District 2 has 8 D's and 3 R's; Districts 4, 5 and 6 have 6 D's and 5 R's each.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1692,7 +1710,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1801,8 +1819,9 @@
 		This state has 5 districts with 7 people in each.
 	</p>
 	<sidebyside width="40%">
-		<image source="images/democracy/5_4/exercise_21.png"></image>
+		<image source="images/democracy/5_4/exercise_21.png">
 		<description>This map has 17 D's and 18 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1831,8 +1850,9 @@
 		This state has 5 districts with 9 people in each.
 	</p>
 	<sidebyside width="40%">
-		<image source="images/democracy/5_4/exercise_22.png"></image>
+		<image source="images/democracy/5_4/exercise_22.png">
 		<description>This map has 23 D's and 22 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1861,8 +1881,9 @@
 		This state has 6 districts with 7 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_23.png"></image>
+		<image source="images/democracy/5_4/exercise_23.png">
 		<description>This map has 19 D's and 23 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>
@@ -1891,8 +1912,9 @@
 		This state has 6 districts with 9 people in each.
 	</p>
 	<sidebyside width ="40%">
-		<image source="images/democracy/5_4/exercise_24.png"></image>
+		<image source="images/democracy/5_4/exercise_24.png">
 		<description>This map has 31 D's and 23 R's.</description>
+		</image>
 		<p>
 		</p>
 	</sidebyside>

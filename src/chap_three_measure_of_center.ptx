@@ -131,7 +131,7 @@
 		</p>
 		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell><line>Income</line><line>(thousands of dollars)</line></cell>
 					<cell>Frequency</cell>
 				</row>
@@ -773,7 +773,7 @@
 			</p>
 			<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell><line>Cost</line><line>(Thousands of dollars)</line></cell>
 						<cell>Frequency</cell>
 					</row>
@@ -886,7 +886,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell><line>Length of an email</line><line>(Thousands of characters)</line></cell>
 				<cell>Frequency</cell>
 			</row>
@@ -1203,7 +1203,7 @@
 				</p>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell>Non-players</cell>
 						<cell>Beginners</cell>
 						<cell>Tournament Players</cell>
@@ -1352,7 +1352,7 @@
 				</p>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell>False Smile</cell>
 						<cell>Felt Smile</cell>
 						<cell>Miserable Smile</cell>
@@ -1742,7 +1742,7 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell>Shoe Size</cell>
 					<cell>Frequency</cell>
 				</row>
@@ -1827,7 +1827,7 @@
 		<ol label="a.">
 			<li>
 				<p>
-					Is the graph shown above skewed right, skewed right, or symmetric? Explain why you chose your answer.
+					Is the graph shown above skewed right, skewed left, or symmetric? Explain why you chose your answer.
 				</p>
 			</li>
 			<li>

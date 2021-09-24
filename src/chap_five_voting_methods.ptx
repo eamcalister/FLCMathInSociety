@@ -75,8 +75,8 @@
 			The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" target="_blank">"Ranked Choice Ballot"</url>, <url href="https://www.rankedchoicevoting.org/" target="_blank">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let’s see how to tally the results from a ranked choice election.
 		</p>
 		<image width="45%" source="images/democracy/5_2/voter_card.png">
-		</image>
 		<description>A ranked choice ballot with three candidates for favorite flavor of ice cream: strawberry, chocolate and vanilla. There is a grid for voters to select their first, second and third choice.</description>
+		</image>
 	</sidebyside>
 	<example>
 		<statement>
@@ -85,7 +85,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell>Vien</cell>
 				<cell>Ana</cell>
@@ -150,8 +150,8 @@
 	</p>
 	<sidebyside valign="middle" widths="47% 47%" margins="0%">
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
-			<cell></cell>
+		<row header="no">
+			<cell>Number of voters</cell>
 			<cell>1</cell>
 			<cell>3</cell>
 			<cell>3</cell>
@@ -201,8 +201,8 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
+			<row header="no">
+				<cell>Number of voters</cell>
 				<cell>1</cell>
 				<cell>3</cell>
 				<cell>3</cell>
@@ -295,7 +295,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="no">
 				<cell>Number of voters</cell>
 				<cell>96</cell>
 				<cell>100</cell>
@@ -317,7 +317,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="no">
 				<cell>Number of voters</cell>
 				<cell>96</cell>
 				<cell>90</cell>
@@ -368,8 +368,8 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
+			<row header="no">
+				<cell>Number of voters</cell>
 				<cell>3</cell>
 				<cell>5</cell>
 				<cell>1</cell>
@@ -431,9 +431,10 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Let’s start by tallying the first-choice
+			Let’s start by tallying the first-choices.
 		</p>
-		<sidebyside>
+		<!-- Old table method commented out -->
+		<!-- <sidebyside>
 		<tabular>
 			<row>
 				<cell>A: <m>2</m></cell>
@@ -443,14 +444,24 @@
 				<cell>E: <m>1</m></cell>
 			</row>
 		</tabular>
+		</sidebyside> -->
+		<sidebyside widths="19% 19% 19% 19% 19%">
+			<p>A: <m>2</m></p>
+			<p>B: <m>3+5=8</m></p>
+			<p>C: <m>5+1=6</m></p>
+			<p>D: <m>7</m></p>
+			<p>E: <m>1</m></p>
 		</sidebyside>
 		<p>
 			If this was a plurality election, B would be the winner with 8 first-choice votes.
 		</p>
+		<p></p>
+		<paragraphs>
+			<title>Round 1</title>
 		<p>
-			<alert>Round 1:</alert> We make our first elimination. Choice E has the fewest first-place votes, so we eliminate E from the election. To transfer the 1 vote, we look at the person who voted for E in the last column. Their second choice was D, so we transfer that one vote to D, who will now have 8 votes:
+			We make our first elimination. Choice E has the fewest first-place votes, so we eliminate E from the election. To transfer the 1 vote, we look at the person who voted for E in the last column. Their second choice was D, so we transfer that one vote to D, who will now have 8 votes:
 		</p>
-		<sidebyside>
+		<!-- <sidebyside>
 		<tabular halign="right">
 			<row>
 				<cell>A: <m>2</m></cell>
@@ -474,11 +485,21 @@
 				<cell></cell>
 			</row>
 		</tabular>
+		</sidebyside> -->
+		<sidebyside widths="19% 19% 19% 19% 19%">
+			<p>A: <m>2</m></p>
+			<p>B: <m>8</m></p>
+			<p>C: <m>6</m></p>
+			<p>D: <m>7+1 = 8</m></p>
+			<p><delete>E: <m>1</m></delete></p>
 		</sidebyside>
+	</paragraphs>
+	<paragraphs>
+		<title>Round 2</title>
 		<p>
-			<alert>Round 2:</alert> There are 24 votes in total, so a majority would be 13 votes. Since no candidate has the majority, we eliminate the next candidate with the fewest votes, which is A. We look at the column for the two people who chose A. Their second choice was E, who is already eliminated. Their third choice is B, so their 2 votes are transferred to B, for a total of 10:
+			There are 24 votes in total, so a majority would be 13 votes. Since no candidate has the majority, we eliminate the next candidate with the fewest votes, which is A. We look at the column for the two people who chose A. Their second choice was E, who is already eliminated. Their third choice is B, so their 2 votes are transferred to B, for a total of 10:
 		</p>
-		<sidebyside>
+		<!-- <sidebyside>
 		<tabular halign="right">
 			<row>
 				<cell><delete>A: 2</delete></cell>
@@ -502,11 +523,21 @@
 				<cell></cell>
 			</row>
 		</tabular>
+		</sidebyside> -->
+		<sidebyside widths="19% 19% 19% 19% 19%">
+			<p><delete>A: <m>2</m></delete></p>
+			<p>B: <m>8+2=10</m></p>
+			<p>C: <m>6</m></p>
+			<p>D: <m>8</m></p>
+			<p><delete>E: <m>1</m></delete></p>
 		</sidebyside>
+	</paragraphs>
+	<paragraphs>
+		<title>Round 3</title>
 		<p>
-			<alert>Round 3:</alert> Now C has the fewest votes, and the there are two columns for C in the preference schedule. Five people who voted for C chose A second, then E (who have already been eliminated), then D. So, we transfer their 5 votes to D. One person who voted for C selected B as their second choice, so their one vote goes to B. Then we tally the votes for each remaining candidate.
+			Now C has the fewest votes, and there are two columns for C in the preference schedule. Five people who voted for C chose A second, then E (who have already been eliminated), then D. So, we transfer their 5 votes to D. One person who voted for C selected B as their second choice, so their one vote goes to B. Then we tally the votes for each remaining candidate.
 		</p>
-		<sidebyside>
+		<!-- <sidebyside>
 		<tabular halign="right">
 			<row>
 				<cell><delete>A: 2</delete></cell>
@@ -544,10 +575,18 @@
 				<cell></cell>
 			</row>
 		</tabular>
+		</sidebyside> -->
+		<sidebyside widths="19% 19% 19% 19% 19%">
+			<p><delete>A: <m>2</m></delete></p>
+			<p>B: <m>10+1=11</m></p>
+			<p><delete>C: <m>6</m></delete></p>
+			<p>D: <m>8+5=13</m></p>
+			<p><delete>E: <m>1</m></delete></p>
 		</sidebyside>
 		<p>
 			Now we can see that D is the winner of the instant runoff method with 13 votes. We can stop this method earlier if a candidate reaches a majority.
 		</p>
+	</paragraphs>
 		</statement>
 	</example>
 	<p>
@@ -570,8 +609,8 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
+			<row header="no">
+				<cell>Number of voters</cell>
 				<cell>31</cell>
 				<cell>25</cell>
 				<cell>10</cell>
@@ -612,9 +651,9 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="no">
 				<cell>Points</cell>
-				<cell></cell>
+				<cell>Number of voters</cell>
 				<cell>31</cell>
 				<cell>25</cell>
 				<cell>10</cell>
@@ -712,8 +751,8 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
+			<row header="no">
+				<cell>Number of voters</cell>
 				<cell>1</cell>
 				<cell>3</cell>
 				<cell>3</cell>
@@ -767,8 +806,8 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
+			<row header="no">
+				<cell>Number of voters</cell>
 				<cell>1</cell>
 				<cell><alert>3</alert></cell>
 				<cell>3</cell>
@@ -838,8 +877,8 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
+			<row header="no">
+				<cell>Number of voters</cell>
 				<cell>5</cell>
 				<cell>3</cell>
 				<cell>6</cell>
@@ -885,7 +924,7 @@
 			<p>
 				<alert>Plurality Method:</alert> We tally the first-place votes:
 			</p>
-			<sidebyside>
+			<!-- <sidebyside>
 			<tabular halign="right">
 				<row>
 					<cell>A: <m>3+2=5</m></cell>
@@ -894,6 +933,12 @@
 					<cell>D: <m>5</m> </cell>
 				</row>
 			</tabular>
+			</sidebyside> -->
+			<sidebyside widths="19% 19% 19% 19%">
+				<p>A: <m>3+2=5</m></p>
+				<p>B: <m>4</m></p>
+				<p>C: <m>6</m></p>
+				<p>D: <m>5</m></p>
 			</sidebyside>
 			<p>
 				C wins the plurality method.
@@ -901,7 +946,7 @@
 			<p>
 				<alert>Instant Runoff Method:</alert> We start with the plurality tallies. Then we look for the slogan with the least first-choice votes, and that is B. Looking in the preference schedule at the 4 people who voted for B, we see their second choice is D. So we transfer those 4 votes to D, which now has 9.
 			</p>
-			<sidebyside>
+			<!-- <sidebyside>
 			<tabular halign="right">
 				<row>
 					<cell>A: <m>5</m></cell>
@@ -922,11 +967,17 @@
 					<cell><m>9</m></cell>
 				</row>
 			</tabular>
+			</sidebyside> -->
+			<sidebyside widths="19% 19% 19% 19%">
+				<p>A: <m>5</m></p>
+				<p><delete>B: <m>4</m></delete></p>
+				<p>C: <m>6</m></p>
+				<p>D: <m>5+4=9</m></p>
 			</sidebyside>
 			<p>
 				Now A has the least number of votes with 5, so we look at the voters who chose A for their first choice. There are two columns, so three of those votes will be transferred to C and 2 will be transferred to D.
 			</p>
-			<sidebyside>
+			<!-- <sidebyside>
 			<tabular halign="right">
 				<row>
 					<cell><delete>A: 5</delete></cell>
@@ -959,6 +1010,12 @@
 					<cell><m>11</m></cell>
 				</row>
 			</tabular>
+			</sidebyside> -->
+			<sidebyside widths="19% 19% 19% 19%">
+				<p><delete>A: <m>5</m></delete></p>
+				<p><delete>B: <m>4</m></delete></p>
+				<p>C: <m>6+3=9</m></p>
+				<p>D: <m>9+2=11</m></p>
 			</sidebyside>
 			<p>
 				D is the winner of the instant runoff method.
@@ -968,9 +1025,9 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="no">
 					<cell>Points</cell>
-					<cell></cell>
+					<cell>Number of voters</cell>
 					<cell>5</cell>
 					<cell>3</cell>
 					<cell>6</cell>
@@ -1156,8 +1213,8 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
-			<cell></cell>
+		<row header="no">
+			<cell>Number of voters</cell>
 			<cell>5</cell>
 			<cell>5</cell>
 			<cell>5</cell>
@@ -1227,7 +1284,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="no">
 				<cell>Number of voters</cell>
 				<cell>3</cell>
 				<cell>3</cell>
@@ -1276,7 +1333,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="no">
 				<cell>Number of voters</cell>
 				<cell>2</cell>
 				<cell>2</cell>
@@ -1359,7 +1416,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>9</cell>
 			<cell>19</cell>
@@ -1438,7 +1495,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>11</cell>
 			<cell>5</cell>
@@ -1518,7 +1575,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>2</cell>
 			<cell>1</cell>
@@ -1602,7 +1659,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>3</cell>
 			<cell>2</cell>
@@ -1686,7 +1743,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>5</cell>
 			<cell>4</cell>
@@ -1770,7 +1827,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>12</cell>
 			<cell>6</cell>
@@ -1854,7 +1911,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>120</cell>
 			<cell>50</cell>
@@ -1947,7 +2004,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>11</cell>
 			<cell>8</cell>
@@ -2045,7 +2102,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>21</cell>
 			<cell>18</cell>
@@ -2148,7 +2205,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>16</cell>
 			<cell>2</cell>
@@ -2256,7 +2313,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>11</cell>
 			<cell>4</cell>
@@ -2359,7 +2416,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>16</cell>
 			<cell>21</cell>
@@ -2467,7 +2524,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>12</cell>
 			<cell>14</cell>
@@ -2569,7 +2626,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>16</cell>
 			<cell>12</cell>
@@ -2677,7 +2734,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>22</cell>
 			<cell>19</cell>
@@ -2791,7 +2848,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="no">
 			<cell>Number of voters</cell>
 			<cell>31</cell>
 			<cell>16</cell>
@@ -2912,7 +2969,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>120</cell>
 			<cell>50</cell>
@@ -3039,7 +3096,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>8</cell>
 			<cell>9</cell>

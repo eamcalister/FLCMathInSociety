@@ -105,7 +105,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Number</cell>
 			<cell>Name</cell>
 		</row>

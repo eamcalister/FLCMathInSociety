@@ -160,7 +160,7 @@
 		</p>
 		<sidebyside>
 			<tabular top="minor" bottom="minor" right="minor" left="minor">
-				<row>
+				<row header="yes">
 					<cell halign="left">Car Color</cell>
 					<cell halign="center"><line>Frequency of Total-</line><line>Loss Collisions</line></cell>
 				</row>
@@ -209,7 +209,7 @@
 		</p>
 		<sidebyside>
 			<tabular top="minor" bottom="minor" right="minor" left="minor">
-				<row>
+				<row header="yes">
 					<cell>Car Color</cell>
 					<cell><line>Frequency of Total-</line><line>Loss Collisions</line></cell>
 					<cell><line>Relative Frequency</line><line>of Total-Loss Collisions</line></cell>
@@ -393,7 +393,7 @@
 		</p>
 		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell>Expense</cell>
 					<cell>Student 1</cell>
 					<cell>Student 2</cell>
@@ -459,7 +459,7 @@
 		</p>
 		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell><line><alert>Quiz</alert></line><line><alert>Score</alert></line></cell>
 					<cell><line><alert>Frequency</alert></line><line><alert>of Students</alert></line></cell>
 				</row>
@@ -503,7 +503,7 @@
 		</sidebyside>
 	</example>
 	<p>
-		Using this table, it would be possible to create a standard bar chart from this summary, like we did for categorical data. However, since the scores are numerical values, this chart wouldn’t make sense; the first and second bars would be five values apart, while the later bars would only be one value apart. Instead, we will to treat the horizontal axis as a number line. This type of graph is called a histogram.
+		Using this table, it would be possible to create a standard bar chart from this summary, like we did for categorical data. However, since the scores are numerical values, this chart wouldn’t make sense; the first and second bars would be five values apart, while the later bars would only be one value apart. Instead, we will treat the horizontal axis as a number line. This type of graph is called a histogram.
 	</p>
 </subsection>
 
@@ -562,7 +562,7 @@
 		</p>
 		<sidebyside valign="bottom" widths="47% 47%">
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell><alert>Interval</alert></cell>
 					<cell><alert>Frequency</alert></cell>
 				</row>
@@ -621,7 +621,7 @@
 <subsection>
 	<title>Histograms Using Technology</title>
 	<p>
-		We will be using GeoGebra throughout this chapter to make graphs and calculate summary statistics. There is an online version and one you can download available at <url href="http://www.Geogebra.org/">www.Geogebra.org</url>. The instructions are similar for both.
+		We will be using GeoGebra throughout this chapter to make graphs and calculate summary statistics. There is an online version and one you can download at <url href="http://www.Geogebra.org/">www.Geogebra.org</url>. To access the online version, select "GeoGebra Classic from the GeoGebra home page. To download it, select "App Downloads" from the home page. The instructions are similar for both.
 	</p>
 
 	<sidebyside valign="middle" widths="60% 35%">
@@ -1104,7 +1104,7 @@
 	</p>
 	<sidebyside width="45%">
 		<image source="images/statistics/3_2/exercise_graph3.png">
-			<description>There are 4 bars labeled A, B, C, and D. The x-axis is labeled children and the y-axis is labeled frequency (%). A goes up to 25%, B goes up to 35%, C goes up to 25% and D goes up to 15%.</description>
+			<description>There are 4 bars labeled A, B, C, and D. The x-axis is labeled grade on English paper and the y-axis is labeled frequency (%). A goes up to 25%, B goes up to 35%, C goes up to 25% and D goes up to 15%.</description>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1193,7 +1193,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Environmenal Issue</cell>
 			<cell>Frequency</cell>
 		</row>
@@ -1265,7 +1265,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Situation</cell>
 			<cell>Relative Frequency (%)</cell>
 		</row>
@@ -1340,7 +1340,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Type of Heat</cell>
 			<cell>Relative Frequency (%)</cell>
 		</row>
@@ -1404,7 +1404,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Class</cell>
 			<cell>Relative Frequency (%)</cell>
 		</row>
@@ -1516,7 +1516,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell><line>Number of cars</line><line>in household</line></cell>
 						<cell>Frequency</cell>
 					</row>
@@ -1618,7 +1618,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell>Math Test Score</cell>
 						<cell>Frequency</cell>
 					</row>
@@ -1792,7 +1792,7 @@
 		</image>
 	</figure>
 	<figure>
-		<caption>The number of heads in 24 sets of 100 coint flips.</caption>
+		<caption>The number of heads in 24 sets of 100 coin flips.</caption>
 		<image source="images/statistics/3_2/exercise_graph10.png">
 			<description>This histogram is symmetric. The highest bar is in the middle and the bars decrease in height as you move away from the middle.</description>
 		</image>

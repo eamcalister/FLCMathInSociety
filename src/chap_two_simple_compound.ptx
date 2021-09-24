@@ -330,7 +330,7 @@
 	</p>
 	<sidebyside>
 	<tabular top="minor" left="minor" right="minor" bottom="minor" halign="left">
-		<row>
+		<row header="yes">
 			<cell>Month</cell>
 			<cell>Starting balance</cell>
 			<cell>Interest earned</cell>
@@ -611,7 +611,7 @@
 	<table>
 	<title></title>
 		<tabular top="minor" left="minor" right="minor" bottom="minor" halign="left">
-		<row>
+		<row header="yes">
 			<cell>Year</cell>
 			<cell><line>Simple Interest</line><line>($15 per month)</line></cell>
 			<cell><line>Compound Interest (6% compounded</line><line>monthly or 0.5% each month</line></cell>

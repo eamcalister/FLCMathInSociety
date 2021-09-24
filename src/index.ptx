@@ -10,8 +10,9 @@
 <subtitle>Mathematics for liberal arts majors</subtitle>
 	<introduction>
 		<p>
-			<image source="images/Portland_Oregon_Skyline.jpg"></image>
+			<image source="images/Portland_Oregon_Skyline.jpg">
 			<description>A picture of the Portland, Oregon skyline taken from the Ross Island Bridge</description>
+		</image>
 		</p>
 	</introduction>
 

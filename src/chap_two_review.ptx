@@ -364,7 +364,7 @@
 		</p>
 		<sidebyside>
 		<tabular>
-			<row bottom="minor">
+			<row header="yes" bottom="minor">
 				<cell>Income:</cell>
 				<cell>Expense</cell>
 			</row>

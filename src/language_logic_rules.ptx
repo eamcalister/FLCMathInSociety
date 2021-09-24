@@ -10,8 +10,9 @@
 			<p>
 				Dr. Jonathan Farley<fn>Photo: <copyright/>Jonathan Farley. All rights reserved, used with permission.</fn> grew up near Rochester, New York and got his mathematics degree from Harvard University. He then went to Oxford University in the United Kingdom. (Later he would return as a Fulbright Distinguished Scholar.) He was awarded Oxford’s highest mathematics awards for graduate students, the Senior Mathematical Prize and the Johnson Prize, and earned his doctorate a year later (MIT, 2005). He had a two-year visit to the Mathematical Sciences Research Institute from 1995 to 1997. He is currently an Associate Professor at Morgan State University, a historically Black college.
 			</p>
-			<image source="images/language_logic_rules/1_1/jf_pic.png"></image>
-			<description>A picture of Dr. Jonathan Farley in front of a chalkboard with math symbols.</description>
+			<image source="images/language_logic_rules/1_1/jf_pic.png">
+				<description>A picture of Dr. Jonathan Farley in front of a chalkboard with math symbols.</description>
+			</image>
 		</sidebyside>
 		
 		<p>

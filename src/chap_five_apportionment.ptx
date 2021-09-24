@@ -206,7 +206,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 			</row>
@@ -236,7 +236,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -268,7 +268,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -305,7 +305,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -353,14 +353,6 @@
 		<p>
 			We will use Hamilton’s method again, to apportion 75 seats for a new state of Lewis, which has five counties. Lewis and its counties are named for civil rights leaders John Lewis, Rosa Parks, Dr. Martin Luther King Jr., Ella Baker, Daisy Bates and Roy Wilkins.
 		</p>
-		<sidebyside>
-		<tabular>
-			<row>
-				<cell></cell>
-				<cell></cell>
-			</row>
-		</tabular>
-		</sidebyside>
 		</statement>
 		<solution>
 			<p>
@@ -371,7 +363,7 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell>County</cell>
 					<cell>Population</cell>
 					<cell>Quota</cell>
@@ -413,7 +405,7 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell>County</cell>
 					<cell>Population</cell>
 					<cell>Quota</cell>
@@ -462,7 +454,7 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell>County</cell>
 					<cell>Population</cell>
 					<cell>Quota</cell>
@@ -603,17 +595,11 @@
 			We’ll return to the state of Floyd and apply Jefferson’s method. We begin, as we did with Hamilton’s method, by finding the quotas with the original divisor, 21,900.82927.
 		</p>
 		<p>
-			Steps 1-3 are the same as Hamilton’s Method. Since we will be using different divisors, we will write the divisor above the population column to be clear what we are dividing each number in that column by.
+			Steps 1-3 are the same as Hamilton’s Method. Since we will be using different divisors, we will write the divisor at the bottom of the population column to be clear what we are dividing each number in that column by. You can also write it above that column if you prefer.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>21,900.82927</em></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -643,6 +629,12 @@
 				<cell></cell>
 				<cell>40</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>21,900.82927</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -653,13 +645,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>21,500</em></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -689,6 +675,12 @@
 				<cell></cell>
 				<cell>41</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>21,500</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -710,13 +702,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>14,034.22667</em></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -758,6 +744,12 @@
 				<cell></cell>
 				<cell>72</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -765,13 +757,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>13,500</em></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -813,6 +799,12 @@
 				<cell></cell>
 				<cell>76</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>13,500</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -820,13 +812,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>13,700</em></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -868,6 +854,12 @@
 				<cell></cell>
 				<cell>75</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>13,700</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -878,17 +870,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>14,034.22667</em></cell>
-				<cell></cell>
-				<cell></cell>
-				<cell><em><obelus/>13,500</em></cell>
-				<cell></cell>
-				<cell><em><obelus/>13,700</em></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -958,6 +940,16 @@
 				<cell></cell>
 				<cell>75</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell><em><obelus/>13,500</em></cell>
+				<cell></cell>
+				<cell><em><obelus/>13,700</em></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -1012,13 +1004,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>21,900.82927</em></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -1048,6 +1034,12 @@
 				<cell></cell>
 				<cell>41</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>21,900.82927</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -1063,13 +1055,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>14,034.22667</em></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -1111,6 +1097,12 @@
 				<cell></cell>
 				<cell>76</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -1118,13 +1110,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>14,100</em></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -1166,6 +1152,12 @@
 				<cell></cell>
 				<cell>75</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>14,100</em></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -1173,15 +1165,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>14,034.22667</em></cell>
-				<cell></cell>
-				<cell></cell>
-				<cell><em><obelus/>14,100</em></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -1236,6 +1220,14 @@
 				<cell>76</cell>
 				<cell></cell>
 				<cell>75</cell>
+			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell><em><obelus/>14,100</em></cell>
+				<cell></cell>
 			</row>
 		</tabular>
 		</sidebyside>
@@ -1314,11 +1306,10 @@
 		Let’s look at why Hill and Huntington decided to use the geometric mean for rounding instead of the arithmetic mean of 0.5, which is halfway between two numbers. By calculating some geometric means and looking at them in a table we can see a pattern:
 	</p>
 	<sidebyside>
+		<table>
+			<title>Geometric Mean Pattern</title>
 	<tabular>
-		<row>
-			<cell colspan="2">Geometric Mean</cell>
-		</row>
-		<row>
+		<row header="yes">
 			<cell><m>n</m></cell>
 			<cell><m>\sqrt{n(n+1)}</m></cell>
 		</row>
@@ -1355,6 +1346,7 @@
 			<cell><m>\sqrt{(100(100+1)}=\sqrt{100(101)}\approx 100.499</m></cell>
 		</row>
 	</tabular>
+</table>
 	</sidebyside>
 	<p>
 		Notice that each geometric mean is between <m>n</m> and <m>n+1</m>. For smaller numbers, the decimal part is less than 0.5 and as n gets larger, the decimal part gets closer and closer to 0.5. This gives smaller states a chance to round up before larger states. That’s how the Hill-Huntington method reduces the bias in favor of larger states.
@@ -1369,7 +1361,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -1409,6 +1401,14 @@
 				<cell></cell>
 				<cell>41</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>21,900.82927</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -1424,15 +1424,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>14,034.22667</em></cell>
-				<cell></cell>
-				<cell></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -1488,6 +1480,14 @@
 				<cell></cell>
 				<cell>76</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>14,034.22667</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -1495,15 +1495,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell></cell>
-				<cell><em><obelus/>14,100</em></cell>
-				<cell></cell>
-				<cell></cell>
-				<cell></cell>
-				<cell></cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
 				<cell>Quota</cell>
@@ -1559,6 +1551,14 @@
 				<cell></cell>
 				<cell>75</cell>
 			</row>
+			<row>
+				<cell>Divisor</cell>
+				<cell><em><obelus/>14,100</em></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+				<cell></cell>
+			</row>
 		</tabular>
 		</sidebyside>
 		<p>
@@ -1586,7 +1586,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>State</cell>
 				<cell>Population</cell>
 			</row>
@@ -1622,41 +1622,45 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell>State</cell>
 					<cell>Population</cell>
 					<cell>Quota</cell>
-					<cell>Initial</cell>
 				</row>
 				<row>
 					<cell>A</cell>
 					<cell>300,500</cell>
 					<cell>34.48361</cell>
-					<cell>34</cell>
 				</row>
 				<row>
 					<cell>B</cell>
 					<cell>200,000</cell>
 					<cell>22.95082</cell>
-					<cell>6</cell>
 				</row>
 				<row>
 					<cell>C</cell>
 					<cell>50,000</cell>
 					<cell>5.737705</cell>
-					<cell>6</cell>
 				</row>
 				<row>
 					<cell>D</cell>
 					<cell>38,000</cell>
 					<cell>4.360656</cell>
-					<cell>4</cell>
 				</row>
 				<row>
 					<cell>E</cell>
 					<cell>21,500</cell>
 					<cell>2.467213</cell>
-					<cell>2</cell>
+				</row>
+				<row>
+					<cell>Total</cell>
+					<cell>610,000</cell>
+					<cell></cell>
+				</row>
+				<row>
+					<cell>Divisor</cell>
+					<cell><em><obelus/>8714.286</em></cell>
+					<cell></cell>
 				</row>
 			</tabular>
 			</sidebyside>
@@ -1668,7 +1672,7 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell>State</cell>
 					<cell>Population</cell>
 					<cell>Quota</cell>
@@ -1704,6 +1708,18 @@
 					<cell>2.467213</cell>
 					<cell>2</cell>
 				</row>
+				<row>
+					<cell>Total</cell>
+					<cell>610,000</cell>
+					<cell></cell>
+					<cell>69</cell>
+				</row>
+				<row>
+					<cell>Divisor</cell>
+					<cell><em><obelus/>8714.286</em></cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
 			</tabular>
 			</sidebyside>
 			<p>
@@ -1711,13 +1727,7 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
-					<cell></cell>
-					<cell><em><obelus/>8,700</em></cell>
-					<cell></cell>
-					<cell></cell>
-				</row>
-				<row>
+				<row header="yes">
 					<cell>State</cell>
 					<cell>Population</cell>
 					<cell>Quota</cell>
@@ -1753,6 +1763,18 @@
 					<cell>2.471264</cell>
 					<cell>2</cell>
 				</row>
+				<row>
+					<cell>Total</cell>
+					<cell>610,000</cell>
+					<cell></cell>
+					<cell>70</cell>
+				</row>
+				<row>
+					<cell>Divisor</cell>
+					<cell><em><obelus/>8,700</em></cell>
+					<cell></cell>
+					<cell></cell>
+				</row>
 			</tabular>
 			</sidebyside>
 			<p>
@@ -1763,7 +1785,7 @@
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell>State</cell>
 					<cell>Population</cell>
 					<cell>Quota</cell>
@@ -1810,6 +1832,22 @@
 					<cell>2</cell>
 					<cell>2.44949</cell>
 					<cell>3</cell>
+				</row>
+				<row>
+					<cell>Total</cell>
+					<cell>610,000</cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell>70</cell>
+				</row>
+				<row>
+					<cell>Divisor</cell>
+					<cell><em><obelus/>8714.286</em></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
+					<cell></cell>
 				</row>
 			</tabular>
 			</sidebyside>
@@ -1861,11 +1899,17 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>Math</cell>
+			<cell>English</cell>
+			<cell>Chemistry</cell>
+			<cell>Biology</cell>
+		</row>
 		<row>
-			<cell>Math: 330</cell>
-			<cell>English: 265</cell>
-			<cell>Chemistry: 130</cell>
-			<cell>Biology: 70</cell>
+			<cell>330</cell>
+			<cell>265</cell>
+			<cell>130</cell>
+			<cell>70</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -1940,7 +1984,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Shift</cell>
 			<cell>Morning</cell>
 			<cell>Midday</cell>
@@ -2026,10 +2070,15 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>Aisha</cell>
+			<cell>Basir</cell>
+			<cell>Carlos</cell>
+		</row>
 		<row>
-			<cell>Aisha: $7,600</cell>
-			<cell>Basir: $5,900</cell>
-			<cell>Carlos: $1,400</cell>
+			<cell>$7,600</cell>
+			<cell>$5,900</cell>
+			<cell>$1,400</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -2103,11 +2152,17 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>D</cell>
+		</row>
 		<row>
-			<cell>A: 33,700</cell>
-			<cell>B: 559,500</cell>
-			<cell>C: 141,300</cell>
-			<cell>D: 89,100</cell>
+			<cell>33,700</cell>
+			<cell>559,500</cell>
+			<cell>141,300</cell>
+			<cell>89,100</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -2181,12 +2236,19 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>D</cell>
+			<cell>E</cell>
+		</row>
 		<row>
-			<cell>A: 810,000</cell>
-			<cell>B: 473,000</cell>
-			<cell>C: 292,000</cell>
-			<cell>D: 594,000</cell>
-			<cell>E: 211,000</cell>
+			<cell>810,000</cell>
+			<cell>473,000</cell>
+			<cell>292,000</cell>
+			<cell>594,000</cell>
+			<cell>211,000</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -2260,13 +2322,21 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>D</cell>
+			<cell>E</cell>
+			<cell>F</cell>
+		</row>
 		<row>
-			<cell>A: 3,411</cell>
-			<cell>B: 2,421</cell>
-			<cell>C: 11,586</cell>
-			<cell>D: 4,494</cell>
-			<cell>E: 3,126</cell>
-			<cell>F: 4,962</cell>
+			<cell>3,411</cell>
+			<cell>2,421</cell>
+			<cell>11,586</cell>
+			<cell>4,494</cell>
+			<cell>3,126</cell>
+			<cell>4,962</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -2340,13 +2410,21 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>D</cell>
+			<cell>E</cell>
+			<cell>F</cell>
+		</row>
 		<row>
-			<cell>A: 82,500</cell>
-			<cell>B: 84,600</cell>
-			<cell>C: 96,000</cell>
-			<cell>D: 98,000</cell>
-			<cell>E: 356,500</cell>
-			<cell>F: 382,500</cell>
+			<cell>82,500</cell>
+			<cell>84,600</cell>
+			<cell>96,000</cell>
+			<cell>98,000</cell>
+			<cell>356,500</cell>
+			<cell>382,500</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -2422,10 +2500,15 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+		</row>
 		<row>
-			<cell>A: 6,000</cell>
-			<cell>B: 6,000</cell>
-			<cell>C: 2,000</cell>
+			<cell>6,000</cell>
+			<cell>6,000</cell>
+			<cell>2,000</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -2489,10 +2572,15 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+		</row>
 		<row>
-			<cell>A: 10,000</cell>
-			<cell>B: 10,000</cell>
-			<cell>C: 1,000</cell>
+			<cell>10,000</cell>
+			<cell>10,000</cell>
+			<cell>1,000</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -2546,7 +2634,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>County</cell>
 			<cell>2000 Population</cell>
 			<cell>2010 Population</cell>
@@ -2599,7 +2687,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>County</cell>
 			<cell>2000 Population</cell>
 			<cell>2010 Population</cell>

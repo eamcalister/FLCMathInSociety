@@ -292,7 +292,7 @@
 			<table>
 				<title>Truth Table  Setup for Two Propositions</title>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell><em>R</em></cell>
 						<cell><em>E</em></cell>
 						<cell><em>R and E</em></cell>
@@ -357,52 +357,46 @@
 	</p>
 	<sidebyside width="40%">
 	<table>
-	<title>In the <em>not R</em> column, the truth value is the opposite of the value for <em>R</em>. For example, if <em>R</em> is true (you paid your rent) then <em>not R</em> (you did not pay your rent) is false.</title>
-		<tabular>
-			<row bottom="minor">
-				<cell halign="center" colspan="2"><alert>Not</alert></cell>
-			</row>
-			<row halign="center" left="minor" bottom="minor">
+	<title><alert>Not</alert>: In the <em>not R</em> column, the truth value is the opposite of the value for <em>R</em>. For example, if <em>R</em> is true (you paid your rent) then <em>not R</em> (you did not pay your rent) is false.</title>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row header="yes">
 				<cell right="minor"><em>R</em></cell>
 				<cell right="minor"><em>not R</em></cell>
 			</row>
-			<row halign="center" left="minor" bottom="minor">
+			<row>
 				<cell right="minor">T</cell>
 				<cell right="minor">F</cell>
 			</row>
-			<row halign="center" left="minor" bottom="minor">
+			<row>
 				<cell right="minor">F</cell>
 				<cell right="minor">T</cell>
 			</row>
 		</tabular>
 	</table>
 	<table>
-	<title>In the <em>R and E</em> column, you must have paid both your rent and electric bill. Otherwise <em>R and E</em> is false.</title>
-		<tabular>
-			<row bottom="minor">
-				<cell halign="center" colspan="3"><alert>And</alert></cell>
-			</row>
-			<row halign="center" left="minor" bottom="minor">
+	<title><alert>And</alert>: In the <em>R and E</em> column, you must have paid both your rent and electric bill. Otherwise <em>R and E</em> is false.</title>
+		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<row header="yes">
 				<cell right="minor"><em>R</em></cell>
 				<cell right="minor"><em>E</em></cell>
 				<cell right="minor"><em>R and E</em></cell>
 			</row>
-			<row halign="center" left="minor" bottom="minor">
+			<row>
 				<cell right="minor">T</cell>
 				<cell right="minor">T</cell>
 				<cell right="minor">T</cell>
 			</row>
-			<row halign="center" left="minor" bottom="minor">
+			<row>
 				<cell right="minor">T</cell>
 				<cell right="minor">F</cell>
 				<cell right="minor">F</cell>
 			</row>
-			<row halign="center" left="minor" bottom="minor">
+			<row>
 				<cell right="minor">F</cell>
 				<cell right="minor">T</cell>
 				<cell right="minor">F</cell>
 			</row>
-			<row halign="center" left="minor" bottom="minor">
+			<row>
 				<cell right="minor">F</cell>
 				<cell right="minor">F</cell>
 				<cell right="minor">F</cell>
@@ -412,32 +406,29 @@
 	</sidebyside>
 	<sidebyside>
 		<table>
-		<title>In the <em>R or E</em> column, you must have paid either your rent or electric bill, or both (inclusive or). Otherwise <em>R or E</em> is false.</title>
-			<tabular>
-				<row bottom="minor">
-					<cell halign="center" colspan="3"><alert>Or</alert></cell>
-				</row>
-				<row halign="center" left="minor" bottom="minor">
+		<title><alert>Or</alert>: In the <em>R or E</em> column, you must have paid either your rent or electric bill, or both (inclusive or). Otherwise <em>R or E</em> is false.</title>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row header="yes">
 					<cell right="minor"><em>R</em></cell>
 					<cell right="minor"><em>E</em></cell>
 					<cell right="minor"><em>R or E</em></cell>
 				</row>
-				<row halign="center" left="minor" bottom="minor">
+				<row>
 					<cell right="minor">T</cell>
 					<cell right="minor">T</cell>
 					<cell right="minor">T</cell>
 				</row>
-				<row halign="center" left="minor" bottom="minor">
+				<row>
 					<cell right="minor">T</cell>
 					<cell right="minor">F</cell>
 					<cell right="minor">T</cell>
 				</row>
-				<row halign="center" left="minor" bottom="minor">
+				<row>
 					<cell right="minor">F</cell>
 					<cell right="minor">T</cell>
 					<cell right="minor">T</cell>
 				</row>
-				<row halign="center" left="minor" bottom="minor">
+				<row>
 					<cell right="minor">F</cell>
 					<cell right="minor">F</cell>
 					<cell right="minor">F</cell>
@@ -493,7 +484,7 @@
 		<table>
 		<title>Truth table for a conditional statement</title>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell><em>P</em></cell>
 				<cell><em>L</em></cell>
 				<cell>If <em>P</em>, then <em>L</em></cell>
@@ -563,7 +554,7 @@
 				When we create the truth table, we start with columns for the propositions, <em>A</em> and <em>B</em>. Then we add a column for <em>not B</em> because that is part of the final statement. Our last column is the final statement <em>A or not B</em>.
 			</p>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell><em>A</em></cell>
 					<cell><em>B</em></cell>
 					<cell><em>not B</em></cell>
@@ -601,7 +592,7 @@
 				To complete the third column, <em>not B</em>, we take the opposite of the <em>B</em> column. Then to complete the fourth column, we only look at the <em>A</em> and the <em>not B</em> columns and compare them using <em>or</em>.
 			</p>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row  header="yes">
 					<cell><em>A</em></cell>
 					<cell><em>B</em></cell>
 					<cell><em>not B</em></cell>
@@ -658,7 +649,7 @@
 			<table>
 			<title></title>
 				<tabular halign= "center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row  header="yes">
 						<cell><em>A</em></cell>
 						<cell><em>B</em></cell>
 						<cell><em>C</em></cell>
@@ -738,7 +729,7 @@
 			<table>
 				<title></title>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row  header="yes">
 						<cell><em>A</em></cell>
 						<cell><em>B</em></cell>
 						<cell><em>C</em></cell>
@@ -837,7 +828,7 @@
 			<table>
 				<title></title>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell><em>m</em></cell>
 						<cell><em>p</em></cell>
 						<cell><em>r</em></cell>
@@ -926,7 +917,7 @@
 			<table>
 				<title></title>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row  header="yes">
 						<cell><em>m</em></cell>
 						<cell><em>p</em></cell>
 						<cell><em>r</em></cell>
@@ -1801,7 +1792,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>A</cell>
 			<cell>B</cell>
 			<cell>A and B</cell>
@@ -1832,7 +1823,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>A and B</cell>
@@ -1872,7 +1863,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>A</cell>
 			<cell>B</cell>
 			<cell>A or B</cell>
@@ -1903,7 +1894,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>A or B</cell>
@@ -1949,7 +1940,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>A</cell>
 			<cell>B</cell>
 			<cell>Not B</cell>
@@ -1985,7 +1976,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>Not B</cell>
@@ -2027,7 +2018,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>A</cell>
 			<cell>B</cell>
 			<cell>Not A</cell>
@@ -2068,7 +2059,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>Not A</cell>
@@ -2115,7 +2106,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>A</cell>
 			<cell>B</cell>
 			<cell>C</cell>
@@ -2184,7 +2175,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>C</cell>
@@ -2259,7 +2250,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>A</cell>
 			<cell>B</cell>
 			<cell>C</cell>
@@ -2346,7 +2337,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>C</cell>
@@ -2450,7 +2441,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>C</cell>
@@ -2535,7 +2526,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>C</cell>
@@ -2620,7 +2611,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>C</cell>
@@ -2696,7 +2687,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>C</cell>
@@ -2781,7 +2772,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>C</cell>
 				<cell>A and C</cell>
@@ -2829,7 +2820,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>C</cell>

@@ -15,8 +15,9 @@
 		Dr. Geiringer was the first woman to teach applied mathematics at a German university (Manning, 2019) and in 1933, she was nominated for an assistant professor position. In the same year, however, the Nazi party took over in Germany and she was dismissed as a result of Nazi anti-Jewish legislation (Freidenreich, 2020).
 	</p>
 </stack>
-			<image source="images/probability/4_1/hg_pic.png"></image>
-			<description>A photograph of Dr. Hilda Geiringer</description>
+			<image source="images/probability/4_1/hg_pic.png">
+				<description>A photograph of Dr. Hilda Geiringer</description>
+			</image>
 		</sidebyside>
 		
 	

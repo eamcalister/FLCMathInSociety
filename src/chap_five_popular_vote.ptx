@@ -167,7 +167,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>State</cell>
 				<cell>Population</cell>
 				<cell><line>Number of</line><line>Representatives</line></cell>
@@ -248,7 +248,7 @@
 						</p>
 						<sidebyside>
 						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row>
+							<row header="yes">
 								<cell>State</cell>
 								<cell>Population</cell>
 								<cell><line>Number of</line><line>Representatives</line></cell>
@@ -290,7 +290,7 @@
 						</p>
 						<sidebyside>
 						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row>
+							<row header="yes">
 								<cell>State</cell>
 								<cell>Population</cell>
 								<cell><line>Number of</line><line>Representatives</line></cell>
@@ -332,7 +332,7 @@
 						</p>
 						<sidebyside>
 						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row>
+							<row header="yes">
 								<cell>State</cell>
 								<cell>Population</cell>
 								<cell><line>Number of</line><line>Representatives</line></cell>
@@ -400,7 +400,7 @@
 						</p>
 						<sidebyside>
 						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row>
+							<row header="yes">
 								<cell>State</cell>
 								<cell><line>Votes for</line><line>Candidate A</line></cell>
 								<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -449,7 +449,7 @@
 						</p>
 						<sidebyside>
 						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row>
+							<row header="yes">
 								<cell>State</cell>
 								<cell><line>Votes for</line><line>Candidate A</line></cell>
 								<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -504,7 +504,7 @@
 						</p>
 						<sidebyside>
 						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row>
+							<row header="yes">
 								<cell>State</cell>
 								<cell><line>Votes for</line><line>Candidate A</line></cell>
 								<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -551,7 +551,7 @@
 <!-- 							<solution>
  -->								<sidebyside>
 							<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-								<row>
+								<row header="yes">
 									<cell>State</cell>
 									<cell><line>Votes for</line><line>Candidate A</line></cell>
 									<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -612,7 +612,7 @@
 						</p>
 						<sidebyside>
 						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-							<row>
+							<row header="yes">
 								<cell>Combination</cell>
 								<cell>Small, 5</cell>
 								<cell>Medium, 8</cell>
@@ -745,7 +745,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>State</cell>
 				<cell>Population</cell>
 				<cell><line>Number of</line><line>Representatives</line></cell>
@@ -795,7 +795,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>State</cell>
 				<cell>Population</cell>
 				<cell><line>Number of</line><line>Representatives</line></cell>
@@ -845,8 +845,8 @@
 		</p>
 		<sidebyside>
 		<image width="70%" source="images/democracy/5_3/electoral1.png">
-		</image>
 		<description>A cartesian coordinate graph with number of electors on the x-axis and electoral power on the y-axis. The graph shows the maximum electoral power of 3 when there are 3 electors and an exponential decay as the number of electors goes up. With 4 electors the electoral power is 2, with 5 electors the electoral power is about 1.67 and the pattern levels off at an electoral power just over 1.0 as the number of electors increases.</description>
+		</image>
 		</sidebyside>
 		<p>
 			The minimum number of electors is three, since each state gets at least one representative in the apportionment process. The smallest states and Washington, D.C. have 3 electors and the greatest electoral power on the left side of the graph. The largest states like California, Florida and Texas have the least electoral power on the right side of the graph.
@@ -856,8 +856,8 @@
 		</p>
 		<sidebyside>
 		<image width="70%" source="images/democracy/5_3/electoral2.png">
-		</image>
 		<description>A cartesian coordinate graph with the same axes as the previous graph. This time the electoral power is constant with an electoral power of 1 for every number of electors.</description>
+		</image>
 		</sidebyside>
 		<p>
 			Now that we have studied the popular vote, the Electoral College and electoral power, we leave it up to you to choose which method you think is best.
@@ -974,7 +974,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1018,7 +1018,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1076,7 +1076,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1120,7 +1120,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1178,7 +1178,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1229,7 +1229,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1294,7 +1294,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1345,7 +1345,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1433,7 +1433,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
 			<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1477,7 +1477,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
 							<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1535,7 +1535,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
 			<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1579,7 +1579,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
 							<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1637,7 +1637,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
 			<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1688,7 +1688,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
 							<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1753,7 +1753,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
 			<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1804,7 +1804,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
 							<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1892,7 +1892,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1933,7 +1933,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1988,7 +1988,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -2029,7 +2029,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -2084,7 +2084,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -2133,7 +2133,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -2196,7 +2196,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -2245,7 +2245,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>

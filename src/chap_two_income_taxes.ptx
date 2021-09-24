@@ -174,7 +174,7 @@
 	</p>
 	<sidebyside>
 		<tabular top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell halign="left">Filing Status</cell>
 				<cell halign="center">Standard Deduction for Tax Year 2018</cell>
 			</row>
@@ -254,11 +254,10 @@
 		 Here is a table with cutoff values for each filing status. Everyone pays a tax of 10% on any income in the first tax bracket. Then we all pay 12% of the next bracket of income, 22% of the next bracket, and so on. This keeps going up to the 37% tax bracket.
 	</p>
 	<sidebyside>
+		<table>
+			<title>2018 Tax Year Marginal Tax Rates</title>
 	<tabular top="minor" left="minor" right="minor" bottom="minor">
-		<row>
-			<cell colspan="5">2018 Tax Year</cell>
-		</row>
-		<row>
+		<row header="yes">
 			<cell><line>Marginal Tax Rate</line><line>On Taxable Income</line></cell>
 			<cell>Filing Single</cell>
 			<cell><line>Filing as Head</line><line>of Household</line></cell>
@@ -315,6 +314,7 @@
 			<cell>Over $300,000</cell>
 		</row>
 	</tabular>
+</table>
 	</sidebyside>
 	<p>
 		Let’s see how to use this table to calculate taxes in an example.
@@ -335,7 +335,7 @@
 				<md>
 					<mrow>0.10(\$9,525)+0.12(\$38,700-\$9,525)+0.22(\$55,100-\$38,700)\amp=0.10(\$9,525)+0.12(\$29,175)+0.22(\$16,400)</mrow>
 					<mrow>\amp=\$952.50+\$3,501+\$3,608</mrow>
-					<mrow>\amp=\$4,435.50+\$3,608</mrow>
+					<mrow>\amp=\$4,453.50+\$3,608</mrow>
 					<mrow>\amp=\$8,043.50</mrow>
 				</md>
 			</p>
@@ -352,14 +352,13 @@
 		We could calculate all taxes this way, but you might notice that the first few terms will be the same if the buckets are full. For this reason, we can simplify these tax tables. The tax tables below give the value for all of the lower tax buckets that are full. There is a tax table for each filing status and the cutoffs are regularly adjusted for inflation, so they usually vary from year to year.
 	</p>
 	<p>
-		2018 Federal Income Tax Tables
+		The next four tables give the tax calculations for 2018 federal income taxes by filing status.
 	</p>
 	<sidebyside>
+		<table>
+			<title>Filing as Single (Tax Year 2018)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell colspan="2">Single (2018)</cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>If taxable income is:</cell>
 				<cell>The tax is:</cell>
 			</row>
@@ -392,14 +391,14 @@
 				<cell>$150,689.50 plus 37% of the excess over $500,000</cell>
 			</row>
 		</tabular>
+	</table>
 	</sidebyside>
 
 	<sidebyside>
+		<table>
+			<title>Filing as Head of Household (Tax Year 2018)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell colspan="2">Head of Household (2018)</cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>If taxable income is:</cell>
 				<cell>The tax is:</cell>
 			</row>
@@ -432,14 +431,14 @@
 				<cell>$149,298 plus 37% of the excess over $500,000</cell>
 			</row>
 		</tabular>
+	</table>
 	</sidebyside>
 
 	<sidebyside>
+		<table>
+			<title>Married Filing Jointly (Tax Year 2018)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell colspan="2">Married Filing Jointly (2018)</cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>If taxable income is:</cell>
 				<cell>The tax is:</cell>
 			</row>
@@ -452,7 +451,7 @@
 				<cell>$1,905 plus 12% of the excess over $19,050</cell>
 			</row>
 			<row>
-				<cell>Over $77,400 but  not over $165,000</cell>
+				<cell>Over $77,400 but not over $165,000</cell>
 				<cell>$8,907 plus 22% of the excess over $77,400</cell>
 			</row>
 			<row>
@@ -472,14 +471,14 @@
 				<cell>$161,379 plus 37% of the excess over $600,000</cell>
 			</row>
 		</tabular>
+	</table>
 	</sidebyside>
 
 	<sidebyside>
+		<table>
+			<title>Married Filing Separately (Tax Year 2018)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
-				<cell colspan="2">Married Filing Separately (2018)</cell>
-			</row>
-			<row>
+			<row header="yes">
 				<cell>If taxable income is:</cell>
 				<cell>The tax is:</cell>
 			</row>
@@ -512,6 +511,7 @@
 				<cell>$80,689.50 plus 37% of the excess over $300,000</cell>
 			</row>
 		</tabular>
+	</table>
 	</sidebyside>
 
 	<example>

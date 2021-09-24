@@ -43,11 +43,17 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>D</cell>
+		</row>
 		<row>
-			<cell>A: 96,400</cell>
-			<cell>B: 162,700</cell>
-			<cell>C: 119,900</cell>
-			<cell>D: 384,900</cell>
+			<cell>96,400</cell>
+			<cell>162,700</cell>
+			<cell>119,900</cell>
+			<cell>384,900</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -123,12 +129,19 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<row header="yes">
+			<cell>A</cell>
+			<cell>B</cell>
+			<cell>C</cell>
+			<cell>D</cell>
+			<cell>E</cell>
+		</row>
 		<row>
-			<cell>A: 584,000</cell>
-			<cell>B: 226,600</cell>
-			<cell>C: 88,500</cell>
-			<cell>D: 257,300</cell>
-			<cell>E: 104,300</cell>
+			<cell>584,000</cell>
+			<cell>226,600</cell>
+			<cell>88,500</cell>
+			<cell>257,300</cell>
+			<cell>104,300</cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -245,7 +258,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>12</cell>
 			<cell>16</cell>
@@ -351,7 +364,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>15</cell>
 			<cell>13</cell>
@@ -462,7 +475,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>31</cell>
 			<cell>18</cell>
@@ -567,7 +580,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>22</cell>
 			<cell>45</cell>
@@ -700,7 +713,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -744,7 +757,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -802,7 +815,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -853,7 +866,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -940,7 +953,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
 			<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -984,7 +997,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
 							<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1042,7 +1055,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
 			<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1093,7 +1106,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
 							<cell><line>Votes for</line><line>Candidate B</line></cell>
@@ -1180,7 +1193,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1221,7 +1234,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1276,7 +1289,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
 			<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1325,7 +1338,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
 							<cell><line>Number of</line><line>Representatives</line></cell>
@@ -1429,8 +1442,9 @@
 		This state has 5 districts with 9 people in each district.
 		</p>
 	<sidebyside width="40%">
-		<image source="images/democracy/5_5/review_exercise_15.png"></image>
+		<image source="images/democracy/5_5/review_exercise_15.png">
 		<description>A map with 5 districts drawn; Districts 1, 2, 4 and 5 have 4 D's and 5 R's each; District 3 has 9 D's and 0 R's.</description>
+		</image>
 		<p></p>
 	</sidebyside>
 	</statement>
@@ -1453,7 +1467,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>
@@ -1531,8 +1545,9 @@
 		This state has 6 districts with 7 people in each.
 		</p>
 	<sidebyside width="40%">
-		<image source="images/democracy/5_5/review_exercise_16.png"></image>
+		<image source="images/democracy/5_5/review_exercise_16.png">
 		<description>A map with 6 districts drawn; Districts 1 through 5 have 4 D's and 3 R's; District 6 has 1 D and 6 R's.</description>
+		</image>
 		<p></p>
 	</sidebyside>
 	</statement>
@@ -1555,7 +1570,7 @@
 					</p>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
 							<cell>R Votes</cell>

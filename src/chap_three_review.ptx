@@ -933,7 +933,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell><line>Cost (Thousands</line><line>of dollars)</line></cell>
 			<cell>Frequency</cell>
 		</row>

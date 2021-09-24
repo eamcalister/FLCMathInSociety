@@ -60,7 +60,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>Outcome ($ won)</cell>
 			<cell>Rolling Event</cell>
 			<cell>Probability</cell>
@@ -126,7 +126,7 @@
 		</p>
 		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell><alert>Prize ($)</alert></cell>
 					<cell><alert>Probability</alert></cell>
 				</row>
@@ -168,7 +168,7 @@
 
 		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell><alert>Prize ($)</alert></cell>
 					<cell><alert>Probability</alert></cell>
 				</row>
@@ -289,7 +289,7 @@
 		</p>
 		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell><alert>Insurance payout</alert></cell>
 					<cell><alert>Probability</alert></cell>
 				</row>
@@ -355,7 +355,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>Die roll</cell>
 							<cell>Gold</cell>
 							<cell>Silver</cell>
@@ -415,7 +415,7 @@
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell>Die roll</cell>
 							<cell>Red</cell>
 							<cell>Blue</cell>

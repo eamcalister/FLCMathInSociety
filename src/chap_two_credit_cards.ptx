@@ -278,7 +278,7 @@
 		</p>
 		<sidebyside>
 		<tabular>
-			<row>
+			<row header="yes">
 				<cell></cell>
 			</row>
 		</tabular>
@@ -299,7 +299,7 @@
 		<statement>
 		<sidebyside>
 		<tabular>
-			<row>
+			<row header="yes">
 				<cell></cell>
 			</row>
 		</tabular>

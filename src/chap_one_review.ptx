@@ -383,7 +383,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>Not A</cell>
@@ -424,7 +424,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>Not A</cell>
@@ -485,7 +485,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell>A</cell>
 			<cell>B</cell>
 			<cell>If A, then B</cell>
@@ -516,7 +516,7 @@
 	<solution>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell>A</cell>
 				<cell>B</cell>
 				<cell>If A, then B</cell>
@@ -668,7 +668,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Liked coffee</cell>
 			<cell>Disliked coffee</cell>

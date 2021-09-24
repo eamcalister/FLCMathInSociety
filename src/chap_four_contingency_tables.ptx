@@ -66,7 +66,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><alert>Dog</alert></cell>
 				<cell><alert>No Dog</alert></cell>
@@ -97,7 +97,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><alert>Dog</alert></cell>
 				<cell><alert>No Dog</alert></cell>
@@ -132,7 +132,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><alert>Dog</alert></cell>
 				<cell><alert>No Dog</alert></cell>
@@ -163,7 +163,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><alert>Dog</alert></cell>
 				<cell><alert>No Dog</alert></cell>
@@ -189,7 +189,7 @@
 			</row>
 		</tabular>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><alert>Dog</alert></cell>
 				<cell><alert>No Dog</alert></cell>
@@ -247,7 +247,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><alert>Dog</alert></cell>
 				<cell><alert>No Dog</alert></cell>
@@ -288,7 +288,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><alert>Dog</alert></cell>
 				<cell><alert>No Dog</alert></cell>
@@ -324,7 +324,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><c>Dog</c></cell>
 				<cell><alert>No Dog</alert></cell>
@@ -368,7 +368,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell><alert>Conservative</alert></cell>
 			<cell><alert>Moderate</alert></cell>
@@ -466,7 +466,7 @@
 				</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell></cell>
 					<cell><alert>Conservative</alert></cell>
 					<cell><alert>Moderate</alert></cell>
@@ -563,7 +563,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell><alert>Speeding Ticket</alert></cell>
 			<cell><alert>No Speeding Ticket</alert></cell>
@@ -636,7 +636,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell><alert>Speeding Ticket</alert></cell>
 						<cell><alert>No Speeding Ticket</alert></cell>
@@ -669,7 +669,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell><alert>Speeding Ticket</alert></cell>
 						<cell><alert>No Speeding Ticket</alert></cell>
@@ -702,7 +702,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell><alert>Speeding Ticket</alert></cell>
 						<cell><alert>No Speeding Ticket</alert></cell>
@@ -735,7 +735,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell><alert>Speeding Ticket</alert></cell>
 						<cell><alert>No Speeding Ticket</alert></cell>
@@ -786,7 +786,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell><alert>Speeding Ticket</alert></cell>
 						<cell><alert>No Speeding Ticket</alert></cell>
@@ -824,7 +824,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell><alert>Speeding Ticket</alert></cell>
 						<cell><alert>No Speeding Ticket</alert></cell>
@@ -899,7 +899,7 @@
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell><alert>Positive Test</alert></cell>
 				<cell><alert>Negative Test</alert></cell>
@@ -936,7 +936,7 @@
 		 			</p>
 		 			<sidebyside>
 		 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell></cell>
 							<cell><alert>Positive Test</alert></cell>
 							<cell><alert>Negative Test</alert></cell>
@@ -975,7 +975,7 @@
 		 			</p>
 		 			<sidebyside>
 		 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-						<row>
+						<row header="yes">
 							<cell></cell>
 							<cell><alert>Positive Test</alert></cell>
 							<cell><alert>Negative Test</alert></cell>
@@ -1030,7 +1030,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Food Insecure</cell>
 			<cell>Not Food Insecure</cell>
@@ -1060,7 +1060,7 @@
 	<solution>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Food Insecure</cell>
 			<cell>Not Food Insecure</cell>
@@ -1096,7 +1096,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Bookstore</cell>
 			<cell>No Bookstore</cell>
@@ -1127,7 +1127,7 @@
 	<solution>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Bookstore</cell>
 			<cell>No Bookstore</cell>
@@ -1163,10 +1163,10 @@
 	</p>
 	<sidebyside widths="32% 60%">
 		<image source="images/probability/4_1/breakfast_floss_venn.png">
-		</image>
 		<description>A Venn diagram where the breakfast only region shows 3, the floss only region shows 49, the intersection shows 12 and the region outside the circles shows 8 students</description>
+		</image>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Breakfast</cell>
 			<cell>No Breakfast</cell>
@@ -1197,7 +1197,7 @@
 	<solution>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Breakfast</cell>
 			<cell>No Breakfast</cell>
@@ -1233,10 +1233,10 @@
 	</p>
 	<sidebyside widths="32% 60%">
 		<image source="images/probability/4_1/apple_chrome_venn.png">
-		</image>
 		<description>A Venn diagram where the Apple only region shows 120, the Chromebook only region shows 85, the intersection is 65 and the outside region is 45 students.</description>
+		</image>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Chromebook</cell>
 			<cell>No Chromebook</cell>
@@ -1267,7 +1267,7 @@
 	<solution>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Chromebook</cell>
 			<cell>No Chromebook</cell>
@@ -1322,7 +1322,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
 			<cell>Not A</cell>
@@ -1353,7 +1353,7 @@
 	<solution>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
 			<cell>Not A</cell>
@@ -1403,7 +1403,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
 			<cell>Not A</cell>
@@ -1434,7 +1434,7 @@
 	<solution>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
 			<cell>Not A</cell>
@@ -1470,7 +1470,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
 			<cell>B</cell>
@@ -1586,7 +1586,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Freshman</cell>
 			<cell>Sophomore</cell>
@@ -1706,7 +1706,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Zero</cell>
 			<cell>One</cell>
@@ -1845,7 +1845,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Inoculated</cell>
 			<cell>Not Inoculated</cell>
@@ -1966,7 +1966,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>First</cell>
 			<cell>Second</cell>
@@ -2121,7 +2121,7 @@
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-		<row>
+		<row header="yes">
 			<cell></cell>
 			<cell>Corporation</cell>
 			<cell>Government</cell>
@@ -2242,7 +2242,7 @@
 				</p>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell>Game/Software</cell>
 						<cell>No Game/Software</cell>
@@ -2303,7 +2303,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell>Game/Software</cell>
 						<cell>No Game/Software</cell>
@@ -2386,7 +2386,7 @@
 				</p>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell>Injury</cell>
 						<cell>No Injury</cell>
@@ -2452,7 +2452,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell>Injury</cell>
 						<cell>No Injury</cell>
@@ -2542,7 +2542,7 @@
 				</p>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell>Hardcover</cell>
 						<cell>Paperback</cell>
@@ -2588,7 +2588,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell>Hardcover</cell>
 						<cell>Paperback</cell>
@@ -2649,7 +2649,7 @@
 				</p>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell>Contingency Table</cell>
 						<cell>No Contingency Table</cell>
@@ -2695,7 +2695,7 @@
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-					<row>
+					<row header="yes">
 						<cell></cell>
 						<cell>Contingency Table</cell>
 						<cell>No Contingency Table</cell>
@@ -2750,7 +2750,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell>Zero</cell>
 				<cell>One</cell>
@@ -2800,7 +2800,7 @@
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
-			<row>
+			<row header="yes">
 				<cell></cell>
 				<cell>Heads</cell>
 				<cell>Tails</cell>

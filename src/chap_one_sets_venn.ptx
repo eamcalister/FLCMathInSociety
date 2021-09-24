@@ -324,7 +324,7 @@
 		</p>
 		<sidebyside>
 			<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
-				<row>
+				<row header="yes">
 					<cell><alert>Travel Options</alert></cell>
 					<cell><alert>Frequency</alert></cell>
 				</row>
@@ -739,26 +739,26 @@
 <exercise>
 	<statement>
 	<p>
-		A survey asked people what alternative transportation modes they use. Use the data to complete a Venn diagram, then determine: a) what percentage of people only ride the bus, and b) how many people don’t use any alternate transportation.
+		A survey asked 100 people what alternative transportation modes they use. Use the data to complete a Venn diagram, then determine: a) what percentage of people only ride the bus, and b) how many people don’t use any alternate transportation.
 		<ul>
 			<li>
 				<p>
-					40 use the bus, 25 ride a bicycle
+					40 use the bus, 25 ride a bicycle, and 33 walk
 				</p>
 			</li>
 			<li>
 				<p>
-					33 walk, 7 use the bus and ride a bicycle
+					2 use the bus and ride a bicycle
 				</p>
 			</li>
 			<li>
 				<p>
-					15 ride a bicycle and walk, 20 use the bus and walk
+					10 ride a bicycle and walk, 15 use the bus and walk
 				</p>
 			</li>
 			<li>
 				<p>
-					5 use all three
+					5 use all three modes of alternate transportation
 				</p>
 			</li>
 		</ul>
@@ -772,7 +772,7 @@
 			<ol label="a.">
 				<li>
 					<p>
-						Eighteen people only ride the bus.
+						18% of the people (eighteen people) only ride the bus.
 					</p>
 				</li>
 				<li>
