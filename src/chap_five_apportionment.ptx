@@ -1454,7 +1454,7 @@
 				<cell>5.9061</cell>
 				<cell>5</cell>
 				<cell><m>\sqrt{5(6)} \approx 5.48</m></cell>
-				<cell>5</cell>
+				<cell>6</cell>
 			</row>
 			<row>
 				<cell>Bates</cell>
@@ -1501,7 +1501,7 @@
 				<cell>Quota</cell>
 				<cell>Lower Quota</cell>
 				<cell>Geometric Mean</cell>
-				<cell>Initial</cell>
+				<cell>2nd Try</cell>
 			</row>
 			<row>
 				<cell>Parks</cell>
@@ -1525,7 +1525,7 @@
 				<cell>5.8786</cell>
 				<cell>5</cell>
 				<cell><m>\approx 5.48</m></cell>
-				<cell>5</cell>
+				<cell>6</cell>
 			</row>
 			<row>
 				<cell>Bates</cell>
@@ -1533,7 +1533,7 @@
 				<cell>44.4445</cell>
 				<cell>44</cell>
 				<cell><m>\approx 44.50</m></cell>
-				<cell>45</cell>
+				<cell>44</cell>
 			</row>
 			<row>
 				<cell>Wilkins</cell>
