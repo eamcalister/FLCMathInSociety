@@ -197,7 +197,7 @@
 			</row>
 			<row>
 				<cell>Huge</cell>
-				<cell>1,362,070</cell>
+				<cell>862,070</cell>
 				<cell></cell>
 				<cell></cell>
 				<cell></cell>
@@ -278,7 +278,7 @@
 							</row>
 							<row>
 								<cell>Huge</cell>
-								<cell>1,362,070</cell>
+								<cell>862,070</cell>
 								<cell><m>862,070 \div 40,000= 21.552 \rightarrow 21</m></cell>
 								<cell></cell>
 								<cell></cell>
@@ -320,8 +320,8 @@
 							</row>
 							<row>
 								<cell>Huge</cell>
-								<cell>1,362,070</cell>
-								<cell>21</cell>
+								<cell>862,070</cell>
+								<cell>34</cell>
 								<cell>2</cell>
 								<cell></cell>
 							</row>
@@ -362,7 +362,7 @@
 							</row>
 							<row>
 								<cell>Huge</cell>
-								<cell>1,362,070</cell>
+								<cell>862,070</cell>
 								<cell>21</cell>
 								<cell>2</cell>
 								<cell>23</cell>
@@ -385,7 +385,7 @@
 					</li>
 					<li>
 						<p>
-							To find out how many electoral votes are needed to win the presidential election, we calculate a majority of 52 electors.
+							To find out how many electoral votes are needed to win the presidential election, we calculate a majority of 65 electors.
 						</p>
 						<p>
 							<m>52 \div 2 = 26</m>, round up to 27
@@ -692,7 +692,7 @@
 					</li>
 					<li>
 						<p>
-							To find the fewest number of individual votes a candidate could win with; let’s look at the table above. The combination of states with the fewest electoral votes is Huge and Small. Let’s see how many votes would be needed to win those two states.
+							To find the fewest number of individual votes a candidate could win with; let’s look at the table above. The combination of states with the fewest electoral votes is Huge and Small with 28 electoral votes. Let’s see how many votes would be needed to win those two states.
 						</p>
 						<p>
 							For Huge:
@@ -709,19 +709,40 @@
 						<p>
 							<m>431,036+77,301 \text{ votes } = 508,337 \text{ votes}</m>
 						</p>
+						<p>
+							Let's also consider the next larger combination of 29 electoral votes: winning Small, Large and Medium, because their populations are smaller than the Huge state.
+						</p>
+						<p>
+							We found above that Small can be won with a bare majority of 77,301 people.
+						</p>
+						<p>
+							For Medium:
+						</p>
+						<p>
+							<m>262,340 \div 2 = 131,170</m>, then round up to 131,171
+						</p>
+						<p>
+							For Large:
+						</p>
+						<p>
+							<m>581,135 \div 2 = 290,567.5</m>, then round up to 290,568
+						</p>
+						<p>
+							<m>77,301 + 131,171 + 290,568 \text{ votes } = 499,040 \text{ votes}</m>
+						</p>
+						<p>
+							A candidate can win with 499,040 votes in the combination of the Small, Large and Medium state.
+						</p>
 					</li>
 					<li>
 						<p>
-							The smallest number of votes to win the electoral college is 508,337. What percentage of the population is that? We will divide by the total population to get
+							The smallest number of votes to win the electoral college is 499,040. What percentage of the population is that? We will divide by the total population to get
 						</p>
 						<p>
-							<m>508,337 \div 1,860,145 = 0.2733</m>
+							<m>499,040 \div 1,860,145 = 0.2683</m>
 						</p>
 						<p>
-							If a candidate had the right combination of states, they could win the Electoral College with only 27.3% of the vote.
-						</p>
-						<p>
-							People who support the Electoral College often say it protects small states. People who oppose the Electoral College often say that each person’s vote should count equally as in the popular vote. Next we will look at electoral power to understand the effect on small states.
+							If a candidate had the right combination of states, they could win the Electoral College with only 26.8% of the vote.
 						</p>
 					</li>
 				</ol>
@@ -779,7 +800,7 @@
 			</row>
 			<row>
 				<cell>Huge</cell>
-				<cell>1,362,070</cell>
+				<cell>862,070</cell>
 				<cell></cell>
 				<cell></cell>
 				<cell></cell>
@@ -829,7 +850,7 @@
 			</row>
 			<row>
 				<cell>Huge</cell>
-				<cell>1,362,070</cell>
+				<cell>862,070</cell>
 				<cell>21</cell>
 				<cell>2</cell>
 				<cell>23</cell>

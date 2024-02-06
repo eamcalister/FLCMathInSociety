@@ -1737,7 +1737,7 @@
 	</statement>
 	<solution>
 		<p>
-			2This is a misleading graph because the $-1320 in April represents a loss (instead of a profit), but the height of the bar for April looks like a profit. Also, the horizontal axis label is <q>Year</q>, but the bar labels are months.
+			This is a misleading graph because the -$1320 in April represents a loss (instead of a profit), but the height of the bar for April looks like a profit. Also, the horizontal axis label is <q>Year</q>, but the bar labels are months.
 		</p>
 	</solution>
 </exercise>

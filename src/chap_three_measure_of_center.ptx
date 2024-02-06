@@ -433,7 +433,7 @@
 <exercise xml:id="diners_example"><!--  #1 -->
 	<statement>
 	<p>
-		A group of diners were asked how much they would pay for a meal. Their responses were: $7.50, $25.00, $10.00, $10.00, $7.50, $8.25, $9.00, $5.00, $15.00, $8.00, $7.25, $7.50, $8.00, $7.00. $12.00.
+		A group of diners were asked how much they would pay for a meal. Their responses were: $7.50, $25.00, $10.00, $10.00, $7.50, $8.25, $9.00, $5.00, $15.00, $8.00, $7.25, $7.50, $8.00, $7.00, $12.00.
 	</p>
 	<p>
 	<ol label="a.">
@@ -1902,7 +1902,7 @@
 <exercise>
 	<statement>
 	<p>
-		For each of the following distributions, would you expect that the mean is less than the median, less than the median, or equal to the median? Explain your reasoning.
+		For each of the following distributions, would you expect that the mean is less than the median, greater than the median, or approximately equal to the median? Explain your reasoning.
 	</p>
 	<p>
 		<ol label="a.">
@@ -1913,7 +1913,7 @@
 			</li>
 			<li>
 				<p>
-					Weights of newborn babies
+					Weights of newborn babies born at term
 				</p>
 			</li>
 			<li>
@@ -1936,7 +1936,33 @@
 	</statement>
 	<solution>
 	<p>
-		Answers will vary.
+		<ol label="a.">
+			<li>
+				<p>
+					Incomes are skewed to the right so the mean would be greater than the median.
+				</p>
+			</li>
+			<li>
+				<p>
+					Weights are approximately symmetric so the mean would be about the same as the median.
+				</p>
+			</li>
+			<li>
+				<p>
+					Number of children is skewed to the right so the mean would be greater than the median.
+				</p>
+			</li>
+			<li>
+				<p>
+					Medical costs for all adults are most likely skewed to the right so the mean would be greater than the median.
+				</p>
+			</li>
+			<li>
+				<p>
+					Medical costs for adults 65+ may be symmetric or skewed to the right. Answer according to the shape you chose.
+				</p>
+			</li>
+		</ol>
 	</p>
 	</solution>
 </exercise>

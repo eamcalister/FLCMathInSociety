@@ -659,7 +659,7 @@
 		Replacing <m>P_{m}</m> with <m>A</m> (Future Value), <m>m</m> months with <m>12t</m>, where <m>t</m> is measured in years, gives
 	</p>
 	<p>
-		<m>A=\frac{100(1.005)^{12t}-1}{0.005}</m>
+		<m>A=\frac{100\left((1.005)^{12t}-1\right)}{0.005}</m>
 	</p>
 
 	<p>

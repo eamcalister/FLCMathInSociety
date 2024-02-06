@@ -27,7 +27,7 @@
 			</li>
 			<li>
 				<p>
-					Calculate income tax from tables 
+					Calculate income tax from tables
 				</p>
 			</li>
 			<li>
@@ -170,33 +170,33 @@
 	</p>
 
 	<p>
-		Your filing status determines your standard deduction and tax liability. The standard deduction for each filing status for the tax year 2018 is given in the table below.
+		Your filing status determines your standard deduction and tax liability. The standard deduction for each filing status for the tax year 2024 is given in the table below.
 	</p>
 	<sidebyside>
 		<tabular top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell halign="left">Filing Status</cell>
-				<cell halign="center">Standard Deduction for Tax Year 2018</cell>
+				<cell halign="center">Standard Deduction for Tax Year 2024</cell>
 			</row>
 			<row>
 				<cell halign="left">Single</cell>
-				<cell halign="center">$12000</cell>
+				<cell halign="center">$14600</cell>
 			</row>
 			<row>
 				<cell halign="left">Married Filing Jointly</cell>
-				<cell halign="center">$24000</cell>
+				<cell halign="center">$29200</cell>
 			</row>
 			<row>
 				<cell halign="left">Married Filing Separately</cell>
-				<cell halign="center">$12000</cell>
+				<cell halign="center">$14600</cell>
 			</row>
 			<row>
 				<cell halign="left">Head of Household</cell>
-				<cell halign="center">$18000</cell>
+				<cell halign="center">$21900</cell>
 			</row>
 			<row>
 				<cell halign="left">Qualifying Widow</cell>
-				<cell halign="center">$24000</cell>
+				<cell halign="center">$29200</cell>
 			</row>
 		</tabular>
 	</sidebyside>
@@ -255,7 +255,7 @@
 	</p>
 	<sidebyside>
 		<table>
-			<title>2018 Tax Year Marginal Tax Rates</title>
+			<title>2024 Tax Year Marginal Tax Rates</title>
 	<tabular top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell><line>Marginal Tax Rate</line><line>On Taxable Income</line></cell>
@@ -266,52 +266,52 @@
 		</row>
 		<row>
 			<cell halign="center">10%</cell>
-			<cell>First $9,525</cell>
-			<cell>First $13,600</cell>
-			<cell>First $19,050</cell>
-			<cell>First $9,525</cell>
+			<cell>First $11,600</cell>
+			<cell>First $16,550</cell>
+			<cell>First $23,200</cell>
+			<cell>First $11,600</cell>
 		</row>
 		<row>
 			<cell halign="center">12%</cell>
-			<cell>$9,525 – $38,700</cell>
-			<cell>$13,600 – $51,800</cell>
-			<cell>$19,050 – $77,400</cell>
-			<cell>$9,525 – $38,700</cell>
+			<cell>$11,600 – $47,150</cell>
+			<cell>$16,550 – $63,100</cell>
+			<cell>$23,200 – $94,300</cell>
+			<cell>$11,600 – $47,150</cell>
 		</row>
 		<row>
 			<cell halign="center">22%</cell>
-			<cell>$38,700 – $82,500</cell>
-			<cell>$51,800 – $82,500</cell>
-			<cell>$77,400 – $165,000</cell>
-			<cell>$38,700 – $82,500</cell>
+			<cell>$47,150 – $100,525</cell>
+			<cell>$63,100 – $100,500</cell>
+			<cell>$94,300 – $201,050</cell>
+			<cell>$47,150 – $100,525</cell>
 		</row>
 		<row>
 			<cell halign="center">24%</cell>
-			<cell>$82,500 – $157,500</cell>
-			<cell>$82,500 – $157,500</cell>
-			<cell>$165,000 – $315,000</cell>
-			<cell>$82,500 – $157,500</cell>
+			<cell>$100,525 – $191,950</cell>
+			<cell>$100,500 – $191,950</cell>
+			<cell>$201,050 – $383,900</cell>
+			<cell>$100,525 – $191,950</cell>
 		</row>
 		<row>
 			<cell halign="center">32%</cell>
-			<cell>$157,500 – $200,000</cell>
-			<cell>$157,500 – $200,000</cell>
-			<cell>$315,000 – $400,000</cell>
-			<cell>$157,500 – $200,000</cell>
+			<cell>$191,950 – $243,725</cell>
+			<cell>$191,950 – $243,700</cell>
+			<cell>$383,900 – $487,450</cell>
+			<cell>$191,950 – $243,725</cell>
 		</row>
 		<row>
 			<cell halign="center">35%</cell>
-			<cell>$200,000 – $500,000</cell>
-			<cell>$200,000 – $500,000</cell>
-			<cell>$400,000 – $600,000</cell>
-			<cell>$200,000 – $300,000</cell>
+			<cell>$243,725 – $609,350</cell>
+			<cell>$243,700 – $609,350</cell>
+			<cell>$487,450 – $731,200</cell>
+			<cell>$243,725 – $365,600</cell>
 		</row>
 		<row>
 			<cell halign="center">37%</cell>
-			<cell>Over $500,000</cell>
-			<cell>Over $500,000</cell>
-			<cell>Over $600,000</cell>
-			<cell>Over $300,000</cell>
+			<cell>Over $609,350</cell>
+			<cell>Over $609,350</cell>
+			<cell>Over $731,200</cell>
+			<cell>Over $365,600</cell>
 		</row>
 	</tabular>
 </table>
@@ -328,22 +328,22 @@
 		</statement>
 		<solution>
 			<p>
-				We begin with the lowest tax bracket and take 10% of $9,525. Since their income is higher than that, we add 12% of the next amount, found by subtracting the values in that bracket. Avery’s taxable income is in the 22% tax bracket, so we find the amount over $38,700 by subtracting. Here is the full calculation:
+				We begin with the lowest tax bracket and take 10% of $11,600. Since their income is higher than that, we add 12% of the next amount, found by subtracting the values in that bracket. Avery’s taxable income is in the 22% tax bracket, so we find the amount over $38,700 by subtracting. Here is the full calculation:
 			</p>
 			<!-- TODO: test -->
 			<p>
 				<md>
-					<mrow>0.10(\$9,525)+0.12(\$38,700-\$9,525)+0.22(\$55,100-\$38,700)\amp=0.10(\$9,525)+0.12(\$29,175)+0.22(\$16,400)</mrow>
-					<mrow>\amp=\$952.50+\$3,501+\$3,608</mrow>
-					<mrow>\amp=\$4,453.50+\$3,608</mrow>
-					<mrow>\amp=\$8,043.50</mrow>
+					<mrow>0.10(\$11,600)+0.12(\$47,150-\$11,600)+0.22(\$55,100-\$47,150)\amp=0.10(\$11,600)+0.12(\$35,550)+0.22(\$7,950)</mrow>
+					<mrow>\amp=\$1160+\$4,266+\$1,749</mrow>
+					<mrow>\amp=\$5,426+\$1,749</mrow>
+					<mrow>\amp=\$7,175</mrow>
 				</md>
 			</p>
 			<p>
-				Avery would owe $8,043.50 in taxes. Note that their overall tax rate is somewhere between 10% and 22%. We can calculate the actual rate by dividing their tax owed by their taxable income:
+				Avery would owe $7,175 in taxes. Note that their overall tax rate is somewhere between 10% and 22%. We can calculate the actual rate by dividing their tax owed by their taxable income:
 			</p>
 			<p>
-				<m>\frac{\$8,043.50}{\$55,100}=0.1459</m> or about 15%
+				<m>\frac{\$7,175}{\$55,100}=0.1302</m> or about 13%
 			</p>
 		</solution>
 </example>
@@ -352,43 +352,43 @@
 		We could calculate all taxes this way, but you might notice that the first few terms will be the same if the buckets are full. For this reason, we can simplify these tax tables. The tax tables below give the value for all of the lower tax buckets that are full. There is a tax table for each filing status and the cutoffs are regularly adjusted for inflation, so they usually vary from year to year.
 	</p>
 	<p>
-		The next four tables give the tax calculations for 2018 federal income taxes by filing status.
+		The next four tables give the tax calculations for 2024 federal income taxes by filing status.
 	</p>
 	<sidebyside>
 		<table>
-			<title>Filing as Single (Tax Year 2018)</title>
+			<title>Filing as Single (Tax Year 2024)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>If taxable income is:</cell>
 				<cell>The tax is:</cell>
 			</row>
 			<row>
-				<cell>Not over $9,525</cell>
+				<cell>Not over $11,600</cell>
 				<cell>10% of the taxable income</cell>
 			</row>
 			<row>
-				<cell>Over $9,525 but not over $38,700</cell>
-				<cell>$952.50 plus 12% of the excess over $9,525</cell>
+				<cell>Over $11,600 but not over $47,150</cell>
+				<cell>$1,160 plus 12% of the excess over $11,600</cell>
 			</row>
 			<row>
-				<cell>Over $38,700 but not over $82,500</cell>
-				<cell>$4,453.50 plus 22% of the excess over $38,700</cell>
+				<cell>Over $47,150 but not over $100,525</cell>
+				<cell>$5,426 plus 22% of the excess over $47,150</cell>
 			</row>
 			<row>
-				<cell>Over $82,500 but not over $157,500</cell>
-				<cell>$14,089.50 plus 24% of the excess over $82,500</cell>
+				<cell>Over $100,525 but not over $191,950</cell>
+				<cell>$17,168.50 plus 24% of the excess over $100,525</cell>
 			</row>
 			<row>
-				<cell>Over $157,500 but not over $200,000</cell>
-				<cell>$32,089.50 plus 32% of the excess over $157,500</cell>
+				<cell>Over $191,950 but not over $243,725</cell>
+				<cell>$39,110.50 plus 32% of the excess over $191,950</cell>
 			</row>
 			<row>
-				<cell>Over $200,000 but not over $500,000</cell>
-				<cell>$45,689.50 plus 35% of the excess over $200,000</cell>
+				<cell>Over $243,725 but not over $609,350</cell>
+				<cell>$55,678.50 plus 35% of the excess over $243,725</cell>
 			</row>
 			<row>
-				<cell>Over $500,000</cell>
-				<cell>$150,689.50 plus 37% of the excess over $500,000</cell>
+				<cell>Over $609,350</cell>
+				<cell>$183,647.25 plus 37% of the excess over $609,350</cell>
 			</row>
 		</tabular>
 	</table>
@@ -396,39 +396,39 @@
 
 	<sidebyside>
 		<table>
-			<title>Filing as Head of Household (Tax Year 2018)</title>
+			<title>Filing as Head of Household (Tax Year 2024)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>If taxable income is:</cell>
 				<cell>The tax is:</cell>
 			</row>
 			<row>
-				<cell>Not over $13,600</cell>
+				<cell>Not over $16,650</cell>
 				<cell>10% of the taxable income</cell>
 			</row>
 			<row>
-				<cell>Over $13,600 but not over $51,800</cell>
-				<cell>$1,360 plus 12% of the excess over $13,600</cell>
+				<cell>Over $16,650 but not over $63,100</cell>
+				<cell>$1,665 plus 12% of the excess over $16,650</cell>
 			</row>
 			<row>
-				<cell>Over $51,800 but not over $82,500</cell>
-				<cell>$5,944 plus 22% of the excess over $51,800</cell>
+				<cell>Over $63,100 but not over $100,500</cell>
+				<cell>$7,241 plus 22% of the excess over $63,100</cell>
 			</row>
 			<row>
-				<cell>Over $82,500 but not over $157,500</cell>
-				<cell>$12,698 plus 24% of the excess over $82,500</cell>
+				<cell>Over $100,500 but not over $191,950</cell>
+				<cell>$15,469 plus 24% of the excess over $100,500</cell>
 			</row>
 			<row>
-				<cell>Over $157,500 but not over $200,000</cell>
-				<cell>$30,698 plus 32% of the excess over $157,500</cell>
+				<cell>Over $191,950 but not over $243,700</cell>
+				<cell>$37,417 plus 32% of the excess over $191,950</cell>
 			</row>
 			<row>
-				<cell>Over $200,000 but not over $500,000</cell>
-				<cell>$44,298 plus 35% of the excess over $200,000</cell>
+				<cell>Over $243,700 but not over $609,350</cell>
+				<cell>$53,977 plus 35% of the excess over $243,700</cell>
 			</row>
 			<row>
-				<cell>Over $500,000</cell>
-				<cell>$149,298 plus 37% of the excess over $500,000</cell>
+				<cell>Over $609,350</cell>
+				<cell>$181,954.50 plus 37% of the excess over $609,350</cell>
 			</row>
 		</tabular>
 	</table>
@@ -436,39 +436,39 @@
 
 	<sidebyside>
 		<table>
-			<title>Married Filing Jointly (Tax Year 2018)</title>
+			<title>Married Filing Jointly (Tax Year 2024)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>If taxable income is:</cell>
 				<cell>The tax is:</cell>
 			</row>
 			<row>
-				<cell>Not over $19,050</cell>
+				<cell>Not over $23,200</cell>
 				<cell>10% of the taxable income</cell>
 			</row>
 			<row>
-				<cell>Over $19,050 but not over $77,400</cell>
-				<cell>$1,905 plus 12% of the excess over $19,050</cell>
+				<cell>Over $23,200 but not over $94,300</cell>
+				<cell>$2,320 plus 12% of the excess over $23,200</cell>
 			</row>
 			<row>
-				<cell>Over $77,400 but not over $165,000</cell>
-				<cell>$8,907 plus 22% of the excess over $77,400</cell>
+				<cell>Over $94,300 but not over $201,050</cell>
+				<cell>$10,852 plus 22% of the excess over $94,300</cell>
 			</row>
 			<row>
-				<cell>Over $165,000 but not over $315,000</cell>
-				<cell>$28,179 plus 24% of the excess over $165,000</cell>
+				<cell>Over $201,050 but not over $383,900</cell>
+				<cell>$34,337 plus 24% of the excess over $201,050</cell>
 			</row>
 			<row>
-				<cell>Over $315,000 but not over $400,000</cell>
-				<cell>$64,179 plus 32% of the excess over $315,000</cell>
+				<cell>Over $383,900 but not over $487,450</cell>
+				<cell>$78,221 plus 32% of the excess over $383,900</cell>
 			</row>
 			<row>
-				<cell>Over $400,000 but not over $600,000</cell>
-				<cell>$91,379 plus 35% of the excess over $400,000</cell>
+				<cell>Over $487,450 but not over $731,200</cell>
+				<cell>$111,357 plus 35% of the excess over $487,450</cell>
 			</row>
 			<row>
-				<cell>Over $600,000</cell>
-				<cell>$161,379 plus 37% of the excess over $600,000</cell>
+				<cell>Over $731,200</cell>
+				<cell>$196,669.50 plus 37% of the excess over $731,200</cell>
 			</row>
 		</tabular>
 	</table>
@@ -476,39 +476,39 @@
 
 	<sidebyside>
 		<table>
-			<title>Married Filing Separately (Tax Year 2018)</title>
+			<title>Married Filing Separately (Tax Year 2024)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>If taxable income is:</cell>
 				<cell>The tax is:</cell>
 			</row>
 			<row>
-				<cell>Not over $9,525</cell>
+				<cell>Not over $11,600</cell>
 				<cell>10% of the taxable income</cell>
 			</row>
 			<row>
-				<cell>Over $9,525 but not over $38,700</cell>
-				<cell>$952.50 plus 12% of the excess over $9,525</cell>
+				<cell>Over $11,600 but not over $47,150</cell>
+				<cell>$1,160 plus 12% of the excess over $11,600</cell>
 			</row>
 			<row>
-				<cell>Over $38,700 but not over $82,500</cell>
-				<cell>$4,453.50 plus 22% of the excess over $38,700</cell>
+				<cell>Over $47,150 but not over $100,525</cell>
+				<cell>$5,426 plus 22% of the excess over $47,150</cell>
 			</row>
 			<row>
-				<cell>Over $82,500 but not over $157,500</cell>
-				<cell>$14,089.50 plus 24% of the excess over $82,500</cell>
+				<cell>Over $100,525 but not over $191,950</cell>
+				<cell>$17,168.50 plus 24% of the excess over $100,525</cell>
 			</row>
 			<row>
-				<cell>Over $157,500 but not over $200,000</cell>
-				<cell>$32,089.50 plus 32% of the excess over $157,500</cell>
+				<cell>Over $191,950 but not over $243,725</cell>
+				<cell>$39,110.50 plus 32% of the excess over $191,950</cell>
 			</row>
 			<row>
-				<cell>Over $200,000 but not over $300,000</cell>
-				<cell>$45,689.50 plus 35% of the excess over $200,000</cell>
+				<cell>Over $243,725 but not over $365,600</cell>
+				<cell>$55,678.50 plus 35% of the excess over $243,725</cell>
 			</row>
 			<row>
-				<cell>Over $300,000</cell>
-				<cell>$80,689.50 plus 37% of the excess over $300,000</cell>
+				<cell>Over $365,600</cell>
+				<cell>$98,334.75 plus 37% of the excess over $365,600</cell>
 			</row>
 		</tabular>
 	</table>
@@ -517,7 +517,7 @@
 	<example>
 		<statement>
 		<p>
-			Suppose Adira is filing as head of household and has a taxable income of $86,450. Calculate her taxes using the individual tax brackets and with the simplified table. 
+			Suppose Adira is filing as head of household and has a taxable income of $106,450. Calculate her taxes using the individual tax brackets and with the simplified table.
 		</p>
 		</statement>
 		<solution>
@@ -525,28 +525,28 @@
 			We will calculate Adira’s taxes first the long way:
 		</p>
 		<p>
-			<m>0.10(\$13,600)+0.12(\$51,800-\$13,600)+0.22(\$82,500-\$51,800)+0.24(\$86,450-\$82,500)</m>
+			<m>0.10(\$16,650)+0.12(\$63,100-\$16,650)+0.22(\$100,500-\$63,100)+0.24(\$106,450-\$100,500)</m>
 		</p>
 		<p>
-			<md>
-				<mrow>\amp=0.10(\$13,600)+0.12(\$38,200)+0.22(\$30,700)+0.24(\$3,950)</mrow>
-				<mrow>\amp=\$1,360+\$4,584+\$6,754+\$948</mrow>
-				<mrow>\amp=\$12,698+\$948</mrow>
-				<mrow>\amp=\$13,646</mrow>
+			<md><!-- try this example with another filing status to see if it comes out exact -->
+				<mrow>\amp=0.10(\$16,650)+0.12(\$46,450)+0.22(\$37,400)+0.24(\$5,950)</mrow>
+				<mrow>\amp=\$1,665+\$5,574+\$8,228+\$1,428</mrow>
+				<mrow>\amp=\$15,467+\$1,428</mrow>
+				<mrow>\amp=\$16,895</mrow>
 			</md>
 		</p>
 		<p>
-			Now, using the simplified tax table for single filing status, we see that Adira’s taxable income puts her in the 24% tax bracket. The simplified table tells us that her taxes will be equal to $12,698 plus 24% of the excess over $82,500. Notice the number $12,698 is the same value we got for all of the “full” tax brackets, so we only need to calculate the last one. To find the excess over $82,500, we subtract $82,500 from her taxable income. Thus, her taxes are:
+			Now, using the simplified tax table for single filing status, we see that Adira’s taxable income puts her in the 24% tax bracket. The simplified table tells us that her taxes will be equal to $15,469 plus 24% of the excess over $100,500. Notice the number $15,469 is very close to what we got for all of the “full” tax brackets, so we only need to calculate the last one. To find the excess over $82,500, we subtract $82,500 from her taxable income. Thus, her taxes are:
 		</p>
 		<p>
 			<md>
-				<mrow>\$12,698+0.24(\$86,450-\$82,500)\amp=\$12,698+0.24(\$3,950)</mrow>
-				<mrow>\amp=\$12,698+\$948</mrow>
-				<mrow>\amp=\$13,646</mrow>
+				<mrow>\$15,469+0.24(\$106,450-\$100,500)\amp=\$15,469+0.24(\$1,428)</mrow>
+				<mrow>\amp=\$15,469+\$1,428</mrow>
+				<mrow>\amp=\$16,897</mrow>
 			</md>
 		</p>
 		<p>
-			We see that both methods result in the same value, $13,646, for Adira’s taxes.
+			We see that both methods result in the same value, $16,897, for Adira’s taxes.
 		</p>
 	</solution>
 	</example>
@@ -554,22 +554,22 @@
 	<example xml:id="phyllis_gladys">
 		<statement>
 		<p>
-		 	Phyllis and Gladys are married and filing jointly. Together their taxable income is $112,000. Use the simplified 2018 tax tables from this section to determine how much they owe in taxes.
+		 	Phyllis and Gladys are married and filing jointly. Together their taxable income is $132,000. Use the simplified 2024 tax tables from this section to determine how much they owe in taxes.
 		 </p>
 		</statement>
 		 <solution>
 		 <p>
-		 	Since Phyllis and Gladys are married and filing jointly, their taxable income puts them in the 22% tax bracket. Using the simplified 2018 tax table, their taxes are $8,907 plus 22% of the excess over $77,400:
+		 	Since Phyllis and Gladys are married and filing jointly, their taxable income puts them in the 22% tax bracket. Using the simplified 2024 tax table, their taxes are $10,852 plus 22% of the excess over $94,300:
 		</p>
 		<p>
 			<md>
-				<mrow>\$8,907+0.22(\$112,000-\$77,400)\amp=\$8,907+0.22(\$34,600)</mrow>
-				<mrow>\amp=\$8,907+\$7,612</mrow>
-				<mrow>\amp=\$16,519</mrow>
+				<mrow>\$10,852+0.22(\$132,000-\$94,300)\amp=\$10,852+0.22(\$37,700)</mrow>
+				<mrow>\amp=\$10,852+\$8,294</mrow>
+				<mrow>\amp=\$19,146</mrow>
 			</md>
 		</p>
 		<p>
-			Phyllis and Gladys owe $16,519 in taxes. 
+			Phyllis and Gladys owe $19,146 in taxes.
 		</p>
 	</solution>
 	</example>
@@ -578,7 +578,7 @@
 	<title>Tax Credits</title>
 	<p>
 		<alert>Tax credits</alert> are different from deductions in that they reduce the amount of tax you owe by the full amount of the credit, not just a percentage. This makes credits much more valuable than deductions.
-	</p> 
+	</p>
 
 	<p>
 		Common tax credits include child tax credits, earned income credits, child and dependent care credits, American opportunity tax credits, lifetime learning credits, and various federal energy credits.
@@ -600,7 +600,7 @@
 <subsection>
 	<title>Calculating a Refund or Payment Due</title>
 	<p>
-		Employers are required to take out an estimated amount for taxes from each of our paychecks. These withholdings are taken out, so we don’t all have huge tax bills at the end of the year, and so the government has the income it needs to run. When you file your taxes, you compare the amount of tax you actually owe, with the withholdings from your paycheck. If you had more withheld during the year than you owe, you will file for a refund. If your withholdings were less, though, you must pay the difference. Let’s look at a couple of examples with tax credits and withholdings. 
+		Employers are required to take out an estimated amount for taxes from each of our paychecks. These withholdings are taken out, so we don’t all have huge tax bills at the end of the year, and so the government has the income it needs to run. When you file your taxes, you compare the amount of tax you actually owe, with the withholdings from your paycheck. If you had more withheld during the year than you owe, you will file for a refund. If your withholdings were less, though, you must pay the difference. Let’s look at a couple of examples with tax credits and withholdings.
 	</p>
 	<example>
 		<statement>
@@ -631,7 +631,7 @@
 	<example>
 		<statement>
 		<p>
-			As we discovered in <xref ref="phyllis_gladys"></xref>, Phyllis and Gladys owe $16,519 in taxes. Their employers withheld $8,980 and they received a $7,500 credit for their purchase of an electric car. Will they receive a refund, or will they need to make a payment?
+			As we discovered in <xref ref="phyllis_gladys"></xref>, Phyllis and Gladys owe $19,146 in taxes. Their employers withheld $9,905 and they received a $8,500 credit for their purchase of an electric car. Will they receive a refund, or will they need to make a payment?
 		</p>
 		</statement>
 		<solution>
@@ -639,16 +639,16 @@
 			To determine whether they will receive a refund or if they will still owe money, we will first subtract the full amount of the electric car credit.
 		</p>
 		<p>
-			<m>\$16,519-\$7,500=\$9,019</m>
+			<m>\$19,146-\$8,500=\$10,646</m>
 		</p>
 		<p>
 			We now subtract their withholdings:
 		</p>
 		<p>
-			<m>\$9,019-\$8,980=\$39</m>
+			<m>\$10,646-\$9,905=\$741</m>
 		</p>
 		<p>
-			Since the value is positive, Phyllis and Gladys still owe $39 in taxes. 
+			Since the value is positive, Phyllis and Gladys still owe $741 in taxes.
 		</p>
 		</solution>
 	</example>
@@ -738,12 +738,12 @@
 <exercise><!--  #7 -->
 	<statement>
 		<p>
-			Shaysiah has paid $11,500 in mortgage interest which she can take as a deduction and has $1,500 in other deductions that she can take this year. She is filing as single. Should she itemize her deductions or take the standard deduction?
+			Shaysiah has paid $13,500 in mortgage interest which she can take as a deduction and has $1,900 in other deductions that she can take this year. She is filing as single. Should she itemize her deductions or take the standard deduction?
 		</p>
 	</statement>
 	<solution>
 		<p>
-			She should itemize because itemizing reduces her taxable income by $13,000. The standard deduction would have reduced her taxable income by $12,000.
+			Shaysiah should itemize because itemizing reduces her taxable income by $15,400. The standard deduction would have reduced her taxable income by $14,600.
 		</p>
 	</solution>
 </exercise>
@@ -769,7 +769,7 @@
 	</statement>
 	<solution>
 		<p>
-			No, he should not be concerned. Only the $1000 will be taxed at 22%. The rest of his income will be taxed at a lower level.
+			No, Fredrick should not be concerned. Only the $1000 will be taxed at 22%. The rest of his income will be taxed at a lower level.
 		</p>
 	</solution>
 </exercise>
@@ -777,12 +777,12 @@
 <exercise><!--  #10 -->
 	<statement>
 		<p>
-			A single person with taxable income of $95,000 will have the first $9,525 of that income taxed at what rate? Determine the taxes owed on just the first $9,525.
+			A single person with taxable income of $95,000 will have the first $11,600 of that income taxed at what rate? Determine the taxes owed on just the first $11,600.
 		</p>
 	</statement>
 	<solution>
 		<p>
-			The first $9,525 will be taxed at 10% resulting in $952.50 owed in taxes.
+			The first $11,600 will be taxed at 10% resulting in $1,160 owed in taxes.
 		</p>
 	</solution>
 </exercise>
@@ -790,12 +790,12 @@
 <exercise><!--  #11 -->
 	<statement>
 		<p>
-			A single person with taxable income of $185,000 will have the first $9,525 of that income taxed at a different rate than the income between $9,525 and $38,700. Determine the taxes owed on just the second bracket.
+			A single person with taxable income of $185,000 will have the first $11,600 of that income taxed at a different rate than the income between $11,600 and $47,150. Determine the taxes owed on just the second bracket.
 		</p>
 	</statement>
 	<solution>
 		<p>
-			There is a total of $29,175 between $9,525 and $38,700. 12% of $29,175 is $3,501.
+			There is a total of $35,550 between $11,600 and $47,150. 12% of $35,550 is $4,266.
 		</p>
 	</solution>
 </exercise>
@@ -803,15 +803,15 @@
 <exercise>
 	<statement>
 	<p>
-		Using the simplified 2018 tax table, determine the income tax owed for a single person who has $80,000 of taxable income.
+		Using the simplified 2024 tax table, determine the income tax owed for a single person who has $90,000 of taxable income.
 	</p>
 	</statement>
 	<solution>
 		<p>
-			$80,000 falls into the third tax bracket. The first two brackets resulted in $952.50 and $3,501. The third bracket has $41,300 being taxed at the higher rate of 22%. This results in a tax of $13,539.50.
+			$90,000 falls into the third tax bracket. The first two brackets resulted in $5,426 and the third bracket has the excess over $47,150 being taxed at the higher rate of 22%. This results in a tax of $13,539.50.
 		</p>
 		<p>
-			<m>4453.50+0.22*(80000-38700)=\$13,539.50</m>
+			<m>5426+0.22*(90000-47150)=\$14,853</m>
 		</p>
 	</solution>
 </exercise>
@@ -856,7 +856,7 @@
 		</li>
 		<li>
 			<p>
-				Gross Income: $125,000
+				Gross Income: $135,000
 			</p>
 		</li>
 		<li>
@@ -866,7 +866,7 @@
 		</li>
 		<li>
 			<p>
-				Itemized Deductions: $11,400
+				Itemized Deductions: $19,400
 			</p>
 		</li>
 		<li>
@@ -906,7 +906,7 @@
 		<ol label="a.">
 			<li>
 				<p>
-					Take the income minus the adjustments <m>125000-5600=\$119,400</m>. Their adjusted gross income is $119,400.
+					Take the income minus the adjustments <m>135000-5600=\$129,400</m>. Their adjusted gross income is $129,400.
 				</p>
 			</li>
 			<li>
@@ -916,18 +916,18 @@
 			</li>
 			<li>
 				<p>
-					Taxable income: <m>119400-24000=95400</m>
+					Taxable income: <m>129400-29200=100200</m>
 				</p>
 				<p>
-					Taxes owed: <m>8907+0.22*(95400-77400)=\$12,867</m>
+					Taxes owed: <m>10852+0.22*(100200-94300)=\$12,150</m>
 				</p>
 				<p>
-					They owe $12,867 in taxes.
+					They owe $12,150 in taxes.
 				</p>
 			</li>
 			<li>
 				<p>
-					<m>12867-15000=-\$2,133</m> Take the taxes owed minus credits and withholdings. They will receive a refund for $2,133. 
+					<m>12150-15000=-\$2,850</m> Take the taxes owed minus credits and withholdings. They will receive a refund for $2,850. 
 				</p>
 			</li>
 		</ol>
@@ -937,7 +937,7 @@
 
 <exercise>
 	<statement>
-	<p>
+	<p><!-- place -->
 		Francis and Edward are planning to get married and they want to determine whether there is an advantage or disadvantage to marrying before the end of the year and filing their taxes jointly. Use the information below to calculate the amount they would owe or receive if they each filed as single, and the amount they would owe or receive if they filed jointly as a married couple. Which is the better choice?
 	</p>
 	<p>
@@ -949,42 +949,42 @@
 		</li>
 		<li>
 			<p>
-				Francis' Gross Income: $35,000
+				Francis' Gross Income: $45,000
 			</p>
 		</li>
 		<li>
 			<p>
-				Edward's Gross Income: $40,000
+				Edward's Gross Income: $50,000
 			</p>
 		</li>
 		<li>
 			<p>
-				Francis' Adjustments: $7000
+				Francis' Adjustments: $8,000
 			</p>
 		</li>
 		<li>
 			<p>
-				Edward's Adjustments: $3000
+				Edward's Adjustments: $4,000
 			</p>
 		</li>
 		<li>
 			<p>
-				Francis' Withholdings: $14000
+				Francis' Withholdings: $3,000
 			</p>
 		</li>
 		<li>
 			<p>
-				Edward's Withholdings: $5500
+				Edward's Withholdings: $3,500
 			</p>
 		</li>
 		<li>
 			<p>
-				Francis' Credits: $4000
+				Francis' Credits: $4,000
 			</p>
 		</li>
 		<li>
 			<p>
-				Edward's Credits: $5000
+				Edward's Credits: $1,000
 			</p>
 		</li>
 	</ul>
@@ -996,57 +996,57 @@
 			<ul>
 				<li>
 					<p>
-						Francis: Taxable Income <m>35000-7000-12000 = \$16,000</m>
+						Francis: Taxable Income <m>45000-8000-14600 = \$22,400</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						Tax from Table: <m> 952.5+0.12*(16000-9525) = \$1,729.50</m> 
+						Tax from Table: <m> 1160+0.12*(22400-11600) = \$2,456</m> 
 					</p>
 				</li>
 				<li>
 					<p>
-						Owed/Refund: <m>1729.50 – 14000-4000 = -\$16,270.50</m>
+						Owed/Refund: <m>2456 – 3000 - 4000 = -\$4,544</m>
 					</p>
 				</li>
 			</ul>
 			<ul>
 				<li>
 					<p>
-						Edward: Taxable Income <m> 40000-3000-12000 = \$25,000</m>
+						Edward: Taxable Income <m> 50000-4000-14600 = \$31,400</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						Tax from Table: <m>952.50+0.12*(25000-9525) = \$2,809.50</m> 
+						Tax from Table: <m>1160+0.12*(31400-11600) = \$3,536</m> 
 					</p>
 				</li>
 				<li>
 					<p>
-						Owed/Refund: <m> 2809.50 -5500-5000 = -\$7,690.50</m>
+						Owed/Refund: <m> 3536 - 3500 - 1000 = -\$964</m>
 					</p>
 				</li>
 			</ul>
 		</p>
 		<p>
-			Altogether, they will get a <m>16270.50+7690.50 = \$23,961</m> refund. 
+			Altogether, they will get a <m>4544 + 964 = \$5,508</m> refund.
 		</p>
 		<p>
 			MARRIED CASE:
 			<ul>
 				<li>
 					<p>
-						Taxable income: <m>(35000+40000) – (7000+3000) – 24000 = \$41,000</m> 
+						Taxable income: <m>(45000+50000) – (8000+4000) – 29200 = \$53,800</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						Tax from Table: <m>1905 + 0.12*(41000-19050) = \$4,539</m> 
+						Tax from Table: <m>2320 + 0.12*(53800-23200) = \$5,992</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						Owed/Refund: <m>4539 – (14000 + 5500) – (4000+5000) = -\$23,961</m>
+						Owed/Refund: <m>5992 – (3000 + 3500) – (4000+1000) = -\$5,508</m>
 					</p>
 				</li>
 			</ul>
@@ -1060,7 +1060,7 @@
 <exercise>
 	<statement>
 	<p>
-		Janice is unmarried and has two kids. She earned $76,000 in wages last year, received $750 in interest from a savings account, and contributed $25,000 to a tax deferred savings account. Her itemized deductions are $19,600.
+		Janice is unmarried and has two kids. She earned $96,000 in wages last year, received $850 in interest from a savings account, and contributed $26,000 to a tax deferred savings account. Her itemized deductions are $22,600.
 	</p>
 	<p>
 	<ol label="a.">
@@ -1086,7 +1086,7 @@
 		</li>
 		<li>
 			<p>
-				If Janice has $4,200 in child tax credits and had $6,300 withheld for taxes from her wages, will Janice owe money, or will she receive a refund? Calculate the amount.
+				If Janice has $4,000 in child tax credits and had $5,300 withheld for taxes from her wages, will Janice owe money, or will she receive a refund? Calculate the amount.
 			</p>
 		</li>
 	</ol>
@@ -1097,12 +1097,12 @@
 		<ol label="a.">
 			<li>
 				<p>
-					Gross Income: <m> 76000+750 = \$76,750</m>
+					Gross Income: <m> 96000+850 = \$96,850</m>
 				</p>
 			</li>
 			<li>
 				<p>
-					Adjusted Gross Income: <m> 76750-25000 = \$51,750</m>
+					Adjusted Gross Income: <m> 96850-26000 = \$70,850</m>
 				</p>
 			</li>
 			<li>
@@ -1112,15 +1112,15 @@
 			</li>
 			<li>
 				<p>
-					Taxable Income: <m> 51750-19600 = \$32,150 </m>
+					Taxable Income: <m> 70850-22600 = \$48,250 </m>
 				</p>
 			</li>
 			<li>
 				<p>
-					Tax from Table: <m>1360+0.12*(32150-13600) = \$3,586</m>. Owed/Refund: <m> 3586 – 4200 – 6300 = - \$6,914</m>
+					Tax from Table: <m>1665 + 0.12*(48250 - 16650) = \$5,457</m>. Owed/Refund: <m> 5457 – 4000 – 5300 = - \$3,843</m>
 				</p>
 				<p>
-					Janice will receive a refund for $6,914.
+					Janice will receive a refund for $3,843.
 				</p>
 			</li>
 		</ol>

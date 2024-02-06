@@ -74,7 +74,7 @@
 	<assemblage>
 		<title>Sample Standard Deviation</title>
 		<p>
-			<me>s=\sqrt{\frac{\text{Sum of the squared deviations from teh mean}}{n-1}}</me>
+			<me>s=\sqrt{\frac{\text{Sum of the squared deviations from the mean}}{n-1}}</me>
 		</p>
 		<p>
 			where <m>n</m> is the sample size, or the number of data values
@@ -268,7 +268,7 @@
 				</li>
 				<li>
 					<p>
-						Compute the square root of the sum by dividing by <m>n-1</m>:
+						Compute the square root of the sum divided by <m>n-1</m>:
 					</p>
 				</li>
 			</ol>
@@ -932,7 +932,7 @@
 <exercise><!--  #1 -->
 	<statement>
 	<p>
-		A group of diners were asked how much they would pay for a meal. Their responses were: $7.50, $25.00, $10.00, $10.00, $7.50, $8.25, $9.00, $5.00, $15.00, $8.00, $7.25, $7.50, $8.00, $7.00. $12.00.
+		A group of diners were asked how much they would pay for a meal. Their responses were: $7.50, $25.00, $10.00, $10.00, $7.50, $8.25, $9.00, $5.00, $15.00, $8.00, $7.25, $7.50, $8.00, $7.00, $12.00.
 		<ol label="a.">
 			<li>
 				<p>
@@ -3147,7 +3147,7 @@
 <exercise><!--  #17 -->
 	<statement>
 	<p>
-		This data is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities: 56, 53, 53, 50, 46, 45, 44, 43, 42,40, 36
+		This data is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities: 56, 53, 53, 50, 46, 45, 44, 43, 42, 40, 36
 		<ol label="a.">
 			<li>
 				<p>

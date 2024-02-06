@@ -801,11 +801,11 @@
 					</md>
 				</p>
 				<p>
-					The second way is to count the total of yellow items and the total of erasers, but the yellow erasers are in both sets, or the overlap. We would be counting them twice and so we subtract their probability.
+					The second way is to count the total of yellow items and the total of erasers, but the yellow erasers are in both sets, or the overlap. We would be counting them twice and so we subtract their joint probability.
 				</p>
 				<p>
 					<md>
-						<mrow>P(\text{yellow or eraser})\amp=P(\text{yellow})+P(\text{eraser})+P(\text{yellow and eraser})</mrow>
+						<mrow>P(\text{yellow or eraser})\amp=P(\text{yellow})+P(\text{eraser})-P(\text{yellow and eraser})</mrow>
 						<mrow>\amp=\frac{18}{33}+\frac{16}{33}-\frac{10}{33}</mrow>
 						<mrow>\amp=\frac{24}{33}</mrow>
 					</md>
