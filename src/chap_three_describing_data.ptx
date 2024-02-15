@@ -1829,40 +1829,28 @@
 
 <exercise>
 	<statement>
-	<p>
-		Write a sentence or two to describe each distribution in terms of modality, symmetry, skewness and outliers.
-	</p>
-	<p>
+		<p>
+			Write a sentence or two to describe each distribution in terms of modality, symmetry, skewness and outliers.
+		</p>
 		<sidebyside valign="bottom" width="31%">
-			<figure>
-				<image source="images/statistics/3_2/exercise_graph11.png">
-					<shortdescription>This histogram has the tallest bars on the left side and then decreases to the right.</shortdescription>
-				</image>
-			</figure>
-			<figure>
-				<image source="images/statistics/3_2/exercise_graph12.png">
-					<shortdescription>The bars in this histogram increase gradually to the center and then decrease. The bars drop off slightly faster to the right.</shortdescription>
-				</image>
-			</figure>
+			<image source="images/statistics/3_2/exercise_graph11.png">
+				<shortdescription>This histogram has the tallest bars on the left side and then decreases to the right.</shortdescription>
+			</image>
+			<image source="images/statistics/3_2/exercise_graph12.png">
+				<shortdescription>The bars in this histogram increase gradually to the center and then decrease. The bars drop off slightly faster to the right.</shortdescription>
+			</image>
 		</sidebyside>
 		<sidebyside valign="bottom" width="31%" margins="0%">
-			<figure>
-				<image source="images/statistics/3_2/exercise_graph13.png">
-					<shortdescription>The bars in this histogram increase sharply to the tallest bars on the left side, then decrease and increase to the second tallest bar, then decrease again to the right.</shortdescription>
-				</image>
-			</figure>
-			<figure>
-				<image source="images/statistics/3_2/exercise_graph14.png">
-					<shortdescription>The bars on this histogram start out at a middle height and then go down and up in a U shape to the tallest bar to the right of center. Then the bars decrease and increase again for another tall bar on the right.</shortdescription>
-				</image>
-			</figure>
-			<figure>
-				<image source="images/statistics/3_2/exercise_graph15.png">
-					<shortdescription>The bars on this histogram gradually increase to the right and drop of quickly after the peak toward the right side of the graph.</shortdescription>
-				</image>
-			</figure>
+			<image source="images/statistics/3_2/exercise_graph13.png">
+				<shortdescription>The bars in this histogram increase sharply to the tallest bars on the left side, then decrease and increase to the second tallest bar, then decrease again to the right.</shortdescription>
+			</image>
+			<image source="images/statistics/3_2/exercise_graph14.png">
+				<shortdescription>The bars on this histogram start out at a middle height and then go down and up in a U shape to the tallest bar to the right of center. Then the bars decrease and increase again for another tall bar on the right.</shortdescription>
+			</image>
+			<image source="images/statistics/3_2/exercise_graph15.png">
+				<shortdescription>The bars on this histogram gradually increase to the right and drop of quickly after the peak toward the right side of the graph.</shortdescription>
+			</image>
 		</sidebyside>
-	</p>
 	</statement>
 	<solution>
 		<p>

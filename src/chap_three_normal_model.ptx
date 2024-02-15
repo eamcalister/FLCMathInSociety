@@ -215,12 +215,10 @@
 				<li>
 					<p>
 						We start by drawing the Normal curve and the horizontal axis, labeling 3 standard deviations on each side.
-						<sidebyside width="45%">
-							<image source="images/statistics/3_6/mean78_sd7_pic.png">
-							<shortdescription>A normal curve labeled with 57, 64, 71, 78, 85, 92 and 99 pounds. The title of the graph is weights of black lab dogs in points.</shortdescription>
-							</image>
-						</sidebyside>
 					</p>
+					<image width="45%" source="images/statistics/3_6/mean78_sd7_pic.png">
+						<shortdescription>A normal curve labeled with 57, 64, 71, 78, 85, 92 and 99 pounds. The title of the graph is weights of black lab dogs in points.</shortdescription>
+					</image>
 				</li>
 				<li>
 					<p>
@@ -372,33 +370,31 @@
 		</p>
 		</statement>
 		<solution>
-		<p>
-			First we need to draw this distribution and label three standard deviations on each side of the mean to determine where these weights fall. That will tell us which segments to add up. Here is our drawing of this distribution from before.
-			<sidebyside width="45%">
-				<image source="images/statistics/3_6/mean78_sd7_pic.png">
+			<p>
+				First we need to draw this distribution and label three standard deviations on each side of the mean to determine where these weights fall. That will tell us which segments to add up. Here is our drawing of this distribution from before.
+			</p>
+			<image width="45%" source="images/statistics/3_6/mean78_sd7_pic.png">
 				<shortdescription>The previous normal curve of weights of black lab dogs in pounds. The scale at the bottom is 57, 64, 71, 78, 85, 92, 99 pounds.</shortdescription>
-				</image>
-			</sidebyside>
-			<ol marker="a.">
-				<li>
-					<p>
-						Using this Normal curve along with the diagram above we see we need to add the two segments between 78 and 92 pounds to get <me>34\% + 13.5\% = 47.5\%</me>. 47.5% percent of black labs weigh between 78 and 92 pounds.
-					</p>
-				</li>
-				<li>
-					<p>
-						We add all the segments below 71 pounds to get <me>13.5\% + 2.35\% + 0.15\% = 16\%</me>. 16% of black labs weigh below 71 pounds.
-
-					</p>
-				</li>
-				<li>
-					<p>
-						We add all the segments below 64 and above 78 pounds to get <me>0.15\% + 2.35\% + 34\% + 13.5\% + 2.35\% + 0.15\% = 52.5\%</me>. 52.5% of black labs weigh below 64 or above 78 pounds. Notice we could have done this in a faster way since 78 is the mean we know the percentage above the mean is 50%. We could have added <me>0.15\%+2.35\% + 50\%=52.5\%</me>.
-
-					</p>
-				</li>
-			</ol>
-		</p>
+			</image>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Using this Normal curve along with the diagram above we see we need to add the two segments between 78 and 92 pounds to get <me>34\% + 13.5\% = 47.5\%</me>. 47.5% percent of black labs weigh between 78 and 92 pounds.
+						</p>
+					</li>
+					<li>
+						<p>
+							We add all the segments below 71 pounds to get <me>13.5\% + 2.35\% + 0.15\% = 16\%</me>. 16% of black labs weigh below 71 pounds.
+						</p>
+					</li>
+					<li>
+						<p>
+							We add all the segments below 64 and above 78 pounds to get <me>0.15\% + 2.35\% + 34\% + 13.5\% + 2.35\% + 0.15\% = 52.5\%</me>. 52.5% of black labs weigh below 64 or above 78 pounds. Notice we could have done this in a faster way since 78 is the mean we know the percentage above the mean is 50%. We could have added <me>0.15\%+2.35\% + 50\%=52.5\%</me>.
+						</p>
+					</li>
+				</ol>
+			</p>
 		</solution>
 	</example>
 </subsection>
@@ -948,11 +944,8 @@
 	<p>
 		<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_15a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_15a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1006,11 +999,8 @@
 		<p>
 			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_16a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_16a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1064,11 +1054,8 @@
 		<p>
 			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_17a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_17a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1122,11 +1109,8 @@
 		<p>
 			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_18a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_18a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1189,11 +1173,8 @@
 		<p>
 			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_19a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_19a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1247,11 +1228,8 @@
 		<p>
 			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_20a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_20a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1305,11 +1283,8 @@
 		<p>
 			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_21a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_21a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1363,11 +1338,8 @@
 		<p>
 			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_22a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_22a.png"></image>
 			</li>
 			<li>
 				<p>
