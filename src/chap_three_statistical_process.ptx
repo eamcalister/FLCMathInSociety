@@ -116,7 +116,7 @@
 	</p>
 	<sidebyside>
 		<image width="80%" source="images/statistics/3_1/statistical_process.png">
-		<description>5 rectangles indicating the 5 steps of the statistical process; 1. Identify the group you want to study, which is the population; 2. Identify the quantity you want to know about the population, which is the parameter; 3. Gather data by taking an unbiased sample or performing an experiment; 4. Graph the data and calculate statistics; 5. Estimate the parameter that you wanted to know with the margin of error and confidence interval.</description>
+		<shortdescription>5 rectangles indicating the 5 steps of the statistical process; 1. Identify the group you want to study, which is the population; 2. Identify the quantity you want to know about the population, which is the parameter; 3. Gather data by taking an unbiased sample or performing an experiment; 4. Graph the data and calculate statistics; 5. Estimate the parameter that you wanted to know with the margin of error and confidence interval.</shortdescription>
 		</image>
 	</sidebyside>
 </subsection>

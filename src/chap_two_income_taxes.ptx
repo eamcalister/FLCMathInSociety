@@ -87,7 +87,7 @@
 	<figure>
 		<caption>Steps to Calculate Federal Income Tax</caption>
 		<image width="100%" source="images/financial_math/2_5/calculating_federal.png">
-		<description>Five rectangles showing the steps: 1. Calculate gross income by adding all income; 2. Calculate adjusted gross income (AGI) by subtracting any pre-tax adjustments; 3. Calculate taxable income by subtracting deductions (itemized or standard); 4. Calculate tax using tax table for your filing status; 5. Calculate refund or amount owed by subtracting credits and withholdings. If the amount is negative you get a refund; if the amount is positive you owe money.</description>
+		<shortdescription>Five rectangles showing the steps: 1. Calculate gross income by adding all income; 2. Calculate adjusted gross income (AGI) by subtracting any pre-tax adjustments; 3. Calculate taxable income by subtracting deductions (itemized or standard); 4. Calculate tax using tax table for your filing status; 5. Calculate refund or amount owed by subtracting credits and withholdings. If the amount is negative you get a refund; if the amount is positive you owe money.</shortdescription>
 		</image>
 	</figure>
 </subsection>
@@ -246,7 +246,7 @@
 	<figure xml:id="tax_buckets">
 		<caption>Tax Buckets by John Chesbrough, licensed under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-ND-NC 4.0</url>.</caption>
 		<image width="70%" source="images/financial_math/2_5/tax_tables.png">
-		<description>A drawing that shows the tax brackets as buckets being filled from a hose labeled taxable income; the first bucket for the 10% tax bracket is full and has the range of $0-19,050; the second bucket for the 12% tax bracket is also full and has the range of $19051-77,400; the third bucket for the 22% bracket is partially full and has the range of $77,401-165,000; there are buckets for the 24%, 32%, 35% and 37% tax brackets which are empty. The cutoff values for all of these brackets are given in the next table. </description>
+		<shortdescription>A drawing that shows the tax brackets as buckets being filled from a hose labeled taxable income; the first bucket for the 10% tax bracket is full and has the range of $0-19,050; the second bucket for the 12% tax bracket is also full and has the range of $19051-77,400; the third bucket for the 22% bracket is partially full and has the range of $77,401-165,000; there are buckets for the 24%, 32%, 35% and 37% tax brackets which are empty. The cutoff values for all of these brackets are given in the next table. </shortdescription>
 		</image>
 	</figure>
 

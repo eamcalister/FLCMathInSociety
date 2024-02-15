@@ -418,7 +418,7 @@
 		</p>
 		<sidebyside width="40%">
 			<image source="images/statistics/3_4/stdev1.png">
-			<description>A screenshot of GeoGebra showing the icon for One Variable Analysis</description>
+			<shortdescription>A screenshot of GeoGebra showing the icon for One Variable Analysis</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -426,7 +426,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/stdev2.png">
-			<description>A screenshot of GeoGebra showing the histogram. The summation symbol to show summary statistics is on the right side.</description>
+			<shortdescription>A screenshot of GeoGebra showing the histogram. The summation symbol to show summary statistics is on the right side.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -438,7 +438,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/stdev3.png">
-			<description>A screenshot of GeoGebra showing the data, histogram and summary statistics.</description>
+			<shortdescription>A screenshot of GeoGebra showing the data, histogram and summary statistics.</shortdescription>
 			</image>
 		</sidebyside>
 	
@@ -571,7 +571,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/quartile.png">
-			<description>A screenshot of GeoGebra showing the data and the summary statistics.</description>
+			<shortdescription>A screenshot of GeoGebra showing the data and the summary statistics.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -630,7 +630,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/five_num1.png">
-			<description>A screenshot of GeoGebra showing the data and the summary statistics.</description>
+			<shortdescription>A screenshot of GeoGebra showing the data and the summary statistics.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -663,7 +663,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/five_num2.png">
-			<description>A boxplot with a horizontal scale from $120 to $480 with a scale of $40.</description>
+			<shortdescription>A boxplot with a horizontal scale from $120 to $480 with a scale of $40.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -687,7 +687,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/five_num3.png">
-			<description>A screenshot of GeoGebra showint the data, summary statistics and the boxplot.</description>
+			<shortdescription>A screenshot of GeoGebra showint the data, summary statistics and the boxplot.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -720,7 +720,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/five_num4.png">
-			<description>A screenshot of GeoGebra showing the histogram and boxplot stacked.</description>
+			<shortdescription>A screenshot of GeoGebra showing the histogram and boxplot stacked.</shortdescription>
 			</image>
 		</sidebyside>
 	
@@ -735,7 +735,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_4/five_num5.png">
-		<description>A screenshot of GeoGebra showing two boxplots for the same data stacked. The first one is the regular boxplot and show outliers is unchecked; the second one has 4 outliers on the right side and the box for show outliers is checked.</description>
+		<shortdescription>A screenshot of GeoGebra showing two boxplots for the same data stacked. The first one is the regular boxplot and show outliers is unchecked; the second one has 4 outliers on the right side and the box for show outliers is checked.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -774,7 +774,7 @@
 		<solution>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/compare_dist1.png">
-			<description>The boxplot for Store 1 shows a 5-number summary of 0.7, 1.8, 2.3, 2.9, 6.3 minutes. The boxplot for Store 2 shows a 5-number summary of 0.5, 1.1, 2.1, 5.7, 9.6 minutes.</description>
+			<shortdescription>The boxplot for Store 1 shows a 5-number summary of 0.7, 1.8, 2.3, 2.9, 6.3 minutes. The boxplot for Store 2 shows a 5-number summary of 0.5, 1.1, 2.1, 5.7, 9.6 minutes.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -798,7 +798,7 @@
 		<solution>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/compare_dist2.png">
-			<description>The boxplot for infants who survived shows a 5-number summary of approximately 1.2, 1.8, 2.2, 2.9, 3.7 kg. The boxplot for infants who died shows a 5-number summary of 1.1, 1.3, 1.5, 2.2, 2.8 kg.</description>
+			<shortdescription>The boxplot for infants who survived shows a 5-number summary of approximately 1.2, 1.8, 2.2, 2.9, 3.7 kg. The boxplot for infants who died shows a 5-number summary of 1.1, 1.3, 1.5, 2.2, 2.8 kg.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -873,7 +873,7 @@
 				Apple: <cd>=STANDARDIZE(4.2, 5.8, 1.2)</cd> and we get -1.33 standard deviations
 			</p>
 			<image source="images/statistics/3_4/z_score1.png">
-			<description>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</description>
+			<shortdescription>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -882,7 +882,7 @@
 			Orange: <cd>=STANDARDIZE (3.5, 4.2, 0.6)</cd> and we get -1.17 standard deviations
 		</p>
 			<image source="images/statistics/3_4/z_score2.png">
-			<description>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</description>
+			<shortdescription>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</shortdescription>
 			</image>
 		</sidebyside>
 	</example>
@@ -2960,7 +2960,7 @@
 				</p>
 				<sidebyside width="50%">
 					<image source="images/statistics/3_4/exercise1.png">
-					<description>The boxplot for CPA salary shows a 5-number summary of 30, 40, 75, 90, 100 in thousand dollars. The boxplot for Actuary salary shows a 5-number summary of 40, 75, 90, 94, 110 in thousand dollars</description>
+					<shortdescription>The boxplot for CPA salary shows a 5-number summary of 30, 40, 75, 90, 100 in thousand dollars. The boxplot for Actuary salary shows a 5-number summary of 40, 75, 90, 94, 110 in thousand dollars</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -3002,7 +3002,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_4/exercise2.png">
-		<description>The boxplot of weekly study time for seniors shows a 5-number summary of 4, 5.5, 6, 9, 14 hours. The boxplot of weekly study time for juniors shows a 5-number summary of 0, 1, 3, 4, 6 hours</description>
+		<shortdescription>The boxplot of weekly study time for seniors shows a 5-number summary of 4, 5.5, 6, 9, 14 hours. The boxplot of weekly study time for juniors shows a 5-number summary of 0, 1, 3, 4, 6 hours</shortdescription>
 		</image>
 	</sidebyside>
 	<p>

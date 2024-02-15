@@ -634,14 +634,14 @@
 			<li>
 				<sidebyside width="50%">
 				<image source="images/statistics/3_5/review_movie_solution1.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
 			<li>
 				<sidebyside width="50%">
 				<image source="images/statistics/3_5/review_movie_solution2.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -667,7 +667,7 @@
 	</p>
 	<sidebyside width="40%">
 	<image source="images/statistics/3_5/review_trimet.png">
-		<description>A bar graph with the following categories and percentages: recreation 45%, work 17%, personal business 8%, shopping 7%, school 6%, medical 3%, visit 3% and other 1%</description>
+		<shortdescription>A bar graph with the following categories and percentages: recreation 45%, work 17%, personal business 8%, shopping 7%, school 6%, medical 3%, visit 3% and other 1%</shortdescription>
 	</image>
 	</sidebyside>
 	<p>
@@ -780,7 +780,7 @@
 			<li>
 				<sidebyside width="35%">
 				<image source="images/statistics/3_5/review_five_num_summary.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -795,7 +795,7 @@
 			<li>
 				<sidebyside width="40%">
 				<image source="images/statistics/3_5/review_five_num_box.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -903,21 +903,21 @@
 			<li>
 				<sidebyside width="35%">
 				<image source="images/statistics/3_5/review_five_num_summary2.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
 			<li>
 				<sidebyside width="35%">
 				<image source="images/statistics/3_5/review_five_num_box2.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
 			<li>
 				<sidebyside width="50%">
 				<image source="images/statistics/3_5/review_boxplot_summary2.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -1017,7 +1017,7 @@
 			<li>
 				<sidebyside width="35%">
 				<image source="images/statistics/3_5/review_five_num_summary3.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -1032,7 +1032,7 @@
 			<li>
 				<sidebyside width="40%">
 				<image source="images/statistics/3_5/review_five_num_box3.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -1048,7 +1048,7 @@
 	</p>
 	<sidebyside width="50%">
 	<image source="images/statistics/3_5/review_teama_teamb.png">
-		<description>The boxplot for Team A shows a 5-number summary of 0, 2, 4, 5, 8 goals. The boxplot for Team B shows a 5-number summary of 0, 6, 8, 9, 10 goals.</description>
+		<shortdescription>The boxplot for Team A shows a 5-number summary of 0, 2, 4, 5, 8 goals. The boxplot for Team B shows a 5-number summary of 0, 6, 8, 9, 10 goals.</shortdescription>
 	</image>
 	</sidebyside>
 	<p>

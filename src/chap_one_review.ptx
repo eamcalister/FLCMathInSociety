@@ -553,7 +553,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/language_logic_rules/1_4/like_your_coffee_venn.png">
-			<description>A Venn diagram with two sets labeled Cream and Sugar. There are 27 people in the Cream only region, 13 in the intersection of both sets, 20 in the Sugar only region and 10 outside the circles in the universal set.</description>
+			<shortdescription>A Venn diagram with two sets labeled Cream and Sugar. There are 27 people in the Cream only region, 13 in the intersection of both sets, 20 in the Sugar only region and 10 outside the circles in the universal set.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -645,7 +645,7 @@
 				<sidebyside width="50%">
 					<image source="images/language_logic_rules/1_4/bio_mth105_venn.png">
 				</image>
-				<description></description>
+				<shortdescription></shortdescription>
 				</sidebyside>
 			</li>
 			<li>

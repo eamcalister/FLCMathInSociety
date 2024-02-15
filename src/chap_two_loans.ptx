@@ -47,7 +47,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/financial_math/2_4/interest_principal.png">
-			<description>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</description>
+			<shortdescription>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -179,7 +179,7 @@
 			</p>
 			</stack>
 		<image source="images/financial_math/2_4/loan_formulas1.png">
-		<description>An image of the spreadsheet showing the formula used and the result.</description>
+		<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 		<p>
@@ -222,7 +222,7 @@
 			</p>
 			</stack>
 			<image source="images/financial_math/2_4/loan_formulas2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -294,7 +294,7 @@
 			<cd>=PV(0.03/12, 12*5, 200,0)</cd> which gives $11,130.47.
 		</p>
 		<image source="images/financial_math/2_4/loan_formulas3.png">
-		<description>An image of the spreadsheet showing the formula used and the result.</description>
+		<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 
@@ -362,7 +362,7 @@
 			<cd>=PMT(0.06/12, 12*30, 140000,0)</cd> which gives us $839.37.
 			</p>
 			<image source="images/financial_math/2_4/loan_formulas4.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		
@@ -460,7 +460,7 @@
 			<cd>=PV(0.06/12, 12*25, 1000,0)</cd> which gives us $155,206.86.
 			</p>
 			<image source="images/financial_math/2_4/remaining_balance.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 

@@ -268,7 +268,7 @@
 		The highest frequency in our car data is 52 collisions, so we will set our vertical axis to go from 0 to 55, with a scale of 5 units. To draw bar graphs by hand graph paper is useful, or you can use technology. It is also very helpful to label each bar with the frequency or relative frequency.
 		</p>
 		<image source="images/statistics/3_2/bar_graph.png">
-		<description>This is a bar graph. Along the x-axis it lists: blue, green, red, white, black and grey. The x-axis is labeled “Vehicle color involved in total-loss collision.” The y-axis is labeled “frequency” and goes from 0 to 55 with a scale of 5. Above each color there is a bar corresponding to the frequency. Blue 25; Green 52; Red 41; White 36; Black 39; Grey 23. </description>
+		<shortdescription>This is a bar graph. Along the x-axis it lists: blue, green, red, white, black and grey. The x-axis is labeled “Vehicle color involved in total-loss collision.” The y-axis is labeled “frequency” and goes from 0 to 55 with a scale of 5. Above each color there is a bar corresponding to the frequency. Blue 25; Green 52; Red 41; White 36; Black 39; Grey 23. </shortdescription>
 	</image>
 </sidebyside>
 
@@ -284,7 +284,7 @@
 		Pie charts look nice but are harder to draw by hand than bar charts since to draw them accurately we would need to compute the angle each wedge cuts out of the circle, then measure the angle with a protractor. A spreadsheet is much better suited to drawing pie charts.
 		</p>
 		<image source="images/statistics/3_2/pie_chart.png">
-		<description>A pie chart for the same data as the previous bar chart. The relative frequencies are given in each pie piece: Green 24%; Red 19%; Black 18%; White 17%; Blue 11%; Grey 11%.</description>
+		<shortdescription>A pie chart for the same data as the previous bar chart. The relative frequencies are given in each pie piece: Green 24%; Red 19%; Black 18%; White 17%; Blue 11%; Grey 11%.</shortdescription>
 	</image>
 </sidebyside>
 </subsection>
@@ -297,7 +297,7 @@
 	</p>
 	<sidebyside width="100%">
 		<image source="images/statistics/3_2/use_sheet2.png">
-		<description>This is a large screen shot of excel that includes both the data and the Insert tab with various circle graph options.</description>
+		<shortdescription>This is a large screen shot of excel that includes both the data and the Insert tab with various circle graph options.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -310,7 +310,7 @@
 	</p>
 	<sidebyside width="100%">
 		<image source="images/statistics/3_2/use_sheet3.png">
-		<description>This is a screenshots of excel that shows the frequency table and pie chart and shows the Chart Design Tab.</description>
+		<shortdescription>This is a screenshots of excel that shows the frequency table and pie chart and shows the Chart Design Tab.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -328,7 +328,7 @@
 				3-dimensional bar chart like the one shown is usually not as effective as a 2-dimensional graph. The extra dimension does not add any useful information.
 			</p>
 			<image source="images/statistics/3_2/misleading.png">
-				<description>A 3-D bar graph showing the car color data.</description>
+				<shortdescription>A 3-D bar graph showing the car color data.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -352,7 +352,7 @@
 			The average manager salary is twice as high as the average worker salary as in a bar graph, but the image is also twice as wide. That makes it look like the manager salary is 4 times as large as the worker salary. The area needs to accurately portray the relationship, otherwise we will have a perceptual distortion.
 		</p>
 			<image source="images/statistics/3_2/distortion.png">
-			<description>There are two bags of money shown. One is larger labeled Mananger Salaries. The other is half as tall and half as wide and labeled workers salaries. There are no numbers or scale shown. </description>
+			<shortdescription>There are two bags of money shown. One is larger labeled Mananger Salaries. The other is half as tall and half as wide and labeled workers salaries. There are no numbers or scale shown. </shortdescription>
 			</image>
 		</sidebyside>
 
@@ -372,10 +372,10 @@
 
 		<sidebyside widths="45% 45%" margins="0%">
 			<image source="images/statistics/3_2/misleading_scale1.png">
-			<description>A bar graph with a scale from 0-100%; There is a bar for support at about 44% and a bar for oppose at about 56%.</description>
+			<shortdescription>A bar graph with a scale from 0-100%; There is a bar for support at about 44% and a bar for oppose at about 56%.</shortdescription>
 			</image>
 			<image source="images/statistics/3_2/misleading_scale2.png">
-			<description>A bar graph of the same data but the scale goes from 40-60%; This magnifies the difference between the support and oppose groups.</description>
+			<shortdescription>A bar graph of the same data but the scale goes from 40-60%; This magnifies the difference between the support and oppose groups.</shortdescription>
 			</image>
 		</sidebyside>
 	</example>
@@ -429,10 +429,10 @@
 
 		<sidebyside widths="47% 47%">
 			<image source="images/statistics/3_2/stacked_bar1.png">
-			<description>A stacked bar graph with the bars for the expenses for student 2 placed on top of the bars for student 1.</description>
+			<shortdescription>A stacked bar graph with the bars for the expenses for student 2 placed on top of the bars for student 1.</shortdescription>
 			</image>
 			<image source="images/statistics/3_2/stacked_bar2.png">
-			<description>A side-by-side bar graph with the bars for each student right next to each other.</description>
+			<shortdescription>A side-by-side bar graph with the bars for each student right next to each other.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -514,10 +514,10 @@
 	</p>
 	<sidebyside widths="47% 47%">
 		<image source="images/statistics/3_2/histogram1.png">
-		<description>This is a histogram the x-axis is labeled score and goes from 0 to 21, with a scale of 1. The y-axis is labeled frequency an goes from 0 to 9 with a scale of 1. There are no spaces between the bars.</description>
+		<shortdescription>This is a histogram the x-axis is labeled score and goes from 0 to 21, with a scale of 1. The y-axis is labeled frequency an goes from 0 to 9 with a scale of 1. There are no spaces between the bars.</shortdescription>
 		</image>
 		<image source="images/statistics/3_2/histogram2.png">
-		<description>This is a histogram of the same data but this time the spaces are labeled 0 to 20 instead of the tick marks.</description>
+		<shortdescription>This is a histogram of the same data but this time the spaces are labeled 0 to 20 instead of the tick marks.</shortdescription>
 	</image>
 	</sidebyside>
 
@@ -608,7 +608,7 @@
 				</row>
 			</tabular>
 			<image source="images/statistics/3_2/class_intervals.png">
-		<description>This is a histogram of the data in the table; the x-axis is labeled weights(pounds) and goes from 120 to 270, with a scale of 15; The y-axis is labeled frequency and goes from 0 to 30 with a scale of 5. There are no spaces between the bars.</description>
+		<shortdescription>This is a histogram of the data in the table; the x-axis is labeled weights(pounds) and goes from 120 to 270, with a scale of 15; The y-axis is labeled frequency and goes from 0 to 30 with a scale of 5. There are no spaces between the bars.</shortdescription>
 		</image>
 		</sidebyside>
 	</example>
@@ -629,7 +629,7 @@
 			The first thing we need to do is enter the data in GeoGebra’s spreadsheet. You can access the spreadsheet from Main Menu <m>\rightarrow</m>View <m>\rightarrow</m>Spreadsheet. Next, enter your data and select that column. Then click on the histogram icon in the menu bar on the left side and select One Variable Analysis.
 		</p>
 			<image source="images/statistics/3_2/histogram_tech1.png">
-			<description>A screenshot of GeoGebra showing the icon for One Variable Analysis</description>
+			<shortdescription>A screenshot of GeoGebra showing the icon for One Variable Analysis</shortdescription>
 			</image>
 	</sidebyside>
 
@@ -638,7 +638,7 @@
 			A new window will pop up showing a visual of the data. There is a drop-down menu for the type of graph, but histogram is the default. Notice that the bars are not lined up with the tick-marks at the bottom, so we want to edit this histogram. The slider bar at the top will let you see different class widths, but we want to choose our class widths manually.
 		</p>
 			<image source="images/statistics/3_2/histogram_tech2.png">
-			<description>A screenshot from GeoGebra showing the histogram</description>
+			<shortdescription>A screenshot from GeoGebra showing the histogram</shortdescription>
 			</image>
 	</sidebyside>
 
@@ -647,7 +647,7 @@
 			If you close the menu at the top right by clicking on the left pointing triangle, you will see a settings wheel. Click on the wheel and check the box for set classes manually. To match our previous histogram, we will start at 120 pounds and set a class width of 15 pounds.
 		</p>
 			<image source="images/statistics/3_2/histogram_tech3.png">
-			<description>A screenshot from GeoGebra showing the box checked for Set Classes Manually.</description>
+			<shortdescription>A screenshot from GeoGebra showing the box checked for Set Classes Manually.</shortdescription>
 			</image>
 	</sidebyside>
 
@@ -656,7 +656,7 @@
 			Now the bars of the histogram match our previous graph, but we need to edit the axis labels to match. Click on the graph tab on the right side and uncheck the box for automatic dimensions. We set the x min, x max, x step, y min, y max and y step as shown.
 		</p>
 			<image source="images/statistics/3_2/histogram_tech4.png">
-			<description>A screenshot from GeoGebra showing the box uncheckd for Automatic Dimensions. The dimensions entered are xMin 111; xMax 275; xStep 15; yMin -3.4033; yMax: 30.8; yStep 5 (The y-dimensions were automatic)</description>
+			<shortdescription>A screenshot from GeoGebra showing the box uncheckd for Automatic Dimensions. The dimensions entered are xMin 111; xMax 275; xStep 15; yMin -3.4033; yMax: 30.8; yStep 5 (The y-dimensions were automatic)</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -665,7 +665,7 @@
 			To put the graph in an assignment or a book such as this one, select the export icon and choose Export as Picture. The downloaded version also has a Copy to Clipboard option. Then insert the graph into any document and add axis labels.
 		</p>
 			<image source="images/statistics/3_2/histogram_tech5.png">
-			<description>A screenshot from GeoGebra showing the export icon</description>
+			<shortdescription>A screenshot from GeoGebra showing the export icon</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -674,7 +674,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_2/histogram_tech6.png">
-		<description>The finished histogram from GeoGebra copied into a Word document. This is the same histogram as in Example 10.</description>
+		<shortdescription>The finished histogram from GeoGebra copied into a Word document. This is the same histogram as in Example 10.</shortdescription>
 	</image>
 </sidebyside>
 
@@ -715,7 +715,7 @@
 		</p>
 		<sidebyside width="80%">
 			<image source="images/statistics/3_2/modality.png">
-			<description>Three histograms are shown. The first histogram has one peak. The second histograms has two peaks. The third histogram has three peaks.</description>
+			<shortdescription>Three histograms are shown. The first histogram has one peak. The second histograms has two peaks. The third histogram has three peaks.</shortdescription>
 			</image>
 		</sidebyside>
 	</example>
@@ -736,7 +736,7 @@
 		</p>
 		<sidebyside width="70%">
 			<image source="images/statistics/3_2/symmetry.png">
-			<description>Two histograms are shown. The first histogram has one peak in the middle and the bars taper down symmetrically on each side. The second histogram has two peaks. Each of the peaks are similar in size and the graph is roughly symmetric.</description>
+			<shortdescription>Two histograms are shown. The first histogram has one peak in the middle and the bars taper down symmetrically on each side. The second histogram has two peaks. Each of the peaks are similar in size and the graph is roughly symmetric.</shortdescription>
 			</image>
 		</sidebyside>
 	</example>
@@ -758,7 +758,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_2/left_skew.png">
-		<description>This is a histogram with 9 bars. The highest bar is to the right of center and the bars go down to the left gradually.</description>
+		<shortdescription>This is a histogram with 9 bars. The highest bar is to the right of center and the bars go down to the left gradually.</shortdescription>
 	</image>
 </sidebyside>
 </subsection>
@@ -770,7 +770,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_2/right_skew.png">
-		<description>This is a histogram with 9 bars. The highest bar is to the left of center and the bars go down to the right gradually.</description>
+		<shortdescription>This is a histogram with 9 bars. The highest bar is to the left of center and the bars go down to the right gradually.</shortdescription>
 	</image>
 </sidebyside>
 </subsection>
@@ -782,7 +782,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_2/normal_dist.png">
-		<description></description>
+		<shortdescription></shortdescription>
 		</image>
 	</sidebyside>
 </subsection>
@@ -798,7 +798,7 @@
 				In the graph to the right we have a unimodal distribution that is skewed to the right. There appears to be an outlier near 20.
 			</p>
 				<image source="images/statistics/3_2/outlier.png">
-				<description>This distribution has majority of it's data on the left there is a gap in the graph with one bar further away. </description>
+				<shortdescription>This distribution has majority of it's data on the left there is a gap in the graph with one bar further away. </shortdescription>
 				</image>
 			</sidebyside>
 	</example>
@@ -998,7 +998,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_2/exercise_graph1.png">
-			<description>A bar graph showing the frequency for amount of children: 0 kids 5; 2 kid 3; 2 kids 4; 3 kids 2; 4 kids 0; 5 kids 1.</description>
+			<shortdescription>A bar graph showing the frequency for amount of children: 0 kids 5; 2 kid 3; 2 kids 4; 3 kids 2; 4 kids 0; 5 kids 1.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -1051,7 +1051,7 @@
 	</p>
 	<sidebyside width="45%">
 		<image source="images/statistics/3_2/exercise_graph2.png">
-		<description>The x-axis is labeled shipping times (days) with 1, 2, 3, 4, and 5. The y-axis is labeld frequency. The bar for 1 goes up to 4, 2 goes up to 8, 3 goes up to 6, there's no bar at 4 and 5 goes up to 1.</description>
+		<shortdescription>The x-axis is labeled shipping times (days) with 1, 2, 3, 4, and 5. The y-axis is labeld frequency. The bar for 1 goes up to 4, 2 goes up to 8, 3 goes up to 6, there's no bar at 4 and 5 goes up to 1.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -1104,7 +1104,7 @@
 	</p>
 	<sidebyside width="45%">
 		<image source="images/statistics/3_2/exercise_graph3.png">
-			<description>There are 4 bars labeled A, B, C, and D. The x-axis is labeled grade on English paper and the y-axis is labeled frequency (%). A goes up to 25%, B goes up to 35%, C goes up to 25% and D goes up to 15%.</description>
+			<shortdescription>There are 4 bars labeled A, B, C, and D. The x-axis is labeled grade on English paper and the y-axis is labeled frequency (%). A goes up to 25%, B goes up to 35%, C goes up to 25% and D goes up to 15%.</shortdescription>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1122,7 +1122,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_2/drink_histogram.png">
-			<description>A relative frequency bar graph shows the percentage of each type of coffee drink served over a weekend. For coffee, the relative frequency is 45%. For tea, the relative frequency is 15%. For latte, the relative frequency is 20%. For mocha, the relative frequency is 10%. For cappuccino, the relative frequency is 5%. For other, the relative frequency is 5%.</description>
+			<shortdescription>A relative frequency bar graph shows the percentage of each type of coffee drink served over a weekend. For coffee, the relative frequency is 45%. For tea, the relative frequency is 15%. For latte, the relative frequency is 20%. For mocha, the relative frequency is 10%. For cappuccino, the relative frequency is 5%. For other, the relative frequency is 5%.</shortdescription>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1140,7 +1140,7 @@
 	</p>
 	<sidebyside width="30%">
 		<image source="images/statistics/3_2/exercise_graph4.png">
-			<description>This is a pie chart with four regions. Fun is labeled 16%, Food is labeled 24%, Rent is labeled 26% and Other is labeled 34%.</description>
+			<shortdescription>This is a pie chart with four regions. Fun is labeled 16%, Food is labeled 24%, Rent is labeled 26% and Other is labeled 34%.</shortdescription>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1158,7 +1158,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_2/habiba_circle_graph.png">
-			<description>This is a pie chart with five regions. Work is labled 29%, Travel is labeled 7%, Housework is labeled 12%, Leisure is labeled 23% and Sleep is labeled 29%.</description>
+			<shortdescription>This is a pie chart with five regions. Work is labled 29%, Travel is labeled 7%, Housework is labeled 12%, Leisure is labeled 23% and Sleep is labeled 29%.</shortdescription>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1227,7 +1227,7 @@
 			<li>
 				<sidebyside width="40%">
 					<image source="images/statistics/3_2/solution_environmental_issue.png">
-						<description>There are four spaced apart bars labeled Pollution of drinking water, Contamination of soil and water by toxic waste, Air pollution, and Global warming. The x-axis is labeled Environmental Issue and the y-axis is labeled frequncy.  Pollution of drinking water goes up to 597, Contamination of soil and drinking water goes up to 526, Air pollution goes up to 455, and Global warming goes up to 354.</description>
+						<shortdescription>There are four spaced apart bars labeled Pollution of drinking water, Contamination of soil and water by toxic waste, Air pollution, and Global warming. The x-axis is labeled Environmental Issue and the y-axis is labeled frequncy.  Pollution of drinking water goes up to 597, Contamination of soil and drinking water goes up to 526, Air pollution goes up to 455, and Global warming goes up to 354.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -1307,7 +1307,7 @@
 			<li>
 				<sidebyside width="50%">
 					<image source="images/statistics/3_2/solution_immigration.png">
-						<description>There are six spaced apart bars labeled Food music and the arts, The economy in general, Social and moral values, Job opportunities for you and your family, Taxes, and Crime. The x-axis is labeled Situation and the y-axis is labeled Relative Frequency (%).  Food music and the arts goes up to 57%, The economy in general goes up to 43%, Social and moral values goes up to 31%, Job opportunities for you and your family goes up to 19%, Taxes goes up to 20%, and Crime goes up to 7%.</description>
+						<shortdescription>There are six spaced apart bars labeled Food music and the arts, The economy in general, Social and moral values, Job opportunities for you and your family, Taxes, and Crime. The x-axis is labeled Situation and the y-axis is labeled Relative Frequency (%).  Food music and the arts goes up to 57%, The economy in general goes up to 43%, Social and moral values goes up to 31%, Job opportunities for you and your family goes up to 19%, Taxes goes up to 20%, and Crime goes up to 7%.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -1538,7 +1538,7 @@
 			<li>
 				<sidebyside width="50%">
 					<image source="images/statistics/3_2/solution_household_cars.png">
-						<description>The histogram is titled "Histogram of number of cars in household". The x-axis is labeled Number of Cars, the scale goes from 0 to 6 and jumps by 1 unit. There are three bars, one from 0-2, one from 2-4, and one from 4-6. The y-axis is labeled Frequency and the scale goes from 0 to 16 by units of two. The 0-2 bar goes to 7, the 2-4 bar goes to 14, and the 4-6 bar goes to 3.</description>
+						<shortdescription>The histogram is titled "Histogram of number of cars in household". The x-axis is labeled Number of Cars, the scale goes from 0 to 6 and jumps by 1 unit. There are three bars, one from 0-2, one from 2-4, and one from 4-6. The y-axis is labeled Frequency and the scale goes from 0 to 16 by units of two. The 0-2 bar goes to 7, the 2-4 bar goes to 14, and the 4-6 bar goes to 3.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -1656,7 +1656,7 @@
 			<li>
 				<sidebyside width="50%">
 					<image source="images/statistics/3_2/solution_math_scores.png">
-						<description>The histogram is titled "Histogram of math test scores". The x-axis is labeled Scores, the scale goes from 40 to 110 and jumps by 10. There are seven bars, one from 40-50, one from 50-60, one from 60-70, one from 70-80, one from 80-90, one from 90-100, and one from 100-110. The y-axis is labeled Frequency and the scale goes from 0 to 8 by two. The 40-50 bar goes to 1, the 50-60 bar goes to 4, the 60-70 bar goes to 3, the 70-80 bar goes to 6, the 80-90 bar goes to 5, the 90-100 bar goes to 2, and the 100-110 bar goes to 3.</description>
+						<shortdescription>The histogram is titled "Histogram of math test scores". The x-axis is labeled Scores, the scale goes from 40 to 110 and jumps by 10. There are seven bars, one from 40-50, one from 50-60, one from 60-70, one from 70-80, one from 80-90, one from 90-100, and one from 100-110. The y-axis is labeled Frequency and the scale goes from 0 to 8 by two. The 40-50 bar goes to 1, the 50-60 bar goes to 4, the 60-70 bar goes to 3, the 70-80 bar goes to 6, the 80-90 bar goes to 5, the 90-100 bar goes to 2, and the 100-110 bar goes to 3.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -1677,7 +1677,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_2/exercise_graph5.png">
-		<description>This is a 3 dimensional double bar graph. There is a bar for kids and a bar for adults. The x-axis is labeled coke, diet coke, sprite and cherry soda. The y-axis starts at 20  and goes to 45 with a scale of 5. </description>
+		<shortdescription>This is a 3 dimensional double bar graph. There is a bar for kids and a bar for adults. The x-axis is labeled coke, diet coke, sprite and cherry soda. The y-axis starts at 20  and goes to 45 with a scale of 5. </shortdescription>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1695,7 +1695,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_2/exercise_graph6.png">
-		<description>A pie chart with 4 regions: Nguyen is labeled 42%, McKee is labeled 35%, Jones is labeled 64% and Brown is labeled 52%.</description>
+		<shortdescription>A pie chart with 4 regions: Nguyen is labeled 42%, McKee is labeled 35%, Jones is labeled 64% and Brown is labeled 52%.</shortdescription>
 	</image>
 	</sidebyside>
 	</statement>
@@ -1713,7 +1713,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_2/misleading_1.png">
-			<description>This is a bar graph and is titled "Favorite Drinks". The x-axis is labeled Drink Type and includes colas, lemon flavored, root beer, teas, coffee, and other. The y-axis is labeled frequency and has no scale.</description>
+			<shortdescription>This is a bar graph and is titled "Favorite Drinks". The x-axis is labeled Drink Type and includes colas, lemon flavored, root beer, teas, coffee, and other. The y-axis is labeled frequency and has no scale.</shortdescription>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1731,7 +1731,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_2/misleading_2.png">
-			<description>This is a bar graph and is titled "Profit During First Half of Year". The x-axis is labeled Year and includes January, February, March, April, May, and June. The y-axis is labeled Profits in $. The scale goes from 0 to 4500 by 500. The bar for each month is labeled with the following values: January 4230, February 3760, March 2670, April -1320, May 750, and June 1560. The bar for April is colored red while the remaining bars are colored blue. </description>
+			<shortdescription>This is a bar graph and is titled "Profit During First Half of Year". The x-axis is labeled Year and includes January, February, March, April, May, and June. The y-axis is labeled Profits in $. The scale goes from 0 to 4500 by 500. The bar for each month is labeled with the following values: January 4230, February 3760, March 2670, April -1320, May 750, and June 1560. The bar for April is colored red while the remaining bars are colored blue. </shortdescription>
 		</image>
 	</sidebyside>
 	</statement>
@@ -1773,13 +1773,13 @@
 		<figure>
 			<caption>The frequency of times between eruptions of the Old Faithful geyser.</caption>
 		<image source="images/statistics/3_2/exercise_graph7.png">
-		<description>This histogram has a tall bar on the left side, then the bars decrease significantly and then increase for a peak on the right side.</description>
+		<shortdescription>This histogram has a tall bar on the left side, then the bars decrease significantly and then increase for a peak on the right side.</shortdescription>
 		</image>
 	</figure>
 	<figure>
 		<caption>Scores on a 20-point statistics quiz.</caption>
 		<image source="images/statistics/3_2/exercise_graph8.png">
-		<description>This histogram has shorter bars to the left, which gradually get taller. The tallest bar is on the right side of the graph.</description>
+		<shortdescription>This histogram has shorter bars to the left, which gradually get taller. The tallest bar is on the right side of the graph.</shortdescription>
 		</image>
 	</figure>
 	</sidebyside>
@@ -1788,13 +1788,13 @@
 		<figure>
 			<caption>The distribution of scores on a psychology test.</caption>
 		<image source="images/statistics/3_2/exercise_graph9.png">
-			<description>This histogram increases sharply and then decreases gradually. The peak is just to the left of the center.</description>
+			<shortdescription>This histogram increases sharply and then decreases gradually. The peak is just to the left of the center.</shortdescription>
 		</image>
 	</figure>
 	<figure>
 		<caption>The number of heads in 24 sets of 100 coin flips.</caption>
 		<image source="images/statistics/3_2/exercise_graph10.png">
-			<description>This histogram is symmetric. The highest bar is in the middle and the bars decrease in height as you move away from the middle.</description>
+			<shortdescription>This histogram is symmetric. The highest bar is in the middle and the bars decrease in height as you move away from the middle.</shortdescription>
 		</image>
 	</figure>
 	</sidebyside>
@@ -1836,29 +1836,29 @@
 		<sidebyside valign="bottom" width="31%">
 			<figure>
 				<image source="images/statistics/3_2/exercise_graph11.png">
-					<description>This histogram has the tallest bars on the left side and then decreases to the right.</description>
+					<shortdescription>This histogram has the tallest bars on the left side and then decreases to the right.</shortdescription>
 				</image>
 			</figure>
 			<figure>
 				<image source="images/statistics/3_2/exercise_graph12.png">
-					<description>The bars in this histogram increase gradually to the center and then decrease. The bars drop off slightly faster to the right.</description>
+					<shortdescription>The bars in this histogram increase gradually to the center and then decrease. The bars drop off slightly faster to the right.</shortdescription>
 				</image>
 			</figure>
 		</sidebyside>
 		<sidebyside valign="bottom" width="31%" margins="0%">
 			<figure>
 				<image source="images/statistics/3_2/exercise_graph13.png">
-					<description>The bars in this histogram increase sharply to the tallest bars on the left side, then decrease and increase to the second tallest bar, then decrease again to the right.</description>
+					<shortdescription>The bars in this histogram increase sharply to the tallest bars on the left side, then decrease and increase to the second tallest bar, then decrease again to the right.</shortdescription>
 				</image>
 			</figure>
 			<figure>
 				<image source="images/statistics/3_2/exercise_graph14.png">
-					<description>The bars on this histogram start out at a middle height and then go down and up in a U shape to the tallest bar to the right of center. Then the bars decrease and increase again for another tall bar on the right.</description>
+					<shortdescription>The bars on this histogram start out at a middle height and then go down and up in a U shape to the tallest bar to the right of center. Then the bars decrease and increase again for another tall bar on the right.</shortdescription>
 				</image>
 			</figure>
 			<figure>
 				<image source="images/statistics/3_2/exercise_graph15.png">
-					<description>The bars on this histogram gradually increase to the right and drop of quickly after the peak toward the right side of the graph.</description>
+					<shortdescription>The bars on this histogram gradually increase to the right and drop of quickly after the peak toward the right side of the graph.</shortdescription>
 				</image>
 			</figure>
 		</sidebyside>
@@ -1927,12 +1927,12 @@
 			<li>
 				<sidebyside width="50%">
 					<image source="images/statistics/3_2/solution_treatment_men.png">
-						<description></description>
+						<shortdescription></shortdescription>
 					</image>
 				</sidebyside>
 				<sidebyside width="50%">
 					<image source="images/statistics/3_2/solution_treatment_women.png">
-						<description></description>
+						<shortdescription></shortdescription>
 					</image>
 				</sidebyside>
 			</li>

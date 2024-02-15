@@ -110,10 +110,10 @@
 	</p>
 	<sidebyside widths="40% 40%">
 		<image source="images/language_logic_rules/1_3/ind_ded_argument1.png">
-		<description>A pyramid upside down with the narrow end at the bottom for a specific premise, the middle section is another specific premise; the wide part at the top is for the general conclusion</description>
+		<shortdescription>A pyramid upside down with the narrow end at the bottom for a specific premise, the middle section is another specific premise; the wide part at the top is for the general conclusion</shortdescription>
 		</image>
 		<image source="images/language_logic_rules/1_3/ind_ded_argument2.png">
-		<description>A pyramid right-side up with the wide base at the bottom for a general premise; another general premise in the middle section, and a specific conclusion in the narrow part at the top</description>
+		<shortdescription>A pyramid right-side up with the wide base at the bottom for a general premise; another general premise in the middle section, and a specific conclusion in the narrow part at the top</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -261,7 +261,7 @@
 					</p>
 					<sidebyside width="65%">
 					<image source="images/language_logic_rules/1_3/eval_arg1.png">
-					<description>A set diagram with the circle for the set of cats contained within the set of mammals. Both are in the universal set rectangle; There is an arrow for tigers pointing to the inside of the cats circle</description>
+					<shortdescription>A set diagram with the circle for the set of cats contained within the set of mammals. Both are in the universal set rectangle; There is an arrow for tigers pointing to the inside of the cats circle</shortdescription>
 					</image>
 					</sidebyside>
 					<p>
@@ -274,7 +274,7 @@
 					</p>
 					<sidebyside width="65%">
 					<image source="images/language_logic_rules/1_3/eval_arg2.png">
-					<description>A set diagram with the circle for the set of water bottles contained within the set of plastic.  Both are in the universal set rectangle; There is an arrow for this water bottle pointing to the inside of the water bottle circle</description>
+					<shortdescription>A set diagram with the circle for the set of water bottles contained within the set of plastic.  Both are in the universal set rectangle; There is an arrow for this water bottle pointing to the inside of the water bottle circle</shortdescription>
 					</image>
 					</sidebyside>
 					<p>
@@ -287,7 +287,7 @@
 					</p>
 					<sidebyside width="65%">
 					<image source="images/language_logic_rules/1_3/eval_arg3.png">
-					<description>A set diagram with the circle for the set of firefighters contained within the set of those who know CPR. Both are in the universal set rectangle; There is a question mark inside the firefighter circle and in the larger know CPR region because we don't know which region Jill is in</description>
+					<shortdescription>A set diagram with the circle for the set of firefighters contained within the set of those who know CPR. Both are in the universal set rectangle; There is a question mark inside the firefighter circle and in the larger know CPR region because we don't know which region Jill is in</shortdescription>
 					</image>
 					</sidebyside>
 					<p>
@@ -297,7 +297,7 @@
 				<li>
 					<sidebyside width="50%">
 					<image source="images/language_logic_rules/1_3/eval_arg4.png">
-					<description>A set diagram with 2 disjoint sets, people who like to dance and my friends; Both circles are in the universal set rectangle; There is a question mark in the  my friends circle and in the region outside the circles because we don't know where Kai goes.</description>
+					<shortdescription>A set diagram with 2 disjoint sets, people who like to dance and my friends; Both circles are in the universal set rectangle; There is a question mark in the  my friends circle and in the region outside the circles because we don't know where Kai goes.</shortdescription>
 					</image>
 					</sidebyside>
 					<p>
@@ -307,7 +307,7 @@
 				<li>
 					<sidebyside width="40%">
 					<image source="images/language_logic_rules/1_3/eval_arg5.png">
-					<description>A set diagram with 2 overlapping sets, young adults and minimum wage earners; There is a question mark in the young adults region and in the intersection of the two circles because we don't know where Tara goes.</description>
+					<shortdescription>A set diagram with 2 overlapping sets, young adults and minimum wage earners; There is a question mark in the young adults region and in the intersection of the two circles because we don't know where Tara goes.</shortdescription>
 					</image>
 					</sidebyside>
 					<p>

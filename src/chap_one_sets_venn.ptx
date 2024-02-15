@@ -117,7 +117,7 @@
 						If you are searching for books for a research project, the universal set might be all the books in the library, and the books in the library that are relevant to your research project would be a subset of the universal set.
 					</p>
 					<image source="images/language_logic_rules/1_2/UV_set_pic1.png">
-					<description>A rectangle is drawn for the universal set U, labeled all books in the library; there is a circle inside the rectangle, labeled books relevant to your research project.</description>
+					<shortdescription>A rectangle is drawn for the universal set U, labeled all books in the library; there is a circle inside the rectangle, labeled books relevant to your research project.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -127,7 +127,7 @@
 						If you are wanting to create a group of your Facebook friends that are coworkers, the universal set would be all your Facebook friends and the group of coworkers would be a subset of the universal set.
 					</p>
 					<image source="images/language_logic_rules/1_2/UV_set_pic2.png">
-					<description>A rectangle is drawn for the universal set U, labeled all your facebook friends; there is a circle inside the rectangle, labeled coworkers.</description>
+					<shortdescription>A rectangle is drawn for the universal set U, labeled all your facebook friends; there is a circle inside the rectangle, labeled coworkers.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -137,7 +137,7 @@
 						If you are working with sets of numbers, the universal set might be all whole numbers, and all prime numbers would be a subset of the universal set.
 					</p>
 					<image source="images/language_logic_rules/1_2/UV_set_pic3.png">
-					<description>A rectangle is drawn for the universal set U, labeled all whole numbers; there is a circle inside the rectangle, labeled all whole numbers.</description>
+					<shortdescription>A rectangle is drawn for the universal set U, labeled all whole numbers; there is a circle inside the rectangle, labeled all whole numbers.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -225,19 +225,19 @@
 			<figure>
             <caption>The <alert>intersection</alert> is where the shading of the two sets overlaps in the center. It contains the elements of A <alert>and</alert> B.</caption>
             <image source="images/language_logic_rules/1_2/Venn_pic1.png">
-            <description>A Venn diagram of two overlapping sets, labeled set A and set B, with 3 regions; the crescent shape in yellow indicates the region for members who are only in set A; the crescent shape shaded blue indicates the members who are only in set B; the overlapping region in the middle is shaded green to indicate member in both sets; the green area is called the intersection</description>
+            <shortdescription>A Venn diagram of two overlapping sets, labeled set A and set B, with 3 regions; the crescent shape in yellow indicates the region for members who are only in set A; the crescent shape shaded blue indicates the members who are only in set B; the overlapping region in the middle is shaded green to indicate member in both sets; the green area is called the intersection</shortdescription>
         	</image>
         </figure>
         <figure>
             <caption>The <alert>union</alert> includes all elements of A <alert>or</alert> B or both. It contains all three of the shaded regions.</caption>
             <image source="images/language_logic_rules/1_2/Venn_pic2.png">
-            <description>The same Venn diagram used to illustrate the union is all 3 regions</description>
+            <shortdescription>The same Venn diagram used to illustrate the union is all 3 regions</shortdescription>
         	</image>
         </figure>
         <figure>
 	        <caption>The <alert>complement</alert> of set A includes all the elements <alert>not</alert> in A. It is the shaded region outside the set of A, but within the universal set.</caption>
 	        <image source="images/language_logic_rules/1_2/Venn_pic3.png">
-	        <description>A Venn diagram with only one set A; The region outside the circle for A but inside the rectangle is shaded blue to represent the complement of the set or elements not in set A.</description>
+	        <shortdescription>A Venn diagram with only one set A; The region outside the circle for A but inside the rectangle is shaded blue to represent the complement of the set or elements not in set A.</shortdescription>
 	    	</image>
         </figure>
 	    </sidebyside>
@@ -262,7 +262,7 @@
 		</p>
 		<sidebyside width="40%">
 		<image source="images/language_logic_rules/1_2/Venn_pic4.png">
-			<description>A Venn diagram with 2 overlapping sets, one for Rose and one for Julio; The books that only rose read are in her crescent: The Hobbit, The tipping Point, and Greek Love; The books that only Julio read are in his crescent: Game of Thrones and Animal Farm; the books they both read are in the center  region: 1984.</description>
+			<shortdescription>A Venn diagram with 2 overlapping sets, one for Rose and one for Julio; The books that only rose read are in her crescent: The Hobbit, The tipping Point, and Greek Love; The books that only Julio read are in his crescent: Game of Thrones and Animal Farm; the books they both read are in the center  region: 1984.</shortdescription>
 		</image>
 		</sidebyside>
 		</statement>
@@ -274,7 +274,7 @@
 		</p>
 		<sidebyside width="85%">
 		<image source="images/language_logic_rules/1_2/Venn_pic5.png">
-			<description>A previous generic Venn diagram showing 2 ovelapping sets, set A and set B. The yellow crescent is labeled Just A, the blue crescent is labeled Just B, and the green intersection is labeled A and B. The inclusive or includes all 3 regions; the exclusive or is just the yellow and blue regions.</description>
+			<shortdescription>A previous generic Venn diagram showing 2 ovelapping sets, set A and set B. The yellow crescent is labeled Just A, the blue crescent is labeled Just B, and the green intersection is labeled A and B. The inclusive or includes all 3 regions; the exclusive or is just the yellow and blue regions.</shortdescription>
 		</image>
 		</sidebyside>
 	</example>
@@ -297,7 +297,7 @@
 		</p>
 		<sidebyside width="85%">
 		<image source="images/language_logic_rules/1_2/ill_data1.png">
-		<description>A Venn diagram with 2 overlapping sets, labeled coffee and tea; There are 80 people in the crescent for only coffee only, 30 people in the crescent for only tea, and 40 in the overlapping region in the center for coffee and tea</description>
+		<shortdescription>A Venn diagram with 2 overlapping sets, labeled coffee and tea; There are 80 people in the crescent for only coffee only, 30 people in the crescent for only tea, and 40 in the overlapping region in the center for coffee and tea</shortdescription>
 		</image>
 		</sidebyside>
 		<p>
@@ -308,7 +308,7 @@
 		</p>
 		<sidebyside width="40%">
 		<image source="images/language_logic_rules/1_2/ill_data2.png">
-		<description>The same Venn digram with the number 50 placed outside of the circles and inside the universal set. These are the people who don't drink tea or coffee</description>
+		<shortdescription>The same Venn digram with the number 50 placed outside of the circles and inside the universal set. These are the people who don't drink tea or coffee</shortdescription>
 		</image>
 		</sidebyside>
 	</solution>
@@ -377,7 +377,7 @@
 		</p>
 		<sidebyside width="40%">
 		<image source="images/language_logic_rules/1_2/ill_data3.png">
-		<description>A Venn diagram with 3 overlapping circles labeled bus, car and bike; The numbers are places as in the text: bus only, 35; car only, 57; bike only, 20; bus and car only, 10, bus and bike only, 8; bike and car only, 35; the center region for all 3 modes of transportation has 12. The region outside the circles has 15 people</description>
+		<shortdescription>A Venn diagram with 3 overlapping circles labeled bus, car and bike; The numbers are places as in the text: bus only, 35; car only, 57; bike only, 20; bus and car only, 10, bus and bike only, 8; bike and car only, 35; the center region for all 3 modes of transportation has 12. The region outside the circles has 15 people</shortdescription>
 		</image>
 		</sidebyside>
 	</solution>
@@ -438,7 +438,7 @@
 		</p>
 			<sidebyside width="40%">
 			<image source="images/language_logic_rules/1_2/ill_data4.png">
-			<description>A Venn diagram with 3 overlapping circles labeled bigfoot, UFO's and ghosts; The numbers are places as in the text: bigfoot only, 14; UFO's only, 30; ghosts only, 28; bigfooot and UFO's only, 3; bigfoot and ghosts only, 6; UFO's and ghosts only, 8; the center region overlapping all 3 has 2. The region outside the circles has 59 people</description>
+			<shortdescription>A Venn diagram with 3 overlapping circles labeled bigfoot, UFO's and ghosts; The numbers are places as in the text: bigfoot only, 14; UFO's only, 30; ghosts only, 28; bigfooot and UFO's only, 3; bigfoot and ghosts only, 6; UFO's and ghosts only, 8; the center region overlapping all 3 has 2. The region outside the circles has 59 people</shortdescription>
 			</image>
 			</sidebyside>
 		<p>
@@ -472,7 +472,7 @@
 				</p>
 			</stack>
 				<image source="images/language_logic_rules/1_2/overlap_set.png">
-				<description>A set diagram showing 2 overlapping sets, students in SE portland and students in Math 105; the overlapping region is students who live in SE and are taking Math 105; the rectangle is labeled with U for the universal set</description>
+				<shortdescription>A set diagram showing 2 overlapping sets, students in SE portland and students in Math 105; the overlapping region is students who live in SE and are taking Math 105; the rectangle is labeled with U for the universal set</shortdescription>
 				</image>
 		</sidebyside>
 	</example>
@@ -496,7 +496,7 @@
 				</p>
 			</stack>
 				<image source="images/language_logic_rules/1_2/disjoint_set.png">
-				<description>A set diagram showing 2 sets that are entirely separate, cats and dogs. The circles do not overlap but they are in the universal set rectangle</description>
+				<shortdescription>A set diagram showing 2 sets that are entirely separate, cats and dogs. The circles do not overlap but they are in the universal set rectangle</shortdescription>
 				</image>
 		</sidebyside>
 	</example>
@@ -519,7 +519,7 @@
 				</p>
 			</stack>
 				<image source="images/language_logic_rules/1_2/subsets.png">
-				<description>A set diagram showing the circle for the set maple trees inside the circle for the set of trees. Both are inside the universal rectangle, U</description>
+				<shortdescription>A set diagram showing the circle for the set maple trees inside the circle for the set of trees. Both are inside the universal rectangle, U</shortdescription>
 				</image>
 		</sidebyside>
 	</example>
@@ -1250,8 +1250,8 @@
 	<sidebyside valign="middle" widths="47% 47%">
 		<stack>
 		<image source="images/language_logic_rules/1_2/hw_1_2_additional_ex_4.png">
-		<description>
-		</description>
+		<shortdescription>
+		</shortdescription>
 		</image>
 	</stack>
 	<stack>

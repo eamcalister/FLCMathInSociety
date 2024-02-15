@@ -14,7 +14,7 @@
 			</p>
 		</stack>
 			<image source="images/statistics/3_1/db_pic.png">
-				<description>A portrait of Dr. David Blackwell.</description>
+				<shortdescription>A portrait of Dr. David Blackwell.</shortdescription>
 			</image>
 		</sidebyside>
 		

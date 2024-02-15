@@ -75,7 +75,7 @@
 			The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" target="_blank">"Ranked Choice Ballot"</url>, <url href="https://www.rankedchoicevoting.org/" target="_blank">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let’s see how to tally the results from a ranked choice election.
 		</p>
 		<image width="45%" source="images/democracy/5_2/voter_card.png">
-		<description>A ranked choice ballot with three candidates for favorite flavor of ice cream: strawberry, chocolate and vanilla. There is a grid for voters to select their first, second and third choice.</description>
+		<shortdescription>A ranked choice ballot with three candidates for favorite flavor of ice cream: strawberry, chocolate and vanilla. There is a grid for voters to select their first, second and third choice.</shortdescription>
 		</image>
 	</sidebyside>
 	<example>

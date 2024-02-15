@@ -397,7 +397,7 @@
 	</p>
 	<sidebyside width="30%">
 		<image source="images/probability/4_2/comp_events.png">
-		<description>A Venn diagram with only one set A; The region outside the circle for A but inside the rectangle is shaded blue to represent the complement of the set or elements not in set A.</description>
+		<shortdescription>A Venn diagram with only one set A; The region outside the circle for A but inside the rectangle is shaded blue to represent the complement of the set or elements not in set A.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -735,7 +735,7 @@
 	</p>
 	<sidebyside width="70%">
 		<image source="images/probability/4_2/overlap.png">
-		<description>Two set diagrams. The Venn diagram on the left shows two overlapping sets which have an intersecting area; The Venn diagram on the right shows two sets that are entirely separate, like cats and dogs.</description>
+		<shortdescription>Two set diagrams. The Venn diagram on the left shows two overlapping sets which have an intersecting area; The Venn diagram on the right shows two sets that are entirely separate, like cats and dogs.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>

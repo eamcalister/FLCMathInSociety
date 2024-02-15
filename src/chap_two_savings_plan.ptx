@@ -167,7 +167,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_3/savings_plan1.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -250,7 +250,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_3/savings_plan2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 	</solution>
@@ -325,7 +325,7 @@
 			</p>
 			</stack>
 			<image source="images/financial_math/2_3/finding_payments1.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		
@@ -387,7 +387,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_3/finding_payments2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -466,7 +466,7 @@
 		</p>
 			</stack>
 		<image source="images/financial_math/2_3/comparing_payments1.png">
-		<description>An image of the spreadsheet showing the formula used and the result.</description>
+		<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 
@@ -484,7 +484,7 @@
 			</p>
 			</stack>
 			<image source="images/financial_math/2_3/comparing_payments2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -524,7 +524,7 @@
 		</p>
 			</stack>
 		<image source="images/financial_math/2_3/comparing_payments3.png">
-		<description>An image of the spreadsheet showing the formula used and the result.</description>
+		<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 

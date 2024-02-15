@@ -866,7 +866,7 @@
 		</p>
 		<sidebyside>
 		<image width="70%" source="images/democracy/5_3/electoral1.png">
-		<description>A cartesian coordinate graph with number of electors on the x-axis and electoral power on the y-axis. The graph shows the maximum electoral power of 3 when there are 3 electors and an exponential decay as the number of electors goes up. With 4 electors the electoral power is 2, with 5 electors the electoral power is about 1.67 and the pattern levels off at an electoral power just over 1.0 as the number of electors increases.</description>
+		<shortdescription>A cartesian coordinate graph with number of electors on the x-axis and electoral power on the y-axis. The graph shows the maximum electoral power of 3 when there are 3 electors and an exponential decay as the number of electors goes up. With 4 electors the electoral power is 2, with 5 electors the electoral power is about 1.67 and the pattern levels off at an electoral power just over 1.0 as the number of electors increases.</shortdescription>
 		</image>
 		</sidebyside>
 		<p>
@@ -877,7 +877,7 @@
 		</p>
 		<sidebyside>
 		<image width="70%" source="images/democracy/5_3/electoral2.png">
-		<description>A cartesian coordinate graph with the same axes as the previous graph. This time the electoral power is constant with an electoral power of 1 for every number of electors.</description>
+		<shortdescription>A cartesian coordinate graph with the same axes as the previous graph. This time the electoral power is constant with an electoral power of 1 for every number of electors.</shortdescription>
 		</image>
 		</sidebyside>
 		<p>

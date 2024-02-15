@@ -575,7 +575,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/financial_math/2_2/future_value.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -659,7 +659,7 @@
 	</tabular>
 	</table>
 	<image source="images/financial_math/2_2/comparing_interest.png">
-	<description>A coordinate graph with years on the x-axis and account balance on the y-axis. The simple interest increases in a straight line; the compound interest curves up faster because it is an exponential function.</description>
+	<shortdescription>A coordinate graph with years on the x-axis and account balance on the y-axis. The simple interest increases in a straight line; the compound interest curves up faster because it is an exponential function.</shortdescription>
 	</image>
 </sidebyside>
 </subsection>
@@ -733,7 +733,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/financial_math/2_2/present_value.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 		<p>
@@ -846,7 +846,7 @@
 				</p>
 			</stack>
 			<image source="images/financial_math/2_2/continuous_interest.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -969,7 +969,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_2/effective_rate1.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -986,7 +986,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_2/effective_rate2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		
@@ -1021,7 +1021,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_2/effective_rate3.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -1039,7 +1039,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_2/effective_rate4.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		

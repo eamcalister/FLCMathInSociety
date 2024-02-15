@@ -99,7 +99,7 @@
 		
 		<sidebyside width="50%">
 			<image source="images/statistics/3_3/mean1.png">
-			<description>A screenshot of Excel showing the =AVERAGE formula typed in with the values.</description>
+			<shortdescription>A screenshot of Excel showing the =AVERAGE formula typed in with the values.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -114,7 +114,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_3/mean2.png">
-			<description>A screenshot of Excel showing the =AVERAGE formula typed in with the cell references. The data is in column A</description>
+			<shortdescription>A screenshot of Excel showing the =AVERAGE formula typed in with the cell references. The data is in column A</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -217,7 +217,7 @@
 	</p>
 	<sidebyside width="60%">
 		<image source="images/statistics/3_3/mean3.png">
-		<description>A drawing of a see-saw with rectangles to indicate the data values. Most of the data values are to the left of the fulcrum; the two values to the right are spread out which causes the data to be balanced.</description>
+		<shortdescription>A drawing of a see-saw with rectangles to indicate the data values. Most of the data values are to the left of the fulcrum; the two values to the right are spread out which causes the data to be balanced.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -226,7 +226,7 @@
 	</p>
 	<sidebyside width="60%">
 		<image source="images/statistics/3_3/mean4.png">
-		<description>With the outlier data value added, the see-saw is extended with that value far to the right. Now all of the original data values are to the left of the fulcrum.</description>
+		<shortdescription>With the outlier data value added, the see-saw is extended with that value far to the right. Now all of the original data values are to the left of the fulcrum.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -308,7 +308,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_3/median1.png">
-			<description>A screenshot of Excel showing the =MEDIAN formula typed in with the cell references. The data is in row 1</description>
+			<shortdescription>A screenshot of Excel showing the =MEDIAN formula typed in with the cell references. The data is in row 1</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -343,7 +343,7 @@
 	
 	<sidebyside width="50%">
 		<image source="images/statistics/3_3/median2.png">
-		<description>A screenshot of Excel showing the =MEDIAN formula with all the data values typed in.</description>
+		<shortdescription>A screenshot of Excel showing the =MEDIAN formula with all the data values typed in.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -374,7 +374,7 @@
 		<figure>
 			<caption>Mean <m>=\$67,160</m>, Median <m>=\$53,500</m>, Mean <m>\gt</m> Median</caption>
 			<image width="50%" source="images/statistics/3_3/mean_vs_median1.png">
-			<description>A screenshot of GeoGebra showing the histogram is skewed to the right. The statistics output shows the mean is $67,160 and the Median is $53,500.</description>
+			<shortdescription>A screenshot of GeoGebra showing the histogram is skewed to the right. The statistics output shows the mean is $67,160 and the Median is $53,500.</shortdescription>
 			</image>
 		</figure>
 	</example>
@@ -390,7 +390,7 @@
 		<figure>
 			<caption>Mean <m>=81.7</m> points, Median <m>=87.5</m> points, Mean <m>\lt</m> Median</caption>
 			<image width="50%" source="images/statistics/3_3/mean_vs_median2.png">
-			<description>A screenshot of GeoGebra showing the histogram is skewed to the left. The statistics output shows the mean is 81.7 points and the Median is 87.5 points.</description>
+			<shortdescription>A screenshot of GeoGebra showing the histogram is skewed to the left. The statistics output shows the mean is 81.7 points and the Median is 87.5 points.</shortdescription>
 			</image>
 		</figure>
 	</example>
@@ -405,7 +405,7 @@
 		<figure>
 			<caption>Mean <m>=62.6</m> inches, Median <m>=62</m> inches Mean <m>\approx</m> Median</caption>
 			<image width="50%" source="images/statistics/3_3/mean_vs_median3.png">
-			<description>A screenshot of GeoGebra showing the histogram is approximately symmetric. The statistics output shows the mean is 62.6 inches and the Median is 62 inches.</description>
+			<shortdescription>A screenshot of GeoGebra showing the histogram is approximately symmetric. The statistics output shows the mean is 62.6 inches and the Median is 62 inches.</shortdescription>
 			</image>
 		</figure>
 	</example>
@@ -1821,7 +1821,7 @@
 	<sidebyside width="50%">
 		<image source="images/statistics/3_3/400_exams.png">
 		</image>
-		<description>The bars gradually increase going to the right with the tallest bars near the right side of the graph, then they decrease sharply.</description>
+		<shortdescription>The bars gradually increase going to the right with the tallest bars near the right side of the graph, then they decrease sharply.</shortdescription>
 	</sidebyside>
 	<p>
 		<ol marker="a.">
@@ -1864,7 +1864,7 @@
 	<sidebyside width="50%">
 	<image source="images/statistics/3_3/40_coffee.png">
 	</image>
-	<description>The bars on the histogram increase gradually with the tallest bars in the center, then decrease gradually.</description>
+	<shortdescription>The bars on the histogram increase gradually with the tallest bars in the center, then decrease gradually.</shortdescription>
 	</sidebyside>
 	<p>
 		<ol marker="a.">
