@@ -1,0 +1,1 @@
+java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar ~/pretext/schema/pretext.rng ~/MathInSocietyPCC/src/index.ptx > jingreport.txt
