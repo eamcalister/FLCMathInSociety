@@ -2,8 +2,6 @@
 <exercises xml:id="chap_two_review">
 <title>Chapter 2 Review</title>
 
-<exercisegroup>
-
 	<exercise>
 		<statement>
 		<p>
@@ -225,14 +223,6 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
-
-<exercisegroup>
-	<!-- <introduction>
-	<p>
-		Savings Plans
-	</p>
-	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -297,14 +287,6 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
-
-<exercisegroup>
-	<!-- <introduction>
-	<p>
-		Loan Payments
-	</p>
-	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -345,14 +327,6 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
-
-<exercisegroup>
-	<!-- <introduction>
-	<p>
-		Budgeting
-	</p>
-	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -407,14 +381,6 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
-
-<exercisegroup>
-	<!-- <introduction>
-	<p>
-		Taxes
-	</p>
-	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -546,6 +512,5 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
 
 </exercises>
