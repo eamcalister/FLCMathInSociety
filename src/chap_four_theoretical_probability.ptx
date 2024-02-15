@@ -78,7 +78,7 @@
 <subsection>
 	<title>Basic Probability Concepts</title>
 	<p>
-		  Let’s begin with a brief introduction to some of the language and basic concepts of theoretical probability. 
+		  Let's begin with a brief introduction to some of the language and basic concepts of theoretical probability. 
 	</p>
 </subsection>
 
@@ -413,7 +413,7 @@
 	<example>
 		<statement>
 		<p>
-			If you roll an eight-sided die, what’s the probability you don’t get a 6?
+			If you roll an eight-sided die, what's the probability you don't get a 6?
 		</p>
 		</statement>
 		<solution>
@@ -529,7 +529,7 @@
 <subsection>
 <title>Probability of Compound Events</title>
 	<p>
-		Now that we have the basics in place, let’s look at some compound probability problems that we will be studying in this course. 
+		Now that we have the basics in place, let's look at some compound probability problems that we will be studying in this course. 
 	</p>
 </subsection>
 
@@ -637,7 +637,7 @@
 				</li>
 				<li>
 					<p>
-						two red Legos in a row if we don’t put the first Lego back in the bag?
+						two red Legos in a row if we don't put the first Lego back in the bag?
 					</p>
 				</li>
 				<li>
@@ -697,7 +697,7 @@
 	</example>
 
 	<p>
-		Let’s look at an example where we repeat an event many times.
+		Let's look at an example where we repeat an event many times.
 	</p>
 	<example>
 		<statement>
@@ -839,7 +839,7 @@
 		</statement>
 		<solution>
 		<p>
-			For complicated events it’s a good idea to list all of the outcomes. Looking at the table of outcomes, we see that there are 6 outcomes that are pairs out of the 36 possible outcomes, and there are 5 outcomes that add to 6. We can also see that there is one outcome that is both a pair and a sum of 6, so the events are overlapping.
+			For complicated events it's a good idea to list all of the outcomes. Looking at the table of outcomes, we see that there are 6 outcomes that are pairs out of the 36 possible outcomes, and there are 5 outcomes that add to 6. We can also see that there is one outcome that is both a pair and a sum of 6, so the events are overlapping.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">

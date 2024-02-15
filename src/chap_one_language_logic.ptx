@@ -89,7 +89,7 @@
 		</solution>
 	</example>
 	<p>
-		Arguments are made of one or more propositions (called <alert>premises</alert>), along with a <alert>conclusion</alert>. Propositions may be <alert>negated</alert>, or combined with <alert>connectors</alert> like “and”, and “or”. Let’s take a closer look at how these negations and logical connectors are used to create more complex statements. 
+		Arguments are made of one or more propositions (called <alert>premises</alert>), along with a <alert>conclusion</alert>. Propositions may be <alert>negated</alert>, or combined with <alert>connectors</alert> like “and”, and “or”. Let's take a closer look at how these negations and logical connectors are used to create more complex statements. 
 	</p>
 </subsection>
 
@@ -159,7 +159,7 @@
 	<title>Multiple Negations</title>
 
 	<p>
-		It is possible to use more than one negation in a statement. If you’ve ever said something like, <q>I can’t not go,</q> you are really saying you must go. It’s a lot like multiplying two negative numbers which gives a positive result.
+		It is possible to use more than one negation in a statement. If you've ever said something like, <q>I can't not go,</q> you are really saying you must go. It's a lot like multiplying two negative numbers which gives a positive result.
 	</p>
 	<p>
 		In the media and in ballot measures we often see multiple negations and it can be confusing to figure out what a statement means. 
@@ -202,7 +202,7 @@
 	<title>Logical Connectors (and, or)</title>
 
 	<p>
-		When we use the word <q>and</q> between two propositions, it connects them to create a new statement that is also a proposition. For example, if you said <q>To finish this project, I need a screwdriver <alert>and</alert> a wrench,</q> then you are expressing the need for both tools. For an <q>and</q> statement to be true, the connected propositions must both be true. If even one proposition is false (for instance, you didn’t need a wrench) then the entire connected statement is false.
+		When we use the word <q>and</q> between two propositions, it connects them to create a new statement that is also a proposition. For example, if you said <q>To finish this project, I need a screwdriver <alert>and</alert> a wrench,</q> then you are expressing the need for both tools. For an <q>and</q> statement to be true, the connected propositions must both be true. If even one proposition is false (for instance, you didn't need a wrench) then the entire connected statement is false.
 	</p>
 	<p>
 		The word <q>or</q> between two propositions similarly connects the propositions to create a new statement. In this case, if you said <q>To finish this project, I need a screwdriver <alert>or</alert> a wrench,</q> then you are expressing the need for one of the tools (but probably not both). For an <q>or</q> statement to be true, at least one of the propositions must be true (or both could be true).
@@ -244,7 +244,7 @@
 		</statement>
 		<solution>
 			<p>
-				The first <em>or</em> statement is a choice of one or the other, but not both, so it is exclusive. The second statement is inclusive because they could find a candidate who speaks both languages. The third statement is exclusive because you can’t wear both at the same time. The fourth statement is inclusive because you could visit both countries on your trip. 
+				The first <em>or</em> statement is a choice of one or the other, but not both, so it is exclusive. The second statement is inclusive because they could find a candidate who speaks both languages. The third statement is exclusive because you can't wear both at the same time. The fourth statement is inclusive because you could visit both countries on your trip. 
 			</p>
 		</solution>
 	</example>
@@ -253,10 +253,10 @@
 <subsection>
 	<title>Conditional Statements (if, then)</title>
 	<p>
-		A <alert>conditional</alert> statement connects two propositions with <em>if, then</em>. An example of a conditional statement would be <q><em>If</em> it is raining, <em>then</em> we’ll go to the mall.</q>
+		A <alert>conditional</alert> statement connects two propositions with <em>if, then</em>. An example of a conditional statement would be <q><em>If</em> it is raining, <em>then</em> we'll go to the mall.</q>
 	</p>
 	<p>
-		The statement <q>If it is raining,</q> may be true or false for any given day. If the condition is true, then we will follow the course of action and go to the mall. If the condition is false, though, we haven’t said anything about what we will or won’t do. 
+		The statement <q>If it is raining,</q> may be true or false for any given day. If the condition is true, then we will follow the course of action and go to the mall. If the condition is false, though, we haven't said anything about what we will or won't do. 
 	</p>
 </subsection>
 
@@ -266,7 +266,7 @@
 		In logic we can use a <alert>truth table</alert> to analyze a complex statement by summarizing all the possibilities and their <alert>truth values</alert> (true or false). To do this, we break the statement down to its smallest elements, the propositions. Then we can see the outcome of the complex statement for all possible combinations of true and false for the propositions.
 	</p>
 	<p>
-		For example, let’s work with two propositions:
+		For example, let's work with two propositions:
 		<ul>
 			<li>
 				<p>
@@ -342,7 +342,7 @@
 				</li>
 				<li>
 					<p>
-						Row 4: You haven’t paid either your rent or electric bill (yet).
+						Row 4: You haven't paid either your rent or electric bill (yet).
 					</p>
 				</li>
 			</ul>
@@ -444,7 +444,7 @@
 		We talked about conditional statements (<em>if, then</em> statements), earlier. In logical arguments the first part (the <q><em>if</em></q> part) is usually a <alert>hypothesis</alert> and the second part (the <q><em>then</em></q> part) is a <alert>conclusion</alert>.
 	</p>
 	<p>
-	 	To understand the truth table values for a conditional statement it is helpful to look at an example. Let’s say a friend tells you, <q>If you post that photo to Facebook, you’ll lose your job.</q> Under what conditions can you say that your friend was wrong?
+	 	To understand the truth table values for a conditional statement it is helpful to look at an example. Let's say a friend tells you, <q>If you post that photo to Facebook, you'll lose your job.</q> Under what conditions can you say that your friend was wrong?
 	</p>
 	<p>
 	 	There are four possible outcomes:
@@ -456,17 +456,17 @@
 	 		</li>
 	 		<li>
 	 			<p>
-	 				You post the photo and don’t lose your job
+	 				You post the photo and don't lose your job
 	 			</p>
 	 		</li>
 	 		<li>
 	 			<p>
-	 				You don’t post the photo and lose your job
+	 				You don't post the photo and lose your job
 	 			</p>
 	 		</li>
 	 		<li>
 	 			<p>
-	 				You don’t post the photo and don’t lose your job
+	 				You don't post the photo and don't lose your job
 	 			</p>
 	 		</li>
 	 	</ol>
@@ -475,7 +475,7 @@
 	 	The only case where you can say your friend was wrong is the second case, in which you post the photo but still keep your job.
 	</p>
 	<p>
-	 	Your friend didn’t say anything about what would happen if you didn’t post the photo, so you can’t say the last two statements are wrong. Even if you didn’t post the photo and lost your job anyway, your friend never said that you were guaranteed to keep your job if you didn’t post it.
+	 	Your friend didn't say anything about what would happen if you didn't post the photo, so you can't say the last two statements are wrong. Even if you didn't post the photo and lost your job anyway, your friend never said that you were guaranteed to keep your job if you didn't post it.
 	</p>
 	<p>
 	  The four cases above correspond to the four rows of the truth table. For this truth table we will use P for <q>posting the photo,</q> and L for <q>losing your job.</q>
@@ -641,7 +641,7 @@
 		</statement>
 		<solution>
 		<p>
-			First let’s figure out the columns we will need. We have <em>A, B, C,</em> then we need the statement in the parentheses, <em>(B or C)</em>. Then we need the negation of that column, <em>not (B or C)</em>. Then we conclude with our final statement, <em>A and not (B or C)</em>. 
+			First let's figure out the columns we will need. We have <em>A, B, C,</em> then we need the statement in the parentheses, <em>(B or C)</em>. Then we need the negation of that column, <em>not (B or C)</em>. Then we conclude with our final statement, <em>A and not (B or C)</em>. 
 		</p>
 		<p>
 			Here is the initial table:
@@ -804,7 +804,7 @@
 				</tabular>
 			</table>
 		<p>
-			For this statement A must be true and neither B or C can be true, so it is only true in the fourth row. For an example of this statement, let’s define these propositions in the context of professional baseball:
+			For this statement A must be true and neither B or C can be true, so it is only true in the fourth row. For an example of this statement, let's define these propositions in the context of professional baseball:
 		</p>
 		<p>
 			Let <em>A</em> = Anaheim wins, <em>B</em> = Baltimore wins, <em>C</em> = Cleveland wins. 
@@ -823,7 +823,7 @@
 		</statement>
 			<solution>
 		<p>
-			First, it may help to add parentheses to help you clarify the order. Our statement could also be written, <em>if (m and not p), then r</em>. To build this table, we will build the statement in parentheses and then repeat the <em>r</em> column after it. It’s easier to read the conditional statement from left to right. Here are the columns for the table: 
+			First, it may help to add parentheses to help you clarify the order. Our statement could also be written, <em>if (m and not p), then r</em>. To build this table, we will build the statement in parentheses and then repeat the <em>r</em> column after it. It's easier to read the conditional statement from left to right. Here are the columns for the table: 
 		</p>
 			<table>
 				<title></title>
@@ -1010,7 +1010,7 @@
 		 	Let <em>m</em> = we order meatballs, <em>p</em> = we order pasta, and <em>r</em> = Ruba is happy.
 		</p>
 		<p>
-		 	The statement if <em>m and not p</em>, then <em>r</em> is, <q>if we order meatballs and don’t order pasta, then Ruba is happy</q>. If <em>m</em> is true (we order meatballs), <em>p</em> is false (we don’t order pasta), and <em>r</em> is false (Ruba is not happy), then the statement is false, because we satisfied the premise, but Ruba did not satisfy the conclusion.
+		 	The statement if <em>m and not p</em>, then <em>r</em> is, <q>if we order meatballs and don't order pasta, then Ruba is happy</q>. If <em>m</em> is true (we order meatballs), <em>p</em> is false (we don't order pasta), and <em>r</em> is false (Ruba is not happy), then the statement is false, because we satisfied the premise, but Ruba did not satisfy the conclusion.
 		</p>
 	</solution>
 	</example> 
@@ -1221,7 +1221,7 @@
 	</statement>
 	<solution>
 		<p>
-			Answers will vary. Example: You can’t not do your homework.
+			Answers will vary. Example: You can't not do your homework.
 		</p>
 	</solution>
 </exercise>
@@ -1644,28 +1644,28 @@
 <exercise>
 	<statement>
 	<p>
-		Translate each statement from English sentences into symbolic notation. Let A represent <q>It’s time to eat</q> and let B represent <q>I am hungry.</q>
+		Translate each statement from English sentences into symbolic notation. Let A represent <q>It's time to eat</q> and let B represent <q>I am hungry.</q>
 	</p>
 	<p>
 		<ol marker="a.">
 			<li>
 				<p>
-					It’s time to eat and I’m not hungry.
+					It's time to eat and I'm not hungry.
 				</p>
 			</li>
 			<li>
 				<p>
-					It’s not time to eat.
+					It's not time to eat.
 				</p>
 			</li>
 			<li>
 				<p>
-					If it’s time to eat, then I’m hungry.
+					If it's time to eat, then I'm hungry.
 				</p>
 			</li>
 			<li>
 				<p>
-					If I’m not hungry then it’s not time to eat.
+					If I'm not hungry then it's not time to eat.
 				</p>
 			</li>
 		</ol>
@@ -1902,22 +1902,22 @@
 			<row>
 				<cell>T</cell>
 				<cell>T</cell>
-				<cell>T - I am a psychology major and I’m planning to transfer to PSU</cell>
+				<cell>T - I am a psychology major and I'm planning to transfer to PSU</cell>
 			</row>
 			<row>
 				<cell>T</cell>
 				<cell>F</cell>
-				<cell>T - I am a psychology major but I’m not planning to transfer to PSU</cell>
+				<cell>T - I am a psychology major but I'm not planning to transfer to PSU</cell>
 			</row>
 			<row>
 				<cell>F</cell>
 				<cell>T</cell>
-				<cell>T - I am not a psychology major, but I’m planning to transfer to PSU</cell>
+				<cell>T - I am not a psychology major, but I'm planning to transfer to PSU</cell>
 			</row>
 			<row>
 				<cell>F</cell>
 				<cell>F</cell>
-				<cell>F - I am not a psychology major and I’m not planning to transfer to PSU</cell>
+				<cell>F - I am not a psychology major and I'm not planning to transfer to PSU</cell>
 			</row>
 		</tabular>
 		</sidebyside>

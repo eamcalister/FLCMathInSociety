@@ -82,7 +82,7 @@
 	</assemblage>
 
 	<p>
-		We will go through the whole process for calculating the standard deviation. Let’s say there is another section of quiz scores:
+		We will go through the whole process for calculating the standard deviation. Let's say there is another section of quiz scores:
 	</p>
 	<p>
 		Section D: 0, 5, 5, 5, 5, 5, 5, 5, 5, 10
@@ -409,7 +409,7 @@
 	</example>
 	
 	<p>
-		In addition to a spreadsheet, we will continue our use of GeoGebra. Let’s take a look at how to use GeoGeogebra to find the mean, median and standard deviation for the last example. We begin just like we did for making a histogram.
+		In addition to a spreadsheet, we will continue our use of GeoGebra. Let's take a look at how to use GeoGeogebra to find the mean, median and standard deviation for the last example. We begin just like we did for making a histogram.
 	</p>
 
 	<example>
@@ -498,7 +498,7 @@
 			<m>Q_{3}</m> is the median of the upper half of the data
 		</p>
 		<p>
-			If there is an odd number of data values, we don’t use the median in either half
+			If there is an odd number of data values, we don't use the median in either half
 		</p>
 	</assemblage>
 
@@ -536,7 +536,7 @@
 			</md>
 		</p>
 		<p>
-			This tells us the that the middle 50% of the women’s heights lie within an interval of 6 inches.
+			This tells us the that the middle 50% of the women's heights lie within an interval of 6 inches.
 		</p>
 		</solution>
 	</example>
@@ -609,7 +609,7 @@
 	<example>
 		<statement>
 		<p>
-			Let’s continue with the cost of textbook data from <xref ref="textbook_example_mean_median_sd"></xref>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.
+			Let's continue with the cost of textbook data from <xref ref="textbook_example_mean_median_sd"></xref>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.
 		</p>
 		<p>
 			$140 $160 $160 $165 $180 $220 $235 $240 $250
@@ -811,7 +811,7 @@
 <subsection>
 	<title>Z-Scores</title>
 	<p>
-		Have you ever heard the saying that you can’t compare apples and oranges? It turns out that you can - provided we standardize their measures first! 
+		Have you ever heard the saying that you can't compare apples and oranges? It turns out that you can - provided we standardize their measures first! 
 	</p>
 	<p>
 		We will be using the standard score called a Z-score, which is a method commonly used with unimodal and symmetric distributions (called <alert>normal</alert> or <alert>nearly normal distributions</alert>). Z-scores may be used with any data, but if the distribution is skewed, then the distribution of Z-scores will also be skewed. 
@@ -854,7 +854,7 @@
 		</p>
 
 		<p>
-			By convention, Z-scores are rounded to two decimal places, so we see that the orange is 1.33 standard deviations below its mean and the apple is 1.17 standard deviation below its mean. The orange is therefore smaller relative to its distribution since its Z-score is less than the apple’s Z-score.
+			By convention, Z-scores are rounded to two decimal places, so we see that the orange is 1.33 standard deviations below its mean and the apple is 1.17 standard deviation below its mean. The orange is therefore smaller relative to its distribution since its Z-score is less than the apple's Z-score.
 		</p>
 		<p>
 			We can also see from the Z-scores that neither fruit has an unusually small diameter since each piece of fruit is less than 2 standard deviations from its mean.
@@ -889,7 +889,7 @@
 
 	<example>
 		<p>
-			The mean weight of men over the age of 20 is 195.7 pounds<fn>2016 CDC Report. <url href="https://www.cdc.gov/nchs/data/series/sr_03/sr03_039.pdf">https://www.cdc.gov/nchs/data/series/sr_03/sr03_039.pdf</url>. The study included all ethnicities but the report does not say whether transgendered men were included.</fn> with a standard deviation of 29.8 pounds. The mean weight of domestic cats is 8.6 pounds with a standard deviation of 1.2 pounds. (The standard deviation for men’s weights is estimated. The cat’s mean weight is based on ideal cat weight and the standard deviation is approximate).
+			The mean weight of men over the age of 20 is 195.7 pounds<fn>2016 CDC Report. <url href="https://www.cdc.gov/nchs/data/series/sr_03/sr03_039.pdf">https://www.cdc.gov/nchs/data/series/sr_03/sr03_039.pdf</url>. The study included all ethnicities but the report does not say whether transgendered men were included.</fn> with a standard deviation of 29.8 pounds. The mean weight of domestic cats is 8.6 pounds with a standard deviation of 1.2 pounds. (The standard deviation for men's weights is estimated. The cat's mean weight is based on ideal cat weight and the standard deviation is approximate).
 		</p>
 		<p> 
 			At his peak, Andre the Giant, the 7-foot-4-inch French professional wrestler and actor, weighed 520 pounds. When Georgie the cat was at his peak he weighed 24 pounds. Who was more giant – Andre the Giant or Georgie the cat? 
@@ -916,7 +916,7 @@
 		</p>
 	</sidebyside>
 		<p>
-			Since both Z-scores are greater than 2 standard deviations, both weights are extremely unusual. However, since the Z-score for Georgie’s weight is larger, he is even more giant than Andre the Giant.
+			Since both Z-scores are greater than 2 standard deviations, both weights are extremely unusual. However, since the Z-score for Georgie's weight is larger, he is even more giant than Andre the Giant.
 		</p>
 	</example>
 </subsection>
@@ -2155,7 +2155,7 @@
 					</image>
 				</sidebyside>
 				<p>
-					All of the values for the males’ 5-number summary are larger than the corresponding values for the females’ 5-number summary. The maximum income for males is more than twice the maximum income for females. Males have a significantly greater amount of variation in incomes than females, as shown by the larger range, IQR and standard deviation for males compared to females.
+					All of the values for the males' 5-number summary are larger than the corresponding values for the females' 5-number summary. The maximum income for males is more than twice the maximum income for females. Males have a significantly greater amount of variation in incomes than females, as shown by the larger range, IQR and standard deviation for males compared to females.
 				</p>
 			</li>
 		</ol>
@@ -2972,12 +2972,12 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					The 25th, 50th, and 75th percentiles are, respectively, the 1st quartile, median, and 3rd quartile for the data sets. Reading the boxplot for CPAs, the 25th, 50th, and 75th percentiles for CPAs’ salaries are, respectively, $40,000, $75,000, and $90,000. Reading the boxplot for actuaries, the 25th, 50th, and 75th percentiles for actuaries’ salaries are, respectively, $75,000, $90,000, and $94,000
+					The 25th, 50th, and 75th percentiles are, respectively, the 1st quartile, median, and 3rd quartile for the data sets. Reading the boxplot for CPAs, the 25th, 50th, and 75th percentiles for CPAs' salaries are, respectively, $40,000, $75,000, and $90,000. Reading the boxplot for actuaries, the 25th, 50th, and 75th percentiles for actuaries' salaries are, respectively, $75,000, $90,000, and $94,000
 				</p>
 			</li>
 			<li>
 				<p>
-					Deshawn’s salary (the median salary for an actuary) is $90,000; Kelsey’s salary (the first quartile salary) is also $75,000. So Deshawn makes more than Kelsey, by $15,000.
+					Deshawn's salary (the median salary for an actuary) is $90,000; Kelsey's salary (the first quartile salary) is also $75,000. So Deshawn makes more than Kelsey, by $15,000.
 				</p>
 			</li>
 			<li>
@@ -3131,7 +3131,7 @@
 					</md>
 				</p>
 				<p>
-					The marathon time’s <m>Z</m>-score is -1.65 standard deviations.
+					The marathon time's <m>Z</m>-score is -1.65 standard deviations.
 				</p>
 			</li>
 			<li>

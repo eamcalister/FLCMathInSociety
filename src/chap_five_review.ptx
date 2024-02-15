@@ -14,17 +14,17 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						Hamilton’s Method
+						Hamilton's Method
 					</p>
 				</li>
 				<li>
 					<p>
-						Jefferson’s Method
+						Jefferson's Method
 					</p>
 				</li>
 				<li>
 					<p>
-						Webster’s Method
+						Webster's Method
 					</p>
 				</li>
 				<li>
@@ -243,7 +243,7 @@
 			</li>
 			<li>
 				<p>
-					Find the winner under Copeland’s method.
+					Find the winner under Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -349,7 +349,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: F 3, G 2, H 1. F wins with Copeland’s method.
+					The points are: F 3, G 2, H 1. F wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -460,7 +460,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: I 2, J 2, L 2. I, J and L tie with Copeland’s method.
+					The points are: I 2, J 2, L 2. I, J and L tie with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -565,7 +565,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: M 1, N 2, O 3, P 4. P wins with Copeland’s method.
+					The points are: M 1, N 2, O 3, P 4. P wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -676,7 +676,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: S 3, T 4, U 2, V 1. T wins with Copeland’s method.
+					The points are: S 3, T 4, U 2, V 1. T wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -928,7 +928,7 @@
 <exercisegroup>
 	<introduction>
 		<p>
-			In each fictional country in problems 11-12, use the rules of the U.S. government (assume that all of a state’s electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
+			In each fictional country in problems 11-12, use the rules of the U.S. government (assume that all of a state's electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
 		</p>
 		<p>
 			<ol marker="a.">

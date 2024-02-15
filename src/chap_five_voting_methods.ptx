@@ -68,11 +68,11 @@
 	<title>Ranked Choice Ballots</title>
 	
 	<p>
-		To use some of the methods we are going to study, we need to know more than just each person’s first choice. We also need to know their 2nd and 3rd choices, and so on. A ballot where each person ranks all of the choices in order of their preference is called a <alert>ranked choice ballot</alert>.
+		To use some of the methods we are going to study, we need to know more than just each person's first choice. We also need to know their 2nd and 3rd choices, and so on. A ballot where each person ranks all of the choices in order of their preference is called a <alert>ranked choice ballot</alert>.
 	</p>
 	<sidebyside valign="middle" widths="47% 47%" margins="0%">
 		<p>
-			The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" target="_blank">"Ranked Choice Ballot"</url>, <url href="https://www.rankedchoicevoting.org/" target="_blank">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let’s see how to tally the results from a ranked choice election.
+			The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" target="_blank">"Ranked Choice Ballot"</url>, <url href="https://www.rankedchoicevoting.org/" target="_blank">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let's see how to tally the results from a ranked choice election.
 		</p>
 		<image width="45%" source="images/democracy/5_2/voter_card.png">
 		<shortdescription>A ranked choice ballot with three candidates for favorite flavor of ice cream: strawberry, chocolate and vanilla. There is a grid for voters to select their first, second and third choice.</shortdescription>
@@ -273,7 +273,7 @@
 		<m>10 \div 2=5</m>. Then we round up to 6 votes.
 	</p>
 	<p>
-		Exactly half of the votes would be a tie, so we round up to the next whole number. A candidate would need 6 out of 10 votes to win a majority. If there was an odd number of voters we would divide by 2 and get a decimal. Let’s say there were 13 voters:
+		Exactly half of the votes would be a tie, so we round up to the next whole number. A candidate would need 6 out of 10 votes to win a majority. If there was an odd number of voters we would divide by 2 and get a decimal. Let's say there were 13 voters:
 	</p>
 	<p>
 		<m>13 \div 2=6.5</m>. Then we round up to 7 votes.
@@ -349,7 +349,7 @@
 		</statement>
 	</example>
 	<p>
-		Situations like this can lead to insincere voting. <alert>Insincere voting</alert> is when a person doesn’t vote according to their actual preference for strategic purposes. In the case above, a person who wants to vote for a third-party candidate realizes it would take a vote away from their major party candidate. Not wanting to see their party lose the election, they vote for the major party candidate.
+		Situations like this can lead to insincere voting. <alert>Insincere voting</alert> is when a person doesn't vote according to their actual preference for strategic purposes. In the case above, a person who wants to vote for a third-party candidate realizes it would take a vote away from their major party candidate. Not wanting to see their party lose the election, they vote for the major party candidate.
 	</p>
 </subsection>
 
@@ -359,7 +359,7 @@
 		The <alert>Instant Runoff Method</alert> is a modification of the plurality method that attempts to address the issue of insincere voting.
 	</p>
 	<p>
-		The voting is done with ranked choice ballots and a preference schedule is generated. Then we tally all the first-choice votes. The candidate with the <em>least</em> first-place votes is eliminated, but any votes for that candidate are transferred to the voters’ next choice. The process continues until one candidate has a majority. We will show you how it works with an example.
+		The voting is done with ranked choice ballots and a preference schedule is generated. Then we tally all the first-choice votes. The candidate with the <em>least</em> first-place votes is eliminated, but any votes for that candidate are transferred to the voters' next choice. The process continues until one candidate has a majority. We will show you how it works with an example.
 	</p>
 	<example>
 		<statement>
@@ -431,7 +431,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Let’s start by tallying the first-choices.
+			Let's start by tallying the first-choices.
 		</p>
 		<!-- Old table method commented out -->
 		<!-- <sidebyside>
@@ -590,7 +590,7 @@
 		</statement>
 	</example>
 	<p>
-		The Instant Runoff Method is similar to the idea of holding runoff elections, but since every voter’s order of preference is recorded on the ballot, the runoff can be computed quickly without requiring a second costly election. It also makes it safe to vote for a third-party candidate knowing that your vote will go to your second choice if your first choice can’t win.
+		The Instant Runoff Method is similar to the idea of holding runoff elections, but since every voter's order of preference is recorded on the ballot, the runoff can be computed quickly without requiring a second costly election. It also makes it safe to vote for a third-party candidate knowing that your vote will go to your second choice if your first choice can't win.
 	</p>
 	<p>
 		This voting method is used in several places around the world, including the election of members of the Australian House of Representatives, statewide elections in Maine, and local elections in Benton County, Oregon (Ranked Choice Voting Resource Center, 2020).
@@ -600,7 +600,7 @@
 <subsection>
 <title>Borda Count (Point System)</title>
 	<p>
-		Borda Count is another voting method, named for Jean-Charles de Borda, who developed the system in 1770. In this method, points are assigned to each candidate based on their ranking; 1 point for last choice, 2 points for second-to-last choice, and so on. The point values are totaled, and the candidate with the largest point total is the winner. We’ll show you how to do it in the next example.
+		Borda Count is another voting method, named for Jean-Charles de Borda, who developed the system in 1770. In this method, points are assigned to each candidate based on their ranking; 1 point for last choice, 2 points for second-to-last choice, and so on. The point values are totaled, and the candidate with the largest point total is the winner. We'll show you how to do it in the next example.
 	</p>
 	<example>
 		<statement>
@@ -726,7 +726,7 @@
 		</statement>
 	</example>
 	<p>
-		Note that Sylvania would have won with the plurality method. Borda count is sometimes described as a consensus-based voting system, since it can be used to choose a more broadly acceptable option over the one with the most first-choice support. This is a different approach than plurality and instant runoff voting that focus on first-choice votes; Borda Count considers every voter’s entire ranking to determine the outcome.
+		Note that Sylvania would have won with the plurality method. Borda count is sometimes described as a consensus-based voting system, since it can be used to choose a more broadly acceptable option over the one with the most first-choice support. This is a different approach than plurality and instant runoff voting that focus on first-choice votes; Borda Count considers every voter's entire ranking to determine the outcome.
 	</p>
 	<p>
 		Because of this consensus behavior, Borda Count, or some variation of it, is commonly used in awarding sports awards. Variations are used to determine the Most Valuable Player in baseball, to rank teams in NCAA sports, and to award the Heisman trophy.
@@ -734,20 +734,20 @@
 </subsection>
 
 <subsection>
-<title>Pairwise Comparison: Copeland’s Method</title>
+<title>Pairwise Comparison: Copeland's Method</title>
 	<p>
-		Another method, called <alert>pairwise comparison</alert>, the <alert>Condorcet method</alert> or <alert>Copeland’s method</alert>, attempts to be fair by looking at each pair of candidates separately.
+		Another method, called <alert>pairwise comparison</alert>, the <alert>Condorcet method</alert> or <alert>Copeland's method</alert>, attempts to be fair by looking at each pair of candidates separately.
 	</p>
 	<p>
-		In this method, we look at each pair as if they were the only two candidates running and determine which of the two is more preferred. In Copeland’s method, the more preferred candidate is awarded 1 point. If there is a tie, each candidate is awarded <m>\frac{1}{2}</m> point. After all the pairwise comparisons are made, the candidate with the most points, and hence the most pairwise wins, is declared the winner.
+		In this method, we look at each pair as if they were the only two candidates running and determine which of the two is more preferred. In Copeland's method, the more preferred candidate is awarded 1 point. If there is a tie, each candidate is awarded <m>\frac{1}{2}</m> point. After all the pairwise comparisons are made, the candidate with the most points, and hence the most pairwise wins, is declared the winner.
 	</p>
 	<p>
-		Variations of Copeland’s Method are used in many professional organizations, including election of the Board of Trustees for the Wikimedia Foundation that runs Wikipedia.
+		Variations of Copeland's Method are used in many professional organizations, including election of the Board of Trustees for the Wikimedia Foundation that runs Wikipedia.
 	</p>
 	<example>
 		<statement>
 		<p>
-			Consider our class president example from the beginning of the chapter. Determine the winner using Copeland’s Method.
+			Consider our class president example from the beginning of the chapter. Determine the winner using Copeland's Method.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -802,7 +802,7 @@
 			</ul>
 		</p>
 		<p>
-			Next, comparing Helena with Omar, we see that 6 voters, those marked in bold in the table below, would prefer Helena over Omar. Note that Helena doesn’t have to be the voter’s first choice – we’re imagining that Ana wasn’t in the race. The other 4 people chose Omar over Helena.
+			Next, comparing Helena with Omar, we see that 6 voters, those marked in bold in the table below, would prefer Helena over Omar. Note that Helena doesn't have to be the voter's first choice – we're imagining that Ana wasn't in the race. The other 4 people chose Omar over Helena.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -863,12 +863,12 @@
 			</ul>
 		</p>
 		<p>
-			Ana has a total of 1 point and Helena has 2 points, so Helena is the winner under Copeland’s Method. This method gave us a different winner than the plurality method where Ana won, because more people preferred Helena to Ana, even though they didn’t choose Helena for their first choice.
+			Ana has a total of 1 point and Helena has 2 points, so Helena is the winner under Copeland's Method. This method gave us a different winner than the plurality method where Ana won, because more people preferred Helena to Ana, even though they didn't choose Helena for their first choice.
 		</p>
 		</statement>
 	</example>
 	<p>
-		Now that we’ve seen an example of each voting method, let’s run through each method for the same scenario.
+		Now that we've seen an example of each voting method, let's run through each method for the same scenario.
 	</p>
 	<example>
 		<statement>
@@ -1243,7 +1243,7 @@
 		Notice that in this election: 10 people prefer A to B, 10 people prefer B to C, and 10 people prefer C to A.
 	</p>
 	<p>
-		No matter whom we choose as the winner, <m>\frac{2}{3}</m> of voters would prefer someone else! This scenario is called <alert>Condorcet’s Voting Paradox</alert>. In this situation, there is no fair resolution. There are many additional paradoxes and fairness criteria that are explained in David Lippman’s original version of <em>Math in Society</em><fn><url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Voting Theory</url>, by David Lippman</fn>.
+		No matter whom we choose as the winner, <m>\frac{2}{3}</m> of voters would prefer someone else! This scenario is called <alert>Condorcet's Voting Paradox</alert>. In this situation, there is no fair resolution. There are many additional paradoxes and fairness criteria that are explained in David Lippman's original version of <em>Math in Society</em><fn><url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Voting Theory</url>, by David Lippman</fn>.
 	</p>
 	<p>
 		Since it is not possible to have one method that is fair in every situation, it is important to decide which method is the most fair for any given situation.
@@ -1259,7 +1259,7 @@
 		For partisan positions, typically, either the top two candidates receiving the most votes move forward, or the top candidate from each party will move forward. This is called <alert>sequential voting</alert> - a process in which voters cast totally new ballots after each round of eliminations. Sequential voting has become quite common in television, where it is used in reality shows like <em>The Voice</em>.
 	</p>
 	<p>
-		In some states a <alert>closed primary</alert> is used, in which only voters of each party can vote for that party’s candidates. In other states, an <alert>open primary</alert> is used, where voters can pick the party whose primary they want to vote in. In other states, <alert>caucuses</alert> are used, which are meetings of the political parties, only open to party members. Closed primaries are often disliked by independent voters, who like the flexibility to change which party they are voting in. Open primaries have the disadvantage of raiding, though, where a voter could vote in their non-preferred party’s primary with the intent of selecting a weaker opponent for their preferred party’s candidate.
+		In some states a <alert>closed primary</alert> is used, in which only voters of each party can vote for that party's candidates. In other states, an <alert>open primary</alert> is used, where voters can pick the party whose primary they want to vote in. In other states, <alert>caucuses</alert> are used, which are meetings of the political parties, only open to party members. Closed primaries are often disliked by independent voters, who like the flexibility to change which party they are voting in. Open primaries have the disadvantage of raiding, though, where a voter could vote in their non-preferred party's primary with the intent of selecting a weaker opponent for their preferred party's candidate.
 	</p>
 	<p>
 		Regardless of the primary type, the general election is the main election. While rules vary state-to-state, for an independent or minor party candidate to get listed on the ballot, they typically have to gather a certain number of signatures to petition for inclusion.
@@ -1402,7 +1402,7 @@
 			</li>
 			<li>
 				<p>
-					Find the winner under Copeland’s method.
+					Find the winner under Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -1480,7 +1480,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Buffalo 2, Atlanta 1. Buffalo wins with Copeland’s method.
+					The points are: Buffalo 2, Atlanta 1. Buffalo wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -1560,7 +1560,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Abdulla 1, Cantos 2. Cantos wins with Copeland’s method.
+					The points are: Abdulla 1, Cantos 2. Cantos wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -1644,7 +1644,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Biology 2, Calculus 1. Biology wins with Copeland’s method.
+					The points are: Biology 2, Calculus 1. Biology wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -1728,7 +1728,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Barbados 1, California 2. California wins with Copeland’s method.
+					The points are: Barbados 1, California 2. California wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -1812,7 +1812,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: D 2, E 1. D wins with Copeland’s method.
+					The points are: D 2, E 1. D wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -1823,7 +1823,7 @@
 <exercise>
 	<statement>
 	<p>
-		The Vancouver mayor’s race has three candidates, G, H, I. The votes are:
+		The Vancouver mayor's race has three candidates, G, H, I. The votes are:
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1896,7 +1896,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: H 2, I 1. H wins with Copeland’s method.
+					The points are: H 2, I 1. H wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -1989,7 +1989,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: A 1, B 1, C 2, D 2. C and D tie with Copeland’s method.
+					The points are: A 1, B 1, C 2, D 2. C and D tie with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2087,7 +2087,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: E 1.5, F 2, G 1, H 1.5. F wins with Copeland’s method.
+					The points are: E 1.5, F 2, G 1, H 1.5. F wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2098,7 +2098,7 @@
 <exercise>
 	<statement>
 	<p>
-		The Portland mayor’s race has four candidates, I, J, K, L. The votes are:
+		The Portland mayor's race has four candidates, I, J, K, L. The votes are:
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2190,7 +2190,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: I 2, K 3, L2. K wins with Copeland’s method.
+					The points are: I 2, K 3, L2. K wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2298,7 +2298,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: M 2, N 1, O 2, P 1. M and O tie with Copeland’s method.
+					The points are: M 2, N 1, O 2, P 1. M and O tie with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2309,7 +2309,7 @@
 <exercise>
 	<statement>
 	<p>
-		The Gresham mayor’s race has four candidates, Q, R, S, T. The votes are:
+		The Gresham mayor's race has four candidates, Q, R, S, T. The votes are:
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2401,7 +2401,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Q 2, R 1 and S 3. S wins with Copeland’s method.
+					The points are: Q 2, R 1 and S 3. S wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2509,7 +2509,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: U 1, V 1, W 1 and X 3. X wins with Copeland’s method.
+					The points are: U 1, V 1, W 1 and X 3. X wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2520,7 +2520,7 @@
 <exercise>
 	<statement>
 	<p>
-		A Multnomah county commissioner’s race has five candidates, A, B, C, D, E. The votes are:
+		A Multnomah county commissioner's race has five candidates, A, B, C, D, E. The votes are:
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2611,7 +2611,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: A 2, B 4, C 2, D 1, E 1. B wins with Copeland’s method.
+					The points are: A 2, B 4, C 2, D 1, E 1. B wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2622,7 +2622,7 @@
 <exercise>
 	<statement>
 	<p>
-		The Oregon State governor’s race has five candidates, F, G, H, I, J. The votes are:
+		The Oregon State governor's race has five candidates, F, G, H, I, J. The votes are:
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2719,7 +2719,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: F 3, G 2.5, I 3.5, J 1. I wins with Copeland’s method.
+					The points are: F 3, G 2.5, I 3.5, J 1. I wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2730,7 +2730,7 @@
 <exercise>
 	<statement>
 	<p>
-		A Washington county commissioner’s race has five candidates, K, L, M, N, O. The votes are:
+		A Washington county commissioner's race has five candidates, K, L, M, N, O. The votes are:
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2833,7 +2833,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: K 4, L 2, M 2, N 2. K wins with Copeland’s method.
+					The points are: K 4, L 2, M 2, N 2. K wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -2844,7 +2844,7 @@
 <exercise>
 	<statement>
 	<p>
-		A Clackamas county commissioner’s race has five candidates, P, Q, R, S, T. The votes are:
+		A Clackamas county commissioner's race has five candidates, P, Q, R, S, T. The votes are:
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2953,7 +2953,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: Q 2.5, R 2.5, S 3, T 2. S wins with Copeland’s method.
+					The points are: Q 2.5, R 2.5, S 3, T 2. S wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -3045,7 +3045,7 @@
 			</li>
 			<li>
 				<p>
-					Find the winner under Copeland’s method.
+					Find the winner under Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -3092,7 +3092,7 @@
 <exercise xml:id="exercise6">
 	<statement>
 	<p>
-		The homeowner’s association is deciding a new set of neighborhood standards for architecture, yard maintenance, etc. Four options have been proposed. The votes are:
+		The homeowner's association is deciding a new set of neighborhood standards for architecture, yard maintenance, etc. Four options have been proposed. The votes are:
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -3172,7 +3172,7 @@
 			</li>
 			<li>
 				<p>
-					Find the winner under Copeland’s method.
+					Find the winner under Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -3237,7 +3237,7 @@
 <exercise>
 	<statement>
 	<p>
-		Copeland’s Method is designed to identify a Condorcet Candidate if there is one, and is considered a Condorcet Method. There are many Condorcet Methods, which vary primarily in how they deal with ties, which are very common when a Condorcet winner does not exist. Copeland’s method does not have a tie-breaking procedure built-in. Research the Schulze method, another Condorcet method that is used by the Wikimedia foundation that runs Wikipedia, and give some examples of how it works.
+		Copeland's Method is designed to identify a Condorcet Candidate if there is one, and is considered a Condorcet Method. There are many Condorcet Methods, which vary primarily in how they deal with ties, which are very common when a Condorcet winner does not exist. Copeland's method does not have a tie-breaking procedure built-in. Research the Schulze method, another Condorcet method that is used by the Wikimedia foundation that runs Wikipedia, and give some examples of how it works.
 	</p>
 	</statement>
 	<solution>
@@ -3273,7 +3273,7 @@
 <exercise>
 	<statement>
 	<p>
-		Sometimes in a voting scenario it is desirable to rank the candidates, either to establish preference order between a set of choices, or because the election requires multiple winners.  For example, a hiring committee may have 30 candidates apply, and need to select 6 to interview, so the voting by the committee would need to produce the top 6 candidates. Describe how Plurality, Instant Runoff Voting, Borda Count, and Copeland’s Method could be extended to produce a ranked list of candidates.  
+		Sometimes in a voting scenario it is desirable to rank the candidates, either to establish preference order between a set of choices, or because the election requires multiple winners.  For example, a hiring committee may have 30 candidates apply, and need to select 6 to interview, so the voting by the committee would need to produce the top 6 candidates. Describe how Plurality, Instant Runoff Voting, Borda Count, and Copeland's Method could be extended to produce a ranked list of candidates.  
 	</p>
 	</statement>
 	<solution>

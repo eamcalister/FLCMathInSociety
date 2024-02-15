@@ -106,7 +106,7 @@
 		This tells us that over the long run, players can expect to win $2.08 per game. This also means that the carnival owner will be paying out an average of $2.08 per game! Since the carnival owner would rather not lose money by paying players over the long run we need to make sure to charge players enough to offset the average payout.
 	</p>
 	<p>
-		If the carnival owner charges exactly $2.08 to play, the game is considered a <alert>fair game</alert> since the expected winnings would be $0. In a fair game, the player isn’t expected to win anything, nor is the owner expected to earn anything over the long run. However, if the carnival owner charges the player more than $2.08 to play, they will earn money over the long run.
+		If the carnival owner charges exactly $2.08 to play, the game is considered a <alert>fair game</alert> since the expected winnings would be $0. In a fair game, the player isn't expected to win anything, nor is the owner expected to earn anything over the long run. However, if the carnival owner charges the player more than $2.08 to play, they will earn money over the long run.
 	</p>
 	<p>
 		Suppose you suggest charging $5 to play. We can determine the net winnings by subtracting the $5 the player has to pay from their expected winnings. This gives us:
@@ -117,12 +117,12 @@
 	</md>
 	</p>
 	<p>
-		This means that over the long run, players can expect to lose an average of $2.92 each game they play, and the carnival owner can expect to earn an average of $2.92 per game over the long run. Here’s another example.
+		This means that over the long run, players can expect to lose an average of $2.92 each game they play, and the carnival owner can expect to earn an average of $2.92 per game over the long run. Here's another example.
 	</p>
 	<example>
 		<statement>
 		<p>
-			Pick4 is a game by the Oregon Lottery that costs $1 to play. In this game you pick 4 numbers in a specific pattern. If you get the exact sequence, you can in theory earn a lot of money. Suppose that the payouts are as follows. Determine the player’s expected net winnings.
+			Pick4 is a game by the Oregon Lottery that costs $1 to play. In this game you pick 4 numbers in a specific pattern. If you get the exact sequence, you can in theory earn a lot of money. Suppose that the payouts are as follows. Determine the player's expected net winnings.
 		</p>
 		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -203,7 +203,7 @@
 		</p>
 
 		<p>
-			Therefore, the player’s expected winnings are $2.07, on average, over the long run. To find the expected <alert>net</alert> winnings, we subtract the cost to play. Since it costs $1 to play,
+			Therefore, the player's expected winnings are $2.07, on average, over the long run. To find the expected <alert>net</alert> winnings, we subtract the cost to play. Since it costs $1 to play,
 		</p>
 		<p>
 			<md>
@@ -222,7 +222,7 @@
 		Not surprisingly, the expected value for casino games is always negative for the player, and therefore positive for the casino. It must be positive for the casino, or they would go out of business! Players just need to keep in mind that when they play a game repeatedly, they should expect to lose money. That is fine so long as you enjoy playing the game and think it is worth the cost, but it would be wrong to expect to come out ahead.
 	</p>
 	<p>
-		Expected value is not only used to determine the average amount won and lost at casinos and carnivals, it also has applications in business and insurance, just to name a few. Let’s look at a couple of those applications.
+		Expected value is not only used to determine the average amount won and lost at casinos and carnivals, it also has applications in business and insurance, just to name a few. Let's look at a couple of those applications.
 	</p>
 	<example>
 		<statement>
@@ -320,7 +320,7 @@
 		</md>
 		</p>
 		<p>
-			The insurance company is making, on average, $33 per policy per year. It shouldn’t be too surprising because there are overhead costs and the insurance company can only afford to offer policies if they, on average, make money on them. But how much money should they make? As a consumer it is important to know about expected value.
+			The insurance company is making, on average, $33 per policy per year. It shouldn't be too surprising because there are overhead costs and the insurance company can only afford to offer policies if they, on average, make money on them. But how much money should they make? As a consumer it is important to know about expected value.
 		</p>
 		</solution>
 	</example>
@@ -588,7 +588,7 @@
 	</statement>
 	<solution>
 		<p>
-			The company’s expected profit is $45.55 per warranty sold.
+			The company's expected profit is $45.55 per warranty sold.
 		</p>
 	</solution>
 </exercise>
@@ -601,7 +601,7 @@
 	</statement>
 	<solution>
 		<p>
-			The company’s expected profit is $58 per warranty sold.
+			The company's expected profit is $58 per warranty sold.
 		</p>
 	</solution>
 </exercise>
@@ -614,7 +614,7 @@
 	</statement>
 	<solution>
 		<p>
-			The company’s expected value on each policy is $22 which means they will make $22, on average, per policy sold.
+			The company's expected value on each policy is $22 which means they will make $22, on average, per policy sold.
 		</p>
 	</solution>
 </exercise>
@@ -627,7 +627,7 @@
 	</statement>
 	<solution>
 		<p>
-			The company’s expected value on each policy is $2,986 which means they will make $2,986, on average, per policy sold.
+			The company's expected value on each policy is $2,986 which means they will make $2,986, on average, per policy sold.
 		</p>
 	</solution>
 </exercise>

@@ -17,17 +17,17 @@
 			</li>
 			<li>
 				<p>
-					Apportion representatives using Hamilton’s method
+					Apportion representatives using Hamilton's method
 				</p>
 			</li>
 			<li>
 				<p>
-					Apportion representatives using Jefferson’s method
+					Apportion representatives using Jefferson's method
 				</p>
 			</li>
 			<li>
 				<p>
-					Apportion representatives using Webster’s method
+					Apportion representatives using Webster's method
 				</p>
 			</li>
 			<li>
@@ -71,13 +71,13 @@
 		The U.S. government was officially formed in 1787. During the <alert>Constitutional Convention</alert>, the framers were tasked with making decisions on the three branches of government and how people (or those considered to be people) would be represented. At that time only white men with property were allowed to vote. Women were also considered to be property of their husband at the time.
 	</p>
 	<p>
-		In creating the Legislative Branch of government, it was decided that Congress would be made up of the Senate and the House of Representatives. Representation for the <alert>Senate</alert> would be <alert>equal</alert> with two senators per state. To account for the different sizes of the states, the representation in the <alert>House of Representatives</alert> would be <alert>proportional</alert> to the state’s population, but there was a controversy over how to count the population.
+		In creating the Legislative Branch of government, it was decided that Congress would be made up of the Senate and the House of Representatives. Representation for the <alert>Senate</alert> would be <alert>equal</alert> with two senators per state. To account for the different sizes of the states, the representation in the <alert>House of Representatives</alert> would be <alert>proportional</alert> to the state's population, but there was a controversy over how to count the population.
 	</p>
 	<p>
 		During the Constitutional Convention, the northern and southern states were at odds on whom to count. The South wanted more representation in Congress which would also increase their power, so they argued to count slaves as part of their population. The southern states did not want to count slaves for taxation, however, because that would result in them paying more taxes.
 	</p>
 	<p>
-		Slaves were considered property, not humans, and they were not citizens. Therefore, they did not have the right to vote or participate in government. The anti-slavery North wanted to count only free people, which included free Blacks. This led to the <alert>Three-Fifths Compromise</alert> that determined three out of every five slaves would be counted toward a state’s population and taxation (Clayton, 2015).
+		Slaves were considered property, not humans, and they were not citizens. Therefore, they did not have the right to vote or participate in government. The anti-slavery North wanted to count only free people, which included free Blacks. This led to the <alert>Three-Fifths Compromise</alert> that determined three out of every five slaves would be counted toward a state's population and taxation (Clayton, 2015).
 	</p>
 	<p>
 		It is also important to note that there are about 4 million U.S. Citizens who live in the territories of Guam, the Virgin Islands, the Northern Mariana Islands and Puerto Rico who do not have representatives or senators. They pay federal taxes like Social Security and Medicare but not Federal Income tax.
@@ -116,7 +116,7 @@
 				</li>
 				<li>
 					<p>
-						The number of things assigned to each group should be at least approximately proportional to the population of the group. (Exact proportionality isn’t possible because of the whole number requirement, but we should try to be close.)
+						The number of things assigned to each group should be at least approximately proportional to the population of the group. (Exact proportionality isn't possible because of the whole number requirement, but we should try to be close.)
 					</p>
 				</li>
 			</ol>
@@ -127,7 +127,7 @@
 		<ol marker="1.">
 			<li>
 				<p>
-					We can only have whole representatives (a state can’t have 3.4 representatives).
+					We can only have whole representatives (a state can't have 3.4 representatives).
 				</p>
 			</li>
 			<li>
@@ -148,14 +148,14 @@
 		</ol>
 	</p>
 	<p>
-		We will look at four ways of solving the apportionment problem, developed by different people: Hamilton, Jefferson, Webster, and the Huntington-Hill method that is used today. We will continue to look at U.S. history throughout this section including Hamilton, Jefferson and Webster’s relationship to slavery.
+		We will look at four ways of solving the apportionment problem, developed by different people: Hamilton, Jefferson, Webster, and the Huntington-Hill method that is used today. We will continue to look at U.S. history throughout this section including Hamilton, Jefferson and Webster's relationship to slavery.
 	</p>
 </subsection>
 
 <subsection>
 <title>Hamilton's Method</title>
 	<p>
-		Alexander Hamilton (1755 - 1804) was raised in St. Croix in the U.S. Virgin Islands by a poor family. He was motivated by his low socioeconomic status to work himself into a higher social standing. He eventually came to the colonies and worked himself into circles of wealth and influence. While Hamilton wasn’t pro-slavery and considered himself an abolitionist, when choosing between his societal status and moral obligation, he chose the former.
+		Alexander Hamilton (1755 - 1804) was raised in St. Croix in the U.S. Virgin Islands by a poor family. He was motivated by his low socioeconomic status to work himself into a higher social standing. He eventually came to the colonies and worked himself into circles of wealth and influence. While Hamilton wasn't pro-slavery and considered himself an abolitionist, when choosing between his societal status and moral obligation, he chose the former.
 	</p>
 	<p>
 		He wed Elizabeth Schuyler, who was from a prominent family who owned slaves. He was involved with the transactions of slaves for his in-laws which further muddled his anti-slavery stance. Furthermore, Hamilton also traded and sold slaves as part of his duties for the Continental Army.
@@ -164,7 +164,7 @@
 		Alexander Hamilton proposed the method that now bears his name. His method was approved by Congress in 1791 but was vetoed by President Washington. It was later adopted in 1852 and used through 1910. He begins by determining, to several decimal places, how many people each representative should represent (the divisor).
 	</p>
 	<assemblage>
-	<title>Hamilton’s Method</title>
+	<title>Hamilton's Method</title>
 	<p>
 		<ol marker="1.">
 			<li>
@@ -174,7 +174,7 @@
 			</li>
 			<li>
 				<p>
-				Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
+				Divide each state's population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
 				</p>
 				<p>
 				<em>Since we can only allocate whole representatives, Hamilton resolved the whole number problem as follows:</em>
@@ -182,7 +182,7 @@
 			</li>
 			<li>
 				<p>
-				Cut off all the decimal parts of all the quotas (but don’t forget what the decimals were). This is the <alert>initial</alert> apportionment and will always be less than or equal to the total number of representatives. Add up the whole numbers.
+				Cut off all the decimal parts of all the quotas (but don't forget what the decimals were). This is the <alert>initial</alert> apportionment and will always be less than or equal to the total number of representatives. Add up the whole numbers.
 				</p>
 			</li>
 			<li>
@@ -197,12 +197,12 @@
 	</p>
 	</assemblage>
 	<p>
-		Let’s see how this works in an example.
+		Let's see how this works in an example.
 	</p>
 	<example>
 		<statement>
 		<p>
-			A new state is named after George Floyd, killed by the police in Minneapolis, Minnesota in 2020. Floyd has three counties: King, Garner and Taylor. They are named after African Americans who were also victims of police brutality. Rodney King was brutally beaten by four white police officers and Eric Garner and Breonna Taylor were killed by the police. The Floyd State House of Representatives has 41 members. If the legislature wants to divide this representation along county lines (which is <em>not</em> required, but let’s pretend they do), let’s use Hamilton’s method to apportion them. The populations of the counties are as follows:
+			A new state is named after George Floyd, killed by the police in Minneapolis, Minnesota in 2020. Floyd has three counties: King, Garner and Taylor. They are named after African Americans who were also victims of police brutality. Rodney King was brutally beaten by four white police officers and Eric Garner and Breonna Taylor were killed by the police. The Floyd State House of Representatives has 41 members. If the legislature wants to divide this representation along county lines (which is <em>not</em> required, but let's pretend they do), let's use Hamilton's method to apportion them. The populations of the counties are as follows:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -232,7 +232,7 @@
 			Step 1: First, we divide the total population by the number of representatives to find the divisor: <m>897934/41 = 21900.82927</m>.
 		</p>
 		<p>
-			Step 2: Now we determine each county’s quota by dividing the county’s population by the divisor: For example, for King, we take <m>162,310/21,900.82927</m> which equals 7.4111.
+			Step 2: Now we determine each county's quota by dividing the county's population by the divisor: For example, for King, we take <m>162,310/21,900.82927</m> which equals 7.4111.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -351,7 +351,7 @@
 	<example>
 		<statement>
 		<p>
-			We will use Hamilton’s method again, to apportion 75 seats for a new state of Lewis, which has five counties. Lewis and its counties are named for civil rights leaders John Lewis, Rosa Parks, Dr. Martin Luther King Jr., Ella Baker, Daisy Bates and Roy Wilkins.
+			We will use Hamilton's method again, to apportion 75 seats for a new state of Lewis, which has five counties. Lewis and its counties are named for civil rights leaders John Lewis, Rosa Parks, Dr. Martin Luther King Jr., Ella Baker, Daisy Bates and Roy Wilkins.
 		</p>
 		</statement>
 		<solution>
@@ -359,7 +359,7 @@
 				Step 1: The divisor is <m>1,052,567/75 = 14,034.22667</m>.
 			</p>
 			<p>
-				Step 2: Determine each county’s quota by dividing its population by the divisor:
+				Step 2: Determine each county's quota by dividing its population by the divisor:
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -509,29 +509,29 @@
 				Our final apportionment is Parks: 3, King: 12, Baker: 6, Bates: 45, and Wilkins: 9 for a total of 75 representatives.
 			</p>
 			<p>
-				Note that even though Parks County’s decimal part is greater than .5, it isn’t big enough to get an additional representative, because three other counties have greater decimal parts.
+				Note that even though Parks County's decimal part is greater than .5, it isn't big enough to get an additional representative, because three other counties have greater decimal parts.
 			</p>
 		</solution>
 	</example>
 
 	<p>
-		Hamilton’s method obeys something called the Quota Rule. The Quota Rule isn’t a law, but an idea that some people think is a good one.
+		Hamilton's method obeys something called the Quota Rule. The Quota Rule isn't a law, but an idea that some people think is a good one.
 	</p>
 	<assemblage>
 	<title>Quota Rule</title>
 		<p>
-			The <alert>Quota Rule</alert> says that the final number of representatives a state gets should be within one of that state’s quota. Since we’re dealing with whole numbers for our final answers, that means that each state should either go up to the next whole number above its quota, or down to the next whole number below its quota.
+			The <alert>Quota Rule</alert> says that the final number of representatives a state gets should be within one of that state's quota. Since we're dealing with whole numbers for our final answers, that means that each state should either go up to the next whole number above its quota, or down to the next whole number below its quota.
 		</p>
 	</assemblage>
 </subsection>
 
 <subsection>
-<title>Problems with Hamilton’s Method</title>
+<title>Problems with Hamilton's Method</title>
 	<p>
-		After using Hamilton’s method for many years, three paradoxes happened, on separate occasions, where unfair things happened in new apportionments. This led to other methods being needed.
+		After using Hamilton's method for many years, three paradoxes happened, on separate occasions, where unfair things happened in new apportionments. This led to other methods being needed.
 	</p>
 	<p>
-		<term>The Alabama Paradox</term> is named for an incident that happened during the apportionment that took place after the 1880 census. (A similar incident happened ten years earlier involving the state of Rhode Island, but the paradox is named after Alabama.) The post-1880 apportionment had been completed, using Hamilton’s method and the new population numbers from the census. Then it was decided that because of the country’s growing population, the House of Representatives should be made larger. That meant that the apportionment would need to be done again, still using Hamilton’s method and the same 1880 census numbers, but with more representatives. The assumption was that some states would gain another representative and others would stay with the same number they already had (since there weren’t enough new representatives being added to give one more to every state). The paradox is that Alabama ended up <em>losing</em> a representative in the process, even though no populations were changed, and the total number of representatives increased.
+		<term>The Alabama Paradox</term> is named for an incident that happened during the apportionment that took place after the 1880 census. (A similar incident happened ten years earlier involving the state of Rhode Island, but the paradox is named after Alabama.) The post-1880 apportionment had been completed, using Hamilton's method and the new population numbers from the census. Then it was decided that because of the country's growing population, the House of Representatives should be made larger. That meant that the apportionment would need to be done again, still using Hamilton's method and the same 1880 census numbers, but with more representatives. The assumption was that some states would gain another representative and others would stay with the same number they already had (since there weren't enough new representatives being added to give one more to every state). The paradox is that Alabama ended up <em>losing</em> a representative in the process, even though no populations were changed, and the total number of representatives increased.
 	</p>
 
 	<p>
@@ -539,7 +539,7 @@
 	</p>
 
 	<p>
-		<term>The Population Paradox</term> happened between the apportionments after the census of 1900 and of 1910. In those ten years, Virginia’s population grew at an average annual rate of 1.07%, while Maine’s grew at an average annual rate of 0.67%. Virginia started with more people, grew at a faster rate, grew by more people, and ended up with more people than Maine. By itself, that doesn’t mean that Virginia should gain representatives or Maine shouldn’t, because there are lots of other states involved. But Virginia ended up losing a representative <em>to Maine</em>.
+		<term>The Population Paradox</term> happened between the apportionments after the census of 1900 and of 1910. In those ten years, Virginia's population grew at an average annual rate of 1.07%, while Maine's grew at an average annual rate of 0.67%. Virginia started with more people, grew at a faster rate, grew by more people, and ended up with more people than Maine. By itself, that doesn't mean that Virginia should gain representatives or Maine shouldn't, because there are lots of other states involved. But Virginia ended up losing a representative <em>to Maine</em>.
 	</p>
 
 </subsection>
@@ -553,16 +553,16 @@
 		Over his lifetime and his writings, Jefferson wrestled with his conscience regarding slavery, which can be seen in documents such as drafts of the Constitution before its final version. In the end, his personal and monetary gain surpassed that of his concern for the enslaved.
 	</p>
 	<p>
-		Thomas Jefferson proposed a different method for apportionment. After Washington vetoed Hamilton’s method, Jefferson’s method was adopted, and used in Congress from 1791 through 1842. Jefferson, of course, had political reasons for wanting his method to be used rather than Hamilton’s. Primarily, his method favors larger states, and his own home state of Virginia was the largest at the time. He would also argue that it’s the ratio of people to representatives that is the critical thing, and apportionment methods should be based on that.
+		Thomas Jefferson proposed a different method for apportionment. After Washington vetoed Hamilton's method, Jefferson's method was adopted, and used in Congress from 1791 through 1842. Jefferson, of course, had political reasons for wanting his method to be used rather than Hamilton's. Primarily, his method favors larger states, and his own home state of Virginia was the largest at the time. He would also argue that it's the ratio of people to representatives that is the critical thing, and apportionment methods should be based on that.
 	</p>
 	<p>
-		The first three steps of Jefferson’s method are the same as Hamilton’s. He found the same divisor and the same quota and cut off the decimal parts in the same way, giving the same initial apportionment that is less than the required total.
+		The first three steps of Jefferson's method are the same as Hamilton's. He found the same divisor and the same quota and cut off the decimal parts in the same way, giving the same initial apportionment that is less than the required total.
 	</p>
 	<p>
 		What changes is how Jefferson assigned the remaining representatives. He said that since we ended up with an answer that is too small, our divisor must have been too big. He changed the divisor by making it smaller and looked at the new total. He would raise or lower the divisor until he found one that produced the required total. This is a trial and error process that takes some patience.
 	</p>
 	<assemblage>
-	<title>Jefferson’s Method</title>
+	<title>Jefferson's Method</title>
 		<p><em>The first three steps are the same as Hamilton's</em>
 			<ol marker="1.">
 				<li>
@@ -572,12 +572,12 @@
 				</li>
 				<li>
 					<p>
-						Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
+						Divide each state's population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
 					</p>
 				</li>
 				<li>
 					<p>
-						Cut off all the decimal parts of all the quotas (but don’t forget what the decimals were). This is the <alert>initial</alert> apportionment and will always be less than or equal to the total number of representatives. Add up the whole numbers.
+						Cut off all the decimal parts of all the quotas (but don't forget what the decimals were). This is the <alert>initial</alert> apportionment and will always be less than or equal to the total number of representatives. Add up the whole numbers.
 					</p>
 				</li>
 				<li>
@@ -592,10 +592,10 @@
 	<example>
 		<statement>
 		<p>
-			We’ll return to the state of Floyd and apply Jefferson’s method. We begin, as we did with Hamilton’s method, by finding the quotas with the original divisor, 21,900.82927.
+			We'll return to the state of Floyd and apply Jefferson's method. We begin, as we did with Hamilton's method, by finding the quotas with the original divisor, 21,900.82927.
 		</p>
 		<p>
-			Steps 1-3 are the same as Hamilton’s Method. Since we will be using different divisors, we will write the divisor at the bottom of the population column to be clear what we are dividing each number in that column by. You can also write it above that column if you prefer.
+			Steps 1-3 are the same as Hamilton's Method. Since we will be using different divisors, we will write the divisor at the bottom of the population column to be clear what we are dividing each number in that column by. You can also write it above that column if you prefer.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -638,7 +638,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			We need 41 representatives, and this divisor gives only 40. We must reduce the divisor until we get 41 representatives. Let’s try 21,500 as the divisor
+			We need 41 representatives, and this divisor gives only 40. We must reduce the divisor until we get 41 representatives. Let's try 21,500 as the divisor
 		</p>
 		<p>
 			Step 4:
@@ -698,7 +698,7 @@
 	<example>
 		<statement>
 		<p>
-			We’ll apply Jefferson’s method for Lewis. The original divisor of 14,034.22667 gave these results:
+			We'll apply Jefferson's method for Lewis. The original divisor of 14,034.22667 gave these results:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -753,7 +753,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			We need 75 representatives and we only have 72, so we need to use a smaller divisor. Let’s try lowering it to 13,500:
+			We need 75 representatives and we only have 72, so we need to use a smaller divisor. Let's try lowering it to 13,500:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -808,7 +808,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			We got a total of 76 representatives which is too many, so we lowered it too far. We need a divisor that’s greater than 13,500 but less than 14,034.22667. Let’s try 13,700:
+			We got a total of 76 representatives which is too many, so we lowered it too far. We need a divisor that's greater than 13,500 but less than 14,034.22667. Let's try 13,700:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -953,7 +953,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Notice, in comparison to Hamilton’s method, that although the results were the same, they came about in a different way, and the outcome was almost different. Bates County (the largest) almost went up to 46 representatives before King (which is much smaller) got to 12. Although that didn’t happen here, it can. Divisor-adjusting methods like Jefferson’s are not guaranteed to follow the quota rule.
+			Notice, in comparison to Hamilton's method, that although the results were the same, they came about in a different way, and the outcome was almost different. Bates County (the largest) almost went up to 46 representatives before King (which is much smaller) got to 12. Although that didn't happen here, it can. Divisor-adjusting methods like Jefferson's are not guaranteed to follow the quota rule.
 		</p>
 		</statement>
 	</example>
@@ -965,10 +965,10 @@
 		Daniel Webster (1782-1852) was a lawyer, congressman, Senator of Massachusetts and also served as the U.S. Secretary of State. He was from the North and did not own slaves. He was an opponent of slavery extension and he spoke against annexing Texas and against going to war with Mexico. He argued, however, that no law was needed to prevent the further extension of slavery in new states and he supported the Compromise of 1850, which disappointed his abolitionist supporters (History.com Editors, 2018b).
 	</p>
 	<p>
-		Webster proposed a method similar to Jefferson’s in 1832. It was adopted by Congress in 1842 but replaced by Hamilton’s method in 1852. It was then adopted again in 1911. The difference is that Webster rounded the quotas to the nearest whole number rather than dropping the decimal parts. If that didn’t produce the exact number of representatives, he adjusted the divisor like in Jefferson’s method. (In Jefferson’s case, the first adjustment will always be to make the divisor smaller. That is not always the case with Webster’s method because some numbers may be rounded up.)
+		Webster proposed a method similar to Jefferson's in 1832. It was adopted by Congress in 1842 but replaced by Hamilton's method in 1852. It was then adopted again in 1911. The difference is that Webster rounded the quotas to the nearest whole number rather than dropping the decimal parts. If that didn't produce the exact number of representatives, he adjusted the divisor like in Jefferson's method. (In Jefferson's case, the first adjustment will always be to make the divisor smaller. That is not always the case with Webster's method because some numbers may be rounded up.)
 	</p>
 	<assemblage>
-	<title>Webster’s Method</title>
+	<title>Webster's Method</title>
 		<p><em>Steps 1-2 are the same as Hamilton and Jefferson</em>
 			<ol marker="1.">
 				<li>
@@ -978,12 +978,12 @@
 				</li>
 				<li>
 					<p>
-						Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
+						Divide each state's population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
 					</p>
 				</li>
 				<li>
 					<p>
-						Round all the quotas to the nearest whole number (but don’t forget what the decimals were). This is the <alert>initial</alert> apportionment. Add up the whole numbers.
+						Round all the quotas to the nearest whole number (but don't forget what the decimals were). This is the <alert>initial</alert> apportionment. Add up the whole numbers.
 					</p>
 				</li>
 				<li>
@@ -995,7 +995,7 @@
 		</p>
 	</assemblage>
 	<p>
-		Let’s see how Webster’s method works in this example:
+		Let's see how Webster's method works in this example:
 	</p>
 	<example>
 		<statement>
@@ -1043,7 +1043,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			This time Garner is the only county with a decimal of 0.5 or higher, so it gets rounded up. This gives the required total, so we’re done.
+			This time Garner is the only county with a decimal of 0.5 or higher, so it gets rounded up. This gives the required total, so we're done.
 		</p>
 		</statement>
 	</example>
@@ -1051,7 +1051,7 @@
 	<example>
 		<statement>
 		<p>
-			Let’s look at Lewis again, with an initial divisor of 14,034.22667 and 75 representatives:
+			Let's look at Lewis again, with an initial divisor of 14,034.22667 and 75 representatives:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1106,7 +1106,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			This is one too many, so we need to increase the divisor. Let’s try 14,100:
+			This is one too many, so we need to increase the divisor. Let's try 14,100:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1161,7 +1161,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			This gives us exactly 75, so we’re done. This is how it would look all in one table:
+			This gives us exactly 75, so we're done. This is how it would look all in one table:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1235,10 +1235,10 @@
 	</example>
 
 	<p>
-		Like Jefferson’s method, Webster’s method carries a bias in favor of larger states but rounding the quotas to the nearest whole number greatly reduces this bias. Notice that Bates County, the largest, is the one that gets a representative trimmed because of the increased quota.
+		Like Jefferson's method, Webster's method carries a bias in favor of larger states but rounding the quotas to the nearest whole number greatly reduces this bias. Notice that Bates County, the largest, is the one that gets a representative trimmed because of the increased quota.
 	</p>
 	<p>
-		Also, like Jefferson’s method, Webster’s method does not always follow the quota rule, but it follows the quota rule much more often than Jefferson’s method does. In fact, if Webster’s method had been applied to every apportionment of Congress in all of U.S. history, it would have followed the quota rule every single time.
+		Also, like Jefferson's method, Webster's method does not always follow the quota rule, but it follows the quota rule much more often than Jefferson's method does. In fact, if Webster's method had been applied to every apportionment of Congress in all of U.S. history, it would have followed the quota rule every single time.
 	</p>
 </subsection>
 
@@ -1248,7 +1248,7 @@
 		In 1830 the <alert>Indian Removal Act</alert> was signed by President Jackson. The Act relocated Native Americans to land west of the Mississippi and the forced journey is known as the <alert>Trail of Tears</alert>. To learn more, here is a link to an online museum exhibit with a timeline of Native American history and artifacts<fn><url href="http://recordsofrights.org/themes/4/rights-of-native-americans"></url></fn>.
 	</p>
 	<p>
-		Toward the end of the Civil War, slaves were freed by Abraham Lincoln’s <alert>Emancipation Proclamation</alert> on January 1st, 1863, but it was not until June 19th, 1865 that the last group of slaves in Texas learned they had been freed. This is now celebrated as Juneteenth<fn><url href="https://www.juneteenth.com/history.htm">https://www.juneteenth.com/history.htm</url></fn>. You can read more about the timeline of slavery in this Jim Crow Museum of Racist Memorabilia<fn><url href="https://www.ferris.edu/htmls/news/jimcrow/timeline/slavery.htm"></url></fn>.
+		Toward the end of the Civil War, slaves were freed by Abraham Lincoln's <alert>Emancipation Proclamation</alert> on January 1st, 1863, but it was not until June 19th, 1865 that the last group of slaves in Texas learned they had been freed. This is now celebrated as Juneteenth<fn><url href="https://www.juneteenth.com/history.htm">https://www.juneteenth.com/history.htm</url></fn>. You can read more about the timeline of slavery in this Jim Crow Museum of Racist Memorabilia<fn><url href="https://www.ferris.edu/htmls/news/jimcrow/timeline/slavery.htm"></url></fn>.
 	</p>
 	<p>
 		Although they were technically free, Black people still faced unequal and unjust treatment. After Black men were granted the right to vote in 1869, <alert>voter suppression</alert> laws like poll taxes and literacy tests were implemented barriers to voting (American Civil Liberties Union, 2020).
@@ -1261,10 +1261,10 @@
 <subsection>
 <title>Huntington-Hill Method</title>
 	<p>
-		In 1920, no new apportionment was done, because Congress couldn’t agree on the method to be used. They appointed a committee of mathematicians to investigate, and they recommended the Huntington-Hill Method. They continued to use Webster’s method in 1931, but after a second report recommending Huntington-Hill, it was adopted in 1941 and is the method of apportionment still used today.
+		In 1920, no new apportionment was done, because Congress couldn't agree on the method to be used. They appointed a committee of mathematicians to investigate, and they recommended the Huntington-Hill Method. They continued to use Webster's method in 1931, but after a second report recommending Huntington-Hill, it was adopted in 1941 and is the method of apportionment still used today.
 	</p>
 	<p>
-		The Huntington-Hill Method is similar to Webster’s method, but attempts to minimize the difference in the percentage of how many people each representative will represent.
+		The Huntington-Hill Method is similar to Webster's method, but attempts to minimize the difference in the percentage of how many people each representative will represent.
 	</p>
 	<assemblage>
 	<title>Huntington-Hill Method</title>
@@ -1277,12 +1277,12 @@
 				</li>
 				<li>
 					<p>
-						Divide each state’s population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
+						Divide each state's population by the divisor to determine how many representatives it should have. Record this answer to several decimal places. This answer is called the <alert>quota</alert>.
 					</p>
 				</li>
 				<li>
 					<p>
-						Cut off the decimal part of the quota to obtain the <alert>lower quota</alert>, which we’ll call <m>n</m>. Compute <m>\sqrt{n(n+1)}</m>, which is the geometric mean of the lower quota and one value higher.
+						Cut off the decimal part of the quota to obtain the <alert>lower quota</alert>, which we'll call <m>n</m>. Compute <m>\sqrt{n(n+1)}</m>, which is the geometric mean of the lower quota and one value higher.
 					</p>
 				</li>
 				<li>
@@ -1303,7 +1303,7 @@
 <subsection>
 <title>What is the Geometric Mean?</title>
 	<p>
-		Let’s look at why Hill and Huntington decided to use the geometric mean for rounding instead of the arithmetic mean of 0.5, which is halfway between two numbers. By calculating some geometric means and looking at them in a table we can see a pattern:
+		Let's look at why Hill and Huntington decided to use the geometric mean for rounding instead of the arithmetic mean of 0.5, which is halfway between two numbers. By calculating some geometric means and looking at them in a table we can see a pattern:
 	</p>
 	<sidebyside>
 		<table>
@@ -1349,10 +1349,10 @@
 </table>
 	</sidebyside>
 	<p>
-		Notice that each geometric mean is between <m>n</m> and <m>n+1</m>. For smaller numbers, the decimal part is less than 0.5 and as n gets larger, the decimal part gets closer and closer to 0.5. This gives smaller states a chance to round up before larger states. That’s how the Hill-Huntington method reduces the bias in favor of larger states.
+		Notice that each geometric mean is between <m>n</m> and <m>n+1</m>. For smaller numbers, the decimal part is less than 0.5 and as n gets larger, the decimal part gets closer and closer to 0.5. This gives smaller states a chance to round up before larger states. That's how the Hill-Huntington method reduces the bias in favor of larger states.
 	</p>
 	<p>
-		Now let’s see how to use the geometric mean in an example.
+		Now let's see how to use the geometric mean in an example.
 	</p>
 	<example>
 		<statement>
@@ -1412,7 +1412,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Notice that for Garner, the quota of 24.5872 is above the geometric mean of 24.49, so we round up to 25. This gives the required total, so we’re done.
+			Notice that for Garner, the quota of 24.5872 is above the geometric mean of 24.49, so we round up to 25. This gives the required total, so we're done.
 		</p>
 		</statement>
 	</example>
@@ -1491,7 +1491,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			We end up with 76 which is too many, so we need to increase the divisor. Let’s try 14,100:
+			We end up with 76 which is too many, so we need to increase the divisor. Let's try 14,100:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1565,7 +1565,7 @@
 			This time Bates had a quota less than its geometric mean, so it did not get rounded up and we have exactly 75 representatives.
 		</p>
 		<p>
-			In both these cases, the apportionment produced by the Huntington-Hill method was the same as those from Webster’s method, but that will not always be the case.
+			In both these cases, the apportionment produced by the Huntington-Hill method was the same as those from Webster's method, but that will not always be the case.
 		</p>
 		</statement>
 	</example>
@@ -1582,7 +1582,7 @@
 	<example>
 		<statement>
 		<p>
-			Consider a small country with 5 states, two of which are much larger than the others. We need to apportion 70 representatives. Apportion the representatives using both Webster’s method and the Huntington-Hill method.
+			Consider a small country with 5 states, two of which are much larger than the others. We need to apportion 70 representatives. Apportion the representatives using both Webster's method and the Huntington-Hill method.
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1618,7 +1618,7 @@
 				Step 1: The total population is 610,000. Dividing this by the 70 representatives gives the divisor: 8714.286.
 			</p>
 			<p>
-				Step 2: Dividing each state’s population by the divisor gives the quotas.
+				Step 2: Dividing each state's population by the divisor gives the quotas.
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1665,10 +1665,10 @@
 			</tabular>
 			</sidebyside>
 			<p>
-				<alert>Webster’s Method</alert>
+				<alert>Webster's Method</alert>
 			</p>
 			<p>
-				Step 3: Using Webster’s method, we round each quota to the nearest whole number using the rounding rule of 0.5 or higher to round up.
+				Step 3: Using Webster's method, we round each quota to the nearest whole number using the rounding rule of 0.5 or higher to round up.
 			</p>
 			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1852,7 +1852,7 @@
 			</tabular>
 			</sidebyside>
 			<p>
-				These allocations add up to 70. Notice that this allocation is different than that produced by Webster’s method. In this case, state E, which is smaller, got one more seat and state A got one less.
+				These allocations add up to 70. Notice that this allocation is different than that produced by Webster's method. In this case, state E, which is smaller, got one more seat and state A got one less.
 			</p>
 		</solution>
 	</example>
@@ -1870,17 +1870,17 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						Hamilton’s Method
+						Hamilton's Method
 					</p>
 				</li>
 				<li>
 					<p>
-						Jefferson’s Method
+						Jefferson's Method
 					</p>
 				</li>
 				<li>
 					<p>
-						Webster’s Method
+						Webster's Method
 					</p>
 				</li>
 				<li>
@@ -2516,12 +2516,12 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					If the legislature has 10 seats, use Hamilton’s method to apportion the seats.
+					If the legislature has 10 seats, use Hamilton's method to apportion the seats.
 				</p>
 			</li>
 			<li>
 				<p>
-					If the legislature grows to 11 seats, use Hamilton’s method to apportion the seats.
+					If the legislature grows to 11 seats, use Hamilton's method to apportion the seats.
 				</p>
 			</li>
 			<li>
@@ -2531,7 +2531,7 @@
 			</li>
 			<li>
 				<p>
-					Try Jefferson’s method for 11 seats. Does that solve the problem?
+					Try Jefferson's method for 11 seats. Does that solve the problem?
 				</p>
 			</li>
 		</ol>
@@ -2547,7 +2547,7 @@
 				</li>
 				<li>
 					<p>
-						It is not possible to assign 11 seats with Hamilton’s method in this case.
+						It is not possible to assign 11 seats with Hamilton's method in this case.
 					</p>
 				</li>
 				<li>
@@ -2588,12 +2588,12 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					If the legislature has 10 seats, use Hamilton’s method to apportion the seats. Which rule is not met in this case?
+					If the legislature has 10 seats, use Hamilton's method to apportion the seats. Which rule is not met in this case?
 				</p>
 			</li>
 			<li>
 				<p>
-					If the legislature grows to 11 seats, use Hamilton’s method to apportion the seats.
+					If the legislature grows to 11 seats, use Hamilton's method to apportion the seats.
 				</p>
 			</li>
 			<li>
@@ -2630,7 +2630,7 @@
 <exercise>
 	<statement>
 	<p>
-		A state with five counties has 50 seats in their legislature. Using Hamilton’s method, apportion the seats based on the 2010 census, then again using the 2020 census. Explain what happened in 2020 apportionment. Do you think it is fair?
+		A state with five counties has 50 seats in their legislature. Using Hamilton's method, apportion the seats based on the 2010 census, then again using the 2020 census. Explain what happened in 2020 apportionment. Do you think it is fair?
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2675,7 +2675,7 @@
 			2020: Douglass: 8, Parks: 5, King: 10, Du Bois: 11, Lewis: 16
 		</p>
 		<p>
-			The populations in King and Lewis counties grew, but Parks got an extra seat from Lewis. This doesn’t seem fair.
+			The populations in King and Lewis counties grew, but Parks got an extra seat from Lewis. This doesn't seem fair.
 		</p>
 	</solution>
 </exercise>
@@ -2683,7 +2683,7 @@
 <exercise>
 	<statement>
 	<p>
-		A state with five counties has 62 seats in their legislature. Using Hamilton’s method, apportion the seats based on the 2010 census, then again using the 2010 census. Explain what happened in 2020 apportionment. Do you think it is fair?
+		A state with five counties has 62 seats in their legislature. Using Hamilton's method, apportion the seats based on the 2010 census, then again using the 2010 census. Explain what happened in 2020 apportionment. Do you think it is fair?
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2781,7 +2781,7 @@
 				</li>
 				<li>
 					<p>
-						Cayuse did get 4 counselors, but one of the counselors from Siletz went to Clatsop. That doesn’t seem fair because their populations didn’t change.
+						Cayuse did get 4 counselors, but one of the counselors from Siletz went to Clatsop. That doesn't seem fair because their populations didn't change.
 					</p>
 				</li>
 			</ol>

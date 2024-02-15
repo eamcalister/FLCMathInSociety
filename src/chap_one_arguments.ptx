@@ -53,7 +53,7 @@
 <title>Inductive and Deductive Arguments</title>
 
 <p>
-	To better understand the difference between inductive and deductive arguments, let’s start by looking at a couple of examples.
+	To better understand the difference between inductive and deductive arguments, let's start by looking at a couple of examples.
 </p>
 	<example>
 		<p>
@@ -63,10 +63,10 @@
 			When I went to the store last week, I forgot my wallet, and I forgot it again when I went back today. I always forget my wallet when I go to the store.
 		</p>
 		<p>
-			Before we analyze an argument, it is helpful to precisely state its premises and its conclusion. Most arguments you encounter in the real world won’t be stated in a precise <q>premise, premise, conclusion</q> form. Sometimes the conclusion will be stated before the premises, or the premises will be hidden within a bunch of rhetoric.
+			Before we analyze an argument, it is helpful to precisely state its premises and its conclusion. Most arguments you encounter in the real world won't be stated in a precise <q>premise, premise, conclusion</q> form. Sometimes the conclusion will be stated before the premises, or the premises will be hidden within a bunch of rhetoric.
 		</p>
 		<p>
-			To begin our analysis of this first argument, let’s first rewrite it in a more precise <q>premise, premise, conclusion</q> form.
+			To begin our analysis of this first argument, let's first rewrite it in a more precise <q>premise, premise, conclusion</q> form.
 		</p>
 		<p>
 			Premise: I forgot my wallet when I went to the store last week. 
@@ -82,14 +82,14 @@
 		</p>
 	</example>
 	<p>
-		Now let’s consider a different argument:
+		Now let's consider a different argument:
 	</p>
 	<example>
 		<p>
 			Henry must know CPR because he is a nurse and all nurses know CPR.
 		</p>
 		<p>
-			Just as we did for the last example, let’s rewrite the argument in its <q>premise, premise, conclusion</q> form:
+			Just as we did for the last example, let's rewrite the argument in its <q>premise, premise, conclusion</q> form:
 		</p>
 		<p>
 			Premise: All nurses know CPR. 
@@ -101,7 +101,7 @@
 			Conclusion: Henry knows CPR. 
 		</p>
 		<p>
-			Unlike the first argument where the premises were specific and the conclusion was general, this argument’s first premise is a general statement and the conclusion is specific. We can determine whether an argument is inductive or deductive by looking at which part of the argument is general and which is specific. In the first example, the premises were specific and the conclusion was more general. This is an example of an <alert>inductive</alert> argument. In the second example, it was the premises that were more general and the conclusion that was specific. This is an example of a <alert>deductive</alert> argument. 
+			Unlike the first argument where the premises were specific and the conclusion was general, this argument's first premise is a general statement and the conclusion is specific. We can determine whether an argument is inductive or deductive by looking at which part of the argument is general and which is specific. In the first example, the premises were specific and the conclusion was more general. This is an example of an <alert>inductive</alert> argument. In the second example, it was the premises that were more general and the conclusion that was specific. This is an example of a <alert>deductive</alert> argument. 
 		</p>
 	</example>
 
@@ -129,7 +129,7 @@
 				</li>
 				<li>
 					<p>
-						Juan’s dog Goober is having puppies. All three of Goober’s previous litters have had 5 puppies so Goober is bound to have 5 puppies in this litter as well. 
+						Juan's dog Goober is having puppies. All three of Goober's previous litters have had 5 puppies so Goober is bound to have 5 puppies in this litter as well. 
 					</p>
 				</li>
 			</ol>
@@ -157,10 +157,10 @@
 						Premise: Goober is having puppies.
 					</p>
 					<p>
-						Premise: Goober’s last three litters had 5 puppies.
+						Premise: Goober's last three litters had 5 puppies.
 					</p>
 					<p>
-						Conclusion: Goober’s current litter will have 5 puppies.
+						Conclusion: Goober's current litter will have 5 puppies.
 					</p>
 					<p>
 						This is an example of an <alert>inductive argument</alert> since it uses specific experiences/instances as its premises, and its conclusion is a general expectation based on those specific experiences.
@@ -229,7 +229,7 @@
 				</li>
 				<li>
 					<p>
-						<q>None of my friends like dancing. Kai doesn’t like dancing. Therefore, Kai is my friend.</q>
+						<q>None of my friends like dancing. Kai doesn't like dancing. Therefore, Kai is my friend.</q>
 					</p>
 				</li>
 				<li>
@@ -245,7 +245,7 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						First let’s write the argument in its <q>premise, premise, conclusion</q> form. For the problems we will be looking at, you will want to write the first premise as a <alert>qualified proposition</alert> (some, none, all) since this will form the basic structure of our diagram.
+						First let's write the argument in its <q>premise, premise, conclusion</q> form. For the problems we will be looking at, you will want to write the first premise as a <alert>qualified proposition</alert> (some, none, all) since this will form the basic structure of our diagram.
 					</p>
 					<p>
 						Premise: All cats are mammals. 
@@ -301,7 +301,7 @@
 					</image>
 					</sidebyside>
 					<p>
-						Because it said <q>none</q> we draw disjoint sets – one set for my friends and a second set for people who like to dance. The second premise tells us that Kai doesn’t like to dance so they’re not in the set of people who like to dance. However, we can’t put Kai in the set of my friends either. They could be my friend, or someone I don’t know who happens to not like dancing. Therefore, the conclusion is <alert>not valid</alert>. And therefore, the arguement is also <alert>not sound</alert>.
+						Because it said <q>none</q> we draw disjoint sets – one set for my friends and a second set for people who like to dance. The second premise tells us that Kai doesn't like to dance so they're not in the set of people who like to dance. However, we can't put Kai in the set of my friends either. They could be my friend, or someone I don't know who happens to not like dancing. Therefore, the conclusion is <alert>not valid</alert>. And therefore, the arguement is also <alert>not sound</alert>.
 					</p>
 				</li>
 				<li>
@@ -311,7 +311,7 @@
 					</image>
 					</sidebyside>
 					<p>
-						Because it said <q>some</q> we draw overlapping sets. The second premise tells us to put Tara in the set of young adults, but it doesn’t tell us if she makes minimum wage or not. So, like the previous example we cannot determine which region she is in. She could make minimum wage, or she could also make more. Therefore, the conclusion is <alert>not valid</alert> and therefore, <alert>not sound</alert>.
+						Because it said <q>some</q> we draw overlapping sets. The second premise tells us to put Tara in the set of young adults, but it doesn't tell us if she makes minimum wage or not. So, like the previous example we cannot determine which region she is in. She could make minimum wage, or she could also make more. Therefore, the conclusion is <alert>not valid</alert> and therefore, <alert>not sound</alert>.
 					</p>
 				</li>
 			</ol>
@@ -458,7 +458,7 @@
 		</statement>
 		<solution>
 			<p>
-				Premise: Kiran’s female and nonbinary friends made less than Kiran’s male friends.
+				Premise: Kiran's female and nonbinary friends made less than Kiran's male friends.
 			</p>
 			<p>
 				Conclusion: Women and nonbinary people make less than men.
@@ -497,7 +497,7 @@
 	<exercise><!-- #7 -->
 		<statement>
 		<p>
-			All bicycles have two wheels. My friend’s Harley-Davidson has two wheels, so it must be a bicycle.
+			All bicycles have two wheels. My friend's Harley-Davidson has two wheels, so it must be a bicycle.
 		</p>
 		</statement>
 		<solution>
@@ -505,7 +505,7 @@
 				Premise: All bicycles have two wheels.
 			</p>
 			<p>
-				Premise: My friend’s Harley-Davidson motorcycle has two wheels.
+				Premise: My friend's Harley-Davidson motorcycle has two wheels.
 			</p>
 			<p>
 				Conclusion: It must be a bicycle.

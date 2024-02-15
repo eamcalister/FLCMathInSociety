@@ -280,7 +280,7 @@
 			<cd>=1000+1000*(0.04/2)*(4*2)</cd>
 		</p>
 		<p>
-			which also gives $1,160. The future value of the bond is $1,160. Remember that spreadsheets don’t interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
+			which also gives $1,160. The future value of the bond is $1,160. Remember that spreadsheets don't interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
 		</p>
 	</solution>
 	</example>
@@ -541,7 +541,7 @@
 		We will use the payment amount in a future section, for now that will be 0. There is also an optional input at the end to specify making payments at the beginning or end of the period, but we will not use it in this book.
 	</p>
 	<p>
-		Now let’s look at an example and calculate the compound interest using the spreadsheet and the mathematical formula.
+		Now let's look at an example and calculate the compound interest using the spreadsheet and the mathematical formula.
 	</p>
 	<example>
 		<statement>
@@ -560,7 +560,7 @@
 			<m>n = 12</m>, 12 months in 1 year
 		</p>
 		<p>
-			<m>t = 20</m>, since we’re looking for how much we’ll have after 20 years
+			<m>t = 20</m>, since we're looking for how much we'll have after 20 years
 		</p>
 
 		<p>
@@ -715,7 +715,7 @@
 	<example>
 		<statement>
 		<p>
-			You know that you will need $40,000 for your child’s education in 18 years. If your account earns 4% APR compounded quarterly, how much would you need to deposit now to reach your goal?
+			You know that you will need $40,000 for your child's education in 18 years. If your account earns 4% APR compounded quarterly, how much would you need to deposit now to reach your goal?
 		</p>
 		</statement>
 		<solution>
@@ -755,7 +755,7 @@
 			<m>A = \$40,000</m>, the amount we have in 18 years
 		</p>
 		<p>
-			In this case, we’re going to have to set up the equation, and solve for P.
+			In this case, we're going to have to set up the equation, and solve for P.
 		</p>
 
 		<p>
@@ -919,7 +919,7 @@
 <subsection>
 	<title>Effective Rate</title>
 	<p>
-		If you are shopping around for different investments, you might need to compare different rates that have different compounding periods. If the rate and period are different, it’s hard to know which account will give the better result. There is a spreadsheet formula called <c>=EFFECT</c> which will allow us to compare accounts. This is also sometimes called the annual percentage yield, or APY.
+		If you are shopping around for different investments, you might need to compare different rates that have different compounding periods. If the rate and period are different, it's hard to know which account will give the better result. There is a spreadsheet formula called <c>=EFFECT</c> which will allow us to compare accounts. This is also sometimes called the annual percentage yield, or APY.
 	</p>
 	<assemblage>
 		<title>Effective Rate Formula</title>
@@ -1748,7 +1748,7 @@
 					Or, <c>=FV(0.038,5,0,6500)</c>
 				</p>
 				<p>
-					The account balances are $8,079.38 and $7,832.49. So, Bill’s balance is higher.
+					The account balances are $8,079.38 and $7,832.49. So, Bill's balance is higher.
 				</p>
 			</li>
 		</ol>
@@ -2054,7 +2054,7 @@
 					Or, <c>=FV(0.055,10,0,10000)</c>
 				</p>
 				<p>
-					Your balance is $17,332.53 and your friend’s balance is $17,081.44.
+					Your balance is $17,332.53 and your friend's balance is $17,081.44.
 				</p>
 			</li>
 			<li>

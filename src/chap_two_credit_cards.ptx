@@ -24,7 +24,7 @@
 		Credit cards are a common source of loan money, and therefore a common source of debt which must be repaid. There are much fewer and lower barriers to obtaining and using a credit card than there are to obtaining, for example, a mortgage. As such, there are some drawbacks both in terms of typically higher interest rates, as well as some structural differences. These structural differences actually mean that we will not be able to use the same formulas as we have for car loans, home loans, and student loans.
 	</p>
 	<p>
-		Perhaps most importantly, there is no set length of the loan (<m>t</m> in the previous formulas). The credit card company would be perfectly happy if the customer were to continually pay back less than the interest charged, in an endless cycle. Recall that this was specifically <em>not</em> allowed in the other types of loans we’ve looked at; for example, a typical mortgage is paid off in 30 years (if not sooner due to selling the house, making larger than necessary payments, etc). There are monthly minimum payments, but these do not guarantee repayment in a set amount of time. Rather, they are amounts that must be paid in order for your credit card account to remain in good standing – in other words, in order to be able to continue using the card and to avoid being charged late fees and eventually sent to collections.
+		Perhaps most importantly, there is no set length of the loan (<m>t</m> in the previous formulas). The credit card company would be perfectly happy if the customer were to continually pay back less than the interest charged, in an endless cycle. Recall that this was specifically <em>not</em> allowed in the other types of loans we've looked at; for example, a typical mortgage is paid off in 30 years (if not sooner due to selling the house, making larger than necessary payments, etc). There are monthly minimum payments, but these do not guarantee repayment in a set amount of time. Rather, they are amounts that must be paid in order for your credit card account to remain in good standing – in other words, in order to be able to continue using the card and to avoid being charged late fees and eventually sent to collections.
 	</p>
 	<p>
 		Important note: the calculations in this section <em>only</em> deal with <em>direct repayments</em> of credit card debt. Actual bills very often also include <em>fees</em>, which you have to pay to the credit card company but do not actually reduce the amount of money owed.
@@ -84,7 +84,7 @@
 		The key feature that differentiates credit cards from other types of loans (like a mortgage or a student loan) is that there is no fixed time period that the entire loan must be paid off by. Instead, there is a <alert>monthly minimum payment</alert>. An amount higher than the minimum could be paid, and the higher the amount, the sooner the debt will be paid off, and the lower the total amount of money paid to the credit card company.
 	</p>
 	<p>
-		Let’s look at a couple examples before diving into the formulas. (For the sake of making the process easier to follow, rounding is performed at each step; note however that, as always, this introduces some small error and it is better to only round on the final step.)
+		Let's look at a couple examples before diving into the formulas. (For the sake of making the process easier to follow, rounding is performed at each step; note however that, as always, this introduces some small error and it is better to only round on the final step.)
 	</p>
 	<example>
 		<statement>
@@ -104,7 +104,7 @@
 			However, $24.53 is not larger than $25.
 		</p>
 		<p>
-			So Azmi’s first payment must be at least $25 if he wants to avoid any penalties.
+			So Azmi's first payment must be at least $25 if he wants to avoid any penalties.
 		</p>
 		</statement>
 	</example>
@@ -124,7 +124,7 @@
 			$173.88 is larger than $25.
 		</p>
 		<p>
-			So Bilqis’s first payment must be at least $172.18 if she wants to avoid any penalties.
+			So Bilqis's first payment must be at least $172.18 if she wants to avoid any penalties.
 		</p>
 		</statement>
 	</example>
@@ -136,11 +136,11 @@
 		max{1,2,3}=3 ; max{-3,-2,-1\}=-1 ; max{5,0.5,0.25,0.125,-0.5,-2}=5 ; max{24.53,25}=25
 	</p>
 	<p>
-		As we can see, the methods used to calculate a monthly minimum payment differ by credit card, so be sure to read the fine print on your credit card bill. Azmi and Bilqis’s situations exemplify the two most common methods. These two methods lead to different formulas, even before we plug the specific numbers in:
+		As we can see, the methods used to calculate a monthly minimum payment differ by credit card, so be sure to read the fine print on your credit card bill. Azmi and Bilqis's situations exemplify the two most common methods. These two methods lead to different formulas, even before we plug the specific numbers in:
 		<ul>
 			<li>
 				<p>
-					The first method (used with Azmi’s card) could be called <q>the company method</q>. We’ll call it this because it is the most common method actually used by credit card companies. In words: the monthly minimum payment is calculated by first applying the APR to the outstanding loan amount, and then finding 2% of that figure; or a flat $25, whichever is larger. In a formula:
+					The first method (used with Azmi's card) could be called <q>the company method</q>. We'll call it this because it is the most common method actually used by credit card companies. In words: the monthly minimum payment is calculated by first applying the APR to the outstanding loan amount, and then finding 2% of that figure; or a flat $25, whichever is larger. In a formula:
 				</p>
 				<p>
 					<md>
@@ -148,12 +148,12 @@
 					</md>
 				</p>
 				<p>
-					As mentioned above though, it is important to read the fine print. For example, your credit card might use 3% instead of 2%, in which case we’d need to replace the <q>0.02</q> in the formula with a <q>0.03</q>.  Also, it could be that the cutoff flat payment is something besides $25, such as $35.
+					As mentioned above though, it is important to read the fine print. For example, your credit card might use 3% instead of 2%, in which case we'd need to replace the <q>0.02</q> in the formula with a <q>0.03</q>.  Also, it could be that the cutoff flat payment is something besides $25, such as $35.
 				</p>
 			</li>
 			<li>
 				<p>
-					The second method (used with Bilqis’s card) could be called <q>the government method</q>. We’ll call it this because it is the method suggested for use by the US Department of the Treasury. Because it is just a suggestion and not a law, it is not used by hardly any credit card companies. In words: the monthly minimum payment is calculated as one percentage point more than the APR of the outstanding loan amount; or a flat $25, whichever is larger.
+					The second method (used with Bilqis's card) could be called <q>the government method</q>. We'll call it this because it is the method suggested for use by the US Department of the Treasury. Because it is just a suggestion and not a law, it is not used by hardly any credit card companies. In words: the monthly minimum payment is calculated as one percentage point more than the APR of the outstanding loan amount; or a flat $25, whichever is larger.
 				</p>
 				<p>
 					In a formula:
@@ -181,13 +181,13 @@
 		https://4.bp.blogspot.com/-wwQVgZeFZ7w/WhFsrpocNxI/AAAAAAAABqw/UH7p8yZLVlo1SylqOsgE4S1fTlo1ppWwACLcBGAs/s1600/CREDIT-CARD-BILLING-CYCLE-GRACE-PERIOD-EXAMPLE.jpg)
 	</p>
 	<p>
-		Of course, as with any loan you may choose any repayment plan you’d like, so long as you pay at least the minimum for each payment. For example, you could use <q>the government method</q> to pay back your credit card debt faster, even if the minimum required is calculated using <q>the company method</q>. Or you could pay some constant amount every month. Or, with almost all cards, if you pay back the full amount before your next payment due date, they will not charge you any interest.
+		Of course, as with any loan you may choose any repayment plan you'd like, so long as you pay at least the minimum for each payment. For example, you could use <q>the government method</q> to pay back your credit card debt faster, even if the minimum required is calculated using <q>the company method</q>. Or you could pay some constant amount every month. Or, with almost all cards, if you pay back the full amount before your next payment due date, they will not charge you any interest.
 	</p>
 	<p>
 		As for the compounding frequency, it is almost always daily compounding. (It could be something else like continuous or monthly, but this is very uncommon.)
 	</p>
 	<p>
-		The interest-free grace period is almost always from time of purchase until the next payment due date. (It could also be a set amount of time, such as 30 days, but this is very uncommon.) This grace period is only truly <q>interest-free</q> if you make a payment during that time. For any leftover amount that you didn’t pay, the interest will still have been compounding the entire time. Consider the following:
+		The interest-free grace period is almost always from time of purchase until the next payment due date. (It could also be a set amount of time, such as 30 days, but this is very uncommon.) This grace period is only truly <q>interest-free</q> if you make a payment during that time. For any leftover amount that you didn't pay, the interest will still have been compounding the entire time. Consider the following:
 	</p>
 	<example>
 		<statement>
@@ -201,7 +201,7 @@
 			On April 25th, her next payment is due. Interest will be charged, compounding daily <em>since March 15th</em>, on that $50. There are 31 days in March, so that is <m>(31-15)+25=41</m> days.
 		</p>
 		<p>
-			So Chitra’s outstanding balance on April 25th, before payment, is <m>\$50(1+\frac{0.1699}{365})^{41} \approx \$50.96</m>.
+			So Chitra's outstanding balance on April 25th, before payment, is <m>\$50(1+\frac{0.1699}{365})^{41} \approx \$50.96</m>.
 		</p>
 		<p>
 			Therefore her minimum payment due on April 25th is $25.  (Check this yourself! Both <q>company</q> and <q>government</q> methods result in $25 after applying the max function.)
@@ -257,7 +257,7 @@
 <title>Lifespan of a Credit Card</title>
 
 	<p>
-		Using these formulas, let’s look at a new example over more than one month.
+		Using these formulas, let's look at a new example over more than one month.
 	</p>
 	<example xml:id="drusilla">
 		<statement>
@@ -284,7 +284,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			That’s right, it will take Drusilla 6.75 years to repay a credit card debt of $1,200, if the APR is 18% and she only pays the monthly minimum! (Side note: we could make an adjustment for the leap year, but this would have a small effect and not change the number of payments required.) Notice that from April of the second year onwards, the payment is always $25. If we zoom in on that calculation, we have <m>d=max{25,0.02P(1+r)}=max{25,0.02(1052.48)(1+.18)} \approx max{25,24.84}=\$25</m>. In other words, the <q>complicated part</q> of the formula spits out $24.84, but this is less than $25 so it’s not allowed. This continues until the very last month, when she owes less than $25: at this point she repays the total outstanding amount of $18.55.
+			That's right, it will take Drusilla 6.75 years to repay a credit card debt of $1,200, if the APR is 18% and she only pays the monthly minimum! (Side note: we could make an adjustment for the leap year, but this would have a small effect and not change the number of payments required.) Notice that from April of the second year onwards, the payment is always $25. If we zoom in on that calculation, we have <m>d=max{25,0.02P(1+r)}=max{25,0.02(1052.48)(1+.18)} \approx max{25,24.84}=\$25</m>. In other words, the <q>complicated part</q> of the formula spits out $24.84, but this is less than $25 so it's not allowed. This continues until the very last month, when she owes less than $25: at this point she repays the total outstanding amount of $18.55.
 		</p>
 		<p>
 			Clearly this is not an efficient way to repay a loan. The credit company likes it just fine though: if we total all of the payments made by Drusilla, it comes to $2,072.36. Since she only borrowed $1,200 to begin with, their total profit was $872.36, or about 73% of the initial amount.
@@ -293,7 +293,7 @@
 	</example>
 
 	<p>
-		The previous example with Drusilla is one of the main reasons behind the other formula, suggested by the Department of the Treasury. Let’s look at the same example, but this time using <q>the government method</q>, where <m>d=max{\$25,P(0.01+r)}</m>.
+		The previous example with Drusilla is one of the main reasons behind the other formula, suggested by the Department of the Treasury. Let's look at the same example, but this time using <q>the government method</q>, where <m>d=max{\$25,P(0.01+r)}</m>.
 	</p>
 	<example xml:id="drusilla2">
 		<statement>
@@ -319,20 +319,20 @@
 	<example>
 		<statement>
 		<p>
-			Let’s reproduce the results of <xref ref="drusilla"></xref>, using Excel. We will need 5 columns for this process. For simplicity’s sake, let’s start with an empty sheet and use columns A through E. Let’s also use row 1 for column titles: <q>month</q> for the month number (<q>3</q> for March and so on), <q>m</q> for number of days that interest applied during that month, <q>P</q> for outstanding balance just before making a payment,<q>d</q> for payment amount, and <q>total d</q> for the total amount of all payments.
+			Let's reproduce the results of <xref ref="drusilla"></xref>, using Excel. We will need 5 columns for this process. For simplicity's sake, let's start with an empty sheet and use columns A through E. Let's also use row 1 for column titles: <q>month</q> for the month number (<q>3</q> for March and so on), <q>m</q> for number of days that interest applied during that month, <q>P</q> for outstanding balance just before making a payment,<q>d</q> for payment amount, and <q>total d</q> for the total amount of all payments.
 		</p>
 		<p>
-			First, enter the number of days per month manually. Make sure to double-check with a calendar, and put <q>29</q> for February if it’s a leap year. Note that it says <q>24</q> for the first December, in cell B2. There are still 31 days of that December of course, but the purchase was made on December 7th. If you don’t want to do subtraction in your head, you can always type in <q>=31-7</q>.
+			First, enter the number of days per month manually. Make sure to double-check with a calendar, and put <q>29</q> for February if it's a leap year. Note that it says <q>24</q> for the first December, in cell B2. There are still 31 days of that December of course, but the purchase was made on December 7th. If you don't want to do subtraction in your head, you can always type in <q>=31-7</q>.
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/credit_cards/excel_ex1.png">
 			</image>
 		</sidebyside>
 		<p>
-			If it’s a large amount of debt, like $1,200 in this case, then we can expect minimum monthly payments to need a long time for complete repayment. So we’ll need more than one year. Select cells A3 through B14 (by clicking and dragging), then copy this and paste it repeatedly underneath. Since this example was already done above we know it will take 7 years, so you should end up with numbers all the way through row 86.
+			If it's a large amount of debt, like $1,200 in this case, then we can expect minimum monthly payments to need a long time for complete repayment. So we'll need more than one year. Select cells A3 through B14 (by clicking and dragging), then copy this and paste it repeatedly underneath. Since this example was already done above we know it will take 7 years, so you should end up with numbers all the way through row 86.
 		</p>
 		<p>
-			Back at the top, the first outstanding balance is the purchase amount, so enter <q>1200</q> into cell C2. Recall that the first month is the interest-free period, so it really is just $1,200 and some formula with $1,200 as an input. Then in cell D2, enter the formula for the minimum monthly payment with Excel formatting. Drusilla’s card uses the company method, so that is the basic template. The max function in Excel is <q>MAX(number1,number2,…)</q>. We will refer to the value of <m>P</m> with the cell containing it, which is C2. Putting all of that together, we type <q>=MAX(0.02*C2*(1+0.18),25)</q> into cell D2, and after hitting enter it will display <q>28.32</q>.
+			Back at the top, the first outstanding balance is the purchase amount, so enter <q>1200</q> into cell C2. Recall that the first month is the interest-free period, so it really is just $1,200 and some formula with $1,200 as an input. Then in cell D2, enter the formula for the minimum monthly payment with Excel formatting. Drusilla's card uses the company method, so that is the basic template. The max function in Excel is <q>MAX(number1,number2,…)</q>. We will refer to the value of <m>P</m> with the cell containing it, which is C2. Putting all of that together, we type <q>=MAX(0.02*C2*(1+0.18),25)</q> into cell D2, and after hitting enter it will display <q>28.32</q>.
 		</p>
 		<sidebyside>
 			<image width="70%" source="images/financial_math/credit_cards/excel_ex2.png">
@@ -340,7 +340,7 @@
 		</sidebyside>
 
 		<p>
-			The grace period is over in January, so the outstanding balance in cell C3 will be December’s balance minus December’s payment, and then with interest applied over all of the days since the purchase. That is, B2+B3 days of interest applied to C2-D2 amount of money. This means we type <q>=(C2-D2)*(1+0.18/365)^(B2+B3)</q> into C3 and hit enter, resulting in <q>1203.89</q>.
+			The grace period is over in January, so the outstanding balance in cell C3 will be December's balance minus December's payment, and then with interest applied over all of the days since the purchase. That is, B2+B3 days of interest applied to C2-D2 amount of money. This means we type <q>=(C2-D2)*(1+0.18/365)^(B2+B3)</q> into C3 and hit enter, resulting in <q>1203.89</q>.
 		</p>
 
 		<sidebyside>
@@ -349,7 +349,7 @@
 		</sidebyside>
 
 		<p>
-			The payment for January is computed using exactly the same method as it was in December though, the only exception being that we want to refer to the balance in C3 rather than C2. Likewise, in March we’ll want C4, in April C5, and so on forever. We can use the fill-down feature to have Excel auto-fill this for us. Click on D2, release the click, and hover over the bottom-right corner of D2 so that the cursor is a small black <q>+</q>. Then click and drag downwards all the way to D86. Excel will display <q>25.00</q> for most of these, but that’s because it’s treating all those blank cells in column C as zeros, and the max{0,25}=25. We will fill in column C with the correct numbers shortly, but for now it should look like the screenshot below. Note that, for example, the formula for cell D17 includes a reference to C17.
+			The payment for January is computed using exactly the same method as it was in December though, the only exception being that we want to refer to the balance in C3 rather than C2. Likewise, in March we'll want C4, in April C5, and so on forever. We can use the fill-down feature to have Excel auto-fill this for us. Click on D2, release the click, and hover over the bottom-right corner of D2 so that the cursor is a small black <q>+</q>. Then click and drag downwards all the way to D86. Excel will display <q>25.00</q> for most of these, but that's because it's treating all those blank cells in column C as zeros, and the max{0,25}=25. We will fill in column C with the correct numbers shortly, but for now it should look like the screenshot below. Note that, for example, the formula for cell D17 includes a reference to C17.
 		</p>
 
 		<sidebyside>
@@ -358,7 +358,7 @@
 		</sidebyside>
 
 		<p>
-			We don’t want to use fill-down on column C just yet, because our formula in C3 used <q>B2+B3</q> as the exponent, since the December days had to be retroactively included for interest purposes after the grace period ended, along with the January days. However in February, the new interest charges are only on the new days, i.e. the 28 days of February. This number 28 is conveniently found in cell B4. So in cell C4 we type <q>=(C3-D3)*(1+0.18/365)^B4</q>. After hitting enter, both C4 and D4 update to the correct numerical values.
+			We don't want to use fill-down on column C just yet, because our formula in C3 used <q>B2+B3</q> as the exponent, since the December days had to be retroactively included for interest purposes after the grace period ended, along with the January days. However in February, the new interest charges are only on the new days, i.e. the 28 days of February. This number 28 is conveniently found in cell B4. So in cell C4 we type <q>=(C3-D3)*(1+0.18/365)^B4</q>. After hitting enter, both C4 and D4 update to the correct numerical values.
 		</p>
 
 		<sidebyside>
@@ -376,10 +376,10 @@
 		</sidebyside>
 
 		<p>
-			Note that the last three rows ended up having negative values in column C. We don’t want that, unless you plan to keep paying money to the credit card company so that they owe you money. But you wouldn’t be able to charge them interest unfortunately, so there’s no reason to do that. We need to fix the fact that we overshot: delete those rows. Click and drag to highlight A84 through D86, and hit the <q>delete</q> button.
+			Note that the last three rows ended up having negative values in column C. We don't want that, unless you plan to keep paying money to the credit card company so that they owe you money. But you wouldn't be able to charge them interest unfortunately, so there's no reason to do that. We need to fix the fact that we overshot: delete those rows. Click and drag to highlight A84 through D86, and hit the <q>delete</q> button.
 		</p>
 		<p>
-			That’s not all though. Cell D83 isn’t correct either: you don’t need to pay $25 when you only owe $18.55. So delete that too, and instead type <q>=C83</q> into D83.
+			That's not all though. Cell D83 isn't correct either: you don't need to pay $25 when you only owe $18.55. So delete that too, and instead type <q>=C83</q> into D83.
 		</p>
 
 		<sidebyside>
@@ -388,7 +388,7 @@
 		</sidebyside>
 
 		<p>
-			The debt is now repaid! Or at least the calculations for doing so are complete in Excel. Finally, let’s see how much money was spent in total. Back at the top, in cell E2, we can ask Excel to add up everything in column D: type <q>=SUM(D:D)</q> and hit enter.
+			The debt is now repaid! Or at least the calculations for doing so are complete in Excel. Finally, let's see how much money was spent in total. Back at the top, in cell E2, we can ask Excel to add up everything in column D: type <q>=SUM(D:D)</q> and hit enter.
 		</p>
 
 		<sidebyside>
@@ -397,7 +397,7 @@
 		</sidebyside>
 
 		<p>
-			Additionally, if we want to know how many months it took, just subtract one from the row with the final payment (because row 1 has column titles in it and not numbers). That’s <m>83-1=82</m> months.
+			Additionally, if we want to know how many months it took, just subtract one from the row with the final payment (because row 1 has column titles in it and not numbers). That's <m>83-1=82</m> months.
 		</p>
 	</statement>
 	</example>
@@ -482,7 +482,7 @@
 	<example>
 		<statement>
 		<p>
-			Siufan uses a credit card with 20% APR to buy a video game console for $500 on April 16th. The <q>company method</q> is used to calculate minimum payments, and she makes payments on the last day of each month. She decides to pay it off in one year. If she doesn’t buy anything else with the same card, how much will her monthly payments be?
+			Siufan uses a credit card with 20% APR to buy a video game console for $500 on April 16th. The <q>company method</q> is used to calculate minimum payments, and she makes payments on the last day of each month. She decides to pay it off in one year. If she doesn't buy anything else with the same card, how much will her monthly payments be?
 		</p>
 		<p>
 			The rough estimate is <m>d=\frac{P(\frac{r}{n})}{1-(1+\frac{r}{n})^{-nt}} \frac{365}{12} = \frac{\$500(\frac{0.2}{365})}{1-(1+\frac{0.2}{365})^{-365(1)}} \frac{365}{12} \approx \$45.98</m>.
@@ -491,10 +491,10 @@
 			We can get the same amount using Excel, by typing: <c>=PMT(0.2/365,365,-500,0)*365/12</c>.
 		</p>
 		<p>
-			We need to check that this is more than the monthly minimum payment every month, or she will end up with penalties. The minimums go down as the outstanding balance goes down (until it flatlines at $25 minimum anyway). Therefore we only need to compare to the first and second month’s minimums; we are including the second to err on the safe side, since there is no interest charged during the grace period.
+			We need to check that this is more than the monthly minimum payment every month, or she will end up with penalties. The minimums go down as the outstanding balance goes down (until it flatlines at $25 minimum anyway). Therefore we only need to compare to the first and second month's minimums; we are including the second to err on the safe side, since there is no interest charged during the grace period.
 		</p>
 		<p>
-			On April 30th, no interest has been charged, because of the grace period, so <m>P=\$500</m>. The minimum payment due is <m>d=max{\$25,0.02P(1+r)}=max{\$25,0.02(\$500)(1+0.2)}=max{\$25,\$12}=\$25</m>. Thus her planned payment of $45.98 is above the minimum and she’s safe to pay that amount.
+			On April 30th, no interest has been charged, because of the grace period, so <m>P=\$500</m>. The minimum payment due is <m>d=max{\$25,0.02P(1+r)}=max{\$25,0.02(\$500)(1+0.2)}=max{\$25,\$12}=\$25</m>. Thus her planned payment of $45.98 is above the minimum and she's safe to pay that amount.
 		</p>
 		<p>
 			On May 31st, her next payment is due. It has been <m>m=(30-16)+31=45</m> days, so the outstanding amount owed is <m>P_{new} = (P_{old}-d_{old}) (1+\frac{r}{n})^{m}= (\$500-\$45.98)(1+\frac{0.2/365})^{45} \approx \$465.35</m>. Her minimum payment is <m>d=max{\$25,0.02P(1+r)}=max{\$25,0.02(\$465.35)(1+0.2)} \approx max{\$25,\$11.17}=\$25</m>. Again, this is less than $45.98 so she is safe to continue paying that much per month.
@@ -771,7 +771,7 @@
 <exercise>
 	<statement>
 	<p>
-		For what range of APR rates does the government method result in a <em>lower</em> payment than what’s required by the default company method? Assume that <m>P</m> is high enough that both payments would be more than $25. (Hint: use algebra with the appropriate formulas.)
+		For what range of APR rates does the government method result in a <em>lower</em> payment than what's required by the default company method? Assume that <m>P</m> is high enough that both payments would be more than $25. (Hint: use algebra with the appropriate formulas.)
 	</p>
 	</statement>
 	<solution>
@@ -790,17 +790,17 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					Calculate the outstanding balance on July 1st (after that day’s payment), using the company method.
+					Calculate the outstanding balance on July 1st (after that day's payment), using the company method.
 				</p>
 			</li>
 			<li>
 				<p>
-					Calculate the outstanding balance on July 1st (after that day’s payment), using the government method.
+					Calculate the outstanding balance on July 1st (after that day's payment), using the government method.
 				</p>
 			</li>
 			<li>
 				<p>
-					Calculate the outstanding balance on July 1st (after that day’s payment), if you pay a flat $100 each month.
+					Calculate the outstanding balance on July 1st (after that day's payment), if you pay a flat $100 each month.
 				</p>
 			</li>
 		</ol>
@@ -838,17 +838,17 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					Calculate the outstanding balance on January 1st (after that day’s payment), using the company method.
+					Calculate the outstanding balance on January 1st (after that day's payment), using the company method.
 				</p>
 			</li>
 			<li>
 				<p>
-					Calculate the outstanding balance on January 1st (after that day’s payment), using the government method.
+					Calculate the outstanding balance on January 1st (after that day's payment), using the government method.
 				</p>
 			</li>
 			<li>
 				<p>
-					Calculate the outstanding balance on January 1st (after that day’s payment), if you pay a flat $100 each month.
+					Calculate the outstanding balance on January 1st (after that day's payment), if you pay a flat $100 each month.
 				</p>
 			</li>
 		</ol>
@@ -886,17 +886,17 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					Calculate the outstanding balance on April 1st (after that day’s payment), using the company method.
+					Calculate the outstanding balance on April 1st (after that day's payment), using the company method.
 				</p>
 			</li>
 			<li>
 				<p>
-					Calculate the outstanding balance on April 1st (after that day’s payment), using the government method.
+					Calculate the outstanding balance on April 1st (after that day's payment), using the government method.
 				</p>
 			</li>
 			<li>
 				<p>
-					Calculate the outstanding balance on April 1st (after that day’s payment), if you pay a flat $500 each month.
+					Calculate the outstanding balance on April 1st (after that day's payment), if you pay a flat $500 each month.
 				</p>
 			</li>
 		</ol>
@@ -987,7 +987,7 @@
 			</li>
 			<li>
 				<p>
-					Check that your answer from part a is higher than the monthly minimum for all months. What is the actual number of monthly payments needed? What is the amount of the final month’s payment? How much money do you pay in total?
+					Check that your answer from part a is higher than the monthly minimum for all months. What is the actual number of monthly payments needed? What is the amount of the final month's payment? How much money do you pay in total?
 				</p>
 			</li>
 		</ol>
@@ -1025,7 +1025,7 @@
 			</li>
 			<li>
 				<p>
-					Check that your answer from part a is higher than the monthly minimum for all months. What is the actual number of monthly payments needed? What is the amount of the final month’s payment? How much money do you pay in total?
+					Check that your answer from part a is higher than the monthly minimum for all months. What is the actual number of monthly payments needed? What is the amount of the final month's payment? How much money do you pay in total?
 				</p>
 			</li>
 		</ol>

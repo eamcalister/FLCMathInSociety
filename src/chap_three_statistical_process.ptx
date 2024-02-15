@@ -219,7 +219,7 @@
 <subsection>
 	<title>Sampling</title>
 	<p>
-		As we mentioned in a previous section, the first thing we should do before conducting a survey is to identify the population that we want to study. Suppose we are hired by a politician to determine the amount of support they have among the electorate should they decide to run for another term. What population should we study? Every person in the district? Eligible voters might be better, but what if they don’t register? Registered voters may not vote. What about <q>likely voters?</q>
+		As we mentioned in a previous section, the first thing we should do before conducting a survey is to identify the population that we want to study. Suppose we are hired by a politician to determine the amount of support they have among the electorate should they decide to run for another term. What population should we study? Every person in the district? Eligible voters might be better, but what if they don't register? Registered voters may not vote. What about <q>likely voters?</q>
 	</p>
 
 	<p>
@@ -299,7 +299,7 @@
 	</p>
 	<example>
 		<p>
-			To select a systematic sample, Portland Community College could use their database to select a random student from the first 100 student ID numbers. Then they would select every 100th student ID number after that. Systematic sampling is not as random as a simple random sample (if your ID number is right next to your friend’s because you applied at the same time, you could not both end up in the same sample) but it can yield acceptable samples. This method can be useful for people waiting in lines, parts on a manufacturing line, or plants in a row.
+			To select a systematic sample, Portland Community College could use their database to select a random student from the first 100 student ID numbers. Then they would select every 100th student ID number after that. Systematic sampling is not as random as a simple random sample (if your ID number is right next to your friend's because you applied at the same time, you could not both end up in the same sample) but it can yield acceptable samples. This method can be useful for people waiting in lines, parts on a manufacturing line, or plants in a row.
 		</p>
 	</example>
 </subsection>
@@ -379,7 +379,7 @@
 				</li>
 				<li>
 					<p>
-						A poll was conducted by phone with the question, “Do you often have time to relax and read a book?” Fifty percent of the people who were called refused to participate in the survey (Probably because they didn’t have the time). It is unlikely that the results will be representative of the entire population. This is an example of non-response bias.
+						A poll was conducted by phone with the question, “Do you often have time to relax and read a book?” Fifty percent of the people who were called refused to participate in the survey (Probably because they didn't have the time). It is unlikely that the results will be representative of the entire population. This is an example of non-response bias.
 					</p>
 				</li>
 			</ol>
@@ -412,7 +412,7 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						A pharmaceutical company tests a new medicine for treating Alzheimer’s disease by administering the drug to 50 elderly patients with recent diagnoses. The treatment here is the new drug.
+						A pharmaceutical company tests a new medicine for treating Alzheimer's disease by administering the drug to 50 elderly patients with recent diagnoses. The treatment here is the new drug.
 					</p>
 				</li>
 				<li>
@@ -422,12 +422,12 @@
 				</li>
 				<li>
 					<p>
-						A psychology researcher explores the effect of music on affect by measuring people’s mood while listening to different types of music. The music is the treatment.
+						A psychology researcher explores the effect of music on affect by measuring people's mood while listening to different types of music. The music is the treatment.
 					</p>
 				</li>
 				<li>
 					<p>
-						Suppose a middle school finds that their students are not scoring well on the state’s standardized math test. They decide to run an experiment to see if a new curriculum would improve scores. To run the test, they hire a math specialist to come in and teach a class using the new curriculum. To their delight, they see an improvement in test scores.
+						Suppose a middle school finds that their students are not scoring well on the state's standardized math test. They decide to run an experiment to see if a new curriculum would improve scores. To run the test, they hire a math specialist to come in and teach a class using the new curriculum. To their delight, they see an improvement in test scores.
 					</p>
 					<p>
 						The difficulty with the last scenario is that it is not clear whether the new curriculum or the math specialist is responsible for the improvement. This is called confounding and it is the downfall of many experiments, though it is often hidden.
@@ -496,7 +496,7 @@
 <subsection>
 	<title>Placebo effect</title>
 	<p>
-		The <alert>placebo effect</alert> is when the effectiveness of a treatment is influenced by the patient’s perception of how effective they think the treatment will be, so a result might be seen even if the treatment is ineffectual.
+		The <alert>placebo effect</alert> is when the effectiveness of a treatment is influenced by the patient's perception of how effective they think the treatment will be, so a result might be seen even if the treatment is ineffectual.
 	</p>
 	<example>
 		<p>
@@ -543,7 +543,7 @@
 <subsection>
 	<title>Blind studies</title>
 	<p>
-		A <alert>blind study</alert> is one that uses a placebo and the participants do not know whether they are receiving the treatment or a placebo. A <alert>double-blind study</alert> is one in which the subjects and those interacting with them don’t know who is in the treatment group and who is in the control group.
+		A <alert>blind study</alert> is one that uses a placebo and the participants do not know whether they are receiving the treatment or a placebo. A <alert>double-blind study</alert> is one in which the subjects and those interacting with them don't know who is in the treatment group and who is in the control group.
 	</p>
 	<example>
 		<p>
@@ -555,11 +555,11 @@
 <subsection>
 	<title>Margin of Error and Confidence Intervals</title>
 	<p>
-		Even when a study or experiment has successfully avoided bias and has been well done, there is still an element of variation. If we took 5 different random samples of 100 college students and calculated their average textbook cost, we wouldn’t expect to get the exact same average for each sample. This is due to sampling variation. To account for this, researchers publish their margin of error or a confidence interval for their statistics. These numbers describe the precision of the estimate for a certain confidence level. 
+		Even when a study or experiment has successfully avoided bias and has been well done, there is still an element of variation. If we took 5 different random samples of 100 college students and calculated their average textbook cost, we wouldn't expect to get the exact same average for each sample. This is due to sampling variation. To account for this, researchers publish their margin of error or a confidence interval for their statistics. These numbers describe the precision of the estimate for a certain confidence level. 
 	</p>
 
 	<p>
-		You’ve probably heard something like, <q>The candidate has 54 percent of the likely voters, plus or minus three percent.</q> The 3% is called the <alert>margin of error</alert>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <alert>confidence interval</alert>, we place the numbers in parentheses from smallest to largest, separated by a comma: (51%, 57%).
+		You've probably heard something like, <q>The candidate has 54 percent of the likely voters, plus or minus three percent.</q> The 3% is called the <alert>margin of error</alert>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <alert>confidence interval</alert>, we place the numbers in parentheses from smallest to largest, separated by a comma: (51%, 57%).
 	</p>
 
 	<p>
@@ -568,7 +568,7 @@
 	<example>
 		<statement>
 		<p>
-			Let’s say we asked a random sample of 100 students at Portland Community College and found that they spent an average of $451.32 on books their first year, plus or minus $85.63. Write this as a confidence interval, assuming a 95% confidence level.
+			Let's say we asked a random sample of 100 students at Portland Community College and found that they spent an average of $451.32 on books their first year, plus or minus $85.63. Write this as a confidence interval, assuming a 95% confidence level.
 		</p>
 		</statement>
 		<solution>
@@ -668,7 +668,7 @@
 <exercise>
 	<statement>
 	<p>
-		A local research firm randomly selects 1200 homes in Washington County to determine support for adding compost pick up to residents’ regular garbage service.
+		A local research firm randomly selects 1200 homes in Washington County to determine support for adding compost pick up to residents' regular garbage service.
 		<ol marker="a.">
 			<li>
 				<p>
@@ -926,7 +926,7 @@
 			</li>
 			<li>
 				<p>
-					In a study, the sample is chosen by writing everyone’s name on a playing card, shuffling the deck, then choosing the top 20 cards.
+					In a study, the sample is chosen by writing everyone's name on a playing card, shuffling the deck, then choosing the top 20 cards.
 				</p>
 			</li>
 			<li>
@@ -974,7 +974,7 @@
 		</li>
 		<li>
 			<p>
-				Viewers of a new show are asked to respond to a poll on the show’s website.
+				Viewers of a new show are asked to respond to a poll on the show's website.
 			</p>
 		</li>
 		<li>
@@ -1490,7 +1490,7 @@
 	</statement>
 	<solution>
 		<p>
-			The control group would be the group that were ask to tell the truth. It is a blind study because the person who is administering the lie detector test doesn’t know which group each person is in.
+			The control group would be the group that were ask to tell the truth. It is a blind study because the person who is administering the lie detector test doesn't know which group each person is in.
 		</p>
 	</solution>
 </exercise>
@@ -1671,7 +1671,7 @@
 	</statement>
 	<solution>
 		<p>
-			Play Barry Manilow to half the crop and don’t play any music to the other half of the crop.
+			Play Barry Manilow to half the crop and don't play any music to the other half of the crop.
 		</p>
 	</solution>
 </exercise>
@@ -1690,10 +1690,10 @@
 			Observational: Survey adults who played sports as a child. Ask them if they consider themselves extroverted or introverted. Record the percentage of each personality type.
 		</p>
 		<p>
-			Experimental: Survey adults and ask them if they played sports as children. Ask them if they consider themselves extroverted or introverted.  Compare the results of adults who played sports as children with the adults who didn’t play sports as children.
+			Experimental: Survey adults and ask them if they played sports as children. Ask them if they consider themselves extroverted or introverted.  Compare the results of adults who played sports as children with the adults who didn't play sports as children.
 		</p>
 		<p>
-			Which is more practical? The Experimental study would allow you to see if there is a significant difference in the personality types based on if the person played sports or didn’t play sports.
+			Which is more practical? The Experimental study would allow you to see if there is a significant difference in the personality types based on if the person played sports or didn't play sports.
 		</p>
 	</solution>
 </exercise>
@@ -1701,7 +1701,7 @@
 <exercise>
 	<statement>
 	<p>
-		Find a newspaper or magazine article, or the online equivalent, describing the results of a recent study (not a simple poll). Give a summary of the study’s findings, then analyze whether the article provided enough information to determine the validity of the conclusions. If not, produce a list of things that are missing from the article that would help you determine the validity of the study. Look for the things discussed in the text: population, sample, randomness, blind, control, margin of error, etc.
+		Find a newspaper or magazine article, or the online equivalent, describing the results of a recent study (not a simple poll). Give a summary of the study's findings, then analyze whether the article provided enough information to determine the validity of the conclusions. If not, produce a list of things that are missing from the article that would help you determine the validity of the study. Look for the things discussed in the text: population, sample, randomness, blind, control, margin of error, etc.
 	</p>
 	</statement>
 	<solution>

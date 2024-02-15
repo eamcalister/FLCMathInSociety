@@ -70,7 +70,7 @@
 	<example>
 		<statement>
 		<p>
-			Mirabel’s exam scores for her last math class were: 79, 86, 82, 94. What is her mean test score?
+			Mirabel's exam scores for her last math class were: 79, 86, 82, 94. What is her mean test score?
 		</p>
 		</statement>
 		<solution>
@@ -258,7 +258,7 @@
 			We must start by listing the data in order: 2, 4, 5, 5, 6, 6, 7, 7, 8, 8, 10.
 		</p>
 		<p>
-			It is helpful to mark or cross off the numbers as you list them to make sure you don’t miss any. Also, be sure to count the number of data values in your ordered list to make sure it matches the number of data values in the original list.
+			It is helpful to mark or cross off the numbers as you list them to make sure you don't miss any. Also, be sure to count the number of data values in your ordered list to make sure it matches the number of data values in the original list.
 		</p>
 		<p>
 			In this example there are 11 quiz scores. When the distribution contains an odd number of data values there will be a single number in the middle and that is the median. For small data sets, we can “walk” one value at a time from the ends of the ordered list towards the center to find the median
@@ -318,7 +318,7 @@
 
 <example>
 	<p>
-		Let’s continue with our peanut butter example and find the median both by hand and with a spreadsheet. The price of peanut butter at 5 stores was $3.29, $3.59, $3.79, $3.75, and $3.99.
+		Let's continue with our peanut butter example and find the median both by hand and with a spreadsheet. The price of peanut butter at 5 stores was $3.29, $3.59, $3.79, $3.75, and $3.99.
 	</p>
 	<p>
 		To find the median by hand, we must first list the prices in order. This give us: $3.29, $3.59, $3.75, $3.79, $3.99
@@ -1055,7 +1055,7 @@
 						<m>=24</m> months
 					</p>
 					<p>
-						The mean for Researcher 1’s patients is 23.6 months, and the median for Researcher’s 1 patients is 24 months.
+						The mean for Researcher 1's patients is 23.6 months, and the median for Researcher's 1 patients is 24 months.
 					</p>
 					<p>
 						For Researcher 2:
@@ -1076,12 +1076,12 @@
 						<m>=22</m> months
 					</p>
 					<p>
-						The mean for Researcher 2’s patients is 22.8 months, and the median is 22 months
+						The mean for Researcher 2's patients is 22.8 months, and the median is 22 months
 					</p>
 				</li>
 				<li>
 					<p>
-						Both the mean and median for Researcher 1’s patients are greater than the mean and median for Researcher 2’s patients. So, on average, Researcher 1’s patients have a longer life time after starting the cancer treatment than Researcher 2’s patients.
+						Both the mean and median for Researcher 1's patients are greater than the mean and median for Researcher 2's patients. So, on average, Researcher 1's patients have a longer life time after starting the cancer treatment than Researcher 2's patients.
 					</p>
 				</li>
 			</ol>
@@ -1722,7 +1722,7 @@
 <exercise>
 	<statement>
 	<p>
-		The frequency table below shows the number of women’s shoes that were sold in an hour at a local shoe store.
+		The frequency table below shows the number of women's shoes that were sold in an hour at a local shoe store.
 	</p>
 	<p>
 	<ol marker="a.">
@@ -1780,7 +1780,7 @@
 					Argument for categorical: Because it is not clear that the shoe sizes represent a measure, the data can be considered categorical.
 				</p>
 				<p>
-					Argument for quantitative: Because shoe size is a measurement that corresponds to the length of someone’s foot, it can be treated as quantitative data. 
+					Argument for quantitative: Because shoe size is a measurement that corresponds to the length of someone's foot, it can be treated as quantitative data. 
 				</p>
 			</li>
 			<li>

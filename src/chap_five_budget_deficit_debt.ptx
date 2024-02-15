@@ -74,7 +74,7 @@
 <subsection>
 <title>The Federal Budget Process</title>
 	<p>
-		The <alert>Federal Budget</alert> is like a home budget, with income and expenses. The U.S. Government’s fiscal year goes from October 1st of one year to September 30th of the next year. Work on the budget begins about a year and a half before the budget is finalized.
+		The <alert>Federal Budget</alert> is like a home budget, with income and expenses. The U.S. Government's fiscal year goes from October 1st of one year to September 30th of the next year. Work on the budget begins about a year and a half before the budget is finalized.
 	</p>
 	<p>
 		First, departments and agencies submit their proposals to the White House. Then the President submits their budget plan to Congress. Each chamber of Congress analyzes the proposal and makes their own budget resolution. Then a conference committee of House and Senate members resolves the differences between the two plans and makes a final version that each chamber votes on.
@@ -256,7 +256,7 @@
 <subsection>
 <title>Debt to GDP Ratio</title>
 	<p>
-		A more common way to measure the deficit is as a percentage of the gross domestic product. The <alert>gross domestic product</alert>, or <alert>GDP</alert>, is the total value of all the finished goods and services produced within a county’s borders in a specific period of time. The GDP is a measure of the size of an economy. The growth rate of the GDP is one measure of a nation’s economic health (Bureau of Economic Analysis, 2019). The GDP of the United States in 2019 was $21.73 trillion but due to the COVID-19 pandemic, there was a drop in the second quarter of 2020 to $19.74 trillion. (Bureau of Economic Analysis, 2020).
+		A more common way to measure the deficit is as a percentage of the gross domestic product. The <alert>gross domestic product</alert>, or <alert>GDP</alert>, is the total value of all the finished goods and services produced within a county's borders in a specific period of time. The GDP is a measure of the size of an economy. The growth rate of the GDP is one measure of a nation's economic health (Bureau of Economic Analysis, 2019). The GDP of the United States in 2019 was $21.73 trillion but due to the COVID-19 pandemic, there was a drop in the second quarter of 2020 to $19.74 trillion. (Bureau of Economic Analysis, 2020).
 	</p>
 	<p>
 		Now we can look at more graphs that are written in terms of the percent of GDP. Here is a graph of federal spending and revenues as a percentage of the GDP<fn><url href="https://www.pgpf.org/chart-archive/0173_revenues_spending">"Federal Revenue and Spending, 1985-2050"</url> is copyrighted by <url href="https://www.pgpf.org/">Peter G. Peterson Foundation</url> and used under the <url href="https://www.pgpf.org/permissions">permissions granted</url> for educational use.</fn>.
@@ -305,7 +305,7 @@
 		There are several websites that keep a running total of the national debt. One of them is <url href="https://www.usdebtclock.org/">USDebtClock.org</url>. This one also shows the population, debt per citizen and debt per taxpayer. It shows the spending and deficit with counters that are constantly moving. At the bottom you can also see the debt to GDP ratio compared with previous ratios. The rest of the website shows statistics like the GDP, income tax revenue, median income, unemployment and much more. You can also see statistics for other states and countries.
 	</p>
 	<p>
-		Now let’s do some calculations with these large numbers in the next example.
+		Now let's do some calculations with these large numbers in the next example.
 	</p>
 	<example>
 		<statement>
@@ -405,7 +405,7 @@
 						<m>\frac{\text{national debt}}{\text{population}} =\frac{\$21.803\text{ trillion}}{329\text{ million people}}</m>
 					</p>
 					<p>
-						Notice that the debt is written in trillions and the population is in millions, so we can’t divide these numbers yet. We need to put them into the same units. We can either write both of them in expanded form like this:
+						Notice that the debt is written in trillions and the population is in millions, so we can't divide these numbers yet. We need to put them into the same units. We can either write both of them in expanded form like this:
 					</p>
 					<p>
 						<m>\frac{\$21,803,000,000,000}{\$329,000,000}=\$66,271\text{ per person.}</m>
@@ -445,7 +445,7 @@
 	<example>
 		<statement>
 		<p>
-			One advantage of the Debt to GDP ratio is you can compare different countries with economies of different sizes. Let’s look at South Korea for comparison. Here are some approximate values, from 2020 (Commodity.com, 2020).
+			One advantage of the Debt to GDP ratio is you can compare different countries with economies of different sizes. Let's look at South Korea for comparison. Here are some approximate values, from 2020 (Commodity.com, 2020).
 			<ul>
 				<li>
 					<p>
@@ -514,7 +514,7 @@
 						<m>\frac{\text{national debt}}{\text{population}} = \frac{\text{₩} 754.835\text{ trillion}}{50.617\text{ million people}}</m>
 					</p>
 					<p>
-						Again the units don’t match so we must either write all the zeros or make sure they are in the same units. In this case we will change the debt into millions but there are many ways you could do it.
+						Again the units don't match so we must either write all the zeros or make sure they are in the same units. In this case we will change the debt into millions but there are many ways you could do it.
 					</p>
 					<p>
 						<m>\frac{\text{₩} 754.835\text{ trillion}}{50.617\text{ million people}}=\text{₩}14,912,677.56 \text{ per person.}</m>
@@ -1411,7 +1411,7 @@
 		<ol marker="a">
 			<li>
 				<p>
-					Children’s benefits in total
+					Children's benefits in total
 				</p>
 			</li>
 			<li>
@@ -1432,7 +1432,7 @@
 		<ol marker="a">
 			<li>
 				<p>
-					Approximately $21.9 billion was spent on children’s benefits.
+					Approximately $21.9 billion was spent on children's benefits.
 				</p>
 			</li>
 			<li>
@@ -1506,7 +1506,7 @@
 <!-- <exercise>
 	<statement>
 	<p>
-		The total state budget for the state of New York in 2021 is approximately $177.5 million and their population is about 19.5 million.<fn><url href="https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html"></url>https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html</fn> Use the pie chart of the governor’s proposed budget for the fiscal year 2021<fn><url href="https://openbudget.ny.gov/overview.html">https://openbudget.ny.gov/overview.html</url></fn> to calculate how much will be spent on:
+		The total state budget for the state of New York in 2021 is approximately $177.5 million and their population is about 19.5 million.<fn><url href="https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html"></url>https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html</fn> Use the pie chart of the governor's proposed budget for the fiscal year 2021<fn><url href="https://openbudget.ny.gov/overview.html">https://openbudget.ny.gov/overview.html</url></fn> to calculate how much will be spent on:
 	</p>
 	<sidebyside width="45%">
 		<image source="images/democracy/5_6/ny_circle.png">
@@ -1559,7 +1559,7 @@
 <!-- <exercise>
 	<statement>
 	<p>
-		The Idaho governor’s state general fund budget was $3.465 billion<fn><url href="https://www.idahostatesman.com/news/politics-government/state-politics/article125872789.html">https://www.idahostatesman.com/news/politics-government/state-politics/article125872789.html</url></fn> and their population is about 1.8 million.<fn><url href="https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html">https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html</url></fn> Use the pie chart of the governor’s proposed budget for the fiscal year 2021 to calculate how much will be spent on:
+		The Idaho governor's state general fund budget was $3.465 billion<fn><url href="https://www.idahostatesman.com/news/politics-government/state-politics/article125872789.html">https://www.idahostatesman.com/news/politics-government/state-politics/article125872789.html</url></fn> and their population is about 1.8 million.<fn><url href="https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html">https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html</url></fn> Use the pie chart of the governor's proposed budget for the fiscal year 2021 to calculate how much will be spent on:
 	</p>
 	<sidebyside width="45%">
 		<image source="images/democracy/5_6/.png">

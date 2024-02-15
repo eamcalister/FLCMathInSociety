@@ -91,7 +91,7 @@
 		</sidebyside>
 	</example>
 	<p>
-		Note that the asterisk (*) is used for multiplication. Spreadsheets don’t recognize parentheses as indicators of multiplication like calculators do, so even if you have parentheses for the order of operations, the asterisk is also needed. 
+		Note that the asterisk (*) is used for multiplication. Spreadsheets don't recognize parentheses as indicators of multiplication like calculators do, so even if you have parentheses for the order of operations, the asterisk is also needed. 
 	</p>
 	<p>
 		You can make more complicated mathematical expressions using parentheses and other operations. To <alert>edit a cell</alert> click on the editing box at the top, or double click on the cell to edit it directly. 
@@ -122,7 +122,7 @@
 			One of the powerful things about spreadsheets is using a cell reference, such as C5 in a calculation. When you use a <alert>cell reference</alert>, the values will automatically update if any of the referenced values change.
 		</p>
 		<p>
-			Let’s make a spreadsheet for the percentage tip example above. We calculated an 18% tip on a bill of $35.75. We might want to tip 18% in general, but our bill will change values. We labeled the first column Bill Amount and the second column Tip. The amount of $35.75 is entered in cell A2. Then when we write our formula in B2, we want to calculate 18% of A2. That way if the number in A2 changes, our tip will automatically update.
+			Let's make a spreadsheet for the percentage tip example above. We calculated an 18% tip on a bill of $35.75. We might want to tip 18% in general, but our bill will change values. We labeled the first column Bill Amount and the second column Tip. The amount of $35.75 is entered in cell A2. Then when we write our formula in B2, we want to calculate 18% of A2. That way if the number in A2 changes, our tip will automatically update.
 		</p>
 
 	<sidebyside width="50%">
@@ -155,7 +155,7 @@
 <subsection>
 	<title>Fill-Down Feature</title>
 	<p>
-		The <alert>fill-down feature</alert> is very useful for making tables. This allows us to copy values or formulas to save time. Let’s make a tipping reference table with values from $10, to$100, in increments of $10. First, we will enter two values in column A to establish the pattern. Then select those two cells and you will see a small square in the lower right corner. Drag that square down until you get to $100.
+		The <alert>fill-down feature</alert> is very useful for making tables. This allows us to copy values or formulas to save time. Let's make a tipping reference table with values from $10, to$100, in increments of $10. First, we will enter two values in column A to establish the pattern. Then select those two cells and you will see a small square in the lower right corner. Drag that square down until you get to $100.
 	</p>
 	<sidebyside width="45%">
 		<image source="images/financial_math/2_1/drag_down1.png">
@@ -392,7 +392,7 @@
 			</li>
 			<li>
 				<p>
-					If the bank balance today had instead grown by 15.5% since day-one, then what would be the exact amount of today’s balance?
+					If the bank balance today had instead grown by 15.5% since day-one, then what would be the exact amount of today's balance?
 				</p>
 			</li>
 		</ol>
@@ -429,7 +429,7 @@
 <exercise>
 	<statement>
 	<p>
-		Imagine that at the start of a certain month, you will make an opening deposit of $500 into a savings account, and you will then leave the account alone (meaning you will make no further deposits or withdrawals). Also, for this account: Every month after the opening deposit, the amount in the account will grow to be 101% of its previous month’s balance.
+		Imagine that at the start of a certain month, you will make an opening deposit of $500 into a savings account, and you will then leave the account alone (meaning you will make no further deposits or withdrawals). Also, for this account: Every month after the opening deposit, the amount in the account will grow to be 101% of its previous month's balance.
 	</p>
 	<p>
 		<ol marker="a.">
@@ -508,7 +508,7 @@
 <exercise><!--  #13 -->
 	<statement>
 	<p>
-		Imagine that at the start of a certain year, you will deposit $1000.00 into a savings account, and then you will leave the account alone. Each year after the opening deposit, the amount in the account will grow to be 103% of its previous year’s balance.
+		Imagine that at the start of a certain year, you will deposit $1000.00 into a savings account, and then you will leave the account alone. Each year after the opening deposit, the amount in the account will grow to be 103% of its previous year's balance.
 	</p>
 	<p>
 		<ol marker="a.">

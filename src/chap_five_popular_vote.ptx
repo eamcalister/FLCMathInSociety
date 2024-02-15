@@ -64,10 +64,10 @@
 		</ol>
 	</p>
 	<p>
-		The first option of having Congress do this work was declined as this would alter the balance of power among the three separate branches of government. The idea to have State Legislatures also failed as there wouldn’t be the separation between having an independent Federal Government and State Governments.
+		The first option of having Congress do this work was declined as this would alter the balance of power among the three separate branches of government. The idea to have State Legislatures also failed as there wouldn't be the separation between having an independent Federal Government and State Governments.
 	</p>
 	<p>
-		The <alert>popular vote</alert> means a candidate must win a plurality of all the votes cast for president, regardless of which state the voters live in. The popular vote was decided against as the Founders didn’t think all citizens would be informed enough about the candidates to make an educated decision (Clayton, 2015).
+		The <alert>popular vote</alert> means a candidate must win a plurality of all the votes cast for president, regardless of which state the voters live in. The popular vote was decided against as the Founders didn't think all citizens would be informed enough about the candidates to make an educated decision (Clayton, 2015).
 	</p>
 	<p>
 		Instead, the <alert>Electoral College</alert> was decided upon and, in this system, each state was given a certain number of electoral votes. Each state got an equal two votes for the two senate seats. This gave smaller states a leg up as they would have at least these votes. In addition, each state would be given more votes based on their population, equal to their representation in the House (Clayton, 2015). The District of Columbia, which is not a state, also gets 3 electoral votes. A candidate must win a majority of the electoral votes to win the U.S. presidency. If no candidate has a majority of electoral votes then a contingent election would be held by the U.S. House of Representatives between the three candidates with the most electoral votes.
@@ -149,7 +149,7 @@
 <subsection>
 <title>How Electoral Votes are Determined</title>
 	<p>
-		While each state has a set number of electoral votes based on the formula above, the federal government gave states the control of how they distribute and cast their electoral votes (Paiva, 2011). In 48 states, the candidate with the most votes wins all of that state’s electoral votes, often called <alert>winner-takes-all</alert>. In essence, a candidate could win with barely a majority of the popular vote in that state and the entire state’s votes goes to that individual (Clayton, 2015). In 2 states, Maine and Nebraska, however, they use a district plan where instead of winner-takes-all, they use <alert>proportionality</alert>. This means that they award electoral votes by how individual districts vote. Each district gives their electoral vote to the winner of their district and the remaining two votes go to the candidate that won statewide.
+		While each state has a set number of electoral votes based on the formula above, the federal government gave states the control of how they distribute and cast their electoral votes (Paiva, 2011). In 48 states, the candidate with the most votes wins all of that state's electoral votes, often called <alert>winner-takes-all</alert>. In essence, a candidate could win with barely a majority of the popular vote in that state and the entire state's votes goes to that individual (Clayton, 2015). In 2 states, Maine and Nebraska, however, they use a district plan where instead of winner-takes-all, they use <alert>proportionality</alert>. This means that they award electoral votes by how individual districts vote. Each district gives their electoral vote to the winner of their district and the remaining two votes go to the candidate that won statewide.
 	</p>
 	<p>
 		There is a movement to change from the Electoral College to the popular vote. One way this is happening is through the <alert>National Popular Vote Interstate Compact</alert><fn><url href="https://www.nationalpopularvote.com/"></url></fn>. States who adopt this compact agree to award their electoral votes to the winner of the national popular vote. If states and/or D.C. with at least 270 electoral votes adopt this compact, then the winner of the popular vote would win the electoral college and the presidency. At this time there are 196 electoral votes in states and D.C. who have enacted the bill and the bill has passed one or two legislative houses in additional states with 88 electoral votes.
@@ -244,7 +244,7 @@
 				<ol marker="a.">
 					<li>
 						<p>
-							To find the number of electors for each state, we first divide each state population by 40,000 to determine the number of representatives they will have. We will drop the decimal remainders, similar to Hamilton’s method.
+							To find the number of electors for each state, we first divide each state population by 40,000 to determine the number of representatives they will have. We will drop the decimal remainders, similar to Hamilton's method.
 						</p>
 						<sidebyside>
 						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -605,7 +605,7 @@
 					</li>
 					<li>
 						<p>
-							Let’s look at which combinations of states the candidates could seek to win with.
+							Let's look at which combinations of states the candidates could seek to win with.
 						</p>
 						<p>
 							Since 27 electoral votes are needed, we will list all the winning combinations starting with the smallest number of states to win. We see that a candidate must win either Huge or Large, because Small and Medium together are not enough votes to win
@@ -692,7 +692,7 @@
 					</li>
 					<li>
 						<p>
-							To find the fewest number of individual votes a candidate could win with; let’s look at the table above. The combination of states with the fewest electoral votes is Huge and Small with 28 electoral votes. Let’s see how many votes would be needed to win those two states.
+							To find the fewest number of individual votes a candidate could win with; let's look at the table above. The combination of states with the fewest electoral votes is Huge and Small with 28 electoral votes. Let's see how many votes would be needed to win those two states.
 						</p>
 						<p>
 							For Huge:
@@ -750,14 +750,14 @@
 		</solution>
 	</example>
 	<p>
-		People who support the Electoral College often say it protects small states. People who oppose the Electoral College often say that each person’s vote should count equally as in the popular vote. Next we will look at electoral power to understand the effect on small states.
+		People who support the Electoral College often say it protects small states. People who oppose the Electoral College often say that each person's vote should count equally as in the popular vote. Next we will look at electoral power to understand the effect on small states.
 	</p>
 </subsection>
 
 <subsection>
 <title>Electoral Power</title>
 	<p>
-		<alert>Electoral power</alert> is the value of a person’s vote in one state compared to another state. A related topic is voting power, which is the probability of any one person influencing an election. If you are interested in voting power, you can look up the Banzhaf Power Index. To calculate the electoral power, we will calculate a ratio of electoral votes for a given number of people. We could use any number, so we will choose the number of people that each representative represents, which is our divisor of 40,000 people.
+		<alert>Electoral power</alert> is the value of a person's vote in one state compared to another state. A related topic is voting power, which is the probability of any one person influencing an election. If you are interested in voting power, you can look up the Banzhaf Power Index. To calculate the electoral power, we will calculate a ratio of electoral votes for a given number of people. We could use any number, so we will choose the number of people that each representative represents, which is our divisor of 40,000 people.
 	</p>
 	<example>
 		<statement>
@@ -859,7 +859,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			Are you surprised to see that the smallest states have the highest electoral power? That is part of the design of the electoral college. The founders from small states were concerned that their votes would not matter, so every state gets 2 senators added to the number of representatives. For a state with few representatives, those 2 extra electoral votes make a big difference. For a large states, the extra 2 electoral votes don’t make a very big difference.
+			Are you surprised to see that the smallest states have the highest electoral power? That is part of the design of the electoral college. The founders from small states were concerned that their votes would not matter, so every state gets 2 senators added to the number of representatives. For a state with few representatives, those 2 extra electoral votes make a big difference. For a large states, the extra 2 electoral votes don't make a very big difference.
 		</p>
 		<p>
 			You may have noticed a pattern when dividing to find the electoral power. Each time we divided the number of electoral votes by that number minus two. We can write that pattern as <m>\frac{n}{n-2}</m>. Using GeoGebra to graph that pattern this is what we see.
@@ -873,7 +873,7 @@
 			The minimum number of electors is three, since each state gets at least one representative in the apportionment process. The smallest states and Washington, D.C. have 3 electors and the greatest electoral power on the left side of the graph. The largest states like California, Florida and Texas have the least electoral power on the right side of the graph.
 		</p>
 		<p>
-			Let’s say instead each state had equal electoral power by removing the 2 extra electoral votes or by using the popular vote. Then the graph would look like this.
+			Let's say instead each state had equal electoral power by removing the 2 extra electoral votes or by using the popular vote. Then the graph would look like this.
 		</p>
 		<sidebyside>
 		<image width="70%" source="images/democracy/5_3/electoral2.png">
@@ -1429,7 +1429,7 @@
 <exercisegroup>
 	<introduction>
 		<p>
-			In each fictional country in problems 11-14, use the rules of the U.S. government (assume that all of a state’s electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
+			In each fictional country in problems 11-14, use the rules of the U.S. government (assume that all of a state's electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
 		</p>
 		<p>
 			<ol marker="a.">

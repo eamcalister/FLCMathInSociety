@@ -320,7 +320,7 @@
 	<title>Conditional Statements</title>
 
 	<p>
-		Another question we can answer using a contingency table is what percentage of dog owning households also own a cat? In this case the group that we are interested in isn’t every household surveyed (the grand total), but just those households that own a dog.
+		Another question we can answer using a contingency table is what percentage of dog owning households also own a cat? In this case the group that we are interested in isn't every household surveyed (the grand total), but just those households that own a dog.
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -544,7 +544,7 @@
 <subsection>
 <title>Finding Empirical Probabilities with a Contingency Table</title>
 <p>
-	Suppose that 60% of students in our class have a summer birthday (June, July, or August). Now suppose everyone’s name and birth month are written on slips of paper and thrown into a bag. If we pull a slip of paper out of the bag at random, what is the probability that the selected student has a summer birthday? If you think there should be a 60% chance, you are right! The relative frequency of the characteristic of interest will be equal to its empirical probability. To write this as a probability statement, it would look like
+	Suppose that 60% of students in our class have a summer birthday (June, July, or August). Now suppose everyone's name and birth month are written on slips of paper and thrown into a bag. If we pull a slip of paper out of the bag at random, what is the probability that the selected student has a summer birthday? If you think there should be a 60% chance, you are right! The relative frequency of the characteristic of interest will be equal to its empirical probability. To write this as a probability statement, it would look like
 </p>
 <p>
 	<md>
@@ -553,7 +553,7 @@
 </p>
 
 <p>
-	Probability is a function named <em>P</em>, and the function is applied to what follows in the parentheses. Let’s look at another example where we write probability statements and find empirical probabilities.
+	Probability is a function named <em>P</em>, and the function is applied to what follows in the parentheses. Let's look at another example where we write probability statements and find empirical probabilities.
 </p>
 
 <example>
@@ -2039,7 +2039,7 @@
 			</li>
 			<li>
 				<p>
-					Does it appear that survival depended on the passenger’s class? Or are they independent? Use probability to support your claim.	
+					Does it appear that survival depended on the passenger's class? Or are they independent? Use probability to support your claim.	
 				</p>
 			</li>
 		</ol>
@@ -2106,7 +2106,7 @@
 			</li>
 			<li>
 				<p>
-					Yes, it does appear that survival depended on the passenger’s class. The probability of survival for first class passengers is significantly greater than the probability of survival for second class passengers and is more than double the probability of survival for third class passengers.
+					Yes, it does appear that survival depended on the passenger's class. The probability of survival for first class passengers is significantly greater than the probability of survival for second class passengers and is more than double the probability of survival for third class passengers.
 				</p>
 			</li>
 		</ol>

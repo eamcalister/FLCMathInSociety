@@ -149,7 +149,7 @@
 <subsection>
 	<title>The Null Set</title>
 	<p>
-		It is possible to have a set with nothing in it. This set called the <alert>null set</alert> or <alert>empty set</alert>. It’s like going to the grocery store to buy your favorite foods and realizing you left your wallet at home. You walk away with an empty bag. The set of items that you bought at the grocery store would written in set notation as <em>G = { }</em>, or <em>G = Ø</em>. 
+		It is possible to have a set with nothing in it. This set called the <alert>null set</alert> or <alert>empty set</alert>. It's like going to the grocery store to buy your favorite foods and realizing you left your wallet at home. You walk away with an empty bag. The set of items that you bought at the grocery store would written in set notation as <em>G = { }</em>, or <em>G = Ø</em>. 
 	</p>
 </subsection>
 
@@ -165,7 +165,7 @@
 		The set of all friends that you and your roommate have invited is called the <alert>union</alert>. The <alert>union</alert> of two sets contains all the elements contained in either set (or both). To be in the union of set <em>A</em> and set <em>B</em>, an element must to be contained in just set <em>A</em>, just set <em>B</em>, <alert>or</alert> in the intersection of sets <em>A</em> and <em>B</em>. Notice that in this case that the <q>or</q> is inclusive.
 	</p>
 	<p>
-		What about the people who were <em>not</em> invited to the party and showed up anyway? They are not elements of your set of invited friends. Nor are they an element of your roommate’s set of invited friends. These uninvited party crashers are the <alert>complement</alert> to your set of invited friends. The complement of a set <em>A</em> contains everything that is <em>not</em> in the set <em>A</em>. To be in the complement of set <em>A</em>, an element <alert>cannot</alert> be in set <em>A</em>, but it will be an element of the universal set.
+		What about the people who were <em>not</em> invited to the party and showed up anyway? They are not elements of your set of invited friends. Nor are they an element of your roommate's set of invited friends. These uninvited party crashers are the <alert>complement</alert> to your set of invited friends. The complement of a set <em>A</em> contains everything that is <em>not</em> in the set <em>A</em>. To be in the complement of set <em>A</em>, an element <alert>cannot</alert> be in set <em>A</em>, but it will be an element of the universal set.
 	</p>
 	<example>
 		<statement>
@@ -258,7 +258,7 @@
 			Next draw two overlapping circles, one for the set of books Julio read and one for the set of books Rose read. Since both Rose and Julio read 1984, we place it in the overlapping region (the intersection).
 		</p>
 		<p>
-			All the books that Rose read will lie in her circle, in one of the two regions that make up her set. Likewise for the books Julio read. Since we have already filled in the overlapping region, we put the books that only Rose read in her circle’s <q>cresent moon</q> section, and we put the books that only Julio read in his circle’s <q>cresent moon</q> section. The resulting diagram is shown below.
+			All the books that Rose read will lie in her circle, in one of the two regions that make up her set. Likewise for the books Julio read. Since we have already filled in the overlapping region, we put the books that only Rose read in her circle's <q>cresent moon</q> section, and we put the books that only Julio read in his circle's <q>cresent moon</q> section. The resulting diagram is shown below.
 		</p>
 		<sidebyside width="40%">
 		<image source="images/language_logic_rules/1_2/Venn_pic4.png">
@@ -293,7 +293,7 @@
 		</statement>
 		<solution>
 		<p>
-			To answer this question, let’s first create a Venn diagram representing the survey results. Placing the given values, we have the following:
+			To answer this question, let's first create a Venn diagram representing the survey results. Placing the given values, we have the following:
 		</p>
 		<sidebyside width="85%">
 		<image source="images/language_logic_rules/1_2/ill_data1.png">
@@ -431,7 +431,7 @@
 		</statement>
 		<solution>
 		<p>
-			Starting with the intersection of all three circles, we work our way out. The number in the center is 2, since two people believe in UFO’s, ghosts and Bigfoot. Since 10 people believe in UFOs and Ghosts, and that includes the 2 that believe in all three, that leaves 8 that believe in only UFOs and Ghosts.
+			Starting with the intersection of all three circles, we work our way out. The number in the center is 2, since two people believe in UFO's, ghosts and Bigfoot. Since 10 people believe in UFOs and Ghosts, and that includes the 2 that believe in all three, that leaves 8 that believe in only UFOs and Ghosts.
 		</p>
 		<p>
 			We work our way out, filling in all the regions. Once we have, we can add up all those regions, getting 91 people in the union of all three sets. This leaves 150 – 91 = 59 who believe in none.
@@ -739,7 +739,7 @@
 <exercise>
 	<statement>
 	<p>
-		A survey asked 100 people what alternative transportation modes they use. Use the data to complete a Venn diagram, then determine: a) what percentage of people only ride the bus, and b) how many people don’t use any alternate transportation.
+		A survey asked 100 people what alternative transportation modes they use. Use the data to complete a Venn diagram, then determine: a) what percentage of people only ride the bus, and b) how many people don't use any alternate transportation.
 		<ul>
 			<li>
 				<p>
@@ -777,7 +777,7 @@
 				</li>
 				<li>
 					<p>
-						Thirty-nine people don’t use any alternate transportation.
+						Thirty-nine people don't use any alternate transportation.
 					</p>
 				</li>
 			</ol>
@@ -1181,7 +1181,7 @@
 			</li>
 			<li>
 				<p>
-					Students didn’t enroll at all:<fillin characters="10"/>
+					Students didn't enroll at all:<fillin characters="10"/>
 				</p>
 			</li>
 			<li>
@@ -1219,7 +1219,7 @@
 			</li>
 			<li>
 				<p>
-					Students didn’t enroll at all: 6
+					Students didn't enroll at all: 6
 				</p>
 			</li>
 			<li>
@@ -1352,12 +1352,12 @@
 			</li>
 			<li>
 				<p>
-					87 said <q>It’s more filling!</q>
+					87 said <q>It's more filling!</q>
 				</p>
 			</li>
 			<li>
 				<p>
-					68 said <q>It tastes great!</q> and <q>It’s more filling!</q>
+					68 said <q>It tastes great!</q> and <q>It's more filling!</q>
 				</p>
 			</li>
 		</ul>
@@ -1371,7 +1371,7 @@
 			</li>
 			<li>
 				<p>
-					How many said <q>It’s more filling!</q> but didn’t say <q>It tastes great!</q>?
+					How many said <q>It's more filling!</q> but didn't say <q>It tastes great!</q>?
 				</p>
 			</li>
 			<li>
@@ -1381,7 +1381,7 @@
 			</li>
 			<li>
 				<p>
-					How many said <q>It’s more filling!</q> or said <q>It tastes great</q>
+					How many said <q>It's more filling!</q> or said <q>It tastes great</q>
 				</p>
 			</li>
 		</ol>
@@ -1397,7 +1397,7 @@
 			</li>
 			<li>
 				<p>
-					Nineteen said <q>It’s more filling!</q> but didn’t say <q>It tastes great!</q>
+					Nineteen said <q>It's more filling!</q> but didn't say <q>It tastes great!</q>
 				</p>
 			</li>
 			<li>
@@ -1407,7 +1407,7 @@
 			</li>
 			<li>
 				<p>
-					108 said <q>It’s more filling!</q> or said <q>It tastes great!</q>
+					108 said <q>It's more filling!</q> or said <q>It tastes great!</q>
 				</p>
 			</li>
 		</ol>

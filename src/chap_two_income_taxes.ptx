@@ -49,7 +49,7 @@
 <subsection>
 <title>A Very Brief History of Taxes</title>
 	<p>
-		Although Benjamin Franklin famously claimed in 1789 that “in this world nothing can be said to be certain, except death and taxes”, it wasn’t until 1913 that the 16th amendment was ratified, and income tax was legalized. Prior to this, taxes were primarily collected through tariffs on imported goods, poll taxes, and property taxes. A <alert>poll tax</alert>, also referred to as a head tax, was a fixed amount every liable individual had to pay. Payment of the poll tax was often required before a person could register to vote or be issued a hunting or fishing license. 
+		Although Benjamin Franklin famously claimed in 1789 that “in this world nothing can be said to be certain, except death and taxes”, it wasn't until 1913 that the 16th amendment was ratified, and income tax was legalized. Prior to this, taxes were primarily collected through tariffs on imported goods, poll taxes, and property taxes. A <alert>poll tax</alert>, also referred to as a head tax, was a fixed amount every liable individual had to pay. Payment of the poll tax was often required before a person could register to vote or be issued a hunting or fishing license. 
 	</p>
 	<p>
 		Tax policy in the United States is a politically divisive issue. In general, Democrats seek to lower taxes for low and middle income earners and raise taxes for the wealthy, while Republicans support a variety of tax cuts and limiting the amount wealthy earners are taxed. There is even debate as to the current length of the tax code! Some claim that the code is over 70,000 pages while others insist it is just over 2,000. Nevertheless, there is at least one thing everyone can agree with - you don't want to be on the wrong side of the Internal Revenue Service (IRS)! 
@@ -114,15 +114,15 @@
 		Prior to the 2018 tax year, you could also claim <alert>personal exemptions</alert>. Exemptions of $4,050 for each member of the household were subtracted from the adjusted gross income along with either the standard or itemized deduction to determine taxable income. Starting in 2018, however, the standard deduction was doubled, and personal exemptions were eliminated.
 	</p>
 	<p>
-		Let’s look at an example of how to calculate gross income and adjusted gross income (AGI).
+		Let's look at an example of how to calculate gross income and adjusted gross income (AGI).
 	</p>
 
 	<example>
 		<p>
-			Sasha received $45,000 in wages and earned $1,300 in interest from his savings plan. He paid $1,400 in student loan interest, and put $4,000 into his Individual Retirement Account (IRA). Determine Sasha’s adjusted gross income. 
+			Sasha received $45,000 in wages and earned $1,300 in interest from his savings plan. He paid $1,400 in student loan interest, and put $4,000 into his Individual Retirement Account (IRA). Determine Sasha's adjusted gross income. 
 		</p>
 		<p>
-			To calculate Sasha’s adjusted gross income, we need to first determine his gross income. His gross income includes his wages and earned interest:
+			To calculate Sasha's adjusted gross income, we need to first determine his gross income. His gross income includes his wages and earned interest:
 		</p>
 		<p>
 			Gross Income <m>=\$45,000+\$1,300=\$46,300</m>
@@ -208,12 +208,12 @@
 	<example>
 		<statement>
 		<p>
-			Maria earned wages of $32,400 from her job as a server. She also earned $8,300 in tips, and received $95 in interest from a savings account. In trying to save for retirement, Maria has put $3,500 into a 401K tax deferred savings plan. She is unmarried and lives with her six year old daughter. Determine Maria’s gross income, adjusted gross income, and taxable income.
+			Maria earned wages of $32,400 from her job as a server. She also earned $8,300 in tips, and received $95 in interest from a savings account. In trying to save for retirement, Maria has put $3,500 into a 401K tax deferred savings plan. She is unmarried and lives with her six year old daughter. Determine Maria's gross income, adjusted gross income, and taxable income.
 		</p>
 		</statement>
 		<solution>
 		<p>
-			Maria’s gross income includes her wages, tips, and earned interest.
+			Maria's gross income includes her wages, tips, and earned interest.
 		</p>
 		<p>
 			Gross Income = $32,400 + $8,300 + $95 = $40,795 
@@ -237,11 +237,11 @@
 <subsection>
 	<title>Tax Tables</title>
 	<p>
-		The United States has a <alert>progressive</alert> federal income tax system which means the more income you have, the more you generally pay in taxes. There are <alert>marginal tax rates</alert> that go up according to our income, but we don’t pay the same rate on all of our income. The ranges of income are called <alert>tax brackets</alert> and the buckets in the illustration below can help us visualize the brackets.
+		The United States has a <alert>progressive</alert> federal income tax system which means the more income you have, the more you generally pay in taxes. There are <alert>marginal tax rates</alert> that go up according to our income, but we don't pay the same rate on all of our income. The ranges of income are called <alert>tax brackets</alert> and the buckets in the illustration below can help us visualize the brackets.
 	</p>
 	
 	<p>
-		The cutoff values in the figure are for a married couple filing jointly, but the percentages are the same for everyone as you’ll see in the table on the next page. We pay 10% of any taxable income in the first bucket. If the first bucket is full, we move to the second bucket and we pay 12% of that income. This couple is in the 22% tax bracket because the 3rd bucket is partially filled. They will pay 22% of the income in that bucket, but they are not paying 22% of their entire income.
+		The cutoff values in the figure are for a married couple filing jointly, but the percentages are the same for everyone as you'll see in the table on the next page. We pay 10% of any taxable income in the first bucket. If the first bucket is full, we move to the second bucket and we pay 12% of that income. This couple is in the 22% tax bracket because the 3rd bucket is partially filled. They will pay 22% of the income in that bucket, but they are not paying 22% of their entire income.
 	</p>
 	<figure xml:id="tax_buckets">
 		<caption>Tax Buckets by John Chesbrough, licensed under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-ND-NC 4.0</url>.</caption>
@@ -317,7 +317,7 @@
 </table>
 	</sidebyside>
 	<p>
-		Let’s see how to use this table to calculate taxes in an example.
+		Let's see how to use this table to calculate taxes in an example.
 	</p>
 
 	<example>
@@ -328,7 +328,7 @@
 		</statement>
 		<solution>
 			<p>
-				We begin with the lowest tax bracket and take 10% of $11,600. Since their income is higher than that, we add 12% of the next amount, found by subtracting the values in that bracket. Avery’s taxable income is in the 22% tax bracket, so we find the amount over $38,700 by subtracting. Here is the full calculation:
+				We begin with the lowest tax bracket and take 10% of $11,600. Since their income is higher than that, we add 12% of the next amount, found by subtracting the values in that bracket. Avery's taxable income is in the 22% tax bracket, so we find the amount over $38,700 by subtracting. Here is the full calculation:
 			</p>
 			<!-- TODO: test -->
 			<p>
@@ -522,7 +522,7 @@
 		</statement>
 		<solution>
 		<p>
-			We will calculate Adira’s taxes first the long way:
+			We will calculate Adira's taxes first the long way:
 		</p>
 		<p>
 			<m>0.10(\$16,650)+0.12(\$63,100-\$16,650)+0.22(\$100,500-\$63,100)+0.24(\$106,450-\$100,500)</m>
@@ -536,7 +536,7 @@
 			</md>
 		</p>
 		<p>
-			Now, using the simplified tax table for single filing status, we see that Adira’s taxable income puts her in the 24% tax bracket. The simplified table tells us that her taxes will be equal to $15,469 plus 24% of the excess over $100,500. Notice the number $15,469 is very close to what we got for all of the “full” tax brackets, so we only need to calculate the last one. To find the excess over $82,500, we subtract $82,500 from her taxable income. Thus, her taxes are:
+			Now, using the simplified tax table for single filing status, we see that Adira's taxable income puts her in the 24% tax bracket. The simplified table tells us that her taxes will be equal to $15,469 plus 24% of the excess over $100,500. Notice the number $15,469 is very close to what we got for all of the “full” tax brackets, so we only need to calculate the last one. To find the excess over $82,500, we subtract $82,500 from her taxable income. Thus, her taxes are:
 		</p>
 		<p>
 			<md>
@@ -546,7 +546,7 @@
 			</md>
 		</p>
 		<p>
-			We see that both methods result in the same value, $16,897, for Adira’s taxes.
+			We see that both methods result in the same value, $16,897, for Adira's taxes.
 		</p>
 	</solution>
 	</example>
@@ -600,17 +600,17 @@
 <subsection>
 	<title>Calculating a Refund or Payment Due</title>
 	<p>
-		Employers are required to take out an estimated amount for taxes from each of our paychecks. These withholdings are taken out, so we don’t all have huge tax bills at the end of the year, and so the government has the income it needs to run. When you file your taxes, you compare the amount of tax you actually owe, with the withholdings from your paycheck. If you had more withheld during the year than you owe, you will file for a refund. If your withholdings were less, though, you must pay the difference. Let’s look at a couple of examples with tax credits and withholdings.
+		Employers are required to take out an estimated amount for taxes from each of our paychecks. These withholdings are taken out, so we don't all have huge tax bills at the end of the year, and so the government has the income it needs to run. When you file your taxes, you compare the amount of tax you actually owe, with the withholdings from your paycheck. If you had more withheld during the year than you owe, you will file for a refund. If your withholdings were less, though, you must pay the difference. Let's look at a couple of examples with tax credits and withholdings.
 	</p>
 	<example>
 		<statement>
 		<p>
-			John’s taxes are $4,342.50. He can claim an American opportunity tax credit of $2,300 and he had $4,135 withheld from his paychecks. Determine if John will owe money or get a refund.
+			John's taxes are $4,342.50. He can claim an American opportunity tax credit of $2,300 and he had $4,135 withheld from his paychecks. Determine if John will owe money or get a refund.
 		</p>
 		</statement>
 		<solution>
 		<p>
-			The first step is to reduce John’s taxes by the full amount of the tax credit.
+			The first step is to reduce John's taxes by the full amount of the tax credit.
 		</p>
 		<p>
 			<m>\$4,342.50-\$2,300=\$3,042.50</m>
@@ -764,7 +764,7 @@
 <exercise>
 	<statement>
 	<p>
-		Fredrick is concerned about the effect of a raise on his taxes. He’s getting a raise of $3,000, putting him into a higher tax bracket by $1,000 dollars. He’s concerned about his entire income being taxed at 22% instead of 12%. Should he be concerned? Why or why not?
+		Fredrick is concerned about the effect of a raise on his taxes. He's getting a raise of $3,000, putting him into a higher tax bracket by $1,000 dollars. He's concerned about his entire income being taxed at 22% instead of 12%. Should he be concerned? Why or why not?
 	</p>
 	</statement>
 	<solution>
@@ -1066,12 +1066,12 @@
 	<ol marker="a.">
 		<li>
 			<p>
-				Determine Janice’s gross income.
+				Determine Janice's gross income.
 			</p>
 		</li>
 		<li>
 			<p>
-				Determine Janice’s adjusted gross income.
+				Determine Janice's adjusted gross income.
 			</p>
 		</li>
 		<li>
@@ -1081,7 +1081,7 @@
 		</li>
 		<li>
 			<p>
-				Determine Janice’s taxable income.
+				Determine Janice's taxable income.
 			</p>
 		</li>
 		<li>

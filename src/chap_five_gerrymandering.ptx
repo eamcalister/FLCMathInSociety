@@ -77,7 +77,7 @@
 	</sidebyside>
 	<sidebyside valign="middle" widths="30% 64%" Margins="0%">
 		<p>
-			Here are some current well-known gerrymanders. This one is called Pennsylvania’s <q>Goofy Kicking Donald Duck</q><fn><url href="https://commons.wikimedia.org/w/index.php?title=File:Pennsylvania_US_Congressional_District_7_(since_2013).tif&amp;oldid=223423398" target="_blank">"Pennsylvania US Congressional District 7 (since 2013).tif"</url> by <url>Wikimedia Commons contributors</url>, <url href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons, the free media repository.</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>
+			Here are some current well-known gerrymanders. This one is called Pennsylvania's <q>Goofy Kicking Donald Duck</q><fn><url href="https://commons.wikimedia.org/w/index.php?title=File:Pennsylvania_US_Congressional_District_7_(since_2013).tif&amp;oldid=223423398" target="_blank">"Pennsylvania US Congressional District 7 (since 2013).tif"</url> by <url>Wikimedia Commons contributors</url>, <url href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons, the free media repository.</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" target="_blank">Public Domain</url></fn>
 		</p>
 		<image width="60%" source="images/democracy/5_4/pennsylvania.png">
 		<shortdescription>A map of Pennsylvania with the district shaded in that looks like Goofy kicking Donald Duck.</shortdescription>
@@ -102,7 +102,7 @@
 		In this book we will focus on the efficiency gap, proposed in 2015 by Nicholas Stephanopoulos and Eric McGhee. The <alert>efficiency gap</alert> is a measure of the advantage one party has over the other party due to the partisanship of the voters in each district.
 	</p>
 	<p>
-		Later in this section we will learn how to calculate and interpret the efficiency gap. First, let’s look at how we can tell whether a map is fair or not.
+		Later in this section we will learn how to calculate and interpret the efficiency gap. First, let's look at how we can tell whether a map is fair or not.
 	</p>
 </subsection>
 
@@ -157,11 +157,11 @@
 <subsection>
 <title>How to Gerrymander</title>
 	<p>
-		There are two main ways to gerrymander a map, by packing and cracking. <alert>Packing</alert> is when all the people of one political party are packed into a district. Since a party only needs a plurality or majority to win, all those extra votes would be surplus. <alert>Cracking</alert> dilutes a party’s votes by spreading out the voters so they can’t win as many districts.
+		There are two main ways to gerrymander a map, by packing and cracking. <alert>Packing</alert> is when all the people of one political party are packed into a district. Since a party only needs a plurality or majority to win, all those extra votes would be surplus. <alert>Cracking</alert> dilutes a party's votes by spreading out the voters so they can't win as many districts.
 	</p>
 	<sidebyside valign="middle" widths="59% 35%" margins="0%">
 		<p>
-			Here is a small sample map to see how this works. In this fictitious state, we have 35 people and 5 districts. So we will need 7 people in each district. You can see how they are spread out in the map, with Republicans denoted by R’s and Democrats marked with D’s. To keep it simple, we are only looking at two parties and they will need a majority to win an election. We are also assuming that all voters will vote and that they vote according to their party which may not always be the case.
+			Here is a small sample map to see how this works. In this fictitious state, we have 35 people and 5 districts. So we will need 7 people in each district. You can see how they are spread out in the map, with Republicans denoted by R's and Democrats marked with D's. To keep it simple, we are only looking at two parties and they will need a majority to win an election. We are also assuming that all voters will vote and that they vote according to their party which may not always be the case.
 		</p>
 		<figure>
 		<caption>A simplified state map</caption>
@@ -171,7 +171,7 @@
 		</figure>
 	</sidebyside>
 	<p>
-		Before we draw a fair map, let’s try gerrymandering it for Democrats and then for the Republicans.
+		Before we draw a fair map, let's try gerrymandering it for Democrats and then for the Republicans.
 	</p>
 	<example>
 		<statement>
@@ -198,7 +198,7 @@
 <subsection>
 <title>The Efficiency Gap</title>
 	<p>
-		To try to measure how unfair the map is, let’s learn how to calculate the efficiency gap. First, we will tally the votes in the table below, and note how the election results would turn out by using bold numbers for the party with more voters in each district. For example, there are 4 D’s and 3 R’s in district 1, so the Democrats would theoretically win that district.
+		To try to measure how unfair the map is, let's learn how to calculate the efficiency gap. First, we will tally the votes in the table below, and note how the election results would turn out by using bold numbers for the party with more voters in each district. For example, there are 4 D's and 3 R's in district 1, so the Democrats would theoretically win that district.
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -337,7 +337,7 @@
 		<m>\frac{13-2}{35}=\frac{11}{35} \approx 0.314</m> or 31.4%.
 	</p>
 	<p>
-		The efficiency gap is 31.4%. To understand what this percentage means, we compare it with the percentage that each district represents in the state. Since our state has 5 districts, each one is 20% of the population. Here’s how we got that by dividing or as a fraction of the state.
+		The efficiency gap is 31.4%. To understand what this percentage means, we compare it with the percentage that each district represents in the state. Since our state has 5 districts, each one is 20% of the population. Here's how we got that by dividing or as a fraction of the state.
 	</p>
 	<p>
 		<m>100\% \div 5</m> districts <m>=20\%</m>, or, <m>\frac{1}{5}=0.20</m> or <m>20\%</m>
@@ -349,7 +349,7 @@
 		<statement>
 			<sidebyside valign="middle" widths="59% 35%" margins="0%">
 		<p>
-			For another example, we will take the same map and gerrymander it for the Republicans. This time we will pack as many Democrats as we can into the middle, and then use cracking to form the rest of the districts, trying to get 4 R’s in as many as we can. Here is the map.
+			For another example, we will take the same map and gerrymander it for the Republicans. This time we will pack as many Democrats as we can into the middle, and then use cracking to form the rest of the districts, trying to get 4 R's in as many as we can. Here is the map.
 		</p>
 		<figure>
 		<caption>The map gerrymandered in favor of Republicans</caption>
@@ -471,7 +471,7 @@
 		
 		</sidebyside>
 		<p>
-			Let’s see how the efficiency gap comes out in this situation:
+			Let's see how the efficiency gap comes out in this situation:
 		</p>
 		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -601,7 +601,7 @@
 	</statement>
 	<solution>
 		<p>
-			The rules are districts must be contiguous and you can’t gerrymander by race.
+			The rules are districts must be contiguous and you can't gerrymander by race.
 		</p>
 	</solution>
 </exercise>
