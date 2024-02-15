@@ -164,8 +164,8 @@
 			Here is a small sample map to see how this works. In this fictitious state, we have 35 people and 5 districts. So we will need 7 people in each district. You can see how they are spread out in the map, with Republicans denoted by R's and Democrats marked with D's. To keep it simple, we are only looking at two parties and they will need a majority to win an election. We are also assuming that all voters will vote and that they vote according to their party which may not always be the case.
 		</p>
 		<figure>
-		<caption>A simplified state map</caption>
-			<image valign="middle" width="45%" source="images/democracy/5_4/simplified_state_map1.png">
+			<caption>A simplified state map</caption>
+			<image width="45%" source="images/democracy/5_4/simplified_state_map1.png">
 			<shortdescription>A rectangular map with D's and R's spread out to indicate Democrats and Republicans. There are more Democrats concentrated toward the center like a city with more Republicans spread out toward the edges like rural areas.</shortdescription>
 			</image>
 		</figure>
