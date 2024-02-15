@@ -492,7 +492,7 @@
 						<p>
 							To use a spreadsheet, we enter <c>=NORM.DIST(12, 18, 4, 1)</c>. The last value is always a 1 to indicate that we want a cumulative probability or area. This also gives us a result of <m>0.0668</m> or <m>6.68\%</m>.
 						</p>
-					</stack>>
+					</stack>
 					<image source="images/statistics/3_6/quiz_ex_a.png">
 					<shortdescription>A screenshot of onlinestatbook showing the inputs and output described above.</shortdescription>
 					</image>
@@ -507,7 +507,7 @@
 						<p>
 							To use a spreadsheet, NORM.DIST gives us the area to the left so if we want the area to the right we need to find the complement or subtract from 1. We enter <c>=1-NORM.DIST(27, 18, 4, 1)</c>. This also gives us a result of <m>0.0122</m> or <m>1.22\%</m>.
 						</p>
-						</stack>>
+						</stack>
 					<image source="images/statistics/3_6/quiz_ex_b.png">
 					<shortdescription>A screenshot of onlinestatbook showing the inputs and output described above.</shortdescription>
 					</image>
@@ -658,7 +658,9 @@
 
 	<example>
 		<statement>
-			Now you can calculate the Z-score for a student who scored 15 on the math quiz.
+			<p>
+				Now you can calculate the Z-score for a student who scored 15 on the math quiz.
+			</p>
 		</statement>
 		<solution>
 		<p>
