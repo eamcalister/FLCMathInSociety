@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
+<project ptx-version="2" source="src">
+	<targets>
+		<target name="html" format="html" source="index.ptx"/>
+		<target name="pdf" format="pdf" source="index.ptx">
+			<stringparams latex.preamble.early="
+				\usepackage{euler}
+				\let\oldsection\section
+				\renewcommand\section{\znewpage\oldsection}
+				\let\oldchapter\chapter
+				\renewcommand\chapter{\clearpage\gdef\znewpage{\global\let\znewpage\clearpage}\oldchapter}
+				\global\let\znewpage\clearpage
+				\setlength{\parindent}{0pt}
+				\setlength{\parskip}{0.5pc}
+				\colorlet{blue}{black}
+				\colorlet{red}{black}
+				\colorlet{cyan}{black}
+				\colorlet{green}{black!15!white}
+				\colorlet{orange}{black!25!white}
+				\colorlet{brown}{black!35!white}
+				\colorlet{magenta}{gray}
+				\hypersetup{colorlinks=false}
+			"/>
+		</target>
+	</targets>
+</project>
