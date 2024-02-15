@@ -4,24 +4,26 @@
 	<targets>
 		<target name="html" format="html" source="index.ptx"/>
 		<target name="pdf" format="pdf" source="index.ptx">
-			<stringparams latex.preamble.early="
-				\usepackage{euler}
-				\let\oldsection\section
-				\renewcommand\section{\znewpage\oldsection}
-				\let\oldchapter\chapter
-				\renewcommand\chapter{\clearpage\gdef\znewpage{\global\let\znewpage\clearpage}\oldchapter}
-				\global\let\znewpage\clearpage
-				\setlength{\parindent}{0pt}
-				\setlength{\parskip}{0.5pc}
-				\colorlet{blue}{black}
-				\colorlet{red}{black}
-				\colorlet{cyan}{black}
-				\colorlet{green}{black!15!white}
-				\colorlet{orange}{black!25!white}
-				\colorlet{brown}{black!35!white}
-				\colorlet{magenta}{gray}
-				\hypersetup{colorlinks=false}
-			"/>
+			<stringparams
+				latex.preamble.early="\usepackage{xcolor,euler}"
+				latex.preamble.late="
+					\let\oldsection\section
+					\renewcommand\section{\znewpage\oldsection}
+					\let\oldchapter\chapter
+					\renewcommand\chapter{\clearpage\gdef\znewpage{\global\let\znewpage\clearpage}\oldchapter}
+					\global\let\znewpage\clearpage
+					\setlength{\parindent}{0pt}
+					\setlength{\parskip}{0.5pc}
+					\colorlet{blue}{black}
+					\colorlet{red}{black}
+					\colorlet{cyan}{black}
+					\colorlet{green}{black!15!white}
+					\colorlet{orange}{black!25!white}
+					\colorlet{brown}{black!35!white}
+					\colorlet{magenta}{gray}
+					\hypersetup{colorlinks=false}
+				"
+			/>
 		</target>
 	</targets>
 </project>
