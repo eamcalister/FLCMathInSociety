@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<section xml:id="chap_five_review">
+<exercises xml:id="chap_five_review">
 <title>Chapter 5 Review</title>
-
-<exercises>
-<title>Review Exercises</title>
-
 
 <exercisegroup>
 	<introduction>
@@ -1651,5 +1647,3 @@
 </exercisegroup>
 
 </exercises>
-
-</section>
