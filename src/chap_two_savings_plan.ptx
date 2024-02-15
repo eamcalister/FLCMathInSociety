@@ -39,7 +39,7 @@
 
 	<figure>
       <caption>Alternative Video Lesson</caption>
-      <video youtube="BRstCcZ_zhI" />
+      <video youtube="BRstCcZ_zhI" label="video-savings-plan"/>
     </figure>
 </introduction>
 

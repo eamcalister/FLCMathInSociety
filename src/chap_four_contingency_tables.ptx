@@ -47,7 +47,7 @@
 <introduction>
 	<figure>
       <caption>Alternative Video Lesson</caption>
-      <video youtube="_NCjGWdcNmQ" />
+      <video youtube="_NCjGWdcNmQ" label="video-contingency-tables"/>
     </figure>
 	<p>
 		When we looked at categorical data in the previous chapter, it was related to a single variable, or characteristic of interest, such as favorite movie or car color. To illustrate the data, we made a frequency table and used it to create a pie chart or bar chart. But what if we want to illustrate the relationship between two categorical variables? To do this, we can use a contingency table.

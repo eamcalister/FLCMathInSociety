@@ -44,7 +44,7 @@
 
 	<figure>
       <caption>Alternative Video Lessons</caption>
-      <video youtubeplaylist="PLsFUxEAXGFKTAwMBwNc8KBCWdj6ABjylh" />
+      <video youtubeplaylist="PLsFUxEAXGFKTAwMBwNc8KBCWdj6ABjylh" label="video-simple-compound"/>
     </figure>
 </introduction>
 
