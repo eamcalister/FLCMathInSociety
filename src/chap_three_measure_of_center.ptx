@@ -1820,8 +1820,8 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_3/400_exams.png">
+			<shortdescription>The bars gradually increase going to the right with the tallest bars near the right side of the graph, then they decrease sharply.</shortdescription>
 		</image>
-		<shortdescription>The bars gradually increase going to the right with the tallest bars near the right side of the graph, then they decrease sharply.</shortdescription>
 	</sidebyside>
 	<p>
 		<ol marker="a.">
@@ -1862,9 +1862,9 @@
 		The following graph shows the distribution of yearly incomes of 40 patrons at a college coffee shop.<fn>Graph and description from Advanced High School Statistics, 2nd Ed. Section 2.2 Exercise. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps">https://www.openintro.org/stat/textbook.php?stat_book=aps</url>)</fn>
 	</p>
 	<sidebyside width="50%">
-	<image source="images/statistics/3_3/40_coffee.png">
-	</image>
-	<shortdescription>The bars on the histogram increase gradually with the tallest bars in the center, then decrease gradually.</shortdescription>
+		<image source="images/statistics/3_3/40_coffee.png">
+			<shortdescription>The bars on the histogram increase gradually with the tallest bars in the center, then decrease gradually.</shortdescription>
+		</image>
 	</sidebyside>
 	<p>
 		<ol marker="a.">
