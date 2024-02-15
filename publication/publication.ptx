@@ -25,6 +25,9 @@
 <!-- *********************************************************************-->
 
 <publication>
+	<source>
+		<directories external="../external" generated="../generated"/>
+	</source>
 	<common>
 		<tableofcontents level="2"/>
 		<exercise-inline hint="no" answer="no" solution="yes"/>
