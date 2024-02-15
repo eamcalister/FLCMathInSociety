@@ -367,7 +367,7 @@
 	</p>
 	<example>
 		<p>
-			Compare the two graphs below showing support for same-sex marriage rights from a poll taken in December, 2008<fn>CNN/Opinion Research Corporation Poll.  Dec 19-21, 2008, from <url href="http://www.pollingreport.com/civil.htm">http://www.pollingreport.com/civil.htm</url></fn>. At a glance, the two graphs suggest very different stories. The second graph makes it look like more than three times as many people oppose marriage rights as support them. But when we look at the scale we can see that the difference is about 12%. By not starting at zero the difference looks enlarged.
+			Compare the two graphs below showing support for same-sex marriage rights from a poll taken in December, 2008<fn>CNN/Opinion Research Corporation Poll.  Dec 19-21, 2008, from <url href="http://www.pollingreport.com/civil.htm" visual="pollingreport.com/civil.htm"/></fn>. At a glance, the two graphs suggest very different stories. The second graph makes it look like more than three times as many people oppose marriage rights as support them. But when we look at the scale we can see that the difference is about 12%. By not starting at zero the difference looks enlarged.
 		</p>
 
 		<sidebyside widths="45% 45%" margins="0%">
@@ -621,7 +621,7 @@
 <subsection>
 	<title>Histograms Using Technology</title>
 	<p>
-		We will be using GeoGebra throughout this chapter to make graphs and calculate summary statistics. There is an online version and one you can download at <url href="http://www.Geogebra.org/">www.Geogebra.org</url>. To access the online version, select "GeoGebra Classic from the GeoGebra home page. To download it, select "App Downloads" from the home page. The instructions are similar for both.
+		We will be using GeoGebra throughout this chapter to make graphs and calculate summary statistics. There is an online version and one you can download at <url href="http://www.geogebra.org/" visual="geogebra.org"/>. To access the online version, select "GeoGebra Classic from the GeoGebra home page. To download it, select "App Downloads" from the home page. The instructions are similar for both.
 	</p>
 
 	<sidebyside valign="middle" widths="60% 35%">
@@ -1172,7 +1172,7 @@
 <exercise>
 	<statement>
 	<p>
-		In a survey<fn>Gallup Poll. March 5-8, 2009. <url href="http://www.pollingreport.com/enviro.htm">http://www.pollingreport.com/enviro.htm</url></fn>, 1012 adults were asked whether they personally worried about a variety of environmental concerns. The number of people who indicated that they worried <q>a great deal</q> about some selected concerns is listed below.
+		In a survey<fn>Gallup Poll. March 5-8, 2009. <url href="http://www.pollingreport.com/enviro.htm" visual="pollingreport.com/enviro.htm"/></fn>, 1012 adults were asked whether they personally worried about a variety of environmental concerns. The number of people who indicated that they worried <q>a great deal</q> about some selected concerns is listed below.
 		<ol marker="a.">
 			<li>
 				<p>

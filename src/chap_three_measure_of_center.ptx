@@ -863,7 +863,7 @@
 <exercise xml:id="email_example">
 	<statement>
 	<p>
-		As part of a study of email, a researcher counted the length of 34 emails. The lengths of the emails are shown below, rounded to the nearest thousand characters (so a length 0 means that the numbers of characters rounded to 0, not that the message was blank).<fn>The data is from Advanced High School Statistics, 2nd Ed. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps">https://www.openintro.org/stat/textbook.php?stat_book=aps</url>).</fn>
+		As part of a study of email, a researcher counted the length of 34 emails. The lengths of the emails are shown below, rounded to the nearest thousand characters (so a length 0 means that the numbers of characters rounded to 0, not that the message was blank).<fn>The data is from Advanced High School Statistics, 2nd Ed. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps" visual="openintro.org/stat/textbook.php?stat_book=aps"/>).</fn>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1092,7 +1092,7 @@
 <exercise>
 	<statement>
 	<p>
-		The US Census Bureau, in addition to counting the population of the US every 10 years, conducts yearly informational surveys, such as the American Community Survey (ACS). For the 2012 ACS, a randomly chosen group of 20 respondents (10 males, 10 females) answered a question about their incomes.<fn>Data from Advanced High School Statistics, 2nd Ed. Section 2.1 Exercise #1. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps">https://www.openintro.org/stat/textbook.php?stat_book=aps</url>).</fn>
+		The US Census Bureau, in addition to counting the population of the US every 10 years, conducts yearly informational surveys, such as the American Community Survey (ACS). For the 2012 ACS, a randomly chosen group of 20 respondents (10 males, 10 females) answered a question about their incomes.<fn>Data from Advanced High School Statistics, 2nd Ed. Section 2.1 Exercise #1. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps" visual="openintro.org/stat/textbook.php?stat_book=aps"/>).</fn>
 	</p>
 	<p>
 		<ul>
@@ -1329,7 +1329,7 @@
 <exercise>
 	<statement>
 	<p>
-		There is evidence that smiling can attenuate judgments of possible wrongdoing. This phenomenon termed the "smile-leniency effect" was the focus of a study by Marianne LaFrance &amp; Marvin Hecht in 1995<fn>LaFrance, M., &amp; Hecht, M. A. (1995) Why smiles generate leniency. Personality and Social Psychology Bulletin, 21, 207-214. Adapted from <url href="http://www.onlinestatbook.com/">www.onlinestatbook.com</url>, by David M. Lane, et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.</fn>. The following data are measurements of how lenient the sentences were for three different types of smiles and one neutral control. A higher number indicates greater leniency. The same subject was used for all of the conditions so that may affect the results.
+		There is evidence that smiling can attenuate judgments of possible wrongdoing. This phenomenon termed the "smile-leniency effect" was the focus of a study by Marianne LaFrance &amp; Marvin Hecht in 1995<fn>LaFrance, M., &amp; Hecht, M. A. (1995) Why smiles generate leniency. Personality and Social Psychology Bulletin, 21, 207-214. Adapted from <url href="http://www.onlinestatbook.com/" visual="onlinestatbook.com"/>, by David M. Lane, et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/" visual="creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.</fn>. The following data are measurements of how lenient the sentences were for three different types of smiles and one neutral control. A higher number indicates greater leniency. The same subject was used for all of the conditions so that may affect the results.
 		<ol marker="a.">
 			<li>
 				<p>
@@ -1816,7 +1816,7 @@
 <exercise>
 	<statement>
 	<p>
-		At the end of the term, 400 students take a final exam, and their scores (as percentages) are plotted in a histogram.<fn>Graph and description from Advanced High School Statistics, 2nd Ed. Section 2.2 Exercise. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps">https://www.openintro.org/stat/textbook.php?stat_book=aps</url>)</fn>
+		At the end of the term, 400 students take a final exam, and their scores (as percentages) are plotted in a histogram.<fn>Graph and description from Advanced High School Statistics, 2nd Ed. Section 2.2 Exercise. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps" visual="openintro.org/stat/textbook.php?stat_book=aps"/>)</fn>
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_3/400_exams.png">
@@ -1859,7 +1859,7 @@
 <exercise>
 	<statement>
 	<p>
-		The following graph shows the distribution of yearly incomes of 40 patrons at a college coffee shop.<fn>Graph and description from Advanced High School Statistics, 2nd Ed. Section 2.2 Exercise. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps">https://www.openintro.org/stat/textbook.php?stat_book=aps</url>)</fn>
+		The following graph shows the distribution of yearly incomes of 40 patrons at a college coffee shop.<fn>Graph and description from Advanced High School Statistics, 2nd Ed. Section 2.2 Exercise. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps" visual="openintro.org/stat/textbook.php?stat_book=aps"/>)</fn>
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_3/40_coffee.png">

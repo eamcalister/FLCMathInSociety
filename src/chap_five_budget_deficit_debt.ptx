@@ -259,7 +259,7 @@
 		A more common way to measure the deficit is as a percentage of the gross domestic product. The <alert>gross domestic product</alert>, or <alert>GDP</alert>, is the total value of all the finished goods and services produced within a county's borders in a specific period of time. The GDP is a measure of the size of an economy. The growth rate of the GDP is one measure of a nation's economic health (Bureau of Economic Analysis, 2019). The GDP of the United States in 2019 was $21.73 trillion but due to the COVID-19 pandemic, there was a drop in the second quarter of 2020 to $19.74 trillion. (Bureau of Economic Analysis, 2020).
 	</p>
 	<p>
-		Now we can look at more graphs that are written in terms of the percent of GDP. Here is a graph of federal spending and revenues as a percentage of the GDP<fn><url href="https://www.pgpf.org/chart-archive/0173_revenues_spending"><q>Federal Revenue and Spending, 1985-2050</q></url> is copyrighted by <url href="https://www.pgpf.org/">Peter G. Peterson Foundation</url> and used under the <url href="https://www.pgpf.org/permissions">permissions granted</url> for educational use.</fn>.
+		Now we can look at more graphs that are written in terms of the percent of GDP. Here is a graph of federal spending and revenues as a percentage of the GDP<fn><url href="https://www.pgpf.org/chart-archive/0173_revenues_spending" visual="pgpf.org/chart-archive/0173_revenues_spending"><q>Federal Revenue and Spending, 1985-2050</q></url> is copyrighted by <url href="https://www.pgpf.org/" visual="pgpf.org">Peter G. Peterson Foundation</url> and used under the <url href="https://www.pgpf.org/permissions" visual="pgpf.org/permissions">permissions granted</url> for educational use.</fn>.
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/debt_to_gdp1.jpg">
@@ -267,7 +267,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		For each year, if we take the revenue and subtract the spending, we get the budget surplus or deficit. If the result is negative it is a deficit. And here is a graph of the deficits in terms of percentage of GDP<fn><url href="https://www.cbo.gov/publication/55151"><q>Updated Budget Projections: 2019 to 2029</q></url> by <url href="https://www.cbo.gov/">Congressional Budget Office</url> is in the <url href="https://wiki.creativecommons.org/Public_domain">Public Domain.</url></fn>.
+		For each year, if we take the revenue and subtract the spending, we get the budget surplus or deficit. If the result is negative it is a deficit. And here is a graph of the deficits in terms of percentage of GDP<fn><url href="https://www.cbo.gov/publication/55151" visual="cbo.gov/publication/55151"><q>Updated Budget Projections: 2019 to 2029</q></url> by <url href="https://www.cbo.gov/" visual="cbo.gov">Congressional Budget Office</url> is in the <url href="https://wiki.creativecommons.org/Public_domain" visual="wiki.creativecommons.org/Public_domain">Public Domain.</url></fn>.
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/debt_to_gdp2.png">
@@ -282,7 +282,7 @@
 		The words deficit and debt are easily confused because they have similar meanings. The <alert>deficit</alert> is the yearly shortfall, and the national <alert>debt</alert> is the total cumulative amount of debt held by the government.
 	</p>
 	<p>
-		As you can see from the previous graphs, most years had a budget deficit. If we add all of those up over time, this is what the national debt looks like<fn><url href="https://www.pgpf.org/chart-archive/0025_federal-debt-hist"><q>Federal Debt: 1791-2019</q></url> is copyrighted by <url href="https://www.pgpf.org/">Peter G. Peterson Foundation</url> and used under the <url href="https://www.pgpf.org/permissions">permissions granted</url> for educational use.</fn>.
+		As you can see from the previous graphs, most years had a budget deficit. If we add all of those up over time, this is what the national debt looks like<fn><url href="https://www.pgpf.org/chart-archive/0025_federal-debt-hist" visual="pgpf.org/chart-archive/0025_federal-debt-hist"><q>Federal Debt: 1791-2019</q></url> is copyrighted by <url href="https://www.pgpf.org/" visual="pgpf.org">Peter G. Peterson Foundation</url> and used under the <url href="https://www.pgpf.org/permissions" visual="pgpf.org/permissions">permissions granted</url> for educational use.</fn>.
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/national_debt1.png">
@@ -290,7 +290,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		Just like we pay interest on our personal debt, the U.S. pays interest on the national debt. The interest on the debt is expected to keep increasing as shown in this graph<fn><url href="https://www.pgpf.org/analysis/2018/12/higher-interest-rates-will-raise-interest-costs-on-the-national-debt"><q>Net Interest Cost</q></url> is copyrighted by <url href="https://www.pgpf.org/">Peter G. Peterson Foundation</url> and used under the <url href="https://www.pgpf.org/permissions">permissions granted</url> for educational use.</fn>.
+		Just like we pay interest on our personal debt, the U.S. pays interest on the national debt. The interest on the debt is expected to keep increasing as shown in this graph<fn><url href="https://www.pgpf.org/analysis/2018/12/higher-interest-rates-will-raise-interest-costs-on-the-national-debt" visual="pgpf.org/analysis/2018/12/higher-interest-rates-will-raise-interest-costs-on-the-national-debt"><q>Net Interest Cost</q></url> is copyrighted by <url href="https://www.pgpf.org/" visual="pgpf.org">Peter G. Peterson Foundation</url> and used under the <url href="https://www.pgpf.org/permissions" visual="pgpf.org/permissions">permissions granted</url> for educational use.</fn>.
 	</p>
 	<sidebyside width="80%">
 		<image source="images/democracy/5_6/national_debt2.jpg">
@@ -302,7 +302,7 @@
 <subsection>
 <title>National Debt Clocks</title>
 	<p>
-		There are several websites that keep a running total of the national debt. One of them is <url href="https://www.usdebtclock.org/">USDebtClock.org</url>. This one also shows the population, debt per citizen and debt per taxpayer. It shows the spending and deficit with counters that are constantly moving. At the bottom you can also see the debt to GDP ratio compared with previous ratios. The rest of the website shows statistics like the GDP, income tax revenue, median income, unemployment and much more. You can also see statistics for other states and countries.
+		There are several websites that keep a running total of the national debt. One of them is <url href="https://www.usdebtclock.org/" visual="usdebtclock.org">USDebtClock.org</url>. This one also shows the population, debt per citizen and debt per taxpayer. It shows the spending and deficit with counters that are constantly moving. At the bottom you can also see the debt to GDP ratio compared with previous ratios. The rest of the website shows statistics like the GDP, income tax revenue, median income, unemployment and much more. You can also see statistics for other states and countries.
 	</p>
 	<p>
 		Now let's do some calculations with these large numbers in the next example.
@@ -540,7 +540,7 @@
 	</example>
 
 	<p>
-		For more comparisons, here is a graph showing the debt to GDP ratios around the world in 2020<fn><url href="https://commons.wikimedia.org/wiki/File:Public_debt_percent_gdp_world_map_(2010).svg"><q>Public Debt Percent GDP World Map</q></url> by <url>Wikimedia Commons Contributors</url>, <url>Wikimedia Commons, the free media repository.</url></fn>.
+		For more comparisons, here is a graph showing the debt to GDP ratios around the world in 2020<fn><url href="https://commons.wikimedia.org/wiki/File:Public_debt_percent_gdp_world_map_(2010).svg" visual="commons.wikimedia.org/wiki/File:Public_debt_percent_gdp_world_map_(2010).svg"><q>Public Debt Percent GDP World Map</q></url> by Wikimedia Commons Contributors, Wikimedia Commons, the free media repository.</fn>.
 	</p>
 	<sidebyside width="90%">
 		<image source="images/democracy/5_6/gdp_ratio_map.png">
@@ -1400,7 +1400,7 @@
 <!-- <exercise>
 	<statement>
 	<p>
-		If Canada collected $311.2 Billion of tax revenue in 2017-18, and their population was 37.06 Million people, use the pie chart<fn><url href="https://medium.com/@je_12591/how-is-tax-revenue-spent-in-canada-7bd50afb140a">https://medium.com/@je_12591/how-is-tax-revenue-spent-in-canada-7bd50afb140a</url></fn> to calculate how much was spent on
+		If Canada collected $311.2 Billion of tax revenue in 2017-18, and their population was 37.06 Million people, use the pie chart<fn><url href="https://medium.com/@je_12591/how-is-tax-revenue-spent-in-canada-7bd50afb140a" visual="medium.com/@je_12591/how-is-tax-revenue-spent-in-canada-7bd50afb140a"/></fn> to calculate how much was spent on
 	</p>
 	<sidebyside width="45%">
 		<image source="images/democracy/5_6/canada_circle.png">
@@ -1453,7 +1453,7 @@
 <!-- <exercise>
 	<statement>
 	<p>
-		The total planned public spending in the United Kingdom for 2021 is £908.1 billion and their population is 67.7 million. Use the pie chart<fn><url href="https://www.ukpublicspending.co.uk/government_expenditure.html">https://www.ukpublicspending.co.uk/government_expenditure.html</url></fn> to calculate how much will be spent on 
+		The total planned public spending in the United Kingdom for 2021 is £908.1 billion and their population is 67.7 million. Use the pie chart<fn><url href="https://www.ukpublicspending.co.uk/government_expenditure.html" visual="ukpublicspending.co.uk/government_expenditure.html"/></fn> to calculate how much will be spent on 
 	</p>
 	<sidebyside width="45%">
 		<image source="images/democracy/5_6/uk_circle.png">
@@ -1506,7 +1506,7 @@
 <!-- <exercise>
 	<statement>
 	<p>
-		The total state budget for the state of New York in 2021 is approximately $177.5 million and their population is about 19.5 million.<fn><url href="https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html"></url>https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html</fn> Use the pie chart of the governor's proposed budget for the fiscal year 2021<fn><url href="https://openbudget.ny.gov/overview.html">https://openbudget.ny.gov/overview.html</url></fn> to calculate how much will be spent on:
+		The total state budget for the state of New York in 2021 is approximately $177.5 million and their population is about 19.5 million.<fn><url href="https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html" visual="usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html"/></fn> Use the pie chart of the governor's proposed budget for the fiscal year 2021<fn><url href="https://openbudget.ny.gov/overview.html" visual="openbudget.ny.gov/overview.html"/></fn> to calculate how much will be spent on:
 	</p>
 	<sidebyside width="45%">
 		<image source="images/democracy/5_6/ny_circle.png">
@@ -1559,7 +1559,7 @@
 <!-- <exercise>
 	<statement>
 	<p>
-		The Idaho governor's state general fund budget was $3.465 billion<fn><url href="https://www.idahostatesman.com/news/politics-government/state-politics/article125872789.html">https://www.idahostatesman.com/news/politics-government/state-politics/article125872789.html</url></fn> and their population is about 1.8 million.<fn><url href="https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html">https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html</url></fn> Use the pie chart of the governor's proposed budget for the fiscal year 2021 to calculate how much will be spent on:
+		The Idaho governor's state general fund budget was $3.465 billion<fn><url href="https://www.idahostatesman.com/news/politics-government/state-politics/article125872789.html" visual="idahostatesman.com/news/politics-government/state-politics/article125872789.html"/></fn> and their population is about 1.8 million.<fn><url href="https://www.usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html" visual="usdebtclock.org/state-debt-clocks/state-of-new-hampshire-debt-clock.html"/></fn> Use the pie chart of the governor's proposed budget for the fiscal year 2021 to calculate how much will be spent on:
 	</p>
 	<sidebyside width="45%">
 		<image source="images/democracy/5_6/.png">

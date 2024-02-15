@@ -476,7 +476,7 @@
 <exercise>
 	<statement>
 	<p>
-		In a recent study<fn><url href="https://clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1">https://clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1</url></fn>, 380 high risk adolescents involved in the juvenile justice system were recruited to test an app designed to increase mindfulness and reduce substance use. Participants were randomly and equally assigned to use the app (Rewire) or receive services as usual from the Department of Youth Services. Participants were assessed to determine a baseline for substance use at the beginning of the study, and were asked to complete follow up assessments after 1 and 3 months. Assessments consisted of online surveys asking about substance use, emotion regulation, family demographics, and mindfulness practices. Urine samples were collected at each interview to verify self-reported substance use.
+		In a recent study<fn><url href="https://clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1" visual="clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1"/></fn>, 380 high risk adolescents involved in the juvenile justice system were recruited to test an app designed to increase mindfulness and reduce substance use. Participants were randomly and equally assigned to use the app (Rewire) or receive services as usual from the Department of Youth Services. Participants were assessed to determine a baseline for substance use at the beginning of the study, and were asked to complete follow up assessments after 1 and 3 months. Assessments consisted of online surveys asking about substance use, emotion regulation, family demographics, and mindfulness practices. Urine samples were collected at each interview to verify self-reported substance use.
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1044,7 +1044,7 @@
 <exercise>
 	<statement>
 	<p>
-		The double box-and-whisker plot<fn><url href="https://brainly.com/question/11978942">Source: https://brainly.com/question/11978942</url></fn> shows the goals scored per game by two soccer teams during a 25 game season.
+		The double box-and-whisker plot<fn>Source: <url href="https://brainly.com/question/11978942" visual="brainly.com/question/11978942"></url></fn> shows the goals scored per game by two soccer teams during a 25 game season.
 	</p>
 	<sidebyside width="50%">
 	<image source="images/statistics/3_5/review_teama_teamb.png">

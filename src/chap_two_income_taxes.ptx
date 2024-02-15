@@ -244,7 +244,7 @@
 		The cutoff values in the figure are for a married couple filing jointly, but the percentages are the same for everyone as you'll see in the table on the next page. We pay 10% of any taxable income in the first bucket. If the first bucket is full, we move to the second bucket and we pay 12% of that income. This couple is in the 22% tax bracket because the 3rd bucket is partially filled. They will pay 22% of the income in that bucket, but they are not paying 22% of their entire income.
 	</p>
 	<figure xml:id="tax_buckets">
-		<caption>Tax Buckets by John Chesbrough, licensed under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-ND-NC 4.0</url>.</caption>
+		<caption>Tax Buckets by John Chesbrough, licensed under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/" visual="creativecommons.org/licenses/by-nc-nd/4.0">CC-BY-ND-NC 4.0</url>.</caption>
 		<image width="70%" source="images/financial_math/2_5/tax_tables.png">
 		<shortdescription>A drawing that shows the tax brackets as buckets being filled from a hose labeled taxable income; the first bucket for the 10% tax bracket is full and has the range of $0-19,050; the second bucket for the 12% tax bracket is also full and has the range of $19051-77,400; the third bucket for the 22% bracket is partially full and has the range of $77,401-165,000; there are buckets for the 24%, 32%, 35% and 37% tax brackets which are empty. The cutoff values for all of these brackets are given in the next table. </shortdescription>
 		</image>

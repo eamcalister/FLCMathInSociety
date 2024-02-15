@@ -354,7 +354,7 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						Consider a recent study which found that chewing gum may raise math grades in teenagers<fn>Reuters. <url href="http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning">http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning</url>. Retrieved 4/27/09</fn>. This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
+						Consider a recent study which found that chewing gum may raise math grades in teenagers<fn>Reuters. <url href="http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning" visual="news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning"/>. Retrieved 4/27/09</fn>. This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
 					</p>
 				</li>
 				<li>
@@ -386,7 +386,7 @@
 		</p>
 	</example>
 	<p>
-		Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. Also of concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher<fn>Swartz, Norbert. <url href="http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html">http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html</url> Retrieved 3/31/2009</fn>:
+		Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. Also of concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher<fn>Swartz, Norbert. <url href="http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html" visual="umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html"/> Retrieved 3/31/2009</fn>:
 	</p>
 	<example>
 		 <p>
@@ -1714,7 +1714,7 @@
 <exercise>
 	<statement>
 	<p>
-		Use a polling website such as <url href="http://www.pewresearch.com/">www.pewresearch.com</url> or <url href="http://www.gallup.com/">www.gallup.com</url> and search for a poll that interests you. Find the result, the margin of error and confidence level for the poll and write the confidence interval.
+		Use a polling website such as <url href="http://www.pewresearch.com/" visual="pewresearch.com"/> or <url href="http://www.gallup.com/" visual="gallup.com"/> and search for a poll that interests you. Find the result, the margin of error and confidence level for the poll and write the confidence interval.
 	</p>
 	</statement>
 	<solution>

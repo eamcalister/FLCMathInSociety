@@ -99,7 +99,7 @@
 		</ul>
 	</p>
 	<p>
-		Now let's look at an example where we draw and label a Normal distribution given the mean and standard deviation<fn>All of the Normal drawings in this section were created with the online probability calculator at <url href="http://onlinestatbook.com/2/calculators/normal_dist.html">onlinestatbook.com/2/calculators/normal_dist.html</url> which is in the public domain.</fn>.
+		Now let's look at an example where we draw and label a Normal distribution given the mean and standard deviation<fn>All of the Normal drawings in this section were created with the online probability calculator at <url href="http://onlinestatbook.com/2/calculators/normal_dist.html" visual="onlinestatbook.com/2/calculators/normal_dist.html"/> which is in the public domain.</fn>.
 	</p>
 	<example xml:id="mean18_and_sd4">
 		<p>
@@ -410,7 +410,7 @@
 		</p>
 		<sidebyside widths="45% 45%">
 			<p>
-				To use Onlinestatbook.com, go to the <url href="http://onlinestatbook.com/2/calculators/normal_dist.html">OnlineStatbook Normal calculator</url> and enter the mean and standard deviation. Then select the option that matches the probability you want to find: Above, Below, Between or Outside and enter the probability you want to find. Then click on the Recalculate button.
+				To use Onlinestatbook.com, go to the <url href="http://onlinestatbook.com/2/calculators/normal_dist.html" visual="onlinestatbook.com/2/calculators/normal_dist.html">OnlineStatbook Normal calculator</url> and enter the mean and standard deviation. Then select the option that matches the probability you want to find: Above, Below, Between or Outside and enter the probability you want to find. Then click on the Recalculate button.
 			</p>
 			<image source="images/statistics/3_6/onlinestatbook_general.png">
 			<shortdescription>A screenshot of the onlinestatbook.com normal probability calculator. It shows a normal curve, an input box for the mean and median, and a choice to find above, below, between or outside.</shortdescription>

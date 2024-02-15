@@ -60,7 +60,7 @@
 		For an election using any of these methods to be fair, each person must have an equal right to vote and an equal ability to exercise that right. The <alert>Voting Rights Act of 1965</alert> prohibited any election practice that denies the right to vote based on race, but key portions of the law have been invalidated since then. <alert>Voter suppression</alert> continues today in different forms such as purging voter rolls, eliminating polling places and voter identification laws, which can also affect transgender people.
 	</p>
 	<p>
-		<alert>The John Lewis Voting Rights Advancement Act</alert> was passed in the U.S. House of Representatives in 2019 to restore elements of the Voting Rights Act and make it possible to enforce the law. It has not been taken up in the Senate, though. Follow this link if you would like to read a more detailed timeline of voting rights<fn><url href="https://www.aclu.org/voting-rights-act-major-dates-history" target="_blank"></url></fn>.
+		<alert>The John Lewis Voting Rights Advancement Act</alert> was passed in the U.S. House of Representatives in 2019 to restore elements of the Voting Rights Act and make it possible to enforce the law. It has not been taken up in the Senate, though. Follow this link if you would like to read a more detailed timeline of voting rights<fn><url href="https://www.aclu.org/voting-rights-act-major-dates-history" visual="aclu.org/voting-rights-act-major-dates-history"/></fn>.
 	</p>
 </subsection>
 
@@ -72,7 +72,7 @@
 	</p>
 	<sidebyside valign="middle" widths="47% 47%" margins="0%">
 		<p>
-			The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" target="_blank"><q>Ranked Choice Ballot</q></url>, <url href="https://www.rankedchoicevoting.org/" target="_blank">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let's see how to tally the results from a ranked choice election.
+			The image to the right shows an example of a ranked choice ballot<fn><url href="https://www.rankedchoicevoting.org/mark_rcv_ballot" visual="rankedchoicevoting.org/mark_rcv_ballot"><q>Ranked Choice Ballot</q></url>, <url href="https://www.rankedchoicevoting.org/" visual="rankedchoicevoting.org">Copyright 2020 Ranked Choice Voting Resource Center</url> is licensed under <url href="http://creativecommons.org/licenses/by-sa/3.0" visual="creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</url></fn>. Ranked choice ballots can be used in elections by mail or in person at polling places. Let's see how to tally the results from a ranked choice election.
 		</p>
 		<image width="45%" source="images/democracy/5_2/voter_card.png">
 		<shortdescription>A ranked choice ballot with three candidates for favorite flavor of ice cream: strawberry, chocolate and vanilla. There is a grid for voters to select their first, second and third choice.</shortdescription>
@@ -1243,7 +1243,7 @@
 		Notice that in this election: 10 people prefer A to B, 10 people prefer B to C, and 10 people prefer C to A.
 	</p>
 	<p>
-		No matter whom we choose as the winner, <m>\frac{2}{3}</m> of voters would prefer someone else! This scenario is called <alert>Condorcet's Voting Paradox</alert>. In this situation, there is no fair resolution. There are many additional paradoxes and fairness criteria that are explained in David Lippman's original version of <em>Math in Society</em><fn><url href="http://www.opentextbookstore.com/mathinsociety/index.html">Math in Society: Voting Theory</url>, by David Lippman</fn>.
+		No matter whom we choose as the winner, <m>\frac{2}{3}</m> of voters would prefer someone else! This scenario is called <alert>Condorcet's Voting Paradox</alert>. In this situation, there is no fair resolution. There are many additional paradoxes and fairness criteria that are explained in David Lippman's original version of <em>Math in Society</em><fn><url href="http://www.opentextbookstore.com/mathinsociety/index.html" visual="opentextbookstore.com/mathinsociety">Math in Society: Voting Theory</url>, by David Lippman</fn>.
 	</p>
 	<p>
 		Since it is not possible to have one method that is fair in every situation, it is important to decide which method is the most fair for any given situation.
