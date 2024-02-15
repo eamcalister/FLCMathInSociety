@@ -436,7 +436,7 @@
 		A group of diners were asked how much they would pay for a meal. Their responses were: $7.50, $25.00, $10.00, $10.00, $7.50, $8.25, $9.00, $5.00, $15.00, $8.00, $7.25, $7.50, $8.00, $7.00, $12.00.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 			<li>
 				<p>
 					Find the mean, including units.
@@ -457,7 +457,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						In Excel:
@@ -514,7 +514,7 @@
 		The amount of commercials in an hour of television varies by channel. The total length (in minutes) of all commercials from 8 pm to 9 pm in for some selected broadcast and cable channels on a weekday evening were: 10, 12.75, 7, 9, 9.75, 6.5, 12.5, 12.5, 8.75, 17, 10.5, 2.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean, inluding units.
@@ -535,7 +535,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						In Excel:
@@ -595,7 +595,7 @@
 		You recorded the time in seconds it took for 8 participants to solve a puzzle. The times were: 15.2, 18.8, 19.3, 19.7, 20.2, 21.8, 22.1, 29.4.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 			<li>
 				<p>
 					Find the mean, including units.
@@ -616,7 +616,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						In Excel:
@@ -676,7 +676,7 @@
 		You weigh 9 Oreo cookies, and you find the weights (in grams) are: 3.49, 3.51, 3.51, 3.51, 3.52, 3.54, 3.55, 3.58, 3.61.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean, including units.
@@ -697,7 +697,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						In Excel:
@@ -756,7 +756,7 @@
 		Use the following table is the cost of purchasing a car at a local dealership.  Some of the cars sold were new and some were used.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Calculate find the mean, including units.
@@ -817,7 +817,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						In GeoGebra Classic, enter the costs into the column A and frequencies into column B of the spreadsheet and use the <q>One Variable Analysis</q> function. Then use the <q>Show Statistics</q> option.
@@ -866,7 +866,7 @@
 		As part of a study of email, a researcher counted the length of 34 emails. The lengths of the emails are shown below, rounded to the nearest thousand characters (so a length 0 means that the numbers of characters rounded to 0, not that the message was blank).<fn>The data is from Advanced High School Statistics, 2nd Ed. (<url href="https://www.openintro.org/stat/textbook.php?stat_book=aps">https://www.openintro.org/stat/textbook.php?stat_book=aps</url>).</fn>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Calculate and find the mean, including units.
@@ -955,7 +955,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						In GeoGebra Classic, enter the costs into the column A and frequencies into column B of the spreadsheet and use the <q>One Variable Analysis</q> function. Then use the <q>Show Statistics</q> option.
@@ -1004,7 +1004,7 @@
 		Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer drug is currently under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout their treatment. The following data (in months) are collected.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Find the mean and median of each group.
@@ -1034,7 +1034,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						For Researcher 1:
@@ -1109,7 +1109,7 @@
 		</ul>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean and median of each group.
@@ -1125,7 +1125,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						For Males:
@@ -1181,7 +1181,7 @@
 	<statement>
 	<p>
 		An experiment compared the ability of three groups of participants to remember briefly-presented chess positions. The data are shown below. The numbers represent the average number of pieces correctly remembered from three chess positions.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Make a histogram for each group.
@@ -1272,7 +1272,7 @@
 	<solution>
 		<p>
 			GeoGebra was used to create the histograms. You should check with your instructor to see if histograms are to be hand-drawn or computer generated. Answers will vary depending on the size of the margins and the programs you are using.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<figure>
 					<caption>Histogram for Average Number of Pieces Correctly Remembered by Non-players</caption>
@@ -1330,7 +1330,7 @@
 	<statement>
 	<p>
 		There is evidence that smiling can attenuate judgments of possible wrongdoing. This phenomenon termed the "smile-leniency effect" was the focus of a study by Marianne LaFrance &amp; Marvin Hecht in 1995<fn>LaFrance, M., &amp; Hecht, M. A. (1995) Why smiles generate leniency. Personality and Social Psychology Bulletin, 21, 207-214. Adapted from <url href="http://www.onlinestatbook.com/">www.onlinestatbook.com</url>, by David M. Lane, et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.</fn>. The following data are measurements of how lenient the sentences were for three different types of smiles and one neutral control. A higher number indicates greater leniency. The same subject was used for all of the conditions so that may affect the results.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Make a histogram for each smile type and the neutral control.
@@ -1570,7 +1570,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<figure>
 					<caption>Histogram for Smile-Leniency of False Smiles</caption>
@@ -1637,7 +1637,7 @@
 	<statement>
 	<p>
 		Make up three data sets with 5 values each that have:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The same mean but different medians
@@ -1653,7 +1653,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are many possible answers for this problem. Three data sets with 5 values each that have the same mean but different medians are:
@@ -1725,7 +1725,7 @@
 		The frequency table below shows the number of women’s shoes that were sold in an hour at a local shoe store.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Would you treat this data as categorical or quantitative?
@@ -1774,7 +1774,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Argument for categorical: Because it is not clear that the shoe sizes represent a measure, the data can be considered categorical.
@@ -1824,7 +1824,7 @@
 		<description>The bars gradually increase going to the right with the tallest bars near the right side of the graph, then they decrease sharply.</description>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Is the graph shown above skewed right, skewed left, or symmetric? Explain why you chose your answer.
@@ -1840,7 +1840,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					This graph is skewed left.
@@ -1867,7 +1867,7 @@
 	<description>The bars on the histogram increase gradually with the tallest bars in the center, then decrease gradually.</description>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Is the graph shown above skewed right, skewed right, or symmetric? Explain why you chose your answer.
@@ -1883,7 +1883,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					This graph is symmetric. The graph has a single peak between $65,000 an $66,000, and there are approximately an equal number of data values on either side of this peak.
@@ -1905,7 +1905,7 @@
 		For each of the following distributions, would you expect that the mean is less than the median, greater than the median, or approximately equal to the median? Explain your reasoning.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Household incomes in the US
@@ -1936,7 +1936,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Incomes are skewed to the right so the mean would be greater than the median.

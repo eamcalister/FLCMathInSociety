@@ -374,7 +374,7 @@
 		Imagine a certain savings account started out with a balance of $5250.00 on day-one, and today has a current balance of $5780.23
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Exactly how much more money does the account have today, compared with day-one?
@@ -400,7 +400,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=5780.23-5250</c> which gives $530.23
@@ -432,7 +432,7 @@
 		Imagine that at the start of a certain month, you will make an opening deposit of $500 into a savings account, and you will then leave the account alone (meaning you will make no further deposits or withdrawals). Also, for this account: Every month after the opening deposit, the amount in the account will grow to be 101% of its previous month’s balance.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Use a spreadsheet to enter 500 in cell A1. Using a formula and a cell-reference: Compute in cell A2, the amount in the account after one month has passed. Then using the fill down feature, continue the pattern for another eleven full months (you should end at cell A13). Format all the cells to show dollar signs. What is the amount in the account after one year?
@@ -463,7 +463,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					See the table at the bottom for part a and part b.
@@ -511,7 +511,7 @@
 		Imagine that at the start of a certain year, you will deposit $1000.00 into a savings account, and then you will leave the account alone. Each year after the opening deposit, the amount in the account will grow to be 103% of its previous year’s balance.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					After two years, the account balance will have experienced two growth amounts of 103%. You can find this account balance amount here, with the spreadsheet computation <c>= 1000 * (103%) * (103%)</c>. Perform this computation in a spreadsheet and write the balance that you find.
@@ -542,7 +542,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=1000*103%*103%</c> which gives $1060.90

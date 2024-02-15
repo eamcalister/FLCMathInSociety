@@ -91,7 +91,7 @@
 
 		<example>
 			<p>
-				<ol label="a.">
+				<ol marker="a.">
 					<li>
 						<p>
 							Suppose we gather respondents' ZIP codes in a survey to track their geographical location. ZIP codes are numbers, but we can't do any meaningful calculations with them (it doesn't make sense to say that 98036 is "twice" 49018 — that's like saying that Lynnwood, WA is "twice" Battle Creek, MI, which doesn't make sense at all), so ZIP codes are really categorical data.
@@ -100,7 +100,7 @@
 					<li>
 						<p>
 							A survey about the movie you most recently saw includes the question, "How would you rate the movie?" with these possible answers:
-							<ol label="1">
+							<ol marker="1">
 								<li>
 									<p>
 										It was awful.
@@ -837,7 +837,7 @@
 	<statement>
 	<p>
 		Is the data described categorial or quantitative?
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In a study, you ask the subjects their age in years.
@@ -868,7 +868,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Quantitative
@@ -903,7 +903,7 @@
 	<statement>
 	<p>
 		Is the data described categorical or quantitative? 
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In a study you ask the subjects how many siblings they have.
@@ -934,7 +934,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Quantitative
@@ -1002,7 +1002,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How many adults had 3 children?
@@ -1023,7 +1023,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						2 had 3 children.
@@ -1055,7 +1055,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How many movies took 2 days to arrive?
@@ -1076,7 +1076,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						8 movies took 2 days to arrive.
@@ -1173,7 +1173,7 @@
 	<statement>
 	<p>
 		In a survey<fn>Gallup Poll. March 5-8, 2009. <url href="http://www.pollingreport.com/enviro.htm">http://www.pollingreport.com/enviro.htm</url></fn>, 1012 adults were asked whether they personally worried about a variety of environmental concerns. The number of people who indicated that they worried <q>a great deal</q> about some selected concerns is listed below.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Is this categorical or quantitative data?
@@ -1218,7 +1218,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					This data is categorical.	
@@ -1245,7 +1245,7 @@
 	<statement>
 	<p>
 		In a survey, 2056 adults were asked about their views on immigration. The percent of people who responded that immigrants to the United States are making each of the following situations in the country better are listed below.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Is this categorical or quantitative data?
@@ -1298,7 +1298,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					This data is categorical.
@@ -1325,7 +1325,7 @@
 	<statement>
 	<p>
 		The following table is from a sample of five hundred homes in Oregon that were asked the primary source of heating in their home.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How many of the households heat their home with firewood?
@@ -1369,7 +1369,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					40 households heat their home with firewood.
@@ -1389,7 +1389,7 @@
 	<statement>
 	<p>
 		The following table is from a sample of 50 undergraduate students at Portland State University.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What percent of the sampled students are below senior class?		
@@ -1429,7 +1429,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					54% of the students are below senior class.
@@ -1449,7 +1449,7 @@
 	<statement>
 	<p>
 		A group of adults were asked how many cars they had in their household.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Is this categorical or quantitative data?
@@ -1507,7 +1507,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					This data is qualitative	
@@ -1556,7 +1556,7 @@
 	<statement>
 	<p>
 		The table below shows scores on a math test.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Is this categorical or quantitative data?
@@ -1609,7 +1609,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					This is quantitative data.
@@ -1746,7 +1746,7 @@
 	<statement>
 	<p>
 		Match each description to one of the graphs.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Normal distribution
@@ -1801,7 +1801,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Normal distribution – The number of heads in 24 sets of 100 coin flips.
@@ -1866,7 +1866,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					This distribution is unimodal and right skewed. There is a possible outlier between 10 and 11.
@@ -1901,7 +1901,7 @@
 	<statement>
 	<p>
 		Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer drug is currently under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout their treatment. The following data (in months) are collected.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a histogram for each dataset, using the same class intervals and scales so you can compare them.
@@ -1923,7 +1923,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside width="50%">
 					<image source="images/statistics/3_2/solution_treatment_men.png">

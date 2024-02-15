@@ -482,7 +482,7 @@
 
 	<p>
 		Sometimes answering remaining balance questions requires two steps, both of which we have done in this section:
-		<ol label="1">
+		<ol marker="1">
 			<li>
 				<p>
 					Calculate the monthly payment on the loan
@@ -848,7 +848,7 @@
 		You can afford a $700 per month mortgage payment. You’ve found a 30-year loan at 5.5% APR.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How big of a loan can you afford?
@@ -869,7 +869,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>P = \frac{700\left(1-\left(1+\frac{5.5\%}{12}\right)^{-12\times 30}\right)}{\frac{5.5\%}{12}}</m>, which gives <m>P \approx \$123,285.23</m>
@@ -899,7 +899,7 @@
 		Marie can afford a $250 per month car payment. She’s found a 5-year loan at 7% APR.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How expensive of a car can she afford?
@@ -920,7 +920,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>P = \frac{250\left(1-\left(1+\frac{7\%}{12}\right)^{-12 \times 5}\right)}{\frac{7\%}{12}}</m>, which gives <m>P \approx \$12,625.50</m>
@@ -985,7 +985,7 @@
 		You want to buy a $200,000 home. You plan to pay 10% as a down payment and take out a 30-year loan for the rest.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How much is the loan amount going to be?
@@ -1006,7 +1006,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The loan amount will be 90% of $200,000.00
@@ -1043,7 +1043,7 @@
 		Lynn bought a $300,000 house, paying 10% down, and financing the rest at 6.5% APR for 30 years.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find her monthly payments.
@@ -1064,7 +1064,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>d = \frac{270000\left(\frac{6.5\%}{12}\right)}{\left(1-\left(1+\frac{6.5\%}{12}\right)^{-12 \times 30}\right)}</m>, which gives <m>d \approx 1,706.58</m>
@@ -1176,7 +1176,7 @@
 		Suppose another mortgage lender offers you a fixed-rate 15-year mortgage at 2.95% APR. You have $20,000 saved as a down payment, and you can afford a maximum mortgage payment of $950 per month. You are interested in a certain house for sale, with firm selling price of $200,000.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the monthly payment for this house. Can you afford it, under the terms of this lender?
@@ -1192,7 +1192,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=PMT(2.95%/12,12*15,180000,0)</c> which gives $1,238.72.
@@ -1217,7 +1217,7 @@
 		An annuity firm pays 5% APR compounded yearly, and offers an investor the following: Deposit $100,000 with them today, and then starting one year from today, you will receive ten equal annual payments, with zero balance remaining afterward in the account. If an investor accepts their offer, then find the following:
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What will be the payment amount for each of the ten equal payments?
@@ -1233,7 +1233,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=PMT(5%,10,100000,0)</c> which gives $12,950.46.
@@ -1261,7 +1261,7 @@
 		For twelve full years, and into an account that pays 3.5% APR compounded quarterly: Yanhong will either pay $1500 at the end of each calendar quarter, or, deposit a single lump sum that will give the same future value amount.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If Yanhong chooses the single lump sum option, then how much will Yanhong need to deposit?
@@ -1282,7 +1282,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=PV(3.5%/4,4*12,1500)</c> which gives $58,586.02.
@@ -1321,7 +1321,7 @@
 		Assume you take out a 30-year mortgage loan for $250,000 at a fixed 4.5% APR.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What will be the amount of your monthly payment?
@@ -1347,7 +1347,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=PMT(4.5%/12,12*30,250000)</c> which gives $1,266.71.

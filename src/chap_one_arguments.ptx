@@ -121,7 +121,7 @@
 		<statement>
 		<p>
 			Rewrite the following arguments in a precise “premise, premise, conclusion” form, and determine if the argument is inductive or deductive.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A number is prime if it is only divisible by itself and one. Since the number 13 is only divisible by itself and one, 13 must be prime. 
@@ -137,7 +137,7 @@
 		</statement>
 		<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Premise: If a number is only divisible by itself and one, the number is prime. 
@@ -211,7 +211,7 @@
 		<statement>
 		<p>
 			Use a set diagram to determine whether the argument is valid. If the argument is valid, determine if it is also sound.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<q>All cats are mammals and a tiger is a cat, so a tiger is a mammal.</q>
@@ -242,7 +242,7 @@
 		</statement>
 		<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						First let’s write the argument in its <q>premise, premise, conclusion</q> form. For the problems we will be looking at, you will want to write the first premise as a <alert>qualified proposition</alert> (some, none, all) since this will form the basic structure of our diagram.
@@ -329,7 +329,7 @@
 		Write whether the argument described is inductive or deductive:
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The first five terms of the sequence were all odd, therefore the sixth term will also be odd.
@@ -345,7 +345,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The argument is inductive.
@@ -367,7 +367,7 @@
 		Find the next term of the sequences below.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					3, 6, 9, 12, 15, <fillin />
@@ -383,7 +383,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The next term is 18.

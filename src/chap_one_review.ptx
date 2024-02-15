@@ -12,7 +12,7 @@
 		Identify which of the following is a proposition.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Airplanes are the safest form of travel.
@@ -48,7 +48,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Yes
@@ -89,7 +89,7 @@
 		Write the negation of each proposition.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					I take public transportation to get to class.
@@ -125,7 +125,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					I don't take public transportation to get to class.
@@ -166,7 +166,7 @@
 		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					I like watching soccer or basketball.
@@ -197,7 +197,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Inclusive
@@ -233,7 +233,7 @@
 		Express in the form of <em>if p, then q</em>. Identify p and q
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Doing homework helps increase your grade in class.
@@ -264,7 +264,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If you do homework, then it helps increase your grade in class.
@@ -300,7 +300,7 @@
 		Translate each statement from symbolic notation into English sentences. Let A represent <q>I will buy an iPhone</q> and Let B represent <q>I learn how to use new technology fast</q>.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Negation of A
@@ -331,7 +331,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					I will not buy an iPhone.
@@ -557,7 +557,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How many people only like cream in their coffee?
@@ -583,7 +583,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<m>27</m> people only like cream in their coffee.
@@ -624,7 +624,7 @@
 		In a group of 30 students at PCC, 21 have Biology this term, 12 have Math 105 and 7 are studying both Biology and Math 105.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a two-circle Venn diagram that summarizes the results of the survey.
@@ -640,7 +640,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside width="50%">
 					<image source="images/language_logic_rules/1_4/bio_mth105_venn.png">
@@ -745,7 +745,7 @@
 		</ul>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a three-circle Venn diagram that summarizes the results of the survey.
@@ -776,7 +776,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside width="50%">
 					<image source="images/language_logic_rules/1_4/twitter_newspaper_website_venn.png">

@@ -1076,7 +1076,7 @@
 	<statement>
 	<p>
 		You loan your friend $100. They agree to pay an annual interest rate of 3%, simple interest. Six months later they repay that loan.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How much did they pay you?
@@ -1092,7 +1092,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1142,7 +1142,7 @@
 		You deposit $1,000 in an account that earns simple interest. The annual interest rate is 2.5%.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much interest will you earn in 5 years?
@@ -1158,7 +1158,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<md>
 					<mrow>I\amp=1000(0.025)(5)</mrow>
@@ -1185,7 +1185,7 @@
 	<statement>
 	<p>
 		Consider an investment of $20000 with an annual interest rate of 5%.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If that investment is earning simple interest, how much will the investment be worth in 10 years?
@@ -1201,7 +1201,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1276,7 +1276,7 @@
 		Suppose you obtain a $3,000 Certificate of Deposit (CD) with a 3% APR, paid quarterly, with maturity in 5 years.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What is the future value of the CD in 5 years?
@@ -1297,7 +1297,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1343,7 +1343,7 @@
 		You deposit $300 in an account earning 5% APR compounded annually. How much will you have in the account in 10 years?
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 10 years?
@@ -1364,7 +1364,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1411,7 +1411,7 @@
 		You deposit $2,000 in an account earning 3% APR compounded monthly.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 20 years?
@@ -1437,7 +1437,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1493,7 +1493,7 @@
 		You deposit $10,000 in an account earning 4% APR compounded weekly.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 25 years?
@@ -1519,7 +1519,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1617,7 +1617,7 @@
 		Breylan invests $1,200 in an account that earns 4.6% APR compounded quarterly and Angad invests the same amount in an account that earns 4.55% APR compounded weekly.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What will their balances be after 15 years?
@@ -1638,7 +1638,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1706,7 +1706,7 @@
 		Bill invests $6,700 in a savings account that compounds interest monthly at 3.75% APR. Ted invests $6,500 in a savings account that compound interest annually at 3.8% APR.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Find the effective rate for each account.
@@ -1722,7 +1722,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Bill <c>=EFFECT(0.0375,12)</c> <m>=3.82%</m> and Ted <c>=EFFECT(0.038,1)</c> =3.8%. Bill has an effective rate of 3.82% and Ted has a rate of 3.8%.
@@ -1761,7 +1761,7 @@
 		Bassel is comparing two accounts where one pays 3.45% APR quarterly and the second pays 3.4% APR daily.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What is the effect rate for each?
@@ -1777,7 +1777,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=EFFECT(0.0345,4)</c>= 3.49% and <c>=EFFECT(0.034,365)</c>= 3.46%. The effective rates are 3.49% and 3.46%.
@@ -1816,7 +1816,7 @@
 		You deposit $2,500 into an account earning 4% APR compounded continuously.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 10 years?
@@ -1837,7 +1837,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1883,7 +1883,7 @@
 		You deposit $1,000 into an account earning 5.75% APR compounded continuously.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 15 years?
@@ -1904,7 +1904,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1950,7 +1950,7 @@
 		You deposit $5,000 in an account earning 4.5% APR compounded continuously.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 5 years?
@@ -1971,7 +1971,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -2017,7 +2017,7 @@
 		You deposit $10,000 in an account that earns 5.5% APR compounded continuously and your friend deposits $10,000 in an account that earns 5.5% APR compounded annually.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much more will you have in the account in 10 years?
@@ -2033,7 +2033,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>

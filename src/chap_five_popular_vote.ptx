@@ -46,7 +46,7 @@
 <title>Choosing the U.S. President</title>
 	<p>
 		In the last section we talked about equal voting rights and studied several voting methods. To choose the President of the United States, we use another method, called the <alert>Electoral College</alert>. The Founders, with their newfound freedom from Britain, wanted to create a democracy where citizens could participate in choosing their president. Prior to the Electoral College, there were three options proposed (Best, 2004; Clayton, 2015). They were
-		<ol label="1.">
+		<ol marker="1.">
 			<li>
 				<p>
 					Congress would elect the president
@@ -205,7 +205,7 @@
 		</tabular>
 		</sidebyside>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine the number of electors for each state and the total for the country.
@@ -241,7 +241,7 @@
 		</statement>
 		<solution>
 			<p>
-				<ol label="a.">
+				<ol marker="a.">
 					<li>
 						<p>
 							To find the number of electors for each state, we first divide each state population by 40,000 to determine the number of representatives they will have. We will drop the decimal remainders, similar to Hamilton’s method.
@@ -973,7 +973,7 @@
 			In each fictional country in problems 7-10, use the rules of the U.S. government to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The total number of electors in the state.
@@ -1035,7 +1035,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1137,7 +1137,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1246,7 +1246,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1362,7 +1362,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1432,7 +1432,7 @@
 			In each fictional country in problems 11-14, use the rules of the U.S. government (assume that all of a state’s electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The winner of the popular vote in the country and the percentage of votes they won.
@@ -1494,7 +1494,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1596,7 +1596,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1705,7 +1705,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1821,7 +1821,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1891,7 +1891,7 @@
 			In each fictional country in problems 15-18, use the rules of the U.S. government to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The state that has the most electoral power
@@ -1950,7 +1950,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2046,7 +2046,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2150,7 +2150,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2262,7 +2262,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">

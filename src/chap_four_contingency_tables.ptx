@@ -413,7 +413,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What percent of the sampled Tampa, Fl voters identified themselves as conservatives?
@@ -591,7 +591,7 @@
 	</sidebyside>
 	<p>
 		Find the probability that a randomly selected survey participant:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					has a red car.
@@ -632,7 +632,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -884,7 +884,7 @@
 		<statement>
 		<p>
 			A home pregnancy test was given to a sample of 93 cisgender women, and their pregnancy was then verified by a blood test. The contingency table below shows the home pregnancy test and whether or not they were actually pregnant as determined by the blood test. Find the probability that a randomly selected woman in the sample
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						was not pregnant given the home test was positive.
@@ -929,7 +929,7 @@
 		<solution>
 		<p>
 		 	Here are the solutions:
-		 	<ol label="a.">
+		 	<ol marker="a.">
 		 		<li>
 		 			<p>
 		 				Since we are given the home test result was positive, we are limited to the 75 women in the positive test column, of which 5 were not pregnant. This gives:
@@ -1502,7 +1502,7 @@
 	</sidebyside>
 	<p>	
 		If one student was chosen at random:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability they were in the morning class?
@@ -1533,7 +1533,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -1622,7 +1622,7 @@
 	</sidebyside>
 	<p>	
 		If one student was chosen at random:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability they were in the morning class?
@@ -1653,7 +1653,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -1738,7 +1738,7 @@
 	</sidebyside>
 	<p>
 		If one person was chosen at random:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability they had no credit cards?
@@ -1779,7 +1779,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -1872,7 +1872,7 @@
 	</tabular>
 	</sidebyside>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability that a person was inoculated?
@@ -1908,7 +1908,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -2001,7 +2001,7 @@
 	</tabular>
 	</sidebyside>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability that a passenger did not survive?
@@ -2047,7 +2047,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -2152,7 +2152,7 @@
 	</tabular>
 	</sidebyside>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability that a patent is foreign and from the government?
@@ -2183,7 +2183,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -2235,7 +2235,7 @@
 		There is a 15% chance that a shopper entering a computer store will purchase a computer, a 25% chance they will purchase a game/software, and there is a 10% chance they will purchase both a computer and a game/software.
 	</p>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a contingency table for the information.
@@ -2299,7 +2299,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2379,7 +2379,7 @@
 	</p>
 
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a contingency table for the information.
@@ -2448,7 +2448,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2535,7 +2535,7 @@
 		Among the 95 books on a bookshelf, 72 are fiction, 28 are hardcover, and 87 are fiction or hardcover.
 	</p>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a contingency table for the information.
@@ -2584,7 +2584,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2642,7 +2642,7 @@
 		After finishing the course, among the 32 students in a Math 105 class, 25 could successfully construct a contingency table, 27 passed the class, and 29 could successfully construct a contingency table or passed the class.
 	</p>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a contingency table for the information. 
@@ -2691,7 +2691,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">

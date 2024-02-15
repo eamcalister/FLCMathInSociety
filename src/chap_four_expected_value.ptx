@@ -335,7 +335,7 @@
 		A bag contains 3 gold marbles, 6 silver marbles, and 28 black marbles. Someone offers to play this game: You randomly select on marble from the bag. If it is gold, you win $3. If it is silver, you win $2. If it is black, you lose $1.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Make a probability model for this game.
@@ -351,7 +351,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -395,7 +395,7 @@
 			A bag contains 5 red marbles, 8 blue marbles, and 15 green marbles. Someone offers to play this game: You randomly select one marble from the bag. If it is blue, you win $3. If it is red, you win $2. If it is green, you lose $1.
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Make a probability model for this game.
@@ -411,7 +411,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -455,7 +455,7 @@
 		A friend devises a game that is played by rolling a single six-sided fair (each side has equal probability of landing face up, once rolled) die once. If you roll a 6, he pays you $3; if you roll a 5, he pays you nothing; if you roll a number less than 5, you pay him $1.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Make a probability model for this game.
@@ -476,7 +476,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -525,7 +525,7 @@
 			A friend devises a game that is played by rolling a single six-sided fair (each side has equal probability of landing face up, once rolled) die once. If you roll a 1, he pays you $5; if you roll a 2, he pays you nothing; if you roll a number more than 2, you pay him $2.
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Make a probability model for this game.
@@ -546,7 +546,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">

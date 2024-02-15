@@ -98,7 +98,7 @@
 	<assemblage>
 		<title>Apportionment rules</title>
 		<p>
-			<ol label="1.">
+			<ol marker="1.">
 				<li>
 					<p>
 						The things being divided up can exist only in whole numbers.
@@ -124,7 +124,7 @@
 	</assemblage>
 	<p>
 		In terms of the apportionment of the United States House of Representatives, these rules imply:
-		<ol label="1.">
+		<ol marker="1.">
 			<li>
 				<p>
 					We can only have whole representatives (a state can’t have 3.4 representatives).
@@ -166,7 +166,7 @@
 	<assemblage>
 	<title>Hamilton’s Method</title>
 	<p>
-		<ol label="1.">
+		<ol marker="1.">
 			<li>
 				<p>
 				Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
@@ -564,7 +564,7 @@
 	<assemblage>
 	<title>Jefferson’s Method</title>
 		<p><em>The first three steps are the same as Hamilton's</em>
-			<ol label="1.">
+			<ol marker="1.">
 				<li>
 					<p>
 						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
@@ -970,7 +970,7 @@
 	<assemblage>
 	<title>Webster’s Method</title>
 		<p><em>Steps 1-2 are the same as Hamilton and Jefferson</em>
-			<ol label="1.">
+			<ol marker="1.">
 				<li>
 					<p>
 						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
@@ -1269,7 +1269,7 @@
 	<assemblage>
 	<title>Huntington-Hill Method</title>
 		<p><em>The first two steps are the same as the previous methods</em>
-			<ol label="1.">
+			<ol marker="1.">
 				<li>
 					<p>
 						Determine how many people each representative should represent. Do this by dividing the total population of all the states by the total number of representatives. This answer is called the <alert>divisor</alert>.
@@ -1867,7 +1867,7 @@
 	<introduction>
 		<p>
 			In exercises 1-14, determine the apportionment using
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Hamilton’s Method
@@ -1916,7 +1916,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Math: 6 tutors, English: 5 tutors, Chemistry: 3 tutors, Biology: 1 tutor
@@ -1951,7 +1951,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Math: 8 tutors, English: 7 tutors, Chemistry: 3 tutors, Biology: 2 tutors
@@ -2003,7 +2003,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Morning: 1 salesperson, Midday: 5 salespeople, Afternoon: 6 salespeople, Evening: 8 salespeople
@@ -2037,7 +2037,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Morning: 2 salespeople, Midday: 6 salespeople, Afternoon: 8 salespeople, Evening: 9 salespeople
@@ -2085,7 +2085,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Aisha: 18 coins, Basir: 14 coins, Carlos: 4 coins
@@ -2119,7 +2119,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Aisha: 19 coins, Basir: 15 coins, Carlos: 3 coins
@@ -2169,7 +2169,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 5 seats, B: 79 seats, C: 20 seats, D: 12 seats
@@ -2203,7 +2203,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 5 seats, B: 84 seats, C: 21 seats, D: 14 seats
@@ -2255,7 +2255,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 40 seats, B: 24 seats, C: 15 seats, D: 30 seats, E: 10 seats
@@ -2289,7 +2289,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 43 seats, B: 25 seats, C: 16 seats, D: 31 seats, E: 11 seats
@@ -2343,7 +2343,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 23 seats, B: 16 seats, C: 77 seats, D: 30 seats, E: 21 seats, F: 33 seats
@@ -2377,7 +2377,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 20 seats, B: 15 seats, C: 69 seats, D: 27 seats, E: 19 seats, F: 30 seats
@@ -2431,7 +2431,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						. A: 19 seats, B: 19 seats, C: 22 seats, D: 22 seats, E: 81 seats, F: 87 seats
@@ -2465,7 +2465,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 18 seats, B: 19 seats, C: 21 seats, D: 21 seats, E: 78 seats, F: 83 seats
@@ -2513,7 +2513,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If the legislature has 10 seats, use Hamilton’s method to apportion the seats.
@@ -2539,7 +2539,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 4 seats, B: 4 seats, C: 2 seats
@@ -2585,7 +2585,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If the legislature has 10 seats, use Hamilton’s method to apportion the seats. Which rule is not met in this case?
@@ -2606,7 +2606,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					A: 5 seats, B: 5 seats, C: 0 seats. Each state must have at least one seat so that rule is not met.
@@ -2737,7 +2737,7 @@
 	<statement>
 	<p>
 		A school district has two high schools:  Clatsop, serving 1715 students, and Siletz, serving 7364. The district could only afford to hire 13 guidance counselors.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Determine how many counselors should be assigned to each school using Hamilton's method.
@@ -2763,7 +2763,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Clatsop: 2 counselors, Siletz: 11 counselors
@@ -2793,7 +2793,7 @@
 	<statement>
 	<p>
 		A school district has two middle schools: Tubman, serving 451 students, and Blackshear, serving 176. The district could afford to hire 8 art teachers.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Determine how many art teachers should be assigned to each school using Hamilton's method.
@@ -2819,7 +2819,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Tubman: 6 art teachers, Blackshear: 2 art teachers

@@ -11,7 +11,7 @@
 	<introduction>
 		<p>
 			In exercises 1-4, determine the apportionment using
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Hamilton’s Method
@@ -60,7 +60,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 10 seats, B: 17 seats, C: 12 seats, D: 39 seats
@@ -95,7 +95,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 12 seats, B: 19 seats, C: 14 seats, D: 45 seats
@@ -148,7 +148,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 46 seats, B: 18 seats, C: 7 seats, D: 21 seats, E: 8 seats
@@ -183,7 +183,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 58 seats, B: 22 seats, C: 9 seats, D: 26 seats, E: 10 seats
@@ -215,7 +215,7 @@
 	<introduction>
 		<p>
 			In exercises 5-8, complete the following:
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>
 					How many voters voted in this election?
@@ -321,7 +321,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are 134 voters.
@@ -432,7 +432,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are 117 voters.
@@ -537,7 +537,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are 166 voters.
@@ -648,7 +648,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are 221 voters.
@@ -691,7 +691,7 @@
 			In each fictional country in problems 9-10, use the rules of the U.S. government to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The total number of electors in the state.
@@ -753,7 +753,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -862,7 +862,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -931,7 +931,7 @@
 			In each fictional country in problems 11-12, use the rules of the U.S. government (assume that all of a state’s electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The winner of the popular vote in the country and the percentage of votes they won.
@@ -993,7 +993,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1102,7 +1102,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1171,7 +1171,7 @@
 			In each fictional country in problems 13-14, use the rules of the U.S. government to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The state that has the most electoral power
@@ -1230,7 +1230,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1334,7 +1334,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1401,7 +1401,7 @@
 			For each map in problems 15-16, complete the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How many votes are needed for a majority?
@@ -1450,7 +1450,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 5 votes.
@@ -1553,7 +1553,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 4 votes.

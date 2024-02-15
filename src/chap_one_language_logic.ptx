@@ -58,7 +58,7 @@
 		<statement>
 		<p>
 			Which of the following are propositions?
-			<ol label ="a">
+			<ol marker="a">
 				<li>
 					<p>
 						I am reading a math book.
@@ -102,7 +102,7 @@
 		<statement>
 		<p>
 			Write the negation of the following propositions.
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					I am reading a math book.
@@ -128,7 +128,7 @@
 	</statement>
 		<solution>
 			<p>
-			<ol label ="a">
+			<ol marker="a">
 				<li>
 					<p>
 						Negation: I am <insert>not</insert> reading a math book.
@@ -218,7 +218,7 @@
 		<statement>
 		<p>
 			Determine whether each <em>or</em> statement is inclusive or exclusive.
-			<ol label ="a">
+			<ol marker="a">
 				<li>
 					<p>
 						Would you like a chicken or vegan meal?
@@ -1028,7 +1028,7 @@
 		Which of the following are propositions?
 	</p>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Pigs can fly.
@@ -1054,7 +1054,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Proposition
@@ -1086,7 +1086,7 @@
 		Which of the following are propositions?
 	</p>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					How far?
@@ -1112,7 +1112,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Not a proposition
@@ -1144,7 +1144,7 @@
 		Write the negation of each proposition.
 	</p>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					I ride my bike to campus.
@@ -1160,7 +1160,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					I do not ride my bike to campus.
@@ -1182,7 +1182,7 @@
 		Write the negation of each proposition.
 	</p>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					You should see this movie.
@@ -1198,7 +1198,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					You should not see this movie.
@@ -1245,7 +1245,7 @@
 		For each situation, decide whether the “or” is most likely exclusive or inclusive.
 	</p>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					An entrée at a restaurant includes soup or salad.
@@ -1261,7 +1261,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Exclusive
@@ -1283,7 +1283,7 @@
 		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
 	</p>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					We can keep driving on I-5 or get on I-405 at the next exit.		
@@ -1299,7 +1299,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Exclusive
@@ -1321,7 +1321,7 @@
 		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					I will wear a sweater or a jacket.
@@ -1337,7 +1337,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Inclusive
@@ -1359,7 +1359,7 @@
 		For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					While in California I will go to the beach or Disneyland.
@@ -1375,7 +1375,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Inclusive
@@ -1397,7 +1397,7 @@
 		Rewrite the statement in the conditional form <em>if p, then q.</em>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Whenever it is sunny, I go swimming.
@@ -1413,7 +1413,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If it is sunny, then I will go swimming.
@@ -1435,7 +1435,7 @@
 		Rewrite the statement in the conditional form <em>if p, then q.</em>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					I always carry an umbrella when it rains.
@@ -1451,7 +1451,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If it is raining, then I carry an umbrella.
@@ -1473,7 +1473,7 @@
 		Translate each statement from symbolic notation into English sentences. Let A represent <q>Elvis is alive</q> and let K represent <q>Elvis is the King</q>.
 	</p>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					<em>Not A</em>
@@ -1499,7 +1499,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Elvis is not alive
@@ -1531,7 +1531,7 @@
 		Translate each statement from symbolic notation into English sentences. Let A represent <q>It rains in Oregon</q> and let B represent <q>I own an umbrella</q>.
 	</p>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					<em>Not B</em>
@@ -1557,7 +1557,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					I do not own an umbrella.
@@ -1589,7 +1589,7 @@
 		Translate each statement from English sentences into symbolic notation. Let A represent <q>I will protest</q> and let B represent <q>There is injustice.</q>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There is injustice and I will protest.
@@ -1615,7 +1615,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					B and A
@@ -1647,7 +1647,7 @@
 		Translate each statement from English sentences into symbolic notation. Let A represent <q>It’s time to eat</q> and let B represent <q>I am hungry.</q>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					It’s time to eat and I’m not hungry.
@@ -1673,7 +1673,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					A and not B
@@ -1705,7 +1705,7 @@
 		Determine if the entire statement is true or false.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					An apple is a vegetable, or an apple is a fruit.
@@ -1721,7 +1721,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					True
@@ -1743,7 +1743,7 @@
 		Determine if the entire statement is true or false.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Fish can walk and birds can swim.
@@ -1759,7 +1759,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					False

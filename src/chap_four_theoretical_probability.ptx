@@ -357,7 +357,7 @@
 	<example>
 	<statement>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What is the probability of rolling an odd or even number on a six-sided die?
@@ -373,7 +373,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Since all the numbers are either even or odd, this event includes all of the outcomes in the sample space. This event is certain. <m>P(\text{odd or even})=\frac{6}{6}=1</m>
@@ -558,7 +558,7 @@
 		<statement>
 		<p>
 			Determine whether the following events are independent or dependent.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Flipping a fair coin twice and getting heads both times.
@@ -584,7 +584,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The probability of getting heads on the first flip is 0.5 or 50%. After flipping heads, the probability of getting heads on the second flip is still 0.5 or 50%. Since the probability of flipping heads on the second flip did not change because we flipped heads on the first flip, the events are <alert>independent</alert>.
@@ -629,7 +629,7 @@
 		<statement>
 		<p>
 			Suppose you have a bag containing 6 red Legos, 4 green Legos, and 3 black Legos. We will make exactly two lego selections from the bag. What is the probability of selecting:
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						two red Legos in a row if we put the first red Lego back in the bag?
@@ -650,7 +650,7 @@
 		</statement>
 		<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Since the outcomes are equally likely, the probability of selecting a red Lego is the number of red Legos divided by the total number of Legos, or <m>P(\text{red})=\frac{6}{13}</m>.
@@ -745,7 +745,7 @@
 		<statement>
 		<p>
 			A prize machine is filled with 10 yellow erasers, 6 green erasers, 4 red pencil sharpeners, 8 yellow pencil sharpeners, and 5 red bouncy balls. Each prize is inside a plastic sphere, and the spheres are well mixed in the prize machine. Each game will get you just one prize. Determine the probability of
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						getting a yellow prize.
@@ -766,7 +766,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Since yellow is a single event, we just need to know how many prizes there are in total, and how many of the prizes are yellow. The yellow prizes include the 10 yellow erasers and the 8 yellow pencil sharpeners.
@@ -950,7 +950,7 @@
 		A ball is drawn randomly from a jar containing 6 red marbles, 2 white marbles, and 5 yellow marbles. Find the probability of:
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Drawing a white marble.	
@@ -981,7 +981,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>2/13</m>
@@ -1018,7 +1018,7 @@
 		Compute the probability of tossing a fair six-sided die and getting:	
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				an even number.
@@ -1034,7 +1034,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>1/2</m>
@@ -1056,7 +1056,7 @@
 		Compute the probability of rolling a fair 12-sided die and getting:
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				a number other than 8.
@@ -1072,7 +1072,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>11/12</m>
@@ -1094,7 +1094,7 @@
 		A fair six-sided die is rolled twice. What is the probability of getting:
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				a 6 on both rolls?
@@ -1110,7 +1110,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>1/36</m>
@@ -1145,7 +1145,7 @@
 		At some random moment, you look at your digital clock and note the minutes reading.	
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What is probability the minutes reading is 15?
@@ -1161,7 +1161,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>1/60</m>
@@ -1183,7 +1183,7 @@
 		What is the probability of flipping a fair coin three times
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				and getting a head each time?
@@ -1199,7 +1199,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>1/8</m>
@@ -1221,7 +1221,7 @@
 		What is the probability of rolling two fair six-sided dice
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				and getting a sum greater than or equal to 7?
@@ -1237,7 +1237,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>7/12</m>
@@ -1259,7 +1259,7 @@
 		A box contains four black pieces of cloth, two striped pieces, and six dotted pieces. A piece is selected randomly and then placed back in the box. A second piece is selected randomly. What is the probability that:
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				both pieces are dotted?
@@ -1280,7 +1280,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>1/4</m>
@@ -1307,7 +1307,7 @@
 		Compute the probability of rolling five fair six-sided dice (each side has equal probability of landing face up on each roll) and getting:
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					a 3 on all five dice.
@@ -1323,7 +1323,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>1/7776</m>
@@ -1345,7 +1345,7 @@
 		If you pick a card from a standard deck of 52 cards, what is the probability of getting
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					a 7?
@@ -1371,7 +1371,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>4/52=1/13</m>

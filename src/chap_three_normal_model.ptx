@@ -178,7 +178,7 @@
 		<statement>
 			<p>
 				The weights of black lab dogs are approximately normally distributed with a mean of 78 pounds and a standard deviation of 7 pounds.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Draw and label a sketch of this distribution.
@@ -211,7 +211,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						We start by drawing the Normal curve and the horizontal axis, labeling 3 standard deviations on each side.
@@ -301,7 +301,7 @@
 			For the quiz score data that are approximately normally distributed with a mean of 18 points and a standard deviation 4 points, use the 68-95-99.7% rule to calculate the following probabilities:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What percentage of students earned scores between 22 and 30 points?
@@ -322,7 +322,7 @@
 
 		<p>
 			Solution
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Using the diagram above, we add the two segments between 22 and 30 to get <me>13.5\% +  2.35\% = 15.85\%</me>. 15.8% percent of students earned scores between 22 and 30 points on the quiz.
@@ -352,7 +352,7 @@
 			Continuing with the black lab dogs whose weights are approximately normally distributed with a mean of 78 pounds and a standard deviation 7 pounds, use the 68-95-99.7% rule to calculate the following probabilities:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What percentage of black labs weigh between 78 and 92 pounds?
@@ -379,7 +379,7 @@
 				<description>The previous normal curve of weights of black lab dogs in pounds. The scale at the bottom is 57, 64, 71, 78, 85, 92, 99 pounds.</description>
 				</image>
 			</sidebyside>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Using this Normal curve along with the diagram above we see we need to add the two segments between 78 and 92 pounds to get <me>34\% + 13.5\% = 47.5\%</me>. 47.5% percent of black labs weigh between 78 and 92 pounds.
@@ -456,7 +456,7 @@
 			For the quiz score data that are approximately normally distributed with a mean of 18 points and a standard deviation 4 points, use technology to calculate the following probabilities:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What percentage of students earned a score below 12 points?
@@ -482,7 +482,7 @@
 
 		<p>
 			Solution
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside widths="40% 54%">
 					<stack>
@@ -551,7 +551,7 @@
 			Continuing with the black lab dogs whose weights are approximately normally distributed with a mean of 78 pounds and a standard deviation 7 pounds, use technology to calculate the following probabilities:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The probability that a randomly chosen black lab weighs at least 95 pounds.
@@ -577,7 +577,7 @@
 		</statement>
 		<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Using OnlineStatbook and/or <c>=1-NORM.DIST(95, 78, 7, 1)</c> we get <m>P(X\geq95)=0.0076</m> or <m>0.76\%</m>.
@@ -918,7 +918,7 @@
 	<statement>
 		<p>
 			Suppose a Normal distribution has a mean of 6 inches and a standard deviation of 1.5 inches.
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -944,7 +944,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>Here is the graph:
 					<sidebyside width="40%">
@@ -976,7 +976,7 @@
 	<statement>
 	<p>
 		Suppose a Normal distribution has a mean of 45 cm and a standard deviation of 10 cm.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1002,7 +1002,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>Here is the graph:
 					<sidebyside width="40%">
@@ -1034,7 +1034,7 @@
 	<statement>
 	<p>
 		Suppose a Normal distribution has a mean of $10 and a standard deviation of $2.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1060,7 +1060,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>Here is the graph:
 					<sidebyside width="40%">
@@ -1092,7 +1092,7 @@
 	<statement>
 	<p>
 		Suppose the variable <m>X</m> is normally distributed with a mean of 15 miles and a standard deviation of 3 miles.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1118,7 +1118,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>Here is the graph:
 					<sidebyside width="40%">
@@ -1159,7 +1159,7 @@
 	<statement>
 	<p>
 		Suppose a Normal distribution has a mean of 15.5 ounces and a standard deviation of 4.2 ounces.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1185,7 +1185,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>Here is the graph:
 					<sidebyside width="40%">
@@ -1217,7 +1217,7 @@
 	<statement>
 	<p>
 		Suppose a Normal distribution has a mean of 26.1 grams and a standard deviation of 6.5 grams.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1243,7 +1243,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>Here is the graph:
 					<sidebyside width="40%">
@@ -1275,7 +1275,7 @@
 	<statement>
 	<p>
 		Suppose the variable <m>X</m> is normally distributed with a mean of 85 km and a standard deviation of 7 km.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1301,7 +1301,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>Here is the graph:
 					<sidebyside width="40%">
@@ -1333,7 +1333,7 @@
 	<statement>
 	<p>
 		Suppose the variable <m>X</m> is normally distributed with a mean of $7 and a standard deviation of $1.30.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1359,7 +1359,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>Here is the graph:
 					<sidebyside width="40%">

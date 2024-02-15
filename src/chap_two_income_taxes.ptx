@@ -874,7 +874,7 @@
 				Credits: $15,000
 			</p>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What is their adjusted gross income (AGI)?
@@ -903,7 +903,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Take the income minus the adjustments <m>135000-5600=\$129,400</m>. Their adjusted gross income is $129,400.
@@ -1063,7 +1063,7 @@
 		Janice is unmarried and has two kids. She earned $96,000 in wages last year, received $850 in interest from a savings account, and contributed $26,000 to a tax deferred savings account. Her itemized deductions are $22,600.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Determine Janice’s gross income.
@@ -1094,7 +1094,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Gross Income: <m> 96000+850 = \$96,850</m>

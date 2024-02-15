@@ -703,7 +703,7 @@
 			For each map in problems 11-20, complete the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How many votes are needed for a majority?
@@ -752,7 +752,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 4 votes.
@@ -848,7 +848,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 5 votes.
@@ -944,7 +944,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 3 votes.
@@ -1048,7 +1048,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 4 votes.
@@ -1152,7 +1152,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 5 votes.
@@ -1256,7 +1256,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 6 votes.
@@ -1360,7 +1360,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 3 votes.
@@ -1471,7 +1471,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 4 votes.
@@ -1582,7 +1582,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 5 votes.
@@ -1693,7 +1693,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 6 votes.
@@ -1797,7 +1797,7 @@
 			For each map in problems 21-24, draw your own districts to find
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The most seats you can win for the Democrats.
@@ -1828,7 +1828,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The most seats that can be won by the Democrats is 4 seats.
@@ -1859,7 +1859,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The most seats that can be won by the Democrats is 4 seats.
@@ -1890,7 +1890,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The most seats that can be won by the Democrats is 4 seats.
@@ -1921,7 +1921,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The most seats that can be won by the Democrats is 6 seats.

@@ -142,7 +142,7 @@
 		<statement>
 		<p>
 			Write each number using a decimal abreviation.
-			<ol label="a">
+			<ol marker="a">
 				<li>
 					<p>
 						4,873,000
@@ -169,7 +169,7 @@
 		<solution>
 			<p>
 				Our method is to find the millions place which is the 7th digit from the right. If the number starts there, use millions. If the number is larger, count 3 more places for billions and 3 more places for trillions.
-				<ol label="a">
+				<ol marker="a">
 					<li>
 						<p>
 							4,873,000 = 4.873 million
@@ -199,7 +199,7 @@
 		<statement>
 		<p>
 			Write each number in expanded form.
-			<ol label="a">
+			<ol marker="a">
 				<li>
 					<p>
 						5.7 million
@@ -226,7 +226,7 @@
 		<solution>
 			<p>
 				Our method is to put a comma where the decimal is and then add zeros to get to the right place value. If the decimal is less than one, we move down to the next lower grouping as shown in part d.
-				<ol label="a">
+				<ol marker="a">
 					<li>
 						<p>
 							5.7 million = 5,700,000
@@ -345,7 +345,7 @@
 			</ul>
 		</p>
 		<p>
-			<ol label="a">
+			<ol marker="a">
 				<li>
 					<p>
 						Calculate the budget surplus or deficit for this fiscal year.
@@ -371,7 +371,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol marker="a">
 				<li>
 					<p>
 						To calculate the budget surplus or deficit, we subtract the spending from the revenue, and we get:
@@ -470,7 +470,7 @@
 			</ul>
 		</p>
 		<p>
-			<ol label="a">
+			<ol marker="a">
 				<li>
 					<p>
 						Calculate the debt to GDP ratio as a percentage.
@@ -491,7 +491,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a">
+			<ol marker="a">
 				<li>
 					<p>
 						First, we divide the amount of debt by the GDP.
@@ -596,7 +596,7 @@
 			</image>
 		</sidebyside>
 		<p>
-			<ol label="a">
+			<ol marker="a">
 				<li>
 					<p>
 						Defense
@@ -623,7 +623,7 @@
 		<solution>
 			<p>
 			We will take the decimal form of the percentage of each type of spending and multiply it by the total budget amount of $4.407 trillion.
-			<ol label="a">
+			<ol marker="a">
 				<li>
 					<p>
 						Defense: (0.22)($4.407 trillion) = $0.9695 trillion or $969.5 billion
@@ -738,7 +738,7 @@
 	<statement>
 	<p>
 		Write each number using a decimal abreviation.
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					4,300,000,000
@@ -764,7 +764,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					4.3 billion
@@ -794,7 +794,7 @@
 	<statement>
 	<p>
 		Write each number using a decimal abreviation.
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					63,651,000,000,000
@@ -820,7 +820,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					63.651 trillion
@@ -850,7 +850,7 @@
 	<statement>
 	<p>
 		Write each number in expanded form.
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					5.7 million
@@ -876,7 +876,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					5,700,000
@@ -906,7 +906,7 @@
 	<statement>
 	<p>
 		Write each number in expanded form.
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					0.52 quadrillion
@@ -932,7 +932,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					520,000,000,000,000
@@ -962,7 +962,7 @@
 	<introduction>
 	<p>
 		For each country in problems 11-16, find the following. Data from Commodity.com (Commodity.com, 2020).
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					The debt to GDP ratio as a percentage.
@@ -1012,7 +1012,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					The debt to GDP ratio for Columbia is approximately 55.13%.
@@ -1063,7 +1063,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					The debt to GDP ratio for Pakistan is approximately 88.67%.
@@ -1114,7 +1114,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					The debt to GDP ratio for Poland is approximately 61.74%.
@@ -1165,7 +1165,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					The debt to GDP ratio for Australia is approximately 33.49%.
@@ -1216,7 +1216,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					The debt to GDP ratio for South Africa is approximately 60.39%.
@@ -1267,7 +1267,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					The debt to GDP ratio for Malaysia is approximately 54.88%.
@@ -1301,7 +1301,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Transportation in total
@@ -1322,7 +1322,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Approximately $7.668 billion is budgeted for transportation.
@@ -1355,7 +1355,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol marker="a">
 			<li>
 				<p>
 					K-12 education in total
@@ -1376,7 +1376,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Approximately $3.115 billion was budgeted for K-12 education.
@@ -1408,7 +1408,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Children’s benefits in total
@@ -1429,7 +1429,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Approximately $21.9 billion was spent on children’s benefits.
@@ -1461,7 +1461,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Pensions in total
@@ -1482,7 +1482,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Approximately £163.5 billion in spending is projected for pensions.
@@ -1514,7 +1514,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Higher education in total
@@ -1535,7 +1535,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Approximately $19.6 million is projected for higher education.
@@ -1567,7 +1567,7 @@
 		</image>
 	</sidebyside>
 	<p>
-		<ol label="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Education in total
@@ -1588,7 +1588,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label ="a">
+		<ol marker="a">
 			<li>
 				<p>
 					Approximately $2.18 billion is projected for education.
