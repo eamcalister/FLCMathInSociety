@@ -279,7 +279,7 @@
 	<p>
 		A natural way to visualize relative frequencies is with a pie chart. A <alert>pie chart</alert> is a circle with wedges cut of varying sizes like slices of pizza or pie. The size of each wedge corresponds to the relative frequency of the category. The slices add up to 100%, just like relative frequencies. Pie charts can often benefit from including frequencies or relative frequencies in the pie slices.
 	</p>
-	<sidebyside valign="middle" widths="60% 25%" margin="0%">
+	<sidebyside valign="middle" widths="60% 25%" margins="0%">
 		<p>
 		Pie charts look nice but are harder to draw by hand than bar charts since to draw them accurately we would need to compute the angle each wedge cuts out of the circle, then measure the angle with a protractor. A spreadsheet is much better suited to drawing pie charts.
 		</p>
