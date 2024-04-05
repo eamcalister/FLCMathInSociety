@@ -98,3 +98,4 @@ codechat_config.yaml
 # Don't track jingreport.txt
 jingreport.txt
 
+generated/.html_assets.pkl
