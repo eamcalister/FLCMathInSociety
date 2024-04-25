@@ -58,7 +58,7 @@
 <subsection>
 	<title>Types of Data</title>
 		<p>
-			There are two types of data, categorical data and quantitative data.
+			There are two types of data, categorical data and quantitative data. The word data is plural because it represents many pieces of information.
 		</p>
 		<p>
 			<alert>Categorical (qualitative) data</alert> are pieces of information that allow us to classify the subjects into various categories.
@@ -106,14 +106,14 @@
 										It was awful.
 									</p>
 								</li>
-								<li>										
+								<li>
 									<p>
 										It was just okay.
 									</p>
 								</li>
 								<li>
 									<p>
-										I liked it.		
+										I liked it.
 									</p>
 								</li>
 								<li>
@@ -132,9 +132,9 @@
 				</ol>
 			</p>
 			<p>
-				Again, there are numbers associated with the responses, but these are really categories. A movie that rates a 4 is not necessarily twice as good as a movie that rates a 2, whatever that means; However, we often see that a movie got an average of 3.7 stars, which is an average of categorical ratings and it can give us important information.				
+				Again, there are numbers associated with the responses, but these are really categories. A movie that rates a 4 is not necessarily twice as good as a movie that rates a 2, whatever that means; However, we often see that a movie got an average of 3.7 stars, which is an average of categorical ratings and it can give us important information.
 			</p>
-		</example> 
+		</example>
 
 	<p>
 		Overall, it is important to look at the purpose of the study for any variables that could be classified as either categorical or quantitative. Another consideration is what you plan to do with the data. Next, we will talk about how to display each type of data.
@@ -144,7 +144,7 @@
 <subsection>
 	<title>Presenting Categorical Data</title>
 	<p>
-		Since we can't do calculations with categorical data, we begin by summarizing the data in a frequency table or a relative frequency table. 
+		Since we can't do calculations with categorical data, we begin by summarizing the data in a frequency table or a relative frequency table.
 	</p>
 </subsection>
 
@@ -159,7 +159,7 @@
 			An insurance company determines vehicle insurance premiums based on known risk factors. If a person is considered a higher risk, their premiums will be higher. One potential factor is the color of your car. The insurance company believes that people with some color cars are more likely to get in accidents. To research this, they examine police reports for recent total-loss collisions. The data is summarized in this table.
 		</p>
 		<sidebyside>
-			<tabular top="minor" bottom="minor" right="minor" left="minor">
+			<tabular row-headers="yes" top="minor" bottom="minor" right="minor" left="minor">
 				<row header="yes">
 					<cell halign="left">Car Color</cell>
 					<cell halign="center"><line>Frequency of Total-</line><line>Loss Collisions</line></cell>
@@ -200,15 +200,12 @@
 <subsection>
 	<title>Relative Frequency Tables</title>
 	<p>
-		Numbers are usually not as easy to interpret as percentages, so we will add a column for the relative frequencies. A <alert>relative frequency</alert> is the percentage for the category, found by dividing each frequency by the total and converting to a percentage. You'll notice the percentages may not add up to exactly 100% due to rounding.
+		Counts are usually not as easy to interpret as percentages, so we will add a column for the relative frequencies. A <alert>relative frequency</alert> is the percentage for the category, found by dividing each frequency by the total and converting to a percentage. You'll notice the percentages may not add up to exactly 100% due to rounding.
 	</p>
 
 	<example>
-		<p>
-			<xref ref="insurance_frequency_table_pt1"></xref> continued
-		</p>
 		<sidebyside>
-			<tabular top="minor" bottom="minor" right="minor" left="minor">
+			<tabular row-headers="yes" top="minor" bottom="minor" right="minor" left="minor">
 				<row header="yes">
 					<cell>Car Color</cell>
 					<cell><line>Frequency of Total-</line><line>Loss Collisions</line></cell>
@@ -297,7 +294,7 @@
 	</p>
 	<sidebyside width="100%">
 		<image source="images/statistics/3_2/use_sheet2.png">
-		<shortdescription>This is a large screen shot of excel that includes both the data and the Insert tab with various circle graph options.</shortdescription>
+		<shortdescription>This is a screen shot of excel that includes both the data and the Insert tab with various circle graph options.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -325,7 +322,7 @@
 	<example>
 		<sidebyside valign="middle" width="40%">
 			<p>
-				3-dimensional bar chart like the one shown is usually not as effective as a 2-dimensional graph. The extra dimension does not add any useful information.
+				A 3-dimensional bar chart like the one shown is usually not as effective as a 2-dimensional graph. The extra dimension does not add any useful information.
 			</p>
 			<image source="images/statistics/3_2/misleading.png">
 				<shortdescription>A 3-D bar graph showing the car color data.</shortdescription>
@@ -392,7 +389,7 @@
 			The table lists college expenses for two different students and we want to compare them. A stacked bar graph shows the expenses stacked vertically, but we are interested in the differences, not the totals.
 		</p>
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Expense</cell>
 					<cell>Student 1</cell>
@@ -449,16 +446,53 @@
 	</p>
 	<example>
 		<p>
-			A teacher records scores on a 20-point quiz for the 30 students in their class. The scores are:
+			A teacher records scores on a 20-point quiz for the 30 students in their class. The scores in points are:
 		</p>
 		<p>
-			19, 20, 18, 18, 17, 18, 19, 17, 20, 18, 20, 16, 20, 15, 17, 12, 18, 19, 18, 19, 17, 20, 18, 16, 15, 18, 20, 5, 0 and 0.
+			<sidebyside>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>19</cell>
+						<cell>20</cell>
+						<cell>18</cell>
+						<cell>18</cell>
+						<cell>17</cell>
+						<cell>18</cell>
+						<cell>19</cell>
+						<cell>17</cell>
+						<cell>20</cell>
+						<cell>18</cell>
+						<cell>20</cell>
+						<cell>16</cell>
+						<cell>20</cell>
+						<cell>15</cell>
+						<cell>17</cell>
+					</row>
+					<row>
+						<cell>12</cell>
+						<cell>18</cell>
+						<cell>19</cell>
+						<cell>18</cell>
+						<cell>19</cell>
+						<cell>17</cell>
+						<cell>20</cell>
+						<cell>18</cell>
+						<cell>16</cell>
+						<cell>15</cell>
+						<cell>18</cell>
+						<cell>20</cell>
+						<cell>5</cell>
+						<cell>0</cell>
+						<cell>0</cell>
+					</row>
+				</tabular>
+				</sidebyside>
 		</p>
 		<p>
 			Here is a frequency table with the scores grouped and put in order.
 		</p>
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><line><alert>Quiz</alert></line><line><alert>Score</alert></line></cell>
 					<cell><line><alert>Frequency</alert></line><line><alert>of Students</alert></line></cell>
@@ -468,7 +502,7 @@
 					<cell>2</cell>
 				</row>
 				<row>
-					<cell>15</cell>
+					<cell>5</cell>
 					<cell>1</cell>
 				</row>
 				<row>
@@ -534,7 +568,7 @@
 		<ol>
 			<li>
 				<p>
-					Each interval is equal in size. For example, if the first class contains values from 120-134, the second class should include values from 135-149.
+					Each interval is equal in size. For example, if the first class contains values from 120 up to but not including 135, the second class should include values from 135 up to but not including 150.
 				</p>
 			</li>
 			<li>
@@ -561,49 +595,49 @@
 			Then we round up the class width so that the largest data value will be in one of the classes. So we round up to a class width of 15. Since the minimum data value is 121, we will choose 120 to start with since it is a multiple of 15 that is less than 121.
 		</p>
 		<sidebyside valign="bottom" widths="47% 47%">
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><alert>Interval</alert></cell>
 					<cell><alert>Frequency</alert></cell>
 				</row>
 				<row>
-					<cell>120-134</cell>
+					<cell>120-134.99</cell>
 					<cell>4</cell>
 				</row>
 				<row>
-					<cell>135-149</cell>
+					<cell>135-149.99</cell>
 					<cell>14</cell>
 				</row>
 				<row>
-					<cell>150-164</cell>
+					<cell>150-164.99</cell>
 					<cell>16</cell>
 				</row>
 				<row>
-					<cell>165-179</cell>
+					<cell>165-179.99</cell>
 					<cell>28</cell>
 				</row>
 				<row>
-					<cell>180-194</cell>
+					<cell>180-194.99</cell>
 					<cell>12</cell>
 				</row>
 				<row>
-					<cell>195-209</cell>
+					<cell>195-209.99</cell>
 					<cell>8</cell>
 				</row>
 				<row>
-					<cell>210-224</cell>
+					<cell>210-224.99</cell>
 					<cell>7</cell>
 				</row>
 				<row>
-					<cell>225-239</cell>
+					<cell>225-239.99</cell>
 					<cell>6</cell>
 				</row>
 				<row>
-					<cell>240-254</cell>
+					<cell>240-254.99</cell>
 					<cell>2</cell>
 				</row>
 				<row>
-					<cell>255-269</cell>
+					<cell>255-269.99</cell>
 					<cell>3</cell>
 				</row>
 			</tabular>
@@ -1181,18 +1215,18 @@
 			</li>
 			<li>
 				<p>
-					Make a bar chart for this data.
+					Make a bar chart for these data.
 				</p>
 			</li>
 			<li>
 				<p>
-					Why can't we make a pie chart for this data?
+					Why can't we make a pie chart for these data?
 				</p>
 			</li>
 		</ol>
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Environmenal Issue</cell>
 			<cell>Frequency</cell>
@@ -1221,7 +1255,7 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					This data is categorical.	
+					These data are categorical.
 				</p>
 			</li>
 			<li>
@@ -1233,7 +1267,7 @@
 			</li>
 			<li>
 				<p>
-					No, we cannot make a pie chart out of this data. The total of the relative frequencies is 1932, but only 1012 adults were asked. So some adults selected multiple options.
+					No, we cannot make a pie chart out of these data. The total of the relative frequencies is 1932, but only 1012 adults were asked. So some adults selected multiple options.
 				</p>
 			</li>
 		</ol>
@@ -1253,18 +1287,18 @@
 			</li>
 			<li>
 				<p>
-					Make a relative frequency bar chart for this data.	
+					Make a relative frequency bar chart for these data.	
 				</p>
 			</li>
 			<li>
 				<p>
-					Can we make a pie chart for this data?
+					Can we make a pie chart for these data?
 				</p>
 			</li>
 		</ol>
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Situation</cell>
 			<cell>Relative Frequency (%)</cell>
@@ -1301,7 +1335,7 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					This data is categorical.
+					These data are categorical.
 				</p>
 			</li>
 			<li>
@@ -1313,7 +1347,7 @@
 			</li>
 			<li>
 				<p>
-					No, we cannot make a pie chart out of this data. The relative frequencies add to 177%, which is more than 100%.
+					No, we cannot make a pie chart for these data. The relative frequencies add to 177%, which is more than 100%.
 				</p>
 			</li>
 		</ol>
@@ -1339,7 +1373,7 @@
 		</ol>
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Type of Heat</cell>
 			<cell>Relative Frequency (%)</cell>
@@ -1403,7 +1437,7 @@
 		</ol>
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Class</cell>
 			<cell>Relative Frequency (%)</cell>
@@ -1467,7 +1501,7 @@
 			</li>
 			<li>
 				<p>
-					Make a pie chart for the data. 
+					Make a pie chart for the data.
 				</p>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1484,8 +1518,6 @@
 						<cell>4</cell>
 						<cell>2</cell>
 						<cell>2</cell>
-					</row>
-					<row>
 						<cell>1</cell>
 						<cell>2</cell>
 						<cell>1</cell>
@@ -1510,12 +1542,12 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					This data is qualitative	
+					These data are qualitative.
 				</p>
 			</li>
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell><line>Number of cars</line><line>in household</line></cell>
 						<cell>Frequency</cell>
@@ -1544,7 +1576,7 @@
 			</li>
 			<li>
 				<p>
-					This data is unimodal and skewed right, with no outliers.
+					These data are unimodal and skewed right, with no outliers.
 				</p>
 			</li>
 		</ol>
@@ -1612,12 +1644,12 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					This is quantitative data.
+					These are quantitative data.
 				</p>
 			</li>
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Math Test Score</cell>
 						<cell>Frequency</cell>
@@ -1662,7 +1694,7 @@
 			</li>
 			<li>
 				<p>
-					The data is unimodal. There are no obvious outliers. The data is either symmetric or skewed left.
+					These data are unimodal. There are no obvious outliers. The data are either symmetric or skewed left.
 				</p>
 			</li>
 		</ol>
@@ -1691,7 +1723,7 @@
 <exercise>
 	<statement>
 	<p>
-		A poll was taken asking people if they agreed with the positions of the 4 candidates for a county office. Does this pie chart present a good representation of this data? Explain.
+		A poll was taken asking people if they agreed with the positions of the 4 candidates for a county office. Does this pie chart present a good representation of these data? Explain.
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_2/exercise_graph6.png">
@@ -1701,7 +1733,7 @@
 	</statement>
 	<solution>
 		<p>
-			No, this chart does not present a good representation of this data. The percentages in a pie chart must add to 100%, but these add to 193%. A bar chart would be appropriate for this data.
+			No, this chart does not present a good representation of these data. The percentages in a pie chart must add to 100%, but these add to 193%. A bar chart would be appropriate instead.
 		</p>
 	</solution>
 </exercise>
@@ -1814,18 +1846,18 @@
 			</li>
 			<li>
 				<p>
-					Negative or left skewed – Scores on a 20-point statistics quiz.	
+					Negative or left skewed – Scores on a 20-point statistics quiz.
 				</p>
 			</li>
 			<li>
 				<p>
-					Bimodal – The frequency of times between eruptions of the Old Faithful geyser.		
+					Bimodal – The frequency of times between eruptions of the Old Faithful geyser.
 				</p>
 			</li>
 		</ol>
 		</p>
 	</solution>
-</exercise> 
+</exercise>
 
 <exercise>
 	<statement>
@@ -1862,12 +1894,12 @@
 			</li>
 			<li>
 				<p>
-					This distribution is unimodal and symmetric. There are no outliers.	
+					This distribution is unimodal and symmetric. There are no outliers.
 				</p>
 			</li>
 			<li>
 				<p>
-					This distribution is unimodal and right skewed. There are no obvious outliers.		
+					This distribution is unimodal and right skewed. There are no obvious outliers.
 				</p>
 			</li>
 			<li>
@@ -1897,13 +1929,115 @@
 			</li>
 			<li>
 				<p>
-					Compare and contrast the two distributions. 
+					Compare and contrast the two distributions.
 				</p>
 				<p>
-					Researcher 1: 3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34 
+					Researcher 1 Patients (in months):
+					</p>
+					<p>
+				<sidebyside>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>3</cell>
+						<cell>4</cell>
+						<cell>11</cell>
+						<cell>15</cell>
+						<cell>16</cell>
+						<cell>17</cell>
+						<cell>22</cell>
+						<cell>44</cell>
+						<cell>37</cell>
+						<cell>16</cell>
+						<cell>14</cell>
+						<cell>24</cell>
+						<cell>25</cell>
+						<cell>15</cell>
+						<cell>26</cell>
+						<cell>27</cell>
+						<cell>33</cell>
+						<cell>29</cell>
+						<cell>35</cell>
+						<cell>44</cell>
+					</row>
+					<row>
+						<cell>13</cell>
+						<cell>21</cell>
+						<cell>22</cell>
+						<cell>10</cell>
+						<cell>12</cell>
+						<cell>8</cell>
+						<cell>40</cell>
+						<cell>32</cell>
+						<cell>26</cell>
+						<cell>27</cell>
+						<cell>31</cell>
+						<cell>34</cell>
+						<cell>29</cell>
+						<cell>17</cell>
+						<cell>8</cell>
+						<cell>24</cell>
+						<cell>18</cell>
+						<cell>47</cell>
+						<cell>33</cell>
+						<cell>34</cell>
+					</row>
+				</tabular>
+				</sidebyside>
 				</p>
 				<p>
-					Researcher 2: 3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29
+					Researcher 2 Patients (in months):
+				</p>
+				<p>
+					<sidebyside>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>3</cell>
+						<cell>14</cell>
+						<cell>11</cell>
+						<cell>5</cell>
+						<cell>16</cell>
+						<cell>17</cell>
+						<cell>28</cell>
+						<cell>41</cell>
+						<cell>31</cell>
+						<cell>18</cell>
+
+						<cell>14</cell>
+						<cell>14</cell>
+						<cell>26</cell>
+						<cell>25</cell>
+						<cell>21</cell>
+						<cell>22</cell>
+						<cell>31</cell>
+						<cell>2</cell>
+						<cell>35</cell>
+						<cell>44</cell>
+					</row>
+					<row>
+						<cell>23</cell>
+						<cell>21</cell>
+						<cell>21</cell>
+						<cell>16</cell>
+						<cell>12</cell>
+						<cell>18</cell>
+						<cell>41</cell>
+						<cell>22</cell>
+						<cell>16</cell>
+						<cell>25</cell>
+
+						<cell>33</cell>
+						<cell>34</cell>
+						<cell>29</cell>
+						<cell>13</cell>
+						<cell>18</cell>
+						<cell>24</cell>
+						<cell>23</cell>
+						<cell>42</cell>
+						<cell>33</cell>
+						<cell>29</cell>
+					</row>
+				</tabular>
+				</sidebyside>
 				</p>
 			</li>
 		</ol>
@@ -1926,7 +2060,7 @@
 			</li>
 			<li>
 				<p>
-					The data for patients of both researchers is symmetric. Researcher's 1 patients' data appears to be unimodal, but Researcher 2's patients' data may be bimodal or multimodal. The data for Researcher 1's patients does not have any outliers, but the data for Researcher's 2 may have outliers between 0 and 5 months or 40 and 45 months.
+					The data for patients of both researchers are symmetric. Researcher's 1 patients' data appears to be unimodal, but Researcher 2's patients' data may be bimodal or multimodal. The data for Researcher 1's patients does not have any outliers, but the data for Researcher's 2 may have outliers between 0 and 5 months or 40 and 45 months.
 				</p>
 			</li>
 		</ol>

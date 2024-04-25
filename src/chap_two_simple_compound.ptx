@@ -329,7 +329,7 @@
 		Calculating out a few more months in a table or a spreadsheet we have:
 	</p>
 	<sidebyside>
-	<tabular top="minor" left="minor" right="minor" bottom="minor" halign="left">
+	<tabular row-headers="yes" top="minor" left="minor" right="minor" bottom="minor" halign="left">
 		<row header="yes">
 			<cell>Month</cell>
 			<cell>Starting balance</cell>
@@ -610,7 +610,7 @@
 	<sidebyside valign="bottom" widths="60% 36%" margins="0%">
 	<table>
 	<title></title>
-		<tabular top="minor" left="minor" right="minor" bottom="minor" halign="left">
+		<tabular row-headers="yes" top="minor" left="minor" right="minor" bottom="minor" halign="left">
 		<row header="yes">
 			<cell>Year</cell>
 			<cell><line>Simple Interest</line><line>($15 per month)</line></cell>

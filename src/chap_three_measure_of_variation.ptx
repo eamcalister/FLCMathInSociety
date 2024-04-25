@@ -47,16 +47,70 @@
 		Consider these three sets of quiz scores for a 10-point quiz:
 	</p>
 	<p>
-		Section A: 5 5 5 5 5 5 5 5 5 5 
+		Section A:
 	</p>
 	<p>
-		Section B: 0 0 0 0 0 10 10 10 10 10 
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
-		Section C: 4 4 4 5 5 5 5 6 6 6 
+		Section B:
 	</p>
 	<p>
-		All three data sets have a mean of 5 points and median of 5 points, yet the sets of scores are clearly quite different. In Section A, everyone had the same score; in Section B half the class got no points and the other half got a perfect score. Section C was not as consistent as section A, but not as widely varied as section B. 
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>0</cell>
+					<cell>0</cell>
+					<cell>0</cell>
+					<cell>0</cell>
+					<cell>0</cell>
+					<cell>10</cell>
+					<cell>10</cell>
+					<cell>10</cell>
+					<cell>10</cell>
+					<cell>10</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+	</p>
+	<p>
+		Section C:
+	</p>
+	<p>
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>4</cell>
+					<cell>4</cell>
+					<cell>4</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>6</cell>
+					<cell>6</cell>
+					<cell>6</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+	</p>
+	<p>
+		All three data sets have a mean of 5 points and median of 5 points, yet the sets of scores are clearly quite different. In Section A, everyone had the same score; in Section B half the class got no points and the other half got a perfect score. Section C was not as consistent as section A, but not as widely varied as section B.
 	</p>
 	<p>
 		Thus, in addition to the mean and median, which are measures of center or the <q>average</q> value, we also need a measure of how <q>spread out</q>" or varied each data set is.
@@ -85,7 +139,25 @@
 		We will go through the whole process for calculating the standard deviation. Let's say there is another section of quiz scores:
 	</p>
 	<p>
-		Section D: 0, 5, 5, 5, 5, 5, 5, 5, 5, 10
+		Section D:
+	</p>
+	<p>
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>0</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>5</cell>
+					<cell>10</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
 		The mean quiz score, like Sections A, B and C, is 5 points.
@@ -94,7 +166,7 @@
 		The first step in finding the standard deviation is to find the deviation, or difference, of each data value from the mean. We will do this in a table. You could also use a spreadsheet to do these calculations.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell><alert>Data Value</alert></cell>
 				<cell><alert>Deviation: (Data Value – Mean)</alert></cell>
@@ -146,7 +218,7 @@
 		We would like to get an idea of the <q>average</q> deviation from the mean, but if we find the average of the values in the second column, the negative and positive values cancel each other out (this will always happen), so to prevent this we square the deviations.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell><alert>Data Value</alert></cell>
 				<cell><alert>Deviation: (Data Value – Mean)</alert></cell>
@@ -300,13 +372,13 @@
 	</p>
 	<example>
 		<p>
-			To continue our peanut butter example, we will find the standard deviation of this sample: $3.29, $3.59, $3.79, $3.75, and $3.99.
+			To continue our peanut butter example, we will find the standard deviation of this sample in dollars: 3.29, 3.59, 3.79, 3.75, and 3.99.
 		</p>
 		<p>
 			The first thing we need to find is the sample mean, and we know it is $3.68 from our previous work. Next, we need to find the deviation from the mean for each data value and square it.
 		</p>
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell><alert>Data Value</alert></cell>
 				<cell><alert>Deviation</alert></cell>
@@ -372,20 +444,56 @@
 	<example xml:id="textbook_example_mean_median_sd">
 		<statement>
 		<p>
-			The total cost of textbooks for the term was collected from 36 students. Use a spreadsheet to find the mean, median, and standard deviation of the sample.
+			The total cost of textbooks, in dollars, for the term was collected from 36 students. Use a spreadsheet to find the mean, median, and standard deviation of the sample.
 		</p>
 		<p>
-			$140 $160 $160 $165 $180 $220 $235 $240 $250
-		</p>
-		<p>
-			$260 $280 $285 $285 $285 $290 $300 $300 $305
-		</p>
-		<p>
-			$310 $310 $315 $315 $320 $320 $330 $340 $345
-		</p>
-		<p>
-			$350 $355 $360 $360 $380 $395 $420 $460 $460
-		</p>
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>140</cell>
+					<cell>160</cell>
+					<cell>160</cell>
+					<cell>165</cell>
+					<cell>180</cell>
+					<cell>220</cell>
+					<cell>235</cell>
+					<cell>240</cell>
+					<cell>250</cell>
+					<cell>260</cell>
+					<cell>280</cell>
+					<cell>285</cell>
+				</row>
+				<row>
+					<cell>285</cell>
+					<cell>285</cell>
+					<cell>290</cell>
+					<cell>300</cell>
+					<cell>300</cell>
+					<cell>305</cell>
+					<cell>310</cell>
+					<cell>310</cell>
+					<cell>315</cell>
+					<cell>315</cell>
+					<cell>320</cell>
+					<cell>320</cell>
+				</row>
+				<row>
+					<cell>330</cell>
+					<cell>340</cell>
+					<cell>345</cell>
+					<cell>350</cell>
+					<cell>355</cell>
+					<cell>360</cell>
+					<cell>360</cell>
+					<cell>380</cell>
+					<cell>395</cell>
+					<cell>420</cell>
+					<cell>460</cell>
+					<cell>460</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+	</p>
 		<p>
 			Since we are finding more than one statistic for this data set, it is much more efficient to enter the data values into a row or column and reference the range in each of the formulas. We enter the data into column A.
 		</p>
@@ -505,10 +613,27 @@
 	<example>
 		<statement>
 		<p>
-			(even number of data values): Suppose we have measured the height, in inches, of 12 people who identify as female. The data values are listed below. Find the interquartile range.
+			For an even number of data values: Suppose we have measured the height, in inches, of 12 people who identify as female. The data values are listed below. Find the interquartile range.
 		</p>
 		<p>
-			59 60 69 64 70 72 66 64 67 66 63 61
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>59</cell>
+					<cell>60</cell>
+					<cell>69</cell>
+					<cell>64</cell>
+					<cell>70</cell>
+					<cell>72</cell>
+					<cell>66</cell>
+					<cell>64</cell>
+					<cell>67</cell>
+					<cell>66</cell>
+					<cell>63</cell>
+					<cell>61</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 		</p>
 		</statement>
 		<solution>
@@ -516,14 +641,32 @@
 			Just like when finding the median, we must first order the data.
 		</p>
 		<p>
-			59 60 61 63 64 64 66 66 67 69 70 72
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>59</cell>
+					<cell>60</cell>
+					<cell>61</cell>
+					<cell>63</cell>
+					<cell>64</cell>
+					<cell>64</cell>
+					<cell>66</cell>
+					<cell>66</cell>
+					<cell>67</cell>
+					<cell>69</cell>
+					<cell>70</cell>
+					<cell>72</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 		</p>
 		<p>
 			Then we divide the data into two halves. In the case of an even sample size, we split the distribution down the middle. The first 6 data values are the lower half and the next 6 data values are the upper half. Then we find the median of each. The median of the lower half is Q1 and the median of the upper half is Q3.
 		</p>
+		<!-- Todo: can't figure out why the text isn't centered like it is in section 3.3-->
 		<p>
 			<md>
-			<mrow>\overbrace{59,60, \underbrace{61, 63,}^{Q1 =\frac{61+63}{2}=62} 64, 64,}^{\text{Lower Half}} \overbrace{66, 66, \underbrace{67, 69,}^{Q3 =\frac{67+69}{2}=68} 70, 72}^{\text{Upper Half}}</mrow>
+			<mrow>\overbrace{59,60,\underbrace{61,63,}^{Q1=\frac{61+63}{2}=62} 64,64,}^{\text{Lower Half}} \overbrace{66,66,\underbrace{67, 69,}^{Q3 =\frac{67+69}{2}=68} 70,72}^{\text{Upper Half}}</mrow>
 		</md>
 		</p>
 
@@ -542,19 +685,41 @@
 	</example>
 
 	<example>
-		<p>
-			(odd number of data values): Suppose we added one more height (68 inches) to the data set from the previous example. We will again find the interquartile range of the heights.
-		</p>
-		<p>
-			59 60 61 63 64 64 66 66 67 68 69 70 72
-		</p>
+		<statement>
+			<p>
+				For an odd number of data values: Suppose we added one more height (68 inches) to the data set from the previous example. We will again find the interquartile range of the heights.
+			</p>
+			<p>
+				<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>59</cell>
+					<cell>60</cell>
+					<cell>61</cell>
+					<cell>63</cell>
+					<cell>64</cell>
+					<cell>64</cell>
+					<cell>66</cell>
+					<cell>66</cell>
+					<cell>67</cell>
+					<cell>68</cell>
+					<cell>69</cell>
+					<cell>70</cell>
+					<cell>72</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+			</p>
+		</statement>
+		<solution>
 		<p>
 			The data are already in order, but we have an odd number of values. To deal with this we do not use the median in the upper or lower halves. The lower half will include the values strictly below the median, and the upper half will include the values strictly above the median.
 		</p>
 		<p>
 			<md>
-			<mrow>\overbrace{59,60, \underbrace{61, 63,}^{Q1 =\frac{61+63}{2}=62} 64, 64,}^{\text{Lower Half}} \overbrace{66}^{\text{Median(Ignore)}} \overbrace{66, 67, \underbrace{68, 69,}^{Q3 =\frac{68+69}{2}=68.5} 70, 72}^{\text{Upper Half}}</mrow>
-		</md>
+				<!-- Todo: can't figure out why the text isn't centered like it is in section 3.3-->
+				<mrow>\overbrace{59,60, \underbrace{61, 63,}^{Q1 =\frac{61+63}{2}=62} 64, 64, }^{\text{Lower Half}} \overbrace{66}^{\text{Median(Ignore)}} \overbrace{66, 67, \underbrace{68, 69,}^{Q3 =\frac{68+69}{2}=68.5} 70, 72}^{\text{Upper Half}}</mrow>
+			</md>
 		</p>
 
 		<p>
@@ -583,10 +748,13 @@
 			<mrow>IQR=68.5-62=6.5\text{ inches}</mrow>
 		</md>
 		</p>
+		<p>
+		This is the same value we found by hand.
+	</p>
+	</solution>
 	</example>
-
 	<p>
-		This is the same value we found by hand. It is important to note that we are not using spreadsheets for the five-number summary because they do not calculate the quartiles in the same way, so they will not give the same results. Now that we have learned how to find the quartiles we can make a five-number summary and boxplot.
+		It is important to note that we are not using spreadsheets for the five-number summary because they do not calculate the quartiles in the same way, so they will not give the same results. Now that we have learned how to find the quartiles we can make a five-number summary and boxplot.
 	</p>
 </subsection>
 
@@ -609,19 +777,55 @@
 	<example>
 		<statement>
 		<p>
-			Let's continue with the cost of textbook data from <xref ref="textbook_example_mean_median_sd"></xref>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.
+			Let's continue with the cost of textbook data in dollars from <xref ref="textbook_example_mean_median_sd"></xref>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.
 		</p>
 		<p>
-			$140 $160 $160 $165 $180 $220 $235 $240 $250
-		</p>
-		<p>
-			$260 $280 $285 $285 $285 $290 $300 $300 $305
-		</p>
-		<p>
-			$310 $310 $315 $315 $320 $320 $330 $340 $345
-		</p>
-		<p>
-			$350 $355 $360 $360 $380 $395 $420 $460 $460
+			<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>140</cell>
+					<cell>160</cell>
+					<cell>160</cell>
+					<cell>165</cell>
+					<cell>180</cell>
+					<cell>220</cell>
+					<cell>235</cell>
+					<cell>240</cell>
+					<cell>250</cell>
+					<cell>260</cell>
+					<cell>280</cell>
+					<cell>285</cell>
+				</row>
+				<row>
+					<cell>285</cell>
+					<cell>285</cell>
+					<cell>290</cell>
+					<cell>300</cell>
+					<cell>300</cell>
+					<cell>305</cell>
+					<cell>310</cell>
+					<cell>310</cell>
+					<cell>315</cell>
+					<cell>315</cell>
+					<cell>320</cell>
+					<cell>320</cell>
+				</row>
+				<row>
+					<cell>330</cell>
+					<cell>340</cell>
+					<cell>345</cell>
+					<cell>350</cell>
+					<cell>355</cell>
+					<cell>360</cell>
+					<cell>360</cell>
+					<cell>380</cell>
+					<cell>395</cell>
+					<cell>420</cell>
+					<cell>460</cell>
+					<cell>460</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 		</p>
 		</statement>
 		<solution>
@@ -655,7 +859,7 @@
 			</tabular>
 		</sidebyside>
 		<p>
-			To draw the boxplot, we will first draw a number line that extends a little beyond the minimum and maximum values, and choose a scale. We decided to draw our number line from $120 to $480, in increments of $40. Then we add a meaningful title and units. 
+			To draw the boxplot, we will first draw a number line that extends a little beyond the minimum and maximum values, and choose a scale. We decided to draw our number line from $120 to $480, in increments of $40. Then we add a meaningful title and units.
 		</p>
 
 		<p>
@@ -675,12 +879,29 @@
 	<example>
 		<statement>
 		<p>
-			We will continue with our height data from the 12 people who identify as women. Find the five-number summary and create a boxplot using GeoGebra.
+			We will continue with our height data, in inches, from the 12 people who identify as women. Find the five-number summary and create a boxplot using GeoGebra.
 		</p>
 		</statement>
 		<solution>
 		<p>
-			59 60 69 64 70 72 66 64 67 66 63 61
+			<sidebyside>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>59</cell>
+						<cell>60</cell>
+						<cell>69</cell>
+						<cell>64</cell>
+						<cell>70</cell>
+						<cell>72</cell>
+						<cell>66</cell>
+						<cell>64</cell>
+						<cell>67</cell>
+						<cell>66</cell>
+						<cell>63</cell>
+						<cell>61</cell>
+					</row>
+				</tabular>
+			</sidebyside>
 		</p>
 		<p>
 			Following the steps above we have the following GeoGebra output. The last five entries in the statistics table are the five-number summary and we have the boxplot on the right.
@@ -725,7 +946,7 @@
 		</sidebyside>
 	
 		<p>
-			Now we have a full picture of this data. 
+			Now we have a full picture of the data.
 		</p>
 		</solution>
 	</example>
@@ -802,7 +1023,10 @@
 			</image>
 		</sidebyside>
 		<p>
-			Comparing the two groups, the boxplot reveals that the birth weights of the infants that died appear to be, overall, smaller than the weights of infants that survived. In fact, we can see that the median birth weight of infants that survived is about the same as the third quartile of the infants that died. Similarly, we can see that the 25th percentile of the survivors is larger than the 50th percentile of those that died, meaning that over 75% of the survivors had a birth weight larger than the median birth weight of those that died.<!-- linebreak -->Looking at the maximum value for those that died and the third quartile of the survivors, we can see that over 25% of the survivors had birth weights higher than the heaviest infant that died. The box plots give us a quick, though informal, way to determine that birth weight is quite likely linked to the survival of infants with SIRDS.
+			Comparing the two groups, the boxplot reveals that the birth weights of the infants that died appear to be, overall, smaller than the weights of infants that survived. In fact, we can see that the median birth weight of infants that survived is about the same as the third quartile of the infants that died. Similarly, we can see that the 25th percentile of the survivors is larger than the 50th percentile of those that died, meaning that over 75% of the survivors had a birth weight larger than the median birth weight of those that died.
+		</p>
+		<p>
+			Similarly, looking at the maximum value for those that died and the third quartile of the survivors, we can see that over 25% of the survivors had birth weights higher than the heaviest infant that died. The box plots give us a quick, though informal, way to determine that birth weight is quite likely linked to the survival of infants with SIRDS.
 		</p>
 		</solution>
 	</example>
@@ -811,7 +1035,7 @@
 <subsection>
 	<title>Z-Scores</title>
 	<p>
-		Have you ever heard the saying that you can't compare apples and oranges? It turns out that you can - provided we standardize their measures first! 
+		Have you ever heard the saying that you can't compare apples and oranges? It turns out that you can - provided we standardize their measures first!
 	</p>
 	<p>
 		We will be using the standard score called a Z-score, which is a method commonly used with unimodal and symmetric distributions (called <alert>normal</alert> or <alert>nearly normal distributions</alert>). Z-scores may be used with any data, but if the distribution is skewed, then the distribution of Z-scores will also be skewed. 
@@ -923,16 +1147,41 @@
 
 <exercises>
 <title>Exercises</title>
-<!-- <introduction>
-	<p>
-		Many of the datasets from Exercises 3.3 are repeated here so you can use your previous work to help you.
-	</p>
-</introduction> -->
+	<introduction>
+		<p>
+			Many of the datasets from the Measures of Center section are repeated here so you can use your previous work to help you.
+		</p>
+	</introduction> -->
 
 <exercise><!--  #1 -->
 	<statement>
 	<p>
-		A group of diners were asked how much they would pay for a meal. Their responses were: $7.50, $25.00, $10.00, $10.00, $7.50, $8.25, $9.00, $5.00, $15.00, $8.00, $7.25, $7.50, $8.00, $7.00, $12.00.
+		A group of diners were asked how much they would pay for a breakfast in dollars. Their responses were:
+	</p>
+	<p>
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>7.50</cell>
+					<cell>25</cell>
+					<cell>10</cell>
+					<cell>10</cell>
+					<cell>7.50</cell>
+					<cell>8.25</cell>
+					<cell>9</cell>
+					<cell>5</cell>
+					<cell>15</cell>
+					<cell>8</cell>
+					<cell>7.25</cell>
+					<cell>7.50</cell>
+					<cell>8</cell>
+					<cell>7</cell>
+					<cell>12</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+	</p>
+	<p>
 		<ol marker="a.">
 			<li>
 				<p>
@@ -941,7 +1190,7 @@
 			</li>
 			<li>
 				<p>
-					Calculate the five-number summary for this data. 
+					Calculate the five-number summary for this data.
 				</p>
 			</li>
 			<li>
@@ -980,7 +1229,7 @@
 					We will make a table of data values, their deviations from the mean, and the squared deviations:
 				</p>
 				<sidebyside>
-				<tabular top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Data Value</cell>
 						<cell>Deviation</cell>
@@ -1184,7 +1433,27 @@
 <exercise><!--  #2 -->
 	<statement>
 	<p>
-		The amount of commercials in an hour of television varies by channel. The total length (in minutes) of all commercials from 8 pm to 9 pm in for some selected broadcast and cable channels on a weekday evening were: 10, 12.75, 7, 9, 9.75, 6.5, 12.5, 12.5, 8.75, 17, 10.5, 2
+		The amount of commercials in an hour of television varies by channel. The total length (in minutes) of all commercials from 8 pm to 9 pm for some randomly selected broadcast and cable channels on a weekday evening were:
+	</p>
+	<p>
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>10</cell>
+					<cell>12.75</cell>
+					<cell>7</cell>
+					<cell>9</cell>
+					<cell>9.75</cell>
+					<cell>6.5</cell>
+					<cell>12.5</cell>
+					<cell>12.5</cell>
+					<cell>8.75</cell>
+					<cell>17</cell>
+					<cell>10.5</cell>
+					<cell>2</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1293,7 +1562,25 @@
 <exercise><!--  #3 -->
 	<statement>
 	<p>
-		You recorded the time in seconds it took for 8 participants to solve a puzzle. The times were: 15.2, 18.8, 19.3, 19.7, 20.2, 21.8, 22.1, 29.4.
+		You recorded the time in seconds it took for 8 participants to solve a puzzle. The times were:
+	</p>
+	<p>
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>15.2</cell>
+					<cell>18.8</cell>
+					<cell>19.3</cell>
+					<cell>19.7</cell>
+					<cell>20.2</cell>
+					<cell>21.8</cell>
+					<cell>22.1</cell>
+					<cell>29.4</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+	</p>
+	<p>
 		<ol marker="a.">
 			<li>
 				<p>
@@ -1400,7 +1687,24 @@
 <exercise><!--  #4 -->
 	<statement>
 	<p>
-		You weigh 9 Oreo cookies, and you find the weights (in grams) are: 3.49, 3.51, 3.51, 3.51, 3.52, 3.54, 3.55, 3.58, 3.61
+		You weigh 9 Oreo cookies, and you find the weights (in grams) are:
+	</p>
+	<p>
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>3.49</cell>
+					<cell>3.51</cell>
+					<cell>3.51</cell>
+					<cell>3.51</cell>
+					<cell>3.52</cell>
+					<cell>3.54</cell>
+					<cell>3.55</cell>
+					<cell>3.58</cell>
+					<cell>3.61</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1531,7 +1835,7 @@
 					Create a boxplot for the data.
 				</p>
 				<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell><line>Cost</line><line>(Thousands of dollars)</line></cell>
 							<cell>Frequency</cell>
@@ -1692,7 +1996,7 @@
 	</ol>
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell><line>Length of an email</line><line>(Thousands of characters)</line></cell>
 			<cell>Frequency</cell>
@@ -1851,6 +2155,116 @@
 	<statement>
 	<p>
 		Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer drug is currently under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout their treatment. The following data (in months) are collected.
+	</p>
+	<p>
+		Researcher 1 Patients (in months):
+	</p>
+	<p>
+			<sidebyside>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>3</cell>
+						<cell>4</cell>
+						<cell>11</cell>
+						<cell>15</cell>
+						<cell>16</cell>
+						<cell>17</cell>
+						<cell>22</cell>
+						<cell>44</cell>
+						<cell>37</cell>
+						<cell>16</cell>
+						<cell>14</cell>
+						<cell>24</cell>
+						<cell>25</cell>
+						<cell>15</cell>
+						<cell>26</cell>
+						<cell>27</cell>
+						<cell>33</cell>
+						<cell>29</cell>
+						<cell>35</cell>
+						<cell>44</cell>
+					</row>
+					<row>
+						<cell>13</cell>
+						<cell>21</cell>
+						<cell>22</cell>
+						<cell>10</cell>
+						<cell>12</cell>
+						<cell>8</cell>
+						<cell>40</cell>
+						<cell>32</cell>
+						<cell>26</cell>
+						<cell>27</cell>
+						<cell>31</cell>
+						<cell>34</cell>
+						<cell>29</cell>
+						<cell>17</cell>
+						<cell>8</cell>
+						<cell>24</cell>
+						<cell>18</cell>
+						<cell>47</cell>
+						<cell>33</cell>
+						<cell>34</cell>
+					</row>
+				</tabular>
+				</sidebyside>
+				</p>
+				<p>
+					Researcher 2 Patients (in months):
+				</p>
+				<p>
+					<sidebyside>
+				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<row>
+						<cell>3</cell>
+						<cell>14</cell>
+						<cell>11</cell>
+						<cell>5</cell>
+						<cell>16</cell>
+						<cell>17</cell>
+						<cell>28</cell>
+						<cell>41</cell>
+						<cell>31</cell>
+						<cell>18</cell>
+
+						<cell>14</cell>
+						<cell>14</cell>
+						<cell>26</cell>
+						<cell>25</cell>
+						<cell>21</cell>
+						<cell>22</cell>
+						<cell>31</cell>
+						<cell>2</cell>
+						<cell>35</cell>
+						<cell>44</cell>
+					</row>
+					<row>
+						<cell>23</cell>
+						<cell>21</cell>
+						<cell>21</cell>
+						<cell>16</cell>
+						<cell>12</cell>
+						<cell>18</cell>
+						<cell>41</cell>
+						<cell>22</cell>
+						<cell>16</cell>
+						<cell>25</cell>
+
+						<cell>33</cell>
+						<cell>34</cell>
+						<cell>29</cell>
+						<cell>13</cell>
+						<cell>18</cell>
+						<cell>24</cell>
+						<cell>23</cell>
+						<cell>42</cell>
+						<cell>33</cell>
+						<cell>29</cell>
+					</row>
+				</tabular>
+				</sidebyside>
+			</p>
+		<p>
 		<ol marker="a.">
 			<li>
 				<p>
@@ -1871,12 +2285,7 @@
 				<p>
 					Create side-by-side boxplots and compare and contrast the two groups. 
 				</p>
-				<p>
-					Researcher 1: 3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34
-				</p>
-				<p>
-					Researcher 2: 3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29
-				</p>
+				
 			</li>
 		</ol>
 	</p>
@@ -2013,10 +2422,46 @@
 		The US Census Bureau, in addition to counting the population of the US every 10 years, conducts yearly informational surveys, such as the American Community Survey (ACS). For the 2012 ACS, a randomly chosen group of 20 respondents (10 males, 10 females) answered a question about their incomes.
 	</p>
 	<p>
-		Males: $53,000; $70,000; $12,800; 30,000; $4,500; $42,000; $48,000; $60,000; $108,000; $11,000
+		Income in dollars for people who identify as female:
 	</p>
 	<p>
-		Females: $1,600; $1,200; $20,000; $25,000; $670; $29,000; $44,000; $30,000; $5,800; $50,000
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>1,600</cell>
+					<cell>1,200</cell>
+					<cell>20,000</cell>
+					<cell>25,000</cell>
+					<cell>670</cell>
+					<cell>29,000</cell>
+					<cell>44,000</cell>
+					<cell>30,000</cell>
+					<cell>5,800</cell>
+					<cell>50,000</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+	</p>
+	<p>
+		Income in dollars for people who identify as male:
+	</p>
+	<p>
+		<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>53,000</cell>
+					<cell>70,000</cell>
+					<cell>12,800</cell>
+					<cell>30,000</cell>
+					<cell>4,500</cell>
+					<cell>42,000</cell>
+					<cell>48,000</cell>
+					<cell>60,000</cell>
+					<cell>108,000</cell>
+					<cell>11,000</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
 	<ol marker="a.">
@@ -3147,7 +3592,28 @@
 <exercise><!--  #17 -->
 	<statement>
 	<p>
-		This data is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities: 56, 53, 53, 50, 46, 45, 44, 43, 42, 40, 36
+		This data set is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities:
+	</p>
+	<p>
+	<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>56</cell>
+					<cell>53</cell>
+					<cell>53</cell>
+					<cell>50</cell>
+					<cell>46</cell>
+					<cell>45</cell>
+					<cell>44</cell>
+					<cell>43</cell>
+					<cell>42</cell>
+					<cell>40</cell>
+					<cell>36</cell>
+				</row>
+			</tabular>
+		</sidebyside>
+	</p>
+	<p>
 		<ol marker="a.">
 			<li>
 				<p>
@@ -3196,7 +3662,27 @@
 <exercise><!--  #18 -->
 	<statement>
 	<p>
-		In a survey of 12 companies recruiting for recent college graduates, they reported the following numbers of job applicants per job posting: 123, 123, 134, 127, 115, 122, 125, 101, 130, 143, 110, and 122.
+		In a survey of 12 companies recruiting for recent college graduates, they reported the following numbers of job applicants per job posting:
+	</p>
+	<p>
+	<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>123</cell>
+					<cell>123</cell>
+					<cell>134</cell>
+					<cell>127</cell>
+					<cell>115</cell>
+					<cell>122</cell>
+					<cell>125</cell>
+					<cell>101</cell>
+					<cell>130</cell>
+					<cell>143</cell>
+					<cell>110</cell>
+					<cell>122</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">

@@ -9,7 +9,7 @@
 		A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
@@ -112,7 +112,7 @@
 		A professor gave a test to students in a science class and in a math class during the same week. The grades are summarized below.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
@@ -215,7 +215,7 @@
 		Four Cable Channels (2, 6, 8, 12) have Drama series, Sitcoms, Game Shows, and News. The number of each type of show is listed in the table below. Complete the table and use it to answer the questions.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Type</cell>
 			<cell>Channel 2</cell>
@@ -303,7 +303,7 @@
 	</statement>
 	<solution>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Type</cell>
 				<cell>Channel 2</cell>
@@ -397,7 +397,7 @@
 		Four Cable Channels (3, 5, 7, 13) have Reality shows, Crime dramas, Cooking Shows, and Community Programming. The number of each type of show is listed in the table below. Complete the table and use it to answer the questions.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Type</cell>
 			<cell>Channel 3</cell>
@@ -485,7 +485,7 @@
 	</statement>
 	<solution>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Type</cell>
 				<cell>Channel 3</cell>
@@ -911,7 +911,7 @@
 		<ol marker="a.">
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Color</cell>
 						<cell>Black</cell>
@@ -978,7 +978,7 @@
 		<ol marker="a.">
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Roll</cell>
 						<cell>6</cell>
@@ -1032,7 +1032,7 @@
 	</statement>
 	<solution>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Outcome</cell>
 				<cell>Product Failed</cell>
@@ -1064,7 +1064,7 @@
 	</statement>
 	<solution>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Outcome</cell>
 				<cell>Winning Ticket</cell>

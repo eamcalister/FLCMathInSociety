@@ -25,8 +25,8 @@
 			</entity>
 		</credit>
 		<credit>
-			<role>Technology Editor</role>
-			<entity>Emiliano Vega</entity>
+			<role>Technology Editors</role>
+			<entity>Emiliano Vega, Cara Lee</entity>
 		</credit>
 		<credit>
     		<role>Attribution</role>
@@ -40,13 +40,13 @@
 				See the Attributions page for details.
     		</entity>
 		</credit>
-    	<edition>1.0</edition>
+    	<edition>1.1</edition>
     	<website>
 			<url href="https://spot.pcc.edu/math/mathinsociety/"
 				visual="spot.pcc.edu/math/mathinsociety"/>
     	</website>
 		<copyright>
-			<year>2018</year>
+			<year>2024, 2018</year>
 			<holder>Portland Community College Math Instructors</holder>
 			<minilicense>CC BY-SA 4.0</minilicense>
 			<shortlicense>CC BY-SA 4.0</shortlicense>
@@ -102,7 +102,7 @@
 		<p>
 			<alert>How to cite this book:</alert>
 			<url href="https://spot.pcc.edu/math/mathinsociety/"
-				visual="spot.pcc.edu/math/mathinsociety"><q>Math In Society: Mathematics for liberal arts majors</q></url>
+				visual="spot.pcc.edu/math/mathinsociety"><q>Math In Society: Mathematics for liberal arts majors, Edition 1.1</q></url>
 			by Lee et al., Portland Community College Math Department is licensed under
 			<url href="http://creativecommons.org/licenses/by-sa/4.0"
 				visual="creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</url>
@@ -198,14 +198,12 @@
 				</li>
 				<li>
 					<p>
-						All chapter reviews are original to the Portland Community College Math
-						Department.
+						All chapter reviews are original to the Portland Community College Math Department.
 					</p>
 				</li>
 				<li>
 					<p>
-						Images in the chapters that were not in the original OER or created by the
-						PCC authors have attributions in footnotes.
+						Images in the chapters that were not in the original OER or created by the PCC authors have attributions in footnotes.
 					</p>
 				</li>
 			</ul>
@@ -242,35 +240,23 @@
 	<title>Project Notes</title>
     	<blockquote>
     		<p>
-    			<em>We dedicate this book to our students. May you have greater ease in paying for
-				college and grow your proficiency and confidence in math.</em>
+    			<em>We dedicate this book to our students. May you have greater ease in paying for college and grow your proficiency and confidence in math.</em>
 			</p>
     	</blockquote>
 		<paragraphs>
 			<title>Acknowledgements</title>
 			<p>
 				We would like to thank Amy Hofer and grant support from
-				<url href="https://openoregon.org/" visual="openoregon.org">Open Oregon Educational Resources</url>
-				and the PCC librarians and OER steering committee. Thanks also to Kaela Parks and
-				Michael Cantino of Disability Services for their expertise on accessibility.
+				<url href="https://openoregon.org/" visual="openoregon.org">Open Oregon Educational Resources</url> and the PCC librarians and OER steering committee. Thanks also to Kaela Parks and Michael Cantino of Accessible Education and Disability Resources for their expertise on accessibility. Extended thanks to Alex Jordan for continued support with <url href="https://pretextbook.org/" visual="pretextbook.org">PreTeXt</url>.
 			</p>
 		</paragraphs>
 		<paragraphs>
 			<title>Antiracist and Culturally Responsive Elements</title>
 			<p>
-				Our goal is for our students to see themselves in this book. We have added stories
-				of mathematicians and economists with identities that have traditionally been
-				underrepresented in textbooks. We use local places and culturally diverse names in
-				the examples and exercises. We have examples with they/them/their pronouns and
-				same-sex couples.
+				Our goal is for our students to see themselves in this book. We have added stories of mathematicians and economists with identities that have traditionally been underrepresented in textbooks. We use local places and culturally diverse names in the examples and exercises. We have examples with they/them/their pronouns and same-sex couples.
 			</p>
    			<p>
-   				In the democracy chapter we have included the Native American genocide and slavery
-				which are often left out of math texts. We have also emphasized the names of civil
-				rights leaders and African Americans killed by the police in our examples. We
-				recognize there is more to do in this area and welcome contributions and feedback.
-				Please email Cara Lee at <email>cara.lee@pcc.edu</email> or use the Google Form link
-				below.
+   				In the democracy chapter we have included the Native American genocide and slavery which are often left out of math texts. We have also emphasized the names of civil rights leaders and African Americans killed by the police in our examples. We recognize there is more to do in this area and welcome contributions and feedback. Please email Cara Lee at <email>cara.lee@pcc.edu</email> or use the Google Form link below.
 			</p>
 		</paragraphs>
 		<paragraphs>
@@ -307,8 +293,7 @@
 			<title>Accessibility</title>
 			<p>
 				The <init>HTML</init> version of this book is intended to meet or exceed web
-				accessibility standards. The alternate text for images is in progress. If you find
-				anything that can improve the accessibility of this book, please email Cara Lee at
+				accessibility standards. If you find anything that can improve the accessibility of this book, please email Cara Lee at
 				<email>cara.lee@pcc.edu</email> or use the Google Form link below.
 			</p>
 		</paragraphs>
@@ -361,7 +346,7 @@
 			<email>cara.lee@pcc.edu</email>. Instructor status will be verified.
 		</p>
 	</preface>
-
+<!-- Comment out for printing pdf. Todo: put back for web version
 	<preface>
 		<title>Errata</title>
 		<p>
@@ -370,8 +355,7 @@
 				visual="forms.gle/s14kNGd7anRmVgCD6">Google Form</url>.
 		</p>
 		<p>
-			These errors have been found since the last printing and fixed in the online version.
-			The next printed books will have these corrections.
+			When errors are found they will be listed here when fixed in the online version. The corrections will be reflected in the print version at the next revision date.
 		</p>
 		<tabular row-headers="yes" halign="left" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
@@ -379,29 +363,9 @@
 				<cell>Error Description</cell>
 			</row>
 			<row>
-				<cell>1.1</cell>
-				<cell>In the symbols box, not A can also be written as ~A.</cell>
-			</row>
-			<row>
-				<cell>2.2</cell>
-				<cell>Example 2.2.3 was fixed so that I = $1000(.0025) = $2.50.</cell>
-			</row>
-			<row>
-				<cell>2.2</cell>
-				<cell>Example 2.2.5 was fixed to have 12*20 in the spreadsheet formula instead of 12/20.</cell>
-			</row>
-			<row>
-				<cell>2.2</cell>
-				<cell>Example 2.2.7 was fixed so that 40,000 is in the formula instead of 4000.</cell>
-			</row>
-			<!-- <row>
-				<cell>2.4</cell>
-				<cell>Example 2.4.5 was fixed to calculate 1% of the new balance and is now 2.4.6. Example 2.4.7 was removed until it can be corrected.</cell>
-			</row> -->
-			<row>
-				<cell>5.1</cell>
-				<cell>Rodney King was not killed by the police but he was brutally beaten by four white police officers.</cell>
+				<cell></cell>
+				<cell></cell>
 			</row>
 		</tabular>
-	</preface>
+	</preface> -->
 </frontmatter>

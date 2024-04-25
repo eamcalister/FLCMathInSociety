@@ -3,7 +3,7 @@
 <title>Apportionment</title>
 
 <objectives>
-<title><xref ref="chap_five_apportionment"></xref></title>
+<title><xref ref="chap_five_apportionment"></xref> Apportionment</title>
 	<introduction>
 		<p>
 			Students will be able to:
@@ -205,7 +205,7 @@
 			A new state is named after George Floyd, killed by the police in Minneapolis, Minnesota in 2020. Floyd has three counties: King, Garner and Taylor. They are named after African Americans who were also victims of police brutality. Rodney King was brutally beaten by four white police officers and Eric Garner and Breonna Taylor were killed by the police. The Floyd State House of Representatives has 41 members. If the legislature wants to divide this representation along county lines (which is <em>not</em> required, but let's pretend they do), let's use Hamilton's method to apportion them. The populations of the counties are as follows:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -235,7 +235,7 @@
 			Step 2: Now we determine each county's quota by dividing the county's population by the divisor: For example, for King, we take <m>162,310/21,900.82927</m> which equals 7.4111.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -267,7 +267,7 @@
 			Step 3: Removing the decimal parts of the quotas gives our initial apportionment and we add those numbers up.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -304,7 +304,7 @@
 			Step 4: We need 41 representatives, and right now we only have 40. The remaining one goes to the county with the largest decimal part, which is Garner:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -362,7 +362,7 @@
 				Step 2: Determine each county's quota by dividing its population by the divisor:
 			</p>
 			<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>County</cell>
 					<cell>Population</cell>
@@ -404,7 +404,7 @@
 				Step 3: Remove the decimal part of each quota and add up the initial apportionment:
 			</p>
 			<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>County</cell>
 					<cell>Population</cell>
@@ -453,7 +453,7 @@
 				Step 4: We need 75 representatives and we only have 72, so we assign the remaining three, one each, to the three counties with the largest decimal parts, which are Baker, King, and Bates in that order:
 			</p>
 			<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>County</cell>
 					<cell>Population</cell>
@@ -598,7 +598,7 @@
 			Steps 1-3 are the same as Hamilton's Method. Since we will be using different divisors, we will write the divisor at the bottom of the population column to be clear what we are dividing each number in that column by. You can also write it above that column if you prefer.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -644,7 +644,7 @@
 			Step 4:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -701,7 +701,7 @@
 			We'll apply Jefferson's method for Lewis. The original divisor of 14,034.22667 gave these results:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -756,7 +756,7 @@
 			We need 75 representatives and we only have 72, so we need to use a smaller divisor. Let's try lowering it to 13,500:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -811,7 +811,7 @@
 			We got a total of 76 representatives which is too many, so we lowered it too far. We need a divisor that's greater than 13,500 but less than 14,034.22667. Let's try 13,700:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -869,7 +869,7 @@
 			This can take a lot of writing, so in practice, we can write this all out in one table. With each try we are dividing the population by the new divisor to get the new quotas.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -1003,7 +1003,7 @@
 			We will look at Floyd again, with an initial divisor of 21,900.82927 and 41 representatives:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -1054,7 +1054,7 @@
 			Let's look at Lewis again, with an initial divisor of 14,034.22667 and 75 representatives:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -1109,7 +1109,7 @@
 			This is one too many, so we need to increase the divisor. Let's try 14,100:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -1164,7 +1164,7 @@
 			This gives us exactly 75, so we're done. This is how it would look all in one table:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -1308,7 +1308,7 @@
 	<sidebyside>
 		<table>
 			<title>Geometric Mean Pattern</title>
-	<tabular>
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell><m>n</m></cell>
 			<cell><m>\sqrt{n(n+1)}</m></cell>
@@ -1349,7 +1349,7 @@
 </table>
 	</sidebyside>
 	<p>
-		Notice that each geometric mean is between <m>n</m> and <m>n+1</m>. For smaller numbers, the decimal part is less than 0.5 and as n gets larger, the decimal part gets closer and closer to 0.5. This gives smaller states a chance to round up before larger states. That's how the Hill-Huntington method reduces the bias in favor of larger states.
+		Notice that each geometric mean is between <m>n</m> and <m>n+1</m>. For smaller numbers, the decimal part is less than 0.5 and as n gets larger, the decimal part gets closer and closer to 0.5. This gives smaller states a chance to round up before larger states. That's how the Hill-Huntington method reduces the bias toward larger states and makes it more fair for smaller states.
 	</p>
 	<p>
 		Now let's see how to use the geometric mean in an example.
@@ -1360,7 +1360,7 @@
 			Again, we will practice with Floyd, with an initial divisor of 21,900.82927 and 41 representatives:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -1423,7 +1423,7 @@
 			Again, here is Lewis, with an initial divisor of 14,034.22667:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -1494,7 +1494,7 @@
 			We end up with 76 which is too many, so we need to increase the divisor. Let's try 14,100:
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>County</cell>
 				<cell>Population</cell>
@@ -1585,7 +1585,7 @@
 			Consider a small country with 5 states, two of which are much larger than the others. We need to apportion 70 representatives. Apportion the representatives using both Webster's method and the Huntington-Hill method.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>State</cell>
 				<cell>Population</cell>
@@ -1621,7 +1621,7 @@
 				Step 2: Dividing each state's population by the divisor gives the quotas.
 			</p>
 			<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>State</cell>
 					<cell>Population</cell>
@@ -1671,7 +1671,7 @@
 				Step 3: Using Webster's method, we round each quota to the nearest whole number using the rounding rule of 0.5 or higher to round up.
 			</p>
 			<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>State</cell>
 					<cell>Population</cell>
@@ -1726,7 +1726,7 @@
 				Step 4: Adding these up only gives us 69 representatives, so we adjust the divisor down. We try 8,700, which gives us 70 representatives. Notice that State A, the largest state, is the one that got rounded up the second time.
 			</p>
 			<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>State</cell>
 					<cell>Population</cell>
@@ -1784,7 +1784,7 @@
 				Step 3: Using the Huntington-Hill method, we cut off the decimal to find the lower quota, then calculate the geometric mean based on each lower quota. If the quota is less than the geometric mean, we round down; if the quota is more than the geometric mean, we round up.
 			</p>
 			<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>State</cell>
 					<cell>Population</cell>
@@ -2633,7 +2633,7 @@
 		A state with five counties has 50 seats in their legislature. Using Hamilton's method, apportion the seats based on the 2010 census, then again using the 2020 census. Explain what happened in 2020 apportionment. Do you think it is fair?
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>County</cell>
 			<cell>2000 Population</cell>
@@ -2686,7 +2686,7 @@
 		A state with five counties has 62 seats in their legislature. Using Hamilton's method, apportion the seats based on the 2010 census, then again using the 2010 census. Explain what happened in 2020 apportionment. Do you think it is fair?
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>County</cell>
 			<cell>2000 Population</cell>

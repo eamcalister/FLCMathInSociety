@@ -59,7 +59,7 @@
 		As we have seen with complements, probabilities in a probability distribution must add to 1, so that is important to check. Here is the probability model for the carnival game:
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Outcome ($ won)</cell>
 			<cell>Rolling Event</cell>
@@ -73,12 +73,12 @@
 		<row>
 			<cell>$3</cell>
 			<cell><line>Roll not a 6 on the first roll</line><line>and a 6 on the second roll</line></cell>
-			<cell><m>P(\text{roll a 6 then roll a 6})=\frac{5}{6}\cdot\frac{1}{6}=\frac{5}{36}</m></cell>
+			<cell><m>P(\text{roll not a 6 then roll a 6})=\frac{5}{6}\cdot\frac{1}{6}=\frac{5}{36}</m></cell>
 		</row>
 		<row>
 			<cell>$0</cell>
 			<cell><line>Roll not a 6 on the first roll</line><line>and not a 6 on the second roll</line></cell>
-			<cell><m>P(\text{roll a 6 then not a 6})=\frac{5}{6}\cdot\frac{5}{6}=\frac{25}{36}</m></cell>
+			<cell><m>P(\text{roll not a 6 then not a 6})=\frac{5}{6}\cdot\frac{5}{6}=\frac{25}{36}</m></cell>
 		</row>
 	</tabular>
 	</sidebyside>
@@ -125,7 +125,7 @@
 			Pick4 is a game by the Oregon Lottery that costs $1 to play. In this game you pick 4 numbers in a specific pattern. If you get the exact sequence, you can in theory earn a lot of money. Suppose that the payouts are as follows. Determine the player's expected net winnings.
 		</p>
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><alert>Prize ($)</alert></cell>
 					<cell><alert>Probability</alert></cell>
@@ -167,7 +167,7 @@
 		</p>
 
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><alert>Prize ($)</alert></cell>
 					<cell><alert>Probability</alert></cell>
@@ -230,7 +230,7 @@
 			For 3 months, a coffee shop tracked their morning sales of coffee, between 6am and 10am. The following results were recorded:
 		</p>
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>Number of cups sold</cell>
 					<cell>145</cell>
@@ -288,10 +288,10 @@
 			The probability of paying the death benefit is equal to the chance of the person dying in the next year, and the probability of paying nothing is equal to the complement of the chance of dying in the next year.
 		</p>
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
-					<cell><alert>Insurance payout</alert></cell>
-					<cell><alert>Probability</alert></cell>
+					<cell>Insurance payout</cell>
+					<cell>Probability</cell>
 				</row>
 				<row>
 					<cell>$100000</cell>
@@ -354,7 +354,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>Die roll</cell>
 							<cell>Gold</cell>
@@ -414,7 +414,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>Die roll</cell>
 							<cell>Red</cell>
@@ -479,7 +479,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row>
 							<cell>Die roll outcome</cell>
 							<cell>1, 2, 3, or 4</cell>
@@ -549,7 +549,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row>
 							<cell>Die roll outcome</cell>
 							<cell>1</cell>

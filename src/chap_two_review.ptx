@@ -126,7 +126,7 @@
 	<exercise>
 		<statement>
 		<p>
-			The current inflation rate is 2.92%. If this continues for the next 10 years find the cost of the following items in the year 2029. Note: Inflation is Continuous Compound Interest.  
+			The current inflation rate is 2.92%. If this continues for the next 10 years find the cost of the following items in the year 2029. Note: Inflation is Continuous Compound Interest.
 			<ol marker="a.">
 				<li>
 					<p>
@@ -227,7 +227,7 @@
 	<exercise>
 		<statement>
 		<p>
-			For each find the Future Value, the total amount deposited, and the interest earned.
+			For each find the future value, the total amount deposited, and the interest earned.
 			<ol marker="a.">
 				<li>
 					<p>
@@ -447,7 +447,7 @@
 	<exercise>
 		<statement>
 		<p>
-			Amir has $9,540 he could take in itemized deductions. The standard deduction for a single filer is $12,000.
+			Amir has $9,540 he could take in itemized deductions. The standard deduction for a single filer is $14,600 for the 2024 tax year.
 			<ol marker="a.">
 				<li>
 					<p>
@@ -456,7 +456,7 @@
 				</li>
 				<li>
 					<p>
-						Use the 2018 tax table determine to determine how much Amir owes in taxes.
+						Use the 2024 tax table determine to determine how much Amir owes in taxes.
 					</p>
 				</li>
 			</ol>
@@ -467,19 +467,20 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						<m>41,000-12,000= 29,000</m>. Amir's taxable income is $29,000.
+						<m>41,000-14,600= 26,400</m>. Amir's taxable income is $26,400.
 					</p>
 				</li>
 				<li>
 					<p>
 					<md>
-						<mrow>=0.1(9525)+0.12(29000-9525)</mrow>
-						<mrow>=952.5+2337</mrow>
-						<mrow>=3289.5</mrow>
+						<mrow>=1160+0.12(26400-11600)</mrow>
+						<mrow>=1160+0.12(14800)</mrow>
+						<mrow>=1160+1776</mrow>
+						<mrow>=2936</mrow>
 					</md>
 					</p>
 					<p>
-						Amir owes $3289.50 in taxes.
+						Amir owes $2936 in taxes.
 					</p>
 				</li>
 			</ol>
@@ -490,25 +491,12 @@
 	<exercise>
 		<statement>
 		<p>
-			Amir can take a $1200 education credit and has had $2700 withheld from his paychecks.
-			<ol marker="a.">
-				<li>
-					<p>
-						Determine the amount Amir will owe or be refunded.
-					</p>
-				</li>
-			</ol>
+			Amir can take a $1200 education credit and has had $2500 withheld from his paychecks. Determine the amount Amir will owe or be refunded.
 		</p>
 		</statement>
 		<solution>
 			<p>
-			<ol marker="a.">
-				<li>
-					<p>
-						<m>3289.5-1200-2700=-610.5</m>. Amir will be refunded $610.50.
-					</p>
-				</li>
-			</ol>
+				<m>2936-1200-2500=-764</m>. Amir will be refunded $764.
 			</p>
 		</solution>
 	</exercise>

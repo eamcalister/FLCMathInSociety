@@ -361,8 +361,8 @@
 					<cell>15</cell>
 				</row>
 				<row>
-					<cell>Total</cell>
-					<cell>292</cell>
+					<cell><alert>Total</alert></cell>
+					<cell><alert>292</alert></cell>
 				</row>
 			</tabular>
 		</sidebyside>

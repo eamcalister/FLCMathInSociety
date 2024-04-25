@@ -60,27 +60,27 @@
 		A <alert>contingency table</alert> summarizes all the possible combinations for two categorical variables. Each value in the table represents the number of times a particular combination of outcomes occurs. For example, suppose we randomly select 250 households from the greater Portland area and ask whether they have a cat and whether they have a dog. In this case, <q>have a cat</q> and <q>have a dog</q> are the two variables, and each variable has two categories: Yes and No. To create the contingency table, we make columns for the categories of one variable, and rows for the categories of the other variable. We also add a row and column for the subtotals of each category. Each cell of the resulting table contains the number of outcomes having the characteristics of the intersecting row and column categories. For our dog and cat example, the table would look like this: 
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
-				<cell><alert>Dog</alert></cell>
-				<cell><alert>No Dog</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>Dog</cell>
+				<cell>No Dog</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Cat</alert></cell>
+				<cell>Cat</cell>
 				<cell><em>Yes Cat and Yes Dog</em></cell>
 				<cell><em>Yes Cat and No Dog</em></cell>
 				<cell><em>Yes Cat Total</em></cell>
 			</row>
 			<row>
-				<cell><alert>No Cat</alert></cell>
+				<cell>No Cat</cell>
 				<cell><em>No Cat and Yes Dog</em></cell>
 				<cell><em>No Cat and No Dog</em></cell>
 				<cell><em>No Cat Total</em></cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell><em>Yes Dog Total</em></cell>
 				<cell><em>No Dog Total</em></cell>
 				<cell><em>Grand total</em></cell>
@@ -91,27 +91,27 @@
 		Suppose that of the 250 households surveyed, 180 said they have a cat, 95 said they have a dog, and 52 said they have both a cat and a dog. We can use this information to fill in the cells of the table.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
-				<cell><alert>Dog</alert></cell>
-				<cell><alert>No Dog</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>Dog</cell>
+				<cell>No Dog</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Cat</alert></cell>
+				<cell>Cat</cell>
 				<cell>52</cell>
 				<cell></cell>
 				<cell>180</cell>
 			</row>
 			<row>
-				<cell><alert>No Cat</alert></cell>
+				<cell>No Cat</cell>
 				<cell></cell>
 				<cell></cell>
 				<cell></cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell>95</cell>
 				<cell></cell>
 				<cell>250</cell>
@@ -126,27 +126,27 @@
 		Since each row and column must sum to their totals, we can use subtraction to find the missing numbers as shown below.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
-				<cell><alert>Dog</alert></cell>
-				<cell><alert>No Dog</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>Dog</cell>
+				<cell>No Dog</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Cat</alert></cell>
+				<cell>Cat</cell>
 				<cell>52</cell>
 				<cell><m>180-52=128</m></cell>
 				<cell>180</cell>
 			</row>
 			<row>
-				<cell><alert>No Cat</alert></cell>
+				<cell>No Cat</cell>
 				<cell><m>95-52=43</m></cell>
 				<cell><line><m>155-128=27</m></line><line>or</line><line><m>70-43=27</m></line></cell>
 				<cell><m>250-180=70</m></cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell>95</cell>
 				<cell><m>250-95=155</m></cell>
 				<cell>250</cell>
@@ -157,53 +157,53 @@
 		Now that we have our contingency table completed, notice that the numbers in the central four cells add to the grand total as shown in the table on the left. The total row and the total column also add to the grand total as shown in the right table.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
-				<cell><alert>Dog</alert></cell>
-				<cell><alert>No Dog</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>Dog</cell>
+				<cell>No Dog</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Cat</alert></cell>
+				<cell>Cat</cell>
 				<cell><c>52</c></cell>
 				<cell><c>128</c></cell>
 				<cell>180</cell>
 			</row>
 			<row>
-				<cell><alert>No Cat</alert></cell>
+				<cell>No Cat</cell>
 				<cell><c>43</c></cell>
 				<cell><c>27</c></cell>
 				<cell>70</cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell>95</cell>
 				<cell>155</cell>
 				<cell><c>250</c></cell>
 			</row>
 		</tabular>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
-				<cell><alert>Dog</alert></cell>
-				<cell><alert>No Dog</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>Dog</cell>
+				<cell>No Dog</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Cat</alert></cell>
+				<cell>Cat</cell>
 				<cell>52</cell>
 				<cell>128</cell>
 				<cell><c>180</c></cell>
 			</row>
 			<row>
-				<cell><alert>No Cat</alert></cell>
+				<cell>No Cat</cell>
 				<cell>43</cell>
 				<cell>27</cell>
 				<cell><c>70</c></cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell><c>95</c></cell>
 				<cell><c>155</c></cell>
 				<cell><c>250</c></cell>
@@ -241,27 +241,27 @@
 		In the contingency table we see the 128 households at the intersection of the row of households who own a cat and the column of households who do not own a dog. As a percentage, the total number of households surveyed, is <m>\frac{128}{250}=0.512</m> or 51.2% that have a cat and no dog.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
-				<cell><alert>Dog</alert></cell>
-				<cell><alert>No Dog</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>Dog</cell>
+				<cell>No Dog</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Cat</alert></cell>
+				<cell>Cat</cell>
 				<cell>52</cell>
 				<cell><c>128</c></cell>
 				<cell>180</cell>
 			</row>
 			<row>
-				<cell><alert>No Cat</alert></cell>
+				<cell>No Cat</cell>
 				<cell>43</cell>
 				<cell>27</cell>
 				<cell>70</cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell>95</cell>
 				<cell>155</cell>
 				<cell><c>250</c></cell>
@@ -282,27 +282,27 @@
 		There is another way to calculate an <em>or</em> statements from a contingency table. We could add the row and column totals for having a cat and having a dog, but then we have counted the 52 households in the intersection twice. We can subtract that number to get <m>180+95-52=223</m> households with a dog or a cat, which we know is 89.2% of those surveyed.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
-				<cell><alert>Dog</alert></cell>
-				<cell><alert>No Dog</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>Dog</cell>
+				<cell>No Dog</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Cat</alert></cell>
+				<cell>Cat</cell>
 				<cell><c>52</c></cell>
 				<cell><c>128</c></cell>
 				<cell>180</cell>
 			</row>
 			<row>
-				<cell><alert>No Cat</alert></cell>
+				<cell>No Cat</cell>
 				<cell><c>43</c></cell>
 				<cell>27</cell>
 				<cell>70</cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell>95</cell>
 				<cell>155</cell>
 				<cell>250</cell>
@@ -318,27 +318,27 @@
 		Another question we can answer using a contingency table is what percentage of dog owning households also own a cat? In this case the group that we are interested in isn't every household surveyed (the grand total), but just those households that own a dog.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
 				<cell><c>Dog</c></cell>
-				<cell><alert>No Dog</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>No Dog</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Cat</alert></cell>
+				<cell>Cat</cell>
 				<cell><c>52</c></cell>
 				<cell>128</cell>
 				<cell>180</cell>
 			</row>
 			<row>
-				<cell><alert>No Cat</alert></cell>
+				<cell>No Cat</cell>
 				<cell><c>43</c></cell>
 				<cell>27</cell>
 				<cell>70</cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell><c>95</c></cell>
 				<cell>155</cell>
 				<cell>250</cell>
@@ -362,44 +362,44 @@
 		910 randomly sampled registered voters from Tampa, FL were asked if they thought workers who have illegally entered the US should (i) be allowed to keep their jobs and apply for US citizenship, (ii) be allowed to keep their jobs as temporary guest workers but not be allowed to apply for US citizenship, or (iii) lose their jobs and have to leave the country. Not sure was also an option (iv). The results of the survey by political ideology are shown below<fn>SurveyUSA, <url href="http://www.surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2" visual="surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2">News Poll #18927</url>, data collected Jan 27-29, 2012. Example adapted from <url href="https://www.openintro.org/" visual="openintro.org">Open Intro: Advanced High School Statistics</url>, by Diez et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/" visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.</fn>. Use the contingency table to answer the questions.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
-			<cell><alert>Conservative</alert></cell>
-			<cell><alert>Moderate</alert></cell>
-			<cell><alert>Liberal</alert></cell>
-			<cell><alert>Total</alert></cell>
+			<cell>Conservative</cell>
+			<cell>Moderate</cell>
+			<cell>Liberal</cell>
+			<cell>Total</cell>
 		</row>
 		<row>
-			<cell><alert>(i) Apply for citizenship</alert></cell>
+			<cell>(i) Apply for citizenship</cell>
 			<cell>57</cell>
 			<cell>120</cell>
 			<cell>101</cell>
 			<cell>278</cell>
 		</row>
 		<row>
-			<cell><alert>(ii) Guest worker</alert></cell>
+			<cell>(ii) Guest worker</cell>
 			<cell>121</cell>
 			<cell>113</cell>
 			<cell>28</cell>
 			<cell>262</cell>
 		</row>
 		<row>
-			<cell><alert>(iii) Leave the country</alert></cell>
+			<cell>(iii) Leave the country</cell>
 			<cell>179</cell>
 			<cell>126</cell>
 			<cell>45</cell>
 			<cell>350</cell>
 		</row>
 		<row>
-			<cell><alert>(iv) Not sure</alert></cell>
+			<cell>(iv) Not sure</cell>
 			<cell>15</cell>
 			<cell>4</cell>
 			<cell>1</cell>
 			<cell>20</cell>
 		</row>
 		<row>
-			<cell><alert>Total</alert></cell>
+			<cell>Total</cell>
 			<cell>372</cell>
 			<cell>363</cell>
 			<cell>175</cell>
@@ -411,7 +411,7 @@
 	<ol marker="a.">
 		<li>
 			<p>
-				What percent of the sampled Tampa, Fl voters identified themselves as conservatives?
+				What percent of the sampled Tampa, FL voters identified themselves as conservatives?
 			</p>
 		</li>
 		<li>
@@ -442,7 +442,7 @@
 		<ol>
 			<li>
 				<p>
-					To answer this question, we find the conservative column and look to the bottom cell for the total number of conservative voters and divide that by the total number of voters surveyed. This gives us <m>\frac{372}{910}\approx 0.409</m> or approximately 41% of the Tampa, Fl voters who identify as conservative.
+					To answer this question, we find the conservative column and look to the bottom cell for the total number of conservative voters and divide that by the total number of voters surveyed. This gives us <m>\frac{372}{910}\approx 0.409</m> or approximately 41% of the Tampa, FL voters who identify as conservative.
 				</p>
 			</li>
 			<li>
@@ -460,44 +460,44 @@
 					The <em>or</em> in this question is inclusive, so we need to determine the number of voters who identify as liberal, who are in favor of the leaving the country option, or both.
 				</p>
 			<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell></cell>
-					<cell><alert>Conservative</alert></cell>
-					<cell><alert>Moderate</alert></cell>
-					<cell><alert>Liberal</alert></cell>
-					<cell><alert>Total</alert></cell>
+					<cell>Conservative</cell>
+					<cell>Moderate</cell>
+					<cell>Liberal</cell>
+					<cell>Total</cell>
 				</row>
 				<row>
-					<cell><alert>(i) Apply for citizenship</alert></cell>
+					<cell>(i) Apply for citizenship</cell>
 					<cell>57</cell>
 					<cell>120</cell>
 					<cell><c>101</c></cell>
 					<cell>278</cell>
 				</row>
 				<row>
-					<cell><alert>(ii) Guest worker</alert></cell>
+					<cell>(ii) Guest worker</cell>
 					<cell>121</cell>
 					<cell>113</cell>
 					<cell><c>28</c></cell>
 					<cell>262</cell>
 				</row>
 				<row>
-					<cell><alert>(iii) Leave the country</alert></cell>
+					<cell>(iii) Leave the country</cell>
 					<cell><c>179</c></cell>
 					<cell><c>126</c></cell>
 					<cell><c>45</c></cell>
 					<cell>350</cell>
 				</row>
 				<row>
-					<cell><alert>(iv) Not sure</alert></cell>
+					<cell>(iv) Not sure</cell>
 					<cell>15</cell>
 					<cell>4</cell>
 					<cell><c>1</c></cell>
 					<cell>20</cell>
 				</row>
 				<row>
-					<cell><alert>Total</alert></cell>
+					<cell>Total</cell>
 					<cell>372</cell>
 					<cell>363</cell>
 					<cell>175</cell>
@@ -557,27 +557,27 @@
 		A survey of licensed drivers asked whether they had received a speeding ticket in the last year and whether their car is red. The results of the survey are shown in the contingency table to the right.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
-			<cell><alert>Speeding Ticket</alert></cell>
-			<cell><alert>No Speeding Ticket</alert></cell>
-			<cell><alert>Total</alert></cell>
+			<cell>Speeding Ticket</cell>
+			<cell>No Speeding Ticket</cell>
+			<cell>Total</cell>
 		</row>
 		<row>
-			<cell><alert>Red Car</alert></cell>
+			<cell>Red Car</cell>
 			<cell>15</cell>
 			<cell>135</cell>
 			<cell>150</cell>
 		</row>
 		<row>
-			<cell><alert>Not Red Car</alert></cell>
+			<cell>Not Red Car</cell>
 			<cell>45</cell>
 			<cell>470</cell>
 			<cell>515</cell>
 		</row>
 		<row>
-			<cell><alert>Total</alert></cell>
+			<cell>Total</cell>
 			<cell>60</cell>
 			<cell>605</cell>
 			<cell>665</cell>
@@ -630,30 +630,30 @@
 		<ol marker="a.">
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
-						<cell><alert>Speeding Ticket</alert></cell>
-						<cell><alert>No Speeding Ticket</alert></cell>
-						<cell><alert>Total</alert></cell>
+						<cell>Speeding Ticket</cell>
+						<cell>No Speeding Ticket</cell>
+						<cell>Total</cell>
 					</row>
 					<row>
-						<cell><alert>Red Car</alert></cell>
+						<cell>Red Car</cell>
 						<cell>15</cell>
 						<cell>135</cell>
-						<cell>150</cell>
+						<cell><c>150</c></cell>
 					</row>
 					<row>
-						<cell><alert>Not Red Car</alert></cell>
+						<cell>Not Red Car</cell>
 						<cell>45</cell>
 						<cell>470</cell>
 						<cell>515</cell>
 					</row>
 					<row>
-						<cell><alert>Total</alert></cell>
+						<cell>Total</cell>
 						<cell>60</cell>
 						<cell>605</cell>
-						<cell>665</cell>
+						<cell><c>665</c></cell>
 					</row>
 				</tabular>
 				</sidebyside>
@@ -663,30 +663,30 @@
 			</li>
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
-						<cell><alert>Speeding Ticket</alert></cell>
-						<cell><alert>No Speeding Ticket</alert></cell>
-						<cell><alert>Total</alert></cell>
+						<cell>Speeding Ticket</cell>
+						<cell>No Speeding Ticket</cell>
+						<cell>Total</cell>
 					</row>
 					<row>
-						<cell><alert>Red Car</alert></cell>
+						<cell>Red Car</cell>
 						<cell>15</cell>
 						<cell>135</cell>
 						<cell>150</cell>
 					</row>
 					<row>
-						<cell><alert>Not Red Car</alert></cell>
+						<cell>Not Red Car</cell>
 						<cell>45</cell>
 						<cell>470</cell>
 						<cell>515</cell>
 					</row>
 					<row>
-						<cell><alert>Total</alert></cell>
-						<cell>60</cell>
+						<cell>Total</cell>
+						<cell><c>60</c></cell>
 						<cell>605</cell>
-						<cell>665</cell>
+						<cell><c>665</c></cell>
 					</row>
 				</tabular>
 				</sidebyside>
@@ -696,30 +696,30 @@
 			</li>
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
-						<cell><alert>Speeding Ticket</alert></cell>
-						<cell><alert>No Speeding Ticket</alert></cell>
-						<cell><alert>Total</alert></cell>
+						<cell>Speeding Ticket</cell>
+						<cell>No Speeding Ticket</cell>
+						<cell>Total</cell>
 					</row>
 					<row>
-						<cell><alert>Red Car</alert></cell>
+						<cell>Red Car</cell>
 						<cell>15</cell>
-						<cell>135</cell>
+						<cell><c>135</c></cell>
 						<cell>150</cell>
 					</row>
 					<row>
-						<cell><alert>Not Red Car</alert></cell>
+						<cell>Not Red Car</cell>
 						<cell>45</cell>
 						<cell>470</cell>
 						<cell>515</cell>
 					</row>
 					<row>
-						<cell><alert>Total</alert></cell>
+						<cell>Total</cell>
 						<cell>60</cell>
 						<cell>605</cell>
-						<cell>665</cell>
+						<cell><c>665</c></cell>
 					</row>
 				</tabular>
 				</sidebyside>
@@ -729,30 +729,30 @@
 			</li>
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
-						<cell><alert>Speeding Ticket</alert></cell>
-						<cell><alert>No Speeding Ticket</alert></cell>
-						<cell><alert>Total</alert></cell>
+						<cell>Speeding Ticket</cell>
+						<cell>No Speeding Ticket</cell>
+						<cell>Total</cell>
 					</row>
 					<row>
-						<cell><alert>Red Car</alert></cell>
-						<cell>15</cell>
-						<cell>135</cell>
+						<cell>Red Car</cell>
+						<cell><c>15</c></cell>
+						<cell><c>135</c></cell>
 						<cell>150</cell>
 					</row>
 					<row>
-						<cell><alert>Not Red Car</alert></cell>
-						<cell>45</cell>
+						<cell>Not Red Car</cell>
+						<cell><c>45</c></cell>
 						<cell>470</cell>
 						<cell>515</cell>
 					</row>
 					<row>
-						<cell><alert>Total</alert></cell>
+						<cell>Total</cell>
 						<cell>60</cell>
 						<cell>605</cell>
-						<cell>665</cell>
+						<cell><c>665</c></cell>
 					</row>
 				</tabular>
 				</sidebyside>
@@ -780,27 +780,27 @@
 			</li>
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
-						<cell><alert>Speeding Ticket</alert></cell>
-						<cell><alert>No Speeding Ticket</alert></cell>
-						<cell><alert>Total</alert></cell>
+						<cell>Speeding Ticket</cell>
+						<cell>No Speeding Ticket</cell>
+						<cell>Total</cell>
 					</row>
 					<row>
-						<cell><alert>Red Car</alert></cell>
-						<cell>15</cell>
+						<cell>Red Car</cell>
+						<cell><c>15</c></cell>
 						<cell>135</cell>
-						<cell>150</cell>
+						<cell><c>150</c></cell>
 					</row>
 					<row>
-						<cell><alert>Not Red Car</alert></cell>
+						<cell>Not Red Car</cell>
 						<cell>45</cell>
 						<cell>470</cell>
 						<cell>515</cell>
 					</row>
 					<row>
-						<cell><alert>Total</alert></cell>
+						<cell>Total</cell>
 						<cell>60</cell>
 						<cell>605</cell>
 						<cell>665</cell>
@@ -818,28 +818,28 @@
 			</li>
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
-						<cell><alert>Speeding Ticket</alert></cell>
-						<cell><alert>No Speeding Ticket</alert></cell>
-						<cell><alert>Total</alert></cell>
+						<cell>Speeding Ticket</cell>
+						<cell>No Speeding Ticket</cell>
+						<cell>Total</cell>
 					</row>
 					<row>
-						<cell><alert>Red Car</alert></cell>
-						<cell>15</cell>
+						<cell>Red Car</cell>
+						<cell><c>15</c></cell>
 						<cell>135</cell>
 						<cell>150</cell>
 					</row>
 					<row>
-						<cell><alert>Not Red Car</alert></cell>
+						<cell>Not Red Car</cell>
 						<cell>45</cell>
 						<cell>470</cell>
 						<cell>515</cell>
 					</row>
 					<row>
-						<cell><alert>Total</alert></cell>
-						<cell>60</cell>
+						<cell>Total</cell>
+						<cell><c>60</c></cell>
 						<cell>605</cell>
 						<cell>665</cell>
 					</row>
@@ -893,27 +893,27 @@
 			</ol>
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
-				<cell><alert>Positive Test</alert></cell>
-				<cell><alert>Negative Test</alert></cell>
-				<cell><alert>Total</alert></cell>
+				<cell>Positive Test</cell>
+				<cell>Negative Test</cell>
+				<cell>Total</cell>
 			</row>
 			<row>
-				<cell><alert>Pregnant</alert></cell>
+				<cell>Pregnant</cell>
 				<cell>70</cell>
 				<cell>4</cell>
 				<cell>74</cell>
 			</row>
 			<row>
-				<cell><alert>Not Pregnant</alert></cell>
+				<cell>Not Pregnant</cell>
 				<cell>5</cell>
 				<cell>14</cell>
 				<cell>19</cell>
 			</row>
 			<row>
-				<cell><alert>Total</alert></cell>
+				<cell>Total</cell>
 				<cell>75</cell>
 				<cell>18</cell>
 				<cell>93</cell>
@@ -930,28 +930,28 @@
 		 				Since we are given the home test result was positive, we are limited to the 75 women in the positive test column, of which 5 were not pregnant. This gives:
 		 			</p>
 		 			<sidebyside>
-		 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell></cell>
-							<cell><alert>Positive Test</alert></cell>
-							<cell><alert>Negative Test</alert></cell>
-							<cell><alert>Total</alert></cell>
+							<cell>Positive Test</cell>
+							<cell>Negative Test</cell>
+							<cell>Total</cell>
 						</row>
 						<row>
-							<cell><alert>Pregnant</alert></cell>
+							<cell>Pregnant</cell>
 							<cell>70</cell>
 							<cell>4</cell>
 							<cell>74</cell>
 						</row>
 						<row>
-							<cell><alert>Not Pregnant</alert></cell>
-							<cell>5</cell>
+							<cell>Not Pregnant</cell>
+							<cell><c>5</c></cell>
 							<cell>14</cell>
 							<cell>19</cell>
 						</row>
 						<row>
-							<cell><alert>Total</alert></cell>
-							<cell>75</cell>
+							<cell>Total</cell>
+							<cell><c>75</c></cell>
 							<cell>18</cell>
 							<cell>93</cell>
 						</row>
@@ -969,27 +969,27 @@
 		 				Since we are given the woman is not pregnant, we are limited to the 19 women in the not pregnant row, of which 5 had a positive test. This gives:
 		 			</p>
 		 			<sidebyside>
-		 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell></cell>
-							<cell><alert>Positive Test</alert></cell>
-							<cell><alert>Negative Test</alert></cell>
-							<cell><alert>Total</alert></cell>
+							<cell>Positive Test</cell>
+							<cell>Negative Test</cell>
+							<cell>Total</cell>
 						</row>
 						<row>
-							<cell><alert>Pregnant</alert></cell>
+							<cell>Pregnant</cell>
 							<cell>70</cell>
 							<cell>4</cell>
 							<cell>74</cell>
 						</row>
 						<row>
-							<cell><alert>Not Pregnant</alert></cell>
-							<cell>5</cell>
+							<cell>Not Pregnant</cell>
+							<cell><c>5</c></cell>
 							<cell>14</cell>
-							<cell>19</cell>
+							<cell><c>19</c></cell>
 						</row>
 						<row>
-							<cell><alert>Total</alert></cell>
+							<cell>Total</cell>
 							<cell>75</cell>
 							<cell>18</cell>
 							<cell>93</cell>
@@ -1024,7 +1024,7 @@
 		A recent survey asked a random sample of PCC students if they are currently experiencing food insecurity and if they are currently experiencing housing insecurity. Fill in the missing entries of the contingency table below.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Food Insecure</cell>
@@ -1054,7 +1054,7 @@
 	</statement>
 	<solution>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Food Insecure</cell>
@@ -1090,7 +1090,7 @@
 		A recent survey asked a random sample of PCC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Bookstore</cell>
@@ -1121,7 +1121,7 @@
 	
 	<solution>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Bookstore</cell>
@@ -1160,7 +1160,7 @@
 		<image source="images/probability/4_1/breakfast_floss_venn.png">
 		<shortdescription>A Venn diagram where the breakfast only region shows 3, the floss only region shows 49, the intersection shows 12 and the region outside the circles shows 8 students</shortdescription>
 		</image>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Breakfast</cell>
@@ -1191,7 +1191,7 @@
 	
 	<solution>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Breakfast</cell>
@@ -1230,7 +1230,7 @@
 		<image source="images/probability/4_1/apple_chrome_venn.png">
 		<shortdescription>A Venn diagram where the Apple only region shows 120, the Chromebook only region shows 85, the intersection is 65 and the outside region is 45 students.</shortdescription>
 		</image>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Chromebook</cell>
@@ -1261,7 +1261,7 @@
 	
 	<solution>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Chromebook</cell>
@@ -1316,7 +1316,7 @@
 		</ul>
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
@@ -1347,7 +1347,7 @@
 	
 	<solution>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
@@ -1397,7 +1397,7 @@
 		</ul>
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
@@ -1428,7 +1428,7 @@
 	
 	<solution>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
@@ -1464,7 +1464,7 @@
 		A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>A</cell>
@@ -1580,7 +1580,7 @@
 		A professor surveyed students in her morning and afternoon Math 105 class, and asked what their class standing was. The class standings are summarized below: 
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Freshman</cell>
@@ -1700,7 +1700,7 @@
 		The contingency table below shows the number of credit cards owned by a group of individuals below the age of 35 and above the age of 35.  
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Zero</cell>
@@ -1839,7 +1839,7 @@
 		The following contingency table provides data from a sample of 6,224 individuals who were exposed to smallpox in Boston.<fn>Data taken from Mostly Harmless Probability &amp; Statistics by Rachel Webb</fn>
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Inoculated</cell>
@@ -1960,7 +1960,7 @@
 		The contingency table below shows the survival data for the passengers of the Titanic.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>First</cell>
@@ -2115,7 +2115,7 @@
 		The following table shows the utility patents granted for a specific year.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
 			<cell>Corporation</cell>
@@ -2236,7 +2236,7 @@
 					Create a contingency table for the information.
 				</p>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
 						<cell>Game/Software</cell>
@@ -2297,7 +2297,7 @@
 		<ol marker="a.">
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
 						<cell>Game/Software</cell>
@@ -2380,7 +2380,7 @@
 					Create a contingency table for the information.
 				</p>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
 						<cell>Injury</cell>
@@ -2446,7 +2446,7 @@
 		<ol marker="a.">
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
 						<cell>Injury</cell>
@@ -2536,7 +2536,7 @@
 					Create a contingency table for the information.
 				</p>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
 						<cell>Hardcover</cell>
@@ -2582,7 +2582,7 @@
 		<ol marker="a.">
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
 						<cell>Hardcover</cell>
@@ -2643,7 +2643,7 @@
 					Create a contingency table for the information. 
 				</p>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
 						<cell>Contingency Table</cell>
@@ -2689,7 +2689,7 @@
 		<ol marker="a.">
 			<li>
 				<sidebyside>
-				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
 						<cell>Contingency Table</cell>
@@ -2744,7 +2744,7 @@
 		After reviewing the data, it was decided that more detail should be shown. The category of 35+ is divided into two groups and <q>Two or more</q> is turned into <q>Two</q> and <q>3 or more.</q> Fill out the missing information.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
 				<cell>Zero</cell>
@@ -2794,7 +2794,7 @@
 		Fill out the missing values in the contingency table below. This table will also be used for question 6.
 	</p>
 	<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
 				<cell>Heads</cell>

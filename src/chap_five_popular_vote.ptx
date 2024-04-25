@@ -4,7 +4,7 @@
 <title>The Popular Vote, Electoral College and Electoral Power</title>
 
 <objectives>
-<title><xref ref="chap_five_popular_vote"></xref></title>
+<title><xref ref="chap_five_popular_vote"></xref> Popular Vote, Electoral College, Electoral Power</title>
 	<introduction>
 		<p>
 			Students will be able to:
@@ -102,7 +102,7 @@
 		</statement>
 		<solution>
 			<p>
-				<m>538\div2=269</m> then round up to 270.
+				<m>538\div2=269</m> then add one to get over 50%, which is 270.
 			</p>
 			<p>
 				A candidate needs 270 electoral votes to win the U.S. Presidency.
@@ -118,7 +118,7 @@
 		</statement>
 		<solution>
 			<p>
-				<m>136,452,150\div2=68,226,075</m> then round up to 68,226,076.
+				<m>136,452,150\div2=68,226,075</m> then go to the next whole number which is 68,226,076.
 			</p>
 			<p>
 				A candidate would need 68,226,076 votes to win the popular vote.
@@ -166,7 +166,7 @@
 			Consider this country with 4 states. The rules for the number of senators and electors are the same as the U.S. government. Each state will get 1 representative for every 40,000 residents. For simplicity we will ignore any remainders.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>State</cell>
 				<cell>Population</cell>
@@ -247,7 +247,7 @@
 							To find the number of electors for each state, we first divide each state population by 40,000 to determine the number of representatives they will have. We will drop the decimal remainders, similar to Hamilton's method.
 						</p>
 						<sidebyside>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 							<row header="yes">
 								<cell>State</cell>
 								<cell>Population</cell>
@@ -289,7 +289,7 @@
 
 						</p>
 						<sidebyside>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 							<row header="yes">
 								<cell>State</cell>
 								<cell>Population</cell>
@@ -331,7 +331,7 @@
 							Then we will add the number of representatives and the senators for each state.
 						</p>
 						<sidebyside>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 							<row header="yes">
 								<cell>State</cell>
 								<cell>Population</cell>
@@ -388,10 +388,10 @@
 							To find out how many electoral votes are needed to win the presidential election, we calculate a majority of 65 electors.
 						</p>
 						<p>
-							<m>52 \div 2 = 26</m>, round up to 27
+							<m>52 \div 2 = 26</m>, add one to get 27 votes.
 						</p>
 						<p>
-							27 electoral votes are needed to win the presidential election in this state
+							27 electoral votes are needed to win the presidential election in this state.
 						</p>
 					</li>
 					<li>
@@ -399,7 +399,7 @@
 							To find the winner for each method, we need the results of an election. In our example, there are 2 candidates for the president, Candidate A and Candidate B. When a candidate wins in a state, they get all the electoral votes for that state. Given the votes for each candidate below, determine who wins the popular vote and who wins the electoral college vote.
 						</p>
 						<sidebyside>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 							<row header="yes">
 								<cell>State</cell>
 								<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -448,7 +448,7 @@
 							First, we will add up all the votes for each candidate in their columns. Next, we will look at each state individually to determine which candidate wins each state. Candidate B has more votes in Small, Medium and Large, so Candidate B gets all of the electoral votes in those states. Candidate A won Huge, so they get all of those electoral votes. We enter zero for the candidate who does not win in each state. Then we add up the electoral vote columns. Here is the completed table.
 						</p>
 						<sidebyside>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 							<row header="yes">
 								<cell>State</cell>
 								<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -503,7 +503,7 @@
 							Try calculating the results if these were the votes instead:
 						</p>
 						<sidebyside>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 							<row header="yes">
 								<cell>State</cell>
 								<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -550,7 +550,7 @@
 						</sidebyside>
 <!-- 							<solution>
  -->								<sidebyside>
-							<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+							<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 								<row header="yes">
 									<cell>State</cell>
 									<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -608,10 +608,10 @@
 							Let's look at which combinations of states the candidates could seek to win with.
 						</p>
 						<p>
-							Since 27 electoral votes are needed, we will list all the winning combinations starting with the smallest number of states to win. We see that a candidate must win either Huge or Large, because Small and Medium together are not enough votes to win
+							Since 27 electoral votes are needed, we will list all the winning combinations starting with the smallest number of states to win. We see that a candidate must win either Huge or Large, because Small and Medium together are not enough votes to win.
 						</p>
 						<sidebyside>
-						<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+						<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 							<row header="yes">
 								<cell>Combination</cell>
 								<cell>Small, 5</cell>
@@ -698,13 +698,13 @@
 							For Huge:
 						</p>
 						<p>
-							<m>862,070 \div 2 = 431,035</m>, then round up to 431,036
+							<m>862,070 \div 2 = 431,035</m>, then go to the next whole number and get 431,036.
 						</p>
 						<p>
 							For Small:
 						</p>
 						<p>
-							<m>154,600 \div 2 = 77,300</m>, then round up to 77,301
+							<m>154,600 \div 2 = 77,300</m>, then go to the next whole number which is 77,301.
 						</p>
 						<p>
 							<m>431,036+77,301 \text{ votes } = 508,337 \text{ votes}</m>
@@ -719,13 +719,13 @@
 							For Medium:
 						</p>
 						<p>
-							<m>262,340 \div 2 = 131,170</m>, then round up to 131,171
+							<m>262,340 \div 2 = 131,170</m>, then go to the next whole number which is 131,171.
 						</p>
 						<p>
 							For Large:
 						</p>
 						<p>
-							<m>581,135 \div 2 = 290,567.5</m>, then round up to 290,568
+							<m>581,135 \div 2 = 290,567.5</m>, then go to the next whole number which is 290,568.
 						</p>
 						<p>
 							<m>77,301 + 131,171 + 290,568 \text{ votes } = 499,040 \text{ votes}</m>
@@ -739,10 +739,10 @@
 							The smallest number of votes to win the electoral college is 499,040. What percentage of the population is that? We will divide by the total population to get
 						</p>
 						<p>
-							<m>499,040 \div 1,860,145 = 0.2683</m>
+							<m>499,040 \div 1,860,145 = 0.2683.</m>
 						</p>
 						<p>
-							If a candidate had the right combination of states, they could win the Electoral College with only 26.8% of the vote.
+							If a candidate had the right combination of states in this made up country, they could win the Electoral College with only 26.8% of the vote.
 						</p>
 					</li>
 				</ol>
@@ -750,7 +750,7 @@
 		</solution>
 	</example>
 	<p>
-		People who support the Electoral College often say it protects small states. People who oppose the Electoral College often say that each person's vote should count equally as in the popular vote. Next we will look at electoral power to understand the effect on small states.
+		People who support the Electoral College often say it protects small states. People who oppose the Electoral College often say that each person's vote should count equally as in the popular vote. Next we will look at electoral power to understand the impact of the Electoral College on people in small and large states.
 	</p>
 </subsection>
 
@@ -765,7 +765,7 @@
 			Using the same fictional country, use the table below to calculate the electoral power of each state.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>State</cell>
 				<cell>Population</cell>
@@ -815,7 +815,7 @@
 			To do that, divide the number of electors by the number of representatives, since they each represent approximately 40,000 people. The results are shown in the table below. Note this is approximate because we cut off the decimal remainders when calculating the number of representatives.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>State</cell>
 				<cell>Population</cell>
@@ -994,7 +994,7 @@
 		In this country there is one representative for every 50,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -1038,7 +1038,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -1096,7 +1096,7 @@
 		In this country there is one representative for every 75,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -1140,7 +1140,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -1198,7 +1198,7 @@
 		In this country there is one representative for every 40,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -1249,7 +1249,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -1314,7 +1314,7 @@
 		In this country there is one representative for every 60,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -1365,7 +1365,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -1453,7 +1453,7 @@
 		In this country from problem 7, there is one representative for every 50,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1497,7 +1497,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1555,7 +1555,7 @@
 		In this country from problem 8, there is one representative for every 75,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1599,7 +1599,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1657,7 +1657,7 @@
 		In this country from problem 9, there is one representative for every 40,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1708,7 +1708,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1773,7 +1773,7 @@
 		In this country from problem 10, there is one representative for every 60,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1824,7 +1824,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1912,7 +1912,7 @@
 		In this country from problem 7, there is one representative for every 50,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -1953,7 +1953,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -2008,7 +2008,7 @@
 		In this country from problem 8, there is one representative for every 75,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -2049,7 +2049,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -2104,7 +2104,7 @@
 		In this country from problem 9, there is one representative for every 40,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -2153,7 +2153,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -2216,7 +2216,7 @@
 		In this country from problem 10, there is one representative for every 60,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -2265,7 +2265,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>

@@ -4,7 +4,7 @@
 <title>Federal Budget, Deficit and National Debt</title>
 
 <objectives>
-<title><xref ref="chap_five_budget_deficit_debt"></xref></title>
+<title><xref ref="chap_five_budget_deficit_debt"></xref> Federal Budget, Deficit and Debt</title>
 	<introduction>
 		<p>
 			Students will be able to:
@@ -104,7 +104,7 @@
 		On the graph above, $1 on the vertical scale represents one billion dollars or $1,000,000,000. The highest deficits go down to about -$1,500 billion, which we would write as -$1,500,000,000,000. Here is a chart that shows large numbers and how many zeros they have.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number</cell>
 			<cell>Name</cell>

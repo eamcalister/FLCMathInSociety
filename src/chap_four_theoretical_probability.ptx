@@ -78,7 +78,7 @@
 <subsection>
 	<title>Basic Probability Concepts</title>
 	<p>
-		  Let's begin with a brief introduction to some of the language and basic concepts of theoretical probability. 
+		  Let's begin with a brief introduction to some of the language and basic concepts of theoretical probability.
 	</p>
 </subsection>
 
@@ -92,7 +92,7 @@
 <subsection>
 	<title>Events and Outcomes</title>
 	<p>
-		The result of an experiment is an <alert>outcome</alert>, and a particular outcome, like rolling a five on a die, is called an <alert>event</alert>. An event can be a <alert>simple event</alert> or combination of outcomes, called a <alert>compound event</alert>.
+		The result of an experiment is an <alert>outcome</alert>. An <alert>event</alert> is any particular group of outcomes, like rolling a three or a five on a die. An event can be a <alert>simple event</alert>, which is a single outcome, or a combination of outcomes, called a <alert>compound event</alert>.
 	</p>
 </subsection>
 
@@ -110,7 +110,7 @@
 		<solution>
 		<p>
 			The sample space is the set of all possible outcomes, or equivalently, all simple events: <m>S={1,2,3,4,5,6,7,8}</m>
-		</p> 
+		</p>
 		<p>
 			Examples of simple events are rolling a 1, rolling a 5, rolling a 6, and so on. Examples of compound events include rolling an even number, rolling a 5 or a 3, and rolling a number that is at least 4.
 		</p>
@@ -145,7 +145,7 @@
 		</p>
 
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell></cell>
 					<cell>1</cell>
@@ -213,7 +213,7 @@
 		</sidebyside>
 			<p></p>
 		<sidebyside>
-			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Sum</cell>
 					<cell>Probability</cell>
@@ -221,47 +221,47 @@
 				<row>
 					<cell>2</cell>
 					<cell><m>\sfrac{1}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>3</cell>
 					<cell><m>\sfrac{2}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>4</cell>
 					<cell><m>\sfrac{3}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>5</cell>
 					<cell><m>\sfrac{4}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>6</cell>
 					<cell><m>\sfrac{5}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>7</cell>
 					<cell><m>\sfrac{6}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>8</cell>
 					<cell><m>\sfrac{5}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>9</cell>
 					<cell><m>\sfrac{4}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>10</cell>
 					<cell><m>\sfrac{3}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>11</cell>
 					<cell><m>\sfrac{2}{36}</m></cell>
-				</row>	
+				</row>
 				<row>
 					<cell>12</cell>
 					<cell><m>\sfrac{1}{36}</m></cell>
-				</row>	
+				</row>
 			</tabular>
 		</sidebyside>
 	<p>
@@ -376,12 +376,12 @@
 			<ol marker="a.">
 				<li>
 					<p>
-						Since all the numbers are either even or odd, this event includes all of the outcomes in the sample space. This event is certain. <m>P(\text{odd or even})=\frac{6}{6}=1</m>
+						Since all the numbers are either even or odd, this event includes all of the outcomes in the sample space. This event is certain. <m>P(\text{odd or even})=\frac{6}{6}=1\text{ or } 100\%</m>
 					</p>
 				</li>
 				<li>
 					<p>
-						Since 8 is not one of the outcomes in the sample space, the event is impossible. <m>P(\text{roll an 8})=\frac{0}{8}=0</m>
+						Since 8 is not one of the outcomes in the sample space, the event is impossible. <m>P(\text{roll an 8})=\frac{0}{8}=0\text{ or } 0\%</m>
 					</p>
 				</li>	
 			</ol>
@@ -443,9 +443,9 @@
 			The table shows the numbers that came up after rolling a six-sided die 10 times. What is the experimental probability of rolling a 6? What is the theoretical probability of rolling a 6?
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
-				<cell><alert>Roll</alert></cell>
+				<cell>Roll</cell>
 				<cell>1</cell>
 				<cell>2</cell>
 				<cell>3</cell>
@@ -458,7 +458,7 @@
 				<cell>10</cell>
 			</row>
 			<row>
-				<cell><alert>Outcome</alert></cell>
+				<cell>Outcome</cell>
 				<cell>3</cell>
 				<cell>1</cell>
 				<cell>4</cell>
@@ -478,10 +478,10 @@
 			To find the experimental probability of rolling a 6, it would be helpful to change this into a frequency table. We list all the possible outcomes and count how many times each occurred.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
-				<cell><alert>Outcome</alert></cell>
-				<cell><alert>Frequency</alert></cell>
+				<cell>Outcome</cell>
+				<cell>Frequency</cell>
 			</row>
 			<row>
 				<cell>1</cell>
@@ -714,7 +714,7 @@
 					<mrow>P(\text{no citation in 20 rides})\amp=P(\text{no citation on a single ride})^{20}</mrow>
 					<mrow>\amp=(1-0.06)^{20}</mrow>
 					<mrow>\amp=(0.94)^{20}</mrow>
-					<mrow>\amp\approx 0.2901 \text{ or } 29.01\%</mrow>
+					<mrow>\amp\approx 0.290 \text{ or } 29.0\%</mrow>
 				</md>
 			</p>
 		</solution>
@@ -724,12 +724,12 @@
 <subsection>
 <title><q>Or</q> Probabilities</title>
 	<p>
-		The event <alert>A or B</alert> refers to an event that includes the outcomes of <em>A</em> or <em>B</em> or <em>both</em>. We have seen the inclusive <q>or</q> both in terms of sets and logic, and in terms of contingency tables. The way we calculate the probability of <em>A or B</em> depends on whether the events have characteristics that are overlapping or disjoint. 
+		The event <alert>A or B</alert> refers to an event that includes the outcomes of <em>A</em> or <em>B</em> or <em>both</em>. We have seen the inclusive <q>or</q> both in terms of sets and logic, and in terms of contingency tables. The way we calculate the probability of <em>A or B</em> depends on whether the events have characteristics that are overlapping or disjoint.
 	</p>
 </subsection>
 
 <subsection>
-<title>Overlapping or Disjoint Sets</title>	
+<title>Overlapping or Disjoint Sets</title>
 	<p>
 		Recall that <alert>disjoint</alert> means the same thing as <alert>not overlapping</alert>. Just like we saw in the logic and sets chapter, the set diagram on the left shows overlapping sets and the set diagram on the right shows disjoint sets.
 	</p>
@@ -773,7 +773,8 @@
 				</p>
 				<p>
 					<md>
-					<mrow>P(\text{yellow})=\frac{18}{33}</mrow>
+					<mrow>P(\text{yellow})\amp=\frac{18}{33}</mrow>
+					<mrow>\amp\approx 0.545 \text{ or } 54.5\%</mrow>
 				</md>
 				</p>
 			</li>
@@ -786,6 +787,7 @@
 						<mrow>P(\text{red or yellow})\amp=P(\text{red})+P(\text{yellow})</mrow>
 						<mrow>\amp=\frac{9}{33}+\frac{18}{33}</mrow>
 						<mrow>\amp=\frac{27}{33}</mrow>
+						<mrow>\amp\approx 0.818 \text{ or } 81.8\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -798,6 +800,7 @@
 						<mrow>P(\text{yellow or eraser})\amp=P(\text{yellow eraser})+P(\text{yellow pencil sharpener})+P(\text{green eraser})</mrow>
 						<mrow>\amp=\frac{10}{33}+\frac{8}{33}+\frac{6}{33}</mrow>
 						<mrow>\amp=\frac{24}{33}</mrow>
+						<mrow>\amp\approx 0.727 \text{ or } 72.7\%</mrow>
 					</md>
 				</p>
 				<p>
@@ -808,6 +811,7 @@
 						<mrow>P(\text{yellow or eraser})\amp=P(\text{yellow})+P(\text{eraser})-P(\text{yellow and eraser})</mrow>
 						<mrow>\amp=\frac{18}{33}+\frac{16}{33}-\frac{10}{33}</mrow>
 						<mrow>\amp=\frac{24}{33}</mrow>
+						<mrow>\amp\approx 0.727 \text{ or } 72.7\%</mrow>
 					</md>
 				</p>
 			</li>
@@ -827,7 +831,7 @@
 		<p>
 			If the sets are overlapping, <m>P(A \text{ or } B) = P(A) + P(B) – P(A \text{ and } B)</m>
 		</p>
-	</assemblage> 
+	</assemblage>
 	<p>
 		We could also use the overlapping formula as a general formula, because in the case of disjoint sets, there is no intersection and <m>P(A \text{ and } B)=0</m>. Here is another example with overlapping events.
 	</p>
@@ -839,10 +843,10 @@
 		</statement>
 		<solution>
 		<p>
-			For complicated events it's a good idea to list all of the outcomes. Looking at the table of outcomes, we see that there are 6 outcomes that are pairs out of the 36 possible outcomes, and there are 5 outcomes that add to 6. We can also see that there is one outcome that is both a pair and a sum of 6, so the events are overlapping.
+			For complicated events it's a good idea to list all of the outcomes. Here we list them in a table. Looking at the table of outcomes, we see that there are 36 in total. Six outcomes that are pairs lie along the upper-to-lower diagonal that goes through <m>\highlight{3+3=6}</m>. There are 5 outcomes that add to 6 along the lower-to-upper diagonal line that also goes through <m>\highlight{3+3=6}</m>. That outcome is both a pair and a sum of 6, so the events are overlapping.
 		</p>
 		<sidebyside>
-		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
 				<cell>1</cell>
@@ -854,19 +858,19 @@
 			</row>
 			<row>
 				<cell>1</cell>
-				<cell><m>1+1=2</m></cell>
+				<cell><alert><m>\highlight{1+1=2}</m></alert></cell>
 				<cell><m>1+2=3</m></cell>
 				<cell><m>1+3=4</m></cell>
 				<cell><m>1+4=5</m></cell>
-				<cell><m>1+5=6</m></cell>
+				<cell><alert><m>\highlight{1+5=6}</m></alert></cell>
 				<cell><m>1+6=7</m></cell>
 			</row>
 			<row>
 				<cell>2</cell>
 				<cell><m>2+1=3</m></cell>
-				<cell><m>2+2=4</m></cell>
+				<cell><alert><m>\highlight{2+2=4}</m></alert></cell>
 				<cell><m>2+3=5</m></cell>
-				<cell><m>2+4=6</m></cell>
+				<cell><alert><m>\highlight{2+4=6}</m></alert></cell>
 				<cell><m>2+5=7</m></cell>
 				<cell><m>2+6=8</m></cell>
 			</row>
@@ -874,7 +878,7 @@
 				<cell>3</cell>
 				<cell><m>3+1=4</m></cell>
 				<cell><m>3+2=5</m></cell>
-				<cell><m>3+3=6</m></cell>
+				<cell><alert><m>\highlight{3+3=6}</m></alert></cell>
 				<cell><m>3+4=7</m></cell>
 				<cell><m>3+5=8</m></cell>
 				<cell><m>3+6=9</m></cell>
@@ -882,19 +886,19 @@
 			<row>
 				<cell>4</cell>
 				<cell><m>4+1=5</m></cell>
-				<cell><m>4+2=6</m></cell>
+				<cell><alert><m>\highlight{4+2=6}</m></alert></cell>
 				<cell><m>4+3=7</m></cell>
-				<cell><m>4+4=8</m></cell>
+				<cell><alert><m>\highlight{4+4=8}</m></alert></cell>
 				<cell><m>4+5=9</m></cell>
 				<cell><m>4+6=10</m></cell>
 			</row>
 			<row>
 				<cell>5</cell>
-				<cell><m>5+1=6</m></cell>
+				<cell><alert><m>\highlight{5+1=6}</m></alert></cell>
 				<cell><m>5+2=7</m></cell>
 				<cell><m>5+3=8</m></cell>
 				<cell><m>5+4=9</m></cell>
-				<cell><m>5+5=10</m></cell>
+				<cell><alert><m>\highlight{5+5=10}</m></alert></cell>
 				<cell><m>5+6=11</m></cell>
 			</row>
 			<row>
@@ -904,7 +908,7 @@
 				<cell><m>6+3=9</m></cell>
 				<cell><m>6+4=10</m></cell>
 				<cell><m>6+5=11</m></cell>
-				<cell><m>6+6=12</m></cell>
+				<cell><alert><m>\highlight{6+6=12}</m></alert></cell>
 			</row>
 		</tabular>
 		</sidebyside>
@@ -912,14 +916,14 @@
 			As in the last example, there are two ways to do this.
 		</p>
 		<p>
-			If we add all of the shaded squares without double counting, we get:
+			If we add all of the pairs and sums of 6 without double counting, we get:
 		</p>
 		<p>
 			<md>
 				<mrow>P(\text{pair or sum of 6})\amp=P(\text{pair})+P(\text{sum of 6 that haven't been counted})</mrow>
 				<mrow>\amp=\frac{6}{36}+\frac{4}{36}</mrow>
 				<mrow>\amp=\frac{10}{36}</mrow>
-				<mrow>\amp=\frac{5}{18}</mrow>
+				<mrow>\amp\approx 0.278 \text{ or } 27.8\%</mrow>
 			</md>
 		</p>
 
@@ -928,14 +932,14 @@
 		</p>
 		<p>
 			<md>
-				<mrow>P(\text{pair or sum of 6})\amp=P(\text{pair})+P(\text{sum of 6})+P(\text{pair and a sum of 6})</mrow>
+				<mrow>P(\text{pair or sum of 6})\amp=P(\text{pair})+P(\text{sum of 6})-P(\text{pair and a sum of 6})</mrow>
 				<mrow>\amp=\frac{6}{36}+\frac{5}{36}-\frac{1}{36}</mrow>
 				<mrow>\amp=\frac{10}{36}</mrow>
-				<mrow>\amp=\frac{5}{36}</mrow>
+				<mrow>\amp\approx 0.278 \text{ or } 27.8\%</mrow>
 			</md>
 		</p>
 		<p>
-			Now that we have looked at empirical and theoretical probability, we will be able to use them for something very important in the next section – expected value. 
+			Now that we have looked at empirical and theoretical probability, we will be able to use them for something very important in the next section – expected value.
 		</p>
 		</solution>
 	</example>
@@ -958,17 +962,17 @@
 		</li>
 		<li>
 			<p>
-				Drawing a red marble.	
+				Drawing a red marble.
 			</p>
 		</li>
 		<li>
 			<p>
-				Drawing a green marble.	
+				Drawing a green marble.
 			</p>
 		</li>
 		<li>
 			<p>
-				Drawing two yellow marbles if you draw with replacement.		
+				Drawing two yellow marbles if you draw with replacement.
 			</p>
 		</li>
 		<li>
@@ -1015,7 +1019,7 @@
 <exercise>
 	<statement>
 	<p>
-		Compute the probability of tossing a fair six-sided die and getting:	
+		Compute the probability of tossing a fair six-sided die and getting:
 	</p>
 	<p>
 	<ol marker="a.">

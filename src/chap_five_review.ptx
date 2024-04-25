@@ -253,7 +253,7 @@
 		A Portland Community College Board member race has four candidates: E, F, G, H. The votes are:
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>12</cell>
@@ -359,7 +359,7 @@
 		A Forest Grove School Board position has four candidates: I, J, K, L. The votes are:
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>15</cell>
@@ -470,7 +470,7 @@
 		A Multnomah County Commissioner's race has five candidates: M, N, O, P, Q. The votes are:
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>31</cell>
@@ -575,7 +575,7 @@
 		The Oregon State Governor's race has five candidates: R, S, T, U, V. The votes are:
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
 			<cell>22</cell>
@@ -708,7 +708,7 @@
 		In this country there is one representative for every 55,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -752,7 +752,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -810,7 +810,7 @@
 		In this country there is one representative for every 60,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -861,7 +861,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -948,7 +948,7 @@
 		In this country from problem 9, there is one representative for every 55,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -992,7 +992,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1050,7 +1050,7 @@
 		In this country from problem 10, there is one representative for every 60,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1101,7 +1101,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell><line>Votes for</line><line>Candidate A</line></cell>
@@ -1188,7 +1188,7 @@
 		In this country from problem 9, there is one representative for every 55,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -1229,7 +1229,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -1284,7 +1284,7 @@
 		In this country from problem 10, there is one representative for every 60,000 residents.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
 			<cell>Population</cell>
@@ -1333,7 +1333,7 @@
 			<ol marker="a.">
 				<li>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
 							<cell>Population</cell>
@@ -1462,7 +1462,7 @@
 						The efficiency gap is <m>20/45= 44.4\%</m>
 					</p>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>
@@ -1565,7 +1565,7 @@
 						The efficiency gap is <m>16/42= 38.10\%</m>
 					</p>
 					<sidebyside>
-					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
 							<cell>D Votes</cell>

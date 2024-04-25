@@ -92,13 +92,13 @@
 			Just as we did for the last example, let's rewrite the argument in its <q>premise, premise, conclusion</q> form:
 		</p>
 		<p>
-			Premise: All nurses know CPR. 
+			Premise: All nurses know CPR.
 		</p>
 		<p>
-			Premise: Henry is a nurse. 
+			Premise: Henry is a nurse.
 		</p>
 		<p>
-			Conclusion: Henry knows CPR. 
+			Conclusion: Henry knows CPR.
 		</p>
 		<p>
 			Unlike the first argument where the premises were specific and the conclusion was general, this argument's first premise is a general statement and the conclusion is specific. We can determine whether an argument is inductive or deductive by looking at which part of the argument is general and which is specific. In the first example, the premises were specific and the conclusion was more general. This is an example of an <alert>inductive</alert> argument. In the second example, it was the premises that were more general and the conclusion that was specific. This is an example of a <alert>deductive</alert> argument. 
@@ -106,7 +106,7 @@
 	</example>
 
 	<p>
-		In general, an <alert>inductive argument</alert> uses a collection of <em>specific</em> examples (i.e. data) as its premises and uses them to propose a <em>general</em> conclusion, while a <alert>deductive argument</alert> uses a collection of <em>general statements</em> (i.e. definitions) as its premises and uses them to propose a <em>specific conclusion</em>. You can see the difference in the pyramids below. We start with the premises at the bottom and build up to the conclusion.
+		In general, an <alert>inductive argument</alert> uses a collection of <em>specific</em> examples (i.e. data) as its premises and uses them to propose a <em>general</em> conclusion. This is shown in the image on the left below, where the argument moves from the narrow specific premises at the bottom up to the wide general conclusion at the top. A <alert>deductive argument</alert> uses a collection of <em>general statements</em> (i.e. definitions) as its premises and uses them to propose a <em>specific conclusion</em>. This is shown in the image to the right below, where the argument moves from the wide general premises at the bottom to the narrow specific conclusion at the top.
 	</p>
 	<sidebyside widths="40% 40%">
 		<image source="images/language_logic_rules/1_3/ind_ded_argument1.png">

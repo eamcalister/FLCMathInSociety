@@ -48,7 +48,7 @@
 			</li>
 			<li>
 				<p>
-					What type of data was collected? 
+					What type of data was collected?
 				</p>
 			</li>
 			<li>
@@ -484,7 +484,7 @@
 			</li>
 			<li>
 				<p>
-					Describe the control group (if there is one). 
+					Describe the control group (if there is one).
 				</p>
 			</li>
 			<li>
@@ -703,10 +703,30 @@
 <exercise>
 	<statement>
 	<p>
-		A group of college students were asked what the price of gas would need to be before they would start using public transportation to get to school instead of driving. Their responses in $/gallon are listed below:
+		A group of college students were asked what the price of gas would need to be before they would start using public transportation to get to school instead of driving. Their responses in dollars per gallon ($/gal) are listed below:
 	</p>
 	<p>
-		5.25, 5.00, 4.25, 3.75, 5.00, 4.50, 3.95, 3.75, 5.75, 4.75, 3.25, 3.75, 4.75, 5.00, 8.95
+	<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>5.25</cell>
+					<cell>5.00</cell>
+					<cell>4.25</cell>
+					<cell>3.75</cell>
+					<cell>5.00</cell>
+					<cell>4.50</cell>
+					<cell>3.95</cell>
+					<cell>3.75</cell>
+					<cell>5.75</cell>
+					<cell>4.75</cell>
+					<cell>3.25</cell>
+					<cell>3.75</cell>
+					<cell>4.75</cell>
+					<cell>5.00</cell>
+					<cell>8.95</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -727,7 +747,7 @@
 			</li>
 			<li>
 				<p>
-					Calculate the z-scores for the responses of $3.25 and $8.95. Are either of these values unusual? 
+					Calculate the z-scores for the responses of $3.25 per gallon and $8.95 per gallon. Are either of these values unusual?
 				</p>
 			</li>
 			<li>
@@ -753,7 +773,7 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					The mean is $4.78. The median is $4.75.
+					The mean is $4.78 per gallon. The median is $4.75 per gallon.
 				</p>
 			</li>
 			<li>
@@ -763,7 +783,7 @@
 			</li>
 			<li>
 				<p>
-					The standard deviation is $1.34.
+					The standard deviation is $1.34 per gallon.
 				</p>
 			</li>
 			<li>
@@ -807,7 +827,30 @@
 		The following is a sample of scores from a recent Math 105 exam:
 	</p>
 	<p>
-		32, 71, 72, 73, 73, 73, 76, 77, 78, 78, 79, 86, 88, 88, 88, 94, 94, 99
+	<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>32</cell>
+					<cell>71</cell>
+					<cell>72</cell>
+					<cell>73</cell>
+					<cell>73</cell>
+					<cell>73</cell>
+					<cell>76</cell>
+					<cell>77</cell>
+					<cell>78</cell>
+					<cell>78</cell>
+					<cell>79</cell>
+					<cell>86</cell>
+					<cell>88</cell>
+					<cell>88</cell>
+					<cell>88</cell>
+					<cell>94</cell>
+					<cell>94</cell>
+					<cell>99</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -833,7 +876,7 @@
 			</li>
 			<li>
 				<p>
-					Explain what the mean and standard deviation tell you about the sampled test scores. 
+					Explain what the mean and standard deviation tell you about the sampled test scores.
 				</p>
 			</li>
 			<li>
@@ -929,7 +972,7 @@
 		The following table shows the cost of purchasing a car at a local dealership. Some of the cars sold were new and some were used.
 	</p>
 	<sidebyside>
-	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell><line>Cost (Thousands</line><line>of dollars)</line></cell>
 			<cell>Frequency</cell>
@@ -1158,10 +1201,28 @@
 <exercise>
 	<statement>
 	<p>
-		This data is a sample of the average number of minutes per week that a driver is delayed by road congestion in 13 cities:
+		This data set is a sample of the average number of minutes per week that a driver is delayed by road congestion in 13 cities:
 	</p>
 	<p>
-		66, 55, 53, 50, 36, 45, 34, 43, 52, 40, 76, 45, 63
+	<sidebyside>
+			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+				<row>
+					<cell>66</cell>
+					<cell>55</cell>
+					<cell>53</cell>
+					<cell>50</cell>
+					<cell>36</cell>
+					<cell>45</cell>
+					<cell>34</cell>
+					<cell>43</cell>
+					<cell>52</cell>
+					<cell>40</cell>
+					<cell>76</cell>
+					<cell>45</cell>
+					<cell>63</cell>
+				</row>
+			</tabular>
+		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
