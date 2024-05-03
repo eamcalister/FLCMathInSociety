@@ -22,7 +22,7 @@
 		</li>
 		<li>
 			<p>
-				Use logical connectors (and/or) and conditional statements (if, then) 
+				Use logical connectors (and/or) and conditional statements (if, then)
 			</p>
 		</li>
 		<li>
@@ -36,7 +36,7 @@
 <introduction>
 	<figure>
       <caption>Alternative Video Lesson</caption>
-      <video youtube="wtaYYd7xE10" label="video-language-logic"/>
+      <video youtube="wtaYYd7xE10" label="video-language-logic" preview="images/white_rectangle.png"/>
     </figure>
 </introduction>
 
@@ -285,7 +285,7 @@
 	</p>
 		<figure>
 		<caption></caption>
-		<sidebyside>
+		<sidebyside widths="47% 47%" margins="auto" valign="middle">
 			<p>
 				To set up a truth table, we list all the possible truth value combinations in a systematic way. The standard way of doing this is to make the first column half true, then half false, then cut the pattern in half with each succeeding column. For two propositions, the first two columns are shown to the right.
 			</p>
@@ -355,7 +355,7 @@
 	<p>
 		<alert>Basic Truth Tables</alert>
 	</p>
-	<sidebyside width="40%">
+	<sidebyside widths="47% 47%" margins="0% 0%" valign="middle">
 	<table>
 	<title><alert>Not</alert>: In the <em>not R</em> column, the truth value is the opposite of the value for <em>R</em>. For example, if <em>R</em> is true (you paid your rent) then <em>not R</em> (you did not pay your rent) is false.</title>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -404,7 +404,7 @@
 		</tabular>
 	</table>
 	</sidebyside>
-	<sidebyside>
+	<sidebyside widths="47%" margins="auto" valign="middle">
 		<table>
 		<title><alert>Or</alert>: In the <em>R or E</em> column, you must have paid either your rent or electric bill, or both (inclusive or). Otherwise <em>R or E</em> is false.</title>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -549,7 +549,7 @@
 		</p>
 		</statement>
 		<solution>
-		<sidebyside>
+		<sidebyside widths="47% 47%" margins="auto" valign="middle">
 			<p>
 				When we create the truth table, we start with columns for the propositions, <em>A</em> and <em>B</em>. Then we add a column for <em>not B</em> because that is part of the final statement. Our last column is the final statement <em>A or not B</em>.
 			</p>
@@ -587,7 +587,7 @@
 			</tabular>
 	</sidebyside>
 
-	<sidebyside>
+	<sidebyside widths="47% 47%" margins="auto" valign="middle">
 			<p>
 				To complete the third column, <em>not B</em>, we take the opposite of the <em>B</em> column. Then to complete the fourth column, we only look at the <em>A</em> and the <em>not B</em> columns and compare them using <em>or</em>.
 			</p>

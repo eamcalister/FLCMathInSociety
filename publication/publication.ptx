@@ -37,6 +37,7 @@
 		<page>
 			<geometry>papersize={8.5in,11in},total={6.5in,9in}</geometry>
 		</page>
+		<video privacy="yes" preview="generated/play-button.png"/>
 	</latex>
 	<html>
 		<knowl exercise-inline="no" example="no"/>
