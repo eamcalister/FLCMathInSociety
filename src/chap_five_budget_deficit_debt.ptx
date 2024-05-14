@@ -103,7 +103,6 @@
 	<p>
 		On the graph above, $1 on the vertical scale represents one billion dollars or $1,000,000,000. The highest deficits go down to about -$1,500 billion, which we would write as -$1,500,000,000,000. Here is a chart that shows large numbers and how many zeros they have.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number</cell>
@@ -134,7 +133,6 @@
 			<cell>One quintillion</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		Instead of writing all the zeros, we can abreviate large numbers using decimals. For example, 1,200,000 can be written as 1.2 million. We can write 900,000 as 0.9 million. We can also translate the other way and write 4.567 trillion as 4,567,000,000,000. Note there can be more than one way to write a number. We could write 400,000,000 as either 400 million or 0.4 billion. It is convenient that we put the decimal where the comma goes and vice versa.
 	</p>

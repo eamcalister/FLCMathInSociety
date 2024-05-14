@@ -328,7 +328,6 @@
 	<p>
 		Calculating out a few more months in a table or a spreadsheet we have:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" top="minor" left="minor" right="minor" bottom="minor" halign="left">
 		<row header="yes">
 			<cell>Month</cell>
@@ -409,8 +408,6 @@
 			<cell>1030.42</cell>
 		</row>
 	</tabular>
-	</sidebyside>
-
 	<p>
 		To find an equation to represent this, we will go through a few months to see the pattern:
 	</p>
@@ -607,9 +604,8 @@
 	<p>
 		Let us compare the amount of money earned from compounding in the previous example against the amount you would earn from simple interest. From the table and graph below we can see that over a long period of time, compounding makes a large difference in the account balance. You may recognize this as the difference between linear growth and exponential growth.
 	</p>
+	<!-- Note: widths are set to make pdf look good, not as good for web version -->
 	<sidebyside valign="bottom" widths="60% 36%" margins="0%">
-	<table>
-	<title></title>
 		<tabular row-headers="yes" top="minor" left="minor" right="minor" bottom="minor" halign="left">
 		<row header="yes">
 			<cell>Year</cell>
@@ -657,7 +653,6 @@
 			<cell>$24370.65</cell>
 		</row>
 	</tabular>
-	</table>
 	<image source="images/financial_math/2_2/comparing_interest.png">
 	<shortdescription>A coordinate graph with years on the x-axis and account balance on the y-axis. The simple interest increases in a straight line; the compound interest curves up faster because it is an exponential function.</shortdescription>
 	</image>

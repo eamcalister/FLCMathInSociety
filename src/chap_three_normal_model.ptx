@@ -422,7 +422,6 @@
 		<p>
 			This function always gives the probability to the left of a number or <me>P(X\leq \text{value})</me>. We can use this formula to find greater than, between and outside probabilities as well. Here are the commands we will use and we will explain them in the next example with visuals.
 		</p>
-		<sidebyside>
 			<tabular top="minor" bottom="minor" right="minor" left="minor">
 				<row header="yes">
 					<cell halign="center">Probability</cell>
@@ -445,7 +444,6 @@
 					<cell halign="left"><c>=NORM.DIST(lower_value, mean, SD, 1)+1-NORM.DIST(upper_value,mean, SD, 1)</c></cell>
 				</row>
 			</tabular>
-		</sidebyside>
 
 	<example>
 		<p>

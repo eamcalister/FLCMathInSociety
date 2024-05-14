@@ -333,7 +333,6 @@
 		<p>
 			Find the net monthly cash flow (1 month = 4 weeks)
 		</p>
-		<sidebyside>
 		<tabular>
 			<row header="yes" bottom="minor">
 				<cell>Income:</cell>
@@ -360,7 +359,6 @@
 				<cell>Miscellaneous: $75 per week</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		</statement>
 		<solution>
 			<p>

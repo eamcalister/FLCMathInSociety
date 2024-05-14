@@ -8,7 +8,6 @@
 	<p>
 		A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -39,7 +38,6 @@
 			<cell>60</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		If one student was chosen at random, find each probability:
 	</p>
@@ -111,7 +109,6 @@
 	<p>
 		A professor gave a test to students in a science class and in a math class during the same week. The grades are summarized below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -142,7 +139,6 @@
 			<cell>65</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		If one student was chosen at random, find each probability:
 	</p>
@@ -214,7 +210,6 @@
 	<p>
 		Four Cable Channels (2, 6, 8, 12) have Drama series, Sitcoms, Game Shows, and News. The number of each type of show is listed in the table below. Complete the table and use it to answer the questions.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Type</cell>
@@ -265,7 +260,6 @@
 			<cell>65</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		<ol marker="a.">
 			<li>
@@ -302,7 +296,6 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Type</cell>
@@ -353,7 +346,6 @@
 				<cell>65</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 		<ol marker="a.">
 			<li>
@@ -396,7 +388,6 @@
 	<p>
 		Four Cable Channels (3, 5, 7, 13) have Reality shows, Crime dramas, Cooking Shows, and Community Programming. The number of each type of show is listed in the table below. Complete the table and use it to answer the questions.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Type</cell>
@@ -447,7 +438,6 @@
 			<cell>83</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		<ol marker="a.">
 			<li>
@@ -484,7 +474,6 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Type</cell>
@@ -535,7 +524,6 @@
 				<cell>83</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 		<ol marker="a.">
 			<li>
@@ -910,7 +898,6 @@
 		<p>
 		<ol marker="a.">
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Color</cell>
@@ -931,7 +918,6 @@
 						<cell><m>20/26</m></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -977,7 +963,6 @@
 		<p>
 		<ol marker="a.">
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Roll</cell>
@@ -1007,7 +992,6 @@
 						<cell><m>1/6</m></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -1031,7 +1015,6 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Outcome</cell>
@@ -1049,7 +1032,6 @@
 				<cell>0.985</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			The expected loss per warranty is $48.25. (Note that if you include the $55.00 a person pays for a warranty, the expected profit will be $6.75 per warranty)
 		</p>
@@ -1063,7 +1045,6 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Outcome</cell>
@@ -1081,7 +1062,6 @@
 				<cell><m>1999/2000</m></cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			The expected loss per ticket is $6.00. So the expected value is -$6.00. (Note that if you inlucde the $10 it costs to but the ticket, the expected value is a profit of $4.00)
 		</p>

@@ -83,7 +83,6 @@
 		<p>
 			Students are voting for their class president and the candidates are Omar (O), Ana (A), and Helena (H). They have ranked the candidates according to their preference.
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -138,7 +137,6 @@
 				<cell>O</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		</statement>
 	</example>
 </subsection>
@@ -199,7 +197,6 @@
 		<p>
 			In our election from above, we had this preference table:
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -230,7 +227,6 @@
 				<cell>O</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			For the plurality method, we only look at the 1st choice row. Totaling them up:
 			<ul>
@@ -296,7 +292,6 @@
 		<p>
 			Here is a two-party election with preferences shown below. It is a close race, but candidate B would win.
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -314,11 +309,9 @@
 				<cell>A</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			Suppose a third candidate, C, entered the race, and a segment of voters sincerely want to vote for that third candidate. Here is the new preference schedule.
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -345,7 +338,6 @@
 				<cell>A</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			The ten people who prefer candidate C are in a bind because if they vote for C, then A will win, but they prefer B over A. It is likely that they will vote for B, their second choice, to keep A from winning.
 		</p>
@@ -369,7 +361,6 @@
 		<p>
 			Consider the preference schedule below, in which a committee is choosing a chairperson. The candidates are labeled A, B, C, D, and E for simplicity. Here is the preference schedule:
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -432,7 +423,6 @@
 				<cell>C</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			Let's start by tallying the first-choices.
 		</p>
@@ -613,7 +603,6 @@
 		<p>
 			A group of PCC students are getting together for a student leadership conference and they need to decide where to meet. Their members are from four campuses: Sylvania, Rock Creek, Cascade and Southeast. The votes for where to hold the conference were:
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -651,11 +640,9 @@
 				<cell>Sylvania</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			Now we will add a column on the left side of the table for the points. Then we multiply the points by the number of voters who put each candidate in that rank,
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Points</cell>
@@ -698,7 +685,6 @@
 				<cell>Sylvania</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			We will start with Sylvania in the bottom row and move up. They have one point times 14 voters, 2 points times 25 + 10 voters, 3 points times zero, and 4 points times 31 voters. Multiplying and then adding gives us a total of 208 points for Sylvania. You can see the calculation below and we will do the same thing for each campus:
 		</p>
@@ -755,7 +741,6 @@
 		<p>
 			Consider our class president example from the beginning of the chapter. Determine the winner using Copeland's Method.
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -786,7 +771,6 @@
 				<cell>O</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			We need to look at each pair of candidates to see which would win in a one-to-one comparison. First, we will systematically list all of the pairs of candidates:
 			<ul>
@@ -810,7 +794,6 @@
 		<p>
 			Next, comparing Helena with Omar, we see that 6 voters, those marked in bold in the table below, would prefer Helena over Omar. Note that Helena doesn't have to be the voter's first choice – we're imagining that Ana wasn't in the race. The other 4 people chose Omar over Helena.
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -841,7 +824,6 @@
 				<cell><alert>O</alert></cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			Based on this comparison of Helena vs. Omar, Helena wins 1 point.
 		</p>
@@ -881,7 +863,6 @@
 		<p>
 			Consider an advertising team voting to choose one of four different slogans, labeled A, B, C and D. Determine the winner using each method we have learned.
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -924,7 +905,6 @@
 				<cell>B</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		</statement>
 		<solution>
 			<p>
@@ -1029,7 +1009,6 @@
 			<p>
 				<alert>Borda Count:</alert> We add a column on the left for the points, starting with 1 point for last place and counting up. Then we multiply the points by the number of votes and add them all up.
 			</p>
-			<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Points</cell>
@@ -1077,7 +1056,6 @@
 					<cell>B</cell>
 				</row>
 			</tabular>
-			</sidebyside>
 			<p>
 				<ul>
 					<li>
@@ -1217,7 +1195,6 @@
 	<p>
 		To see a very simple example of how difficult voting can be, consider the election below:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -1244,7 +1221,6 @@
 			<cell>A</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		Notice that in this election: 10 people prefer A to B, 10 people prefer B to C, and 10 people prefer C to A.
 	</p>
@@ -1288,7 +1264,6 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -1323,7 +1298,6 @@
 				<cell>B</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 	</solution>
 </exercise>
 
@@ -1337,7 +1311,6 @@
 	</p>
 	</statement>
 	<solution>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Number of voters</cell>
@@ -1372,7 +1345,6 @@
 				<cell>A</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 	</solution>
 </exercise>
 
@@ -1420,7 +1392,6 @@
 	<p>
 		The planning committee for a renewable energy trade show is trying to decide where to hold their next trade show in. The votes are shown below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -1454,7 +1425,6 @@
 			
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1499,7 +1469,6 @@
 	<p>
 		A non-profit agency is electing a new chair of the board. The votes are shown below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -1534,7 +1503,6 @@
 			<cell>Cantos</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1579,7 +1547,6 @@
 	<p>
 		A group of students is deciding which class to take together. The votes are shown below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -1618,7 +1585,6 @@
 			<cell>Art</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1663,7 +1629,6 @@
 	<p>
 		A professional psychology association is deciding where to hold their next conference. The votes are shown below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -1702,7 +1667,6 @@
 			<cell>Alaska</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1747,7 +1711,6 @@
 	<p>
 		The Hillsboro City Council has an election with three candidates, D, E, F. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -1786,7 +1749,6 @@
 			<cell>E</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1831,7 +1793,6 @@
 	<p>
 		The Vancouver mayor's race has three candidates, G, H, I. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -1870,7 +1831,6 @@
 			<cell>G</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1915,7 +1875,6 @@
 	<p>
 		The Beaverton City Council has an election for one open position. There are four candidates (labeled A, B, C, and D for convenience). The preference schedule for the election is:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -1963,7 +1922,6 @@
 			<cell>C</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2008,7 +1966,6 @@
 	<p>
 		Portland City Council has an election for one open position. There are four candidates (labeled E, F, G, H for convenience). The preference schedule for the election is:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2061,7 +2018,6 @@
 			<cell>H</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2106,7 +2062,6 @@
 	<p>
 		The Portland mayor's race has four candidates, I, J, K, L. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2164,7 +2119,6 @@
 			<cell>K</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2209,7 +2163,6 @@
 	<p>
 		A Reynolds School Board position has four candidates, M, N, O, P. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2272,7 +2225,6 @@
 			<cell>P</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2317,7 +2269,6 @@
 	<p>
 		The Gresham mayor's race has four candidates, Q, R, S, T. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2375,7 +2326,6 @@
 			<cell>Q</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2420,7 +2370,6 @@
 	<p>
 		The Parkrose School Board has an election for an open position with four candidates, U, V, W, X. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2483,7 +2432,6 @@
 			<cell>X</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2528,7 +2476,6 @@
 	<p>
 		A Multnomah county commissioner's race has five candidates, A, B, C, D, E. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2585,7 +2532,6 @@
 			<cell>A</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2630,7 +2576,6 @@
 	<p>
 		The Oregon State governor's race has five candidates, F, G, H, I, J. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2693,7 +2638,6 @@
 			<cell>I</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2738,7 +2682,6 @@
 	<p>
 		A Washington county commissioner's race has five candidates, K, L, M, N, O. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2807,7 +2750,6 @@
 			<cell>N</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2852,7 +2794,6 @@
 	<p>
 		A Clackamas county commissioner's race has five candidates, P, Q, R, S, T. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -2927,7 +2868,6 @@
 			<cell>Q</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>

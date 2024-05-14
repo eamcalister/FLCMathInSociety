@@ -144,7 +144,6 @@
 			The sample space for the sum of two fair six-sided dice is <m>S={2,3,4,5,6,7,8,9,10,11,12}</m>. The different sums, however, are not equally likely. If we look at a table of the different possible outcomes when rolling two dice, we see that there are 36 possible combinations. We will summarize this in a table by listing each outcome in the sample space. Then we find the probabilities by counting the number of ways each sum can occur and dividing it by 36.
 		</p>
 
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell></cell>
@@ -210,9 +209,7 @@
 					<cell><m>6+6=12</m></cell>
 				</row>
 			</tabular>
-		</sidebyside>
 			<p></p>
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Sum</cell>
@@ -263,7 +260,6 @@
 					<cell><m>\sfrac{1}{36}</m></cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	<p>
 		From the probability table we can see that rolling a sum of 7 has the highest probability and rolling a 2 or a 12 have the lowest probabilities.
 	</p>
@@ -442,7 +438,6 @@
 		<p>
 			The table shows the numbers that came up after rolling a six-sided die 10 times. What is the experimental probability of rolling a 6? What is the theoretical probability of rolling a 6?
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row>
 				<cell>Roll</cell>
@@ -471,13 +466,11 @@
 				<cell>1</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		</statement>
 		<solution>
 		<p>
 			To find the experimental probability of rolling a 6, it would be helpful to change this into a frequency table. We list all the possible outcomes and count how many times each occurred.
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>Outcome</cell>
@@ -508,7 +501,6 @@
 				<cell>3</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			According to our frequency table, we see that a 6 was rolled three times, so the experimental probability of rolling a 6 is <m>P(\text{roll 6})=\frac{3}{10}</m> or 30%.
 		</p>
@@ -845,7 +837,6 @@
 		<p>
 			For complicated events it's a good idea to list all of the outcomes. Here we list them in a table. Looking at the table of outcomes, we see that there are 36 in total. Six outcomes that are pairs lie along the upper-to-lower diagonal that goes through <m>\highlight{3+3=6}</m>. There are 5 outcomes that add to 6 along the lower-to-upper diagonal line that also goes through <m>\highlight{3+3=6}</m>. That outcome is both a pair and a sum of 6, so the events are overlapping.
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -911,7 +902,6 @@
 				<cell><alert><m>\highlight{6+6=12}</m></alert></cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			As in the last example, there are two ways to do this.
 		</p>

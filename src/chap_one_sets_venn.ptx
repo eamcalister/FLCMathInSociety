@@ -49,10 +49,10 @@
 <subsection>
 	<title>Sets</title>
 	<p>
-		It is natural for us to classify items into groups, or <alert>sets</alert>, and consider how they interact with each other. In this section, we will use sets and Venn diagrams to visualize relationships between groups and represent survey data.
+		It is natural for us to classify items into groups, or <term>sets</term>, and consider how they interact with each other. In this section, we will use sets and Venn diagrams to visualize relationships between groups and represent survey data.
 	</p>
 	<p>
-		A <alert>set</alert> is a collection of items or things. Each item in a set is called a <alert>member</alert> or an <alert>element</alert>.
+		A <term>set</term> is a collection of items or things. Each item in a set is called a <term>member</term> or an <term>element</term>.
 	</p>
 	<example>
 		<p>
@@ -71,17 +71,17 @@
 		</p>
 	</example>
 	<p>
-		A set consisting entirely of elements of another set is called a <alert>subset</alert>. For instance, the set of numbers 2, 6, and 10 is a subset of the set of all even numbers.
+		A set consisting entirely of elements of another set is called a <term>subset</term>. For instance, the set of numbers 2, 6, and 10 is a subset of the set of all even numbers.
 	</p>
 	<p>
-		Some sets, like the set of even numbers, can be defined by simply describing their contents. We can also define a set by listing its elements using <alert>set notation</alert>.
+		Some sets, like the set of even numbers, can be defined by simply describing their contents. We can also define a set by listing its elements using <term>set notation</term>.
 	</p>
 </subsection>
 
 <subsection>
 	<title>Set Notation</title>
 	<p>
-		<alert>Set notation</alert> is used to define the contents of a set. Sets are usually named using a capital letter, and its elements are listed <em>once</em> inside a set of curly brackets.
+		<term>Set notation</term> is used to define the contents of a set. Sets are usually named using a capital letter, and its elements are listed <em>once</em> inside a set of curly brackets.
 	</p>
 	<p>
 		For example, to write the set of primary colors using set notation, we could name the set <em>C</em> for colors, and list the names of the primary colors in brackets: <em>C = {red, yellow, blue}</em>. In this case, the set <em>C</em> is a subset of all colors. If we wanted to write the list of our favorite foods using set notation, we could write <em>F = {cheese, raspberries, wine}</em>. And yes, wine is definitely an element of some food group!
@@ -106,7 +106,7 @@
 <subsection>
 	<title>Universal Set</title>
 	<p>
-		The <alert>universal set</alert> is the set containing every possible element of the described context. Every set is therefore a subset of the universal set. The universal set is often illustrated by a rectangle labeled with a capital letter <em>U</em>. Subsets of the universal set are usually illustrated with circles for simplicity, but other shapes can be used.
+		The <term>universal set</term> is the set containing every possible element of the described context. Every set is therefore a subset of the universal set. The universal set is often illustrated by a rectangle labeled with a capital letter <em>U</em>. Subsets of the universal set are usually illustrated with circles for simplicity, but other shapes can be used.
 	</p>
 	<example>
 		<p>
@@ -143,13 +143,13 @@
 			</li>
 		</ol>
 	</p>
-	</example> 
+	</example>
 </subsection>
 
 <subsection>
 	<title>The Null Set</title>
 	<p>
-		It is possible to have a set with nothing in it. This set called the <alert>null set</alert> or <alert>empty set</alert>. It's like going to the grocery store to buy your favorite foods and realizing you left your wallet at home. You walk away with an empty bag. The set of items that you bought at the grocery store would written in set notation as <em>G = { }</em>, or <em>G = Ø</em>. 
+		It is possible to have a set with nothing in it. This set called the <term>null set</term> or <term>empty set</term>. It's like going to the grocery store to buy your favorite foods and realizing you left your wallet at home. You walk away with an empty bag. The set of items that you bought at the grocery store would written in set notation as <em>G = { }</em>, or <em>G = Ø</em>. 
 	</p>
 </subsection>
 
@@ -159,13 +159,13 @@
 		Suppose you and your roommate decide to have a house party, and you each invite your circle, or set, of friends. When you combine your two sets of friends, you discover that you have some friends in common.
 	</p>
 	<p>
-		The set of friends that you have in common is called the <alert>intersection</alert>. The <alert>intersection</alert> of two sets contains only the elements that are in both sets. To be in the intersection of set <em>A</em> and <em>B</em>, an element needs to be in both set <em>A</em> <alert>and</alert> set <em>B</em>.
+		The set of friends that you have in common is called the <term>intersection</term>. The intersection of two sets contains only the elements that are in both sets. To be in the intersection of set <em>A</em> and <em>B</em>, an element needs to be in both set <em>A</em> <term>and</term> set <em>B</em>.
 	</p>
 	<p>
-		The set of all friends that you and your roommate have invited is called the <alert>union</alert>. The <alert>union</alert> of two sets contains all the elements contained in either set (or both). To be in the union of set <em>A</em> and set <em>B</em>, an element must to be contained in just set <em>A</em>, just set <em>B</em>, <alert>or</alert> in the intersection of sets <em>A</em> and <em>B</em>. Notice that in this case that the <q>or</q> is inclusive.
+		The set of all friends that you and your roommate have invited is called the <term>union</term>. The union of two sets contains all the elements contained in either set (or both). To be in the union of set <em>A</em> and set <em>B</em>, an element must to be contained in just set <em>A</em>, just set <em>B</em>, <alert>or</alert> in the intersection of sets <em>A</em> and <em>B</em>. Notice that in this case that the <q>or</q> is inclusive.
 	</p>
 	<p>
-		What about the people who were <em>not</em> invited to the party and showed up anyway? They are not elements of your set of invited friends. Nor are they an element of your roommate's set of invited friends. These uninvited party crashers are the <alert>complement</alert> to your set of invited friends. The complement of a set <em>A</em> contains everything that is <em>not</em> in the set <em>A</em>. To be in the complement of set <em>A</em>, an element <alert>cannot</alert> be in set <em>A</em>, but it will be an element of the universal set.
+		What about the people who were <em>not</em> invited to the party and showed up anyway? They are not elements of your set of invited friends. Nor are they an element of your roommate's set of invited friends. These uninvited party crashers are the <term>complement</term> to your set of invited friends. The complement of a set <em>A</em> contains everything that is <em>not</em> in the set <em>A</em>. To be in the complement of set <em>A</em>, an element <alert>cannot</alert> be in set <em>A</em>, but it will be an element of the universal set.
 	</p>
 	<example>
 		<statement>
@@ -217,10 +217,8 @@
 <subsection>
 	<title>Venn Diagrams</title>
 	<p>
-	 	<alert>Venn diagrams</alert> are used to illustrate the relationships between two or more sets. To create a Venn diagram, start by drawing a rectangle to represent the universal set. Next draw and label overlapping circles to represent each of your sets. Most often there will be two or three sets illustrated in a Venn diagram. Finally, if you are given elements, fill in each region with its corresponding elements. Venn diagrams are also a great way to illustrate intersections, unions and complements of sets as shown below.
+	 	<term>Venn diagrams</term> are used to illustrate the relationships between two or more sets. To create a Venn diagram, start by drawing a rectangle to represent the universal set. Next draw and label overlapping circles to represent each of your sets. Most often there will be two or three sets illustrated in a Venn diagram. Finally, if you are given elements, fill in each region with its corresponding elements. Venn diagrams are also a great way to illustrate intersections, unions and complements of sets as shown below.
 	</p>
-	<figure>
-		<caption></caption>
 		<sidebyside width="30%">
 			<figure>
             <caption>The <alert>intersection</alert> is where the shading of the two sets overlaps in the center. It contains the elements of A <alert>and</alert> B.</caption>
@@ -241,7 +239,6 @@
 	    	</image>
         </figure>
 	    </sidebyside>
-	   </figure>
 
 	<p>
 		Here is an example of how to draw a Venn Diagram.
@@ -322,7 +319,6 @@
 		<p>
 			In a survey, adults were asked how they travel to work. Below is the recorded data on how many people took the bus, biked, and/or drove to work. Draw and label a Venn diagram using the information in the table.
 		</p>
-		<sidebyside>
 			<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><alert>Travel Options</alert></cell>
@@ -365,7 +361,6 @@
 					<cell><alert>292</alert></cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		</statement>
 		<solution>
 		<p>
@@ -451,14 +446,14 @@
 <subsection>
 	<title>Qualified Propositions</title>
 	<p>
-		A <alert>qualified proposition</alert> is a statement that asserts a relationship between two sets. The three relationships we will be looking at in this section are <q>some</q> (some elements are shared between the two sets), <q>none</q> (none of the elements are shared between the two sets), and <q>all</q> (all elements of one set are contained in the other set). These relationships are especially important in evaluating arguments. 
+		A <term>qualified proposition</term> is a statement that asserts a relationship between two sets. The three relationships we will be looking at in this section are <q>some</q> (some elements are shared between the two sets), <q>none</q> (none of the elements are shared between the two sets), and <q>all</q> (all elements of one set are contained in the other set). These relationships are especially important in evaluating arguments. 
 	</p>
 </subsection>
 
 <subsection>
 	<title>Overlapping Sets</title>
 	<p>
-		Sets overlap if they have members in common. The Venn diagram examples we have looked at in this section are <alert>overlapping</alert> sets.
+		Sets overlap if they have members in common. The Venn diagram examples we have looked at in this section are <term>overlapping</term> sets.
 	</p>
 	<example>
 		<sidebyside valign="middle" widths="30% 40%">
@@ -481,7 +476,7 @@
 <subsection>
 	<title>Disjoint Sets</title>
 	<p>
-		Sets are <alert>disjoint</alert> if they have no members in common.
+		Sets are <term>disjoint</term> if they have no members in common.
 	</p>
 
 	<example>
@@ -505,7 +500,7 @@
 <subsection>
 	<title>Subsets</title>
 	<p>
-		If a set is completely contained in another set, it is called a <alert>subset</alert>.
+		If a set is completely contained in another set, it is called a <term>subset</term>.
 	</p>
 	<example>
 		<sidebyside valign="middle" widths="30% 40%">

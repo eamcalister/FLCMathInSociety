@@ -158,7 +158,6 @@
 		<p>
 			An insurance company determines vehicle insurance premiums based on known risk factors. If a person is considered a higher risk, their premiums will be higher. One potential factor is the color of your car. The insurance company believes that people with some color cars are more likely to get in accidents. To research this, they examine police reports for recent total-loss collisions. The data is summarized in this table.
 		</p>
-		<sidebyside>
 			<tabular row-headers="yes" top="minor" bottom="minor" right="minor" left="minor">
 				<row header="yes">
 					<cell halign="left">Car Color</cell>
@@ -193,7 +192,6 @@
 					<cell halign="center">216</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</example>
 </subsection>
 
@@ -204,7 +202,6 @@
 	</p>
 
 	<example>
-		<sidebyside>
 			<tabular row-headers="yes" top="minor" bottom="minor" right="minor" left="minor">
 				<row header="yes">
 					<cell>Car Color</cell>
@@ -247,7 +244,6 @@
 					<cell><m>216/216 = 1.0</m> or 100%</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		<p>
 			It would be even more useful to have a visual to see what is going on, and this is where charts and graphs come in. For categorical data we can display our data using bar graphs and pie charts.
 		</p>
@@ -388,7 +384,6 @@
 		<p>
 			The table lists college expenses for two different students and we want to compare them. A stacked bar graph shows the expenses stacked vertically, but we are interested in the differences, not the totals.
 		</p>
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Expense</cell>
@@ -421,7 +416,6 @@
 					<cell>$175</cell>
 				</row>
 				</tabular>
-			</sidebyside>
 		
 
 		<sidebyside widths="47% 47%">
@@ -449,7 +443,6 @@
 			A teacher records scores on a 20-point quiz for the 30 students in their class. The scores in points are:
 		</p>
 		<p>
-			<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>19</cell>
@@ -486,12 +479,10 @@
 						<cell>0</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 		</p>
 		<p>
 			Here is a frequency table with the scores grouped and put in order.
 		</p>
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><line><alert>Quiz</alert></line><line><alert>Score</alert></line></cell>
@@ -534,7 +525,6 @@
 					<cell>6</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</example>
 	<p>
 		Using this table, it would be possible to create a standard bar chart from this summary, like we did for categorical data. However, since the scores are numerical values, this chart wouldn't make sense; the first and second bars would be five values apart, while the later bars would only be one value apart. Instead, we will treat the horizontal axis as a number line. This type of graph is called a histogram.
@@ -1225,7 +1215,6 @@
 			</li>
 		</ol>
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Environmenal Issue</cell>
@@ -1246,9 +1235,8 @@
 		<row>
 			<cell>Global warming</cell>
 			<cell>354</cell>
-		</row>			
+		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1297,7 +1285,6 @@
 			</li>
 		</ol>
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Situation</cell>
@@ -1328,7 +1315,6 @@
 			<cell>7</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1372,7 +1358,6 @@
 			</li>
 		</ol>
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Type of Heat</cell>
@@ -1399,7 +1384,6 @@
 			<cell>5</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1436,7 +1420,6 @@
 			</li>
 		</ol>
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Class</cell>
@@ -1459,7 +1442,6 @@
 			<cell>46</cell>
 		</row>	
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1471,7 +1453,7 @@
 			</li>
 			<li>
 				<p>
-					9 of the sampled students are freshmen.			
+					9 of the sampled students are freshmen.
 				</p>
 			</li>
 		</ol>
@@ -1503,7 +1485,6 @@
 				<p>
 					Make a pie chart for the data.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>1</cell>
@@ -1532,7 +1513,6 @@
 						<cell>2</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 		</ol>
 	</p>
@@ -1546,7 +1526,6 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell><line>Number of cars</line><line>in household</line></cell>
@@ -1565,7 +1544,6 @@
 						<cell>3</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<sidebyside width="50%">
@@ -1603,7 +1581,6 @@
 				<p>
 					Construct a histogram of the data.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>82</cell>
@@ -1634,7 +1611,6 @@
 						<cell>52</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 		</ol>
 	</p>
@@ -1648,7 +1624,6 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Math Test Score</cell>
@@ -1683,7 +1658,6 @@
 						<cell>3</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<sidebyside width="50%">
@@ -1935,7 +1909,6 @@
 					Researcher 1 Patients (in months):
 					</p>
 					<p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>3</cell>
@@ -1982,13 +1955,11 @@
 						<cell>34</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				</p>
 				<p>
 					Researcher 2 Patients (in months):
 				</p>
 				<p>
-					<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>3</cell>
@@ -2037,7 +2008,6 @@
 						<cell>29</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				</p>
 			</li>
 		</ol>

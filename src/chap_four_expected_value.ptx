@@ -58,8 +58,7 @@
 	<p>
 		As we have seen with complements, probabilities in a probability distribution must add to 1, so that is important to check. Here is the probability model for the carnival game:
 	</p>
-	<sidebyside>
-	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
+		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Outcome ($ won)</cell>
 			<cell>Rolling Event</cell>
@@ -81,7 +80,6 @@
 			<cell><m>P(\text{roll not a 6 then not a 6})=\frac{5}{6}\cdot\frac{5}{6}=\frac{25}{36}</m></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	
 	<p>
 		Think of the expected value as a weighted average. We could take the average of $10, $3, and $0, but they are not all equally likely. It is much more likely to win $0 than to win $10. So, to find the average, we multiply each outcome by the chance it will happen and add the products together.
@@ -124,7 +122,6 @@
 		<p>
 			Pick4 is a game by the Oregon Lottery that costs $1 to play. In this game you pick 4 numbers in a specific pattern. If you get the exact sequence, you can in theory earn a lot of money. Suppose that the payouts are as follows. Determine the player's expected net winnings.
 		</p>
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><alert>Prize ($)</alert></cell>
@@ -147,7 +144,6 @@
 					<cell><m>\sfrac{1}{2500}</m></cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		</statement>
 		<solution>
 		<p>
@@ -166,7 +162,6 @@
 			Adding this information to the table gives a complete probability distribution. Now we can see that players are going to lose more than 99% of the time, so the expected value will be heavily weighted toward winning $0.
 		</p>
 
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><alert>Prize ($)</alert></cell>
@@ -193,7 +188,6 @@
 					<cell>0.9961</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 
 		<p>
 			<md>
@@ -229,7 +223,6 @@
 		<p>
 			For 3 months, a coffee shop tracked their morning sales of coffee, between 6am and 10am. The following results were recorded:
 		</p>
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>Number of cups sold</cell>
@@ -248,7 +241,6 @@
 					<cell>0.07</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		<p>
 			How many cups of coffee should they expect to sell each morning?
 		</p>
@@ -287,7 +279,6 @@
 		<p>
 			The probability of paying the death benefit is equal to the chance of the person dying in the next year, and the probability of paying nothing is equal to the complement of the chance of dying in the next year.
 		</p>
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Insurance payout</cell>
@@ -302,7 +293,6 @@
 					<cell>1-0.00242=0.99758</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		<p>
 			Then we can calculate:
 		</p>
@@ -353,7 +343,6 @@
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>Die roll</cell>
@@ -374,7 +363,6 @@
 							<cell><m>28/37</m></cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -413,7 +401,6 @@
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>Die roll</cell>
@@ -434,7 +421,6 @@
 							<cell><m>15/28</m></cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -478,7 +464,6 @@
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row>
 							<cell>Die roll outcome</cell>
@@ -499,7 +484,6 @@
 							<cell><m>4/6</m></cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -548,7 +532,6 @@
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row>
 							<cell>Die roll outcome</cell>
@@ -563,7 +546,6 @@
 							<cell><m>1/6</m></cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>

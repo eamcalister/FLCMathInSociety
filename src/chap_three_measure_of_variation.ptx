@@ -50,7 +50,6 @@
 		Section A:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>5</cell>
@@ -65,13 +64,11 @@
 					<cell>5</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		Section B:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>0</cell>
@@ -86,13 +83,11 @@
 					<cell>10</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		Section C:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>4</cell>
@@ -107,7 +102,6 @@
 					<cell>6</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		All three data sets have a mean of 5 points and median of 5 points, yet the sets of scores are clearly quite different. In Section A, everyone had the same score; in Section B half the class got no points and the other half got a perfect score. Section C was not as consistent as section A, but not as widely varied as section B.
@@ -142,7 +136,6 @@
 		Section D:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>0</cell>
@@ -157,7 +150,6 @@
 					<cell>10</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		The mean quiz score, like Sections A, B and C, is 5 points.
@@ -165,7 +157,6 @@
 	<p>
 		The first step in finding the standard deviation is to find the deviation, or difference, of each data value from the mean. We will do this in a table. You could also use a spreadsheet to do these calculations.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell><alert>Data Value</alert></cell>
@@ -212,12 +203,10 @@
 				<cell><m>5-5=0</m></cell>
 			</row>
 		</tabular>
-	</sidebyside>
 
 	<p>
 		We would like to get an idea of the <q>average</q> deviation from the mean, but if we find the average of the values in the second column, the negative and positive values cancel each other out (this will always happen), so to prevent this we square the deviations.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell><alert>Data Value</alert></cell>
@@ -275,7 +264,6 @@
 				<cell><m>5^{2}=25</m></cell>
 			</row>
 		</tabular>
-	</sidebyside>
 	<p>
 		Next, we add the squared deviations and we get
 	</p>
@@ -377,7 +365,6 @@
 		<p>
 			The first thing we need to find is the sample mean, and we know it is $3.68 from our previous work. Next, we need to find the deviation from the mean for each data value and square it.
 		</p>
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell><alert>Data Value</alert></cell>
@@ -410,7 +397,6 @@
 				<cell><m>(0.31)^{2}=0.0961</m></cell>
 			</row>
 		</tabular>
-	</sidebyside>
 	
 	<p>
 		The sum of the deviations squared is
@@ -447,7 +433,6 @@
 			The total cost of textbooks, in dollars, for the term was collected from 36 students. Use a spreadsheet to find the mean, median, and standard deviation of the sample.
 		</p>
 		<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>140</cell>
@@ -492,7 +477,6 @@
 					<cell>460</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 		<p>
 			Since we are finding more than one statistic for this data set, it is much more efficient to enter the data values into a row or column and reference the range in each of the formulas. We enter the data into column A.
@@ -616,7 +600,6 @@
 			For an even number of data values: Suppose we have measured the height, in inches, of 12 people who identify as female. The data values are listed below. Find the interquartile range.
 		</p>
 		<p>
-			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>59</cell>
@@ -633,7 +616,6 @@
 					<cell>61</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		</p>
 		</statement>
 		<solution>
@@ -641,7 +623,6 @@
 			Just like when finding the median, we must first order the data.
 		</p>
 		<p>
-			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>59</cell>
@@ -658,7 +639,6 @@
 					<cell>72</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		</p>
 		<p>
 			Then we divide the data into two halves. In the case of an even sample size, we split the distribution down the middle. The first 6 data values are the lower half and the next 6 data values are the upper half. Then we find the median of each. The median of the lower half is Q1 and the median of the upper half is Q3.
@@ -690,7 +670,6 @@
 				For an odd number of data values: Suppose we added one more height (68 inches) to the data set from the previous example. We will again find the interquartile range of the heights.
 			</p>
 			<p>
-				<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>59</cell>
@@ -708,7 +687,6 @@
 					<cell>72</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 			</p>
 		</statement>
 		<solution>
@@ -780,7 +758,6 @@
 			Let's continue with the cost of textbook data in dollars from <xref ref="textbook_example_mean_median_sd"></xref>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.
 		</p>
 		<p>
-			<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>140</cell>
@@ -825,7 +802,6 @@
 					<cell>460</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		</p>
 		</statement>
 		<solution>
@@ -840,7 +816,6 @@
 		<p>
 			The five-number summary is
 		</p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Min</cell>
@@ -857,7 +832,6 @@
 					<cell>$460</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		<p>
 			To draw the boxplot, we will first draw a number line that extends a little beyond the minimum and maximum values, and choose a scale. We decided to draw our number line from $120 to $480, in increments of $40. Then we add a meaningful title and units.
 		</p>
@@ -884,7 +858,6 @@
 		</statement>
 		<solution>
 		<p>
-			<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>59</cell>
@@ -901,7 +874,6 @@
 						<cell>61</cell>
 					</row>
 				</tabular>
-			</sidebyside>
 		</p>
 		<p>
 			Following the steps above we have the following GeoGebra output. The last five entries in the statistics table are the five-number summary and we have the boxplot on the right.
@@ -915,7 +887,6 @@
 		<p>
 			Here is the five-number summary:
 		</p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Min</cell>
@@ -932,7 +903,6 @@
 					<cell>72in</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		<p>
 			For this data, the two sides of the box and the two whiskers are approximately the same width. This suggests that the distribution is symmetric. We can verify this by noticing that the mean is approximately equal to the median.
 		</p>
@@ -1151,7 +1121,7 @@
 		<p>
 			Many of the datasets from the Measures of Center section are repeated here so you can use your previous work to help you.
 		</p>
-	</introduction> -->
+	</introduction>
 
 <exercise><!--  #1 -->
 	<statement>
@@ -1159,7 +1129,6 @@
 		A group of diners were asked how much they would pay for a breakfast in dollars. Their responses were:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>7.50</cell>
@@ -1179,7 +1148,6 @@
 					<cell>12</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1228,7 +1196,6 @@
 				<p>
 					We will make a table of data values, their deviations from the mean, and the squared deviations:
 				</p>
-				<sidebyside>
 				<tabular row-headers="yes" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Data Value</cell>
@@ -1311,7 +1278,6 @@
 						<cell><m>(2.2)^2=4.84</m></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					Next, we add the squared deviations and get <m>5.29 + 231.04 + 0.04 + 0.04 + 5.29 + 2.4 + 0.64 + 23.04 + 27.04 + 3.24 + 6.5 + 5.29 + 3.24 + 7.84 + 4.84 = 325.78</m> dollars-squared.
 				</p>
@@ -1332,7 +1298,6 @@
 				<p>
 					In GeoGebra Classic, enter the data values into the column A of the spreadsheet and use the <q>One Variable Analysis</q> function. Then use the <q>Show Statistics</q> option to find the five-number summary.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -1349,7 +1314,6 @@
 						<cell>$25</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 
 				<p>
 					From <xref ref="diners_example"></xref>, the data listed in order is:
@@ -1378,7 +1342,6 @@
 				<p>
 					The smallest and largest data values are $5.00 and 25.00, respectively, so the min and max are $5.00 and $25.00. The five-number summary is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -1395,7 +1358,6 @@
 						<cell>$25</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -1436,7 +1398,6 @@
 		The amount of commercials in an hour of television varies by channel. The total length (in minutes) of all commercials from 8 pm to 9 pm for some randomly selected broadcast and cable channels on a weekday evening were:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>10</cell>
@@ -1453,7 +1414,6 @@
 					<cell>2</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1507,7 +1467,6 @@
 				<p>
 					In GeoGebra Classic, enter the data values into the column A of the spreadsheet and use the <q>One Variable Analysis</q> function. Then use the <q>Show Statistics</q> option to find the five-number summary.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -1524,7 +1483,6 @@
 						<cell>17 hours</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -1565,7 +1523,6 @@
 		You recorded the time in seconds it took for 8 participants to solve a puzzle. The times were:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>15.2</cell>
@@ -1578,7 +1535,6 @@
 					<cell>29.4</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1632,7 +1588,6 @@
 				<p>
 					In GeoGebra Classic, enter the data values into the column A of the spreadsheet and use the <q>One Variable Analysis</q> function. Then use the <q>Show Statistics</q> option to find the five-number summary.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -1649,7 +1604,6 @@
 						<cell>29.4 seconds</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -1690,7 +1644,6 @@
 		You weigh 9 Oreo cookies, and you find the weights (in grams) are:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>3.49</cell>
@@ -1704,7 +1657,6 @@
 					<cell>3.61</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1758,7 +1710,6 @@
 				<p>
 					In GeoGebra Classic, enter the data values into the column A of the spreadsheet and use the <q>One Variable Analysis</q> function. Then use the <q>Show Statistics</q> option to find the five-number summary.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -1775,7 +1726,6 @@
 						<cell>3.61 grams</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -1834,7 +1784,6 @@
 				<p>
 					Create a boxplot for the data.
 				</p>
-				<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell><line>Cost</line><line>(Thousands of dollars)</line></cell>
@@ -1873,7 +1822,6 @@
 							<cell>7</cell>
 						</row>
 					</tabular>
-				</sidebyside>
 			</li>
 		</ol>
 	</p>
@@ -1914,7 +1862,6 @@
 				<p>
 					In GeoGebra Classic, enter the data values into the column A of the spreadsheet and use the <q>One Variable Analysis</q> function. Then use the <q>Show Statistics</q> option to find the five-number summary.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -1931,7 +1878,6 @@
 						<cell><line>50 thousand</line><line>dollars</line></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -1995,7 +1941,6 @@
 		</li>
 	</ol>
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell><line>Length of an email</line><line>(Thousands of characters)</line></cell>
@@ -2062,7 +2007,6 @@
 			<cell>2</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -2099,7 +2043,6 @@
 				<p>
 					In GeoGebra Classic, enter the data values into the column A of the spreadsheet and use the <q>One Variable Analysis</q> function. Then use the <q>Show Statistics</q> option to find the five-number summary.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -2116,7 +2059,6 @@
 						<cell><line>14 thousand</line><line>characters</line></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2160,7 +2102,6 @@
 		Researcher 1 Patients (in months):
 	</p>
 	<p>
-			<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>3</cell>
@@ -2207,13 +2148,11 @@
 						<cell>34</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				</p>
 				<p>
 					Researcher 2 Patients (in months):
 				</p>
 				<p>
-					<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>3</cell>
@@ -2262,7 +2201,6 @@
 						<cell>29</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</p>
 		<p>
 		<ol marker="a.">
@@ -2278,7 +2216,7 @@
 			</li>
 			<li>
 				<p>
-					Calculate the range and IQR for each group. 
+					Calculate the range and IQR for each group.
 				</p>
 			</li>
 			<li>
@@ -2314,7 +2252,6 @@
 				<p>
 					The 5-number summary for Researcher 1 is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -2331,11 +2268,9 @@
 						<cell>47 months</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					The 5-number summary for Researcher 2 is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -2352,7 +2287,6 @@
 						<cell>44 months</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2425,7 +2359,6 @@
 		Income in dollars for people who identify as female:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>1,600</cell>
@@ -2440,13 +2373,11 @@
 					<cell>50,000</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		Income in dollars for people who identify as male:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>53,000</cell>
@@ -2461,7 +2392,6 @@
 					<cell>11,000</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 	<ol marker="a.">
@@ -2512,7 +2442,6 @@
 				<p>
 					The 5-number summary for males is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -2529,11 +2458,9 @@
 						<cell>$108,000</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					The 5-number summary for females is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -2550,7 +2477,6 @@
 						<cell>$50,000</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2630,9 +2556,8 @@
 			</li>
 			<li>
 				<p>
-					Create side-by-side boxplots and compare and contrast the two groups. 
+					Create side-by-side boxplots and compare and contrast the two groups.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Non-players</cell>
@@ -2695,7 +2620,6 @@
 						<cell>85.3</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 		</ol>
 	</p>
@@ -2724,7 +2648,6 @@
 				<p>
 					The 5-number summary for non-players is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -2741,11 +2664,9 @@
 						<cell><line>43.2 chess</line><line>pieces</line></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					The 5-number summary for beginners is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -2762,11 +2683,9 @@
 						<cell><line>57.7 chess</line><line>pieces</line></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					The 5-number summary for tournament palyers is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -2783,7 +2702,6 @@
 						<cell><line>85.3 chess</line><line>pieces</line></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2885,7 +2803,6 @@
 				<p>
 					Create side-by-side boxplots and compare and contrast the four groups.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>False Smile</cell>
@@ -3096,9 +3013,8 @@
 						<cell>4.5</cell>
 						<cell>5.5</cell>
 						<cell>6.5</cell>
-					</row>	
+					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 		</ol>
 	</p>
@@ -3127,7 +3043,6 @@
 				<p>
 					The 5-number summary for the false smile group is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -3144,11 +3059,9 @@
 						<cell>9</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					The 5-number summary for the felt smile group is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -3165,11 +3078,9 @@
 						<cell>9</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					The 5-number summary for the miserable smile group is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -3186,11 +3097,9 @@
 						<cell>8</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					The 5-number summary for the neutral control group is:
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Min</cell>
@@ -3207,7 +3116,6 @@
 						<cell>8</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -3595,7 +3503,6 @@
 		This data set is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities:
 	</p>
 	<p>
-	<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>56</cell>
@@ -3611,7 +3518,6 @@
 					<cell>36</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -3665,7 +3571,6 @@
 		In a survey of 12 companies recruiting for recent college graduates, they reported the following numbers of job applicants per job posting:
 	</p>
 	<p>
-	<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>123</cell>
@@ -3682,7 +3587,6 @@
 					<cell>122</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">

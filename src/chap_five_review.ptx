@@ -37,7 +37,6 @@
 	<p>
 		A small country consists of four states, whose populations are listed below. If the legislature has 78 seats, apportion the seats.
 	</p>
-	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>A</cell>
@@ -52,7 +51,6 @@
 			<cell>384,900</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -123,7 +121,6 @@
 	<p>
 		A small country consists of five states, whose populations are listed below. If the legislature as 100 seats, apportion the seats.
 	</p>
-	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>A</cell>
@@ -140,7 +137,6 @@
 			<cell>104,300</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -252,7 +248,6 @@
 	<p>
 		A Portland Community College Board member race has four candidates: E, F, G, H. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -310,7 +305,6 @@
 			<cell>H</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		
 	</p>
@@ -358,7 +352,6 @@
 	<p>
 		A Forest Grove School Board position has four candidates: I, J, K, L. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -421,7 +414,6 @@
 			<cell>I</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		
 	</p>
@@ -469,7 +461,6 @@
 	<p>
 		A Multnomah County Commissioner's race has five candidates: M, N, O, P, Q. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -526,7 +517,6 @@
 			<cell>P</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		
 	</p>
@@ -574,7 +564,6 @@
 	<p>
 		The Oregon State Governor's race has five candidates: R, S, T, U, V. The votes are:
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>Number of voters</cell>
@@ -637,7 +626,6 @@
 			<cell>R</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		
 	</p>
@@ -707,7 +695,6 @@
 	<p>
 		In this country there is one representative for every 55,000 residents.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
@@ -745,13 +732,11 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
@@ -789,7 +774,6 @@
 							<cell>36</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 					<p>
 						This state has 36 electors.
 					</p>
@@ -809,7 +793,6 @@
 	<p>
 		In this country there is one representative for every 60,000 residents.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
@@ -854,13 +837,11 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
@@ -905,7 +886,6 @@
 							<cell>38</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 					<p>
 						This state has 38 electors.
 					</p>
@@ -947,7 +927,6 @@
 	<p>
 		In this country from problem 9, there is one representative for every 55,000 residents.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
@@ -985,13 +964,11 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
@@ -1029,7 +1006,6 @@
 							<cell>19</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 					<p>
 						A wins the popular vote with 65.1% of the votes.
 					</p>
@@ -1049,7 +1025,6 @@
 	<p>
 		In this country from problem 10, there is one representative for every 60,000 residents.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
@@ -1094,13 +1069,11 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
@@ -1145,7 +1118,6 @@
 							<cell>18</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 					<p>
 						B wins the popular vote with 63.9% of the vote.
 					</p>
@@ -1187,7 +1159,6 @@
 	<p>
 		In this country from problem 9, there is one representative for every 55,000 residents.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
@@ -1222,13 +1193,11 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
@@ -1263,7 +1232,6 @@
 							<cell>1.40</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 					<p>
 						The state of Nevarez has the most electoral power.
 					</p>
@@ -1283,7 +1251,6 @@
 	<p>
 		In this country from problem 10, there is one representative for every 60,000 residents.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>State</cell>
@@ -1326,13 +1293,11 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
 			<ol marker="a.">
 				<li>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>State</cell>
@@ -1375,7 +1340,6 @@
 							<cell>1.25</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 					<p>
 						The state of Bland has the most electoral power.
 					</p>
@@ -1461,7 +1425,6 @@
 					<p>
 						The efficiency gap is <m>20/45= 44.4\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1513,7 +1476,6 @@
 							<cell>0</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -1564,7 +1526,6 @@
 					<p>
 						The efficiency gap is <m>16/42= 38.10\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1623,7 +1584,6 @@
 							<cell>17</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>

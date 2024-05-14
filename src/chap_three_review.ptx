@@ -706,7 +706,6 @@
 		A group of college students were asked what the price of gas would need to be before they would start using public transportation to get to school instead of driving. Their responses in dollars per gallon ($/gal) are listed below:
 	</p>
 	<p>
-	<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>5.25</cell>
@@ -726,7 +725,6 @@
 					<cell>8.95</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -827,7 +825,6 @@
 		The following is a sample of scores from a recent Math 105 exam:
 	</p>
 	<p>
-	<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>32</cell>
@@ -850,7 +847,6 @@
 					<cell>99</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -971,7 +967,6 @@
 	<p>
 		The following table shows the cost of purchasing a car at a local dealership. Some of the cars sold were new and some were used.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell><line>Cost (Thousands</line><line>of dollars)</line></cell>
@@ -1010,7 +1005,6 @@
 			<cell>6</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		<ol marker="a.">
 			<li>
@@ -1204,7 +1198,6 @@
 		This data set is a sample of the average number of minutes per week that a driver is delayed by road congestion in 13 cities:
 	</p>
 	<p>
-	<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>66</cell>
@@ -1222,7 +1215,6 @@
 					<cell>63</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">

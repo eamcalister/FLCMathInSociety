@@ -200,7 +200,6 @@
 	<p>
 		To try to measure how unfair the map is, let's learn how to calculate the efficiency gap. First, we will tally the votes in the table below, and note how the election results would turn out by using bold numbers for the party with more voters in each district. For example, there are 4 D's and 3 R's in district 1, so the Democrats would theoretically win that district.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>District</cell>
@@ -252,7 +251,6 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		Election Results:
 		<ul>
@@ -271,7 +269,6 @@
 	<p>
 		Next, we will calculate how many votes would be extra over the amount needed to win the election. These are the <alert>surplus votes</alert>. In this example, with 7 voters, the majority of a district is 4 votes, so we will subtract 4 from each winning side. From each losing side, all of the votes are considered surplus because they did not go toward electing a candidate of their party. Then we add all the surplus votes for each party.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>District</cell>
@@ -323,7 +320,6 @@
 			<cell>13</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		The difference between the surplus votes as a percentage of the population is the efficiency gap. As a formula it is written:
 	</p>
@@ -361,7 +357,6 @@
 		<p>
 			Now, let's fill in our table:
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>District</cell>
@@ -413,7 +408,6 @@
 				<cell>1</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			Election Results:
 			<ul>
@@ -473,7 +467,6 @@
 		<p>
 			Let's see how the efficiency gap comes out in this situation:
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>District</cell>
@@ -525,7 +518,6 @@
 				<cell>9</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		<p>
 			Election Results:
 			<ul>
@@ -767,7 +759,6 @@
 					<p>
 						The efficiency gap is <m>6/28= 21.43\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -812,7 +803,6 @@
 							<cell>3</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -863,7 +853,6 @@
 					<p>
 						The efficiency gap is <m>14/36= 38.89\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -908,7 +897,6 @@
 							<cell>15</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -959,7 +947,6 @@
 					<p>
 						The efficiency gap is <m>8/25= 32\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1011,7 +998,6 @@
 							<cell>1</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -1063,7 +1049,6 @@
 					<p>
 						The efficiency gap is <m>3/35= 8.57\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1115,7 +1100,6 @@
 							<cell>6</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -1167,7 +1151,6 @@
 					<p>
 						The efficiency gap is <m>4/45= 8.89\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1219,7 +1202,6 @@
 							<cell>12</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -1271,7 +1253,6 @@
 					<p>
 						The efficiency gap is <m>17/55= 30.91\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1323,7 +1304,6 @@
 							<cell>4</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -1375,7 +1355,6 @@
 					<p>
 						The efficiency gap is <m>12/30= 40\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1434,7 +1413,6 @@
 							<cell>12</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -1486,7 +1464,6 @@
 					<p>
 						The efficiency gap is <m>16/42= 38.10\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1545,7 +1522,6 @@
 							<cell>1</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -1597,7 +1573,6 @@
 					<p>
 						The efficiency gap is <m>6/54= 11.11\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1656,7 +1631,6 @@
 							<cell>9</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>
@@ -1708,7 +1682,6 @@
 					<p>
 						The efficiency gap is <m>26/66= 39.39\%</m>
 					</p>
-					<sidebyside>
 					<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell>District</cell>
@@ -1767,7 +1740,6 @@
 							<cell>28</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 				</li>
 				<li>
 					<p>

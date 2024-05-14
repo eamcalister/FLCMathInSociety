@@ -58,7 +58,7 @@
 <subsection>
 	<title>Types of Income Tax</title>
 	<p>
-		<alert>Income tax</alert> is a tax that is levied on earned income or profit. Income taxes are collected by the federal government, states, and even some municipalities. Income taxes are an important source of funding, and are used to finance social programs, maintain and expand infrastructure, and provide foreign aid, among other things. 
+		<alert>Income tax</alert> is a tax that is levied on earned income or profit. Income taxes are collected by the federal government, states, and even some municipalities. Income taxes are an important source of funding, and are used to finance social programs, maintain and expand infrastructure, and provide foreign aid, among other things.
 	</p>
 </subsection>
 <subsection>
@@ -172,7 +172,6 @@
 	<p>
 		Your filing status determines your standard deduction and tax liability. The standard deduction for each filing status for the tax year 2024 is given in the table below.
 	</p>
-	<sidebyside>
 		<tabular top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell halign="left">Filing Status</cell>
@@ -199,7 +198,6 @@
 				<cell halign="center">$29200</cell>
 			</row>
 		</tabular>
-	</sidebyside>
 
 	<p>
 		Here is an example where we calculate adjusted gross income and taxable income.
@@ -253,7 +251,6 @@
 	<p>
 		 Here is a table with cutoff values for each filing status. Everyone pays a tax of 10% on any income in the first tax bracket. Then we all pay 12% of the next bracket of income, 22% of the next bracket, and so on. This keeps going up to the 37% tax bracket.
 	</p>
-	<sidebyside>
 		<table>
 			<title>2024 Tax Year Marginal Tax Rates</title>
 	<tabular top="minor" left="minor" right="minor" bottom="minor">
@@ -315,7 +312,6 @@
 		</row>
 	</tabular>
 </table>
-	</sidebyside>
 	<p>
 		Let's see how to use this table to calculate taxes in an example.
 	</p>
@@ -354,9 +350,8 @@
 	<p>
 		The next four tables give the tax calculations for 2024 federal income taxes by filing status.
 	</p>
-	<sidebyside>
 		<table>
-			<title>Filing as Single (Tax Year 2024)</title>
+			<title>Filing Single (Tax Year 2024)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>If taxable income is:</cell>
@@ -392,9 +387,7 @@
 			</row>
 		</tabular>
 	</table>
-	</sidebyside>
 
-	<sidebyside>
 		<table>
 			<title>Filing as Head of Household (Tax Year 2024)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
@@ -432,9 +425,7 @@
 			</row>
 		</tabular>
 	</table>
-	</sidebyside>
 
-	<sidebyside>
 		<table>
 			<title>Married Filing Jointly (Tax Year 2024)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
@@ -472,9 +463,7 @@
 			</row>
 		</tabular>
 	</table>
-	</sidebyside>
 
-	<sidebyside>
 		<table>
 			<title>Married Filing Separately (Tax Year 2024)</title>
 		<tabular halign="left" top="minor" left="minor" right="minor" bottom="minor">
@@ -512,7 +501,6 @@
 			</row>
 		</tabular>
 	</table>
-	</sidebyside>
 
 	<example>
 		<statement>

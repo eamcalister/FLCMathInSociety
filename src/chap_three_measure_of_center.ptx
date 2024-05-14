@@ -132,7 +132,6 @@
 		<p>
 			One hundred families from a particular neighborhood are randomly selected and asked to give their annual household income rounded to the nearest $5,000. The results are shown in the frequency table below.
 		</p>
-		<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell><line>Income</line><line>(thousands of dollars)</line></cell>
@@ -171,7 +170,6 @@
 					<cell>7</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 		<p>
 			Calculating the mean by hand could get tedious if we try to type in all 100 values:
 		</p>
@@ -258,7 +256,6 @@
 			Use the following quiz scores in points:
 		</p>
 		<p>
-			<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>5</cell>
@@ -274,13 +271,11 @@
 						<cell>6</cell>
 					</row>
 				</tabular>
-			</sidebyside>
 		</p>
 		<p>
 			We must start by listing the data in order:
 		</p>
 		<p>
-			<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>2</cell>
@@ -296,7 +291,6 @@
 						<cell>10</cell>
 					</row>
 				</tabular>
-			</sidebyside>
 		</p>
 		<p>
 			It is helpful to mark or cross off the numbers as you list them to make sure you don't miss any. Also, be sure to count the number of data values in your ordered list to make sure it matches the number of data values in the original list.
@@ -322,7 +316,6 @@
 			Use the following quiz scores in points:
 		</p>
 		<p>
-			<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>2</cell>
@@ -339,7 +332,6 @@
 						<cell>20</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 		</p>
 		<p>
 			There are now 12 quiz scores in our sample. When the distribution contains an even number of data values there will be a pair of values in the middle rather than a single value. Then we take the average of the middle two values.
@@ -382,7 +374,6 @@
 		Let's continue with our peanut butter example and find the median both by hand and with a spreadsheet. The price of peanut butter at 5 stores in dollars was:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>3.29</cell>
@@ -392,13 +383,11 @@
 					<cell>3.99</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		To find the median by hand, we must first list the prices in order. This give us:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>3.29</cell>
@@ -408,7 +397,6 @@
 					<cell>3.99</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		Since there are an odd number of data values in the sample (<m>n=5</m>), we know that the median will be the single data value in the middle of the ordered list.
@@ -523,7 +511,6 @@
 		A group of diners were asked how much they would pay for a breakfast in dollars. Their responses were:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>7.50</cell>
@@ -543,7 +530,6 @@
 					<cell>12</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 	<ol marker="a.">
@@ -624,7 +610,6 @@
 		The amount of commercials in an hour of television varies by channel. The total length (in minutes) of all commercials from 8 pm to 9 pm for some randomly selected broadcast and cable channels on a weekday evening were:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>10</cell>
@@ -641,7 +626,6 @@
 					<cell>2</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -725,7 +709,6 @@
 		You recorded the time in seconds it took for 8 participants to solve a puzzle. The times were:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>15.2</cell>
@@ -738,7 +721,6 @@
 					<cell>29.4</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 	<ol marker="a.">
@@ -822,7 +804,6 @@
 		You weigh 9 Oreo cookies, and you find the weights (in grams) are:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>3.49</cell>
@@ -836,7 +817,6 @@
 					<cell>3.61</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -934,7 +914,6 @@
 			<p>
 				Based on the mean and the median, would you expect the distribution to be symmetric skewed left or skewed right? Explain.
 			</p>
-			<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell><line>Cost</line><line>(Thousands of dollars)</line></cell>
@@ -973,7 +952,6 @@
 						<cell>7</cell>
 					</row>
 				</tabular>
-			</sidebyside>
 		</li>
 		</ol>
 	</p>
@@ -1047,7 +1025,6 @@
 			</li>
 		</ol>
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell><line>Length of an email</line><line>(Thousands of characters)</line></cell>
@@ -1114,7 +1091,6 @@
 				<cell>2</cell>
 			</row>
 		</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
 		<p>
@@ -1170,7 +1146,6 @@
 		Researcher 1 Patients (in months):
 	</p>
 	<p>
-			<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>3</cell>
@@ -1217,13 +1192,11 @@
 						<cell>34</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				</p>
 				<p>
 					Researcher 2 Patients (in months):
 				</p>
 				<p>
-					<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row>
 						<cell>3</cell>
@@ -1272,7 +1245,6 @@
 						<cell>29</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</p>
 	<p>
 		<ol marker="a.">
@@ -1355,7 +1327,6 @@
 		Income in dollars for people who identify as female:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>1,600</cell>
@@ -1370,13 +1341,11 @@
 					<cell>50,000</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		Income in dollars for people who identify as male:
 	</p>
 	<p>
-		<sidebyside>
 			<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row>
 					<cell>53,000</cell>
@@ -1391,7 +1360,6 @@
 					<cell>11,000</cell>
 				</row>
 			</tabular>
-		</sidebyside>
 	</p>
 	<p>
 		<ol marker="a.">
@@ -1486,7 +1454,6 @@
 				<p>
 					Compare the shapes of the distributions as well as the centers of the three groups.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>Non-players</cell>
@@ -1549,7 +1516,6 @@
 						<cell>85.3</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 		</ol>
 	</p>
@@ -1635,7 +1601,6 @@
 				<p>
 					Compare the shapes of the distributions as well as the centers for each type of smile and control.
 				</p>
-				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell>False Smile</cell>
@@ -1846,9 +1811,8 @@
 						<cell>4.5</cell>
 						<cell>5.5</cell>
 						<cell>6.5</cell>
-					</row>			
+					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 		</ol>
 	</p>
@@ -1943,7 +1907,6 @@
 				<p>
 					There are many possible answers for this problem. Three data sets with 5 values each that have the same mean but different medians are:
 				</p>
-				<sidebyside>
 				<tabular>
 					<row>
 						<cell>0,</cell>
@@ -1967,13 +1930,11 @@
 						<cell>7</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
 					There are many possible answers for this problem. Three data sets with 5 values that have the same median but different means are:
 				</p>
-				<sidebyside>
 				<tabular>
 					<row>
 						<cell>10,</cell>
@@ -1997,7 +1958,6 @@
 						<cell>10</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 		</ol>
 		</p>
@@ -2025,7 +1985,6 @@
 			<p>
 				Treat the data as quantitative and find the mean and the median. Are these useful statistics?
 			</p>
-			<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell>Shoe Size</cell>
@@ -2052,7 +2011,6 @@
 					<cell>5</cell>
 				</row>
 			</tabular>
-			</sidebyside>
 		</li>
 	</ol>
 	</p>

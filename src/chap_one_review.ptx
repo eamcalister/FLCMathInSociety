@@ -378,7 +378,6 @@
 			</li>
 		</ul>
 	</p>
-	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>A</cell>
@@ -416,10 +415,8 @@
 				<cell></cell>
 			</row>
 		</tabular>
-		</sidebyside>
 	</statement>
 	<solution>
-		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>A</cell>
@@ -457,7 +454,6 @@
 				<cell>T</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 	</solution>
 </exercise>
 
@@ -480,7 +476,6 @@
 			</li>
 		</ul>
 	</p>
-	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell>A</cell>
@@ -508,10 +503,8 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
-		<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell>A</cell>
@@ -539,7 +532,6 @@
 				<cell>T</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 	</solution>
 </exercise>
 
@@ -663,7 +655,6 @@
 	<p>
 		The following data was collected at a local coffee shop. 120 customers were asked if they like coffee and chocolate. The results are in the table below.
 	</p>
-	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -684,7 +675,6 @@
 			<cell>60</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		Create a two-circle Venn diagram that summarizes the results of the survey.
 	</p>

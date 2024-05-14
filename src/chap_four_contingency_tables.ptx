@@ -59,7 +59,6 @@
 	<p>
 		A <alert>contingency table</alert> summarizes all the possible combinations for two categorical variables. Each value in the table represents the number of times a particular combination of outcomes occurs. For example, suppose we randomly select 250 households from the greater Portland area and ask whether they have a cat and whether they have a dog. In this case, <q>have a cat</q> and <q>have a dog</q> are the two variables, and each variable has two categories: Yes and No. To create the contingency table, we make columns for the categories of one variable, and rows for the categories of the other variable. We also add a row and column for the subtotals of each category. Each cell of the resulting table contains the number of outcomes having the characteristics of the intersecting row and column categories. For our dog and cat example, the table would look like this: 
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -86,11 +85,9 @@
 				<cell><em>Grand total</em></cell>
 			</row>
 		</tabular>
-	</sidebyside>
 	<p>
 		Suppose that of the 250 households surveyed, 180 said they have a cat, 95 said they have a dog, and 52 said they have both a cat and a dog. We can use this information to fill in the cells of the table.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -117,7 +114,6 @@
 				<cell>250</cell>
 			</row>
 		</tabular>
-	</sidebyside>
 	<p>
 		The first cell we can fill in is the <alert>grand total</alert>, which is the total number of subjects in the study. In this case, there are 250 households participating in the survey. The next two cells we can fill in are the total number of households that have a cat, 180, and the total number of households that have a dog, 95. The final cell we can fill in from the given information is the intersection of the having a dog column and a having a cat row, which is 52 households.
 	</p>
@@ -125,7 +121,6 @@
 	<p>
 		Since each row and column must sum to their totals, we can use subtraction to find the missing numbers as shown below.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -152,7 +147,6 @@
 				<cell>250</cell>
 			</row>
 		</tabular>
-	</sidebyside>
 	<p>
 		Now that we have our contingency table completed, notice that the numbers in the central four cells add to the grand total as shown in the table on the left. The total row and the total column also add to the grand total as shown in the right table.
 	</p>
@@ -240,7 +234,6 @@
 	<p>
 		In the contingency table we see the 128 households at the intersection of the row of households who own a cat and the column of households who do not own a dog. As a percentage, the total number of households surveyed, is <m>\frac{128}{250}=0.512</m> or 51.2% that have a cat and no dog.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -267,7 +260,6 @@
 				<cell><c>250</c></cell>
 			</row>
 		</tabular>
-	</sidebyside>
 </subsection>
 
 <subsection>
@@ -281,7 +273,6 @@
 	<p>
 		There is another way to calculate an <em>or</em> statements from a contingency table. We could add the row and column totals for having a cat and having a dog, but then we have counted the 52 households in the intersection twice. We can subtract that number to get <m>180+95-52=223</m> households with a dog or a cat, which we know is 89.2% of those surveyed.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -308,7 +299,6 @@
 				<cell>250</cell>
 			</row>
 		</tabular>
-	</sidebyside>
 </subsection>
 
 <subsection>
@@ -317,7 +307,6 @@
 	<p>
 		Another question we can answer using a contingency table is what percentage of dog owning households also own a cat? In this case the group that we are interested in isn't every household surveyed (the grand total), but just those households that own a dog.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -344,7 +333,6 @@
 				<cell>250</cell>
 			</row>
 		</tabular>
-	</sidebyside>
 	<p>
 		We call this a <alert>conditional</alert> statement because we are only considering the households with a certain condition. If we focus on the column representing the households that own a dog, we see that there is a total of 95 households with a dog, and that 52 of those 95 households also have a cat. Therefore, <m>\frac{52}{95} \approx 0.547</m> or approximately 54.7% of the households with a dog also have a cat. Another way to phrase this conditional statement is, <q>What percent of households have a cat <alert>given</alert> they have a dog.</q> You will see the word given quite a bit in this chapter and that makes the denominator change. It is also possible to find this conditional percentage using the Venn diagram by taking the number in the intersection and dividing it by the total in the whole dog circle. 
 	</p>
@@ -361,7 +349,6 @@
 	<p>
 		910 randomly sampled registered voters from Tampa, FL were asked if they thought workers who have illegally entered the US should (i) be allowed to keep their jobs and apply for US citizenship, (ii) be allowed to keep their jobs as temporary guest workers but not be allowed to apply for US citizenship, or (iii) lose their jobs and have to leave the country. Not sure was also an option (iv). The results of the survey by political ideology are shown below<fn>SurveyUSA, <url href="http://www.surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2" visual="surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2">News Poll #18927</url>, data collected Jan 27-29, 2012. Example adapted from <url href="https://www.openintro.org/" visual="openintro.org">Open Intro: Advanced High School Statistics</url>, by Diez et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/" visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.</fn>. Use the contingency table to answer the questions.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -406,7 +393,6 @@
 			<cell>910</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 	<ol marker="a.">
 		<li>
@@ -459,7 +445,6 @@
 				<p>
 					The <em>or</em> in this question is inclusive, so we need to determine the number of voters who identify as liberal, who are in favor of the leaving the country option, or both.
 				</p>
-			<sidebyside>
 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 				<row header="yes">
 					<cell></cell>
@@ -504,7 +489,6 @@
 					<cell>910</cell>
 				</row>
 			</tabular>
-			</sidebyside>
 			<p>
 				In terms of the individual cells, the number of voters who have the specified characteristics is the sum <m>179+126+101+28+45+1=480</m>, which we can divide by the total number of voters surveyed to get the percent. So, we have <m>\frac{480}{910} \approx 0.527</m> or approximately 53% of the voters identify as liberal or are in favor of the leave the country option. 
 			</p>
@@ -556,7 +540,6 @@
 	<p>
 		A survey of licensed drivers asked whether they had received a speeding ticket in the last year and whether their car is red. The results of the survey are shown in the contingency table to the right.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -583,7 +566,6 @@
 			<cell>665</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		Find the probability that a randomly selected survey participant:
 		<ol marker="a.">
@@ -629,7 +611,6 @@
 	<p>
 		<ol marker="a.">
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -656,13 +637,11 @@
 						<cell><c>665</c></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					To find <m>P(\text{red car})</m>, we divide the number of participants who own a red car by the total number of people surveyed:<m>P(\text{red car})=\frac{150}{665} \approx 0.226</m> or 22.6%.
 				</p>
 			</li>
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -689,13 +668,11 @@
 						<cell><c>665</c></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					<m>P(\text{speeding ticket})</m>, we divide the number of participants who got a speeding ticket in the last year by the total number of people surveyed: <m>P(\text{speeding ticket})=\frac{60}{665} \approx 0.09</m> or 9%.
 				</p>
 			</li>
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -722,13 +699,11 @@
 						<cell><c>665</c></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					To find <m>P(\text{red and no ticket})</m> , we find the intersection of the red car category and the no ticket category and divide by the total number of participants: <m>P(\text{red and no ticket}) =\frac{135}{665} \approx 0.203</m> or 20.3%
 				</p>
 			</li>
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -755,7 +730,6 @@
 						<cell><c>665</c></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					To find <m>P(\text{red or ticket})</m>, we need to add those who drive a red car and did not have a speeding ticket (just red), those who had a speeding ticket and do not drive a red car (just ticket) and those who drive a red car and had a speeding ticket (both), and divide by the total number of participants:
 				</p>
@@ -779,7 +753,6 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -806,7 +779,6 @@
 						<cell>665</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					The probability <m>P(\text{speeding ticket given red car})</m> is a conditional probability as we have seen before since it is conditional on the given characteristic occurring. In this problem, the given characteristic is owning a red car, so we isolate our attention to just the row of 150 red car owners and see how many have had a speeding ticket in the last year. Looking at the table, we see that there were 15 red car owners who had a speeding ticket in the last year, so we calculate:
 				</p>
@@ -817,7 +789,6 @@
 				</p>
 			</li>
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -844,7 +815,6 @@
 						<cell>665</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 				<p>
 					This question is also asking for a conditional probability, <m>P(\text{red car given speeding ticket})</m>, but it is phrased more like we would say it. In this case the given characteristic is that the person has received a speeding ticket, so we will isolate our attention to just the speeding ticket column. Among the 60 people who had a speeding ticket in the last year, we see that 15 also drove a red car. Now we can calculate the probability:
 				</p>
@@ -892,7 +862,6 @@
 				</li>
 			</ol>
 		</p>
-		<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -919,7 +888,6 @@
 				<cell>93</cell>
 			</row>
 		</tabular>
-		</sidebyside>
 		</statement>
 		<solution>
 		<p>
@@ -929,7 +897,6 @@
 		 			<p>
 		 				Since we are given the home test result was positive, we are limited to the 75 women in the positive test column, of which 5 were not pregnant. This gives:
 		 			</p>
-		 			<sidebyside>
 		 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell></cell>
@@ -956,7 +923,6 @@
 							<cell>93</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 		 			<p>
 		 				<md>
 		 				<mrow>P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067\text{ or } 6.7\%
@@ -968,7 +934,6 @@
 		 			<p>
 		 				Since we are given the woman is not pregnant, we are limited to the 19 women in the not pregnant row, of which 5 had a positive test. This gives:
 		 			</p>
-		 			<sidebyside>
 		 			<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 						<row header="yes">
 							<cell></cell>
@@ -995,7 +960,6 @@
 							<cell>93</cell>
 						</row>
 					</tabular>
-					</sidebyside>
 		 			<p>
 		 				<md>
 		 				<mrow>P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or } 26.3\% </mrow>
@@ -1023,7 +987,6 @@
 	<p>
 		A recent survey asked a random sample of PCC students if they are currently experiencing food insecurity and if they are currently experiencing housing insecurity. Fill in the missing entries of the contingency table below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1050,10 +1013,8 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	<solution>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1080,7 +1041,6 @@
 			<cell><alert>1200</alert></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</solution>
 </exercise>
 
@@ -1089,7 +1049,6 @@
 	<p>
 		A recent survey asked a random sample of PCC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1116,11 +1075,9 @@
 			<cell>850</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	
 	<solution>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1147,7 +1104,6 @@
 			<cell>850</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</solution>
 </exercise>
 
@@ -1190,7 +1146,6 @@
 	</statement>
 	
 	<solution>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1217,7 +1172,6 @@
 			<cell>72</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</solution>
 </exercise>
 
@@ -1260,7 +1214,6 @@
 	</statement>
 	
 	<solution>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1287,7 +1240,6 @@
 			<cell>315</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</solution>
 </exercise>
 
@@ -1315,7 +1267,6 @@
 			</li>
 		</ul>
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1342,11 +1293,9 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	
 	<solution>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1373,7 +1322,6 @@
 			<cell>75</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</solution>
 </exercise>
 
@@ -1396,7 +1344,6 @@
 			</li>
 		</ul>
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1423,11 +1370,9 @@
 			<cell></cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</statement>
 	
 	<solution>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1454,7 +1399,6 @@
 			<cell>120</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	</solution>
 </exercise>
 
@@ -1463,7 +1407,6 @@
 	<p>
 		A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1494,7 +1437,6 @@
 			<cell>65</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>	
 		If one student was chosen at random:
 		<ol marker="a.">
@@ -1579,7 +1521,6 @@
 	<p>
 		A professor surveyed students in her morning and afternoon Math 105 class, and asked what their class standing was. The class standings are summarized below: 
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1614,7 +1555,6 @@
 			<cell>60</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>	
 		If one student was chosen at random:
 		<ol marker="a.">
@@ -1625,7 +1565,7 @@
 			</li>
 			<li>
 				<p>
-					What is the probability they were a Freshman?	
+					What is the probability they were a Freshman?
 				</p>
 			</li>
 			<li>
@@ -1699,7 +1639,6 @@
 	<p>
 		The contingency table below shows the number of credit cards owned by a group of individuals below the age of 35 and above the age of 35.  
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1730,7 +1669,6 @@
 			<cell>81</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>
 		If one person was chosen at random:
 		<ol marker="a.">
@@ -1838,7 +1776,6 @@
 	<p>
 		The following contingency table provides data from a sample of 6,224 individuals who were exposed to smallpox in Boston.<fn>Data taken from Mostly Harmless Probability &amp; Statistics by Rachel Webb</fn>
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1865,7 +1802,6 @@
 			<cell>6224</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>	
 		<ol marker="a.">
 			<li>
@@ -1959,7 +1895,6 @@
 	<p>
 		The contingency table below shows the survival data for the passengers of the Titanic.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -1994,7 +1929,6 @@
 			<cell>2201</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>	
 		<ol marker="a.">
 			<li>
@@ -2009,7 +1943,7 @@
 			</li>
 			<li>
 				<p>
-					What is the probability that a passenger was first class and did not survive?	
+					What is the probability that a passenger was first class and did not survive?
 				</p>
 			</li>
 			<li>
@@ -2114,7 +2048,6 @@
 	<p>
 		The following table shows the utility patents granted for a specific year.
 	</p>
-	<sidebyside>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
 			<cell></cell>
@@ -2145,7 +2078,6 @@
 			<cell>100%</cell>
 		</row>
 	</tabular>
-	</sidebyside>
 	<p>	
 		<ol marker="a.">
 			<li>
@@ -2155,7 +2087,7 @@
 			</li>
 			<li>
 				<p>
-					What is the probability that a patent is from the U.S. and from a corporation?	
+					What is the probability that a patent is from the U.S. and from a corporation?
 				</p>
 			</li>
 			<li>
@@ -2235,7 +2167,6 @@
 				<p>
 					Create a contingency table for the information.
 				</p>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -2262,7 +2193,6 @@
 						<cell></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2296,7 +2226,6 @@
 	<p>
 		<ol marker="a.">
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -2323,7 +2252,6 @@
 						<cell>100%</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2379,7 +2307,6 @@
 				<p>
 					Create a contingency table for the information.
 				</p>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -2406,7 +2333,6 @@
 						<cell></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2445,7 +2371,6 @@
 	<p>
 		<ol marker="a.">
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -2472,7 +2397,6 @@
 						<cell>400</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2535,7 +2459,6 @@
 				<p>
 					Create a contingency table for the information.
 				</p>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -2562,7 +2485,6 @@
 						<cell></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2581,7 +2503,6 @@
 	<p>
 		<ol marker="a.">
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -2608,7 +2529,6 @@
 						<cell>95</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2640,9 +2560,8 @@
 		<ol marker="a.">
 			<li>
 				<p>
-					Create a contingency table for the information. 
+					Create a contingency table for the information.
 				</p>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -2669,7 +2588,6 @@
 						<cell></cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2688,7 +2606,6 @@
 	<p>
 		<ol marker="a.">
 			<li>
-				<sidebyside>
 				<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 					<row header="yes">
 						<cell></cell>
@@ -2715,7 +2632,6 @@
 						<cell>32</cell>
 					</row>
 				</tabular>
-				</sidebyside>
 			</li>
 			<li>
 				<p>
@@ -2743,7 +2659,6 @@
 	<p>
 		After reviewing the data, it was decided that more detail should be shown. The category of 35+ is divided into two groups and <q>Two or more</q> is turned into <q>Two</q> and <q>3 or more.</q> Fill out the missing information.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -2786,14 +2701,12 @@
 				<cell>81</cell>
 			</row>
 		</tabular>
-	</sidebyside>
 </exercise>
 
 <exercise>
 	<p>
 		Fill out the missing values in the contingency table below. This table will also be used for question 6.
 	</p>
-	<sidebyside>
 		<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 			<row header="yes">
 				<cell></cell>
@@ -2826,7 +2739,6 @@
 				<cell></cell>
 			</row>
 		</tabular>
-	</sidebyside>
 </exercise>
 
 <exercise>
