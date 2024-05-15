@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<frontmatter xml:id="frontmatter">
+
+	<titlepage>
+    	<author>
+      		<personname>Portland Community College Math Department</personname>
+    	</author>
+    	<date><today/></date>
+	</titlepage>
+
+	<colophon>
+		<credit>
+			<role>Project Lead</role>
+			<entity>Cara Lee</entity>
+		</credit>
+		<credit>
+			<role>Chapter Authors</role>
+			<entity>Jess Brooks, Cara Lee, Sonya Redmond, Cindy Rochester-Gefre</entity>
+		</credit>
+		<credit>
+			<role>Contributing Authors</role>
+			<entity>
+				Jess Brooks, Carlos Cantos, Teela Foxworth, Kandace Kling, Jeff Lacks, Cara Lee,
+				Sonya Redmond, Cindy Rochester-Gefre, Thomas Songer, Eric Zupunski
+			</entity>
+		</credit>
+		<credit>
+			<role>Technology Editors</role>
+			<entity>Emiliano Vega, Cara Lee</entity>
+		</credit>
+		<credit>
+    		<role>Attribution</role>
+    		<entity>
+    			Many sections of this book are derivatives of
+				<url href="http://www.opentextbookstore.com/mathinsociety/"
+					visual="opentextbookstore.com/mathinsociety">Math in Society</url>,
+				by David Lippman et al., used under
+				<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
+					visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
+				See the Attributions page for details.
+    		</entity>
+		</credit>
+    	<edition>1.1</edition>
+    	<website>
+			<url href="https://spot.pcc.edu/math/mathinsociety/"
+				visual="spot.pcc.edu/math/mathinsociety"/>
+    	</website>
+		<copyright>
+			<year>2024, 2018</year>
+			<holder>Portland Community College Math Instructors</holder>
+			<minilicense>CC BY-SA 4.0</minilicense>
+			<shortlicense>CC BY-SA 4.0</shortlicense>
+		</copyright>
+	</colophon>
+
+	<preface>
+		<title>Attributions</title>
+		<p>
+			This book is Licensed by the Portland Community College Math Department under
+			<url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
+				visual="creativecommons.org/licenses/by-sa/4.0/us">CC BY-SA 4.0</url>.
+			Except for the following:
+			<ul>
+				<li>
+					<p>
+						<xref ref="tax_buckets"/>:
+						<url href="https://www.trailfp.com/financial-planning/how-about-them-tax-apples/"
+							visual="trailfp.com/financial-planning/how-about-them-tax-apples">Tax Buckets</url>
+						by <url href="https://www.trailfp.com/" visual="trailfp.com">John Chesbrough</url>,
+						used under <url href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+							visual="creativecommons.org/licenses/by-nc-nd/4.0">CC-BY-ND-NC 4.0</url>,
+						not modified, used with permission.
+					</p>
+				</li>
+				<li>
+					<p>
+						Photo of Dr. Jonathan Farley: <copyright/>Jonathan Farley, All rights
+						reserved, used with permission.
+					</p>
+				</li>
+				<li>
+					<p>
+						Photo of Dr. Graciela Chichilnisky: <copyright/>Michael Timmons, All rights
+						reserved, used with permission.
+					</p>
+				</li>
+				<li>
+					<p>
+						Spreadsheet screenshots use Microsoft Excel under fair use. If you plan to
+						redistribute this book, please consider whether your use is also fair use.
+					</p>
+				</li>
+				<li>
+					<p>
+						GeoGebra screenshots are used for non-commercial use under
+						<url href="https://www.geogebra.org/license#NonCommercialLicenseAgreement"
+							visual="geogebra.org/license#NonCommercialLicenseAgreement"/>
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			<alert>How to cite this book:</alert>
+			<url href="https://spot.pcc.edu/math/mathinsociety/"
+				visual="spot.pcc.edu/math/mathinsociety"><q>Math In Society: Mathematics for liberal arts majors, Edition 1.1</q></url>
+			by Lee et al., Portland Community College Math Department is licensed under
+			<url href="http://creativecommons.org/licenses/by-sa/4.0"
+				visual="creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</url>
+		</p>
+		<p>
+			<alert>Attributions:</alert>
+			<ul>
+				<li>
+					<p>
+						Cover Image: <url href="https://commons.wikimedia.org/w/index.php?curid=27460218"
+							visual="commons.wikimedia.org/w/index.php?curid=27460218">Portland, Oregon Skyline from the Ross Island Bridge</url>,
+						by Visitor7, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+							visual="creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0 Unported</url>,
+						cropped.
+					</p>
+				</li>
+				<li>
+					<p>
+						<xref ref="language_logic_rules"/> is a derivative of
+						<url href="http://www.opentextbookstore.com/mathinsociety"
+							visual="opentextbookstore.com/mathinsociety">Math in Society: Logic</url>
+						by David Lippman and Morgan Chase, and
+						<url href="http://www.opentextbookstore.com/mathinsociety"
+							visual="opentextbookstore.com/mathinsociety">Math in Society: Sets</url>
+						by David Lippman, used under
+						<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
+							visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<xref ref="chap_two_simple_compound"/>, <xref ref="chap_two_savings_plan"/>,
+						and <xref ref="chap_two_loans"/> are a derivative of
+						<url href="http://www.opentextbookstore.com/mathinsociety"
+							visual="opentextbookstore.com/mathinsociety">Math in Society: Finance</url>,
+						by David Lippman, used under
+						<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
+							visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<xref ref="statistics"/> is a derivative of
+						<url href="http://www.opentextbookstore.com/mathinsociety"
+							visual="opentextbookstore.com/mathinsociety">Math in Society: Describing Data and Statistics</url>,
+						by David Lippman, Jeff Eldridge and
+						<url href="http://www.onlinestatbook.com/" visual="onlinestatbook.com"/>,
+						and <url href="http://www.onlinestatbook.com/" visual="onlinestatbook.com"/>,
+						by David M. Lane, et al, used under
+						<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
+							visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<xref ref="chap_four_theoretical_probability"/> and
+						<xref ref="chap_four_expected_value"/> are a derivative of
+						<url href="http://www.opentextbookstore.com/mathinsociety"
+							visual="opentextbookstore.com/mathinsociety">Math in Society: Probability</url>,
+						by David Lippman, used under
+						<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
+							visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<xref ref="chap_five_apportionment"/> is a derivative of
+						<url href="http://www.opentextbookstore.com/mathinsociety"
+							visual="opentextbookstore.com/mathinsociety">Math in Society: Apportionment</url>
+						and <xref ref="chap_five_voting_methods"/> is a derivative of
+						<url href="http://www.opentextbookstore.com/mathinsociety"
+							visual="opentextbookstore.com/mathinsociety">Math in Society: Voting Theory</url>
+						by David Lippman, used under
+						<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
+							visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<xref ref="chap_two_intro_spreadsheet"/>,
+						<xref ref="chap_two_income_taxes"/>,
+						Section 2.7 Credit Cards (online only),
+						<xref ref="chap_four_contingency_tables"/>,
+						Section 3.6 Normal Distribution (online only),
+						<xref ref="chap_five_popular_vote"/>,
+						<xref ref="chap_five_gerrymandering"/>
+						and Section 5.6 Federal Deficit and National Debt (online only)
+						are original to the Portland Community College Math Department.
+						<!-- TODO: add back xrefs for web version
+						<xref ref="chap_two_credit_cards"/>,
+						<xref ref="chap_five_budget_deficit_debt.ptx"/>-->
+					</p>
+				</li>
+				<li>
+					<p>
+						All chapter reviews are original to the Portland Community College Math Department.
+					</p>
+				</li>
+				<li>
+					<p>
+						Images in the chapters that were not in the original OER or created by the PCC authors have attributions in footnotes.
+					</p>
+				</li>
+			</ul>
+		</p>
+	</preface>
+
+	<!-- TODO: Add in after getting permission -->
+	<!-- <preface xml:id="Land Acknowledgement">
+		<title>Land Acknowledgement</title>
+		<p>
+			We acknowledge that the United States was created on stolen land. Portland, Oregon is on
+			land where the Multnomah, Kathlamet, and Clackamas bands of the Chinook, Tualatin,
+			Kalapuya, Molalla and many other Tribes made their homes along the Columbia River.
+			Multnomah is a band of Chinooks that lived in this area.
+		</p>
+		<p>
+			We thank the descendants of these tribes for being the original stewards and protectors
+			of these lands since time immemorial. We also acknowledge that Portland, OR has one of
+			the largest Urban Native American populations in the U.S. with over 380 federally
+			recognized tribes represented in the Urban Portland Metropolitan area. We also
+			acknowledge the systemic policies of genocide, relocation, and assimilation that still
+			impact many Indigenous/Native American families today.
+		</p>
+		<p>
+			We are honored by the collective work of many Native Nations, leaders and families who
+			are demonstrating resilience, resistance, revitalization, healing and creativity. We are
+			honored to be guests upon these lands. Thank you, and thanks also to our colleagues at
+			the Portland State University Indigenous Nations Studies Program for crafting this
+			acknowledgement.
+		</p>
+	</preface> -->
+
+	<preface xml:id="Notes">
+	<title>Project Notes</title>
+    	<blockquote>
+    		<p>
+    			<em>We dedicate this book to our students. May you have greater ease in paying for college and grow your proficiency and confidence in math.</em>
+			</p>
+    	</blockquote>
+		<paragraphs>
+			<title>Acknowledgements</title>
+			<p>
+				We would like to thank Amy Hofer and grant support from
+				<url href="https://openoregon.org/" visual="openoregon.org">Open Oregon Educational Resources</url> and the PCC librarians and OER steering committee. Thanks also to Kaela Parks and Michael Cantino of Accessible Education and Disability Resources for their expertise on accessibility. Extended thanks to Alex Jordan for continued support with <url href="https://pretextbook.org/" visual="pretextbook.org">PreTeXt</url>.
+			</p>
+		</paragraphs>
+		<paragraphs>
+			<title>Antiracist and Culturally Responsive Elements</title>
+			<p>
+				Our goal is for our students to see themselves in this book. We have added stories of mathematicians and economists with identities that have traditionally been underrepresented in textbooks. We use local places and culturally diverse names in the examples and exercises. We have examples with they/them/their pronouns and same-sex couples.
+			</p>
+   			<p>
+   				In the democracy chapter we have included the Native American genocide and slavery which are often left out of math texts. We have also emphasized the names of civil rights leaders and African Americans killed by the police in our examples. We recognize there is more to do in this area and welcome contributions and feedback. Please email Cara Lee at <email>cara.lee@pcc.edu</email> or use the Google Form link below.
+			</p>
+		</paragraphs>
+		<paragraphs>
+			<title>Philosophy</title>
+			<p>
+				Our goal is for the content of this book to be relevant and accessible to our
+				readers. We emphasize technology, conceptual understanding and communication over
+				rote calculation. However, some manual calculation is important to understand what
+				the technology is doing. We emphasize readily available spreadsheets and
+				<url href="www.geogebra.com" visual="geogebra.com">GeoGebra</url> throughout the
+				text.
+			</p>
+		</paragraphs>
+		<paragraphs>
+			<title>Web and Print Versions</title>
+			<p>
+				This book is available free online at
+				<url href="http://spot.pcc.edu/math/mathinsociety"
+					visual="spot.pcc.edu/math/mathinsociety"/>.
+				Chapters 1<ndash/>5 are available at the PCC bookstore printed by the PCC Print
+				Center.
+			</p>
+		</paragraphs>
+		<paragraphs>
+			<title>Additional Topics</title>
+			<p>
+				Your course may include one or more instructor choice topics which are available
+				online only from the website above, or from David Lippman's original book at
+				<url href="http://www.opentextbookstore.com/mathinsociety"
+					visual="opentextbookstore.com/mathinsociety"/>.
+			</p>
+		</paragraphs>
+		<paragraphs>
+			<title>Accessibility</title>
+			<p>
+				The <init>HTML</init> version of this book is intended to meet or exceed web
+				accessibility standards. If you find anything that can improve the accessibility of this book, please email Cara Lee at
+				<email>cara.lee@pcc.edu</email> or use the Google Form link below.
+			</p>
+		</paragraphs>
+		<paragraphs>
+			<title>Online Homework</title>
+			<p>
+				Online homework problems are available for free at
+				<url href="https://www.myopenmath.com/" visual="myopenmath.com"/>.
+			</p>
+		</paragraphs>
+		<paragraphs>
+			<title>Typos and Other Feedback</title>
+   			<p>
+				Please notify us of typos and other feedback using this
+				<url href="https://forms.gle/s14kNGd7anRmVgCD6"
+					visual="forms.gle/s14kNGd7anRmVgCD6">Google Form</url>.
+			</p>
+		</paragraphs>
+	</preface>
+
+	<preface>
+		<title>Resources</title>
+		<p>
+			This
+			<url href="https://drive.google.com/drive/folders/1XDdf7gX4ZWtipz_gISV2H9F2Y9enjHc6?usp=sharing"
+				visual="drive.google.com/drive/folders/1XDdf7gX4ZWtipz_gISV2H9F2Y9enjHc6">Google folder</url>
+			contains the following resources for the course:
+			<ul>
+				<li>
+					<p>
+						A printable pdf of the entire book, and optional sections 3.6 and 5.6.
+					</p>
+				</li>
+				<li>
+					<p>
+						Video notes for the lecture videos in pdf and Word form. The videos in each
+						section can be assigned or used as an extra resource.
+					</p>
+				</li>
+				<li>
+					<p>
+						A pdf of the answers to odd exercises.
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			A MyOpenMath shell is available for instructors to use in their courses. Additional
+			resources are available for instructors by emailing Cara Lee at
+			<email>cara.lee@pcc.edu</email>. Instructor status will be verified.
+		</p>
+	</preface>
+<!-- Comment out for printing pdf. Todo: put back for web version
+	<preface>
+		<title>Errata</title>
+		<p>
+			Please notify us of typos and other feedback using this
+			<url href="https://forms.gle/s14kNGd7anRmVgCD6"
+				visual="forms.gle/s14kNGd7anRmVgCD6">Google Form</url>.
+		</p>
+		<p>
+			When errors are found they will be listed here when fixed in the online version. The corrections will be reflected in the print version at the next revision date.
+		</p>
+		<tabular row-headers="yes" halign="left" top="minor" left="minor" right="minor" bottom="minor">
+			<row header="yes">
+				<cell>Section</cell>
+				<cell>Error Description</cell>
+			</row>
+			<row>
+				<cell></cell>
+				<cell></cell>
+			</row>
+		</tabular>
+	</preface> -->
+</frontmatter>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+	<docinfo>
+		<!-- Thumbnail for HTML -->
+		<brandlogo url="https://spot.pcc.edu/math/mathinsociety/book-1.html" source="images/Portland_Oregon_Skyline.jpg" />
+  		<!-- For title into HTML head, then tabs, bookmarks, etc -->
+  		<initialism>Math In Society:</initialism>
+  		<!--<document-id>PCC-Math In Society</document-id> -->
+  		 <document-id edition="2">PCC-Math In Society</document-id>
+		<macros>
+			%  highlight (draw attention to something in math mode)
+    		%  Usage: \highlight{x}   		
+    		\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
+		</macros>
+		<html>
+      		<!-- Expects favicon/favicon-32x32.png, and favicon/favicon-16x16.png -->
+      		<favicon/>
+      		<!-- There does not need to be a trailing / on the URL             -->
+      		<!-- NB Eventually a publisher option will exist to overrule this, -->
+      		<!-- so a given source can be installed more than one place        -->
+      		<baseurl href="https://spot.pcc.edu/math/mathinsociety/book-1.html" />
+  		</html>
+	</docinfo>
+
+	<book>
+		<title>Math in Society</title>
+		<subtitle>Mathematics for Liberal Arts Majors</subtitle>
+		<introduction>
+			<p>
+				<image source="images/Portland_Oregon_Skyline.jpg">
+				<shortdescription>A picture of the Portland, Oregon skyline taken from the Ross Island Bridge</shortdescription>
+			</image>
+			</p>
+		</introduction>
+
+		<xi:include href="./frontmatter.ptx" />
+
+		<xi:include href="./language_logic_rules.ptx" />
+		<xi:include href="./financial_math.ptx" />
+		<xi:include href="./statistics.ptx" /> -->
+		<xi:include href="./probability.ptx" />
+		<xi:include href="./democracy.ptx" />
+
+		<xi:include href="./backmatter.ptx" />
+	</book>
+</pretext>
