@@ -206,6 +206,7 @@
 	</sidebyside>
 </subsection>
 
+<!-- 
 <subsection>
 <title>Contingency Tables and Venn Diagrams
 </title>
@@ -224,7 +225,7 @@
 	</sidebyside>
 
 </subsection>
-
+-->
 <subsection>
 	<title><q>And</q> Statements</title>
 	<p>
@@ -337,6 +338,7 @@
 		We call this a <alert>conditional</alert> statement because we are only considering the households with a certain condition. If we focus on the column representing the households that own a dog, we see that there is a total of 95 households with a dog, and that 52 of those 95 households also have a cat. Therefore, <m>\frac{52}{95} \approx 0.547</m> or approximately 54.7% of the households with a dog also have a cat. Another way to phrase this conditional statement is, <q>What percent of households have a cat <alert>given</alert> they have a dog.</q> You will see the word given quite a bit in this chapter and that makes the denominator change. It is also possible to find this conditional percentage using the Venn diagram by taking the number in the intersection and dividing it by the total in the whole dog circle. 
 	</p>
 </subsection>
+
 
 <subsection>
 <title>Contingency Tables with More Than Two Categories</title>
