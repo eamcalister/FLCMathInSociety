@@ -39,7 +39,7 @@
 		<xi:include href="./financial_math.ptx" />
 		<xi:include href="./statistics.ptx" /> -->
 		<xi:include href="./probability.ptx" />
-		<xi:include href="./democracy.ptx" />
+		<!-- <xi:include href="./democracy.ptx" /> -->
 
 		<xi:include href="./backmatter.ptx" />
 	</book>
