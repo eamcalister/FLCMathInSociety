@@ -534,6 +534,24 @@
 			<m>\text{If } A\text{, then } B</m> is written <m>A\rightarrow B</m>
 		</p>
 	</assemblage>
+
+	<exercise>
+		<title> Practice with Symbols </title>
+		<!--
+		<introduction>
+		  <p>
+			Second exercise.
+		  </p>
+		</introduction>
+		-->
+		<myopenmath problem="265549" />
+	</exercise>
+
+	<exercise>
+		<title> More Practice with Symbols </title>
+		<myopenmath problem="265610" />
+	</exercise>
+
 </subsection>
 
 <subsection>

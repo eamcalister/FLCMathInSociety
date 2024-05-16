@@ -33,6 +33,9 @@
 		<exercise-inline hint="no" answer="no" solution="yes"/>
 		<exercise-divisional hint="no" answer="no" solution="no"/>
 	</common>
+	<numbering>
+		<divisions level="2" />
+	</numbering>
 	<latex print="yes" sides="two" pageref="no">
 		<page>
 			<geometry>papersize={8.5in,11in},total={6.5in,9in}</geometry>

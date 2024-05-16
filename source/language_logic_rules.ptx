@@ -27,7 +27,7 @@
 </introduction>
 
 <xi:include href="chap_one_language_logic.ptx" />
-<xi:include href="chap_one_sets_venn.ptx" />
+<!-- <xi:include href="chap_one_sets_venn.ptx" /> -->
 <xi:include href="chap_one_arguments.ptx" />
 <xi:include href="chap_one_fallacies.ptx" />
 <xi:include href="chap_one_review.ptx" />
