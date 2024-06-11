@@ -1,0 +1,5 @@
+Text File for Money Management Credit Cards section.
+url: https://openstax.org/books/contemporary-mathematics/pages/6-10-credit-cards
+
+Enter text from paragraphs to include in pretext version, in order that they will appear.
+Note images where they will appear for reference.
