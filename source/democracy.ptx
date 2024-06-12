@@ -32,12 +32,12 @@
 		</p>
 	</introduction>
 
-<xi:include href="chap_five_apportionment.ptx" />
-<xi:include href="chap_five_voting_methods.ptx" />
-<xi:include href="chap_five_popular_vote.ptx" />
-<xi:include href="chap_five_gerrymandering.ptx" />
-<xi:include href="chap_five_review.ptx" />
+<xi:include href="democracy_apportionment.ptx" />
+<xi:include href="democracy_voting_methods.ptx" />
+<xi:include href="democracy_popular_vote.ptx" />
+<xi:include href="democracy_gerrymandering.ptx" />
+<xi:include href="democracy_review.ptx" />
 
-<xi:include href="chap_five_budget_deficit_debt.ptx" />
+<xi:include href="democracy_budget_deficit_debt.ptx" />
 
 </chapter>
