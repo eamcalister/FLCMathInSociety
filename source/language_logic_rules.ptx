@@ -26,10 +26,10 @@
 		</p>
 </introduction>
 
-<xi:include href="chap_one_language_logic.ptx" />
-<!-- <xi:include href="chap_one_sets_venn.ptx" /> -->
-<xi:include href="chap_one_arguments.ptx" />
-<xi:include href="chap_one_fallacies.ptx" />
-<xi:include href="chap_one_review.ptx" />
+<xi:include href="language_logic_rules_logic.ptx" />
+<!-- <xi:include href="language_logic_rules_sets_venn.ptx" /> -->
+<xi:include href="language_logic_rules_arguments.ptx" />
+<xi:include href="language_logic_rules_fallacies.ptx" />
+<xi:include href="language_logic_rules_review.ptx" />
 
 </chapter>

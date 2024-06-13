@@ -29,12 +29,12 @@
 		</p>
 </introduction>
 
-<xi:include href="chap_three_statistical_process.ptx" />
-<xi:include href="chap_three_describing_data.ptx" />
-<xi:include href="chap_three_measure_of_center.ptx" />
-<xi:include href="chap_three_measure_of_variation.ptx" />
-<xi:include href="chap_three_review.ptx" />
+<xi:include href="statistics_statistical_process.ptx" />
+<xi:include href="statistics_describing_data.ptx" />
+<xi:include href="statistics_measure_of_center.ptx" />
+<xi:include href="statistics_measure_of_variation.ptx" />
+<xi:include href="statistics_review.ptx" />
 
- <xi:include href="chap_three_normal_model.ptx" />
+ <xi:include href="statistics_normal_model.ptx" />
 
 </chapter>

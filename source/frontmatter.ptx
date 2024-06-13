@@ -134,8 +134,8 @@
 				</li>
 				<li>
 					<p>
-						<xref ref="chap_two_simple_compound"/>, <xref ref="chap_two_savings_plan"/>,
-						and <xref ref="chap_two_loans"/> are a derivative of
+						<xref ref="financial_math_simple_compound"/>, <xref ref="financial_math_savings_plan"/>,
+						and <xref ref="financial_math_loans"/> are a derivative of
 						<url href="http://www.opentextbookstore.com/mathinsociety"
 							visual="opentextbookstore.com/mathinsociety">Math in Society: Finance</url>,
 						by David Lippman, used under
@@ -158,8 +158,8 @@
 				</li>
 				<li>
 					<p>
-						<xref ref="chap_four_theoretical_probability"/> and
-						<xref ref="chap_four_expected_value"/> are a derivative of
+						<xref ref="probability_theoretical_probability"/> and
+						<xref ref="probability_expected_value"/> are a derivative of
 						<url href="http://www.opentextbookstore.com/mathinsociety"
 							visual="opentextbookstore.com/mathinsociety">Math in Society: Probability</url>,
 						by David Lippman, used under
@@ -167,33 +167,33 @@
 							visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
 					</p>
 				</li>
-				<li>
+				<!--li>
 					<p>
-						<xref ref="chap_five_apportionment"/> is a derivative of
+						<xref ref="democracy_apportionment"/> is a derivative of
 						<url href="http://www.opentextbookstore.com/mathinsociety"
 							visual="opentextbookstore.com/mathinsociety">Math in Society: Apportionment</url>
-						and <xref ref="chap_five_voting_methods"/> is a derivative of
+						and <xref ref="democracy_voting_methods"/> is a derivative of
 						<url href="http://www.opentextbookstore.com/mathinsociety"
 							visual="opentextbookstore.com/mathinsociety">Math in Society: Voting Theory</url>
 						by David Lippman, used under
 						<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
 							visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
 					</p>
-				</li>
+				</li-->
 				<li>
 					<p>
-						<xref ref="chap_two_intro_spreadsheet"/>,
-						<xref ref="chap_two_income_taxes"/>,
+						<xref ref="financial_math_intro_spreadsheet"/>,
+						<xref ref="financial_math_income_taxes"/>,
 						Section 2.7 Credit Cards (online only),
-						<xref ref="chap_four_contingency_tables"/>,
+						<xref ref="probability_contingency_tables"/>,
 						Section 3.6 Normal Distribution (online only),
-						<xref ref="chap_five_popular_vote"/>,
-						<xref ref="chap_five_gerrymandering"/>
-						and Section 5.6 Federal Deficit and National Debt (online only)
-						are original to the Portland Community College Math Department.
+						<!--xref ref="democracy_popular_vote"/-->,
+						<!--xref ref="democracy_gerrymandering"/-->
+						<!--and Section 5.6 Federal Deficit and National Debt (online only)
+						are original to the Portland Community College Math Department.-->
 						<!-- TODO: add back xrefs for web version
-						<xref ref="chap_two_credit_cards"/>,
-						<xref ref="chap_five_budget_deficit_debt.ptx"/>-->
+						<xref ref="financial_math_credit_cards"/>,
+						<xref ref="democracy_budget_deficit_debt.ptx"/>-->
 					</p>
 				</li>
 				<li>

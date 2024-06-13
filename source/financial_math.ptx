@@ -34,12 +34,12 @@
 		</p>
 </introduction>
 
-<xi:include href="chap_two_intro_spreadsheet.ptx" />
-<xi:include href="chap_two_simple_compound.ptx" />
-<xi:include href="chap_two_savings_plan.ptx" />
-<xi:include href="chap_two_loans.ptx" />
-<xi:include href="chap_two_income_taxes.ptx" />
-<xi:include href="chap_two_review.ptx" />
+<xi:include href="financial_math_intro_spreadsheet.ptx" />
+<xi:include href="financial_math_simple_compound.ptx" />
+<xi:include href="financial_math_savings_plan.ptx" />
+<xi:include href="financial_math_loans.ptx" />
+<xi:include href="financial_math_income_taxes.ptx" />
+<xi:include href="financial_math_review.ptx" />
 
 
 <!-- <xi:include href="chap_two_credit_cards.ptx" /> -->

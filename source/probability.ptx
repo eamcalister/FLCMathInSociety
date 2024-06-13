@@ -35,9 +35,9 @@
 	</p>
 </introduction>
 
-<xi:include href="chap_four_contingency_tables.ptx" />
-<xi:include href="chap_four_theoretical_probability.ptx" />
-<xi:include href="chap_four_expected_value.ptx" />
-<xi:include href="chap_four_review.ptx" />
+<xi:include href="probability_contingency_tables.ptx" />
+<xi:include href="probability_theoretical_probability.ptx" />
+<xi:include href="probability_expected_value.ptx" />
+<xi:include href="probability_review.ptx" />
 
 </chapter>
