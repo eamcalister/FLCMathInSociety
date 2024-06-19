@@ -55,7 +55,7 @@
     </figure>
 </introduction>
 
-<subsection>
+<subsection xml:id="types_of_data">
 	<title>Types of Data</title>
 		<p>
 			There are two types of data, categorical data and quantitative data. The word data is plural because it represents many pieces of information.
@@ -65,7 +65,7 @@
 		</p>
 		<example>
 			<p>
-				We might conduct a survey to determine the name of the favorite movie that people saw in a movie theater. When we conduct such a survey, the responses would look like: <em>Finding Nemo, Black Panther, Titanic, etc.</em>
+				We might conduct a survey to determine the name of the favorite movie that people saw in a movie theater. When we conduct such a survey, the responses would look like: <em>Finding Nemo, Black Panther, Titanic, etc.</em>
 			</p>
 			<p>
 				We can count the number of people who give each answer, but the answers themselves do not have any numerical values: we cannot perform computations with an answer like <em><q>Black Panther</q></em> because it is categorical data.
