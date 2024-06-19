@@ -1,5 +1,50 @@
 Text File for Money Management Credit Cards section.
 url: https://openstax.org/books/contemporary-mathematics/pages/6-10-credit-cards
 
-Enter text from paragraphs to include in pretext version, in order that they will appear.
-Note images where they will appear for reference.
+LEARNING OBJECTIVES
+After completing this section, you should be able to:
+
+1. Apply for a credit card armed with basic knowledge.
+2. Distinguish between three basic types of credit cards.
+3. Compare and contrast the benefits and drawbacks of credit cards.
+4. Read and understand the basic parts of a credit card statement.
+5. Compute interest, balance due, and minimum payment due for a credit card.
+
+
+INTRODUCTION
+
+
+
+TYPES OF CREDIT CARDS
+There are basically three types of credit cards: bank-issued credit cards, store-issued credit cards, and travel/entertainment credit cards. We will look at all three and explain the good and the bad qualities of each.
+
+1. BANK-ISSUED CREDIT CARDS
+Perhaps the most widely used credit card type is the bank-issued credit card, like Visa or MasterCard (and even American Express and Discover cards). These types of cards are an example of revolving credit, meaning that additional credit is extended before the previous balance is paid—but only up to the assigned credit limit. Bank-issued cards are considered the most convenient, as they can be used to purchase anything, including apparel, furniture, groceries, fuel for automobiles, meals, hotel bills, and so on, just as if paying with cash. The interest rates on bank-issued credit cards are usually lower than those for other credit cards we’ll discuss, and the credit limits are generally higher. Currently, bank-issued cards have an average 20.09% APR.
+
+2. STORE-ISSUED CREDIT CARDS
+Store-issued credit cards are issued by retailers. One can hardly walk into a store these days without being offered a discount on purchases if one applies for the store credit card. These cards can only be used in that store or family of stores that issues the card. However, if a store credit card is associated with Visa, MasterCard, or American Express, then the card might be used the same way that the bank-issued cards are used. This is called cobranding. The logo of the bank-issued card will be present on the store card. Many stores offer both types. Like other credit cards, they may come with an annual fee.
+
+Store credit cards usually charge higher interest rates than bank-issued cards. Currently, store credit cards have an APR (annual percentage rate) of 24.15%. Any rewards offered by store credit cards are usually limited to purchases made in their own store, and it typically takes longer to accumulate enough rewards or points to redeem them, whereas cobranded credit cards offer opportunities to earn rewards on all purchases, regardless of whether purchases are made in the issuing store or not.
+
+Store credit cards usually offer lower credit limits, at least in the beginning. After being proved to be a responsible credit card owner, credit limits can be raised. Nevertheless, store credit cards are a good choice for those new to the credit card industry. If on-time payments are consistently made, it is an excellent way to get started building a credit history.
+
+3. TRAVEL/ENTERTAINMENT CREDIT CARDS OR CHARGE CARDS
+This is the third type of credit card. The travel and entertainment cards, also known as charge cards, first and foremost offer very high limits or unlimited credit, but they must be paid in full every month. They generally charge high annual fees and impose expensive penalties should a payment be late. On the other hand, they typically have longer grace periods and offer many and various kinds of rewards.
+
+1. COMMENT: Include the link on the nerdwallet about the difference between charge card and a credit card.
+2. COMMENT: Include video: Choosing a credit card.
+3. COMMENT: Include: EXAMPLE 6.91
+4. COMMENT: Iclude YOUR TURN 6.91 as extra pratice.
+
+CREDIT CARD STATEMENT
+Cardholders usually receive monthly statements and have 21 days to pay the minimum amount due. The statements itemize and summarize activity on the credit card for that statement’s billing period. The billing period for a credit card is generally a month long, but typically does not start and end on the first and last days of the month. The statement will include the current balance, interest rate, the minimum payment due, and the due date. Be aware, different companies produce statements that are laid out differently. The information will be clearly labeled though.
+
+The due date is a top concern. Missing a due date is one of the worst things a cardholder can do financially, and this is by far the biggest downfall of owning a credit card. Not only is the cardholder subject to late fees, but when a payment is late more than once there is a high probability that the cardholder will be negatively reported to the credit bureaus, which can quickly erode a credit score. Figure 6.23 shows an excerpt from an actual statement from a Chase Bank Visa card, based on the current $668.25 balance.
+
+5. COMMENT: Include figure 6.23 as a link.(credit card statement)
+6. COMMENT: Include example 6.92 (Reading Credit Card Statement) as well as figure 6.24
+
+
+
+COMPUTE INTEREST, BALANCE DUE, MINIMUM PAYMENTDUE FOR CREDIT CARD. 
+
