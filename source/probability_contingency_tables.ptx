@@ -11,11 +11,11 @@
 	</p>
 </introduction>
 	<ul>
-		<li>
+		<!--li>
 			<p>
 				Relate Venn diagrams and contingency tables
 			</p>
-		</li>
+		</li-->
 		<li>
 			<p>
 				Calculate percentages from a contingency table
@@ -50,7 +50,42 @@
       <video youtube="_NCjGWdcNmQ" label="video-contingency-tables"/>
     </figure>
 	<p>
-		When we looked at categorical data in the previous chapter, it was related to a single variable, or characteristic of interest, such as favorite movie or car color. To illustrate the data, we made a frequency table and used it to create a pie chart or bar chart. But what if we want to illustrate the relationship between two categorical variables? To do this, we can use a contingency table.
+		In the next chapter we will study different types of data at length. In order to discuss probability we must first introduce a certain type of data called <term>categorical data</term>. This is data that allows us to classify objects into categories. A <term xml:id="categorical_variable_def">categorical variable</term> is a way of describing an object in terms of categorical data. Here are a few examples:
+		<ul>
+			<li>
+				<p>
+					<em>Variable:</em> Type of phone owned by a person.
+				</p>
+				<p>
+					<em>Possible Values:</em> Iphone, Android
+				</p>
+				<p>
+					This variable classifies a person by the type of phone they own.
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>Variable:</em> Type of motor in a car.
+				</p>
+				<p>
+					<em>Possible Values:</em> Gasoline, Diesel, Electric
+				</p>
+				<p>
+					This variable classifies a car by the type of motor that propels it.
+				</p>
+			</li>
+			<li>
+				<p>
+					<em>Variable:</em> (Primary) position of a major league baseball player.
+				</p>
+				<p>
+					<em>Possible Values:</em> Pitcher, Catcher, 1st Base, 2nd Base, Shortstop, 3rd Base, Right Field, Center Field, Left, Field, Designated Hitter
+				</p>
+				<p>
+					This variable classifies a baseball player by their position. We have to indicate that this is their primary position because a player may play more than one position, but there is one that they play most.
+				</p>
+			</li>
+		</ul>
 	</p>
 </introduction>
 
@@ -229,7 +264,7 @@
 <subsection>
 	<title><q>And</q> Statements</title>
 	<p>
-		Now we can use the contingency table or the Venn diagram to determine the percentage of households that meet certain conditions. For instance, what percent of those surveyed own a cat <alert>and</alert> do not own a dog? In the Venn diagram, this is 128 households in the cat only region.
+		Now we can use the contingency table <!--or the Venn diagram--> to determine the percentage of households that meet certain conditions. For instance, what percent of those surveyed own a cat <alert>and</alert> do not own a dog? <!--In the Venn diagram, this is 128 households in the cat only region.-->
 	</p>
 
 	<p>
@@ -266,10 +301,10 @@
 <subsection>
 	<title><q>Or</q> Statements</title>
 	<p>
-		How about the percentage of households surveyed that have a cat <alert>or</alert> a dog? We know from Venn diagrams that the inclusive <em>or</em> includes the number of households who own a cat only, a dog only, and both a cat and a dog, or <m>128+52+43=223</m> households. As a percentage of the total surveyed, we get <m>\frac{223}{250}=0.892</m> or 89.2% of households in the sample have a dog <alert>or</alert> a cat (or both).
-	</p>
-	<p>
-		We can get the same answer from the contingency table. by adding the cells for households who have a cat and not a dog, a dog and not a cat, and the households that have both a cat and a dog. This also gives us 223 households.
+		How about the percentage of households surveyed that have a cat <alert>or</alert> a dog? <!--We know from Venn diagrams that the inclusive <em>or</em> includes the number of households who own a cat only, a dog only, and both a cat and a dog, or <m>128+52+43=223</m> households. As a percentage of the total surveyed, we get <m>\frac{223}{250}=0.892</m> or 89.2% of households in the sample have a dog <alert>or</alert> a cat (or both).
+	</p>-->
+	<!--p-->
+		We can get the answer from the contingency table. By adding the cells for households who have a cat and not a dog, a dog and not a cat, and the households that have both a cat and a dog. This gives us 223 households.
 	</p>
 	<p>
 		There is another way to calculate an <em>or</em> statements from a contingency table. We could add the row and column totals for having a cat and having a dog, but then we have counted the 52 households in the intersection twice. We can subtract that number to get <m>180+95-52=223</m> households with a dog or a cat, which we know is 89.2% of those surveyed.
@@ -335,16 +370,16 @@
 			</row>
 		</tabular>
 	<p>
-		We call this a <alert>conditional</alert> statement because we are only considering the households with a certain condition. If we focus on the column representing the households that own a dog, we see that there is a total of 95 households with a dog, and that 52 of those 95 households also have a cat. Therefore, <m>\frac{52}{95} \approx 0.547</m> or approximately 54.7% of the households with a dog also have a cat. Another way to phrase this conditional statement is, <q>What percent of households have a cat <alert>given</alert> they have a dog.</q> You will see the word given quite a bit in this chapter and that makes the denominator change. It is also possible to find this conditional percentage using the Venn diagram by taking the number in the intersection and dividing it by the total in the whole dog circle. 
+		We call this a <alert>conditional</alert> statement because we are only considering the households with a certain condition. If we focus on the column representing the households that own a dog, we see that there is a total of 95 households with a dog, and that 52 of those 95 households also have a cat. Therefore, <m>\frac{52}{95} \approx 0.547</m> or approximately 54.7% of the households with a dog also have a cat. Another way to phrase this conditional statement is, <q>What percent of households have a cat <alert>given</alert> they have a dog.</q> You will see the word given quite a bit in this chapter and that makes the denominator change. <!--It is also possible to find this conditional percentage using the Venn diagram by taking the number in the intersection and dividing it by the total in the whole dog circle.--> 
 	</p>
 </subsection>
 
 
 <subsection>
 <title>Contingency Tables with More Than Two Categories</title>
-	<p>
+	<!--p>
 		When there are only two categories for each variable, like yes/no questions, Venn diagrams and contingency tables provide basically the same information and can be used interchangeably. A Venn diagram works well for yes/no variables since a subject is either inside the circle (has the characteristic) or outside the circle (does not have the characteristic). If we have more than two possibilities for any of the variables, though, we cannot use a Venn diagram. We can use a contingency table, though. Here is an example where one variable has four categories and the other has three categories.
-	</p>
+	</p-->
 
 <example>
 	<statement>
@@ -987,7 +1022,7 @@
 <exercise><!--  #1 -->
 	<statement>
 	<p>
-		A recent survey asked a random sample of PCC students if they are currently experiencing food insecurity and if they are currently experiencing housing insecurity. Fill in the missing entries of the contingency table below.
+		A recent survey asked a random sample of FLC students if they are currently experiencing food insecurity and if they are currently experiencing housing insecurity. Fill in the missing entries of the contingency table below.
 	</p>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
@@ -1049,7 +1084,7 @@
 <exercise><!--  #2 -->
 	<statement>
 	<p>
-		A recent survey asked a random sample of PCC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below.
+		A recent survey asked a random sample of FLC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below.
 	</p>
 	<tabular row-headers="yes" halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
@@ -1109,7 +1144,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #3 -->
+<!--exercise>
 	<statement>
 	<p>
 		A recent survey asked PCC students if they regularly eat breakfast and if they regularly floss their teeth Use the completed Venn Diagram to fill in the corresponding contingency table.
@@ -1175,9 +1210,9 @@
 		</row>
 	</tabular>
 	</solution>
-</exercise>
+</exercise-->
 
-<exercise><!--  #4 -->
+<!--exercise>
 	<statement>
 	<p>
 		A recent survey asked PCC students if they used an Apple phone, and if the regularly used a Chromebook outside of school. Use the completed Venn Diagram to fill in the corresponding contingency table.
@@ -1243,9 +1278,9 @@
 		</row>
 	</tabular>
 	</solution>
-</exercise>
+</exercise-->
 
-<exercise><!--  #5 -->
+<exercise><!--  #3 -->
 	<statement>
 	<p>
 		Use the following information to complete the contingency table:
@@ -1327,7 +1362,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #6 -->
+<exercise><!--  #4 -->
 	<statement>
 	<p>
 		Use the following information to complete the contingency table:
@@ -1404,7 +1439,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #7 -->
+<exercise><!--  #5 -->
 	<statement>
 	<p>
 		A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.
@@ -1518,7 +1553,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #8 -->
+<exercise><!--  #6 -->
 	<statement>
 	<p>
 		A professor surveyed students in her morning and afternoon Math 105 class, and asked what their class standing was. The class standings are summarized below: 
@@ -1636,7 +1671,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #9 -->
+<exercise><!--  #7 -->
 	<statement>
 	<p>
 		The contingency table below shows the number of credit cards owned by a group of individuals below the age of 35 and above the age of 35.  
@@ -1773,7 +1808,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #10 -->
+<exercise><!--  #8 -->
 	<statement>
 	<p>
 		The following contingency table provides data from a sample of 6,224 individuals who were exposed to smallpox in Boston.<fn>Data taken from Mostly Harmless Probability &amp; Statistics by Rachel Webb</fn>
@@ -1892,7 +1927,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #11 -->
+<exercise><!--  #9 -->
 	<statement>
 	<p>
 		The contingency table below shows the survival data for the passengers of the Titanic.
@@ -2045,7 +2080,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #12 -->
+<exercise><!--  #10 -->
 	<statement>
 	<p>
 		The following table shows the utility patents granted for a specific year.
@@ -2158,7 +2193,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #13 -->
+<exercise><!--  #11 -->
 	<statement>
 	<p>
 		There is a 15% chance that a shopper entering a computer store will purchase a computer, a 25% chance they will purchase a game/software, and there is a 10% chance they will purchase both a computer and a game/software.
@@ -2297,7 +2332,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #14 -->
+<exercise><!--  #12 -->
 	<statement>
 	<p>
 		A fitness center coach kept track over the last year of whether members stretched before they exercised, and whether or not they sustained an injury. Among the 400 members, 322 stretched before they exercised, 327 did not sustain an injury, and 270 both stretched and did not sustain an injury.
@@ -2450,7 +2485,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #15 -->
+<exercise><!--  #13 -->
 	<statement>
 	<p>
 		Among the 95 books on a bookshelf, 72 are fiction, 28 are hardcover, and 87 are fiction or hardcover.
@@ -2553,7 +2588,7 @@
 	</solution>
 </exercise>
 
-<exercise><!--  #16 -->
+<exercise><!--  #14 -->
 	<statement>
 	<p>
 		After finishing the course, among the 32 students in a Math 105 class, 25 could successfully construct a contingency table, 27 passed the class, and 29 could successfully construct a contingency table or passed the class.
