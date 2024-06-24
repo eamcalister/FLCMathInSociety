@@ -47,4 +47,16 @@ The due date is a top concern. Missing a due date is one of the worst things a c
 
 
 COMPUTE INTEREST, BALANCE DUE, MINIMUM PAYMENTDUE FOR CREDIT CARD. 
+Introduction: Computing all of these values depends on understanding and computing the average daily balance on a credit card. Once that is known, the interest, balance due, and minimum payment can be found.
+
+Above all else, if you pay off the entire balance each month, interest is not charged.
+
+1. Start with a list of transactions with their dates and amounts.
+2. For each day that had transactions, find the total of the transactions for the day. Expenditures are treated as positive values, payments are treated as negative values.
+3.Create a table containing each day with a different balance. The balance is the previous balance plus the day’s total transactions.
+4. Add a column for the number of days those balances until the balance changed.
+5. Add a column that contains the balances multiplied by the number of days until the balance changed.
+6. Find the sum of that last column.
+7. Divide the sum by the number of days in the billing period (often the number of days in the month). This is the average daily balance.
+
 
