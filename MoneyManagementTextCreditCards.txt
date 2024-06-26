@@ -47,6 +47,7 @@ The due date is a top concern. Missing a due date is one of the worst things a c
 
 
 COMPUTE INTEREST, BALANCE DUE, MINIMUM PAYMENTDUE FOR CREDIT CARD. 
+
 Introduction: Computing all of these values depends on understanding and computing the average daily balance on a credit card. Once that is known, the interest, balance due, and minimum payment can be found.
 
 Above all else, if you pay off the entire balance each month, interest is not charged.
@@ -58,5 +59,48 @@ Above all else, if you pay off the entire balance each month, interest is not ch
 5. Add a column that contains the balances multiplied by the number of days until the balance changed.
 6. Find the sum of that last column.
 7. Divide the sum by the number of days in the billing period (often the number of days in the month). This is the average daily balance.
+
+
+7. COMMENT: Include example 6.93, include your turn assignment for student as extra practice.
+
+CALCULATING THE INTEREST FOR A CREDIT CARD.
+
+The interest charged for a credit card is based on the daily interest rate of the card, the number of days in the billing cycle, and the average daily balance on the card. We will calculate the interest for a credit card using this formula.
+
+The interest charge,  𝐼, for a credit card during a billing cycle is  𝐼 = (ADB × 𝑟× 𝑑)/365
+ where ADB is the average daily balance, 
+       𝑟 is the annual percentage rate, and  
+       𝑑 is the number of days in the billing cycle. As before, interest is rounded up to the next penny.
+
+8. COMMENT: Include example 6.94, include your turn assignment for student as extra practice.
+
+
+CALCULATING THE BALANCE OF A CREDIT CARD.
+
+The balance, or sometimes balance due, on a credit card is the previous balance, plus all expenses, minus all payments and credits, plus the interest on the card. As stated before, if the card was paid off, there is no interest to be paid.
+
+9. COMMENT: Include example 6.95, include your turn assignment for student as extra practice.
+10. COMMENT: Include example 6.96, include your turn assignment for student as extra practice.
+
+
+MINIMUM PAYMENT DUE.
+
+The minimum payment due is the smallest required amount to be paid on a credit card to avoid late fees and penalties, such as an increased interest rate. The calculations for this may differ from card to card. They also depend in the balance of the credit card. General guidelines for minimum payment due are:
+
+1. For larger balances (usually over $1,000), the minimum payment will be some percentage of the balance due.
+2. For moderate balances (between $25 and $1,000), the minimum would be a specified dollar amount. $25 seems to be a common value.
+3. If the balance is small (under $25 for instance), then the minimum payment is the balance.
+4. Those are just guidelines. Individual cards may vary in these values.
+
+Minimum payments should only be paid if money is short in a given month. The length of time to pay off a credit card using minimum payments is quite long, and results in paying a lot of interest. It is strongly discouraged.
+
+11. COMMENT: Include example 6.97, include your turn assignment for student as extra practice.
+
+
+
+
+
+
+
 
 
