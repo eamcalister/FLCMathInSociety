@@ -19,3 +19,38 @@ Savings Account
 A savings account is probably the most well-known type of investment, and for many people it is their first experience with a bank. A savings account is a deposit account, held at a bank or other financial institution, which bears some interest on the deposited money. Savings accounts are intended as a place to save money for emergencies or to achieve short-term goals. They typically pay a low interest rate, but there is virtually no risk involved, and they are insured by the FDIC for up to $250,000.
 
 Savings accounts have some strengths. They are highly flexible. Generally, there are no limitations on the number of withdrawals allowed and no limit on how much you can deposit. It is not unusual, however, that a savings account will have a minimum balance in order for the bank to pay maintenance costs. If your account should dip below the minimum, there are usually fees attached.
+
+WHO KNEW?
+Many banks are covered by FDIC insurance. The FDIC is the Federal Deposit Insurance Corporation and is an independent agency created by the U.S. Congress. One of its purposes is to provide insurance for deposits in banks, including savings accounts. Be aware, not all banks are FDIC insured. The FDIC insures up to $250,000 for a savings account, so you do not want your balance to exceed that federally insured limit.
+
+Having your savings account at the same bank as your checking account does offer a real advantage. For example, if your checking account is approaching its lower limit, you can transfer funds from your savings account and avoid any bank fees. Similarly, if you have an excess of funds in your checking account, you can transfer funds to your savings account and earn some interest. Checking accounts rarely pay interest.
+
+There are some weaknesses to savings accounts. Primarily, it is because savings accounts earn very low interest rates. This means they are not the best way to grow your money. Experts, though, recommend keeping a savings account balance to cover 3 to 6 months of living expenses in case you should lose your job, have a sudden medical expense, or other emergency.
+
+Around tax time, you will receive a 1099-INT form stating the amount of interest earned on your savings, which is the amount that must be reported when you file your tax return. A 1099 form is a tax form that reports earnings that do not come from your employer, including interest earned on savings accounts. These 1099 forms have the suffix INT to indicate that the income is interest income.
+
+Savings accounts earn interest, and those earnings can be found using the interest formulas from previous sections. The final value of these accounts is sometimes called the future value of the account.
+
+EXAMPLE 6.55
+Single Deposit in a Savings Account
+Violet deposits $4,520.00 in a savings account bearing 1.45% interest compounded annually. If she does not add to or withdraw any of that money, how much will be in the account after 3 years?
+Solution
+To find the compound interest, use the formula from Compound Interest,  𝐴=𝑃(1+𝑟𝑛)𝑛𝑡
+ , where  𝐴
+  represents the amount in the account after  𝑡
+  years, with initial deposit (or principal) of  𝑃
+ , at an annual interest rate, in decimal form, of  𝑟
+ , compounded  𝑛
+  times per year. Violet has a principal of $4,520.00, which will earn an interest of  𝑟
+  = 0.0145, compounded yearly (so  𝑛
+  = 1), for  𝑡
+  = 3 years. Substituting and calculating, we find that Violet’s account will be worth
+
+𝐴====𝑃(1+𝑟𝑛)𝑛𝑡$4,520.00(1+0.01451)1×3$4,520.00(1.0145)3$4,719.48
+ 
+Or, Violet will have $4,719.48 after 3 years.
+
+YOUR TURN 6.55
+1.	
+Brian deposits $5,600 in a savings account that yields 1.23% interest compounded annually. If he leaves that deposit in the account and adds nothing new to the account, what will the account be worth in 5 years?
+
