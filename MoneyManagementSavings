@@ -174,3 +174,51 @@ PEOPLE IN MATHEMATICS
 The Federal Reserve Chairperson
 The Federal Reserve Board monitors the risks in the financial system to help ensure a healthy economy for individuals, companies, and communities. The Board oversees the 12 regional reserve banks. The Chairperson of the Federal Reserve Board testifies to Congress twice per year, meets with the secretary of the Treasury, chairs the Federal Open Market Committee, and is the face of federal monetary policy. Currently, the Fed Chair is Jerome Powell, who has served since 2018.
 
+EXAMPLE 6.60
+Saving for College
+When Yusef was born, Rita and George began to save for Yusef’s college years by investing $2,500 each year in a savings account bearing 3.4% interest compounded annually. How much will they have saved after 18 years?
+Solution
+To find the future value of the account, we use the ordinary annuity formula  𝐹𝑉=𝑝𝑚𝑡×(1+𝑟/𝑛)𝑛×𝑡−1𝑟/𝑛
+ . The payment is $2,500, rate is 0.034, the number of compounding periods is 1, and the number of years is 18. Substituting these values and computing, we have
+
+𝐹𝑉======𝑝𝑚𝑡×(1+𝑟/𝑛)𝑛×𝑡−1𝑟/𝑛$2,500×(1+0.034/1)1×18−10.034/1$2,500×(1.034)18−10.034$2,500×1.82544897331−10.034$2,500×24.2779109798$60,694.77
+ 
+After saving for 18 years, Rita and George will have $60,694.77 for Yusef’s college.
+
+YOUR TURN 6.60
+1.	
+Bemnet saves $280 per month in a savings account bearing 3.11% interest compounded monthly. After 20 years, how much does Bemnet have in the account?
+
+Compute Payment to Reach a Financial Goal
+The formula used to get the future value of an ordinary annuity is useful, finding out what the final amount in the account will be. However, that isn’t how planning works. To plan, we need to know how much to put into the ordinary annuity each compounding period in order to reach a goal. Fortunately, that formula exists.
+
+FORMULA
+The formula for the amount that needs to be deposited per period,  𝑝𝑚𝑡
+ , of an ordinary annuity to reach a specified goal,  𝐹𝑉
+ , is  𝑝𝑚𝑡=𝐹𝑉×(𝑟/𝑛)(1+𝑟/𝑛)𝑛×𝑡−1
+ , where  𝑟
+  is the annual interest rate (in decimal form),  𝑛
+  is the number of periods per year, and  𝑡
+  is the number of years.
+
+With this formula, it is possible to plan the amount to be saved.
+
+EXAMPLE 6.61
+Saving for a Car
+Yaroslava wants to save in order to buy a car, in 3 years, without taking out a loan. She determines that she’ll need $35,500 for the purchase. If she deposits money into an ordinary annuity that yields 4.25% interest compounded monthly, how much will she need to deposit each month?
+
+Solution
+Yaroslava has a goal and needs to know the payments to make to reach the goal. Her goal is  𝐹𝑉
+  = $35,500, with an interest rate  𝑟
+  = 0.0425, compounded per month so  𝑛
+  = 12, and for 3 years, making  𝑡
+  = 3. Substituting into the formula, Yaroslava finds the necessary payment.
+
+𝑝𝑚𝑡=====𝐹𝑉×(𝑟/𝑛)(1+𝑟/𝑛)𝑛×𝑡−135,500×(0.0425/12)(1+0.0425/12)12×3−135,500×(0.0035416⎯⎯)(1.0035416⎯⎯)36−1125.72916⎯⎯0.13572901696926.325
+ 
+To reach her goal, Yaroslava would need to deposit $926.33 in her account each month.
+NOTE: This has been rounded up, so that the deposits don’t fall short of the goal. However, some round off using the standard rounding rules: if the last digit is 1, 2, 3, or 4, the number is rounded down; if the last digit is 5, 6, 7, 8, or 9 the number is rounded up.
+
+YOUR TURN 6.61
+1.	
+Chione decides to put new siding on her house. She finds that it will cost about $27,800. She decides to begin saving for the purchase so that she doesn’t take on debt to side the house. How much would Chione need to deposit each quarter in an ordinary annuity that yields 5.16% compounded quarterly for 5 years?
