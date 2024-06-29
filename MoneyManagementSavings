@@ -97,3 +97,80 @@ This, once again, uses the compound interest formula from Compound Interest:  �
  
 The money market account will be worth $2,682.20 after 4 years.
 
+YOUR TURN 6.57
+1.	
+Chuck opens a money market account, and deposits $8,500.00 in the account. It bears 1.83% interest compounded quarterly. If he leaves makes no other transactions on the account, how much will be in the account after 3 years?
+
+Return on Investment
+If we want to compare the profitability of different investments, like savings accounts versus other investment tools, we need a measure that evens the playing field. Such a measure is return on investment.
+
+FORMULA
+The return on investment, often denoted ROI, is the percent difference between the initial investment,  𝑃
+ , and the final value of the investment,  𝐹𝑉
+ , or  ROI=𝐹𝑉−𝑃𝑃
+ , expressed as a percentage.
+NOTE: The length of time of the investment is not considered in ROI.
+
+EXAMPLE 6.58
+Calculating Return on Investment
+1. Determine the return on investment for the 5-year CD from Example 6.56. Round the percentage to two decimal places.
+2. Determine the return on investment for the money market account from Example 6.57. Round the percentage to two decimal places.
+Solution
+1. The initial deposit in the CD was $10,000, so  𝑃
+  = $10,000. The value at the end of 5 years was $11,239.53. so  𝐹𝑉
+  = $11,239.53. Substituting and computing we find the return on investment.
+ROI====𝐹𝑉−𝑃𝑃$11,239.53−$10,000$10,000$1,239.53$10,0000.123953
+The ROI is 12.40%.
+2. The initial deposit in the money market was $2,500, so  𝑃
+  = $2,500. The value at the end of 4 years was $2,682.20. so  𝐹𝑉
+  = $2,682.20. Substituting and computing we find the return on investment.
+ROI====𝐹𝑉−𝑃𝑃$2,682.20−$2,500$2,500$182.20$2,5000.07288
+The ROI is 7.29%.
+
+YOUR TURN 6.58
+1.	
+The amount of $13,000 is invested in a savings account. After 10 years the account has $15,250.00. Find the return on investment for this account.
+2.	
+The amount of $6,500 is deposited in a money market account. After 7 years, the account has $7,358.00. Find the return on investment for this account.
+
+VIDEO
+Return on Investment, ROI (url: https://www.youtube.com/watch?v=O-wq-C-52NY)
+
+Annuities as Savings
+In Compound Interest, we talked about the future value of a single deposit. In reality, people often open accounts that allow them to add deposits, or payments, to the account at regular intervals. This agrees with the 50-30-20 budget philosophy, where some income is saved every month. When a deposit is made at the end of each compounding period, such a savings account is called an ordinary annuity.
+
+The formula for the future value of an ordinary annuity is  𝐹𝑉=𝑝𝑚𝑡×(1+𝑟/𝑛)𝑛×𝑡−1𝑟/𝑛
+ , where  𝐹𝑉
+  is the future value of the annuity,  𝑝𝑚𝑡
+  is the payment,  𝑟
+  is the annual interest rate (in decimal form),  𝑛
+  is the number of compounding periods per year, and  𝑡
+  is the number of years.
+NOTE: The number of deposits per year and the number of periods per year are the same.
+
+EXAMPLE 6.59
+Future Value of an Ordinary Annuity
+Jill has an account that bears 3.75% interest compounded monthly. She decides to deposit $250.00 each month, at the end of the compounding period, into this account. What is the future value of this account, after 8 years?
+Solution
+These are regular payments into an account bearing compound interest. She is depositing them at the end of each compounding period. This makes this an ordinary annuity. Substituting the values  𝑝𝑚𝑡
+  = 250,  𝑟
+  = 0.0375,  𝑛
+  = 12, and  𝑡
+  = 8 into the formula, we find the future value of the account.
+
+𝐹𝑉=======𝑝𝑚𝑡×(1+𝑟/𝑛)𝑛×𝑡−1𝑟/𝑛250×(1+0.0375/12)12×8−10.0375/12250×(1.003125)96−10.003125250×1.34922752406−10.003125250×0.349227524060.003125250×111.75280769927,938.202
+ 
+The account, after 8 years, will contain $27,938.20.
+
+YOUR TURN 6.59
+1.	
+Kelly invests $525 every third month, at the end of the compounding period, into an account bearing 3.89% interest compounded quarterly. How much will be in the account after 15 years?
+
+WHO KNEW?
+Setting Savings Account Interest Rates
+There are a number of factors that contribute to the amount a bank gives for savings accounts. The interest rate reflects how much the bank values deposits. It also reflects the money that the bank will earn when they lend out money. Finally, interest rates are impacted by the Federal Reserve Bank. When the Fed raises interest rates, so do banks.
+
+PEOPLE IN MATHEMATICS
+The Federal Reserve Chairperson
+The Federal Reserve Board monitors the risks in the financial system to help ensure a healthy economy for individuals, companies, and communities. The Board oversees the 12 regional reserve banks. The Chairperson of the Federal Reserve Board testifies to Congress twice per year, meets with the secretary of the Treasury, chairs the Federal Open Market Committee, and is the face of federal monetary policy. Currently, the Fed Chair is Jerome Powell, who has served since 2018.
+
