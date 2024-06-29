@@ -54,3 +54,46 @@ YOUR TURN 6.55
 1.	
 Brian deposits $5,600 in a savings account that yields 1.23% interest compounded annually. If he leaves that deposit in the account and adds nothing new to the account, what will the account be worth in 5 years?
 
+WHO KNEW?
+Banks have not always offered interest on savings accounts. An 1836 publication from Indiana noted that banks in other states allow small interest on deposits. It specifically says that in these other states, these deposits are what business transactions are based upon. And that giving interest would encourage deposits, and thus increase the business that banks can do.
+
+Certificates of Deposit, or CDs
+We discussed certificates of deposit (CDs) in earlier sections. CDs differ from savings accounts in a few ways. First, the investment lasts for a fixed period of time, agreed to when the money is invested in the CD. These time periods often range from 6 months to 5 years. Money from the CD cannot be withdrawn (without penalty) until the investment period is up. Also, money cannot be added to an existing CD. Certificates of deposit have features similar to savings accounts. They are insured by the FDIC. They are entirely safe. They do, though, offer a better interest rate. The trade-off is that once the money is invested in a CD, that money is unavailable until the investment period ends.
+
+EXAMPLE 6.56
+5-Year CD
+Silvio deposits $10,000 in a CD that yields 2.17% compounded semiannually for 5 years. How much is the CD worth after 5 years?
+Solution
+This also uses the compound interest formula from Compound Interest,  𝐴=𝑃(1+𝑟𝑛)𝑛𝑡
+ , Substituting the values  𝑃
+  = $10,000,  𝑟
+  = 0.0217,  𝑛
+  = 2 (semiannually means twice per year), and  𝑡
+  = 5, we find the account will be worth
+
+𝐴====𝑃(1+𝑟𝑛)𝑛𝑡$10,000.00(1+0.02172)2×5$10,000.00(1.01085)10$11,239.53
+ 
+The CD will be worth $11,219.53 after 5 years.
+
+YOUR TURN 6.56
+1.	
+Denise deposits $3,500 in a CD bearing 2.23% interest compounded quarterly for 3 years. How much will Denise’s CD be worth after those 3 years?
+
+Money Market Account
+A money market account is similar to a savings account, except the number of transactions (withdrawals and transfers) is generally limited to six each month. Money market accounts typically have a minimum balance that must be maintained. If the balance in the account drops below the minimum, there is likely to be a penalty. Money market accounts offer the flexibility of checks and ATM cards. Finally, the interest rate on a money market account is typically higher than the interest rate on a savings account.
+
+EXAMPLE 6.57
+Single Deposit to a Money Market Account
+Marietta opens a money market account, and deposits $2,500.00 in the account. It bears 1.76% interest compounded monthly. If she makes no other transactions on the account, how much will be in the account after 4 years?
+Solution
+This, once again, uses the compound interest formula from Compound Interest:  𝐴=𝑃(1+𝑟𝑛)𝑛𝑡
+ , Substituting the values  𝑃
+  = $25,000,  𝑟
+  = 0.0176,  𝑛
+  = 12, and  𝑡
+  = 4, we find the account will be worth
+
+𝐴====𝑃(1+𝑟𝑛)𝑛𝑡$2,500.00(1+0.017612)12×4$2,500.00(1.00146⎯⎯)48$2,682.20
+ 
+The money market account will be worth $2,682.20 after 4 years.
+
