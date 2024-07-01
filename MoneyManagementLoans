@@ -1,1 +1,92 @@
+Text File for Money Management Methods of Loans section.
+https://openstax.org/books/contemporary-mathematics/pages/6-8-the-basics-of-loans
+
+LEARNING OBJECTIVES:
+After completing this section, you should be able to:
+
+Describe various reasons for loans.
+Describe the terminology associated with loans.
+Understand how credit scoring works.
+Read an amortization table.
+
+New car envy is real. Some people look at a new car and feel that they too should have a new car. The search begins. They find the model they want, in the color they want, with the features they want, and then they look at the price. That’s often the point where the new car fever breaks and the reality of borrowing money to purchase the car enters the picture. This borrowing takes the form of a loan.
+
+In this section, we look at the basics of loans, including terminology, credit scores, payments, and the cost of borrowing money.
+
+REASONS FOR LOANS.
+
+Even if you want a new car because you need one, or if you need a new computer since your current one no longer runs as fast or smoothly as you would like, or you need a new chimney because the one on your house is crumbling, it’s likely you do not have that cost in cash. Those are very large purchases. How do you buy that if you don ’t have the cash?
+You borrow the money.
+
+And for helping you with your purchase, the company or bank charges you interest.
+
+Loans are taken out to pay for goods or services when a person does not have the cash to pay for the goods or services. We are most familiar with loans for the big purchases in our lives, such as cars, homes, and a college education. Loans are also taken out to pay for repairs, smaller purchases, and home goods like furniture and computers.
+
+Loans can come from a bank, or from the company selling the goods or providing the service. The borrower agrees to pay back more than the amount borrowed. So there is a cost to borrowing that should be considered when deciding on a purchase bought with credit or a borrowed money.
+Even using a credit card is a form of a loan.
+
+Essentially, a loan can be obtained for just about any purchase, large or small, that has a cost beyond a person’s cash on hand.
+
+THE TERMINOLOGY OF LOANS.
+
+There are many words and acronyms that get used in relation to loans. A few are below.
+
+APR is the annual percentage rate. It is the annual interest paid on the money that was borrowed. The principal is the total amount of the loan, or that has been financed. A fixed interest rate loan has an interest rate that does not change during the life of the loan. A variable interest rate loan has an interest rate that may change during the life of the loan. The term of the loan is how long the borrower has to pay the loan back. An installment loan is a loan with a fixed period, and the borrower pays a fixed amount per period until the loan is paid off. The periods are almost uniformly monthly. Loan amortization is the process used to calculate how much of each payment will be applied to principal and how much is applied to interest. Revolving credit, also known as open-end credit, is how most credit cards work but is also a kind of loan account. (We will learn about credit cards in Credit Cards) You can use up to some specified value, called the limit, any way you want, and as long as you pay the issuer of the credit according to their terms, you can keep borrowing from this account.
+
+CREDIT SCORES.
+
+Not everyone pays the same interest for the same loan. One person might get an APR of 2.9% while another pays 6.9%. These rates are based on your credit score.
+
+Data about you and your credit is collected by three credit bureaus—Experian, Equifax, and TransUnion. They calculate your score using one of two main models: FICO and Vantage Score. The score they develop is based on the following categories:
+
+Payment History: Making your payments on time and not missing payments is by far the most important factor. All three credit types—revolving, installment, and open—contribute to this factor.
+Credit Utilization or Amount Owed: How much do you owe on your credit card accounts? This category is concerned with the ratio of how much you owe on revolving credit accounts relative to your available credit, also known as your credit utilization ratio.
+This is the only category that depends solely on your revolving credit accounts.
+Length of Credit History: This is the average age of your credit history, including the age of the oldest and newest accounts. All three types of credit accounts play a role in this category.
+Credit Mix: This number represents the different types of credit accounts you have, such as credit cards, car loan, mortgages, and whether you are successful managing both revolving and installment accounts.
+New Credit: Have you recently opened a new account or applied for new credit? Lenders want to know how much new credit you are taking on. So, if you are planning to buy a car and make another large purchase with a credit card, you may want to space these purchases out.
+If you have done well in these categories, your credit score will be high, and you will qualify for lower interest rates because you are not perceived as being a risky investment. However, if you do poorly in these categories, your score will be low and you will pay higher interest rates since you present a greater risk.
+
+COMMENTS:
+1) Include video: Credit Scores Explained
+
+Where Do Interest Rates Come From?
+
+There are many factors that impact your interest rate beyond your credit score. Banks have the authority to set their own rates, so competition between banks impacts interest rates. Bank A doesn’t want to charge interest rates that are too high, since borrowers will find banks with better rates. Banks also don’t want to charge too little interest.
+
+The too little interest is more involved than the too high. The bank needs to make a profit on its loans. Deposits at the bank are used by the bank to generate loans. The bank has to pay those depositors interest. The bank must charge more for loans they give than they pay to people with deposits in the bank.
+
+Banks also borrow money from each other. These loans have an interest rate, and once more, the bank making a loan must make a profit. More directly, they must charge more for loans they give than they pay for loans they take. In the United States, banks may also borrow from the Federal Reserve, which also charges an interest rate, which is also called the discount rate.
+
+This is where a bank’s prime rate comes from. A bank’s prime rate is the interest rate it will give to its very best customers, which means most customers will pay more than the bank’s prime rate. To confuse the issue, there is also the Wall Street Journal’s prime rate. It is the average of the prime rates charged by individual banks. The Wall Street Journal surveys several banks to generate this value.
+
+Banks also increase the interest rate charged to customers based on both the credit risk presented by the customer, and the risk associate with what the loan will be used for.
+
+CALCULATING LOAN PAYMENTS.
+
+Loan payments are made up of two components. One component is the interest that accrued during the payment period. The other component is part of the principal. This should remind you of partial payments from Simple Interest.
+
+Over the course of the loan, the amount of principal remaining to be paid decreases. The interest you pay in a month is based on the remaining principal, just as in the partial payments of Simple Interest.
+
+FORMULA
+
+The amount of interest,  I
+ , to be paid for one period of a loan with remaining principal  P
+  is  I=P×rn
+ , where  r
+  is the interest rate in decimal form and  n
+  is he number of payments in a year (most often  n
+  = 12). Since the interest is for the one period, the time is 1 and does not impact the calculation. Note, interest paid to lenders is always rounded up to the next penny.
+
+COMMENTS:
+1) Include example 6.77 and your turn 6.77
+
+Reading Amortization Tables.
+
+An amortization table or amortization schedule is a table that provides the details of the periodic payments for a loan where the payments are applied to both the principal and the interest. The principal of the loan is paid down over the life of the loan. Typically, the payments each period are equal. Importantly, one of the columns will show how much of each payment is used for interest, another column shows how much is applied to the outstanding principal, and another column shows the remaining principal or balance Figure 6.19.
+
+COMMENTS:
+1) Include figure 6.19
+2) Include example 6.79 and your turn 6.79
+3) Include video: Reading an Amortization Table.
 
