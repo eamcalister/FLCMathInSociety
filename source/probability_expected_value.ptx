@@ -85,7 +85,7 @@
 		Think of the expected value as a weighted average. We could take the average of $10, $3, and $0, but they are not all equally likely. It is much more likely to win $0 than to win $10. So, to find the average, we multiply each outcome by the chance it will happen and add the products together.
 	</p>
 
-	<assemblage>
+	<assemblage xml:id="computation_of_expected_value">
 		<title>Expected Value</title>
 		<p>
 		 	Multiply each outcome by its probability and add up the products
