@@ -36,15 +36,12 @@
 
 <xi:include href="financial_math_intro_spreadsheet.ptx" /><!--keep as is-->
 <xi:include href="financial_math_simple_compound.ptx" /><!--keep as is-->
-<!--xi:include href="financial_math_credit_cards.ptx" /--><!--to be created-->
-<!--xi:include href="financial_math_personal_budget.ptx" /--><!--to be created-->
-<xi:include href="financial_math_savings_plan.ptx" /><!--Edit: examples from Openstax-->
-<xi:include href="financial_math_loans.ptx" /><!--From openstax-->
-<!--xi:include href="financial_math_investment.ptx" /--><!--to be created-->
+<xi:include href="financial_math_credit_cards.ptx" /><!--to be edited (Erich)-->
+<xi:include href="financial_math_personal_budget.ptx" /><!--to be edited (Bernice)-->
+<xi:include href="financial_math_savings_plan.ptx" /><!--Edit: examples from Openstax (Bernice)-->
+<xi:include href="financial_math_loans.ptx" /><!--From openstax (Vera)-->
+<xi:include href="financial_math_investment.ptx" /><!--to be edited (Vera)-->
 <xi:include href="financial_math_income_taxes.ptx" /><!--keep as is, but get modern tax bracket-->
 <xi:include href="financial_math_review.ptx" /><!--edit after everything-->
-
-
-<!-- <xi:include href="chap_two_credit_cards.ptx" /> -->
 
 </chapter>
