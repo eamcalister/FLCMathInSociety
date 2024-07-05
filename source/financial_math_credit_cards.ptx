@@ -891,46 +891,45 @@ Find the average daily balance for this credit card.
 	<statement>
 		<p>
 			Angel's credit card charges <m>16.9\%</m> annual interest. His current billing period is from August 1 to August 31. The balance on August 1 was <m>$982.45</m>. Use Angel's following transactions to determine his balance due at the end of the billing cycle.
-<table>
-	<title>Angel's Transactions</title>
-	<tabular>
-		<row header="yes" bottom="medium">
-			<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
-		</row>
-		<row>
-			<cell>1-Aug</cell><cell>Billing Date Balance</cell><cell>$982.45</cell>
-		</row>
-		<row>
-			<cell>5-Aug</cell><cell>Food</cell><cell>$125.31</cell>
-		</row>
-		<row>
-			<cell>13-Aug</cell><cell>Payment</cell><cell>$500.00</cell>
-		</row>
-		<row>
-			<cell>14-Aug</cell><cell>Gasoline</cell><cell>$51.65</cell>
-		</row>
-		<row>
-			<cell>14-Aug</cell><cell>Pizza</cell><cell>$36.99</cell>
-		</row>
-		<row>
-			<cell>14-Aug</cell><cell>Shoes</cell><cell>$89.45</cell>
-		</row>
-		<row>
-			<cell>19-Aug</cell><cell>Electric bill</cell><cell>$178.3</cell>
-		</row>
-		<row>
-			<cell>21-Aug</cell><cell>Internet</cell><cell>$36.99</cell>
-		</row>
-		<row>
-			<cell>21-Aug</cell><cell>Food</cell><cell>$93.45</cell>
-		</row>
-		<row>
-			<cell>30-Aug</cell><cell>Gasoline</cell><cell>$43.18</cell>
-		</row>
-	</tabular>
-</table>
-
 		</p>
+		<table>
+			<title>Angel's Transactions</title>
+			<tabular>
+				<row header="yes" bottom="medium">
+					<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
+				</row>
+				<row>
+					<cell>1-Aug</cell><cell>Billing Date Balance</cell><cell>$982.45</cell>
+				</row>
+				<row>
+					<cell>5-Aug</cell><cell>Food</cell><cell>$125.31</cell>
+				</row>
+				<row>
+					<cell>13-Aug</cell><cell>Payment</cell><cell>$500.00</cell>
+				</row>
+				<row>
+					<cell>14-Aug</cell><cell>Gasoline</cell><cell>$51.65</cell>
+				</row>
+				<row>
+					<cell>14-Aug</cell><cell>Pizza</cell><cell>$36.99</cell>
+				</row>
+				<row>
+					<cell>14-Aug</cell><cell>Shoes</cell><cell>$89.45</cell>
+				</row>
+				<row>
+					<cell>19-Aug</cell><cell>Electric bill</cell><cell>$178.3</cell>
+				</row>
+				<row>
+					<cell>21-Aug</cell><cell>Internet</cell><cell>$36.99</cell>
+				</row>
+				<row>
+					<cell>21-Aug</cell><cell>Food</cell><cell>$93.45</cell>
+				</row>
+				<row>
+					<cell>30-Aug</cell><cell>Gasoline</cell><cell>$43.18</cell>
+				</row>
+			</tabular>
+		</table>
 	</statement>
 </exercise>
 
