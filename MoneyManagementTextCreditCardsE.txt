@@ -66,8 +66,6 @@ Above all else, if you pay off the entire balance each month, interest is not ch
 
 7. COMMENT: Include example 6.93, include your turn assignment for student as extra practice.
 
-%%%%%%%%%%%%%%%%%%%%%% Done to here as of 7/3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%5 
-
 CALCULATING THE INTEREST FOR A CREDIT CARD.
 
 The interest charged for a credit card is based on the daily interest rate of the card, the number of days in the billing cycle, and the average daily balance on the card. We will calculate the interest for a credit card using this formula.
@@ -86,6 +84,7 @@ The balance, or sometimes balance due, on a credit card is the previous balance,
 
 9. COMMENT: Include example 6.95, include your turn assignment for student as extra practice.
 10. COMMENT: Include example 6.96, include your turn assignment for student as extra practice.
+
 
 
 MINIMUM PAYMENT DUE.

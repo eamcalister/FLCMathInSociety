@@ -520,8 +520,528 @@ Find the average daily balance for this credit card.
 	</statement>
 </exercise>
 
+<p>
+	The interest charged for a credit card is based on the daily interest rate of the card, the number of days in the billing cycle, and the average daily balance on the card. We will calculate the interest for a credit card using this formula.
+</p>
 
+<assemblage xml:id="calculating_interest">
+	<title>Calculating Interest on a Credit Card</title>
+	<p>
+		The interest charge,  <m>I</m>, for a credit card during a billing cycle is
+		<me>
+			I = \frac{ADB\times r\times d}{365}
+		</me>
+ where <m>ADB</m> is the average daily balance, <m>r</m> is the annual percentage rate, and  
+       <m>d</m> is the number of days in the billing cycle. As before, interest is rounded up to the next penny.
+	</p>
+</assemblage>
 
+<example>
+	<statement>
+		<p>
+			Compute the interest charged for the credit card based on the given average daily balance (ABD), annual interest rate, and number of days in the billing cycle.
+			<ol>
+				<li>
+					<p>
+						<m>ADB = \$2,765.00</m>, annual interest rate <m>13.99\%</m>, billing cycle of <m>30</m> days
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>ADB = \$789.30</m>, annual interest rate <m>17.99\%</m>, billing cycle of <m>31</m> days
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>ADB = \$1,037.85</m>, annual interest rate <m>11.99\%</m>, billing cycle of <m>28</m> days
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<solution>
+		<p>
+			<ol>
+				<li>
+					<p>
+						Substituting <m>\$2,765.00</m> for <m>ADB</m>, <m>0.1399</m> for <m>r</m>, and <m>30</m> for <m>d</m> and calculating, we find the interest charge to be <me>I=\frac{ADB\times r\times d}{365}=\frac{\$2,765.00\times 0.1399 \times 30}{365}=\$31.80.</me>
+					</p>
+				</li>
+				<li>
+					<p>
+						Substituting <m>\$789.30</m> for <m>ADB</m>, <m>0.1799</m> for <m>r</m>, and <m>31</m> for <m>d</m>, and calculating, we find the interest charge to be  <me>I=\frac{ADB\times r\times d}{365}=\frac{\$789.30\times 0.1799 \times 31}{365}=\$12.06.</me>
+					</p>
+				</li>
+				<li>
+					<p>
+						Substituting <m>\$1,037.85</m> for <m>ADB</m>, <m>0.1199</m> for <m>r</m>, and <m>28</m> for <m>d</m> and calculating, we find the interest charge to be  <me>I=\frac{ADB\times r\times d}{365}=\frac{\$1,037.85\times 0.1199\times 28}{365}=\$9.55.</me>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</example>
+
+<exercise>
+	<statement>
+		<p>
+			Compute the interest charged for the credit card based on the given average daily balance (ABD), annual interest rate, and number of days in the billing cycle.
+			<ol>
+				<li>
+					<p>
+						<m>ADB = \$2,135.00</m>, annual interest rate <m>12.9\%</m>, billing cycle of <m>30</m> days
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>ADB = \$1,589.63</m>, annual interest rate <m>9.99\%</m>, billing cycle of <m>31</m> days
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>ADB = \$6,803.41</m>, annual interest rate <m>14.9\%</m>, billing cycle of <m>28</m> days
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+</exercise>
+
+<assemblage xml:id="credit-card-balance">
+	<title>Calculating the Balance on a Credit Card</title>
+	<p>
+		The balance, or sometimes balance due, on a credit card is the previous balance, plus all expenses, minus all payments and credits, plus the interest on the card. As stated before, if the card was paid off, there is no interest to be paid.
+	</p>
+</assemblage>
+
+<example>
+	<statement>
+		<p>
+			Find the balance on the credit card with the given interest charge and balance before interest was charged. The cards were not paid off previously.
+			<ol>
+				<li>
+					<p>
+						Balance before interest is <m>\$708.50</m>, interest charge is <m>\$8.15</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						Balance before interest is <m>\$1,395.10</m>, interest charge is <m>\$21.32</m>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<solution>
+		<p>
+			<ol>
+				<li>
+					<p>
+						Adding the balance before interest to the interest charge, we find the balance to be <m>\$716.65</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Adding the balance before interest to the interest charge, we find the balance to be <m>\$1,416.42</m>.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</example>
+
+<exercise>
+	<statement>
+		<p>
+			Find the balance on the credit card with the given interest charge and balance before interest was charged. The cards were not paid off previously.
+			<ol>
+				<li>
+					<p>
+						Balance before interest is <m>\$560.00</m>, interest charge is <m>\$6.44</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						Balance before interest is <m>\$3,218.00</m>, interest charge is <m>\$49.17</m>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+</exercise>
+
+<p>
+	The next example puts all those steps together.
+</p>
+
+<example><title>Find Balance Due from Transactions and Interest Rate</title>
+	<statement>
+		<p>
+			Kaylen's credit card charges <m>16.9\%</m> annual interest. His current billing period is from November 1 to November 30. The balance on November 1 was <m>\$1,845.23</m>. Use Kaylen's following transactions to determine his balance due at the end of the billing cycle.
+
+			<table>
+				<title>Kaylen's Transactions</title>
+				<tabular>
+					<row header="yes" bottom="medium">
+						<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
+					</row>
+					<row>
+						<cell>1-Nov</cell><cell>Billing Date Balance</cell><cell>$1,845.23</cell>
+					</row>
+					<row>
+						<cell>3-Nov</cell><cell>Groceries</cell><cell>$78.50</cell>
+					</row>
+					<row>
+						<cell>4-Nov</cell><cell>Tablet</cell><cell>$159.00</cell>
+					</row>
+					<row>
+						<cell>4-Nov</cell><cell>Online Game Purchase</cell><cell>$39.99</cell>
+					</row>
+					<row>
+						<cell>4-Nov</cell><cell>Restaurant</cell><cell>$47.10</cell>
+					</row>
+					<row>
+						<cell>10-Nov</cell><cell>Payment</cell><cell>$300.00</cell>
+					</row>
+					<row>
+						<cell>13-Nov</cell><cell>Gasoline</cell><cell>$58.75</cell>
+					</row>
+					<row>
+						<cell>13-Nov</cell><cell>Clothing</cell><cell>$135.00</cell>
+					</row>
+					<row>
+						<cell>18-Nov</cell><cell>Gift</cell><cell>$30.00</cell>
+					</row>
+					<row>
+						<cell>18-Nov</cell><cell>Restaurant</cell><cell>$21.75</cell>
+					</row>
+					<row>
+						<cell>28-Nov</cell><cell>Gasoline</cell><cell>$43.79</cell>
+					</row>
+				</tabular>
+			</table>
+		</p>
+	</statement>
+	<solution>
+		<p>
+			The first step is to find Kaylen's average daily balance. To find the average daily balance, we use the following steps.
+			<ol>
+				<li>
+					<p>
+						Start with a list of transactions with their dates and amounts. This list is provided.
+					</p>
+				</li>
+				<li>
+					<p>
+						For each day that had transactions, find the total of the transactions for the day. The days with more than one transaction were Nov. 4, Nov. 13, and Nov. 18. Treating the payment on November 10 as a negative value, the daily transaction amounts are
+<table>
+	<title></title>
+	<tabular>
+		<row header = "yes" bottom="medium">
+			<cell>Date</cell><cell>Amount</cell>
+		</row>
+		<row>
+			<cell>1-Nov</cell><cell>$1,845.23</cell>
+		</row>
+		<row>
+			<cell>3-Nov</cell><cell>$78.50</cell>
+		</row>
+		<row>
+			<cell>4-Nov</cell><cell>$246.09</cell>
+		</row>
+		<row>
+			<cell>10-Nov</cell><cell>-$300.00</cell>
+		</row>
+		<row>
+			<cell>13-Nov</cell><cell>$193.75></cell>
+		</row>
+		<row>
+			<cell>18-Nov</cell><cell>$51.75</cell>
+		</row>
+		<row>
+			<cell>28-Nov</cell><cell>$43.79</cell>
+		</row>
+	</tabular>
+</table>
+					</p>
+				</li>
+				<li>
+					<p>
+						Create a table containing each day with a different balance. The new table with dates that had different balances is below.
+<table>
+	<title></title>
+	<tabular>
+		<row header="yes" bottom="medium">
+			<cell>Date</cell><cell>Balance</cell>
+		</row>
+		<row>
+			<cell>1-Nov</cell><cell>$1,845.23</cell>
+		</row>
+		<row>
+			<cell>3-Nov</cell><cell>$1,923.73</cell>
+		</row>
+		<row>
+			<cell>4-Nov</cell><cell>$2,169.82</cell>
+		</row>
+		<row>
+			<cell>10-Nov</cell><cell>$1,869.82</cell>
+		</row>
+		<row>
+			<cell>13-Nov</cell><cell>$2,063.57</cell>
+		</row>
+		<row>
+			<cell>18-Nov</cell><cell>$2,115.32</cell>
+		</row>
+		<row>
+			<cell>28-Nov</cell><cell>$2,159.11</cell>
+		</row>
+	</tabular>
+</table>
+					</p>
+				</li>
+				<li>
+					<p>
+						Now, add a column for the number of days those balances until the balance changed. The days until the balance changes is found by finding the difference in the dates. For instance, from May 15 to May 26 was 11. Adding that column to the table we have
+<table>
+	<title></title>
+	<tabular>
+		<row header="yes" bottom="medium">
+			<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell>
+		</row>
+		<row>
+			<cell>1-Nov</cell><cell>$1,845.23</cell><cell>2</cell>
+		</row>
+		<row>
+			<cell>3-Nov</cell><cell>$1,923.73</cell><cell>1</cell>
+		</row>
+		<row>
+			<cell>4-Nov</cell><cell>$2,169.82</cell><cell>6</cell>
+		</row>
+		<row>
+			<cell>10-Nov</cell><cell>$1,869.82</cell><cell>3</cell>
+		</row>
+		<row>
+			<cell>13-Nov</cell><cell>$2,063.57</cell><cell>5</cell>
+		</row>
+		<row>
+			<cell>18-Nov</cell><cell>$2,115.32</cell><cell>10</cell>
+		</row>
+		<row>
+			<cell>28-Nov</cell><cell>$2,159.11</cell><cell>3</cell>
+		</row>
+	</tabular>
+</table>						
+						
+						The last entry was 3 since there are 30 days in November (the 28th, 29th, and 30th).
+					</p>
+				</li>
+				<li>
+					<p>
+						Add a column that contains the balances multiplied by the number of days until the balance changed. We create the column and multiply the values.
+<table>
+	<title></title>
+	<tabular>
+		<row header="yes" bottom="medium">
+			<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell><cell>Balance Times Days</cell>
+		</row>
+		<row>
+			<cell>1-Nov</cell><cell>$1,845.23</cell><cell>2</cell><cell>$3,690.46</cell>
+		</row>
+		<row>
+			<cell>3-Nov</cell><cell>$1,923.73</cell><cell>1</cell><cell>$1,923.73</cell>
+		</row>
+		<row>
+			<cell>4-Nov</cell><cell>$2,169.82</cell><cell>6</cell><cell>$13,018.92</cell>
+		</row>
+		<row>
+			<cell>10-Nov</cell><cell>$1,869.82</cell><cell>3</cell><cell>$5,609.46</cell>
+		</row>
+		<row>
+			<cell>13-Nov</cell><cell>$2,063.57</cell><cell>5</cell><cell>$10,317.85</cell>
+		</row>
+		<row>
+			<cell>18-Nov</cell><cell>$2,115.32</cell><cell>10</cell><cell>$21,153.20</cell>
+		</row>
+		<row>
+			<cell>28-Nov</cell><cell>$2,159.11</cell><cell>3</cell><cell>$6,477.33</cell>
+		</row>
+	</tabular>
+</table>
+
+					</p>
+				</li>
+				<li>
+					<p>
+						Find the sum of that last column. Adding that last column we have a sum of <m>\$62,190.95</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						There are <m>30</m> days in November, so divide the sum by <m>30</m>, which gives an average of <m>\$2,073.03</m>, which is the average daily balance.
+					</p>
+				</li>
+			</ol>
+			With the average daily balance, we can determine the interest that is charged for November. Substituting <m>ADB = \$2,073.03</m>, <m>r = 0.169</m>, and  <m>d = 30</m> into the formula  <m>I=\frac{ADB\times r\times d}{365}</m> and calculating, we find the interest to be  <me> I=\frac{ADB\times r\times d}{365}=\frac{\$2,073.03\times 0.169\times 30}{365}=\$28.80.</me>
+			This interest is added to the final balance from the table in step 3, <m>\$2,159.11</m>, which yields a balance due of <m>\$2,101.83</m>.
+		</p>
+	</solution>
+</example>
+
+<exercise>
+	<statement>
+		<p>
+			Angel's credit card charges <m>16.9\%</m> annual interest. His current billing period is from August 1 to August 31. The balance on August 1 was <m>$982.45</m>. Use Angel's following transactions to determine his balance due at the end of the billing cycle.
+<table>
+	<title>Angel's Transactions</title>
+	<tabular>
+		<row header="yes" bottom="medium">
+			<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
+		</row>
+		<row>
+			<cell>1-Aug</cell><cell>Billing Date Balance</cell><cell>$982.45</cell>
+		</row>
+		<row>
+			<cell>5-Aug</cell><cell>Food</cell><cell>$125.31</cell>
+		</row>
+		<row>
+			<cell>13-Aug</cell><cell>Payment</cell><cell>$500.00</cell>
+		</row>
+		<row>
+			<cell>14-Aug</cell><cell>Gasoline</cell><cell>$51.65</cell>
+		</row>
+		<row>
+			<cell>14-Aug</cell><cell>Pizza</cell><cell>$36.99</cell>
+		</row>
+		<row>
+			<cell>14-Aug</cell><cell>Shoes</cell><cell>$89.45</cell>
+		</row>
+		<row>
+			<cell>19-Aug</cell><cell>Electric bill</cell><cell>$178.3</cell>
+		</row>
+		<row>
+			<cell>21-Aug</cell><cell>Internet</cell><cell>$36.99</cell>
+		</row>
+		<row>
+			<cell>21-Aug</cell><cell>Food</cell><cell>$93.45</cell>
+		</row>
+		<row>
+			<cell>30-Aug</cell><cell>Gasoline</cell><cell>$43.18</cell>
+		</row>
+	</tabular>
+</table>
+
+		</p>
+	</statement>
+</exercise>
+
+<assemblage xml:id="cc-minimum-payment-due">
+	<title>The Minimum Payment Due</title>
+	<p>
+		The minimum payment due is the smallest required amount to be paid on a credit card to avoid late fees and penalties, such as an increased interest rate. The calculations for this may differ from card to card. They also depend in the balance of the credit card. General guidelines for minimum payment due are:
+		<ol>
+			<li>
+				<p>
+					For larger balances (usually over <m>\$1,000</m>), the minimum payment will be some percentage of the balance due.
+				</p>
+			</li>
+			<li>
+				<p>
+					For moderate balances (between <m>\$25</m> and <m>\$1,000</m>), the minimum would be a specified dollar amount. <m>\$25</m> seems to be a common value.
+				</p>
+			</li>
+			<li>
+				<p>
+					If the balance is small (under <m>\$25</m> for instance), then the minimum payment is the balance.
+				</p>
+			</li>
+			<li>
+				<p>
+					Those are just guidelines. Individual cards may vary in these values.
+				</p>
+			</li>
+		</ol>
+	</p>
+	<p>
+		Minimum payments should only be paid if money is short in a given month. The length of time to pay off a credit card using minimum payments is quite long, and results in paying a lot of interest. It is strongly discouraged.
+	</p>
+</assemblage>
+
+<example><title>Calculate the Minimum Payment Due</title>
+	<statement>
+		<p>
+			The FYA credit card company has the following minimum payment policy. For balances over <m>\$1,000</m>, the minimum payment is <m>2.5\%</m> of the balance due plus fees, but not interest. For balances between <m>\$500.00</m> and <m>\$999.99</m>, the minimum payment is <m>\$50.00</m>. For balances <m>\$499.99</m> and under, the minimum payment is <m>\$25.00</m> or the balance due, whichever is smaller.	
+		</p>
+		<p>
+			In the following, calculate the minimum payment due given the credit card minimum payment policy, the balance due and fees charged.
+			<ol>
+				<li>
+					<p>
+						Balance due is <m>\$1,309.00</m>, no fees
+					</p>
+				</li>
+				<li>
+					<p>
+						Balance due is <m>\$265.50</m>, <m>\$35</m> in fees
+					</p>
+				</li>
+				<li>
+					<p>
+						Balance due is <m>\$784.90</m>, no fees
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+	<solution>
+		<p>
+			<ol>
+				<li>
+					<p>
+						The balance is over <m>\$1,000</m>, so the minimum payment is <m>2.5\%</m> of the balance due plus fees. Observe that <m>2.5\%</m> of the balance due is <m>0.025\times\$1,309.00=\$32.73</m>. Since there are no fees, the minimum payment due is <m>\$32.73</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The balance is under <m>\$499.99</m>, so the minimum payment due is <m>\$25.00</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						The balance is between <m>\$500.00</m> and <m>\$999.00</m>, so the minimum payment due is <m>\$50.00</m>.
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
+</example>
+
+<exercise>
+	<statement>
+		<p>
+			The CLH credit card company has the following minimum payment policy. For balances over <m>\$1,000</m>, the minimum payment is <m>1\%</m> of the balance due plus interest and fees. For balances between <m>\$25.00</m> and <m>\$999.99</m>, the minimum payment is <m>\$25.00</m> plus any fees. For balances under <m>\$25.00</m>, the minimum payment is the balance due plus any fees.
+		</p>
+		<p>
+			In the following, calculate the minimum payment due given the credit card minimum payment policy, the balance due and fees charged.
+			<ol>
+				<li>
+					<p>
+						Balance due is <m>\$2,308.00</m>, billing cycle interest is <m>\$24.39</m>, no fees
+					</p>
+				</li>
+				<li>
+					<p>
+						Balance due is <m>\$265.50</m>, <m>\$59.00</m> in fees
+					</p>
+				</li>
+				<li>
+					<p>
+						Balance due is <m>\$19.90</m>, no fees
+					</p>
+				</li>
+			</ol>
+		</p>
+	</statement>
+</exercise>
 
 </subsection>
 
