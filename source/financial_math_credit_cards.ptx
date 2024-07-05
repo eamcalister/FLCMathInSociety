@@ -3,7 +3,7 @@
 <title>Credit Cards</title>
 
 <objectives>
-	<title><xref ref="financial_math_credit_cards"></xref>Credit Cards</title>
+	<title><xref ref="financial_math_credit_cards"></xref> Credit Cards</title>
 
 		<ul>
 			<li>
@@ -59,12 +59,12 @@ There are many institutions and credit cards to choose from. Use caution as you 
 	<ol>
 		<li>
 			<p>
-				Perhaps the most widely used credit card type is the bank-issued credit card, like Visa or MasterCard (and even American Express and Discover cards). These types of cards are an example of revolving credit, meaning that additional credit is extended before the previous balance is paid—but only up to the assigned credit limit. Bank-issued cards are considered the most convenient, as they can be used to purchase anything, including apparel, furniture, groceries, fuel for automobiles, meals, hotel bills, and so on, just as if paying with cash. The interest rates on bank-issued credit cards are usually lower than those for other credit cards we'll discuss, and the credit limits are generally higher. Currently, bank-issued cards have an average 20.09% APR.
+				Perhaps the most widely used credit card type is the <term>bank-issued credit card</term>, like Visa or MasterCard (and even American Express and Discover cards). These types of cards are an example of revolving credit, meaning that additional credit is extended before the previous balance is paid—but only up to the assigned credit limit. Bank-issued cards are considered the most convenient, as they can be used to purchase anything, including apparel, furniture, groceries, fuel for automobiles, meals, hotel bills, and so on, just as if paying with cash. The interest rates on bank-issued credit cards are usually lower than those for other credit cards we'll discuss, and the credit limits are generally higher. Currently, bank-issued cards have an average 20.09% APR.
 			</p>
 		</li>
 		<li>
 			<p>
-				Store-issued credit cards are issued by retailers. One can hardly walk into a store these days without being offered a discount on purchases if one applies for the store credit card. These cards can only be used in that store or family of stores that issues the card. However, if a store credit card is associated with Visa, MasterCard, or American Express, then the card might be used the same way that the bank-issued cards are used. This is called cobranding. The logo of the bank-issued card will be present on the store card. Many stores offer both types. Like other credit cards, they may come with an annual fee.
+				<term>Store-issued credit cards</term> are issued by retailers. One can hardly walk into a store these days without being offered a discount on purchases if one applies for the store credit card. These cards can only be used in that store or family of stores that issues the card. However, if a store credit card is associated with Visa, MasterCard, or American Express, then the card might be used the same way that the bank-issued cards are used. This is called cobranding. The logo of the bank-issued card will be present on the store card. Many stores offer both types. Like other credit cards, they may come with an annual fee.
 			</p>
 			<p>
 				Store credit cards usually charge higher interest rates than bank-issued cards. Currently, store credit cards have an APR (annual percentage rate) of 24.15%. Any rewards offered by store credit cards are usually limited to purchases made in their own store, and it typically takes longer to accumulate enough rewards or points to redeem them, whereas cobranded credit cards offer opportunities to earn rewards on all purchases, regardless of whether purchases are made in the issuing store or not.
@@ -75,7 +75,7 @@ There are many institutions and credit cards to choose from. Use caution as you 
 		</li>
 		<li>
 			<p>
-				This is the third type of credit card. The travel and entertainment cards, also known as charge cards, first and foremost offer very high limits or unlimited credit, but they must be paid in full every month. They generally charge high annual fees and impose expensive penalties should a payment be late. On the other hand, they typically have longer grace periods and offer many and various kinds of rewards.
+				<term>Travel and entertainment cards</term>, also known as <term>charge cards</term>, first and foremost offer very high limits or unlimited credit, but they must be paid in full every month. They generally charge high annual fees and impose expensive penalties should a payment be late. On the other hand, they typically have longer grace periods and offer many and various kinds of rewards.
 			</p>
 		</li>
 	</ol>
@@ -165,7 +165,7 @@ There are many institutions and credit cards to choose from. Use caution as you 
 <subsection xml:id="credit_card_statements">
 <title>Credit Card Statements</title>
 <p>
-	Cardholders usually receive monthly statements and have 21 days to pay the minimum amount due. The statements itemize and summarize activity on the credit card for that statement’s billing period. The billing period for a credit card is generally a month long, but typically does not start and end on the first and last days of the month. The statement will include the current balance, interest rate, the minimum payment due, and the due date. Be aware, different companies produce statements that are laid out differently. The information will be clearly labeled though.
+	Cardholders usually receive monthly statements and have 21 days to pay the minimum amount due. The statements itemize and summarize activity on the credit card for that statement's billing period. The billing period for a credit card is generally a month long, but typically does not start and end on the first and last days of the month. The statement will include the current balance, interest rate, the minimum payment due, and the due date. Be aware, different companies produce statements that are laid out differently. The information will be clearly labeled though.
 </p>
 
 <p>
@@ -180,7 +180,7 @@ There are many institutions and credit cards to choose from. Use caution as you 
 </figure>
 
 <p>
-Specifically pay attention to the late payment penalty and minimum payment warning statements. stating that if no other purchases are made and you continue making only the minimum payment, it will take 19 months to pay off the balance and you will pay $754.00. You can't say you were not warned.
+Specifically pay attention to the late payment penalty and minimum payment warning statements. stating that if no other purchases are made and you continue making only the minimum payment, it will take 19 months to pay off the balance and you will pay <m>\$754.00</m>. You can't say you were not warned.
 </p>
 <p>
 It is critical that you examine your statement every month because it is always a possibility that your account may have been compromised. If you should notice fraudulent charges on your statement, notifying the credit card company is often enough to have those charges researched by the company and removed. The card with the fraudulent charges will be canceled and a new card with a new account number will be sent to you.
@@ -226,12 +226,12 @@ It is critical that you examine your statement every month because it is always 
 			<ol>
 				<li>
 					<p>
-						The balance due is under the payment information heading and is $3,663.23.
+						The balance due is under the payment information heading and is <m>\$3,663.23</m>.
 					</p>
 				</li>
 				<li>
 					<p>
-						The minimum payment due is also under the payment information heading, and is $36.63.
+						The minimum payment due is also under the payment information heading, and is <m>\$36.63</m>.
 					</p>
 				</li>
 				<li>
@@ -241,7 +241,7 @@ It is critical that you examine your statement every month because it is always 
 				</li>
 				<li>
 					<p>
-						The interest rate for purchases is toward the bottom of the statement. It is 19.99%.
+						The interest rate for purchases is toward the bottom of the statement. It is <m>19.99\%</m>.
 					</p>
 				</li>
 			</ol>
@@ -283,7 +283,7 @@ Computing all of these values depends on understanding and computing the average
 			</li>
 			<li>
 				<p>
-					Create a table containing each day with a different balance. The balance is the previous balance plus the day’s total transactions.
+					Create a table containing each day with a different balance. The balance is the previous balance plus the day's total transactions.
 				</p>
 			</li>
 			<li>
@@ -314,7 +314,7 @@ Computing all of these values depends on understanding and computing the average
 
 	<statement>
 		<p>
-			The billing cycle goes from May 1 to May 31. The balance at the start of the billing cycle is $450.21. The list of transactions on the card is below.
+			The billing cycle goes from May 1 to May 31. The balance at the start of the billing cycle is <m>\$450.21</m>. The list of transactions on the card is below.
 			<table>
 				<title></title>
 				<tabular>
@@ -355,7 +355,7 @@ Computing all of these values depends on understanding and computing the average
 				</li>
 				<li>
 					<p>
-						For each day that had transactions, find the total of the transactions for the day. The only day with more than one transaction was May 26. The sum of those transactions is $130.46. Treating the payment as a negative value, the daily transaction amounts are
+						For each day that had transactions, find the total of the transactions for the day. The only day with more than one transaction was May 26. The sum of those transactions is <m>\$130.46</m>. Treating the payment as a negative value, the daily transaction amounts are
 						<table>
 							<title></title>
 							<tabular>
@@ -468,12 +468,12 @@ Computing all of these values depends on understanding and computing the average
 	</li>
 	<li>
 		<p>
-			Find the sum of that last column. Adding that last column we have a sum of $13,714.04.
+			Find the sum of that last column. Adding that last column we have a sum of <m>\$13,714.04</m>.
 		</p>
 	</li>
 	<li>
 		<p>
-			There are 31 days in May, so divide the sum by 31, which gives an average of $442.39, which is the average daily balance.
+			There are 31 days in May, so divide the sum by 31, which gives an average of <m>\$442.39</m>, which is the average daily balance.
 		</p>
 	</li>
 	</ol>
@@ -484,7 +484,7 @@ Computing all of these values depends on understanding and computing the average
 <exercise>
 	<statement>
 		<p>
-			The billing cycle goes from June 1 to June 30. The previous month’s balance is $563.80. The transactions are in the table below.
+			The billing cycle goes from June 1 to June 30. The previous month's balance is <m>\$563.80</m>. The transactions are in the table below.
 <table>
 	<title></title>
 	<tabular>
