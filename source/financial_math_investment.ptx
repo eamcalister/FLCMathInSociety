@@ -3,31 +3,437 @@
 <title>Investments</title>
 
 <objectives>
-	<title><xref ref="financial_math_investment"></xref>: Empty for now</title>
+	<title><xref ref="financial_math_investment"></xref> Investments.</title>
 	<introduction>
 		<p>
-			More to come
+			Students will be able to:
 		</p>
+		</introduction>
+			<ul>
+				<li>
+					<p>
+						Distinguish between basic forms of investments including stocks, bonds, and mutual funds.
+					</p>
+				</li>
+				<li>
+					<p>
+						Understand what bonds are and how bond investments work.
+					</p>
+				</li>
+				<li>
+					<p>
+						Understand how stocks are purchased and gain or lose value.
+					</p>
+				</li>
+				<li>
+					<p>
+						Define a mutual fund and how to invest.
+					</p>
+				</li>
+				<li>
+					<p>
+						Compute payment to reach a financial goal.
+					</p>
+				</li>
+				<li>
+					<p>
+						Identify and distinguish between retirement savings accounts.
+					</p>
+				</li>
+			</ul>
+</objectives>
+
+<introduction>
+<p>
+	You can save your money in a safe or a vault (or worse, under the mattress!), but that money does not grow. It would be hard to save enough for retirement that way. What can be done to increase the value of the money you already have?
+</p>
+<p>
+	The answer is to invest it. Use the money that you have to earn more money back. For instance, as we saw in <xref ref="financial_math_savings_plan"> Savings Plans </xref>, you can save it in a bank. Or, to reach loftier goals, invest in something more likely to grow, such as stocks.
+</p>
+<p>
+	A great example of this is Apple stock. Anyone who bought stock in Apple Inc. (formerly Apple Computer, Inc.) in 1997 and held onto the shares earned a lot of money. <url href="https://www.fool.com/investing/2019/11/24/if-you-invested-100-in-apples-ipo-this-is-how-much.aspx" visual="">To be more specific, $100 worth of Apple shares bought in 1980, when it was first sold to the public, was valued at $67,564 in 2019, or 676 times more!</url> Perhaps you have heard a story like that, of an investment opportunity taken that paid off, or the story of an investment opportunity missed. But such stories are the exceptions.
+</p>
+<p>
+	In this section, we’ll investigate bonds, stocks, and mutual funds and their comparative strengths and weaknesses. We close the section with a discussion of retirement savings accounts.
+</p>
+</introduction>
+
+<subsection>
+	<title>Distinguish Between Basic Forms of Investments</title>
+	<introduction>
+		<p>
+			Bonds, stocks, and mutual funds tend to offer higher returns, but to varying degrees, come with higher risks. Stocks and mutual funds also vary in how much they earn. Their predicted rates of return on investment are not guaranteed, but educated guesses based on market trends and historical performance.
+		</p>
+		<p>
+			We will use the methods and formulas we learned earlier to evaluate these forms of investment.
+		</p>	
 	</introduction>
+	<subsubsection>
+		<title>Bonds</title>
+		<p>
+			<term>Bonds</term> are issued from big companies and from governments. Selling bonds is an alternative to an institution taking a loan from a bank. The funds from the selling of bonds are often used for large projects, like funding the building of a new highway or hospital.	
+		</p>
+		<p>
+			Bonds are considered a conservative investment. They are bought for what is known as the <term>issue price</term>. The interest is fixed (does not change) at the time of purchase and is based on the issue price of the bond. The interest rate is often referred to as the coupon rate; the interest paid is often called the coupon yield. The interest paid is often higher than savings accounts and the risk is exceptionally low. The bond is for a fixed length of time. The end of this time is the maturity date of the bond.
+		</p>
+		<p>
+			There are several types of bonds:
 		<ul>
 			<li>
 				<p>
-					More to come
+					<term>Treasury bonds</term> are issued by the federal government.
+				</p>
+			</li>
+			<li>
+				<p>
+					<term>Municipal bonds</term> are issued by state and local governments.
+				</p>
+			</li>
+			<li>
+				<p>
+					<term>Corporate bonds</term> are issued by major corporations.	
 				</p>
 			</li>
 		</ul>
-</objectives>
+		</p>
+		<p>
+			There are other types of bonds available, but they are beyond the scope of this section.
+		</p>
 
-<subsection xml:id="subsec-">
-	<title>A Subsection</title>
+	<note>
+	<title>Trading Bonds</title>
+	<p>
+		Bonds are often part of larger investment portfolios. These bonds may be traded. However, the interest paid is based on the price when the bond was bought (the issue price). These bonds can be bought and sold for more or less money than the issue price. If the bond is bought for more than the issue price, the interest is still paid on the issue price, not on the purchase price when the trade was made. This means the actual return on the bond decreases. If the bond is bought for less than the issue price, the return on the bond goes up.
+	</p>
+	</note>
+	
+	<figure>
+		<caption>Video on bonds</caption>
+		<video youtube="IuyejHOGCro"/>
+	</figure>
+	
+
+	<example><title>Bond Investment</title>
+		<statement>
+			<p>
+				Muriel purchases a $3,000 bond with a maturity of 4 years at a fixed coupon rate of 5.5% paid annually. How much is Muriel paid each year, and how much does she receive on the maturity date?
+			</p>
+		</statement>
+		<solution>
+			<p>The coupon rate is 5.5%. 5.5% of her bond value is 0.055<m>\times</m>$3,000=$165. After year 1, Muriel receives $165. She receives $165 after years 2 and 3 also. In year 4, when the bond matures, Muriel receives $3,165, or the interest and the initial investment, or principal.	
+			</p>
+		</solution>
+	</example>	
+
+	<exercise>
+		<statement>
+			<p>
+				Maureen invests $5,000 in a bond with a maturity date in 5 years at a fixed coupon rate of 4.75%. How much is Maureen paid each year and how much does she receive on the maturity date?
+			</p>
+		</statement>
+		<solution>
+			<p> $237.50 per year, $5,237.50 on maturity date. 	
+			</p>
+		</solution>
+	</exercise>
+	
+</subsubsection>
 	
 </subsection>
 
+<subsection>
+	<title>Stocks</title>
+	<introduction>
+		<p>
+			<term>Stocks</term> are part ownership in a company. They come in units called <term>shares</term>. The performance and earnings of stocks is not guaranteed, which makes them riskier than any other investment discussed earlier. However, they can offer higher return on investment than the other investments. Their value grows in two ways. They offer <term>dividends</term>, which is a portion of the profit made by the company. And the price per share can increase based on how others see that value of the company changing. If the value of the company drops, or the company folds, the money invested in the stock also drops.
+		</p>
+		<p>
+			Most stock transactions are executed through a broker. Brokers' commissions can be a percentage of value of the trades made or a flat fee. There are full-service brokers who charge higher commission rates, but they also offer financial advice and perform the research that you may not have the time or the expertise to do on your own. A discount broker only executes the stock transactions, buying or selling, so they charge lower rates than full-service brokers. There are also brokers that offer commission-free trading.
+		</p>
+		<p>
+			An important thing to remember is that stocks might provide a very large return on investment, but the trade-off is the risk associated with owning stocks.
+		</p>
+	</introduction>
 
+	<subsubsection>
+		<title></title>
+		
+	<example><title>Buying Stock in Company ABC</title>
+		<statement>
+			<p>
+				Haniah buys stock in the ABC company, investing a total of $13,000. She expects the stock to grow, through stock price increase and reinvestment of dividends, by 12.3% per year and compounded annually. If she leaves that money invested, how much will the stocks be worth in 20 years?
+			</p>
+		</statement>
+		<solution>
+			<p>
+				Calculating this is a compound interest calculation, if Haniah’s assumption about the stock’s performance is correct. If so, then the principal is $13,000, the rate is 0.123, the number of compounding periods per year is 1, and the time is 20 years. Substituting into the <xref ref="compound_interest_formula">compound interest formula</xref> and computing, we have <md>
+					<mrow> A \amp = P\left( 1 + \frac{r}{n} \right)^{nt} = \$13000\left( 1 + \frac{0.123}{1} \right)^{1\times 20} = \$13000 \times 10.1764223996 </mrow> 
+					<mrow> \amp = \$132293.49. </mrow></md>
+			</p>
+			<p>
+				After 20 years, her stock is now worth $132,293.49.
+			</p>
+		</solution>
+	</example>
+
+	<exercise>
+		<statement>
+			<p>
+				Rixie deposits $23,000 in the stock of DEF company. She assumes the stock value to grow though stock price increase and reinvestment of dividends by 13.8% compounded annually. How much will her stock be worth in 12 years?
+			</p>
+		</statement>
+		<solution>
+			<p>
+				$108,501.30 
+			</p>
+		</solution>
+	</exercise>
+
+	<note>
+		<title>Risk and Volkswagen</title>
+		<p>
+			The question of risk hovers over every investment. How risky can it get? Volkswagen seems to be a rather safe investment. But in 2015, Volkswagen's stock tumbled 30% over a few days when it was revealed that the company had installed software that altered the emission performance of some of their diesel engines. Volkswagen's hope was that lower emissions would bolster US sales of some of their diesel models. This was a drastic drop, and many investors lost a lot of money. However, the stock has come back since then. This was mild compared to the 65% drop in the Martha Stewart Living Omnimedia stocks.
+		</p>
+	</note>
+	</subsubsection>	
+
+	<subsubsection>
+	<title>Mutual Funds</title>
+		<p>
+			A <term>mutual fund</term> is a collection of investments that are all bundled together. When you buy shares of a mutual fund, your money is pooled with the assets of other investors. This pooled money is invested in stocks, bonds, money market instruments, and other assets. Mutual funds are typically operated by professional money managers who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors.
+		</p>
+		<p>
+			A key benefit of mutual funds is that they allow small or individual investors to invest in professionally managed portfolios of equities, bonds, and other securities. This means each shareholder participates proportionally in the gains or losses of the fund. The performance of a mutual fund is usually stated as how much the mutual fund's total value has increased or decreased. Since there are many different investments inside the mutual fund, the risk is reduced significantly, compared to direct ownership of stocks. Even so, mutual funds historically perform well and can earn more than 10% annually.
+		</p>
+		<p>
+			The investments that make up a mutual fund are structured and maintained to match stated investment objectives, which are specified in its <term>prospectus</term>. A prospectus is a pamphlet or brochure that provides information about the mutual fund. Before buying shares of a mutual fund, consult its prospectus, consider its goals and strategies to see if they match your goals and values and also research any associated fees.
+		</p>
+		<figure>
+			<caption>Video on mutual funds</caption>
+			<video youtube="ngfKXvfzC74"/>
+		</figure>
+
+		<example><title>Investing in a Mutual Fund</title>
+			<statement>
+				<p>
+					Kaitlyn has analyzed her $12,862.50 quarterly budget using the 50-30-20 budget philosophy, and sees she should be saving or paying down debt with $2,572.50 per quarter. She decides to invest $1,300 quarterly a mutual fund that reports an average return of 11.62% over the 18-year life of the mutual fund. Assuming that this interest rate continues, and is compounded quarterly, how much will her mutual fund account be worth after 5 years?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Kaitlyn's plan is an ordinary annuity, and so the future value of her account can be found using the formula <m>FV = pmt \times \dfrac{(1 + r/n)^{n\times t} - 1}{r/n}</m>, with a payment of $1,300, a rate of 0.1162, number of compounding periods 4, after 5 years. Substituting these values into the formula and calculating, we find
+					<md>
+						<mrow> FV \amp = pmt  \times \dfrac{(1+r/n)^{n\times t} - 1}{r/n} </mrow>
+						<mrow> \amp = \$1300 \times \dfrac{(1.02905)^{20}-1}{0.02905} </mrow>
+						<mrow> \amp = \$1300 \times \dfrac{0.7730849}{0.02905} </mrow>
+						<mrow> \amp = \$1300 \times 26.612218 </mrow>
+						<mrow> \amp = \$34595.88 </mrow>
+					</md>
+				</p>
+				<p>
+					Kaitlyn's mutual fund will be worth $34,595.88 after 5 years.
+				</p>
+			</solution>
+		</example>
+
+		<exercise>
+			<statement>
+				<p>
+					Aidan decides to invest $3,200 annually in a mutual fund. He expects the fund to have a 10.8% interest rate compounded annually. How much will Aidan's mutual fund account have after 15 years?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					$108,352.43 
+				</p>
+			</solution>
+		</exercise>
+
+		<example><title>Investing in a Mutual Fund to Reach a Goal</title>
+			<statement>
+				<p>
+					Kaitlyn wants to retire with $1,500,000 in her mutual fund account. She will invest for 35 years. The mutual fund reports an average return of 11.62% over the 18-year-long life of the mutual fund. Assuming that this interest rate continues, and is compounded quarterly, how much will she need to pay annually into her mutual fund to reach her goal?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Kaitlyn’s plan is an ordinary annuity, and so the payment to reach her goal can be found using the formula <m>pmt = \dfrac{FV\times(r/n)}{(1+r/n)^{n\times t} - 1}</m> with a <m>FV</m>, or goal, of $1,500,000, a rate of 0.1162, for 35 years. Substituting these values into the formula and calculating, we find
+					<md>
+						<mrow> pmt \amp = \dfrac{FV\times(r/n)}{(1+r/n)^{n\times t} - 1} </mrow>
+						<mrow> \amp = \dfrac{\$1500000 \times(0.1162/1)}{(1+0.1162/1)^{1\times 35}-1} </mrow>
+						<mrow> \amp = \dfrac{\$174300}{26.0558103113} </mrow>
+						<mrow> \amp = \$6689.49 </mrow>
+					</md>
+				</p>
+				<p>
+					Kaitlyn needs to invest $6,689.49 per year (or $557.46 per month) into the mutual fund to reach $1,500,000 in 35 years.
+				</p>
+			</solution>
+		</example>
+
+		<exercise>
+			<statement>
+				<p>
+					How much does Aidan need to invest annually in his mutual fund to reach a goal of $1,000,000 in 40 years? He expects the fund to have a 10.8% interest rate compounded annually.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					$1,815.83 
+				</p>
+			</solution>
+		</exercise>
+	</subsubsection>
+
+</subsection>
+
+<subsection>
+	<title>Retirement Savings Plans</title>
+	<introduction>
+		<p>
+			We close this section by investigating the three main forms of retirement savings accounts: traditional individual retirement accounts (IRAs), Roth IRAs, and 401(k) accounts. Each has distinct characteristics that are suited to different investors' needs.
+		</p>
+	</introduction>
+
+	<subsubsection>
+		<title>Individual Retirement Accounts</title>
+
+		<p>
+			A <term>traditional IRA</term> lets you contribute up to an amount set by the government, which may change from year to year. For example, the maximum contribution for 2022 is $6,000; $7,000 over age 50. Anyone is eligible to contribute to a traditional IRA, regardless of your income level. Your money grows tax-deferred, but withdrawals after age 59½ are taxed at current rates. Traditional IRAs also allow you to use the contribution itself as a deduction on a current year tax return.
+		</p>
+		<p>
+			<term>Roth IRAs</term> allow contributions at the same levels as traditional IRAs, with a maximum $6,000 for 2022; $7,000 over age 50. However, to be eligible to make contributions, your earned income must be below a certain level. A Roth IRA allows after-tax contributions. In other words, the contribution itself is not tax-deductible, as it is with the traditional IRA. However, your money grows tax-free. If you make no withdrawals until you are age 59½, there are no penalties. IRAs pay a modest interest rate.
+		</p>
+		<p>
+			In either case, IRA deposits have to be from earned income, which in effect means if your earned income is over $6,000 ($7,000) then you can deposit the maximum.
+		</p>
+		<note>
+			<p>
+				In 2022, the maximum that can be added to a Roth IRA was $6,000 for those under 50 years of age. For those over 50 years of age, the maximum that can be added to a Roth IRA is $7,000. However, to qualify for a Roth IRA in fall of 2022, a single person’s modified adjusted gross income (MAGI) must be below $129,000. Then, if a single person’s income is between $129,000 and $144,000, the maximum contribution is reduced from the limit for incomes below $129,000. For a married couples filing a joint tax return those values are $204,000 to $214,000.
+			</p>
+		</note>
+	
+	</subsubsection>
+
+	<subsubsection>
+		<title>401(k) Accounts</title>
+		<p>
+			Your employer may offer a retirement account to you. These are often in the form of a <term>401(k)</term> account. There are traditional and Roth 401(k) accounts, which differ in how they are taxed, much as with other IRAs. In the traditional 401(k) plans, the money is deposited before tax is assessed, which means you do not pay taxes on this money. However, that means when money is withdrawn, it is taxed. These accounts are similar to mutual funds, in that the money is invested in a wide range of assets, spreading the risk.
+		</p>
+		<p>
+			One of the perks some employers offer is to match some amount of your contributions to the 401(k) plan. For instance, they may match your deposits up to 5% of your income. This is an instant 100% return on the money that was matched.
+		</p>
+
+		<figure>
+			<caption>Video on 410(k) accounts</caption>
+			<video youtube="KrmZDqorxB4"/>
+		</figure>
+		
+		<example>
+			<title>Matching 401(k) Deposit</title>
+			<statement>
+				<p>
+					Alice signs up for her employer-based 401(k). The employer matches any 401(k) contribution up to 6% of the employee salary. Alice’s annual salary is $51,600.
+					<ol>
+						<li>
+							<p>
+								 What is the most money that Alice can deposit that will be fully matched by the company?
+							</p>
+						</li>
+						<li>
+							<p>
+								How much total will be deposited into Alice’s account if she deposits the full 6%?
+							</p>
+						</li>
+						<li>
+							<p>
+								How much return does Alice earn if she deposits exactly 6% in her 401(k)?
+							</p>
+						</li>
+					</ol>
+				</p>
+			</statement>
+			<solution>
+				<p>
+					<ol>
+						<li>
+							<p>
+								The employer will match up to 6% of any employee’s salary. 6% of Alice’s salary is 0.06<m>\times</m>$51,600=$3,096. So Alice can deposit up to $3,096 and receive that amount in matching funds in her account.
+							</p>
+						</li>
+						<li>
+							<p>
+								Alice’s contribution plus the company’s contribution is $3,096+$3,096=$6,192, which is the total that is deposited into Alice’s account.
+							</p>
+						</li>
+						<li>
+							<p>
+								She earns a 100% return on the day she deposits her $3,096.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>	
+		</example>
+
+		<exercise>
+			<statement>
+				<p>
+					Jameis signs up for his employer-based 401(k). The employer matches any 401(k) contribution up to 7.5% of the employee salary. Jameis’ annual salary is $72,800.
+				</p>
+				<ol>
+					<li>
+						<p>
+							What is the most money that Jameis can deposit that will be fully matched by the company?
+						</p>
+					</li>
+					<li>
+						<p>
+							How much total will be deposited into Jameis’ account if he deposits the full 7.5%?
+						</p>
+					</li>
+					<li>
+						<p>
+							How much return does Jameis earn if he deposits exactly 7.5% in his 401(k)?
+						</p>
+					</li>
+				</ol>
+			</statement>
+			<solution>
+				<p>
+					<ol>
+						<li>
+							<p>
+								$5,460 
+							</p>
+						</li>
+						<li>
+							<p>
+								$10,920 
+							</p>
+						</li>
+						<li>
+							<p>
+								100% return on the $5,460 deposit 
+							</p>
+						</li>
+					</ol>
+				</p>
+			</solution>
+		</exercise>
+
+	</subsubsection>
+	
+</subsection>
+
+<!-- 
 <exercises>
-
-
-
-
+<exercise>
+	<p>
+		Stuff
+	</p>
+</exercise>
 </exercises>
+-->
+
 </section>
