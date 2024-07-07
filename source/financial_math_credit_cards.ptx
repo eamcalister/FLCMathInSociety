@@ -86,7 +86,7 @@ There are many institutions and credit cards to choose from. Use caution as you 
 
 <figure>
 	<caption>Choosing a Credit Card</caption>
-	<video youtube="XXnox-raUU8" label="video-credit-cards"/>
+	<video youtube="XXnox-raUU8" xml:id="video-credit-cards"/>
 </figure>
 
 <example><title>Comparing Credit Cards</title>
@@ -190,7 +190,6 @@ It is critical that you examine your statement every month because it is always 
 	<statement>
 		<p>
 			On the credit card statement <xref ref="credit_card_statement_example"/>, identify
-		</p>
 		<ol>
 			<li>
 				<p>
@@ -213,8 +212,9 @@ It is critical that you examine your statement every month because it is always 
 				</p>
 			</li>
 		</ol>
-
+	</p>
 		<figure xml:id="credit_card_statement_example">
+			<caption>An example credit card statement.</caption>
 			<image source="images/financial_math/credit_cards/openstax_statement_example_image.png">
 				<shortdescription>Credit Card statment for this example.</shortdescription>
 			</image>
@@ -315,34 +315,37 @@ Computing all of these values depends on understanding and computing the average
 	<statement>
 		<p>
 			The billing cycle goes from May 1 to May 31. The balance at the start of the billing cycle is <m>\$450.21</m>. The list of transactions on the card is below.
-			<table>
-				<title></title>
-				<tabular>
-					<row header="yes" bottom="medium">
-						<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
-					</row>
-					<row>
-						<cell>1-May</cell><cell>Balance</cell><cell>$450.21</cell>
-					</row>
-					<row>
-						<cell>10-May</cell><cell>Payment</cell><cell>$120.00</cell>
-					</row>
-					<row>
-						<cell>15-May</cell><cell>Groceries</cell><cell>$83.43</cell>
-					</row>
-					<row>
-						<cell>26-May</cell><cell>Auto Parts</cell><cell>$45.12</cell>
-					</row>
-					<row>
-						<cell>26-May</cell><cell>Restaurant</cell><cell>$85.34</cell>
-					</row>
-					<row>
-						<cell>30-May</cell><cell>Shoes</cell><cell>$98.23</cell>
-					</row>
-				</tabular>
-			</table>
+		</p>
+		<table>
+			<title></title>
+			<tabular>
+				<row header="yes" bottom="medium">
+					<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
+				</row>
+				<row>
+					<cell>1-May</cell><cell>Balance</cell><cell>$450.21</cell>
+				</row>
+				<row>
+					<cell>10-May</cell><cell>Payment</cell><cell>$120.00</cell>
+				</row>
+				<row>
+					<cell>15-May</cell><cell>Groceries</cell><cell>$83.43</cell>
+				</row>
+				<row>
+					<cell>26-May</cell><cell>Auto Parts</cell><cell>$45.12</cell>
+				</row>
+				<row>
+					<cell>26-May</cell><cell>Restaurant</cell><cell>$85.34</cell>
+				</row>
+				<row>
+					<cell>30-May</cell><cell>Shoes</cell><cell>$98.23</cell>
+				</row>
+			</tabular>
+		</table>
+		<p>
 			Find the average daily balance for the credit card during the month of May.
 		</p>
+
 	</statement>
 	<solution>
 		<p>
@@ -356,115 +359,115 @@ Computing all of these values depends on understanding and computing the average
 				<li>
 					<p>
 						For each day that had transactions, find the total of the transactions for the day. The only day with more than one transaction was May 26. The sum of those transactions is <m>\$130.46</m>. Treating the payment as a negative value, the daily transaction amounts are
-						<table>
-							<title></title>
-							<tabular>
-								<row header="yes" bottom="medium">
-									<cell>Date</cell><cell>Amount</cell>
-								</row>
-								<row>
-									<cell>1-May</cell><cell>$450.21</cell>
-								</row>
-								<row>
-									<cell>10-May</cell><cell>-$120.00</cell>
-								</row>
-								<row>
-									<cell>15-May</cell><cell>$83.43</cell>
-								</row>
-								<row>
-									<cell>26-May</cell><cell>$130.46</cell>
-								</row>
-								<row>
-									<cell>30-May</cell><cell>$98.23</cell>
-								</row>
-							</tabular>
-						</table>
 					</p>
+					<table>
+						<title></title>
+						<tabular>
+							<row header="yes" bottom="medium">
+								<cell>Date</cell><cell>Amount</cell>
+							</row>
+							<row>
+								<cell>1-May</cell><cell>$450.21</cell>
+							</row>
+							<row>
+								<cell>10-May</cell><cell>-$120.00</cell>
+							</row>
+							<row>
+								<cell>15-May</cell><cell>$83.43</cell>
+							</row>
+							<row>
+								<cell>26-May</cell><cell>$130.46</cell>
+							</row>
+							<row>
+								<cell>30-May</cell><cell>$98.23</cell>
+							</row>
+						</tabular>
+					</table>
 				</li>
 				<li>
 					<p> Create a table containing each day with a different balance.
 						The new table with dates that had different balances is below.
-						<table>
-							<title></title>
-							<tabular>
-								<row header="yes" bottom="medium">
-									<cell>Date</cell><cell>Balance</cell>
-								</row>
-								<row>
-									<cell>1-May</cell><cell>$450.21</cell>
-								</row>
-								<row>
-									<cell>10-May</cell><cell>$330.21</cell>
-								</row>
-								<row>
-									<cell>15-May</cell><cell>$413.64</cell>
-								</row>
-								<row>
-									<cell>26-May</cell><cell>$544.10</cell>
-								</row>
-								<row>
-									<cell>30-May</cell><cell>$642.33</cell>
-								</row>
-							</tabular>
-						</table>
 					</p>
+					<table>
+						<title></title>
+						<tabular>
+							<row header="yes" bottom="medium">
+								<cell>Date</cell><cell>Balance</cell>
+							</row>
+							<row>
+								<cell>1-May</cell><cell>$450.21</cell>
+							</row>
+							<row>
+								<cell>10-May</cell><cell>$330.21</cell>
+							</row>
+							<row>
+								<cell>15-May</cell><cell>$413.64</cell>
+							</row>
+							<row>
+								<cell>26-May</cell><cell>$544.10</cell>
+							</row>
+							<row>
+								<cell>30-May</cell><cell>$642.33</cell>
+							</row>
+						</tabular>
+					</table>
 				</li>
 				<li>
 					<p>
 						Now, add a column for the number of days those balances until the balance changed. The days until the balance changes is found by finding the difference in the dates. For instance, from May 15 to May 26 was 11. Adding that column to the table we have
-						<table>
-							<title></title>
-							<tabular>
-								<row header="yes" bottom="medium">
-									<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell>
-								</row>
-								<row>
-									<cell>1-May</cell><cell>$450.21</cell><cell>9</cell>
-								</row>
-								<row>
-									<cell>10-May</cell><cell>$330.21</cell><cell>5</cell>
-								</row>
-								<row>
-									<cell>15-May</cell><cell>$413.64</cell><cell>11</cell>
-								</row>
-								<row>
-									<cell>26-May</cell><cell>$544.10</cell><cell>4</cell>
-								</row>
-								<row>
-									<cell>30-May</cell><cell>$642.33</cell><cell>2</cell>
-								</row>
-							</tabular>
-						</table>
-
 					</p>
+					<table>
+						<title></title>
+						<tabular>
+							<row header="yes" bottom="medium">
+								<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell>
+							</row>
+							<row>
+								<cell>1-May</cell><cell>$450.21</cell><cell>9</cell>
+							</row>
+							<row>
+								<cell>10-May</cell><cell>$330.21</cell><cell>5</cell>
+							</row>
+							<row>
+								<cell>15-May</cell><cell>$413.64</cell><cell>11</cell>
+							</row>
+							<row>
+								<cell>26-May</cell><cell>$544.10</cell><cell>4</cell>
+							</row>
+							<row>
+								<cell>30-May</cell><cell>$642.33</cell><cell>2</cell>
+							</row>
+						</tabular>
+					</table>
+
 				</li>
 	<li>
 		<p>
 			Add a column that contains the balances multiplied by the number of days until the balance changed. We create the column and multiply the values.
-		<table>
-		<title></title>
-		<tabular>
-		<row header="yes" bottom="medium">
-		<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell><cell>Balance Times Days</cell>
-		</row>
-		<row>
-		<cell>1-May</cell><cell>$450.21</cell><cell>9</cell><cell>$4,051.89</cell>
-		</row>
-		<row>
-		<cell>10-May</cell><cell>$330.21</cell><cell>5</cell><cell>$1,651.05</cell>
-		</row>
-		<row>
-		<cell>15-May</cell><cell>$413.64</cell><cell>11</cell><cell>$4,550.04</cell>
-		</row>
-		<row>
-		<cell>26-May</cell><cell>$544.10</cell><cell>4</cell><cell>$2,176.40</cell>
-		</row>
-		<row>
-		<cell>30-May</cell><cell>$642.33</cell><cell>2</cell><cell>$1,284.66</cell>
-		</row>
-		</tabular>
-		</table>
 		</p>
+		<table>
+			<title></title>
+			<tabular>
+			<row header="yes" bottom="medium">
+			<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell><cell>Balance Times Days</cell>
+			</row>
+			<row>
+			<cell>1-May</cell><cell>$450.21</cell><cell>9</cell><cell>$4,051.89</cell>
+			</row>
+			<row>
+			<cell>10-May</cell><cell>$330.21</cell><cell>5</cell><cell>$1,651.05</cell>
+			</row>
+			<row>
+			<cell>15-May</cell><cell>$413.64</cell><cell>11</cell><cell>$4,550.04</cell>
+			</row>
+			<row>
+			<cell>26-May</cell><cell>$544.10</cell><cell>4</cell><cell>$2,176.40</cell>
+			</row>
+			<row>
+			<cell>30-May</cell><cell>$642.33</cell><cell>2</cell><cell>$1,284.66</cell>
+			</row>
+			</tabular>
+			</table>
 	</li>
 	<li>
 		<p>
@@ -485,38 +488,43 @@ Computing all of these values depends on understanding and computing the average
 	<statement>
 		<p>
 			The billing cycle goes from June 1 to June 30. The previous month's balance is <m>\$563.80</m>. The transactions are in the table below.
-<table>
-	<title></title>
-	<tabular>
-		<row header="yes" bottom="medium">
-			<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
-		</row>
-		<row>
-			<cell>1-June</cell><cell>Balance</cell><cell>$563.80</cell>
-		</row>
-		<row>
-			<cell>2-June</cell><cell>Gasoline</cell><cell>$47.50</cell>
-		</row>
-		<row>
-			<cell>2-June</cell><cell>Groceries</cell><cell>$63.42</cell>
-		</row>
-		<row>
-			<cell>15-June</cell><cell>Movie</cell><cell>$38.75</cell>
-		</row>
-		<row>
-			<cell>15-June</cell><cell>Payment</cell><cell>$250.00</cell>
-		</row>
-		<row>
-			<cell>27-June</cell><cell>Pharmacy</cell><cell>$31.21</cell>
-		</row>
-		<row>
-			<cell>28-June</cell><cell>Auto Fuel</cell><cell>$48.00</cell>
-		</row>
 
-	</tabular>
-</table>
-Find the average daily balance for this credit card.
 		</p>
+		<table>
+			<title></title>
+			<tabular>
+				<row header="yes" bottom="medium">
+					<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
+				</row>
+				<row>
+					<cell>1-June</cell><cell>Balance</cell><cell>$563.80</cell>
+				</row>
+				<row>
+					<cell>2-June</cell><cell>Gasoline</cell><cell>$47.50</cell>
+				</row>
+				<row>
+					<cell>2-June</cell><cell>Groceries</cell><cell>$63.42</cell>
+				</row>
+				<row>
+					<cell>15-June</cell><cell>Movie</cell><cell>$38.75</cell>
+				</row>
+				<row>
+					<cell>15-June</cell><cell>Payment</cell><cell>$250.00</cell>
+				</row>
+				<row>
+					<cell>27-June</cell><cell>Pharmacy</cell><cell>$31.21</cell>
+				</row>
+				<row>
+					<cell>28-June</cell><cell>Auto Fuel</cell><cell>$48.00</cell>
+				</row>
+		
+			</tabular>
+		</table>
+
+<p>
+	Find the average daily balance for this credit card.
+</p>
+
 	</statement>
 </exercise>
 
@@ -678,49 +686,49 @@ Find the average daily balance for this credit card.
 	<statement>
 		<p>
 			Kaylen's credit card charges <m>16.9\%</m> annual interest. His current billing period is from November 1 to November 30. The balance on November 1 was <m>\$1,845.23</m>. Use Kaylen's following transactions to determine his balance due at the end of the billing cycle.
-
-			<table>
-				<title>Kaylen's Transactions</title>
-				<tabular>
-					<row header="yes" bottom="medium">
-						<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
-					</row>
-					<row>
-						<cell>1-Nov</cell><cell>Billing Date Balance</cell><cell>$1,845.23</cell>
-					</row>
-					<row>
-						<cell>3-Nov</cell><cell>Groceries</cell><cell>$78.50</cell>
-					</row>
-					<row>
-						<cell>4-Nov</cell><cell>Tablet</cell><cell>$159.00</cell>
-					</row>
-					<row>
-						<cell>4-Nov</cell><cell>Online Game Purchase</cell><cell>$39.99</cell>
-					</row>
-					<row>
-						<cell>4-Nov</cell><cell>Restaurant</cell><cell>$47.10</cell>
-					</row>
-					<row>
-						<cell>10-Nov</cell><cell>Payment</cell><cell>$300.00</cell>
-					</row>
-					<row>
-						<cell>13-Nov</cell><cell>Gasoline</cell><cell>$58.75</cell>
-					</row>
-					<row>
-						<cell>13-Nov</cell><cell>Clothing</cell><cell>$135.00</cell>
-					</row>
-					<row>
-						<cell>18-Nov</cell><cell>Gift</cell><cell>$30.00</cell>
-					</row>
-					<row>
-						<cell>18-Nov</cell><cell>Restaurant</cell><cell>$21.75</cell>
-					</row>
-					<row>
-						<cell>28-Nov</cell><cell>Gasoline</cell><cell>$43.79</cell>
-					</row>
-				</tabular>
-			</table>
 		</p>
+		<table>
+			<title>Kaylen's Transactions</title>
+			<tabular>
+				<row header="yes" bottom="medium">
+					<cell>Date</cell><cell>Activity</cell><cell>Amount</cell>
+				</row>
+				<row>
+					<cell>1-Nov</cell><cell>Billing Date Balance</cell><cell>$1,845.23</cell>
+				</row>
+				<row>
+					<cell>3-Nov</cell><cell>Groceries</cell><cell>$78.50</cell>
+				</row>
+				<row>
+					<cell>4-Nov</cell><cell>Tablet</cell><cell>$159.00</cell>
+				</row>
+				<row>
+					<cell>4-Nov</cell><cell>Online Game Purchase</cell><cell>$39.99</cell>
+				</row>
+				<row>
+					<cell>4-Nov</cell><cell>Restaurant</cell><cell>$47.10</cell>
+				</row>
+				<row>
+					<cell>10-Nov</cell><cell>Payment</cell><cell>$300.00</cell>
+				</row>
+				<row>
+					<cell>13-Nov</cell><cell>Gasoline</cell><cell>$58.75</cell>
+				</row>
+				<row>
+					<cell>13-Nov</cell><cell>Clothing</cell><cell>$135.00</cell>
+				</row>
+				<row>
+					<cell>18-Nov</cell><cell>Gift</cell><cell>$30.00</cell>
+				</row>
+				<row>
+					<cell>18-Nov</cell><cell>Restaurant</cell><cell>$21.75</cell>
+				</row>
+				<row>
+					<cell>28-Nov</cell><cell>Gasoline</cell><cell>$43.79</cell>
+				</row>
+			</tabular>
+		</table>
+
 	</statement>
 	<solution>
 		<p>
@@ -734,141 +742,143 @@ Find the average daily balance for this credit card.
 				<li>
 					<p>
 						For each day that had transactions, find the total of the transactions for the day. The days with more than one transaction were Nov. 4, Nov. 13, and Nov. 18. Treating the payment on November 10 as a negative value, the daily transaction amounts are
-<table>
-	<title></title>
-	<tabular>
-		<row header = "yes" bottom="medium">
-			<cell>Date</cell><cell>Amount</cell>
-		</row>
-		<row>
-			<cell>1-Nov</cell><cell>$1,845.23</cell>
-		</row>
-		<row>
-			<cell>3-Nov</cell><cell>$78.50</cell>
-		</row>
-		<row>
-			<cell>4-Nov</cell><cell>$246.09</cell>
-		</row>
-		<row>
-			<cell>10-Nov</cell><cell>-$300.00</cell>
-		</row>
-		<row>
-			<cell>13-Nov</cell><cell>$193.75></cell>
-		</row>
-		<row>
-			<cell>18-Nov</cell><cell>$51.75</cell>
-		</row>
-		<row>
-			<cell>28-Nov</cell><cell>$43.79</cell>
-		</row>
-	</tabular>
-</table>
 					</p>
+					<table>
+						<title></title>
+						<tabular>
+							<row header = "yes" bottom="medium">
+								<cell>Date</cell><cell>Amount</cell>
+							</row>
+							<row>
+								<cell>1-Nov</cell><cell>$1,845.23</cell>
+							</row>
+							<row>
+								<cell>3-Nov</cell><cell>$78.50</cell>
+							</row>
+							<row>
+								<cell>4-Nov</cell><cell>$246.09</cell>
+							</row>
+							<row>
+								<cell>10-Nov</cell><cell>-$300.00</cell>
+							</row>
+							<row>
+								<cell>13-Nov</cell><cell>$193.75></cell>
+							</row>
+							<row>
+								<cell>18-Nov</cell><cell>$51.75</cell>
+							</row>
+							<row>
+								<cell>28-Nov</cell><cell>$43.79</cell>
+							</row>
+						</tabular>
+					</table>					
 				</li>
 				<li>
 					<p>
 						Create a table containing each day with a different balance. The new table with dates that had different balances is below.
-<table>
-	<title></title>
-	<tabular>
-		<row header="yes" bottom="medium">
-			<cell>Date</cell><cell>Balance</cell>
-		</row>
-		<row>
-			<cell>1-Nov</cell><cell>$1,845.23</cell>
-		</row>
-		<row>
-			<cell>3-Nov</cell><cell>$1,923.73</cell>
-		</row>
-		<row>
-			<cell>4-Nov</cell><cell>$2,169.82</cell>
-		</row>
-		<row>
-			<cell>10-Nov</cell><cell>$1,869.82</cell>
-		</row>
-		<row>
-			<cell>13-Nov</cell><cell>$2,063.57</cell>
-		</row>
-		<row>
-			<cell>18-Nov</cell><cell>$2,115.32</cell>
-		</row>
-		<row>
-			<cell>28-Nov</cell><cell>$2,159.11</cell>
-		</row>
-	</tabular>
-</table>
 					</p>
+					<table>
+						<title></title>
+						<tabular>
+							<row header="yes" bottom="medium">
+								<cell>Date</cell><cell>Balance</cell>
+							</row>
+							<row>
+								<cell>1-Nov</cell><cell>$1,845.23</cell>
+							</row>
+							<row>
+								<cell>3-Nov</cell><cell>$1,923.73</cell>
+							</row>
+							<row>
+								<cell>4-Nov</cell><cell>$2,169.82</cell>
+							</row>
+							<row>
+								<cell>10-Nov</cell><cell>$1,869.82</cell>
+							</row>
+							<row>
+								<cell>13-Nov</cell><cell>$2,063.57</cell>
+							</row>
+							<row>
+								<cell>18-Nov</cell><cell>$2,115.32</cell>
+							</row>
+							<row>
+								<cell>28-Nov</cell><cell>$2,159.11</cell>
+							</row>
+						</tabular>
+					</table>
 				</li>
 				<li>
 					<p>
-						Now, add a column for the number of days those balances until the balance changed. The days until the balance changes is found by finding the difference in the dates. For instance, from May 15 to May 26 was 11. Adding that column to the table we have
-<table>
-	<title></title>
-	<tabular>
-		<row header="yes" bottom="medium">
-			<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell>
-		</row>
-		<row>
-			<cell>1-Nov</cell><cell>$1,845.23</cell><cell>2</cell>
-		</row>
-		<row>
-			<cell>3-Nov</cell><cell>$1,923.73</cell><cell>1</cell>
-		</row>
-		<row>
-			<cell>4-Nov</cell><cell>$2,169.82</cell><cell>6</cell>
-		</row>
-		<row>
-			<cell>10-Nov</cell><cell>$1,869.82</cell><cell>3</cell>
-		</row>
-		<row>
-			<cell>13-Nov</cell><cell>$2,063.57</cell><cell>5</cell>
-		</row>
-		<row>
-			<cell>18-Nov</cell><cell>$2,115.32</cell><cell>10</cell>
-		</row>
-		<row>
-			<cell>28-Nov</cell><cell>$2,159.11</cell><cell>3</cell>
-		</row>
-	</tabular>
-</table>						
-						
-						The last entry was 3 since there are 30 days in November (the 28th, 29th, and 30th).
+						Now, add a column for the number of days those balances until the balance changed. The days until the balance changes is found by finding the difference in the dates. For instance, from May 15 to May 26 was 11. Adding that column to the table we have.					
 					</p>
+					<table>
+						<title></title>
+						<tabular>
+							<row header="yes" bottom="medium">
+								<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell>
+							</row>
+							<row>
+								<cell>1-Nov</cell><cell>$1,845.23</cell><cell>2</cell>
+							</row>
+							<row>
+								<cell>3-Nov</cell><cell>$1,923.73</cell><cell>1</cell>
+							</row>
+							<row>
+								<cell>4-Nov</cell><cell>$2,169.82</cell><cell>6</cell>
+							</row>
+							<row>
+								<cell>10-Nov</cell><cell>$1,869.82</cell><cell>3</cell>
+							</row>
+							<row>
+								<cell>13-Nov</cell><cell>$2,063.57</cell><cell>5</cell>
+							</row>
+							<row>
+								<cell>18-Nov</cell><cell>$2,115.32</cell><cell>10</cell>
+							</row>
+							<row>
+								<cell>28-Nov</cell><cell>$2,159.11</cell><cell>3</cell>
+							</row>
+						</tabular>
+					</table>	
+
+<p>
+	The last entry was 3 since there are 30 days in November (the 28th, 29th, and 30th).
+</p>
+
 				</li>
 				<li>
 					<p>
 						Add a column that contains the balances multiplied by the number of days until the balance changed. We create the column and multiply the values.
-<table>
-	<title></title>
-	<tabular>
-		<row header="yes" bottom="medium">
-			<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell><cell>Balance Times Days</cell>
-		</row>
-		<row>
-			<cell>1-Nov</cell><cell>$1,845.23</cell><cell>2</cell><cell>$3,690.46</cell>
-		</row>
-		<row>
-			<cell>3-Nov</cell><cell>$1,923.73</cell><cell>1</cell><cell>$1,923.73</cell>
-		</row>
-		<row>
-			<cell>4-Nov</cell><cell>$2,169.82</cell><cell>6</cell><cell>$13,018.92</cell>
-		</row>
-		<row>
-			<cell>10-Nov</cell><cell>$1,869.82</cell><cell>3</cell><cell>$5,609.46</cell>
-		</row>
-		<row>
-			<cell>13-Nov</cell><cell>$2,063.57</cell><cell>5</cell><cell>$10,317.85</cell>
-		</row>
-		<row>
-			<cell>18-Nov</cell><cell>$2,115.32</cell><cell>10</cell><cell>$21,153.20</cell>
-		</row>
-		<row>
-			<cell>28-Nov</cell><cell>$2,159.11</cell><cell>3</cell><cell>$6,477.33</cell>
-		</row>
-	</tabular>
-</table>
-
 					</p>
+					<table>
+						<title></title>
+						<tabular>
+							<row header="yes" bottom="medium">
+								<cell>Date</cell><cell>Balance</cell><cell>Days Until Balance Changes</cell><cell>Balance Times Days</cell>
+							</row>
+							<row>
+								<cell>1-Nov</cell><cell>$1,845.23</cell><cell>2</cell><cell>$3,690.46</cell>
+							</row>
+							<row>
+								<cell>3-Nov</cell><cell>$1,923.73</cell><cell>1</cell><cell>$1,923.73</cell>
+							</row>
+							<row>
+								<cell>4-Nov</cell><cell>$2,169.82</cell><cell>6</cell><cell>$13,018.92</cell>
+							</row>
+							<row>
+								<cell>10-Nov</cell><cell>$1,869.82</cell><cell>3</cell><cell>$5,609.46</cell>
+							</row>
+							<row>
+								<cell>13-Nov</cell><cell>$2,063.57</cell><cell>5</cell><cell>$10,317.85</cell>
+							</row>
+							<row>
+								<cell>18-Nov</cell><cell>$2,115.32</cell><cell>10</cell><cell>$21,153.20</cell>
+							</row>
+							<row>
+								<cell>28-Nov</cell><cell>$2,159.11</cell><cell>3</cell><cell>$6,477.33</cell>
+							</row>
+						</tabular>
+					</table>
 				</li>
 				<li>
 					<p>
