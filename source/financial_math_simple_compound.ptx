@@ -435,7 +435,7 @@
 	<p>
 		Notice that the $1000 in the equation was P, the starting amount. We found 1.0025 by adding one to the interest rate divided by 12, since we were compounding 12 times per year. Generalizing our result, we could write
 	</p>
-	<assemblage>
+	<assemblage xml:id="compound_interest_formula">
 		<title>Compound Interest</title>
 		<p>
 			<me>A=P\left(1+\frac{r}{n}\right)^{nt} \text{ or } P=\frac{A}{\left(1+\frac{r}{n}\right)^{nt}}</me>
