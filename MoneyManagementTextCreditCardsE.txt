@@ -13,7 +13,7 @@ After completing this section, you should be able to:
 
 INTRODUCTION
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 TYPES OF CREDIT CARDS
 There are basically three types of credit cards: bank-issued credit cards, store-issued credit cards, and travel/entertainment credit cards. We will look at all three and explain the good and the bad qualities of each.
@@ -36,6 +36,9 @@ This is the third type of credit card. The travel and entertainment cards, also 
 3. COMMENT: Include: EXAMPLE 6.91
 4. COMMENT: Iclude YOUR TURN 6.91 as extra pratice.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 CREDIT CARD STATEMENT
 Cardholders usually receive monthly statements and have 21 days to pay the minimum amount due. The statements itemize and summarize activity on the credit card for that statement’s billing period. The billing period for a credit card is generally a month long, but typically does not start and end on the first and last days of the month. The statement will include the current balance, interest rate, the minimum payment due, and the due date. Be aware, different companies produce statements that are laid out differently. The information will be clearly labeled though.
 
@@ -44,7 +47,7 @@ The due date is a top concern. Missing a due date is one of the worst things a c
 5. COMMENT: Include figure 6.23 as a link.(credit card statement)
 6. COMMENT: Include example 6.92 (Reading Credit Card Statement) as well as figure 6.24
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 COMPUTE INTEREST, BALANCE DUE, MINIMUM PAYMENTDUE FOR CREDIT CARD. 
 
@@ -81,6 +84,7 @@ The balance, or sometimes balance due, on a credit card is the previous balance,
 
 9. COMMENT: Include example 6.95, include your turn assignment for student as extra practice.
 10. COMMENT: Include example 6.96, include your turn assignment for student as extra practice.
+
 
 
 MINIMUM PAYMENT DUE.

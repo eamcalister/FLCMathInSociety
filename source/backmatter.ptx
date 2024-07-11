@@ -62,9 +62,16 @@
 	<biblio type="raw">
 		<em>Jonathan Farley, Mathematics – Martin Luther King Jr. Scholars.</em> (2005). MLK Visiting Professors and Scholars Program. <url href="https://mlkscholars.mit.edu/jfarley/" visual="mlkscholars.mit.edu/jfarley"/>
 	</biblio>
+
+	<biblio type="raw" xml:id="Openstax-contemp-math">
+		Kirk, D. (2023, March 22). <em>Contemporary Mathematics</em> Openstax. <url href="https://openstax.org/books/contemporary-mathematics/pages/1-introduction" visual="openstax.org/books/contemporary-mathematics/pages/1-introduction"/>
+	</biblio>	
+
+
 	<biblio type="raw">
 		Manning, B. (2019, November 5). <em>Overdue recognition.</em> Wheaton College Massachusetts. <url href="https://wheatoncollege.edu/news/overdue-recognition/" visual="wheatoncollege.edu/news/overdue-recognition"/>
 	</biblio>
+	
 	<biblio type="raw">
 		McDonald, M. P. (2016). 2016 <em>November General Election Turnout Rates.</em> Electproject.Org. <url href="http://www.electproject.org/2016g" visual="electproject.org/2016g"/>
 	</biblio>

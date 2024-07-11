@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The docinfo block is the analogue to the latex preamble -->
+<!-- This is where you can define macros and other book-wide -->
+<!--  settings.                                              -->
+<docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<!-- The next three lines are likely for mature projects only: -->
+
+<!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
+<!-- <document-id>unique-book-id</document-id> -->
+
+<!-- macros for defining latex math shortcuts. It is good practice  -->
+<!-- to define these semantically, so that the macro relates to what-->
+<!-- it defines.                                                    -->
+<!-- Thumbnail for HTML -->
+<brandlogo url="https://spot.pcc.edu/math/mathinsociety/book-1.html" source="images/Portland_Oregon_Skyline.jpg" />
+<!-- For title into HTML head, then tabs, bookmarks, etc -->
+<initialism>Math In Society:</initialism>
+<!--<document-id>PCC-Math In Society</document-id> -->
+ <document-id edition="2">PCC-Math In Society</document-id>
+<macros>
+  %  highlight (draw attention to something in math mode)
+  %  Usage: \highlight{x}   		
+  \newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
+</macros>
+
+
+</docinfo>
+
