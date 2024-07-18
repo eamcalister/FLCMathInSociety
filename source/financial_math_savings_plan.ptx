@@ -7,23 +7,23 @@
 <title><xref ref="financial_math_savings_plan"> Savings Plans</xref></title>
 	<introduction>
 		<p>
-			Students will be able to:
+			After completing this section, you should be able to:
 		</p>
 	</introduction>
 		<ul>
 			<li>
 				<p>
-					Use a spreadsheet and/or formula to calculate the future value and interest earned on savings plans
+					Distinguish various basic forms of savings plans.
 				</p>
 			</li>
 			<li>
 				<p>
-					Use a spreadsheet and/or formula to calculate payment amounts for savings plans
+					Compute return on investment for basic forms of savings plans.
 				</p>
 			</li>
 			<li>
 				<p>
-					Analyze and compare lump sum and regular payment savings plans
+					Compute payment to reach a financial goal. 
 				</p>
 			</li>
 		</ul>
@@ -34,24 +34,84 @@
 		For most of us it is not practical to deposit a large sum of money in the bank. Instead, we save by depositing smaller amounts of money regularly. We might save in an IRA or 401-K for retirement. We might also save for a down payment on a car or house, or in a college savings plan for our children.
 	</p>
 	<p>
-		Just like the last section, we will emphasize spreadsheets but calculate each example with the formulas as well. Check with your instructor for which way you should do your problems.
+		In this section, we will first look at the different types of savings accounts and proceed to discuss the various types of investments. There is some overlap, but we will try to differentiate among these financial instruments. Saving money should be a goal of every adult, but it can also be a difficult goal to attain.
 	</p>
 
-	<figure>
+	<!-- <figure>
       <caption>Alternative Video Lesson</caption>
       <video youtube="BRstCcZ_zhI" label="video-savings-plan"/>
-    </figure>
+    </figure> -->
 </introduction>
+
+<subsection> 
+	<title>Distinguish Various Basic Forms of Savings Plans</title>
+	<p>
+		There are at least <term>three</term> types of savings accounts:
+	<ul>
+		<li>
+			<p>
+				Traditional Savings Account
+			</p>
+		</li>
+		<li>
+			<p>
+				Certificate of Deposit
+			</p>
+		</li>
+		<li>
+			<p>
+				Money Market
+			</p>
+		</li>	
+	</ul>
+	</p>
+
+   <subsubsection>
+		<title>Savings Account</title>
+		<p>
+			A savings account is probably the most well-known type of investment, and for many people it is their first experience with a bank. A <term>savings account</term> is a deposit account, held at a bank or other financial institution, which bears some interest on the deposited money. Savings accounts are intended as a place to save money for emergencies or to achieve short-term goals. They typically pay a low interest rate, but there is virtually no risk involved, and they are insured by the FDIC for up to $250,000.
+
+        </p> 
+		<p> 
+		 Savings accounts have some strengths. They are highly flexible. Generally, there are no limitations on the number of withdrawals allowed and no limit on how much you can deposit. It is not unusual, however, that a savings account will have a minimum balance in order for the bank to pay maintenance costs. If your account should dip below the minimum, there are usually fees attached.
+		</p>
+		<assemblage>
+			<title>Who Knew</title>
+			<p>
+				Many banks are covered by FDIC insurance. The FDIC is the Federal Deposit Insurance Corporation and is an independent agency created by the U.S. Congress. One of its purposes is to provide insurance for deposits in banks, including savings accounts. Be aware, not all banks are FDIC insured. The FDIC insures up to $250,000 for a savings account, so you do not want your balance to exceed that federally insured limit.
+			</p>
+		</assemblage>
+		<p>
+			Having your savings account at the same bank as your checking account does offer a real advantage. For example, if your checking account is approaching its lower limit, you can transfer funds from your savings account and avoid any bank fees. Similarly, if you have an excess of funds in your checking account, you can transfer funds to your savings account and earn some interest. Checking accounts rarely pay interest.
+
+		</p>
+		<p>
+			There are some weaknesses to savings accounts. Primarily, it is because savings accounts earn very low interest rates. This means they are not the best way to grow your money. Experts, though, recommend keeping a savings account balance to cover 3 to 6 months of living expenses in case you should lose your job, have a sudden medical expense, or other emergency.
+
+		</p>
+		<p>
+			Around tax time, you will receive a 1099-INT form stating the amount of interest earned on your savings, which is the amount that must be reported when you file your tax return. A <term>1099 form</term> is a tax form that reports earnings that do not come from your employer, including interest earned on savings accounts. These 1099 forms have the suffix INT to indicate that the income is interest income.
+
+		</p>
+		<p>
+			Savings accounts earn interest, and those earnings can be found using the interest formulas from previous sections. The final value of these accounts is sometimes called the future value of the account.
+
+		</p>
+		
+	</subsubsection>
+
+	
+</subsection>
 
 <subsection>
 	<title>Savings Plan Formulas</title>
-	<p>
+	<!-- <p>
 		To make calculations for savings plans using a spreadsheet, we can use the <c>=FV</c> formula we have already used. This time for regular payments we will use the field for payment amount. If we are not making an initial deposit, the present value will be zero.
-	</p>
+	</p> -->
 	<p>
-		Here is the future value formula again:
+		This formula is used when we want to calculate the future value of a single payment or deposit. Here is the future value formula again:
 	</p>
-	<assemblage>
+	<!-- <assemblage>
 		<title>Future Value Spreadsheet Formula</title>
 		<p>
 			<cd>=FV(rate per period, number of periods, payment amount, present value)</cd>
@@ -84,11 +144,51 @@
 				</li>
 			</dl>
 		</p>
-	</assemblage>
+	</assemblage> -->
 	<p>
-		The mathematical formulas are shown below. If you want to know how we got the formula, it is derived at the end of the chapter.
+		The mathematical formula is shown below.
 	</p>
 	<assemblage>
+		<title>Savings Plan Formulas</title>
+		<p>
+			<me>
+				A(t) = \displaystyle P \left(1+\frac{r}{n}\right)^{n*t}
+			</me>
+		</p>
+		<p>
+			<dl width="narrow">
+				<li>
+					<title>A(t)</title>
+					<p>
+						is the balance in the account after t years (future value)
+					</p>
+				</li>
+				
+				<li>
+					<title>r</title>
+					<p>
+						is the annual interest rate in decimal form
+					</p>
+				</li>
+				<li>
+					<title>n</title>
+					<p>
+						is the number of compounding periods in one year
+					</p>
+				</li>
+				<li>
+					<title>t</title>
+					<p>
+						is the number of years
+					</p>
+				</li>
+			</dl>
+		</p>
+	</assemblage>
+
+	
+
+	<!-- <assemblage>
 		<title>Savings Plan Formulas</title>
 		<p>
 			<me>
@@ -129,35 +229,48 @@
 				</li>
 			</dl>
 		</p>
-	</assemblage>
+	</assemblage> -->
 
-	<p>
+	<!--<p>
 		If the compounding frequency is not explicitly stated, assume there are the same number of compounds in a year as there are deposits made in a year.
+	</p> -->
+	<p>
+		If the compounding is done annually (once a year), <m>n=1</m>.
 	</p>
 	<p>
-		If you make your deposits every year, use yearly compounding, <m>n=1</m>.
+		If the compounding is done quarterly, <m>n=4</m>.
 	</p>
 	<p>
-		If you make your deposits every quarter, use quarterly compounding, <m>n=4</m>.
+		If the compounding is done monthly, <m>n=12</m>,
 	</p>
 	<p>
-		If you make your deposits every month, use monthly compounding, <m>n=12</m>, etc.
+		If the compounding is done weekly, <m>n=52</m>,
 	</p>
 	<p>
-		To see how both of these methods work, let's look at an example.
+		If the compounding is done daily, <m>n=365</m>
 	</p>
-	<example>
-		<statement>
+	
+	<example> 
+		<statement>	
+			<p>
+				
+			<insert><term>Single Deposit in a Savings Account</term></insert>
+				
+			</p>
 		<p>
-			A traditional individual retirement account (IRA) is a special type of retirement account in which the money you invest is exempt from income taxes until you withdraw it. If you deposit $100 each month into an IRA earning 6% APR, how much will you have in the account after 20 years? How much will you have earned in interest? What percentage of the balance is interest?
-		</p>
+		   Violet deposits $4,520.00 in a savings account bearing 1.45% interest compounded annually. If she does not add to or withdraw any of that money, how much will be in the account after 3 years?
+		</p>	
 		</statement>
 		<solution>
 		<p>
-			To use a spreadsheet, we will use <c>=FV</c> because we want to know the balance in the future. We enter 100 for the payment amount and 0 for the present value:
+			To find the compound interest, use the formula from Compound Interest, 
+			<me>
+				A(t) = \displaystyle P \left(1+\frac{r}{n}\right)^{n*t},	
+			</me>
+			where  <em>A</em> represents the amount in the account after  <em>t</em> years, with initial deposit (or principal) of  <em>P</em>, at an annual interest rate, in decimal form of  <em>r</em>, compounded  <em>n</em> times per year. Violet has a principal of $4,520.00, which will earn an interest of  𝑟 = 0.0145, compounded yearly (so  𝑛 = 1), for  𝑡 = 3 years. Substituting and calculating, we find that Violet’s account will be worth
 		</p>
 		
-		<sidebyside valign="middle" widths="40% 54%" margins="0%">
+		<!-- <sidebyside valign="middle" widths="40% 54%" margins="0%">
 			<stack>
 				<p>
 			<cd>=FV(0.06/12, 12*20, 100, 0)</cd>
@@ -169,8 +282,33 @@
 			<image source="images/financial_math/2_3/savings_plan1.png">
 			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
-		</sidebyside>
+		</sidebyside> -->
 		<p>
+			<me>
+				A(t) = \displaystyle P \left(1+\frac{r}{n}\right)^{n*t}
+			</me>
+		</p>
+		<p>
+			<me>
+				A(t) = \displaystyle $4,520 \left(1+\frac{0.0145}{1}\right)^{1*3}
+
+			
+			</me>
+		</p>
+		<p>
+			<me>
+				A(t) = $4,520(1.0145)^{3}
+			</me>
+		</p>
+		<p>
+			<me>
+				A(t) = $4,719.48
+			</me>
+		</p>
+		<p>
+			Violet will have $4,719.48 after 3 years.
+		</p>
+		<!--<p>
 			Remember that the output of the formula gives the answer with the opposite sign as the principal and payments. For our purposes we will ignore the signs. To use the formula, we use the one solved for <em>A</em>, since we want to know the final amount.
 		</p>
 		<p>
@@ -222,14 +360,720 @@
 		</p>
 		<p>
 			or 48.1%. After 20 years 48.1% of the balance is from interest.
-		</p>
+		</p> -->
 		</solution>
 	</example>
 
+
+	<example> 
+		<statement>	
+			<p>
+				
+			<insert><term>Your Turn</term></insert>
+				
+			</p>
+		<p>
+			Brian deposits $5,600 in a savings account that yields 1.23% interest compounded semi-annually. If he leaves that deposit in the account and adds nothing new to the account, what will the account be worth in 5 years?
+		</p>	
+		</statement>
+
+		<solution>
+			<p>
+				$5952.98
+			</p>
+		</solution>
+	</example>	
+	<assemblage>
+		<title>Who Knew</title>
+		<p>
+			Banks have not always offered interest on savings accounts. An 1836 publication from Indiana noted that banks in other states allow small interest on deposits. It specifically says that in these other states, these deposits are what business transactions are based upon. And that giving interest would encourage deposits, and thus increase the business that banks can do.
+		</p>
+	</assemblage>
+
+	<subsection>
+		<title>Certificate of Deposits, or CDs</title>
+		<p>
+			CDs differ from savings accounts in a few ways. First, the investment lasts for a fixed period of time, agreed to when the money is invested in the CD. These time periods often range from 6 months to 5 years. Money from the CD cannot be withdrawn (without penalty) until the investment period is up. Also, money cannot be added to an existing CD.
+		</p>
+		<p>
+			Certificates of deposit have features similar to savings accounts. They are insured by the FDIC. They are entirely safe. They do, though, offer a better interest rate. The trade-off is that once the money is invested in a CD, that money is unavailable until the investment period ends.
+	
+		</p>
+		
+	</subsection>
+
+	<example> 
+		<statement>	
+			<p>
+				
+			<insert><term>Certificate of Deposit</term></insert>
+				
+			</p>
+		<p>
+			Silvio deposits $10,000 in a CD that yields 2.17% compounded semiannually for 5 years. How much is the CD worth after 5 years?
+		</p>	
+		</statement>
+		<solution>
+		<p>
+			This also uses the compound interest formula from Compound Interest, 
+			<me>
+				A(t) = \displaystyle P \left(1+\frac{r}{n}\right)^{n*t},	
+			</me>
+			Substituting the values <em>P</em> = $10,000, <em>r</em> = 0.0217, <em>n</em> = 2 (semiannually means twice per year), <em>t</em> = 5, we find the account will be worth, 
+		</p>
+		<p>
+			<me>
+				A(t) = \displaystyle P \left(1+\frac{r}{n}\right)^{n*t}
+			</me>
+		</p>
+		<p>
+			<me>
+				A(t) = \displaystyle $10,000 \left(1+\frac{0.0217}{2}\right)^{2*5}
+			</me>
+		</p>
+		<p>
+			<me>
+				A(t) = $10,000(1.01085)^{10}
+			</me>
+		</p>
+		<p>
+			<me>
+				A(t) = $11,239.53
+			</me>
+		</p>
+		<p>
+			The CD will be worth $11,239.53 after 5 years.
+		</p>
+	</solution>
+	</example>	
+
+	<example> 
+		<statement>	
+			<p>
+				
+			<insert><term>Your Turn</term></insert>
+				
+			</p>
+		<p>
+			 	
+           Denise deposits $3,500 in a CD bearing 2.23% interest compounded quarterly for 3 years. How much will Denise’s CD be worth after those 3 years?
+		</p>	
+		</statement>
+		<solution>
+			<p>
+				$3,741.46
+			</p>
+		</solution>
+	</example>
+
+<subsection>
+	<title>Money Market Account</title>
 	<p>
-		Now here's an example with an initial deposit and monthly deposits. We can do this with the spreadsheet formula.
+		A <term>money market account</term> is similar to a savings account, except the number of transactions (withdrawals and transfers) is generally limited to six each month. Money market accounts typically have a minimum balance that must be maintained. If the balance in the account drops below the minimum, there is likely to be a penalty. Money market accounts offer the flexibility of checks and ATM cards. 
+		Finally, the interest rate on a money market account is typically higher than the interest rate on a savings account.
+	</p>	
+</subsection>
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Single Deposit to a Money Market Account</term></insert>
+			
+		</p>
+	<p>
+		Marietta opens a money market account, and deposits $2,500.00 in the account. It bears 1.76% interest compounded monthly. 
+		If she makes no other transactions on the account, how much will be in the account after 4 years?
+	</p>	
+	</statement>
+	<solution>
+	<p>
+		This also uses the compound interest formula from Compound Interest, 
+		<me>
+			A(t) = \displaystyle P \left(1+\frac{r}{n}\right)^{n*t},	
+		</me>
+		Substituting the values <em>P</em> = $2,500, <em>r</em> = 0.0176, <em>n</em> = 12, <em>t</em> = 4, we find the account will be worth, 
 	</p>
-	<example>
+	<p>
+		<me>
+			A(t) = \displaystyle P \left(1+\frac{r}{n}\right)^{n*t}
+		</me>
+	</p>
+	<p>
+		<me>
+			A(t) = \displaystyle $2,500 \left(1+\frac{0.0176}{12}\right)^{12*4}
+		</me>
+	</p>
+
+	<p>
+		<me>
+			A(t) = $2,500(1.00146)^{48}
+		</me>
+	</p>
+	<p>
+		<me>
+			A(t) = $2,682.20
+		</me>
+	</p>
+	<p>
+		The money market account will be worth $2,682.20 after 4 years.
+	</p>
+</solution>
+</example>	
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Your Turn</term></insert>
+			
+		</p>
+	<p>
+			 
+	    Chuck opens a money market account, and deposits $8,500.00 in the account. 
+		It bears 1.83% interest compounded quarterly. If he leaves makes no other transactions on the account, how much will be in the account after 3 years?
+	</p>	
+	</statement>
+	<solution>
+		<p>
+			$8,978.57
+		</p>
+	</solution>
+</example>
+
+<subsection>
+	<title>Return on Investment</title>
+	<p>
+		If we want to compare the profitability of different investments, like savings accounts versus other investment tools, we need a measure that evens the playing field. Such a measure is <term>return on investment</term>.	
+	</p>	
+</subsection>
+
+<assemblage>
+	<title>Formula</title>
+	<p>
+		The return on investment, often denoted ROI, is the percent difference between the initial investment, <em>P</em>
+		, and the final value of the investment,  <em>FV</em>.
+		<me>
+			ROI = \displaystyle \dfrac{FV - P}{P}, 
+		</me>
+		expressed as a percentage.
+
+	</p>
+	
+	
+</assemblage>
+
+<assemblage>
+	<title>Checkpoint</title>
+	<p>
+		The length of time of the investment is not considered in ROI.
+	</p>
+</assemblage>
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Calculating Return on Investment</term></insert>
+			
+		</p>
+	<p>
+		Determine the return on investment for the 5-year CD from Example 4.5.3. Round the percentage to two decimal places.
+	</p>	
+	</statement>
+	<solution>
+	<p>
+		The initial deposit in the CD was $10,000, so  <em>P</em> = $10,000. The value at the end of 5 years was $11,239.53. so  <em>FV</em> = $11,239.53. Substituting and computing we find the return on investment.
+		<me>
+			ROI = \displaystyle \dfrac{FV - P}{P},	
+		</me> 
+	</p>
+	<p>
+		<me>
+			ROI = \displaystyle \dfrac{11,239.53 - 10,000}{10,000},
+		</me>
+	</p>
+	<p>
+		<me>
+			ROI = \displaystyle \dfrac{1,239.53}{10,000},
+		</me>
+	</p>
+	<p>
+		<me>
+			ROI = 0.123953
+		</me>
+	</p>
+	<p>
+		The Return on Investment, ROI is 12.40%.
+	</p>
+</solution>
+</example>	
+
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Calculating Return on Investment</term></insert>
+			
+		</p>
+	<p>
+	    Determine the return on investment for the money market account from Example 6.57. Round the percentage to two decimal places.
+	</p>	
+	</statement>
+	<solution>
+	<p>
+		The initial deposit in the money market was $2,500, so  <em>P</em> = $2,500. The value at the end of 4 years was $2,682.20. so  <em>FV</em> = $2,682.20. Substituting and computing we find the return on investment.
+		<me>
+			ROI = \displaystyle \dfrac{FV - P}{P},	
+		</me> 
+	</p>
+	<p>
+		<me>
+			ROI = \displaystyle \dfrac{2,682.20 - 2,500}{2,500},
+		</me>
+	</p>
+	<p>
+		<me>
+			ROI = \displaystyle \dfrac{182.20}{2,500},
+		</me>
+	</p>
+	<p>
+		<me>
+			ROI = 0.07288
+		</me>
+	</p>
+	<p>
+		The Return on Investment, ROI is 7.29%.
+	</p>
+</solution>
+</example>
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Your Turn</term></insert>
+			
+		</p>
+	<p>
+			 
+	   1. The amount of $13,000 is invested in a savings account. After 10 years the account has $15,250.00. Find the return on investment for this account.
+	</p>	
+	<p>
+		2. The amount of $6,500 is deposited in a money market account. After 7 years, the account has $7,358.00. Find the return on investment for this account.
+	</p>
+	</statement>
+	<solution>
+		<p>
+			1. 1731%
+		</p>
+		<p>
+			2. 13.2%
+		</p>
+	</solution>
+</example>
+    
+
+
+<assemblage>
+	<title>Video</title>
+	<p>
+		<url href="https://www.youtube.com/watch?v=O-wq-C-52NY">Return on Investment</url>
+	</p>
+</assemblage>
+
+<subsection>
+	<title>Annuities as Savings</title>
+<p>
+	In <term>Compound Interest</term>, we talked about the future value of a single deposit. In reality, people often open accounts that allow them to add deposits, or payments, to the account at regular intervals. This agrees with the 50-30-20 budget philosophy, 
+	where some income is saved every month. When a deposit is made at the end of each compounding period, such a savings account is called an ordinary annuity.
+</p>
+
+<assemblage>
+	<title>Formula for the Future Value of an Ordinary Annuity </title>
+	<p>
+		The formula for the future value of an ordinary annuity is: 
+		<me>
+			FV = \frac{pmt\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)},
+		</me>
+	 
+	</p>
+	<p>
+		<dl width="narrow">
+			<li>
+				<title>FV</title>
+				<p>
+					is the future value of the annuity.
+				</p>
+			</li>
+			
+			<li>
+				<title>pmt</title>
+				<p>
+					is the payment.
+				</p>
+			</li>
+			<li>
+				<title>r</title>
+				<p>
+					is the annual interest rate (in decimal form)
+				</p>
+			</li>
+			<li>
+				<title>n</title>
+				<p>
+					is the number of compounding periods per year.
+				</p>
+			</li>
+			<li>
+				<title>t</title>
+				<p>
+					is the number of years.
+				</p>
+			</li>
+		</dl>
+	</p>
+</assemblage>
+
+
+<!-- <assemblage>
+		<title>Savings Plan Formulas</title>
+		<p>
+			<me>
+				A=\frac{d\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)} \text{  or  } d=\frac{A\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}
+			</me>
+		</p>
+		<p>
+			<dl width="narrow">
+				<li>
+					<title>A</title>
+					<p>
+						is the balance in the account after n years (future value)
+					</p>
+				</li>
+				<li>
+					<title>d</title>
+					<p>
+						is the regular deposit (or payment amount each month, quarter, year, etc.)
+					</p>
+				</li>
+				<li>
+					<title>r</title>
+					<p>
+						is the annual interest rate in decimal form
+					</p>
+				</li>
+				<li>
+					<title>n</title>
+					<p>
+						is the number of compounding periods in one year
+					</p>
+				</li>
+				<li>
+					<title>t</title>
+					<p>
+						is the number of years
+					</p>
+				</li>
+			</dl>
+		</p>
+	</assemblage> -->
+
+
+<assemblage>
+	<title>Checkpoint</title>
+	<p>
+		1. It is important to note that the number of deposits per year and the number of periods per year are the same.
+	</p>
+	<p>
+		2. Another form of annuity if the annuity due, which has deposits at the start of each compounding period. This other annuity type has different formulas and is not addressed in this text.
+
+	</p>
+</assemblage>
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Future Value of an Ordinary Annuity</term></insert>
+			
+		</p>
+	<p>
+		Jill has an account that bears 3.75% interest compounded monthly. She decides to deposit $250.00 each month, at the end of the compounding period, into this account. What is the future value of this account, after 8 years?
+	</p>	
+	</statement>
+	<solution>
+	<p>
+		These are regular payments into an account bearing compound interest. She is depositing them at the end of each compounding period. This makes this an ordinary annuity. Substituting the values <em>pmt</em> = 250,
+  <em>r</em> = 0.0375,  <em>n</em> = 12, and  <em>t</em> = 8 into the formula, we find the future value of the account.
+		<me>
+			FV=\frac{pmt\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)},	
+		</me> 
+	</p>
+	<p>
+		<me>
+			FV=\frac{250\left(\left(1+\frac{0.0375}{12}\right)^{12*8}-1\right)}{\left(\frac{0.0375}{12}\right)},
+		</me>
+	</p>
+	<p>
+		<me>
+			FV=\frac{250\left(\left(1.003125)^{96}-1\right)}{0.003125},
+		</me>
+	</p>
+	<p>
+		<me>
+			FV = 27.938.202
+		</me>
+	</p>
+	<p>
+		The account, after 8 years will contain $27,938.20.
+	</p>
+</solution>
+</example>	
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Your Turn</term></insert>
+			
+		</p>
+	<p>
+			 
+		Kelly invests $525 every third month (quarterly payments), at the end of the compounding period, 
+		into an account bearing 3.89% interest compounded quarterly. How much will be in the account after 15 years?
+	</p>	
+	</statement>
+	<solution>
+		<p>
+			$42,499.63
+		</p>
+	</solution>
+</example>
+
+<assemblage>
+	<title>Setting Savings Account Interest Rates</title>
+	<p>
+		There are a number of factors that contribute to the amount a bank gives for savings accounts. The interest rate reflects how much the bank values deposits. It also reflects the money that the bank will earn when they lend out money. 
+		Finally, interest rates are impacted by the Federal Reserve Bank. When the Fed raises interest rates, so do banks.
+	</p>
+</assemblage>
+
+<assemblage>
+	<title>The Federal Reserve Chairperson</title>
+	<p>
+		The Federal Reserve Board monitors the risks in the financial system to help ensure a healthy economy for individuals, companies, and communities. 
+		The Board oversees the 12 regional reserve banks. The Chairperson of the Federal Reserve Board testifies to Congress twice per year, meets with the secretary of the Treasury, chairs the Federal Open Market Committee, and is the face of federal monetary policy. 
+		Currently, the Fed Chair is Jerome Powell, who has served since 2018.
+	</p>
+</assemblage>
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Future Value of an Ordinary Annuity: Saving for College</term></insert>
+			
+		</p>
+	<p>
+		When Yusef was born, Rita and George began to save for Yusef’s college years by investing $2,500 each year in a savings account bearing 3.4% interest compounded annually. 
+		How much will they have saved after 18 years?
+	</p>	
+	</statement>
+	<solution>
+	<p>
+		To find the future value of the account, we use the ordinary annuity formula;
+		<me>
+			FV=\frac{pmt\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)},	
+		</me> 
+		
+		The payment <em>pmt</em> = $2,500, the interest rate <em>r</em> = 0.034 (as a decimal) the number of compunding periods <em>n</em> = 1, the number of  years, <em>t</em> = 18. We find the future value of the account by substituting these values and computing,
+		<me>
+			FV=\frac{pmt\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)},	
+		</me> 
+	</p>
+	<p>
+		<me>
+			FV=\frac{2500\left(\left(1+\frac{0.034}{1}\right)^{1*18}-1\right)}{\left(\frac{0.034}{1}\right)},
+		</me>
+	</p>
+	<p>
+		<me>
+			FV=\frac{2500\left(\left(1.034)^{18}-1\right)}{0.034},
+		</me>
+	</p>
+	<p>
+		<me>
+			FV = $60,694.77
+		</me>
+	</p>
+	<p>
+		After saving for 18 years, Rita and George will have $60,694.77 for Yusef’s college.
+	</p>
+</solution>
+</example>
+
+<example> 
+	<statement>	
+		<p>
+			
+		<insert><term>Your Turn</term></insert>
+			
+		</p>
+	<p>
+		Bemnet saves $280 per month in a savings account bearing 3.11% interest compounded monthly. 
+		After 20 years, how much does Bemnet have in the account?	 
+	
+	</p>	
+	</statement>
+	<solution>
+		<p>
+			$93,037.59
+		</p>
+	</solution>
+</example>
+</subsection>
+
+<subsection>
+	<title>Compute Payment to Reach a Financial Goal</title>
+	<p>
+		The formula used to get the future value of an ordinary annuity is useful, finding out what the final amount in the account will be. 
+		However, that isn’t how planning works. To plan, we need to know how much to put into the ordinary annuity each compounding period in order to reach a goal. 
+		Fortunately, that formula exists.
+	</p>
+	
+	<assemblage>
+		<title>Formula for the Amount that Needs to be Deposited per period <em>pmt</em>, of an ordinary annuity </title>
+		<p>
+			The formula for the amount that needs to be deposited per period, <em>pmt</em>, of an ordinary annuity to reach a specified goal,  <em>FV</em> is:
+			<me>
+				pmt = \frac{FV\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}, 
+			</me>
+		 
+		</p>
+		<p>
+			<dl width="narrow">
+				<li>
+					<title>pmt</title>
+					<p>
+						is the payment to be calculated for.
+					</p>
+				</li>
+				
+				<li>
+					<title>FV</title>
+					<p>
+						is the future value of the annuity.
+					</p>
+				</li>
+				<li>
+					<title>r</title>
+					<p>
+						is the annual interest rate (in decimal form)
+					</p>
+				</li>
+				<li>
+					<title>n</title>
+					<p>
+						is the number of compounding periods per year.
+					</p>
+				</li>
+				<li>
+					<title>t</title>
+					<p>
+						is the number of years.
+				
+					</p>
+					<p>
+						With this formula, it is possible to plan the amount to be saved
+					</p>
+				</li>
+			</dl>
+		</p>
+	</assemblage>
+
+	<example> 
+		<statement>	
+			<p>
+				
+			<insert><term>Saving For a Car</term></insert>
+				
+			</p>
+		<p>
+			Yaroslava wants to save in order to buy a car, in 3 years, without taking out a loan. She determines that she willl need $35,500 for the purchase. 
+			If she deposits money into an ordinary annuity that yields 4.25% interest compounded monthly, how much will she need to deposit each month?
+		</p>	
+		</statement>
+		<solution>
+		<p>
+			Yaroslava has a goal and needs to know the payments to make to reach the goal. Her goal is  <em>FV</em> = $35,500, with an interest rate  <em>r</em> = 0.0425, compounded per month so  <em>n</em> = 12, and for 3 years, making  <em>t</em> = 3. 
+			Substituting into the formula, Yaroslava finds the necessary payment.
+			<me>
+				pmt = \frac{FV\left(\frac{r}{n}\right)}{\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}, 	
+			</me> 
+			
+			<me>
+				pmt = \frac{35,500\left(\frac{0.0425}{12}\right)}{\left(\left(1+\frac{0.0425}{12}\right)^{12*3}-1\right)}, 
+			</me> 
+		</p>
+		<p>
+			<me>
+				pmt = \frac{35,500 * 0.0035416}{1.0035416^{36}-1},
+			</me>
+		</p>
+		<p>
+			<me>
+				pmt = \frac{125.72916}{0.13572901696}
+			</me>
+		</p>
+		<p>
+			<me>
+				pmt = 926.325
+			</me>
+		</p>
+		<p>
+			To reach her goal, Yaroslava would need to deposit $926.33 in her account each month.
+		</p>
+	</solution>
+	</example>
+	
+	<assemblage>
+		<title>Checkpoint</title>
+		<p>
+			This has been rounded up, so that the deposits don’t fall short of the goal. 
+			However, some round off using the standard rounding rules: if the last digit is 1, 2, 3, or 4, the number is rounded down; if the last digit is 5, 6, 7, 8, or 9 the number is rounded up.
+		</p>
+	</assemblage>
+
+	<example> 
+		<statement>	
+			<p>
+				
+			<insert><term>Your Turn</term></insert>
+				
+			</p>
+		<p>
+			Chione decides to put new siding on her house. She finds that it will cost about $27,800. 
+			She decides to begin saving for the purchase so that she doesn’t take on debt to side the house. How much would Chione need to deposit each quarter in an ordinary annuity that yields 5.16% compounded quarterly for 5 years?	 
+		
+		</p>	
+		</statement>
+		<solution>
+			<p>
+				$1,227.29
+			</p>
+		</solution>
+	</example>
+
+	
+</subsection>
+
+
+	<!-- <p>
+		Now here's an example with an initial deposit and monthly deposits. We can do this with the spreadsheet formula.
+	</p> -->
+	<!--<example>
 		<statement>
 		<p>
 			You want to jumpstart your saving by depositing $1500 from your tax return and then deposit $150 every month into an account that earns 5.5% APR compounded monthly. How much will you have in the account after 30 years?
@@ -254,10 +1098,10 @@
 			</image>
 		</sidebyside>
 	</solution>
-	</example>
+	</example> -->
 
 </subsection>
-<subsection>
+<!-- <subsection>
 	<title>Finding Payment Amounts Usings Spreadsheets and Formulas</title>
 	<p>
 		Another important thing we can calculate is how much we need to save in each period to have a specified amount in the future. Say you want to achieve a certain amount for retirement or for your kids' college.
@@ -432,9 +1276,9 @@
 		</p>
 	</solution>
 	</example>
-</subsection>
+</subsection> -->
 
-<subsection>
+<!-- <subsection>
 	<title>Comparing Lump Sum and Regular Savings Payments</title>
 	<p>
 		Now let's compare two scenarios to do some multistep problems and get a sense for the value of compounding over time.
@@ -543,8 +1387,9 @@
 	</solution>
 	</example>
 
-</subsection>
-<subsection>
+</subsection> -->
+
+<!-- <subsection>
 	<title>Deriving the Savings Plan Formula (Optional)</title>
 	<p>
 		If you are interested in where the savings plan formula came from, we will explain it here. A savings plan with regular payments can be described recursively. Recall that basic compound interest follows from the relationship for each compound period.
@@ -710,7 +1555,7 @@
 			<alert>If the compounding frequency is not explicitly stated, assume there are the same number of compounds in a year as there are deposits made in a year</alert>
 		</p>
 	</assemblage>
-</subsection>
+</subsection> -->
 
 <exercises>
 	<exercise>
