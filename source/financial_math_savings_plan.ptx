@@ -365,13 +365,8 @@
 	</example>
 
 
-	<example> 
+	<exercise> 
 		<statement>	
-			<p>
-				
-			<insert><term>Your Turn</term></insert>
-				
-			</p>
 		<p>
 			Brian deposits $5,600 in a savings account that yields 1.23% interest compounded semi-annually. If he leaves that deposit in the account and adds nothing new to the account, what will the account be worth in 5 years?
 		</p>	
@@ -379,10 +374,10 @@
 
 		<solution>
 			<p>
-				$5952.98
+				$5,954.09
 			</p>
 		</solution>
-	</example>	
+	</exercise>	
 	<assemblage>
 		<title>Who Knew</title>
 		<p>
@@ -402,7 +397,7 @@
 		
 	</subsection>
 
-	<example> 
+	<example xml:id="example_4"> 
 		<statement>	
 			<p>
 				
@@ -447,13 +442,8 @@
 	</solution>
 	</example>	
 
-	<example> 
+	<exercise> 
 		<statement>	
-			<p>
-				
-			<insert><term>Your Turn</term></insert>
-				
-			</p>
 		<p>
 			 	
            Denise deposits $3,500 in a CD bearing 2.23% interest compounded quarterly for 3 years. How much will Denise’s CD be worth after those 3 years?
@@ -464,7 +454,7 @@
 				$3,741.46
 			</p>
 		</solution>
-	</example>
+	</exercise>
 
 <subsection>
 	<title>Money Market Account</title>
@@ -474,7 +464,7 @@
 	</p>	
 </subsection>
 
-<example> 
+<example xml:id="example_5"> 
 	<statement>	
 		<p>
 			
@@ -521,13 +511,8 @@
 </solution>
 </example>	
 
-<example> 
+<exercise> 
 	<statement>	
-		<p>
-			
-		<insert><term>Your Turn</term></insert>
-			
-		</p>
 	<p>
 			 
 	    Chuck opens a money market account, and deposits $8,500.00 in the account. 
@@ -539,7 +524,7 @@
 			$8,978.57
 		</p>
 	</solution>
-</example>
+</exercise>
 
 <subsection>
 	<title>Return on Investment</title>
@@ -572,13 +557,13 @@
 
 <example> 
 	<statement>	
-		<p>
+		<!-- <p>
 			
 		<insert><term>Calculating Return on Investment</term></insert>
 			
-		</p>
+		</p> -->
 	<p>
-		Determine the return on investment for the 5-year CD from Example 4.5.3. Round the percentage to two decimal places.
+		Determine the return on investment for the 5-year CD from <xref ref="example_4"/>. Round the percentage to two decimal places.
 	</p>	
 	</statement>
 	<solution>
@@ -618,7 +603,7 @@
 			
 		</p>
 	<p>
-	    Determine the return on investment for the money market account from Example 6.57. Round the percentage to two decimal places.
+	    Determine the return on investment for the money market account from <xref ref="example_5"/>. Round the percentage to two decimal places.
 	</p>	
 	</statement>
 	<solution>
@@ -649,13 +634,8 @@
 </solution>
 </example>
 
-<example> 
+<exercise> 
 	<statement>	
-		<p>
-			
-		<insert><term>Your Turn</term></insert>
-			
-		</p>
 	<p>
 			 
 	   1. The amount of $13,000 is invested in a savings account. After 10 years the account has $15,250.00. Find the return on investment for this account.
@@ -666,22 +646,21 @@
 	</statement>
 	<solution>
 		<p>
-			1. 1731%
+			1. 17.31%
 		</p>
 		<p>
 			2. 13.2%
 		</p>
 	</solution>
-</example>
+</exercise>
     
+<figure>
 
+    <caption>Return on Investment</caption>
 
-<assemblage>
-	<title>Video</title>
-	<p>
-		<url href="https://www.youtube.com/watch?v=O-wq-C-52NY">Return on Investment</url>
-	</p>
-</assemblage>
+    <video youtube="O-wq-C-52NY"/>
+
+</figure>
 
 <subsection>
 	<title>Annuities as Savings</title>
@@ -808,17 +787,17 @@
 		These are regular payments into an account bearing compound interest. She is depositing them at the end of each compounding period. This makes this an ordinary annuity. Substituting the values <em>pmt</em> = 250,
   <em>r</em> = 0.0375,  <em>n</em> = 12, and  <em>t</em> = 8 into the formula, we find the future value of the account.
 		<me>
-			FV=\frac{pmt\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)},	
+			FV = \frac{pmt\left(\left(1+\frac{r}{n}\right)^{nt}-1\right)}{\left(\frac{r}{n}\right)},	
 		</me> 
 	</p>
 	<p>
 		<me>
-			FV=\frac{250\left(\left(1+\frac{0.0375}{12}\right)^{12*8}-1\right)}{\left(\frac{0.0375}{12}\right)},
+			FV = \frac{250\left(\left(1+\frac{0.0375}{12}\right)^{12*8}-1\right)}{\left(\frac{0.0375}{12}\right)},
 		</me>
 	</p>
 	<p>
 		<me>
-			FV=\frac{250\left(\left(1.003125)^{96}-1\right)}{0.003125},
+			FV = \dfrac{250((1.003125)^{96}-1)}{0.003125}
 		</me>
 	</p>
 	<p>
@@ -832,13 +811,8 @@
 </solution>
 </example>	
 
-<example> 
+<exercise> 
 	<statement>	
-		<p>
-			
-		<insert><term>Your Turn</term></insert>
-			
-		</p>
 	<p>
 			 
 		Kelly invests $525 every third month (quarterly payments), at the end of the compounding period, 
@@ -850,7 +824,7 @@
 			$42,499.63
 		</p>
 	</solution>
-</example>
+</exercise>
 
 <assemblage>
 	<title>Setting Savings Account Interest Rates</title>
@@ -900,7 +874,7 @@
 	</p>
 	<p>
 		<me>
-			FV=\frac{2500\left(\left(1.034)^{18}-1\right)}{0.034},
+			FV=\dfrac{2,500((1.034)^{18}-1)}{0.034}
 		</me>
 	</p>
 	<p>
@@ -914,13 +888,8 @@
 </solution>
 </example>
 
-<example> 
+<exercise> 
 	<statement>	
-		<p>
-			
-		<insert><term>Your Turn</term></insert>
-			
-		</p>
 	<p>
 		Bemnet saves $280 per month in a savings account bearing 3.11% interest compounded monthly. 
 		After 20 years, how much does Bemnet have in the account?	 
@@ -932,7 +901,7 @@
 			$93,037.59
 		</p>
 	</solution>
-</example>
+</exercise>
 </subsection>
 
 <subsection>
@@ -1037,34 +1006,28 @@
 		</p>
 	</solution>
 	</example>
-	
-	<assemblage>
-		<title>Checkpoint</title>
+
+	<note>
 		<p>
 			This has been rounded up, so that the deposits don’t fall short of the goal. 
 			However, some round off using the standard rounding rules: if the last digit is 1, 2, 3, or 4, the number is rounded down; if the last digit is 5, 6, 7, 8, or 9 the number is rounded up.
 		</p>
-	</assemblage>
-
-	<example> 
+	</note>
+	
+	<exercise> 
 		<statement>	
-			<p>
-				
-			<insert><term>Your Turn</term></insert>
-				
-			</p>
 		<p>
 			Chione decides to put new siding on her house. She finds that it will cost about $27,800. 
-			She decides to begin saving for the purchase so that she doesn’t take on debt to side the house. How much would Chione need to deposit each quarter in an ordinary annuity that yields 5.16% compounded quarterly for 5 years?	 
+			She decides to begin saving for the purchase so that she doesn’t take on debt to side the house. How much would Chione need to deposit every 6 months in an ordinary annuity that yields 5.16% compounded semi-annually for 5 years?	 
 		
 		</p>	
 		</statement>
 		<solution>
 			<p>
-				$1,227.29
+				$2,250.60
 			</p>
 		</solution>
-	</example>
+	</exercise>
 
 	
 </subsection>
