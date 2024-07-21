@@ -6,28 +6,677 @@
 	<title><xref ref="financial_math_personal_budget"></xref>: Empty for now</title>
 	<introduction>
 		<p>
-			More to come
+			After completing this section, you should be able to:
 		</p>
 	</introduction>
 		<ul>
 			<li>
 				<p>
-					More to come
+					Create a personal budget with the categories of expenses and income.
+				</p>
+			</li>
+			<li>
+				<p>
+					Apply general guidelines for a budget.
 				</p>
 			</li>
 		</ul>
 </objectives>
 
-<subsection xml:id="subsec-">
-	<title>A Subsection</title>
+<p>
+	<term>A budget</term> is an outline of how money and resources should be spent. Companies have them, individuals have them, your college has one. But do you have one?
+</p>
+<p>
+	Creating a realistic budget is an important step in careful stewardship of your financial health. Designing your budget will help understand the financial priorities you have, and the constraints on your life choices. You want to have enough income to pay not only for the necessities, but also for things that represent your wants, like trips or dinner out. You also may want to save money for large purchases or retirement. You do not want to just get by, and you do not want the problems associated with overdue balances, rising debt, and possibly losing something you have worked hard to obtain.
+</p>
+<p>
+	While creating a budget may seem intimidating at first, coming up with your basic budget outline is the hardest part. Over time, you will adjust not only the numbers, but the categories.
+</p>
+
+<subsection xml:id="Creating_a_budget">
+	<title> Creating a Budget</title>
+	<p>
+		You should view creating a budget as a financial tool that will help you achieve your long-term goals. A budget is an estimation of income and expenses over some period of time. You will be able to track your progress, which will help you to prepare for the future by making smart investment decisions.
+	</p>
+
+	<p>
+		There are several budget-creating tools available, such as the apps Good budget and Mint, and Google Sheets. Getting started, though, begins well before you find an app. The following are steps that can be used to create your monthly budget.
+		<ol>
+			<li>
+				<p>
+					<term>Track your income and expenses</term> Review your income and expenses for the past 6 months to a year. This will give you an idea of your current habits.
+				</p>
+			</li>
+			<li>
+				<p>
+					<term>Set your income baseline</term> Determine all the sources of income you will have. This income may from paychecks, investments, or freelance work. It even includes child support and gifts. Be sure to use income after taxes. This allows you to determine your maximum expenditures per month.
+
+				</p>
+			</li>
+			<li>
+				<p>
+					<term>Determine your expenses</term> Review your bills from the past 6 months. You should include mortgage payments or rent, insurance, car payments, utilities, groceries, transportation expenses, personal care, entertainment, and savings. Using your credit card statements and bank statements will help you determine these amounts. Be aware that some of the expenses will not change over time. These are referred to as <term>fixed expenses</term>, like rent, car payments, insurance, internet service, and the like. Other expenses may vary widely from month to month and are appropriately called <term>variable expenses</term>, and include such expenses as gasoline, groceries.
+				</p>
+			</li>
+			<li>
+				<p>
+					<term>Categorize your expenses</term> These categories may be housing, transportation, or food, for broad categories, or may get more specific, where you categorize car payments, car insurance, and gasoline separately. The categories are your choices. Be sure to account for the cost of maintaining a vehicle or home. The more specific you are, the better you’ll understand your spending needs and habits.
+				</p>
+			</li>
+			<li>
+				<p>
+					<term>Total your monthly income and monthly expenses and compare</term> These values should be compared. If your expenses are higher than your income, then adjustments have to be made. Decisions of what to do with any extra income is part of the planning process also.
+				</p>
+			</li>
+			<li>
+				<p>
+					<term>Make plans for unplanned expenses</term> Ask anyone, an unexpected car repair can ruin a carefully crafted budget. Have a plan for how you can be ready for these random expenses. This often means creating a cushion in your budget.
+				</p>
+			</li>
+			<li>
+				<p>
+					<term>Use your budget to make decisions and adjust for any changes</term> Your budget is a changeable document. Add to it when you wish, refer to it when special purchases are to be made. Keeping your budget up to date helps accommodate changes in income and expenses.
+				</p>
+			</li>
+		</ol>
+	</p>
+
+	<figure>
+
+		<caption>Creating a BUdget</caption>
 	
+		<video youtube="K5UlgTkadV0"/>
+	
+	</figure>
+	<p>
+		In this section, we will focus on income and expenses. One of the easiest ways to manage a budget is to create a table, with one column containing income sources, another with income values, a third with expense categories, and a last containing expenses. An example is shown in Table 6.1.
+	</p>
+
+	<assemblage>
+		<title>Gross Pay and Take Home Pay </title>
+		<p>
+			If you’ve ever had a paycheck, you know that taxes are taken out of your pay before you get your check. This amount of money varies from state to state, and sometimes even city to city. For a person making $50,000 per year gross salary in Salt Lake City, Utah, take home pay is about 75.6% of gross salary. In Detroit, Michigan, take home pay is about 74.5% of gross salary. Lakeland, Florida, take home pay is about 80.5% of gross salary. These also change based on how much a person earns! Before choosing a place to live, it makes sense to determine how much deductions from pay will impact your income.
+		</p>
+	</assemblage>
+
+	<example xml:id="example_6">
+		<statement>
+			<p>
+				Heather has graduated college and currently works as a nurse for a rural medical group. Her net monthly income from that job is <m>\$3,765.40</m>. She also works part-time on the weekends, earning another <m>\$672.00</m> per month. Her monthly expenses are rent at <m>\$1,050,</m> car payments at <m>\$489</m>, student loan payments at <m>\$728</m>, car insurance at <m>\$139</m>, utilities at <m>\$130</m>, clothing at <m>\$150</m>, entertainment (going out with friends, Netflix, Amazon Prime, movies) at <m>\$300</m>, credit card debt at <m>\$200</m>, food at <m>\$360</m>, and gasoline at <m>\$275.</m> Create her budget in a table, compare the total income to total expenses, and determine how much excess income per month she has or how much she falls short by each month.
+			</p>
+		</statement>
+		<solution>
+			<p>
+				<term>Step 1</term>: To begin, we create the table with appropriate headings.
+			</p>
+			<table>
+				<title></title>
+				<tabular>
+					<row header="yes" bottom="medium">
+						<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+					</row>
+				</tabular>
+			</table>
+
+			<p>
+				<term>Step 2</term>: Her income categories are her nursing job, with <m> \$3,765.40 </m> per month, and her part-time job, with <m>\$672.00</m> per month. Entering these into the table, we have the following.
+			</p>
+			<table>
+				<title></title>
+				<tabular>
+					<row header="yes" bottom="medium">
+						<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+					</row>
+					<row>
+						<cell>Nursing</cell><cell>$3,765.40</cell><cell></cell><cell></cell>
+					</row>
+					<row>
+						<cell>Part-time</cell><cell>$672.00</cell><cell></cell><cell></cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				<term>Step 3</term>: Her monthly expenses are listed above. Entering the categories and the amount for each of those expenses, the table is now
+			</p>
+			<table>
+				<title></title>
+				<tabular>
+					<row header="yes" bottom="medium">
+						<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+					</row>
+					<row>
+						<cell>Nursing</cell><cell>$3,765.40</cell><cell>Rent</cell><cell>$1,050</cell>
+					</row>
+					<row>
+						<cell>Part-time</cell><cell>$672.00</cell><cell>Car Payment</cell><cell>$489</cell>
+					</row>
+					<row>
+						<cell><term>Total</term></cell><cell><term>$4,437.40</term></cell><cell>Student Loan</cell><cell>$728</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Car Insurance</cell><cell>$139</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Utilities</cell><cell>$130</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Clothing</cell><cell>$150</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Entertainment</cell><cell>$300</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Credit Card</cell><cell>$200</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Food</cell><cell>$400</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Gasoline</cell><cell>$250</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell><term>Total</term></cell><cell><term>$3,836</term></cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				<term>Step 4</term>: Totaling the income and expenses, we see that her total income is <m>\$4,437.40</m> per month, and her total expenses are <m>\$3,836 </m> per month. Comparing these, we see that Heather has <m>\$601.40</m> in excess income per month. This provides a cushion in her budget.
+			</p>
+		</solution>
+	</example>
+
+		<exercise>
+			<statement>
+				<p>
+					Mateo works as a union electrician in a suburban area. Monthly, his take home pay is <m>\$3,375.</m> He sometimes does small side jobs for family or friends, and averages about <m>\$300</m> per month from these little jobs. His monthly expenses are his mortgage at <m>\$986.78,</m> truck payments at <m>\$589.00</m>, truck insurance at <m>\$312</m>, utilities at <m>\$167</m>, clothing at <m>\$150</m>, entertainment at <m>\$400</m>, credit card debt at <m>\$325</m>, food at <m>\$470</m>, and gasoline at <m>\$375</m>. Create Mateo’s budget in a table, compare the total income to total expenses, and determine how much excess income per month he has or how much he falls short by each month.
+
+				</p>
+			</statement>
+		</exercise>
+	
+		<example>
+			<statement>
+				<p>
+					<term>Creating a Budget</term>
+				</p>
+				<p>
+					Carol is working in a dental lab, creating dentures and bridges. Monthly her take home pay is $2,816 (based on $22 per hour minus payroll taxes). She also receives $320 per month in child support for her one daughter. Her monthly expenses are rent at $700, car payments at $229, student loan payments at $250, car insurance at $119, health insurance at $225, utilities at $80, clothing at $75, entertainment at $200, food at $275, and gasoline at $275. Create Carol’s budget in a table, compare the total income to total expenses, and determine how much excess income per month she has or how much she falls short by each month.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					<term>Step 1</term>: To begin, we create the table with appropriate headings.
+				</p>
+				<table>
+					<title></title>
+					<tabular>
+						<row header="yes" bottom="medium">
+							<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+						</row>
+					</tabular>
+				</table>
+				<p>
+					<term>Step 2</term>: Her income categories are from work, $2,816, and child support, $320, per month. Entering these into the table, we have the following.
+				</p>
+				<table>
+					<title></title>
+					<tabular>
+						<row header="yes" bottom="medium">
+							<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+						</row>
+						<row>
+							<cell>Job</cell><cell>$2,816.00</cell><cell></cell><cell></cell>
+						</row>
+						<row>
+							<cell>Child support</cell><cell>$320.00</cell><cell></cell><cell></cell>
+						</row>
+					</tabular>
+				</table>
+				<p>
+					<term>Step 3</term>: Her monthly expenses are listed above. Entering the categories and the amount for each of those expenses, the table is now
+				</p>
+				<table>
+					<title></title>
+					<tabular>
+						<row header="yes" bottom="medium">
+							<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+						</row>
+						<row>
+							<cell>Job</cell><cell>$2,816.00</cell><cell>Rent</cell><cell>$700</cell>
+						</row>
+						<row>
+							<cell>Child support</cell><cell>$320.00</cell><cell>Car Payment</cell><cell>$229</cell>
+						</row>
+						<row>
+							<cell><term>Total</term></cell><cell>$3,136.00</cell><cell>Student Loan</cell><cell>$250</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Car Insurance</cell><cell>$119</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Utilities</cell><cell>$80</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Health insurance</cell><cell>$225</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Clothing</cell><cell>$75</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Entertainment</cell><cell>$200</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Food</cell><cell>$275</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Gasoline</cell><cell>$275</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell><term>Total</term></cell><cell>$2,428.00</cell>
+						</row>
+					</tabular>
+				</table>
+			</solution>
+		</example>
+
+		<exercise>
+			<statement>
+				<p>
+					Maddy works as a mechanical engineer, making $6,093.75 monthly after payroll taxes. Her monthly expenses are her mortgage at $1,452.89, car payments at $627.38, car insurance at $179.00, health insurance at $265.00, utilities at $320, clothing at $150, entertainment at $400, credit card debt at $450, food at $370, and gasoline at $175. Create Maddy’s budget in a table, compare the total income to total expenses, and determine how much excess income per month she has or how much she falls short by each month.
+
+				</p>
+			</statement>
+		</exercise>
+
+		<p>
+			Using the budget process, we can make decisions on adding expenses to the budget. To do so, check the cushion of the budget to see if there is room in the budget for the new expense.
+		</p>
+		
+		<example>
+			<statement>
+				<p>
+					<term>Adding to an Existing Budget</term>
+				</p>
+				<p>
+					In the example above, Carol had excess income of $708.00. She looks up the cost of before-school care for her daughter. She finds that, monthly, the cost would be $252.00 per month. Is this an affordable program for Carol? Add this expense to her budget table.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					She can afford this, as the cost for the before school program is $252.00 and she had extra income of $708.00. Adding this to her budget, her budget table is now
+				</p>
+				<table>
+					<title></title>
+					<tabular>
+						<row header="yes" bottom="medium">
+							<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+						</row>
+						<row>
+							<cell>Job</cell><cell>$2,816.00</cell><cell>Rent</cell><cell>$700</cell>
+						</row>
+						<row>
+							<cell>Child support</cell><cell>$320.00</cell><cell>Car Payment</cell><cell>$229</cell>
+						</row>
+						<row>
+							<cell><term>Total</term></cell><cell>$3,136.00</cell><cell>Student Loan</cell><cell>$250</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Car Insurance</cell><cell>$119</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Utilities</cell><cell>$80</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Health insurance</cell><cell>$225</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Clothing</cell><cell>$75</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Entertainment</cell><cell>$200</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Food</cell><cell>$275</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Gasoline</cell><cell>$275</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Before-school care</cell><cell>$252</cell>
+						</row>
+					</tabular>
+				</table>
+				<p>
+					Now, she has <m>\$456</m> in excess income per month.
+				</p>
+
+			</solution>
+		</example>
+
+		<exercise>
+			<statement>
+				<p>
+					Recall Heather’s budget from <xref ref="example_6"/>. She decides she wants to buy her own home, which would increase her expenses. Instead of $1,050.00 in rent, she would pay $1,240.00 for her mortgage. Her utilities costs would increase to $295.00 per month. Add these to Heather’s budget to determine if the changes are affordable.
+				</p>
+			</statement>
+		</exercise>	
 </subsection>
 
+<subsection xml:id="The_50_30_20_budget_philosophy">
+	<title>The 50-30-20 Budget Philosophy</title>
+	<p>
+		It isn’t clear, obvious, or easy to decide how much of your income to allocate to various categories of expenses. Many people pay their bills and then consider all the leftover money to be spending money. However, when developing your own budget, you may want to follow the <term> 50-30-20 budget philosophy </term>, which provides a basic guideline for how your income could be allocated. Fifty percent of your budget is allotted to your needs, 30% of your budget is allotted to pay for your wants, and 20% of your budget is allotted for savings and debt service (paying off your debts).
+	</p>
+	<p>
+		Knowing what expenses are necessary and what expenses are wants is important, since wants and needs are often confused. The following are <term>necessary expenses</term> that represent basic living requirements and debt services. This list isn’t complete: mortgage/rent, utilities, car, car insurance, health care, groceries, gasoline, child care (for working parents), and minimum debt payments. The 50-30-20 budget philosophy suggests that 50%, or half, your income go to these necessities.
+	</p>
+	<p>
+		Wants, though, are things you could live without but still wish to have, such as Amazon Prime, restaurant dinners, coffee from Starbucks, vacation trips, and hobby costs. Even a gym membership or that new laptop are wants. Creating the room to afford these wants is important to our mental health. Not budgeting for things we want will negatively impact our quality of life.
+	</p>
+	<p>
+		The remaining 20% should be set aside, either in retirement funds, stocks, other investments, an emergency fund (recommendations are that an emergency fund have 3 months of income), and perhaps extra spent to pay down debt. This 20% is very useful for addressing those unexpected costs, such as repairs or replacement of items that no longer work. Without budgeting this cushion, any expense that is a surprise can cause us to miss necessary payments.
+	</p>
+	<p>
+		The list of necessary expenses was not complete. There are other expenses that could be included.
+	</p>
 
-<exercises>
+	<subsubsection xml:id="subsec_3">
+		<title>Necessary Expenses and Expenses that are Wants</title>
+		<p>
+			For some people, an expense will be necessary while the same expense for someone else will be a want. A good example of this is internet service. Many people consider internet service as a need, especially those who work from home or who are not able to leave their homes. One could also call internet service a need if they have children in school. For others, internet service is a want. If a person’s job doesn’t require them to be online, if they are not in school, if they do not have kids, then internet service can be dropped. There are public options for internet service. One could even use their phone as a hot spot.
+		</p>
+		<p>
+			Cars often fall into the category of need, but could also fall into the want category, depending on where and how you live. Bikes, public transportation, and walking are all options that could replace a car. This would then remove the cost of gasoline and car insurance.
+		</p>
+		<p>
+			Another consideration when deciding if an item on your budget is a need or a want is about your choices and priorities. A car is a need for many. But the need for a car is not the same as the need for a specific car. If you choose to buy a car with payments that exceed your budgeted amount for the car, then that car is a want. The amount you exceed the budget now belongs in the want category.
+		</p>
+		<p>
+			The same can be said for housing. If you want an apartment that costs $1,250 per month, but your budget only allows for an apartment that costs $900, then $350 of the rent is a want.
+		</p>
+		<p>
+			The point of that is to carefully consider if an expense is a need as opposed to a want.
+		</p>
+		<p>
+			When your expenses exceed your income, you may want to change how you budget your income to line up with these guidelines. This may mean cutting back, finding less-expensive living arrangements, finding a less-expensive (and more fuel-efficient) car, or sacrificing some specialty groceries. Using these guidelines keeps your financial life manageable.
+		</p>
+		<p>
+			Better still, they can guide you as you begin your life after graduation.
+		</p>
 
+		<example>
+			<statement>
+				<p>
+					<term>Evaluate a Budget Using 50-30-20 model</term>
+				</p>
+				<p>
+					In the example above, after Carol added before school care for her daughter to the budget, her budget was as shown below. Evaluate Carol’s budget using the 50-30-20 budget philosophy.
+				</p>
 
+				<table>
+					<title></title>
+					<tabular>
+						<row header="yes" bottom="medium">
+							<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+						</row>
+						<row>
+							<cell>Job</cell><cell>$2,816.00</cell><cell>Rent</cell><cell>$700</cell>
+						</row>
+						<row>
+							<cell>Child support</cell><cell>$320.00</cell><cell>Car Payment</cell><cell>$229</cell>
+						</row>
+						<row>
+							<cell><term>Total</term></cell><cell>$3,136.00</cell><cell>Student Loan</cell><cell>$250</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Car Insurance</cell><cell>$119</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Utilities</cell><cell>$80</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Health insurance</cell><cell>$225</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Clothing</cell><cell>$75</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Entertainment</cell><cell>$200</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Food</cell><cell>$275</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Gasoline</cell><cell>$275</cell>
+						</row>
+						<row>
+							<cell></cell><cell></cell><cell>Before-school care</cell><cell>$252</cell>
+						</row>
+					</tabular>
+				</table>
 
+			</statement>
+		
+		<solution>
+			<p>
+				Carol’s total income is <m>\$3,136.</m> Applying the 50-30-20 budget philosophy to this income requires the calculation of each of those percentages.
+			</p>
+			<p>
+				For the necessities, Carol should budget <m>50\%</m> of her income, or  <m>.05 * \$3,136 = \$1,568.00 </m>
+ 			</p>
+			<p>
+				For her wants, she should budget <m>30\%</m> of her income, or  <m> 0.3 * \$3,136 = \$940.80</m>
+			</p>
+			<p>
+				For savings and extra debt service, she should budget <m>20\%</m> of her income, or  <m>0.2 * \$3,136 = \$627.20 </m>
+			</p>
+			<p>
+				In her budget, her necessities include all expenses except for entertainment. These expenses total <m>\$2,480</m>, which exceeds the suggested budget amount of <m>\$1568.</m> To follow the guidelines, Carol would have to cut back on these necessities.
+			</p>
+			<p>
+				For her wants, she spends <m>\$200</m> on entertainment, which is well below the suggested budget amount of <m>\$940.80</m>. If she modifies how much she spends on needs, she may be able to increase the spending on her wants.
+			</p>
+			<p>
+				Her excess income is <m>\$456,</m> which is below what she should be saving and using to pay down extra debt. If she does adjust how much she spends on needs, she could increase the amount for savings.
+			</p>
+		</solution>
+	</example>
 
-</exercises>
+	<exercise>
+		<statement>
+			<p>
+				Recall Heather’s budget from Example 4.4.2, before she thought of moving. That budget is below. Evaluate Heather’s budget using the 50-30-20 budget philosophy.
+
+			</p>
+			<table>
+				<title></title>
+				<tabular>
+					<row header="yes" bottom="medium">
+						<cell>Income Source</cell><cell>Amount</cell><cell>Expense</cell><cell>Amount</cell>
+					</row>
+					<row>
+						<cell>Nursing</cell><cell>$3,765.40</cell><cell>Rent</cell><cell>$1,050</cell>
+					</row>
+					<row>
+						<cell>Part-time</cell><cell>$672.00</cell><cell>Car Payment</cell><cell>$489</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Student Loan</cell><cell>$728</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Car Insurance</cell><cell>$139</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Utilities</cell><cell>$130</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Clothing</cell><cell>$150</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Entertainment</cell><cell>$300</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Credit Card</cell><cell>$200</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Food</cell><cell>$400</cell>
+					</row>
+					<row>
+						<cell></cell><cell></cell><cell>Gasoline</cell><cell>$250</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</exercise>
+
+	<example>
+		<statement>
+			<p>
+				<term>Creating a Budget Based on the 50-30-20 Budget Philosophy</term>
+			</p>
+			<p>
+				Carmen is about to graduate and has been offered a job at a bank as a data scientist. She estimates her monthly take home pay to be <m>\$5,662.50</m>. Apply the 50-30-20 philosophy to that monthly income. How should Carmen use this information?
+			</p>
+		</statement>
+		<solution>
+			<p>
+				<term>Step 1</term>: To apply the 50-30-20 budget philosophy to Carmen’s income, she needs to calculate <m>50\%</m>, <m>30\%</m>, and <m>20\% </m>of her income. Fifty percent of her income is  <m>0.5 * \$5,662.50 = \$2,831.25 </m>. Thirty percent of her income is  <m> 0.3 * \$5,662.50 = \$1,698.75 </m>. Twenty percent of her income is <m> 0.2 * \$5,662.50 = \$1,132.50. </m>
+			</p>
+			<p>
+				<term>Step 2</term>: She would then budget <m>\$2,831.25</m> for her needs, <m>\$1,698.75</m> for her wants, and <m>\$1,132.50</m> for savings and debt service.
+			</p>
+			<p>
+				<term>Step 3</term>: When choosing where to live, what to eat, and what to drive, she should make choices that keep those costs, combined with her debt service costs, gasoline, and utilities, below <m>\$2,831.25</m>. This means she will have to make decisions about what her priorities are.
+			</p>
+			<p>
+				<term>Step 4</term>: She should then figure out what she wants to do with her money, and stay within the limits, that is, keep those costs below <m>\$1,698.75</m>.
+			</p>
+			<p>
+				<term>Step 5</term>: Finally, she can begin building her savings with the remaining <m>\$1,132.50</m>.
+			</p>
+		</solution>
+	</example>
+
+	<exercise>
+		<statement>
+			<p>
+				Elijah has finished an apprenticeship and is about to start his first job as an HVAC (heating, ventilation, and air conditioning) tech. He estimates that his net monthly income will be <m>\$3,263.44</m>. Apply the 50-30-20 budget philosophy to his income to set guidelines for Elijah’s budget. How should Elijah use this information?
+			</p>
+		</statement>
+	</exercise>
+
+	<example>
+		<statement>
+			<p>
+				<term>Using the 50-30-20 Budget Philosophy to Analyze Affordability</term>
+			</p>
+			<p>
+				Steve is thinking of moving out of his family’s home. He currently works at a full-time job making <m>\$18</m> per hour, which will give him, approximately, a net annual income of <m>\$29,180</m> (working 40 hours per week for 52 weeks per year). He has student debt that he pays off at <m>\$218</m> per month, and already owns a car that he pays <m>\$162</m> per month for.
+				<ol>
+					<li>
+						<p>
+							Apply the 50-30-20 budget philosophy to Steve’s income.
+						</p>
+					</li>
+					<li>
+						<p>
+							If he follows the budget, how much does he have, after paying his car payment and student loan, to spend on necessities.
+						</p>
+					</li>
+					<li>
+						<p>
+							If he follows the budget, how much will he set aside for wants? For savings?
+						</p>
+					</li>
+					<li>
+						<p>
+							Discuss the affordability of moving out, based on Steve’s budget.
+						</p>
+					</li>
+				</ol>
+			</p>
+		</statement>
+		<solution>
+			<p>
+				Before the 50-30-20 philosophy can be applied, Steve’s monthly income needs to be determined. This is found by dividing his annual income by 12. This gives  <m>\$29,180/12 = \$2,431.67 </m>. This will be used for his monthly budget.
+				<ol>
+					<li>
+						<p>
+							To apply the 50-30-20 philosophy to Steve’s income, find <m>50\% </m>, <m>30\%</m>, and <m>20\%</m> of his monthly income.
+							<ul>
+								<li>
+									<p>
+										Needs <m>50\%</m>: <m>50\%</m> of his income is  <m> 0.50 * \$2,431.67 = \$1,215.83 </m>.
+									</p>
+								</li>
+								<li>
+									<p>
+										Wants <m>30\%</m>: <m> 0.30 * \$2,431.67 = \$729.50 </m>
+ 
+									</p>
+								</li>
+								<li>
+									<p>
+										Savings <m>20\%</m>:  <m> 0.20 * \$2,431.67 = \$486.33 </m>
+ 
+									</p>
+								</li>
+							</ul>
+							
+						</p>
+					</li>
+					<li>
+						<p>
+							The total for Steve’s needs is <m>\$1,215.83</m>. From this, he already pays <m>\$218</m> for his student loans, and <m>\$162</m> for his car payment. Together that is <m>\$380</m>. Subtracting from the amount he should budget for his needs, he can spend <m>\$835.83</m> on other needs.
+						</p>
+					</li>
+					<li>
+						<p>
+							Steve budgeted <m>\$729.50</m> for wants, and <m>\$486.33</m> for savings and other debt servicing.
+						</p>
+					</li>
+					<li>
+						<p>
+							Steve will have other needs to pay for, including rent, utilities, food, heath care, gasoline, and car insurance. It is difficult to imagine Steve being able to afford to move out, unless he reallocates money that he would want to save, or use for entertainment and other wants, or takes on another job. Even if Steve uses all the money that the 50-30-20 budget sets aside for savings, he still only has <m>\$1,322.16</m> to spend on those necessities. It does not appear he can afford to move out.
+						</p>
+					</li>
+				</ol>
+			</p>
+		</solution>
+	</example>
+
+	<exercise>
+		<statement>
+			<p>
+				Fran wants to take a new job but will have to move to an area with a higher cost of living. With her current income, she can use the 50-30-20 budget philosophy. The new job will have a net pay of <m>\$43,700</m> annually. She will still have to pay her car payment of <m>\$295</m>, her student loans that cost <m>\$264</m> per month, and her outstanding credit card debt, on which she pays <m>\$200</m> per month.
+				<ol>
+					<li>
+						<p>
+							Apply the 50-30-20 budget philosophy to Fran’s new income.
+						</p>
+					</li>
+					<li>
+						<p>
+							If she follows the budget, how much does she have, after paying her credit card debt, car payment and student loan, to spend on necessities.
+						</p>
+					</li>
+					<li>
+						<p>
+							If she follows the budget, how much will she set aside for wants? For savings?
+						</p>
+					</li>
+					<li>
+						<p>
+							Discuss the affordability of changing jobs and moving, based on Fran’s budget.
+						</p>
+					</li>
+				</ol>
+			</p>
+		</statement>
+	</exercise>
+
+	
+	</subsubsection>
+	
+</subsection>
 </section>
