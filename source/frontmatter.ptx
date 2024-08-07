@@ -3,7 +3,7 @@
 
 	<titlepage>
     	<author>
-      		<personname>Portland Community College Math Department</personname>
+      		<personname>Fort Lewis College MATH 105</personname>
     	</author>
     	<date><today/></date>
 	</titlepage>
@@ -11,22 +11,17 @@
 	<colophon>
 		<credit>
 			<role>Project Lead</role>
-			<entity>Cara Lee</entity>
+			<entity>Bernice Asante</entity>
 		</credit>
 		<credit>
-			<role>Chapter Authors</role>
-			<entity>Jess Brooks, Cara Lee, Sonya Redmond, Cindy Rochester-Gefre</entity>
-		</credit>
-		<credit>
-			<role>Contributing Authors</role>
+			<role>Contributing Editors</role>
 			<entity>
-				Jess Brooks, Carlos Cantos, Teela Foxworth, Kandace Kling, Jeff Lacks, Cara Lee,
-				Sonya Redmond, Cindy Rochester-Gefre, Thomas Songer, Eric Zupunski
+				Veronika Furst, Erich McAlister
 			</entity>
 		</credit>
 		<credit>
-			<role>Technology Editors</role>
-			<entity>Emiliano Vega, Cara Lee</entity>
+			<role>Additional Contributors</role>
+			<entity>Daisy Matthews, Abubakar Naibi</entity>
 		</credit>
 		<credit>
     		<role>Attribution</role>
@@ -37,17 +32,24 @@
 				by David Lippman et al., used under
 				<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
 					visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
+				This version was created from Pretext source for <url href="https://spot.pcc.edu/math/mathinsociety/book-1.html" visual="https://spot.pcc.edu/math/mathinsociety/book-1.html">Math in Society: Mathematics for Liberal Arts Majors</url>, by Portland Community College Math Department, used under  <url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
+				visual="creativecommons.org/licenses/by-sa/4.0/us">CC BY-SA 4.0</url>
+				Other sections are based on <url href="https://openstax.org/books/contemporary-mathematics/pages/1-introduction" visual="openstax.org/books/contemporary-mathematics/pages/1-introduction">OpenStax Contemporary Mathematics</url> used under <url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
+				visual="creativecommons.org/licenses/by-sa/4.0/us">CC BY-SA 4.0</url>.
+				
+				
 				See the Attributions page for details.
     		</entity>
+
 		</credit>
-    	<edition>1.1</edition>
-    	<website>
-			<url href="https://spot.pcc.edu/math/mathinsociety/"
+    	<edition>1</edition>
+    	<!--website>
+			<url href="https://spot.pcc.edu/math/mathinsociety/book-1.html"
 				visual="spot.pcc.edu/math/mathinsociety"/>
-    	</website>
+    	</website-->
 		<copyright>
-			<year>2024, 2018</year>
-			<holder>Portland Community College Math Instructors</holder>
+			<year>2024</year>
+			<holder>Fort Lewis College Mathematics Department</holder>
 			<minilicense>CC BY-SA 4.0</minilicense>
 			<shortlicense>CC BY-SA 4.0</shortlicense>
 		</copyright>
@@ -184,13 +186,11 @@
 					<p>
 						<xref ref="financial_math_intro_spreadsheet"/>,
 						<xref ref="financial_math_income_taxes"/>,
-						Section 2.7 Credit Cards (online only),
-						<xref ref="probability_contingency_tables"/>,
-						Section 3.6 Normal Distribution (online only),
-						<!--xref ref="democracy_popular_vote"/-->,
+						<xref ref="probability_contingency_tables"/>, and
+						<xref ref="statistics_normal_model" />,
+						<!--xref ref="democracy_popular_vote"/-->
 						<!--xref ref="democracy_gerrymandering"/-->
-						<!--and Section 5.6 Federal Deficit and National Debt (online only)
-						are original to the Portland Community College Math Department.-->
+						are original to the Portland Community College Math Department.
 						<!-- TODO: add back xrefs for web version
 						<xref ref="financial_math_credit_cards"/>,
 						<xref ref="democracy_budget_deficit_debt.ptx"/>-->
@@ -199,6 +199,18 @@
 				<li>
 					<p>
 						<xref ref="financial_math_credit_cards"/> is a derivative of <url href="https://openstax.org/books/contemporary-mathematics/pages/6-10-credit-cards">Section 6.10</url> of <xref ref="Openstax-contemp-math"/>, used under <url href="https://creativecommons.org/licenses/by/4.0/"
+						visual="creativecommons.org/licenses/by/4.0/">CC-BY 4.0</url>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<xref ref="financial_math_personal_budget"/> is a derivative of <url href="https://openstax.org/books/contemporary-mathematics/pages/6-5-making-a-personal-budget">Section 6.5</url> of <xref ref="Openstax-contemp-math"/>, used under <url href="https://creativecommons.org/licenses/by/4.0/"
+						visual="creativecommons.org/licenses/by/4.0/">CC-BY 4.0</url>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<xref ref="financial_math_savings_plan"/> is a derivative of <url href="https://openstax.org/books/contemporary-mathematics/pages/6-6-methods-of-savings">Section 6.6</url> of <xref ref="Openstax-contemp-math"/>, used under <url href="https://creativecommons.org/licenses/by/4.0/"
 						visual="creativecommons.org/licenses/by/4.0/">CC-BY 4.0</url>.
 					</p>
 				</li>
@@ -256,6 +268,9 @@
 
 	<preface xml:id="Notes">
 	<title>Project Notes</title>
+	<paragraphs>
+		<title><term>From Portland Community College Math Department</term></title>
+	</paragraphs>
     	<blockquote>
     		<p>
     			<em>We dedicate this book to our students. May you have greater ease in paying for college and grow your proficiency and confidence in math.</em>
@@ -273,9 +288,9 @@
 			<p>
 				Our goal is for our students to see themselves in this book. We have added stories of mathematicians and economists with identities that have traditionally been underrepresented in textbooks. We use local places and culturally diverse names in the examples and exercises. We have examples with they/them/their pronouns and same-sex couples.
 			</p>
-   			<p>
+   			<!--p>
    				In the democracy chapter we have included the Native American genocide and slavery which are often left out of math texts. We have also emphasized the names of civil rights leaders and African Americans killed by the police in our examples. We recognize there is more to do in this area and welcome contributions and feedback. Please email Cara Lee at <email>cara.lee@pcc.edu</email> or use the Google Form link below.
-			</p>
+			</p-->
 		</paragraphs>
 		<paragraphs>
 			<title>Philosophy</title>
@@ -288,7 +303,7 @@
 				text.
 			</p>
 		</paragraphs>
-		<paragraphs>
+		<!--paragraphs>
 			<title>Web and Print Versions</title>
 			<p>
 				This book is available free online at
@@ -297,8 +312,8 @@
 				Chapters 1<ndash/>5 are available at the PCC bookstore printed by the PCC Print
 				Center.
 			</p>
-		</paragraphs>
-		<paragraphs>
+		</paragraphs-->
+		<!--paragraphs>
 			<title>Additional Topics</title>
 			<p>
 				Your course may include one or more instructor choice topics which are available
@@ -306,33 +321,43 @@
 				<url href="http://www.opentextbookstore.com/mathinsociety"
 					visual="opentextbookstore.com/mathinsociety"/>.
 			</p>
-		</paragraphs>
-		<paragraphs>
+		</paragraphs-->
+		<!--paragraphs>
 			<title>Accessibility</title>
 			<p>
 				The <init>HTML</init> version of this book is intended to meet or exceed web
 				accessibility standards. If you find anything that can improve the accessibility of this book, please email Cara Lee at
 				<email>cara.lee@pcc.edu</email> or use the Google Form link below.
 			</p>
-		</paragraphs>
-		<paragraphs>
+		</paragraphs-->
+		<!--paragraphs>
 			<title>Online Homework</title>
 			<p>
 				Online homework problems are available for free at
 				<url href="https://www.myopenmath.com/" visual="myopenmath.com"/>.
 			</p>
-		</paragraphs>
-		<paragraphs>
+		</paragraphs-->
+		<!--paragraphs>
 			<title>Typos and Other Feedback</title>
    			<p>
 				Please notify us of typos and other feedback using this
 				<url href="https://forms.gle/s14kNGd7anRmVgCD6"
 					visual="forms.gle/s14kNGd7anRmVgCD6">Google Form</url>.
 			</p>
+		</paragraphs-->
+		<paragraphs>
+			<title><term>From Fort Lewis College Math Department</term></title>
+		</paragraphs>
+		<paragraphs>
+			<title>Acknowledgements</title>
+			<p>
+				This project was completed with grant support from the Colorado Open Educational Resources (OER) Grant program under the Colorado Department of Higher Education. 
+			</p>
+			
 		</paragraphs>
 	</preface>
 
-	<preface>
+	<!--preface>
 		<title>Resources</title>
 		<p>
 			This
@@ -363,7 +388,7 @@
 			resources are available for instructors by emailing Cara Lee at
 			<email>cara.lee@pcc.edu</email>. Instructor status will be verified.
 		</p>
-	</preface>
+	</preface-->
 <!-- Comment out for printing pdf. Todo: put back for web version
 	<preface>
 		<title>Errata</title>
