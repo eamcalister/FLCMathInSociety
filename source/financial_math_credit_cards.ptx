@@ -158,6 +158,27 @@ There are many institutions and credit cards to choose from. Use caution as you 
 			</ol>
 		</p>
 	</statement>
+	<solution>
+		<p>
+			<ol>
+				<li>
+					<p>
+						Store-issued credit cards
+					</p>
+				</li>
+				<li>
+					<p>
+						Fees (both annual and penalty fees), reward programs, credit limits
+					</p>
+				</li>
+				<li>
+					<p>
+						Travel and entertainment cards
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
 </exercise>
 
 </subsection>
@@ -526,6 +547,11 @@ Computing all of these values depends on understanding and computing the average
 </p>
 
 	</statement>
+	<solution>
+		<p>
+			<m>\$567.32</m>
+		</p>
+	</solution>
 </exercise>
 
 <p>
@@ -613,6 +639,27 @@ Computing all of these values depends on understanding and computing the average
 			</ol>
 		</p>
 	</statement>
+	<solution>
+		<p>
+		<ol>
+			<li>
+				<p>
+					<m>\$22.64</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\$13.49</m>
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>\$77.77</m>
+				</p>
+			</li>
+		</ol>
+		</p>
+	</solution>
 </exercise>
 
 <assemblage xml:id="credit-card-balance">
@@ -676,6 +723,22 @@ Computing all of these values depends on understanding and computing the average
 			</ol>
 		</p>
 	</statement>
+	<solution>
+		<p>
+			<ol>
+				<li>
+					<p>
+						<m>\$566.44</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>\$3,267.17</m>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
 </exercise>
 
 <p>
@@ -941,6 +1004,11 @@ Computing all of these values depends on understanding and computing the average
 			</tabular>
 		</table>
 	</statement>
+	<solution>
+		<p>
+			<m>\$1,152.35</m>
+		</p>
+	</solution>
 </exercise>
 
 <assemblage xml:id="cc-minimum-payment-due">
@@ -1050,6 +1118,27 @@ Computing all of these values depends on understanding and computing the average
 			</ol>
 		</p>
 	</statement>
+	<solution>
+		<p>
+			<ol>
+				<li>
+					<p>
+						<m>\$47.47</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>\$84.00</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>\$19.90</m>
+					</p>
+				</li>
+			</ol>
+		</p>
+	</solution>
 </exercise>
 
 </subsection>
