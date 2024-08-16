@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Math In Society: Overview of the Statistical Process</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math in Society">
+<meta property="book:author" content="Fort Lewis College MATH 105">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.3.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runtime.00db6230172ad960.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.8328b60515045466.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.5d3fd44c34d81620.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.f64dcc3632d7a0c3.css">
+</head>
+<body id="PCC-Math In Society" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://spot.pcc.edu/math/mathinsociety/book-1.html"><img src="external/images/Portland_Oregon_Skyline.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
+<p class="byline">Fort Lewis College MATH 105</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="statistics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="statistics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="statistics_describing_data.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="language_logic_rules.html" class="internal"><span class="codenumber">1</span> <span class="title">Logic and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_logic.html" class="internal"><span class="codenumber">1.1</span> <span class="title">The Language and Rules of Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-4" class="internal"><span class="title">Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-5" class="internal"><span class="title">Propositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-6" class="internal"><span class="title">Negation (not)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-7" class="internal"><span class="title">Multiple Negations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-8" class="internal"><span class="title">Logical Connectors (and, or)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-9" class="internal"><span class="title">Exclusive vs. Inclusive <em class="emphasis">or</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-10" class="internal"><span class="title">Conditional Statements (if, then)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-11" class="internal"><span class="title">Basic Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-12" class="internal"><span class="title">Conditional Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-13" class="internal"><span class="title">Truth Tables for Complex Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-14" class="internal"><span class="title">Truth Tables with Three Propositions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-15" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_arguments.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Describing and Critiquing Arguments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-4" class="internal"><span class="title">Logical Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-5" class="internal"><span class="title">Inductive and Deductive Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-6" class="internal"><span class="title">Evaluating Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-7" class="internal"><span class="title">Evaluating Deductive Arguments Using Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-8" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_fallacies.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-3" class="internal"><span class="title">Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-4" class="internal"><span class="title">Common Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-5" class="internal"><span class="title">Personal Attack (Ad hominem)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-6" class="internal"><span class="title">Appeal to Ignorance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-7" class="internal"><span class="title">Appeal to Authority</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-8" class="internal"><span class="title">False Dilemma</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-9" class="internal"><span class="title">Straw Man (or Straw Person)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-10" class="internal"><span class="title">Post Hoc</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_review.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Language and Logic Rules Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="probability.html" class="internal"><span class="codenumber">2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_contingency_tables.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Contingency Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-4" class="internal"><span class="title">Contingency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-5" class="internal"><span class="title">“And” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-6" class="internal"><span class="title">“Or” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-7" class="internal"><span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-8" class="internal"><span class="title">Contingency Tables with More Than Two Categories</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-9" class="internal"><span class="title">Empirical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-10" class="internal"><span class="title">Finding Empirical Probabilities with a Contingency Table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-11" class="internal"><span class="title">Conditional Probabilities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-12" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_theoretical_probability.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Theoretical Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-4" class="internal"><span class="title">Basic Probability Concepts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-5" class="internal"><span class="title">Experiment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-6" class="internal"><span class="title">Events and Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-7" class="internal"><span class="title">Sample Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-8" class="internal"><span class="title">Equally Likely Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-9" class="internal"><span class="title">Certain and Impossible Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-10" class="internal"><span class="title">Complementary Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-11" class="internal"><span class="title">Experimental vs. Theoretical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-12" class="internal"><span class="title">The Law of Large Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-13" class="internal"><span class="title">Probability of Compound Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-14" class="internal"><span class="title">“And” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-15" class="internal"><span class="title">Independent and Dependent Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-16" class="internal"><span class="title">“Or” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-17" class="internal"><span class="title">Overlapping or Disjoint Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-18" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_expected_value.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Expected Value</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-4" class="internal"><span class="title">Expected Value</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-5" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_review.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Probability Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="statistics.html" class="internal"><span class="codenumber">3</span> <span class="title">Statistics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="statistics_statistical_process.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Overview of the Statistical Process</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-4" class="internal"><span class="title">Statistical Process</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-5" class="internal"><span class="title">Population</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-6" class="internal"><span class="title">Parameter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-7" class="internal"><span class="title">Sample</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-8" class="internal"><span class="title">Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-9" class="internal"><span class="title">Sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-10" class="internal"><span class="title">Sampling Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-11" class="internal"><span class="title">Simple random sample (SRS)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-12" class="internal"><span class="title">Stratified sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-13" class="internal"><span class="title">Systematic sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-14" class="internal"><span class="title">Convenience sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-15" class="internal"><span class="title">Statistical Bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-16" class="internal"><span class="title">Types of bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-17" class="internal"><span class="title">Observational Studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-18" class="internal"><span class="title">Experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-19" class="internal"><span class="title">Confounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-20" class="internal"><span class="title">Control group</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-21" class="internal"><span class="title">Placebo effect</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-22" class="internal"><span class="title">Placebo and Placebo-controlled experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-23" class="internal"><span class="title">Blind studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-24" class="internal"><span class="title">Margin of Error and Confidence Intervals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-25" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_describing_data.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Describing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#types_of_data" class="internal"><span class="title">Types of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-5" class="internal"><span class="title">Presenting Categorical Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-6" class="internal"><span class="title">Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-7" class="internal"><span class="title">Relative Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-8" class="internal"><span class="title">Bar graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-9" class="internal"><span class="title">Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-10" class="internal"><span class="title">Using a Spreadsheet to Make Bar Charts and Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-11" class="internal"><span class="title">Misleading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-12" class="internal"><span class="title">Perceptual Distortion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-13" class="internal"><span class="title">Misleading Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-14" class="internal"><span class="title">Stacked Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-15" class="internal"><span class="title">Presenting Quantitative Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-16" class="internal"><span class="title">Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-17" class="internal"><span class="title">Class Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-18" class="internal"><span class="title">Histograms Using Technology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-19" class="internal"><span class="title">The Shape of a Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-20" class="internal"><span class="title">Modality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-21" class="internal"><span class="title">Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-22" class="internal"><span class="title">Skewness</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-23" class="internal"><span class="title">Skewed to the Left</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-24" class="internal"><span class="title">Skewed to the Right</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-25" class="internal"><span class="title">The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-26" class="internal"><span class="title">Outlier</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-27" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_center.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Summary Statistics: Measures of Center</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-4" class="internal"><span class="title">Calculating Summary Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-5" class="internal"><span class="title">Measures of Center</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-6" class="internal"><span class="title">Mode</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-7" class="internal"><span class="title">Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-8" class="internal"><span class="title">Median</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-9" class="internal"><span class="title">The Relationship Between the Mean and the Median</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-10" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Summary Statistics: Measures of Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-4" class="internal"><span class="title">Measures of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-5" class="internal"><span class="title">Standard Deviation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-6" class="internal"><span class="title">Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-7" class="internal"><span class="title">Quartiles and the Interquartile Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-8" class="internal"><span class="title">The Five-Number Summary and Boxplots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-9" class="internal"><span class="title">Modified Boxplot (Optional)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-10" class="internal"><span class="title">Percentiles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-11" class="internal"><span class="title">Comparing Distributions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-12" class="internal"><span class="title">Z-Scores</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-13" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_review.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Statisitcs Chapter Review</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_normal_model.html" class="internal"><span class="codenumber">3.6</span> <span class="title">The Normal Distribution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-4" class="internal"><span class="title">Introduction to The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-5" class="internal"><span class="title">Properties of the Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-6" class="internal"><span class="title">The Empirical Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-7" class="internal"><span class="title">Using the Empirical Rule to Calculate Approximate Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-8" class="internal"><span class="title">Using Technology to Calculate Exact Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-9" class="internal"><span class="title">The Standard Normal Distribution and Z-Scores</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-10" class="internal"><span class="title">Confidence Intervals and Margin of Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="financial_math.html" class="internal"><span class="codenumber">4</span> <span class="title">Financial Math</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Spreadsheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-4" class="internal"><span class="title">Basic Calculations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-5" class="internal"><span class="title">Cell References</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-6" class="internal"><span class="title">Cell Formatting</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-7" class="internal"><span class="title">Fill-Down Feature</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-8" class="internal"><span class="title">Formulas</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-9" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_simple_compound.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Simple and Compound Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-4" class="internal"><span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-5" class="internal"><span class="title">APR – Annual Percentage Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-6" class="internal"><span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-7" class="internal"><span class="title">The Future Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-8" class="internal"><span class="title">Comparing Simple and Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-9" class="internal"><span class="title">Finding the Principal, or Present Value</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-10" class="internal"><span class="title">The Present Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-11" class="internal"><span class="title">Continuously Compounded Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-12" class="internal"><span class="title">Finding the Amount of Interest Earned and the Percentage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-13" class="internal"><span class="title">Effective Rate</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-14" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_credit_cards.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Credit Cards</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#types_of_credit_cards" class="internal"><span class="title">Types of Credit Cards</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#credit_card_statements" class="internal"><span class="title">Credit Card Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#interest_balance_payments" class="internal"><span class="title">Compute Interest, Balance Due, and Minimum Payment Due for a Credit Card.</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_income_taxes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Income Taxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-4" class="internal"><span class="title">A Very Brief History of Taxes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-5" class="internal"><span class="title">Types of Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-6" class="internal"><span class="title">Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-7" class="internal"><span class="title">State Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-8" class="internal"><span class="title">Municipal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-9" class="internal"><span class="title">Calculating Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-10" class="internal"><span class="title">Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-11" class="internal"><span class="title">Adjusted Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-12" class="internal"><span class="title">Taxable Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-13" class="internal"><span class="title">Filing Status</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-14" class="internal"><span class="title">Tax Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-15" class="internal"><span class="title">Tax Credits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-16" class="internal"><span class="title">Calculating a Refund or Payment Due</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-17" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_loans.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Basics of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-4" class="internal"><span class="title">Reasons for Loans</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5" class="internal"><span class="title">The Terminology of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-3" class="internal"><span class="title">Credit Scores</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-4" class="internal"><span class="title">Where Do Interest Rates Come From?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-6" class="internal"><span class="title">Calculating Loan Payments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-7" class="internal"><span class="title">Reading Amortization Tables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Personal Budget</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#Creating_a_budget" class="internal"><span class="title">Creating a Budget</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html#The_50_30_20_budget_philosophy" class="internal"><span class="title">The 50-30-20 Budget Philosophy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#subsec_3" class="internal"><span class="title">Necessary Expenses and Expenses that are Wants</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4" class="internal"><span class="title">Distinguish Various Basic Forms of Savings Plans</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4-3" class="internal"><span class="title">Savings Account</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5" class="internal"><span class="title">Savings Plan Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-13" class="internal"><span class="title">Certificate of Deposits, or CDs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-16" class="internal"><span class="title">Money Market Account</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-19" class="internal"><span class="title">Return on Investment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-26" class="internal"><span class="title">Annuities as Savings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-27" class="internal"><span class="title">Compute Payment to Reach a Financial Goal</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-6" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_investment.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Investments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4" class="internal"><span class="title">Distinguish Between Basic Forms of Investments</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4-3" class="internal"><span class="title">Bonds</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5" class="internal"><span class="title">Stocks</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-4" class="internal"><span class="title">Mutual Funds</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6" class="internal"><span class="title">Retirement Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-3" class="internal"><span class="title">Individual Retirement Accounts</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-4" class="internal"><span class="title">401(k) Accounts</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_review.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Financial Math Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-1.html" class="internal"><span class="title">References</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="statistics_statistical_process"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.1</span><span class="space"> </span><span class="title">Overview of the Statistical Process</span>
+</h2>
+<article class="objectives goal-like" id="statistics_statistical_process-2"><h3 class="heading">
+<span class="type">Objectives:</span><span class="space"> </span><span class="title">Section 3.1 Overview of the Statistical Process</span>
+</h3>
+<div class="introduction" id="statistics_statistical_process-2-2"><div class="para" id="statistics_statistical_process-2-2-1">Students will be able to:</div></div>
+<ul class="disc">
+<li id="statistics_statistical_process-2-3-1"><div class="para" id="statistics_statistical_process-2-3-1-1">Define and identify the population, parameter, sample and statistic</div></li>
+<li id="statistics_statistical_process-2-3-2"><div class="para" id="statistics_statistical_process-2-3-2-1">Identify four sampling methods: simple random sample (SRS), stratified, systematic and convenience</div></li>
+<li id="statistics_statistical_process-2-3-3"><div class="para" id="statistics_statistical_process-2-3-3-1">Identify and discuss types of bias association with sampling</div></li>
+<li id="statistics_statistical_process-2-3-4"><div class="para" id="statistics_statistical_process-2-3-4-1">Distinguish between experimental and observational studies</div></li>
+<li id="statistics_statistical_process-2-3-5"><div class="para" id="statistics_statistical_process-2-3-5-1">Explain margin of error and confidence intervals</div></li>
+</ul></article><section class="introduction" id="statistics_statistical_process-3"><h3 class="heading">Introduction to Statistics.<span></span>
+</h3> <figure class="figure figure-like" id="statistics_statistical_process-3-2"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed?listType=playlist&amp;list=PLsFUxEAXGFKRGT3SnCFjFzxm6mQmMrpCk&amp;modestbranding=1&amp;rel=0" id="video-statistical-process"></iframe></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.1<span class="period">.</span></span><span class="space"> </span>Alternative Video Lessons</figcaption></figure> <div class="para" id="statistics_statistical_process-3-3">We are bombarded by information and statistics every day. But if we cannot distinguish credible information from misleading information, then we are vulnerable to manipulation and making decisions that are not in our best interest. Statistics provides tools for us to evaluate information critically. In this sense, statistics is one of the most important things to know about.</div> <div class="para logical" id="statistics_statistical_process-3-4">
+<div class="para">Statistics are often presented to add credibility to an argument. To give some examples, here are some claims that we have heard on several occasions. (We are not saying that each one of these claims is true!)</div>
+<ul class="disc">
+<li id="statistics_statistical_process-3-4-1-1"><div class="para" id="statistics_statistical_process-3-4-1-1-1">4 out of 5 dentists recommend Dentyne.</div></li>
+<li id="statistics_statistical_process-3-4-1-2"><div class="para" id="statistics_statistical_process-3-4-1-2-1">Almost 85% of lung cancers in men and 45% in women are tobacco-related.</div></li>
+<li id="statistics_statistical_process-3-4-1-3"><div class="para" id="statistics_statistical_process-3-4-1-3-1">Condoms are effective 94% of the time.</div></li>
+<li id="statistics_statistical_process-3-4-1-4"><div class="para" id="statistics_statistical_process-3-4-1-4-1">People tend to be more persuasive when they look others directly in the eye and speak loudly and quickly.</div></li>
+<li id="statistics_statistical_process-3-4-1-5"><div class="para" id="statistics_statistical_process-3-4-1-5-1">Women make 75 cents to every dollar a man makes when they work the same job.</div></li>
+<li id="statistics_statistical_process-3-4-1-6"><div class="para" id="statistics_statistical_process-3-4-1-6-1">A surprising new study shows that eating egg whites can increase one’s life span.</div></li>
+<li id="statistics_statistical_process-3-4-1-7"><div class="para" id="statistics_statistical_process-3-4-1-7-1">People predict that it is very unlikely there will ever be another baseball player with a batting average over 400.</div></li>
+<li id="statistics_statistical_process-3-4-1-8"><div class="para" id="statistics_statistical_process-3-4-1-8-1">There is an 80% chance that in a room full of 30 people that at least two people will share the same birthday.</div></li>
+<li id="statistics_statistical_process-3-4-1-9"><div class="para" id="statistics_statistical_process-3-4-1-9-1">79.48% of all statistics are made up on the spot.</div></li>
+</ul>
+</div> <div class="para" id="statistics_statistical_process-3-5">All these claims are statistical in character. We suspect that some of them sound familiar; if not, you have probably heard other claims like them. Notice how diverse the examples are; they come from psychology, health, law, sports, business, etc. Data and data-interpretation show up in virtually every facet of contemporary life.</div> <div class="para" id="statistics_statistical_process-3-6">Many of these numbers do not represent careful statistical analysis. They can be misleading and push you into decisions that you might regret. This chapter will help you learn the skills to be a critical consumer of statistical claims.</div></section><section class="subsection" id="statistics_statistical_process-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Statistical Process</span>
+</h3>
+<div class="para" id="statistics_statistical_process-4-2">To give you an overview, here is a diagram of the steps taken in a poll or other statistical study, and the elements in each step that we will discuss in this chapter. We will use many examples to illustrate the whole process.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_1/statistical_process.png" class="contained" alt="5 rectangles indicating the 5 steps of the statistical process; 1. Identify the group you want to study, which is the population; 2. Identify the quantity you want to know about the population, which is the parameter; 3. Gather data by taking an unbiased sample or performing an experiment; 4. Graph the data and calculate statistics; 5. Estimate the parameter that you wanted to know with the margin of error and confidence interval."></div></div></div></section><section class="subsection" id="statistics_statistical_process-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Population</span>
+</h3>
+<div class="para" id="statistics_statistical_process-5-2">Before we begin gathering any data to analyze, we need to identify the population we are studying. The population of a study is the group we want to know something about. The <em class="alert">population</em> could be people, auto parts or tomato plants.</div>
+<div class="para logical" id="statistics_statistical_process-5-3">
+<div class="para">If we want to know the amount of money spent on textbooks by a typical college student, our population might be all students at Portland Community College. Or it might be:</div>
+<ol class="decimal">
+<li id="statistics_statistical_process-5-3-1-1"><div class="para" id="statistics_statistical_process-5-3-1-1-1">All community college students in the state of Oregon.</div></li>
+<li id="statistics_statistical_process-5-3-1-2"><div class="para" id="statistics_statistical_process-5-3-1-2-1">All students at public colleges and universities in the state of Oregon.</div></li>
+<li id="statistics_statistical_process-5-3-1-3"><div class="para" id="statistics_statistical_process-5-3-1-3-1">All students at all colleges and universities in the state of Oregon.</div></li>
+<li id="statistics_statistical_process-5-3-1-4"><div class="para" id="statistics_statistical_process-5-3-1-4-1">All students at all colleges and universities in the entire United States.</div></li>
+<li id="statistics_statistical_process-5-3-1-5"><div class="para" id="statistics_statistical_process-5-3-1-5-1">And so on.</div></li>
+</ol>
+</div>
+<div class="para" id="statistics_statistical_process-5-4">The intended population is also called the <em class="alert">target population</em>, since if we design our study badly, the collected data might not actually be representative of the intended population.</div>
+<article class="example example-like" id="statistics_statistical_process-5-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-5-5-1-1">A newspaper website contains a poll asking people their opinion on a recent news article. What is the population?</div>
+<div class="solutions"><details id="statistics_statistical_process-5-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="statistics_statistical_process-5-5-2-1">While the target (intended) population may have been all people, the real population of the survey is readers of the website.</div></div></details></div></article></section><section class="subsection" id="statistics_statistical_process-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Parameter</span>
+</h3>
+<div class="para" id="statistics_statistical_process-6-2">A <em class="alert">parameter</em> is the value (percentage, average, etc.) that we are interested in for the whole population. Since it is often too time-consuming, expensive and/or impossible to get data for the entire population, the parameter is usually a theoretical quantity that we are trying to estimate. For example, the typical amount of money spent per year on textbooks by students at your college in a year is a parameter.</div></section><section class="subsection" id="statistics_statistical_process-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Sample</span>
+</h3>
+<div class="para" id="statistics_statistical_process-7-2">To estimate the parameter, we select a <em class="alert">sample</em>, which is a smaller subset of the entire population. It is very important that we choose a <em class="alert">representative sample</em>, one that matches the characteristics of the population, to have a good estimate. If we survey 100 students at your college, those students would be our sample. We will talk about how to choose a representative sample later in this section.</div></section><section class="subsection" id="statistics_statistical_process-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Statistic</span>
+</h3>
+<div class="para" id="statistics_statistical_process-8-2">To get our <em class="alert">data</em>, we would then ask each student in the sample how much they spent on textbooks and record the answers, or <em class="alert">raw data</em>. Then we could calculate the average, which is our statistic. A <em class="alert">statistic</em> is a value (percentage, average, etc.) calculated using data from a sample.</div>
+<article class="example example-like" id="statistics_statistical_process-8-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-8-3-1-1">A researcher wants to know how the citizens of Portland feel about a voter initiative. To study this, they go downtown to the Pioneer Place Mall and survey 500 shoppers. Sixty percent indicate they are supportive of the initiative. Identify the population, parameter, sample and statistic.</div>
+<div class="solutions"><details id="statistics_statistical_process-8-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="statistics_statistical_process-8-3-2-1">
+<em class="emphasis">Population</em>: While the intended population of this survey is Portland citizens, the effective population is Pioneer Place Mall shoppers. There is no reason to assume that shoppers at this mall would be representative of all Portland citizens.</div> <div class="para" id="statistics_statistical_process-8-3-2-2">
+<em class="emphasis">Parameter</em>: The parameter is what we want to know about the population, the percentage of Portland citizens that support the initiative.</div> <div class="para" id="statistics_statistical_process-8-3-2-3">
+<em class="emphasis">Sample</em>: The sample is the subgroup of the population selected. The 500 shoppers questioned make up the sample, which, again, is probably not representative of the population.</div> <div class="para" id="statistics_statistical_process-8-3-2-4">
+<em class="emphasis">Statistic</em>: The statistic is calculated using the data from the sample. The percentage of people sampled who support the initiative is 60%.</div>
+</div></details></div></article></section><section class="subsection" id="statistics_statistical_process-9"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Sampling</span>
+</h3>
+<div class="para" id="statistics_statistical_process-9-2">As we mentioned in a previous section, the first thing we should do before conducting a survey is to identify the population that we want to study. Suppose we are hired by a politician to determine the amount of support they have among the electorate should they decide to run for another term. What population should we study? Every person in the district? Eligible voters might be better, but what if they don’t register? Registered voters may not vote. What about “likely voters?”</div>
+<div class="para" id="statistics_statistical_process-9-3">This is the criteria used in a lot of political polling, but it is sometimes difficult to define a “likely voter.” Here is an example of the challenges of political polling.</div>
+<article class="example example-like" id="statistics_statistical_process-9-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="statistics_statistical_process-9-4-1">
+<div class="para">In November 1998, former professional wrestler Jesse "The Body" Ventura was elected governor of Minnesota. Up until right before the election, most polls showed he had little chance of winning. There were several contributing factors to the polls not reflecting the actual intent of the electorate:</div>
+<ul class="disc">
+<li id="statistics_statistical_process-9-4-1-1-1"><div class="para" id="statistics_statistical_process-9-4-1-1-1-1">Ventura was running on a third-party ticket and most polling methods are better suited to a two-candidate race.</div></li>
+<li id="statistics_statistical_process-9-4-1-1-2"><div class="para" id="statistics_statistical_process-9-4-1-1-2-1">Many respondents to polls may have been embarrassed to tell pollsters that they were planning to vote for a professional wrestler.</div></li>
+<li id="statistics_statistical_process-9-4-1-1-3"><div class="para" id="statistics_statistical_process-9-4-1-1-3-1">The mere fact that the polls showed Ventura had little chance of winning might have prompted some people to vote for him in protest to send a message to the major-party candidates.</div></li>
+</ul>
+</div> <div class="para" id="statistics_statistical_process-9-4-2">But one of the major contributing factors was that Ventura recruited a substantial amount of support from young people, particularly college students, who had never voted before and who registered specifically to vote in that election. The polls did not deem these young people likely voters (since in most cases young people have a lower rate of voter registration and a lower turnout rate for elections) so the polling samples were subject to <em class="alert">sampling bias</em>: they omitted a portion of the electorate that was weighted in favor of the winning candidate.</div></article><div class="para" id="statistics_statistical_process-9-5">So, identifying the population can be a difficult job, but once we have identified the population, how do we choose a good sample? We want our statistic to estimate the parameter we are interested in, so we need to have a representative sample. Returning to our hypothetical job as a political pollster, we would not anticipate very accurate results if we drew all of our samples from customers at a Starbucks, or your list of TikTok followers. How do we get a sample that resembles our population?</div></section><section class="subsection" id="statistics_statistical_process-10"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Sampling Methods</span>
+</h3>
+<div class="para" id="statistics_statistical_process-10-2">One way to get a representative sample is to use randomness. We will look at three types of sampling that use <em class="emphasis">randomness</em> and one that does not.</div></section><section class="subsection" id="statistics_statistical_process-11"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Simple random sample (SRS)</span>
+</h3>
+<div class="para" id="statistics_statistical_process-11-2">A <em class="alert">simple random sample</em>, abbreviated SRS, is one in which every member of the population has an equal probability of being chosen.</div>
+<article class="example example-like" id="statistics_statistical_process-11-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-11-3-1">If we could somehow identify all likely voters in the state, put each of their names on a piece of paper, toss the slips into a (very large) hat and draw 1000 slips out of the hat, we would have a simple random sample.</div></article><div class="para" id="statistics_statistical_process-11-4">In practice, computers are better suited for this sort of endeavor. It is always possible, however, that even a random sample might end up not being totally representative of the population. If we repeatedly take samples of 1000 people from among the population of likely voters in the state of Oregon, some of these samples might tend to have a slightly higher percentage of Democrats (or Republicans) than  the general population; some samples might include more older people and some samples might include more younger people; etc. This is called <em class="alert">sampling variation</em>. If there are certain groups that we want to make sure are represented, we might instead use a stratified sample.</div></section><section class="subsection" id="statistics_statistical_process-12"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Stratified sampling</span>
+</h3>
+<div class="para" id="statistics_statistical_process-12-2">In <em class="alert">stratified sampling</em>, a population is divided into a number of subgroups (or strata). Random samples are then taken from each subgroup. It is often desirable to make the sample sizes proportional to the size of each subgroup in the population.</div>
+<article class="example example-like" id="statistics_statistical_process-12-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-12-3-1">Suppose that data from voter registrations in the state indicated that the electorate was comprised of 39% Democrats, 37% Republicans and 24% Independents. In a sample of 1000 people, they would then expect to get about 390 Democrats, 370 Republicans and 240 Independents. To accomplish this, they could randomly select 390 people from among those voters known to be Democrats, 370 from those known to be Republicans, and 240 from those with no party affiliation.</div></article><div class="para" id="statistics_statistical_process-12-4">A way to remember stratified sampling is think about having a piece of layer cake. Each layer represents a stratum or subgroup, and a slice of the cake represents a sample of each layer.</div></section><section class="subsection" id="statistics_statistical_process-13"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Systematic sampling</span>
+</h3>
+<div class="para" id="statistics_statistical_process-13-2">In <em class="alert">systematic sampling</em>, every <span class="process-math">\(n^{\text{th}}\)</span> member of the population is selected to be in the sample. The starting position is often chosen at random.</div>
+<article class="example example-like" id="statistics_statistical_process-13-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-13-3-1">To select a systematic sample, Portland Community College could use their database to select a random student from the first 100 student ID numbers. Then they would select every 100th student ID number after that. Systematic sampling is not as random as a simple random sample (if your ID number is right next to your friend’s because you applied at the same time, you could not both end up in the same sample) but it can yield acceptable samples. This method can be useful for people waiting in lines, parts on a manufacturing line, or plants in a row.</div></article></section><section class="subsection" id="statistics_statistical_process-14"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Convenience sampling</span>
+</h3>
+<div class="para" id="statistics_statistical_process-14-2">
+<em class="alert">Convenience sampling</em> is when samples are chosen by selecting whomever is convenient. This is the worst type of sampling because it does not use randomness.</div>
+<article class="example example-like" id="statistics_statistical_process-14-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-14-3-1">A pollster stands on a street corner and interviews the first 100 people who agree to speak to them. This is a convenience sample.</div></article></section><section class="subsection" id="statistics_statistical_process-15"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Statistical Bias</span>
+</h3>
+<div class="para" id="statistics_statistical_process-15-2">There is no way to correct for biased data, so it is very important to think through the entire study and data analysis before we start. We talked about <em class="alert">sampling</em> or <em class="alert">selection bias</em>, which is when the sample is not representative of the population. One example of this is <em class="alert">voluntary response bias</em>, which is bias introduced by only collecting data from those who volunteer to participate. This can lead to bias if the people who volunteer have different characteristics than the general population. Here is a summary of some additional sources of bias.</div></section><section class="subsection" id="statistics_statistical_process-16"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Types of bias</span>
+</h3>
+<div class="para" id="statistics_statistical_process-16-2">
+<em class="alert">Sampling bias</em> – when the sample is not representative of the population</div>
+<div class="para" id="statistics_statistical_process-16-3">
+<em class="alert">Voluntary response bias</em> – the sampling bias that often occurs when the sample is made up of volunteers</div>
+<div class="para" id="statistics_statistical_process-16-4">
+<em class="alert">Self-interest study</em> – bias that can occur when the researchers have an interest in the outcome</div>
+<div class="para" id="statistics_statistical_process-16-5">
+<em class="alert">Response bias</em> – when the responder gives inaccurate responses for any reason</div>
+<div class="para" id="statistics_statistical_process-16-6">
+<em class="alert">Perceived lack of anonymity</em> – when the responder fears giving an honest answer might negatively affect them</div>
+<div class="para" id="statistics_statistical_process-16-7">
+<em class="alert">Loaded questions</em> – when the question wording influences the responses</div>
+<div class="para" id="statistics_statistical_process-16-8">
+<em class="alert">Non-response bias</em> – when people refuse to participate in a study or drop out of an experiment, we can no longer be certain that our sample is representative of the population</div>
+<div class="para" id="statistics_statistical_process-16-9">Sources of bias may be conscious or unconscious. They may be innocent or as intentional as pressuring by a pollster. Here are some examples of the types of bias.</div>
+<article class="example example-like" id="statistics_statistical_process-16-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="statistics_statistical_process-16-10-1"><ol class="lower-alpha">
+<li id="statistics_statistical_process-16-10-1-1-1"><div class="para" id="statistics_statistical_process-16-10-1-1-1-1">Consider a recent study which found that chewing gum may raise math grades in teenagers<details class="ptx-footnote" aria-live="polite" id="statistics_statistical_process-16-10-1-1-1-1-1"><summary class="ptx-footnote__number" title="Footnote 3.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="statistics_statistical_process-16-10-1-1-1-1-1">Reuters. <a class="external" href="http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning" target="_blank"><code class="code-inline tex2jax_ignore">news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning</code></a>. Retrieved 4/27/09</div></details>. This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.</div></li>
+<li id="statistics_statistical_process-16-10-1-1-2"><div class="para" id="statistics_statistical_process-16-10-1-1-2-1">Consider online reviews of products and businesses. Customers tend to leave reviews if they are very satisfied or very dissatisfied. While you can look for overall patterns and get useful information, these reviews suffer from voluntary response bias and likely capture more extreme views than the general population.</div></li>
+<li id="statistics_statistical_process-16-10-1-1-3"><div class="para" id="statistics_statistical_process-16-10-1-1-3-1">A survey asks participants a question about their interactions with people of different ethnicities. This study could suffer from response bias. A respondent might give an untruthful answer to not be perceived as racist.</div></li>
+<li id="statistics_statistical_process-16-10-1-1-4"><div class="para" id="statistics_statistical_process-16-10-1-1-4-1">An employer puts out a survey asking their employees if they have a drug abuse problem and need treatment help. Here, answering truthfully might have serious consequences; responses might not be accurate if there is a perceived lack of anonymity and employees fear retribution.</div></li>
+<li id="statistics_statistical_process-16-10-1-1-5"><div class="para" id="statistics_statistical_process-16-10-1-1-5-1">A survey asks, “Do you support funding research on alternative energy sources to reduce our reliance on high-polluting fossil fuels?” This is an example of a loaded or leading question – questions whose wording leads the respondent towards a certain answer.</div></li>
+<li id="statistics_statistical_process-16-10-1-1-6"><div class="para" id="statistics_statistical_process-16-10-1-1-6-1">A poll was conducted by phone with the question, “Do you often have time to relax and read a book?” Fifty percent of the people who were called refused to participate in the survey (Probably because they didn’t have the time). It is unlikely that the results will be representative of the entire population. This is an example of non-response bias.</div></li>
+</ol></div></article><div class="para" id="statistics_statistical_process-16-11">Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. Also of concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher<details class="ptx-footnote" aria-live="polite" id="statistics_statistical_process-16-11-1"><summary class="ptx-footnote__number" title="Footnote 3.1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="statistics_statistical_process-16-11-1">Swartz, Norbert. <a class="external" href="http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html" target="_blank"><code class="code-inline tex2jax_ignore">umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html</code></a> Retrieved 3/31/2009</div></details>:</div>
+<article class="example example-like" id="statistics_statistical_process-16-12"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-16-12-1"><em class="emphasis">“My favorite finding is this: we did a study where we asked students, ’How satisfied are you with your life? How often do you have a date?’ The two answers were not statistically related - you would conclude that there is no relationship between dating frequency and life satisfaction. But when we reversed the order and asked, ’How often do you have a date? How satisfied are you with your life?’ the statistical relationship was a strong one. You would now conclude that there is nothing as important in a student’s life as dating frequency.”</em></div></article></section><section class="subsection" id="statistics_statistical_process-17"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Observational Studies</span>
+</h3>
+<div class="para" id="statistics_statistical_process-17-2">So far, we have primarily discussed surveys and polls, which are types of <em class="alert">observational studies</em> – studies based on observations or measurements. These observations may be solicited, like in a survey or poll. Or, they may be unsolicited, such as studying the percentage of cars that turn right at a red light even when there is a “no turn on red” sign.</div></section><section class="subsection" id="statistics_statistical_process-18"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Experiments</span>
+</h3>
+<div class="para" id="statistics_statistical_process-18-2">In contrast, it is common to use <em class="alert">experiments</em> when exploring how subjects react to an outside influence. In an experiment, some kind of <em class="alert">treatment</em> is applied to the subjects and the results are measured and recorded. When conducting experiments, it is essential to isolate the treatment being tested. Here are some examples of treatments.</div>
+<article class="example example-like" id="statistics_statistical_process-18-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="statistics_statistical_process-18-3-1"><ol class="lower-alpha">
+<li id="statistics_statistical_process-18-3-1-1-1"><div class="para" id="statistics_statistical_process-18-3-1-1-1-1">A pharmaceutical company tests a new medicine for treating Alzheimer’s disease by administering the drug to 50 elderly patients with recent diagnoses. The treatment here is the new drug.</div></li>
+<li id="statistics_statistical_process-18-3-1-1-2"><div class="para" id="statistics_statistical_process-18-3-1-1-2-1">A gym tests out a new weight loss program by enlisting 30 volunteers to try out the program. The treatment here is the new program.</div></li>
+<li id="statistics_statistical_process-18-3-1-1-3"><div class="para" id="statistics_statistical_process-18-3-1-1-3-1">A psychology researcher explores the effect of music on affect by measuring people’s mood while listening to different types of music. The music is the treatment.</div></li>
+<li id="statistics_statistical_process-18-3-1-1-4">
+<div class="para" id="statistics_statistical_process-18-3-1-1-4-1">Suppose a middle school finds that their students are not scoring well on the state’s standardized math test. They decide to run an experiment to see if a new curriculum would improve scores. To run the test, they hire a math specialist to come in and teach a class using the new curriculum. To their delight, they see an improvement in test scores.</div>
+<div class="para" id="statistics_statistical_process-18-3-1-1-4-2">The difficulty with the last scenario is that it is not clear whether the new curriculum or the math specialist is responsible for the improvement. This is called confounding and it is the downfall of many experiments, though it is often hidden.</div>
+</li>
+</ol></div></article></section><section class="subsection" id="statistics_statistical_process-19"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Confounding</span>
+</h3>
+<div class="para" id="statistics_statistical_process-19-2">
+<em class="alert">Confounding</em> occurs when there are two or more potential variables that could have caused the outcome and it is not possible to determine which one actually caused the result.</div>
+<article class="example example-like" id="statistics_statistical_process-19-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="statistics_statistical_process-19-3-1"><ol class="lower-alpha">
+<li id="statistics_statistical_process-19-3-1-1-1"><div class="para" id="statistics_statistical_process-19-3-1-1-1-1">A drug company study about a weight loss pill might report that people lost an average of 8 pounds while using their new drug. However, in the fine print you find a statement saying that participants were encouraged to also diet and exercise. It is not clear in this case whether the weight loss is due to the pill, to diet and exercise, or a combination of both. In this case confounding has occurred.</div></li>
+<li id="statistics_statistical_process-19-3-1-1-2"><div class="para" id="statistics_statistical_process-19-3-1-1-2-1">Researchers conduct an experiment to determine whether students will perform better on an arithmetic test if they listen to music during the test. They first give the student a test without music, then give a similar test while the student listens to music. In this case, the student might perform better on the second test, regardless of the music, simply because it was the second test and they were warmed up.</div></li>
+</ol></div></article><div class="para" id="statistics_statistical_process-19-4">There are a number of measures that can be introduced to help reduce the likelihood of confounding. The primary measure is to use a control group.</div></section><section class="subsection" id="statistics_statistical_process-20"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Control group</span>
+</h3>
+<div class="para" id="statistics_statistical_process-20-2">In experiments, the participants are typically divided into a treatment group and a control group. The treatment group receives the treatment being tested; the <em class="alert">control group</em> does not receive the treatment.</div>
+<div class="para" id="statistics_statistical_process-20-3">Ideally, the groups are otherwise as similar as possible, isolating the treatment as the only potential source of difference between the groups. For this reason, the method of dividing groups is important. Some researchers attempt to ensure that the groups have similar characteristics (same number of each gender identity, same number of people over 50, etc.), but it is nearly impossible to control for every characteristic. Because of this, random assignment is very commonly used.</div>
+<article class="example example-like" id="statistics_statistical_process-20-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="statistics_statistical_process-20-4-1"><ol class="lower-alpha">
+<li id="statistics_statistical_process-20-4-1-1-1"><div class="para" id="statistics_statistical_process-20-4-1-1-1-1">To determine if a two-day prep course would help high school students improve their scores on the SAT test, a group of students was randomly divided into two subgroups. The first group, the treatment group, was given a two-day prep course. The second group, the control group, was not given the prep course. Afterwards, both groups took the SAT test.</div></li>
+<li id="statistics_statistical_process-20-4-1-1-2"><div class="para" id="statistics_statistical_process-20-4-1-1-2-1">A company testing a new plant food grows two crops of plants in adjacent fields that typically produce the same amount of food. The treatment group receives the new plant food and the control group does not. The crop yields would then be compared. By growing the two crops at the same time in similar fields, they are controlling for weather and other confounding factors.</div></li>
+</ol></div></article><div class="para" id="statistics_statistical_process-20-5">Sometimes not giving the control group anything does not completely control for confounding variables. For example, suppose a medicine study is testing a new headache pill by giving the treatment group the pill and the control group nothing. If the treatment group showed improvement, we would not know whether it was due to the medicine, or a response to have something. This is called a placebo effect.</div></section><section class="subsection" id="statistics_statistical_process-21"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Placebo effect</span>
+</h3>
+<div class="para" id="statistics_statistical_process-21-2">The <em class="alert">placebo effect</em> is when the effectiveness of a treatment is influenced by the patient’s perception of how effective they think the treatment will be, so a result might be seen even if the treatment is ineffectual.</div>
+<article class="example example-like" id="statistics_statistical_process-21-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-21-3-1">A study found that when doing painful dental tooth extractions, patients told they were receiving a strong painkiller while actually receiving a saltwater injection found as much pain relief as patients receiving a dose of morphine.<details class="ptx-footnote" aria-live="polite" id="statistics_statistical_process-21-3-1-1"><summary class="ptx-footnote__number" title="Footnote 3.1.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="statistics_statistical_process-21-3-1-1">Levine JD, Gordon NC, Smith R, Fields HL. (1981) Analgesic responses to morphine and placebo in individuals with postoperative pain. Pain. 10:379-89.</div></details>
+</div></article><div class="para" id="statistics_statistical_process-21-4">To control for the placebo effect, a <em class="alert">placebo</em>, or dummy treatment, is often given to the control group. This way, both groups are truly identical except for the specific treatment given.</div></section><section class="subsection" id="statistics_statistical_process-22"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Placebo and Placebo-controlled experiments</span>
+</h3>
+<div class="para" id="statistics_statistical_process-22-2">An experiment that gives the control group a placebo is called a <em class="alert">placebo-controlled</em> experiment.</div>
+<article class="example example-like" id="statistics_statistical_process-22-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.15</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="statistics_statistical_process-22-3-1"><ol class="lower-alpha">
+<li id="statistics_statistical_process-22-3-1-1-1"><div class="para" id="statistics_statistical_process-22-3-1-1-1-1">In a study for a new medicine that is dispensed in a pill form, a sugar pill could be used as a placebo.</div></li>
+<li id="statistics_statistical_process-22-3-1-1-2"><div class="para" id="statistics_statistical_process-22-3-1-1-2-1">In a study on the effect of alcohol on memory, a non-alcoholic beer might be given to the control group as a placebo.</div></li>
+<li id="statistics_statistical_process-22-3-1-1-3"><div class="para" id="statistics_statistical_process-22-3-1-1-3-1">In a study of a frozen meal diet plan, the treatment group would receive the diet food, and the control group could be given standard frozen meals taken out of their original packaging.</div></li>
+</ol></div></article><div class="para" id="statistics_statistical_process-22-4">In some cases, it is more appropriate to compare to a conventional treatment than a placebo. For example, in a cancer research study, it would not be ethical to deny any treatment to the control group or to give a placebo treatment. In this case, the currently acceptable medicine would be given to the second group, called a <em class="alert">comparison group</em>. In our SAT test example, the non-treatment group would most likely be encouraged to study on their own, rather than be asked to not study at all, to provide a meaningful comparison. It is very important to consider the ethical ramifications of any experiment.</div></section><section class="subsection" id="statistics_statistical_process-23"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Blind studies</span>
+</h3>
+<div class="para" id="statistics_statistical_process-23-2">A <em class="alert">blind study</em> is one that uses a placebo and the participants do not know whether they are receiving the treatment or a placebo. A <em class="alert">double-blind study</em> is one in which the subjects and those interacting with them don’t know who is in the treatment group and who is in the control group.</div>
+<article class="example example-like" id="statistics_statistical_process-23-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-23-3-1">In a study about anti-depression medication, you would not want the psychological evaluator to know whether a patient is in the treatment or control group, as it might influence their evaluation. The experiment should be conducted as a double-blind study.</div></article></section><section class="subsection" id="statistics_statistical_process-24"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Margin of Error and Confidence Intervals</span>
+</h3>
+<div class="para" id="statistics_statistical_process-24-2">Even when a study or experiment has successfully avoided bias and has been well done, there is still an element of variation. If we took 5 different random samples of 100 college students and calculated their average textbook cost, we wouldn’t expect to get the exact same average for each sample. This is due to sampling variation. To account for this, researchers publish their margin of error or a confidence interval for their statistics. These numbers describe the precision of the estimate for a certain confidence level.</div>
+<div class="para" id="statistics_statistical_process-24-3">You’ve probably heard something like, “The candidate has 54 percent of the likely voters, plus or minus three percent.” The 3% is called the <em class="alert">margin of error</em>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <em class="alert">confidence interval</em>, we place the numbers in parentheses from smallest to largest, separated by a comma: (51%, 57%).</div>
+<div class="para" id="statistics_statistical_process-24-4">The most common <em class="alert">confidence level</em> is 95%, which means if the poll was conducted repeatedly, and we made a confidence interval each time, we would expect the true percentage, or parameter, to fall within our confidence interval 95 out of 100 times. You can learn more on how to calculate the margin of error for different confidence levels in a statistics class.</div>
+<article class="example example-like" id="statistics_statistical_process-24-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_statistical_process-24-5-1-1">Let’s say we asked a random sample of 100 students at Portland Community College and found that they spent an average of $451.32 on books their first year, plus or minus $85.63. Write this as a confidence interval, assuming a 95% confidence level.</div>
+<div class="solutions"><details id="statistics_statistical_process-24-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="statistics_statistical_process-24-5-2-1">If the margin of error was calculated to be plus or minus $85.63, then with a confidence level of 95% we could say that the average amount spent by the population is somewhere between $365.69 and $536.95.</div> <div class="para" id="statistics_statistical_process-24-5-2-2">These values are found by computing <span class="process-math">\(\$451.32 - \$85.63 = \$365.69\)</span> and <span class="process-math">\(\$451.32 + \$85.63 = \$536.95\)</span>
+</div> <div class="para" id="statistics_statistical_process-24-5-2-3">We could also write this as a <em class="alert">confidence interval</em>: ($365.69, $536.95).</div> <div class="para" id="statistics_statistical_process-24-5-2-4">Now we have come full circle and seen how we can use data from a sample to estimate the parameter we were interested in for our population.</div>
+</div></details></div></article></section><section class="exercises" id="statistics_statistical_process-25"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="statistics_statistical_process-25-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-2-1-1">Describe the difference between a sample and a population.</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-3-1-1">Describe the difference between a statistic and a parameter.</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_statistical_process-25-4-1-1">
+<div class="para">The ASPCC randomly selects 200 students from PCC Cascade campus to participate in a childcare survey in order to determine the demand for additional childcare options for PCC students.</div>
+<ol class="lower-alpha">
+<li id="statistics_statistical_process-25-4-1-1-1-1"><div class="para" id="statistics_statistical_process-25-4-1-1-1-1-1">Who is the intended population?</div></li>
+<li id="statistics_statistical_process-25-4-1-1-1-2"><div class="para" id="statistics_statistical_process-25-4-1-1-1-2-1">What is the sample?</div></li>
+<li id="statistics_statistical_process-25-4-1-1-1-3"><div class="para" id="statistics_statistical_process-25-4-1-1-1-3-1">Is the collected data representative of the intended population? Why or why not?</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_statistical_process-25-5-1-1">
+<div class="para">A local research firm randomly selects 1200 homes in Washington County to determine support for adding compost pick up to residents’ regular garbage service.</div>
+<ol class="lower-alpha">
+<li id="statistics_statistical_process-25-5-1-1-1-1"><div class="para" id="statistics_statistical_process-25-5-1-1-1-1-1">Who is the intended population?</div></li>
+<li id="statistics_statistical_process-25-5-1-1-1-2"><div class="para" id="statistics_statistical_process-25-5-1-1-1-2-1">What is the sample?</div></li>
+<li id="statistics_statistical_process-25-5-1-1-1-3"><div class="para" id="statistics_statistical_process-25-5-1-1-1-3-1">Is the collected data representative of the intended population? Why or why not?</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-6"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-6-1-1">A political scientist surveys 28 of the current 106 representatives in a state’s congress. Of them, 14 said they were supporting a new education bill, 12 said there were not supporting the bill, and 2 were undecided.</div> <div class="para logical" id="statistics_statistical_process-25-6-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-6-1-2-1-1"><div class="para" id="statistics_statistical_process-25-6-1-2-1-1-1">Who is the population of this survey?</div></li>
+<li id="statistics_statistical_process-25-6-1-2-1-2"><div class="para" id="statistics_statistical_process-25-6-1-2-1-2-1">What is the size of the population?</div></li>
+<li id="statistics_statistical_process-25-6-1-2-1-3"><div class="para" id="statistics_statistical_process-25-6-1-2-1-3-1">What is the size of the sample?</div></li>
+<li id="statistics_statistical_process-25-6-1-2-1-4"><div class="para" id="statistics_statistical_process-25-6-1-2-1-4-1">Give the statistic for the percentage of representatives surveyed who said they were supporting the education bill.</div></li>
+<li id="statistics_statistical_process-25-6-1-2-1-5"><div class="para" id="statistics_statistical_process-25-6-1-2-1-5-1">If the margin of error was 5%, give the confidence interval for the percentage of representatives we might we expect to support the education bill and explain what the confidence interval tells us.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-7-1-1">The city of Raleigh has 9,500 registered voters. There are two candidates for city council in an upcoming election: Brown and Feliz. The day before the election, a telephone poll of 350 randomly selected registered voters was conducted. 112 said they’d vote for Brown, 207 said they’d vote for Feliz, and 31 were undecided.</div> <div class="para logical" id="statistics_statistical_process-25-7-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-7-1-2-1-1"><div class="para" id="statistics_statistical_process-25-7-1-2-1-1-1">Who is the population of this survey?</div></li>
+<li id="statistics_statistical_process-25-7-1-2-1-2"><div class="para" id="statistics_statistical_process-25-7-1-2-1-2-1">What is the size of the population?</div></li>
+<li id="statistics_statistical_process-25-7-1-2-1-3"><div class="para" id="statistics_statistical_process-25-7-1-2-1-3-1">What is the size of the sample?</div></li>
+<li id="statistics_statistical_process-25-7-1-2-1-4"><div class="para" id="statistics_statistical_process-25-7-1-2-1-4-1">Give the statistic for the percentage of voters surveyed who said they’d vote for Brown.</div></li>
+<li id="statistics_statistical_process-25-7-1-2-1-5"><div class="para" id="statistics_statistical_process-25-7-1-2-1-5-1">If the margin of error was 3.5%, give the confidence interval for the percentage of voters surveyed that we might we expect to vote for Brown and explain what the confidence interval tells us.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-8"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-8-1-1">To determine the average length of trout in a lake, researchers catch 20 fish and measure them. Describe the population and sample of this study.</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-9"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-9-1-1">To determine the average diameter of evergreen trees in a forested park, researchers randomly tag 45 specimens and measure their diameter. Describe the population and sample of this study.</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-10"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-10-1-1">A college reports that the average age of their students is 28 years old. Is this a parameter or a statistic?</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-11"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-11-1-1">A local newspaper reports that among a sample of 250 subscribers, 45% are over the age of 50. Is this a parameter or a statistic?</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-12"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-12-1-1">A recent survey reported that 64% of respondents were in favor of expanding the BIKETOWN bike share system to the greater Portland area. Is this a parameter or a statistic?</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-13"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-13-1-1">Which sampling method is being described?</div> <div class="para logical" id="statistics_statistical_process-25-13-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-13-1-2-1-1"><div class="para" id="statistics_statistical_process-25-13-1-2-1-1-1">In a study, the sample is chosen by separating all cars by size and selecting 10 of each size grouping.</div></li>
+<li id="statistics_statistical_process-25-13-1-2-1-2"><div class="para" id="statistics_statistical_process-25-13-1-2-1-2-1">In a study, the sample is chosen by writing everyone’s name on a playing card, shuffling the deck, then choosing the top 20 cards.</div></li>
+<li id="statistics_statistical_process-25-13-1-2-1-3"><div class="para" id="statistics_statistical_process-25-13-1-2-1-3-1">Every 4th person on the class roster was selected.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-14"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-14-1-1">Which sampling method is being described?</div> <div class="para logical" id="statistics_statistical_process-25-14-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-14-1-2-1-1"><div class="para" id="statistics_statistical_process-25-14-1-2-1-1-1">A sample was selected to contain 25 people aged 18-34 and 30 people aged 35-70.</div></li>
+<li id="statistics_statistical_process-25-14-1-2-1-2"><div class="para" id="statistics_statistical_process-25-14-1-2-1-2-1">Viewers of a new show are asked to respond to a poll on the show’s website.</div></li>
+<li id="statistics_statistical_process-25-14-1-2-1-3"><div class="para" id="statistics_statistical_process-25-14-1-2-1-3-1">To survey voters in a town, a polling company randomly selects 100 addresses from a database and interviews those residents.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-15"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-15-1-1">Identify the most relevant source of bias in each situation.</div> <div class="para logical" id="statistics_statistical_process-25-15-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-15-1-2-1-1"><div class="para" id="statistics_statistical_process-25-15-1-2-1-1-1">A survey asks the following: Should the mall prohibit loud and annoying rock music in clothing stores catering to teenagers?</div></li>
+<li id="statistics_statistical_process-25-15-1-2-1-2"><div class="para" id="statistics_statistical_process-25-15-1-2-1-2-1">To determine opinions on voter support for a downtown renovation project, a surveyor randomly questions people working in downtown businesses.</div></li>
+<li id="statistics_statistical_process-25-15-1-2-1-3"><div class="para" id="statistics_statistical_process-25-15-1-2-1-3-1">A survey asks people to report their actual income and the income they reported on their IRS tax form.</div></li>
+<li id="statistics_statistical_process-25-15-1-2-1-4"><div class="para" id="statistics_statistical_process-25-15-1-2-1-4-1">A survey randomly calls people from the phone book and asks them to answer a long series of questions.</div></li>
+<li id="statistics_statistical_process-25-15-1-2-1-5"><div class="para" id="statistics_statistical_process-25-15-1-2-1-5-1">The Beef Council releases a study stating that consuming red meat poses little cardiovascular risk.</div></li>
+<li id="statistics_statistical_process-25-15-1-2-1-6"><div class="para" id="statistics_statistical_process-25-15-1-2-1-6-1">A poll asks, “Do you support a new transportation tax, or would you prefer to see our public transportation system fall apart?”</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-16"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-16-1-1">Identify the most relevant source of bias in each situation.</div> <div class="para logical" id="statistics_statistical_process-25-16-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-16-1-2-1-1"><div class="para" id="statistics_statistical_process-25-16-1-2-1-1-1">A survey asks the following: Should the death penalty be permitted if innocent people might die?</div></li>
+<li id="statistics_statistical_process-25-16-1-2-1-2"><div class="para" id="statistics_statistical_process-25-16-1-2-1-2-1">A study seeks to investigate whether a new pain medication is safe to market to the public. They test by randomly selecting 300 people who identify as men from a set of volunteers.</div></li>
+<li id="statistics_statistical_process-25-16-1-2-1-3"><div class="para" id="statistics_statistical_process-25-16-1-2-1-3-1">A survey asks how many sexual partners a person has had in the last year.</div></li>
+<li id="statistics_statistical_process-25-16-1-2-1-4"><div class="para" id="statistics_statistical_process-25-16-1-2-1-4-1">A radio station asks listeners to phone in their response to a daily poll.</div></li>
+<li id="statistics_statistical_process-25-16-1-2-1-5"><div class="para" id="statistics_statistical_process-25-16-1-2-1-5-1">A substitute teacher wants to know how students in the class did on their last test. The teacher asks the 10 students sitting in the front row to state their latest test score.</div></li>
+<li id="statistics_statistical_process-25-16-1-2-1-6"><div class="para" id="statistics_statistical_process-25-16-1-2-1-6-1">High school students are asked if they have consumed alcohol in the last two weeks.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-17"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-17-1-1">Identify whether each situation describes an observational study or an experiment.</div> <div class="para logical" id="statistics_statistical_process-25-17-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-17-1-2-1-1"><div class="para" id="statistics_statistical_process-25-17-1-2-1-1-1">The temperature on randomly selected days throughout the year was measured.</div></li>
+<li id="statistics_statistical_process-25-17-1-2-1-2"><div class="para" id="statistics_statistical_process-25-17-1-2-1-2-1">One group of students listened to music and another group did not while they took a test and their scores were recorded.</div></li>
+<li id="statistics_statistical_process-25-17-1-2-1-3"><div class="para" id="statistics_statistical_process-25-17-1-2-1-3-1">The weights of 30 randomly selected people are measured.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-18"><h4 class="heading"><span class="codenumber">17<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-18-1-1">Identify whether each situation describes an observational study or an experiment.</div> <div class="para logical" id="statistics_statistical_process-25-18-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-18-1-2-1-1"><div class="para" id="statistics_statistical_process-25-18-1-2-1-1-1">Subjects are asked to do 20 jumping jacks, and then their heart rates are measured.</div></li>
+<li id="statistics_statistical_process-25-18-1-2-1-2"><div class="para" id="statistics_statistical_process-25-18-1-2-1-2-1">Twenty coffee drinkers and twenty tea drinkers are given a concentration test.</div></li>
+<li id="statistics_statistical_process-25-18-1-2-1-3"><div class="para" id="statistics_statistical_process-25-18-1-2-1-3-1">The weights of potato chip bags are weighed on the production line before they are put into boxes.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-19"><h4 class="heading"><span class="codenumber">18<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-19-1-1">A team of researchers is testing the effectiveness of a new vaccine for human papilloma virus (HPV). They randomly divide the subjects into two groups. Group 1 receives new HPV vaccine, and Group 2 receives the existing HPV vaccine. The patients in the study do not know which group they are in.</div> <div class="para logical" id="statistics_statistical_process-25-19-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-19-1-2-1-1"><div class="para" id="statistics_statistical_process-25-19-1-2-1-1-1">Which is the treatment group?</div></li>
+<li id="statistics_statistical_process-25-19-1-2-1-2"><div class="para" id="statistics_statistical_process-25-19-1-2-1-2-1">Which is the control group (if there is one)?</div></li>
+<li id="statistics_statistical_process-25-19-1-2-1-3"><div class="para" id="statistics_statistical_process-25-19-1-2-1-3-1">Is this study blind, double-blind, or neither?</div></li>
+<li id="statistics_statistical_process-25-19-1-2-1-4"><div class="para" id="statistics_statistical_process-25-19-1-2-1-4-1">Is this best described as an experiment, a controlled experiment, or a placebo-controlled experiment?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-20"><h4 class="heading"><span class="codenumber">19<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-20-1-1">Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer treatment is under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout this new treatment.</div> <div class="para logical" id="statistics_statistical_process-25-20-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-20-1-2-1-1"><div class="para" id="statistics_statistical_process-25-20-1-2-1-1-1">What is the population of this study?</div></li>
+<li id="statistics_statistical_process-25-20-1-2-1-2"><div class="para" id="statistics_statistical_process-25-20-1-2-1-2-1">Would you expect the data from the two researchers to be identical? Why or why not?</div></li>
+<li id="statistics_statistical_process-25-20-1-2-1-3"><div class="para" id="statistics_statistical_process-25-20-1-2-1-3-1">If the first researcher collected their data by randomly selecting 8 patients from each of 5 local hospitals, which sampling method did they use?</div></li>
+<li id="statistics_statistical_process-25-20-1-2-1-4"><div class="para" id="statistics_statistical_process-25-20-1-2-1-4-1">If the second researcher collected their data by choosing 40 patients they knew, what sampling method did they use? What concerns would you have about this data set, based upon the data collection method?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-21"><h4 class="heading"><span class="codenumber">20<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-21-1-1">For the clinical trials of a weight loss drug containing <em class="emphasis">Garcinia Cambogia</em> the subjects were randomly divided into two groups. The first received an inert pill along with an exercise and diet plan, while the second received the test medicine along with the same exercise and diet plan. The patients do not know which group they are in, nor do the fitness and nutrition advisors.</div> <div class="para logical" id="statistics_statistical_process-25-21-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-21-1-2-1-1"><div class="para" id="statistics_statistical_process-25-21-1-2-1-1-1">Which is the treatment group?</div></li>
+<li id="statistics_statistical_process-25-21-1-2-1-2"><div class="para" id="statistics_statistical_process-25-21-1-2-1-2-1">Which is the control group (if there is one)?</div></li>
+<li id="statistics_statistical_process-25-21-1-2-1-3"><div class="para" id="statistics_statistical_process-25-21-1-2-1-3-1">Is this study blind, double-blind, or neither?</div></li>
+<li id="statistics_statistical_process-25-21-1-2-1-4"><div class="para" id="statistics_statistical_process-25-21-1-2-1-4-1">Is this best described as an experiment, a controlled experiment, or a placebo-controlled experiment?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-22"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-22-1-1">A study is conducted to determine whether people learn better with routine or crammed studying. Subjects volunteer from an introductory psychology class. At the beginning of the semester 12 subjects volunteer and are assigned to the routine studying group. At the end of the semester 12 subjects volunteer and are assigned to the crammed studying group.</div> <div class="para logical" id="statistics_statistical_process-25-22-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-22-1-2-1-1"><div class="para" id="statistics_statistical_process-25-22-1-2-1-1-1">Identify the target population and the sample.</div></li>
+<li id="statistics_statistical_process-25-22-1-2-1-2"><div class="para" id="statistics_statistical_process-25-22-1-2-1-2-1">Is this an observational study or an experiment?</div></li>
+<li id="statistics_statistical_process-25-22-1-2-1-3"><div class="para" id="statistics_statistical_process-25-22-1-2-1-3-1">This study involves two kinds of non-random sampling: 1. Subjects are not randomly sampled from a specified population and 2. Subjects are not randomly assigned to groups. Which problem is more serious? What effect on the results does each have?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-23"><h4 class="heading"><span class="codenumber">22<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-23-1-1">To test a new lie detector, two groups of subjects are given the new test. One group is asked to answer all the questions truthfully. The second group is asked to tell the truth on the first half of the questions and lie on the second half. The person administering the lie detector test does not know what group each subject is in. Does this experiment have a control group? Is it blind, double-blind, or neither? Explain.</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-24"><h4 class="heading"><span class="codenumber">23<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-24-1-1">A poll found that 30%, plus or minus 5% of college freshmen prefer morning classes to afternoon classes.</div> <div class="para logical" id="statistics_statistical_process-25-24-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-24-1-2-1-1"><div class="para" id="statistics_statistical_process-25-24-1-2-1-1-1">What is the margin of error?</div></li>
+<li id="statistics_statistical_process-25-24-1-2-1-2"><div class="para" id="statistics_statistical_process-25-24-1-2-1-2-1">Write the survey results as a confidence interval.</div></li>
+<li id="statistics_statistical_process-25-24-1-2-1-3"><div class="para" id="statistics_statistical_process-25-24-1-2-1-3-1">Explain what the confidence interval tells us about the percentage of college freshmen who prefer morning classes?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-25"><h4 class="heading"><span class="codenumber">24<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-25-1-1">A poll found that 38% of U.S. employees are engaged at work, plus or minus 3.5%.</div> <div class="para logical" id="statistics_statistical_process-25-25-1-2"><ol class="lower-alpha">
+<li id="statistics_statistical_process-25-25-1-2-1-1"><div class="para" id="statistics_statistical_process-25-25-1-2-1-1-1">What is the margin of error?</div></li>
+<li id="statistics_statistical_process-25-25-1-2-1-2"><div class="para" id="statistics_statistical_process-25-25-1-2-1-2-1">Write the survey results as a confidence interval.</div></li>
+<li id="statistics_statistical_process-25-25-1-2-1-3"><div class="para" id="statistics_statistical_process-25-25-1-2-1-3-1">Explain what the confidence interval tells us about the percentage of U.S. employees who are engaged at work?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-26"><h4 class="heading"><span class="codenumber">25<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_statistical_process-25-26-1-1">
+<div class="para">A recent study reported a confidence interval of (24%, 36%) for the percentage of U.S. adults who plan to purchase an electric car in the next 5 years.</div>
+<ol class="lower-alpha">
+<li id="statistics_statistical_process-25-26-1-1-1-1"><div class="para" id="statistics_statistical_process-25-26-1-1-1-1-1">What is the statistic from this study?</div></li>
+<li id="statistics_statistical_process-25-26-1-1-1-2"><div class="para" id="statistics_statistical_process-25-26-1-1-1-2-1">What is the margin of error?</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-27"><h4 class="heading"><span class="codenumber">26<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_statistical_process-25-27-1-1">
+<div class="para">A recent study reported a confidence interval of (44%, 52%) for the percentage of two-year college students who are food insecure.</div>
+<ol class="lower-alpha">
+<li id="statistics_statistical_process-25-27-1-1-1-1"><div class="para" id="statistics_statistical_process-25-27-1-1-1-1-1">What is the statistic from this study?</div></li>
+<li id="statistics_statistical_process-25-27-1-1-1-2"><div class="para" id="statistics_statistical_process-25-27-1-1-1-2-1">What is the margin of error?</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-28"><h4 class="heading"><span class="codenumber">27<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-28-1-1">A farmer believes that playing Barry Manilow songs to his peas will increase their yield. Describe a controlled experiment the farmer could use to test his theory.</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-29"><h4 class="heading"><span class="codenumber">28<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-29-1-1">A sports psychologist believes that people are more likely to be extroverted as an adult if they played team sports as a child. Describe two possible studies to test this theory. Design one as an observational study and the other as an experiment. Which is more practical?</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-30"><h4 class="heading"><span class="codenumber">29<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-30-1-1">Find a newspaper or magazine article, or the online equivalent, describing the results of a recent study (not a simple poll). Give a summary of the study’s findings, then analyze whether the article provided enough information to determine the validity of the conclusions. If not, produce a list of things that are missing from the article that would help you determine the validity of the study. Look for the things discussed in the text: population, sample, randomness, blind, control, margin of error, etc.</div></article><article class="exercise exercise-like" id="statistics_statistical_process-25-31"><h4 class="heading"><span class="codenumber">30<span class="period">.</span></span></h4>
+<div class="para" id="statistics_statistical_process-25-31-1-1">Use a polling website such as <a class="external" href="http://www.pewresearch.com/" target="_blank"><code class="code-inline tex2jax_ignore">pewresearch.com</code></a> or <a class="external" href="http://www.gallup.com/" target="_blank"><code class="code-inline tex2jax_ignore">gallup.com</code></a> and search for a poll that interests you. Find the result, the margin of error and confidence level for the poll and write the confidence interval.</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="statistics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="statistics_describing_data.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

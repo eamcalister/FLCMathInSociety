@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Math In Society: Personal Budget</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math in Society">
+<meta property="book:author" content="Fort Lewis College MATH 105">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.3.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runtime.00db6230172ad960.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.8328b60515045466.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.5d3fd44c34d81620.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.f64dcc3632d7a0c3.css">
+</head>
+<body id="PCC-Math In Society" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://spot.pcc.edu/math/mathinsociety/book-1.html"><img src="external/images/Portland_Oregon_Skyline.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
+<p class="byline">Fort Lewis College MATH 105</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="financial_math_loans.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="financial_math.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="financial_math_savings_plan.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="language_logic_rules.html" class="internal"><span class="codenumber">1</span> <span class="title">Logic and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_logic.html" class="internal"><span class="codenumber">1.1</span> <span class="title">The Language and Rules of Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-4" class="internal"><span class="title">Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-5" class="internal"><span class="title">Propositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-6" class="internal"><span class="title">Negation (not)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-7" class="internal"><span class="title">Multiple Negations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-8" class="internal"><span class="title">Logical Connectors (and, or)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-9" class="internal"><span class="title">Exclusive vs. Inclusive <em class="emphasis">or</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-10" class="internal"><span class="title">Conditional Statements (if, then)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-11" class="internal"><span class="title">Basic Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-12" class="internal"><span class="title">Conditional Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-13" class="internal"><span class="title">Truth Tables for Complex Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-14" class="internal"><span class="title">Truth Tables with Three Propositions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-15" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_arguments.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Describing and Critiquing Arguments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-4" class="internal"><span class="title">Logical Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-5" class="internal"><span class="title">Inductive and Deductive Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-6" class="internal"><span class="title">Evaluating Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-7" class="internal"><span class="title">Evaluating Deductive Arguments Using Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-8" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_fallacies.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-3" class="internal"><span class="title">Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-4" class="internal"><span class="title">Common Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-5" class="internal"><span class="title">Personal Attack (Ad hominem)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-6" class="internal"><span class="title">Appeal to Ignorance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-7" class="internal"><span class="title">Appeal to Authority</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-8" class="internal"><span class="title">False Dilemma</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-9" class="internal"><span class="title">Straw Man (or Straw Person)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-10" class="internal"><span class="title">Post Hoc</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_review.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Language and Logic Rules Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="probability.html" class="internal"><span class="codenumber">2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_contingency_tables.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Contingency Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-4" class="internal"><span class="title">Contingency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-5" class="internal"><span class="title">“And” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-6" class="internal"><span class="title">“Or” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-7" class="internal"><span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-8" class="internal"><span class="title">Contingency Tables with More Than Two Categories</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-9" class="internal"><span class="title">Empirical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-10" class="internal"><span class="title">Finding Empirical Probabilities with a Contingency Table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-11" class="internal"><span class="title">Conditional Probabilities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-12" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_theoretical_probability.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Theoretical Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-4" class="internal"><span class="title">Basic Probability Concepts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-5" class="internal"><span class="title">Experiment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-6" class="internal"><span class="title">Events and Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-7" class="internal"><span class="title">Sample Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-8" class="internal"><span class="title">Equally Likely Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-9" class="internal"><span class="title">Certain and Impossible Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-10" class="internal"><span class="title">Complementary Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-11" class="internal"><span class="title">Experimental vs. Theoretical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-12" class="internal"><span class="title">The Law of Large Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-13" class="internal"><span class="title">Probability of Compound Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-14" class="internal"><span class="title">“And” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-15" class="internal"><span class="title">Independent and Dependent Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-16" class="internal"><span class="title">“Or” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-17" class="internal"><span class="title">Overlapping or Disjoint Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-18" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_expected_value.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Expected Value</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-4" class="internal"><span class="title">Expected Value</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-5" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_review.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Probability Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics.html" class="internal"><span class="codenumber">3</span> <span class="title">Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_statistical_process.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Overview of the Statistical Process</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-4" class="internal"><span class="title">Statistical Process</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-5" class="internal"><span class="title">Population</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-6" class="internal"><span class="title">Parameter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-7" class="internal"><span class="title">Sample</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-8" class="internal"><span class="title">Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-9" class="internal"><span class="title">Sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-10" class="internal"><span class="title">Sampling Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-11" class="internal"><span class="title">Simple random sample (SRS)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-12" class="internal"><span class="title">Stratified sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-13" class="internal"><span class="title">Systematic sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-14" class="internal"><span class="title">Convenience sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-15" class="internal"><span class="title">Statistical Bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-16" class="internal"><span class="title">Types of bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-17" class="internal"><span class="title">Observational Studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-18" class="internal"><span class="title">Experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-19" class="internal"><span class="title">Confounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-20" class="internal"><span class="title">Control group</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-21" class="internal"><span class="title">Placebo effect</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-22" class="internal"><span class="title">Placebo and Placebo-controlled experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-23" class="internal"><span class="title">Blind studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-24" class="internal"><span class="title">Margin of Error and Confidence Intervals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-25" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_describing_data.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Describing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#types_of_data" class="internal"><span class="title">Types of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-5" class="internal"><span class="title">Presenting Categorical Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-6" class="internal"><span class="title">Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-7" class="internal"><span class="title">Relative Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-8" class="internal"><span class="title">Bar graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-9" class="internal"><span class="title">Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-10" class="internal"><span class="title">Using a Spreadsheet to Make Bar Charts and Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-11" class="internal"><span class="title">Misleading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-12" class="internal"><span class="title">Perceptual Distortion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-13" class="internal"><span class="title">Misleading Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-14" class="internal"><span class="title">Stacked Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-15" class="internal"><span class="title">Presenting Quantitative Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-16" class="internal"><span class="title">Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-17" class="internal"><span class="title">Class Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-18" class="internal"><span class="title">Histograms Using Technology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-19" class="internal"><span class="title">The Shape of a Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-20" class="internal"><span class="title">Modality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-21" class="internal"><span class="title">Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-22" class="internal"><span class="title">Skewness</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-23" class="internal"><span class="title">Skewed to the Left</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-24" class="internal"><span class="title">Skewed to the Right</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-25" class="internal"><span class="title">The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-26" class="internal"><span class="title">Outlier</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-27" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_center.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Summary Statistics: Measures of Center</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-4" class="internal"><span class="title">Calculating Summary Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-5" class="internal"><span class="title">Measures of Center</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-6" class="internal"><span class="title">Mode</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-7" class="internal"><span class="title">Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-8" class="internal"><span class="title">Median</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-9" class="internal"><span class="title">The Relationship Between the Mean and the Median</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-10" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Summary Statistics: Measures of Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-4" class="internal"><span class="title">Measures of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-5" class="internal"><span class="title">Standard Deviation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-6" class="internal"><span class="title">Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-7" class="internal"><span class="title">Quartiles and the Interquartile Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-8" class="internal"><span class="title">The Five-Number Summary and Boxplots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-9" class="internal"><span class="title">Modified Boxplot (Optional)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-10" class="internal"><span class="title">Percentiles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-11" class="internal"><span class="title">Comparing Distributions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-12" class="internal"><span class="title">Z-Scores</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-13" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_review.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Statisitcs Chapter Review</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_normal_model.html" class="internal"><span class="codenumber">3.6</span> <span class="title">The Normal Distribution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-4" class="internal"><span class="title">Introduction to The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-5" class="internal"><span class="title">Properties of the Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-6" class="internal"><span class="title">The Empirical Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-7" class="internal"><span class="title">Using the Empirical Rule to Calculate Approximate Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-8" class="internal"><span class="title">Using Technology to Calculate Exact Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-9" class="internal"><span class="title">The Standard Normal Distribution and Z-Scores</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-10" class="internal"><span class="title">Confidence Intervals and Margin of Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="financial_math.html" class="internal"><span class="codenumber">4</span> <span class="title">Financial Math</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Spreadsheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-4" class="internal"><span class="title">Basic Calculations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-5" class="internal"><span class="title">Cell References</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-6" class="internal"><span class="title">Cell Formatting</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-7" class="internal"><span class="title">Fill-Down Feature</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-8" class="internal"><span class="title">Formulas</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-9" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_simple_compound.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Simple and Compound Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-4" class="internal"><span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-5" class="internal"><span class="title">APR – Annual Percentage Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-6" class="internal"><span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-7" class="internal"><span class="title">The Future Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-8" class="internal"><span class="title">Comparing Simple and Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-9" class="internal"><span class="title">Finding the Principal, or Present Value</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-10" class="internal"><span class="title">The Present Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-11" class="internal"><span class="title">Continuously Compounded Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-12" class="internal"><span class="title">Finding the Amount of Interest Earned and the Percentage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-13" class="internal"><span class="title">Effective Rate</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-14" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_credit_cards.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Credit Cards</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#types_of_credit_cards" class="internal"><span class="title">Types of Credit Cards</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#credit_card_statements" class="internal"><span class="title">Credit Card Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#interest_balance_payments" class="internal"><span class="title">Compute Interest, Balance Due, and Minimum Payment Due for a Credit Card.</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_income_taxes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Income Taxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-4" class="internal"><span class="title">A Very Brief History of Taxes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-5" class="internal"><span class="title">Types of Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-6" class="internal"><span class="title">Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-7" class="internal"><span class="title">State Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-8" class="internal"><span class="title">Municipal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-9" class="internal"><span class="title">Calculating Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-10" class="internal"><span class="title">Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-11" class="internal"><span class="title">Adjusted Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-12" class="internal"><span class="title">Taxable Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-13" class="internal"><span class="title">Filing Status</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-14" class="internal"><span class="title">Tax Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-15" class="internal"><span class="title">Tax Credits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-16" class="internal"><span class="title">Calculating a Refund or Payment Due</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-17" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_loans.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Basics of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-4" class="internal"><span class="title">Reasons for Loans</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5" class="internal"><span class="title">The Terminology of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-3" class="internal"><span class="title">Credit Scores</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-4" class="internal"><span class="title">Where Do Interest Rates Come From?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-6" class="internal"><span class="title">Calculating Loan Payments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-7" class="internal"><span class="title">Reading Amortization Tables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Personal Budget</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#Creating_a_budget" class="internal"><span class="title">Creating a Budget</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html#The_50_30_20_budget_philosophy" class="internal"><span class="title">The 50-30-20 Budget Philosophy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#subsec_3" class="internal"><span class="title">Necessary Expenses and Expenses that are Wants</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4" class="internal"><span class="title">Distinguish Various Basic Forms of Savings Plans</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4-3" class="internal"><span class="title">Savings Account</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5" class="internal"><span class="title">Savings Plan Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-13" class="internal"><span class="title">Certificate of Deposits, or CDs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-16" class="internal"><span class="title">Money Market Account</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-19" class="internal"><span class="title">Return on Investment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-26" class="internal"><span class="title">Annuities as Savings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-27" class="internal"><span class="title">Compute Payment to Reach a Financial Goal</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-6" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_investment.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Investments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4" class="internal"><span class="title">Distinguish Between Basic Forms of Investments</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4-3" class="internal"><span class="title">Bonds</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5" class="internal"><span class="title">Stocks</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-4" class="internal"><span class="title">Mutual Funds</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6" class="internal"><span class="title">Retirement Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-3" class="internal"><span class="title">Individual Retirement Accounts</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-4" class="internal"><span class="title">401(k) Accounts</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_review.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Financial Math Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-1.html" class="internal"><span class="title">References</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="financial_math_personal_budget"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.6</span><span class="space"> </span><span class="title">Personal Budget</span>
+</h2>
+<article class="objectives goal-like" id="financial_math_personal_budget-2"><h3 class="heading">
+<span class="type">Objectives:</span><span class="space"> </span><span class="title">Section 4.6 Personal Budget</span>
+</h3>
+<div class="introduction" id="financial_math_personal_budget-2-2"><div class="para" id="financial_math_personal_budget-2-2-1">After completing this section, you should be able to:</div></div>
+<ul class="disc">
+<li id="financial_math_personal_budget-2-3-1"><div class="para" id="financial_math_personal_budget-2-3-1-1">Create a personal budget with the categories of expenses and income.</div></li>
+<li id="financial_math_personal_budget-2-3-2"><div class="para" id="financial_math_personal_budget-2-3-2-1">Apply general guidelines for a budget.</div></li>
+</ul></article><div class="para" id="financial_math_personal_budget-3">
+<dfn class="terminology">A budget</dfn> is an outline of how money and resources should be spent. Companies have them, individuals have them, your college has one. But do you have one?</div>
+<div class="para" id="financial_math_personal_budget-4">Creating a realistic budget is an important step in careful stewardship of your financial health. Designing your budget will help understand the financial priorities you have, and the constraints on your life choices. You want to have enough income to pay not only for the necessities, but also for things that represent your wants, like trips or dinner out. You also may want to save money for large purchases or retirement. You do not want to just get by, and you do not want the problems associated with overdue balances, rising debt, and possibly losing something you have worked hard to obtain.</div>
+<div class="para" id="financial_math_personal_budget-5">While creating a budget may seem intimidating at first, coming up with your basic budget outline is the hardest part. Over time, you will adjust not only the numbers, but the categories.</div>
+<section class="subsection" id="Creating_a_budget"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Creating a Budget</span>
+</h3>
+<div class="para" id="Creating_a_budget-2">You should view creating a budget as a financial tool that will help you achieve your long-term goals. A budget is an estimation of income and expenses over some period of time. You will be able to track your progress, which will help you to prepare for the future by making smart investment decisions.</div>
+<div class="para logical" id="Creating_a_budget-3">
+<div class="para">There are several budget-creating tools available, such as the apps Good budget and Mint, and Google Sheets. Getting started, though, begins well before you find an app. The following are steps that can be used to create your monthly budget.</div>
+<ol class="decimal">
+<li id="Creating_a_budget-3-1-1"><div class="para" id="Creating_a_budget-3-1-1-1">
+<dfn class="terminology">Track your income and expenses</dfn> Review your income and expenses for the past 6 months to a year. This will give you an idea of your current habits.</div></li>
+<li id="Creating_a_budget-3-1-2"><div class="para" id="Creating_a_budget-3-1-2-1">
+<dfn class="terminology">Set your income baseline</dfn> Determine all the sources of income you will have. This income may from paychecks, investments, or freelance work. It even includes child support and gifts. Be sure to use income after taxes. This allows you to determine your maximum expenditures per month.</div></li>
+<li id="Creating_a_budget-3-1-3"><div class="para" id="Creating_a_budget-3-1-3-1">
+<dfn class="terminology">Determine your expenses</dfn> Review your bills from the past 6 months. You should include mortgage payments or rent, insurance, car payments, utilities, groceries, transportation expenses, personal care, entertainment, and savings. Using your credit card statements and bank statements will help you determine these amounts. Be aware that some of the expenses will not change over time. These are referred to as <dfn class="terminology">fixed expenses</dfn>, like rent, car payments, insurance, internet service, and the like. Other expenses may vary widely from month to month and are appropriately called <dfn class="terminology">variable expenses</dfn>, and include such expenses as gasoline, groceries.</div></li>
+<li id="Creating_a_budget-3-1-4"><div class="para" id="Creating_a_budget-3-1-4-1">
+<dfn class="terminology">Categorize your expenses</dfn> These categories may be housing, transportation, or food, for broad categories, or may get more specific, where you categorize car payments, car insurance, and gasoline separately. The categories are your choices. Be sure to account for the cost of maintaining a vehicle or home. The more specific you are, the better you’ll understand your spending needs and habits.</div></li>
+<li id="Creating_a_budget-3-1-5"><div class="para" id="Creating_a_budget-3-1-5-1">
+<dfn class="terminology">Total your monthly income and monthly expenses and compare</dfn> These values should be compared. If your expenses are higher than your income, then adjustments have to be made. Decisions of what to do with any extra income is part of the planning process also.</div></li>
+<li id="Creating_a_budget-3-1-6"><div class="para" id="Creating_a_budget-3-1-6-1">
+<dfn class="terminology">Make plans for unplanned expenses</dfn> Ask anyone, an unexpected car repair can ruin a carefully crafted budget. Have a plan for how you can be ready for these random expenses. This often means creating a cushion in your budget.</div></li>
+<li id="Creating_a_budget-3-1-7"><div class="para" id="Creating_a_budget-3-1-7-1">
+<dfn class="terminology">Use your budget to make decisions and adjust for any changes</dfn> Your budget is a changeable document. Add to it when you wish, refer to it when special purchases are to be made. Keeping your budget up to date helps accommodate changes in income and expenses.</div></li>
+</ol>
+</div>
+<figure class="figure figure-like" id="Creating_a_budget-4"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/K5UlgTkadV0?&amp;modestbranding=1&amp;rel=0" id="Creating_a_budget-4-2"></iframe></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.6.1<span class="period">.</span></span><span class="space"> </span>Creating a BUdget</figcaption></figure><div class="para" id="Creating_a_budget-5">In this section, we will focus on income and expenses. One of the easiest ways to manage a budget is to create a table, with one column containing income sources, another with income values, a third with expense categories, and a last containing expenses. An example is shown in Table 6.1.</div>
+<article class="assemblage assemblage-like" id="Creating_a_budget-6"><h4 class="heading"><span class="title">Gross Pay and Take Home Pay.</span></h4>
+<div class="para" id="Creating_a_budget-6-2">If you’ve ever had a paycheck, you know that taxes are taken out of your pay before you get your check. This amount of money varies from state to state, and sometimes even city to city. For a person making $50,000 per year gross salary in Salt Lake City, Utah, take home pay is about 75.6% of gross salary. In Detroit, Michigan, take home pay is about 74.5% of gross salary. Lakeland, Florida, take home pay is about 80.5% of gross salary. These also change based on how much a person earns! Before choosing a place to live, it makes sense to determine how much deductions from pay will impact your income.</div></article><article class="example example-like" id="example_6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="example_6-1-1">Heather has graduated college and currently works as a nurse for a rural medical group. Her net monthly income from that job is <span class="process-math">\(\$3,765.40\text{.}\)</span> She also works part-time on the weekends, earning another <span class="process-math">\(\$672.00\)</span> per month. Her monthly expenses are rent at <span class="process-math">\(\$1,050,\)</span> car payments at <span class="process-math">\(\$489\text{,}\)</span> student loan payments at <span class="process-math">\(\$728\text{,}\)</span> car insurance at <span class="process-math">\(\$139\text{,}\)</span> utilities at <span class="process-math">\(\$130\text{,}\)</span> clothing at <span class="process-math">\(\$150\text{,}\)</span> entertainment (going out with friends, Netflix, Amazon Prime, movies) at <span class="process-math">\(\$300\text{,}\)</span> credit card debt at <span class="process-math">\(\$200\text{,}\)</span> food at <span class="process-math">\(\$360\text{,}\)</span> and gasoline at <span class="process-math">\(\$275.\)</span> Create her budget in a table, compare the total income to total expenses, and determine how much excess income per month she has or how much she falls short by each month.</div>
+<div class="solutions"><details id="example_6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example_6-2-1">
+<dfn class="terminology">Step 1</dfn>: To begin, we create the table with appropriate headings.</div> <figure class="table table-like" id="example_6-2-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.3<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular"><tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr></table></div></figure> <div class="para" id="example_6-2-3">
+<dfn class="terminology">Step 2</dfn>: Her income categories are her nursing job, with <span class="process-math">\(\$3,765.40 \)</span> per month, and her part-time job, with <span class="process-math">\(\$672.00\)</span> per month. Entering these into the table, we have the following.</div> <figure class="table table-like" id="example_6-2-4"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.4<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Nursing</td>
+<td class="l m b0 r0 l0 t0 lines">$3,765.40</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Part-time</td>
+<td class="l m b0 r0 l0 t0 lines">$672.00</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div></figure> <div class="para" id="example_6-2-5">
+<dfn class="terminology">Step 3</dfn>: Her monthly expenses are listed above. Entering the categories and the amount for each of those expenses, the table is now</div> <figure class="table table-like" id="example_6-2-6"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.5<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Nursing</td>
+<td class="l m b0 r0 l0 t0 lines">$3,765.40</td>
+<td class="l m b0 r0 l0 t0 lines">Rent</td>
+<td class="l m b0 r0 l0 t0 lines">$1,050</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Part-time</td>
+<td class="l m b0 r0 l0 t0 lines">$672.00</td>
+<td class="l m b0 r0 l0 t0 lines">Car Payment</td>
+<td class="l m b0 r0 l0 t0 lines">$489</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Total</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">$4,437.40</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">Student Loan</td>
+<td class="l m b0 r0 l0 t0 lines">$728</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Car Insurance</td>
+<td class="l m b0 r0 l0 t0 lines">$139</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Utilities</td>
+<td class="l m b0 r0 l0 t0 lines">$130</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Clothing</td>
+<td class="l m b0 r0 l0 t0 lines">$150</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Entertainment</td>
+<td class="l m b0 r0 l0 t0 lines">$300</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Credit Card</td>
+<td class="l m b0 r0 l0 t0 lines">$200</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Food</td>
+<td class="l m b0 r0 l0 t0 lines">$400</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Gasoline</td>
+<td class="l m b0 r0 l0 t0 lines">$250</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Total</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">$3,836</dfn></td>
+</tr>
+</table></div></figure> <div class="para" id="example_6-2-7">
+<dfn class="terminology">Step 4</dfn>: Totaling the income and expenses, we see that her total income is <span class="process-math">\(\$4,437.40\)</span> per month, and her total expenses are <span class="process-math">\(\$3,836 \)</span> per month. Comparing these, we see that Heather has <span class="process-math">\(\$601.40\)</span> in excess income per month. This provides a cushion in her budget.</div>
+</div></details></div></article><article class="exercise exercise-like" id="Creating_a_budget-8"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="Creating_a_budget-8-1-1">Mateo works as a union electrician in a suburban area. Monthly, his take home pay is <span class="process-math">\(\$3,375.\)</span> He sometimes does small side jobs for family or friends, and averages about <span class="process-math">\(\$300\)</span> per month from these little jobs. His monthly expenses are his mortgage at <span class="process-math">\(\$986.78,\)</span> truck payments at <span class="process-math">\(\$589.00\text{,}\)</span> truck insurance at <span class="process-math">\(\$312\text{,}\)</span> utilities at <span class="process-math">\(\$167\text{,}\)</span> clothing at <span class="process-math">\(\$150\text{,}\)</span> entertainment at <span class="process-math">\(\$400\text{,}\)</span> credit card debt at <span class="process-math">\(\$325\text{,}\)</span> food at <span class="process-math">\(\$470\text{,}\)</span> and gasoline at <span class="process-math">\(\$375\text{.}\)</span> Create Mateo’s budget in a table, compare the total income to total expenses, and determine how much excess income per month he has or how much he falls short by each month.</div></article><article class="example example-like" id="Creating_a_budget-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="Creating_a_budget-9-1-1"><dfn class="terminology">Creating a Budget</dfn></div> <div class="para" id="Creating_a_budget-9-1-2">Carol is working in a dental lab, creating dentures and bridges. Monthly her take home pay is $2,816 (based on $22 per hour minus payroll taxes). She also receives $320 per month in child support for her one daughter. Her monthly expenses are rent at $700, car payments at $229, student loan payments at $250, car insurance at $119, health insurance at $225, utilities at $80, clothing at $75, entertainment at $200, food at $275, and gasoline at $275. Create Carol’s budget in a table, compare the total income to total expenses, and determine how much excess income per month she has or how much she falls short by each month.</div>
+<div class="solutions"><details id="Creating_a_budget-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="Creating_a_budget-9-2-1">
+<dfn class="terminology">Step 1</dfn>: To begin, we create the table with appropriate headings.</div> <figure class="table table-like" id="Creating_a_budget-9-2-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.8<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular"><tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr></table></div></figure> <div class="para" id="Creating_a_budget-9-2-3">
+<dfn class="terminology">Step 2</dfn>: Her income categories are from work, $2,816, and child support, $320, per month. Entering these into the table, we have the following.</div> <figure class="table table-like" id="Creating_a_budget-9-2-4"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.9<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Job</td>
+<td class="l m b0 r0 l0 t0 lines">$2,816.00</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Child support</td>
+<td class="l m b0 r0 l0 t0 lines">$320.00</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div></figure> <div class="para" id="Creating_a_budget-9-2-5">
+<dfn class="terminology">Step 3</dfn>: Her monthly expenses are listed above. Entering the categories and the amount for each of those expenses, the table is now</div> <figure class="table table-like" id="Creating_a_budget-9-2-6"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.10<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Job</td>
+<td class="l m b0 r0 l0 t0 lines">$2,816.00</td>
+<td class="l m b0 r0 l0 t0 lines">Rent</td>
+<td class="l m b0 r0 l0 t0 lines">$700</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Child support</td>
+<td class="l m b0 r0 l0 t0 lines">$320.00</td>
+<td class="l m b0 r0 l0 t0 lines">Car Payment</td>
+<td class="l m b0 r0 l0 t0 lines">$229</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Total</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">$3,136.00</td>
+<td class="l m b0 r0 l0 t0 lines">Student Loan</td>
+<td class="l m b0 r0 l0 t0 lines">$250</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Car Insurance</td>
+<td class="l m b0 r0 l0 t0 lines">$119</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Utilities</td>
+<td class="l m b0 r0 l0 t0 lines">$80</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Health insurance</td>
+<td class="l m b0 r0 l0 t0 lines">$225</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Clothing</td>
+<td class="l m b0 r0 l0 t0 lines">$75</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Entertainment</td>
+<td class="l m b0 r0 l0 t0 lines">$200</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Food</td>
+<td class="l m b0 r0 l0 t0 lines">$275</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Gasoline</td>
+<td class="l m b0 r0 l0 t0 lines">$275</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Total</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">$2,428.00</td>
+</tr>
+</table></div></figure>
+</div></details></div></article><article class="exercise exercise-like" id="Creating_a_budget-10"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="Creating_a_budget-10-1-1">Maddy works as a mechanical engineer, making $6,093.75 monthly after payroll taxes. Her monthly expenses are her mortgage at $1,452.89, car payments at $627.38, car insurance at $179.00, health insurance at $265.00, utilities at $320, clothing at $150, entertainment at $400, credit card debt at $450, food at $370, and gasoline at $175. Create Maddy’s budget in a table, compare the total income to total expenses, and determine how much excess income per month she has or how much she falls short by each month.</div></article><div class="para" id="Creating_a_budget-11">Using the budget process, we can make decisions on adding expenses to the budget. To do so, check the cushion of the budget to see if there is room in the budget for the new expense.</div>
+<article class="example example-like" id="Creating_a_budget-12"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="Creating_a_budget-12-1-1"><dfn class="terminology">Adding to an Existing Budget</dfn></div> <div class="para" id="Creating_a_budget-12-1-2">In the example above, Carol had excess income of $708.00. She looks up the cost of before-school care for her daughter. She finds that, monthly, the cost would be $252.00 per month. Is this an affordable program for Carol? Add this expense to her budget table.</div>
+<div class="solutions"><details id="Creating_a_budget-12-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="Creating_a_budget-12-2-1">She can afford this, as the cost for the before school program is $252.00 and she had extra income of $708.00. Adding this to her budget, her budget table is now</div> <figure class="table table-like" id="Creating_a_budget-12-2-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.13<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Job</td>
+<td class="l m b0 r0 l0 t0 lines">$2,816.00</td>
+<td class="l m b0 r0 l0 t0 lines">Rent</td>
+<td class="l m b0 r0 l0 t0 lines">$700</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Child support</td>
+<td class="l m b0 r0 l0 t0 lines">$320.00</td>
+<td class="l m b0 r0 l0 t0 lines">Car Payment</td>
+<td class="l m b0 r0 l0 t0 lines">$229</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Total</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">$3,136.00</td>
+<td class="l m b0 r0 l0 t0 lines">Student Loan</td>
+<td class="l m b0 r0 l0 t0 lines">$250</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Car Insurance</td>
+<td class="l m b0 r0 l0 t0 lines">$119</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Utilities</td>
+<td class="l m b0 r0 l0 t0 lines">$80</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Health insurance</td>
+<td class="l m b0 r0 l0 t0 lines">$225</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Clothing</td>
+<td class="l m b0 r0 l0 t0 lines">$75</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Entertainment</td>
+<td class="l m b0 r0 l0 t0 lines">$200</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Food</td>
+<td class="l m b0 r0 l0 t0 lines">$275</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Gasoline</td>
+<td class="l m b0 r0 l0 t0 lines">$275</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Before-school care</td>
+<td class="l m b0 r0 l0 t0 lines">$252</td>
+</tr>
+</table></div></figure> <div class="para" id="Creating_a_budget-12-2-3">Now, she has <span class="process-math">\(\$456\)</span> in excess income per month.</div>
+</div></details></div></article><article class="exercise exercise-like" id="Creating_a_budget-13"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="Creating_a_budget-13-1-1">Recall Heather’s budget from <a href="financial_math_personal_budget.html#example_6" class="xref" data-knowl="./knowl/xref/example_6.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 4.6.2">Example 4.6.2</a>. She decides she wants to buy her own home, which would increase her expenses. Instead of $1,050.00 in rent, she would pay $1,240.00 for her mortgage. Her utilities costs would increase to $295.00 per month. Add these to Heather’s budget to determine if the changes are affordable.</div></article></section><section class="subsection" id="The_50_30_20_budget_philosophy"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The 50-30-20 Budget Philosophy</span>
+</h3>
+<div class="para" id="The_50_30_20_budget_philosophy-2">It isn’t clear, obvious, or easy to decide how much of your income to allocate to various categories of expenses. Many people pay their bills and then consider all the leftover money to be spending money. However, when developing your own budget, you may want to follow the <dfn class="terminology">50-30-20 budget philosophy</dfn>, which provides a basic guideline for how your income could be allocated. Fifty percent of your budget is allotted to your needs, 30% of your budget is allotted to pay for your wants, and 20% of your budget is allotted for savings and debt service (paying off your debts).</div>
+<div class="para" id="The_50_30_20_budget_philosophy-3">Knowing what expenses are necessary and what expenses are wants is important, since wants and needs are often confused. The following are <dfn class="terminology">necessary expenses</dfn> that represent basic living requirements and debt services. This list isn’t complete: mortgage/rent, utilities, car, car insurance, health care, groceries, gasoline, child care (for working parents), and minimum debt payments. The 50-30-20 budget philosophy suggests that 50%, or half, your income go to these necessities.</div>
+<div class="para" id="The_50_30_20_budget_philosophy-4">Wants, though, are things you could live without but still wish to have, such as Amazon Prime, restaurant dinners, coffee from Starbucks, vacation trips, and hobby costs. Even a gym membership or that new laptop are wants. Creating the room to afford these wants is important to our mental health. Not budgeting for things we want will negatively impact our quality of life.</div>
+<div class="para" id="The_50_30_20_budget_philosophy-5">The remaining 20% should be set aside, either in retirement funds, stocks, other investments, an emergency fund (recommendations are that an emergency fund have 3 months of income), and perhaps extra spent to pay down debt. This 20% is very useful for addressing those unexpected costs, such as repairs or replacement of items that no longer work. Without budgeting this cushion, any expense that is a surprise can cause us to miss necessary payments.</div>
+<div class="para" id="The_50_30_20_budget_philosophy-6">The list of necessary expenses was not complete. There are other expenses that could be included.</div>
+<section class="subsubsection" id="subsec_3"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Necessary Expenses and Expenses that are Wants</span>
+</h4>
+<div class="para" id="subsec_3-2">For some people, an expense will be necessary while the same expense for someone else will be a want. A good example of this is internet service. Many people consider internet service as a need, especially those who work from home or who are not able to leave their homes. One could also call internet service a need if they have children in school. For others, internet service is a want. If a person’s job doesn’t require them to be online, if they are not in school, if they do not have kids, then internet service can be dropped. There are public options for internet service. One could even use their phone as a hot spot.</div>
+<div class="para" id="subsec_3-3">Cars often fall into the category of need, but could also fall into the want category, depending on where and how you live. Bikes, public transportation, and walking are all options that could replace a car. This would then remove the cost of gasoline and car insurance.</div>
+<div class="para" id="subsec_3-4">Another consideration when deciding if an item on your budget is a need or a want is about your choices and priorities. A car is a need for many. But the need for a car is not the same as the need for a specific car. If you choose to buy a car with payments that exceed your budgeted amount for the car, then that car is a want. The amount you exceed the budget now belongs in the want category.</div>
+<div class="para" id="subsec_3-5">The same can be said for housing. If you want an apartment that costs $1,250 per month, but your budget only allows for an apartment that costs $900, then $350 of the rent is a want.</div>
+<div class="para" id="subsec_3-6">The point of that is to carefully consider if an expense is a need as opposed to a want.</div>
+<div class="para" id="subsec_3-7">When your expenses exceed your income, you may want to change how you budget your income to line up with these guidelines. This may mean cutting back, finding less-expensive living arrangements, finding a less-expensive (and more fuel-efficient) car, or sacrificing some specialty groceries. Using these guidelines keeps your financial life manageable.</div>
+<div class="para" id="subsec_3-8">Better still, they can guide you as you begin your life after graduation.</div>
+<article class="example example-like" id="subsec_3-9"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.15</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsec_3-9-1-1"><dfn class="terminology">Evaluate a Budget Using 50-30-20 model</dfn></div> <div class="para" id="subsec_3-9-1-2">In the example above, after Carol added before school care for her daughter to the budget, her budget was as shown below. Evaluate Carol’s budget using the 50-30-20 budget philosophy.</div> <figure class="table table-like" id="subsec_3-9-1-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.16<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Job</td>
+<td class="l m b0 r0 l0 t0 lines">$2,816.00</td>
+<td class="l m b0 r0 l0 t0 lines">Rent</td>
+<td class="l m b0 r0 l0 t0 lines">$700</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Child support</td>
+<td class="l m b0 r0 l0 t0 lines">$320.00</td>
+<td class="l m b0 r0 l0 t0 lines">Car Payment</td>
+<td class="l m b0 r0 l0 t0 lines">$229</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Total</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">$3,136.00</td>
+<td class="l m b0 r0 l0 t0 lines">Student Loan</td>
+<td class="l m b0 r0 l0 t0 lines">$250</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Car Insurance</td>
+<td class="l m b0 r0 l0 t0 lines">$119</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Utilities</td>
+<td class="l m b0 r0 l0 t0 lines">$80</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Health insurance</td>
+<td class="l m b0 r0 l0 t0 lines">$225</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Clothing</td>
+<td class="l m b0 r0 l0 t0 lines">$75</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Entertainment</td>
+<td class="l m b0 r0 l0 t0 lines">$200</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Food</td>
+<td class="l m b0 r0 l0 t0 lines">$275</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Gasoline</td>
+<td class="l m b0 r0 l0 t0 lines">$275</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Before-school care</td>
+<td class="l m b0 r0 l0 t0 lines">$252</td>
+</tr>
+</table></div></figure><div class="solutions"><details id="subsec_3-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec_3-9-2-1">Carol’s total income is <span class="process-math">\(\$3,136.\)</span> Applying the 50-30-20 budget philosophy to this income requires the calculation of each of those percentages.</div> <div class="para" id="subsec_3-9-2-2">For the necessities, Carol should budget <span class="process-math">\(50\%\)</span> of her income, or  <span class="process-math">\(.05 * \$3,136 = \$1,568.00 \)</span>
+</div> <div class="para" id="subsec_3-9-2-3">For her wants, she should budget <span class="process-math">\(30\%\)</span> of her income, or  <span class="process-math">\(0.3 * \$3,136 = \$940.80\)</span>
+</div> <div class="para" id="subsec_3-9-2-4">For savings and extra debt service, she should budget <span class="process-math">\(20\%\)</span> of her income, or  <span class="process-math">\(0.2 * \$3,136 = \$627.20 \)</span>
+</div> <div class="para" id="subsec_3-9-2-5">In her budget, her necessities include all expenses except for entertainment. These expenses total <span class="process-math">\(\$2,480\text{,}\)</span> which exceeds the suggested budget amount of <span class="process-math">\(\$1568.\)</span> To follow the guidelines, Carol would have to cut back on these necessities.</div> <div class="para" id="subsec_3-9-2-6">For her wants, she spends <span class="process-math">\(\$200\)</span> on entertainment, which is well below the suggested budget amount of <span class="process-math">\(\$940.80\text{.}\)</span> If she modifies how much she spends on needs, she may be able to increase the spending on her wants.</div> <div class="para" id="subsec_3-9-2-7">Her excess income is <span class="process-math">\(\$456,\)</span> which is below what she should be saving and using to pay down extra debt. If she does adjust how much she spends on needs, she could increase the amount for savings.</div>
+</div></details></div></article><article class="exercise exercise-like" id="subsec_3-10"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.17</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsec_3-10-1-1">Recall Heather’s budget from Example 4.4.2, before she thought of moving. That budget is below. Evaluate Heather’s budget using the 50-30-20 budget philosophy.</div> <figure class="table table-like" id="subsec_3-10-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.6.18<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Income Source</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Expense</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Amount</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Nursing</td>
+<td class="l m b0 r0 l0 t0 lines">$3,765.40</td>
+<td class="l m b0 r0 l0 t0 lines">Rent</td>
+<td class="l m b0 r0 l0 t0 lines">$1,050</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Part-time</td>
+<td class="l m b0 r0 l0 t0 lines">$672.00</td>
+<td class="l m b0 r0 l0 t0 lines">Car Payment</td>
+<td class="l m b0 r0 l0 t0 lines">$489</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Student Loan</td>
+<td class="l m b0 r0 l0 t0 lines">$728</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Car Insurance</td>
+<td class="l m b0 r0 l0 t0 lines">$139</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Utilities</td>
+<td class="l m b0 r0 l0 t0 lines">$130</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Clothing</td>
+<td class="l m b0 r0 l0 t0 lines">$150</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Entertainment</td>
+<td class="l m b0 r0 l0 t0 lines">$300</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Credit Card</td>
+<td class="l m b0 r0 l0 t0 lines">$200</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Food</td>
+<td class="l m b0 r0 l0 t0 lines">$400</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Gasoline</td>
+<td class="l m b0 r0 l0 t0 lines">$250</td>
+</tr>
+</table></div></figure></article><article class="example example-like" id="subsec_3-11"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.19</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsec_3-11-1-1"><dfn class="terminology">Creating a Budget Based on the 50-30-20 Budget Philosophy</dfn></div> <div class="para" id="subsec_3-11-1-2">Carmen is about to graduate and has been offered a job at a bank as a data scientist. She estimates her monthly take home pay to be <span class="process-math">\(\$5,662.50\text{.}\)</span> Apply the 50-30-20 philosophy to that monthly income. How should Carmen use this information?</div>
+<div class="solutions"><details id="subsec_3-11-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec_3-11-2-1">
+<dfn class="terminology">Step 1</dfn>: To apply the 50-30-20 budget philosophy to Carmen’s income, she needs to calculate <span class="process-math">\(50\%\text{,}\)</span> <span class="process-math">\(30\%\text{,}\)</span> and <span class="process-math">\(20\% \)</span>of her income. Fifty percent of her income is  <span class="process-math">\(0.5 * \$5,662.50 = \$2,831.25 \text{.}\)</span> Thirty percent of her income is  <span class="process-math">\(0.3 * \$5,662.50 = \$1,698.75 \text{.}\)</span> Twenty percent of her income is <span class="process-math">\(0.2 * \$5,662.50 = \$1,132.50. \)</span>
+</div> <div class="para" id="subsec_3-11-2-2">
+<dfn class="terminology">Step 2</dfn>: She would then budget <span class="process-math">\(\$2,831.25\)</span> for her needs, <span class="process-math">\(\$1,698.75\)</span> for her wants, and <span class="process-math">\(\$1,132.50\)</span> for savings and debt service.</div> <div class="para" id="subsec_3-11-2-3">
+<dfn class="terminology">Step 3</dfn>: When choosing where to live, what to eat, and what to drive, she should make choices that keep those costs, combined with her debt service costs, gasoline, and utilities, below <span class="process-math">\(\$2,831.25\text{.}\)</span> This means she will have to make decisions about what her priorities are.</div> <div class="para" id="subsec_3-11-2-4">
+<dfn class="terminology">Step 4</dfn>: She should then figure out what she wants to do with her money, and stay within the limits, that is, keep those costs below <span class="process-math">\(\$1,698.75\text{.}\)</span>
+</div> <div class="para" id="subsec_3-11-2-5">
+<dfn class="terminology">Step 5</dfn>: Finally, she can begin building her savings with the remaining <span class="process-math">\(\$1,132.50\text{.}\)</span>
+</div>
+</div></details></div></article><article class="exercise exercise-like" id="subsec_3-12"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.20</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsec_3-12-1-1">Elijah has finished an apprenticeship and is about to start his first job as an HVAC (heating, ventilation, and air conditioning) tech. He estimates that his net monthly income will be <span class="process-math">\(\$3,263.44\text{.}\)</span> Apply the 50-30-20 budget philosophy to his income to set guidelines for Elijah’s budget. How should Elijah use this information?</div></article><article class="example example-like" id="subsec_3-13"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.21</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsec_3-13-1-1"><dfn class="terminology">Using the 50-30-20 Budget Philosophy to Analyze Affordability</dfn></div> <div class="para logical" id="subsec_3-13-1-2">
+<div class="para">Steve is thinking of moving out of his family’s home. He currently works at a full-time job making <span class="process-math">\(\$18\)</span> per hour, which will give him, approximately, a net annual income of <span class="process-math">\(\$29,180\)</span> (working 40 hours per week for 52 weeks per year). He has student debt that he pays off at <span class="process-math">\(\$218\)</span> per month, and already owns a car that he pays <span class="process-math">\(\$162\)</span> per month for.</div>
+<ol class="decimal">
+<li id="subsec_3-13-1-2-5-1"><div class="para" id="subsec_3-13-1-2-5-1-1">Apply the 50-30-20 budget philosophy to Steve’s income.</div></li>
+<li id="subsec_3-13-1-2-5-2"><div class="para" id="subsec_3-13-1-2-5-2-1">If he follows the budget, how much does he have, after paying his car payment and student loan, to spend on necessities.</div></li>
+<li id="subsec_3-13-1-2-5-3"><div class="para" id="subsec_3-13-1-2-5-3-1">If he follows the budget, how much will he set aside for wants? For savings?</div></li>
+<li id="subsec_3-13-1-2-5-4"><div class="para" id="subsec_3-13-1-2-5-4-1">Discuss the affordability of moving out, based on Steve’s budget.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="subsec_3-13-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec_3-13-2-1">
+<div class="para">Before the 50-30-20 philosophy can be applied, Steve’s monthly income needs to be determined. This is found by dividing his annual income by 12. This gives  <span class="process-math">\(\$29,180/12 = \$2,431.67 \text{.}\)</span> This will be used for his monthly budget.</div>
+<ol class="decimal">
+<li id="subsec_3-13-2-1-2-1"><div class="para logical" id="subsec_3-13-2-1-2-1-1">
+<div class="para">To apply the 50-30-20 philosophy to Steve’s income, find <span class="process-math">\(50\% \text{,}\)</span> <span class="process-math">\(30\%\text{,}\)</span> and <span class="process-math">\(20\%\)</span> of his monthly income.</div>
+<ul class="disc">
+<li id="subsec_3-13-2-1-2-1-1-4-1"><div class="para" id="subsec_3-13-2-1-2-1-1-4-1-1">Needs <span class="process-math">\(50\%\text{:}\)</span> <span class="process-math">\(50\%\)</span> of his income is  <span class="process-math">\(0.50 * \$2,431.67 = \$1,215.83 \text{.}\)</span>
+</div></li>
+<li id="subsec_3-13-2-1-2-1-1-4-2"><div class="para" id="subsec_3-13-2-1-2-1-1-4-2-1">Wants <span class="process-math">\(30\%\text{:}\)</span> <span class="process-math">\(0.30 * \$2,431.67 = \$729.50 \)</span>
+</div></li>
+<li id="subsec_3-13-2-1-2-1-1-4-3"><div class="para" id="subsec_3-13-2-1-2-1-1-4-3-1">Savings <span class="process-math">\(20\%\text{:}\)</span>  <span class="process-math">\(0.20 * \$2,431.67 = \$486.33 \)</span>
+</div></li>
+</ul>
+</div></li>
+<li id="subsec_3-13-2-1-2-2"><div class="para" id="subsec_3-13-2-1-2-2-1">The total for Steve’s needs is <span class="process-math">\(\$1,215.83\text{.}\)</span> From this, he already pays <span class="process-math">\(\$218\)</span> for his student loans, and <span class="process-math">\(\$162\)</span> for his car payment. Together that is <span class="process-math">\(\$380\text{.}\)</span> Subtracting from the amount he should budget for his needs, he can spend <span class="process-math">\(\$835.83\)</span> on other needs.</div></li>
+<li id="subsec_3-13-2-1-2-3"><div class="para" id="subsec_3-13-2-1-2-3-1">Steve budgeted <span class="process-math">\(\$729.50\)</span> for wants, and <span class="process-math">\(\$486.33\)</span> for savings and other debt servicing.</div></li>
+<li id="subsec_3-13-2-1-2-4"><div class="para" id="subsec_3-13-2-1-2-4-1">Steve will have other needs to pay for, including rent, utilities, food, heath care, gasoline, and car insurance. It is difficult to imagine Steve being able to afford to move out, unless he reallocates money that he would want to save, or use for entertainment and other wants, or takes on another job. Even if Steve uses all the money that the 50-30-20 budget sets aside for savings, he still only has <span class="process-math">\(\$1,322.16\)</span> to spend on those necessities. It does not appear he can afford to move out.</div></li>
+</ol>
+</div></div></details></div></article><article class="exercise exercise-like" id="subsec_3-14"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.22</span><span class="period">.</span>
+</h5>
+<div class="para logical" id="subsec_3-14-1-1">
+<div class="para">Fran wants to take a new job but will have to move to an area with a higher cost of living. With her current income, she can use the 50-30-20 budget philosophy. The new job will have a net pay of <span class="process-math">\(\$43,700\)</span> annually. She will still have to pay her car payment of <span class="process-math">\(\$295\text{,}\)</span> her student loans that cost <span class="process-math">\(\$264\)</span> per month, and her outstanding credit card debt, on which she pays <span class="process-math">\(\$200\)</span> per month.</div>
+<ol class="decimal">
+<li id="subsec_3-14-1-1-5-1"><div class="para" id="subsec_3-14-1-1-5-1-1">Apply the 50-30-20 budget philosophy to Fran’s new income.</div></li>
+<li id="subsec_3-14-1-1-5-2"><div class="para" id="subsec_3-14-1-1-5-2-1">If she follows the budget, how much does she have, after paying her credit card debt, car payment and student loan, to spend on necessities.</div></li>
+<li id="subsec_3-14-1-1-5-3"><div class="para" id="subsec_3-14-1-1-5-3-1">If she follows the budget, how much will she set aside for wants? For savings?</div></li>
+<li id="subsec_3-14-1-1-5-4"><div class="para" id="subsec_3-14-1-1-5-4-1">Discuss the affordability of changing jobs and moving, based on Fran’s budget.</div></li>
+</ol>
+</div></article></section></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="financial_math_loans.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="financial_math_savings_plan.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

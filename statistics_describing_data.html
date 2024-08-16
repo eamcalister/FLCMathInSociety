@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Math In Society: Describing Data</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math in Society">
+<meta property="book:author" content="Fort Lewis College MATH 105">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.3.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runtime.00db6230172ad960.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.8328b60515045466.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.5d3fd44c34d81620.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.f64dcc3632d7a0c3.css">
+</head>
+<body id="PCC-Math In Society" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://spot.pcc.edu/math/mathinsociety/book-1.html"><img src="external/images/Portland_Oregon_Skyline.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
+<p class="byline">Fort Lewis College MATH 105</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="statistics_statistical_process.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="statistics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="statistics_measure_of_center.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="language_logic_rules.html" class="internal"><span class="codenumber">1</span> <span class="title">Logic and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_logic.html" class="internal"><span class="codenumber">1.1</span> <span class="title">The Language and Rules of Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-4" class="internal"><span class="title">Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-5" class="internal"><span class="title">Propositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-6" class="internal"><span class="title">Negation (not)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-7" class="internal"><span class="title">Multiple Negations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-8" class="internal"><span class="title">Logical Connectors (and, or)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-9" class="internal"><span class="title">Exclusive vs. Inclusive <em class="emphasis">or</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-10" class="internal"><span class="title">Conditional Statements (if, then)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-11" class="internal"><span class="title">Basic Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-12" class="internal"><span class="title">Conditional Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-13" class="internal"><span class="title">Truth Tables for Complex Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-14" class="internal"><span class="title">Truth Tables with Three Propositions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-15" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_arguments.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Describing and Critiquing Arguments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-4" class="internal"><span class="title">Logical Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-5" class="internal"><span class="title">Inductive and Deductive Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-6" class="internal"><span class="title">Evaluating Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-7" class="internal"><span class="title">Evaluating Deductive Arguments Using Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-8" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_fallacies.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-3" class="internal"><span class="title">Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-4" class="internal"><span class="title">Common Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-5" class="internal"><span class="title">Personal Attack (Ad hominem)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-6" class="internal"><span class="title">Appeal to Ignorance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-7" class="internal"><span class="title">Appeal to Authority</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-8" class="internal"><span class="title">False Dilemma</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-9" class="internal"><span class="title">Straw Man (or Straw Person)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-10" class="internal"><span class="title">Post Hoc</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_review.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Language and Logic Rules Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="probability.html" class="internal"><span class="codenumber">2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_contingency_tables.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Contingency Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-4" class="internal"><span class="title">Contingency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-5" class="internal"><span class="title">“And” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-6" class="internal"><span class="title">“Or” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-7" class="internal"><span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-8" class="internal"><span class="title">Contingency Tables with More Than Two Categories</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-9" class="internal"><span class="title">Empirical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-10" class="internal"><span class="title">Finding Empirical Probabilities with a Contingency Table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-11" class="internal"><span class="title">Conditional Probabilities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-12" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_theoretical_probability.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Theoretical Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-4" class="internal"><span class="title">Basic Probability Concepts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-5" class="internal"><span class="title">Experiment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-6" class="internal"><span class="title">Events and Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-7" class="internal"><span class="title">Sample Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-8" class="internal"><span class="title">Equally Likely Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-9" class="internal"><span class="title">Certain and Impossible Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-10" class="internal"><span class="title">Complementary Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-11" class="internal"><span class="title">Experimental vs. Theoretical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-12" class="internal"><span class="title">The Law of Large Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-13" class="internal"><span class="title">Probability of Compound Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-14" class="internal"><span class="title">“And” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-15" class="internal"><span class="title">Independent and Dependent Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-16" class="internal"><span class="title">“Or” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-17" class="internal"><span class="title">Overlapping or Disjoint Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-18" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_expected_value.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Expected Value</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-4" class="internal"><span class="title">Expected Value</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-5" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_review.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Probability Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="statistics.html" class="internal"><span class="codenumber">3</span> <span class="title">Statistics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_statistical_process.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Overview of the Statistical Process</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-4" class="internal"><span class="title">Statistical Process</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-5" class="internal"><span class="title">Population</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-6" class="internal"><span class="title">Parameter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-7" class="internal"><span class="title">Sample</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-8" class="internal"><span class="title">Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-9" class="internal"><span class="title">Sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-10" class="internal"><span class="title">Sampling Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-11" class="internal"><span class="title">Simple random sample (SRS)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-12" class="internal"><span class="title">Stratified sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-13" class="internal"><span class="title">Systematic sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-14" class="internal"><span class="title">Convenience sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-15" class="internal"><span class="title">Statistical Bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-16" class="internal"><span class="title">Types of bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-17" class="internal"><span class="title">Observational Studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-18" class="internal"><span class="title">Experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-19" class="internal"><span class="title">Confounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-20" class="internal"><span class="title">Control group</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-21" class="internal"><span class="title">Placebo effect</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-22" class="internal"><span class="title">Placebo and Placebo-controlled experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-23" class="internal"><span class="title">Blind studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-24" class="internal"><span class="title">Margin of Error and Confidence Intervals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-25" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="statistics_describing_data.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Describing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#types_of_data" class="internal"><span class="title">Types of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-5" class="internal"><span class="title">Presenting Categorical Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-6" class="internal"><span class="title">Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-7" class="internal"><span class="title">Relative Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-8" class="internal"><span class="title">Bar graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-9" class="internal"><span class="title">Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-10" class="internal"><span class="title">Using a Spreadsheet to Make Bar Charts and Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-11" class="internal"><span class="title">Misleading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-12" class="internal"><span class="title">Perceptual Distortion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-13" class="internal"><span class="title">Misleading Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-14" class="internal"><span class="title">Stacked Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-15" class="internal"><span class="title">Presenting Quantitative Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-16" class="internal"><span class="title">Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-17" class="internal"><span class="title">Class Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-18" class="internal"><span class="title">Histograms Using Technology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-19" class="internal"><span class="title">The Shape of a Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-20" class="internal"><span class="title">Modality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-21" class="internal"><span class="title">Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-22" class="internal"><span class="title">Skewness</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-23" class="internal"><span class="title">Skewed to the Left</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-24" class="internal"><span class="title">Skewed to the Right</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-25" class="internal"><span class="title">The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-26" class="internal"><span class="title">Outlier</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-27" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_center.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Summary Statistics: Measures of Center</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-4" class="internal"><span class="title">Calculating Summary Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-5" class="internal"><span class="title">Measures of Center</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-6" class="internal"><span class="title">Mode</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-7" class="internal"><span class="title">Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-8" class="internal"><span class="title">Median</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-9" class="internal"><span class="title">The Relationship Between the Mean and the Median</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-10" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Summary Statistics: Measures of Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-4" class="internal"><span class="title">Measures of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-5" class="internal"><span class="title">Standard Deviation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-6" class="internal"><span class="title">Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-7" class="internal"><span class="title">Quartiles and the Interquartile Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-8" class="internal"><span class="title">The Five-Number Summary and Boxplots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-9" class="internal"><span class="title">Modified Boxplot (Optional)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-10" class="internal"><span class="title">Percentiles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-11" class="internal"><span class="title">Comparing Distributions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-12" class="internal"><span class="title">Z-Scores</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-13" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_review.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Statisitcs Chapter Review</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_normal_model.html" class="internal"><span class="codenumber">3.6</span> <span class="title">The Normal Distribution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-4" class="internal"><span class="title">Introduction to The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-5" class="internal"><span class="title">Properties of the Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-6" class="internal"><span class="title">The Empirical Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-7" class="internal"><span class="title">Using the Empirical Rule to Calculate Approximate Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-8" class="internal"><span class="title">Using Technology to Calculate Exact Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-9" class="internal"><span class="title">The Standard Normal Distribution and Z-Scores</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-10" class="internal"><span class="title">Confidence Intervals and Margin of Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="financial_math.html" class="internal"><span class="codenumber">4</span> <span class="title">Financial Math</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Spreadsheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-4" class="internal"><span class="title">Basic Calculations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-5" class="internal"><span class="title">Cell References</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-6" class="internal"><span class="title">Cell Formatting</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-7" class="internal"><span class="title">Fill-Down Feature</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-8" class="internal"><span class="title">Formulas</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-9" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_simple_compound.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Simple and Compound Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-4" class="internal"><span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-5" class="internal"><span class="title">APR – Annual Percentage Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-6" class="internal"><span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-7" class="internal"><span class="title">The Future Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-8" class="internal"><span class="title">Comparing Simple and Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-9" class="internal"><span class="title">Finding the Principal, or Present Value</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-10" class="internal"><span class="title">The Present Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-11" class="internal"><span class="title">Continuously Compounded Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-12" class="internal"><span class="title">Finding the Amount of Interest Earned and the Percentage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-13" class="internal"><span class="title">Effective Rate</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-14" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_credit_cards.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Credit Cards</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#types_of_credit_cards" class="internal"><span class="title">Types of Credit Cards</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#credit_card_statements" class="internal"><span class="title">Credit Card Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#interest_balance_payments" class="internal"><span class="title">Compute Interest, Balance Due, and Minimum Payment Due for a Credit Card.</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_income_taxes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Income Taxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-4" class="internal"><span class="title">A Very Brief History of Taxes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-5" class="internal"><span class="title">Types of Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-6" class="internal"><span class="title">Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-7" class="internal"><span class="title">State Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-8" class="internal"><span class="title">Municipal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-9" class="internal"><span class="title">Calculating Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-10" class="internal"><span class="title">Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-11" class="internal"><span class="title">Adjusted Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-12" class="internal"><span class="title">Taxable Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-13" class="internal"><span class="title">Filing Status</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-14" class="internal"><span class="title">Tax Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-15" class="internal"><span class="title">Tax Credits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-16" class="internal"><span class="title">Calculating a Refund or Payment Due</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-17" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_loans.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Basics of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-4" class="internal"><span class="title">Reasons for Loans</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5" class="internal"><span class="title">The Terminology of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-3" class="internal"><span class="title">Credit Scores</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-4" class="internal"><span class="title">Where Do Interest Rates Come From?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-6" class="internal"><span class="title">Calculating Loan Payments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-7" class="internal"><span class="title">Reading Amortization Tables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Personal Budget</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#Creating_a_budget" class="internal"><span class="title">Creating a Budget</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html#The_50_30_20_budget_philosophy" class="internal"><span class="title">The 50-30-20 Budget Philosophy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#subsec_3" class="internal"><span class="title">Necessary Expenses and Expenses that are Wants</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4" class="internal"><span class="title">Distinguish Various Basic Forms of Savings Plans</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4-3" class="internal"><span class="title">Savings Account</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5" class="internal"><span class="title">Savings Plan Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-13" class="internal"><span class="title">Certificate of Deposits, or CDs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-16" class="internal"><span class="title">Money Market Account</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-19" class="internal"><span class="title">Return on Investment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-26" class="internal"><span class="title">Annuities as Savings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-27" class="internal"><span class="title">Compute Payment to Reach a Financial Goal</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-6" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_investment.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Investments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4" class="internal"><span class="title">Distinguish Between Basic Forms of Investments</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4-3" class="internal"><span class="title">Bonds</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5" class="internal"><span class="title">Stocks</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-4" class="internal"><span class="title">Mutual Funds</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6" class="internal"><span class="title">Retirement Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-3" class="internal"><span class="title">Individual Retirement Accounts</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-4" class="internal"><span class="title">401(k) Accounts</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_review.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Financial Math Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-1.html" class="internal"><span class="title">References</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="statistics_describing_data"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.2</span><span class="space"> </span><span class="title">Describing Data</span>
+</h2>
+<article class="objectives goal-like" id="statistics_describing_data-2"><h3 class="heading">
+<span class="type">Objectives:</span><span class="space"> </span><span class="title">Section 3.2 Describing Data</span>
+</h3>
+<div class="introduction" id="statistics_describing_data-2-2"><div class="para" id="statistics_describing_data-2-2-1">Students will be able to:</div></div>
+<ul class="disc">
+<li id="statistics_describing_data-2-3-1"><div class="para" id="statistics_describing_data-2-3-1-1">Define and identify categorical and quantitative data</div></li>
+<li id="statistics_describing_data-2-3-2"><div class="para" id="statistics_describing_data-2-3-2-1">Read and construct frequency tables and relative frequency tables</div></li>
+<li id="statistics_describing_data-2-3-3"><div class="para" id="statistics_describing_data-2-3-3-1">Make bar charts and pie charts for categorical variables by hand and/or using technology</div></li>
+<li id="statistics_describing_data-2-3-4"><div class="para" id="statistics_describing_data-2-3-4-1">Identify elements of misleading graphs: 3-dimensional graphs, perceptual distortion, misleading scales, stacked bar graphs</div></li>
+<li id="statistics_describing_data-2-3-5"><div class="para" id="statistics_describing_data-2-3-5-1">Make histograms for quantitative variables by hand and/or using technology</div></li>
+<li id="statistics_describing_data-2-3-6"><div class="para" id="statistics_describing_data-2-3-6-1">Identify the number of modes in a distribution and whether it is symmetric, skewed to the left, or skewed to the right</div></li>
+</ul></article><section class="introduction" id="statistics_describing_data-3"><div class="para" id="statistics_describing_data-3-1">Once we have collected data from an observational study or an experiment, we need to summarize and present it in a way that will be meaningful to our audience. The raw data is not very useful by itself. In this section we will begin with graphical presentations of data and in the rest of the chapter we will learn about numerical summaries of data.</div> <figure class="figure figure-like" id="statistics_describing_data-3-2"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed?listType=playlist&amp;list=PLsFUxEAXGFKSrqwCiQ3CIY3VesnsAz4IF&amp;modestbranding=1&amp;rel=0" id="video-describing-data"></iframe></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.1<span class="period">.</span></span><span class="space"> </span>Alternative Video Lessons</figcaption></figure></section><section class="subsection" id="types_of_data"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Types of Data</span>
+</h3>
+<div class="para" id="types_of_data-2">There are two types of data, categorical data and quantitative data. The word data is plural because it represents many pieces of information.</div>
+<div class="para" id="types_of_data-3">
+<em class="alert">Categorical (qualitative) data</em> are pieces of information that allow us to classify the subjects into various categories.</div>
+<article class="example example-like" id="types_of_data-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="types_of_data-4-1">We might conduct a survey to determine the name of the favorite movie that people saw in a movie theater. When we conduct such a survey, the responses would look like: <em class="emphasis">Finding Nemo, Black Panther, Titanic, etc.</em>
+</div> <div class="para" id="types_of_data-4-2">We can count the number of people who give each answer, but the answers themselves do not have any numerical values: we cannot perform computations with an answer like <em class="emphasis">“Black Panther”</em> because it is categorical data.</div></article><div class="para" id="types_of_data-5">
+<em class="alert">Quantitative data</em> are responses that are numerical in nature and with which we can perform meaningful calculations.</div>
+<article class="example example-like" id="types_of_data-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="types_of_data-6-1">A survey could ask the number of movies you have seen in a movie theater in the past 12 months (0, 1, 2, 3, 4, ...). This would be quantitative data.</div></article><div class="para" id="types_of_data-7">Other examples of quantitative data would be the running time of the movie you saw most recently (104 minutes, 137 minutes, 110 minutes, etc.) or the amount of money you paid for a movie ticket the last time you went to a movie theater ($5.50, $9.75, $10.50, etc.).</div>
+<div class="para" id="types_of_data-8">We cannot assume that all numbers are quantitative data, and sometimes it is not so clear-cut. Here are some examples to illustrate this.</div>
+<article class="example example-like" id="types_of_data-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="types_of_data-9-1"><ol class="lower-alpha">
+<li id="types_of_data-9-1-1-1"><div class="para" id="types_of_data-9-1-1-1-1">Suppose we gather respondents’ ZIP codes in a survey to track their geographical location. ZIP codes are numbers, but we can’t do any meaningful calculations with them (it doesn’t make sense to say that 98036 is "twice" 49018 — that’s like saying that Lynnwood, WA is "twice" Battle Creek, MI, which doesn’t make sense at all), so ZIP codes are really categorical data.</div></li>
+<li id="types_of_data-9-1-1-2"><div class="para logical" id="types_of_data-9-1-1-2-1">
+<div class="para">A survey about the movie you most recently saw includes the question, "How would you rate the movie?" with these possible answers:</div>
+<ol class="decimal">
+<li id="types_of_data-9-1-1-2-1-1-1"><div class="para" id="types_of_data-9-1-1-2-1-1-1-1">It was awful.</div></li>
+<li id="types_of_data-9-1-1-2-1-1-2"><div class="para" id="types_of_data-9-1-1-2-1-1-2-1">It was just okay.</div></li>
+<li id="types_of_data-9-1-1-2-1-1-3"><div class="para" id="types_of_data-9-1-1-2-1-1-3-1">I liked it.</div></li>
+<li id="types_of_data-9-1-1-2-1-1-4"><div class="para" id="types_of_data-9-1-1-2-1-1-4-1">It was great.</div></li>
+<li id="types_of_data-9-1-1-2-1-1-5"><div class="para" id="types_of_data-9-1-1-2-1-1-5-1">Best movie ever!</div></li>
+</ol>
+</div></li>
+</ol></div> <div class="para" id="types_of_data-9-2">Again, there are numbers associated with the responses, but these are really categories. A movie that rates a 4 is not necessarily twice as good as a movie that rates a 2, whatever that means; However, we often see that a movie got an average of 3.7 stars, which is an average of categorical ratings and it can give us important information.</div></article><div class="para" id="types_of_data-10">Overall, it is important to look at the purpose of the study for any variables that could be classified as either categorical or quantitative. Another consideration is what you plan to do with the data. Next, we will talk about how to display each type of data.</div></section><section class="subsection" id="statistics_describing_data-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Presenting Categorical Data</span>
+</h3>
+<div class="para" id="statistics_describing_data-5-2">Since we can’t do calculations with categorical data, we begin by summarizing the data in a frequency table or a relative frequency table.</div></section><section class="subsection" id="statistics_describing_data-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Frequency Tables</span>
+</h3>
+<div class="para" id="statistics_describing_data-6-2">A <em class="alert">frequency table</em> has one column for the categories, and another for the <em class="alert">frequency</em>, or number of times that category occurred.</div>
+<article class="example example-like" id="insurance_frequency_table_pt1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="insurance_frequency_table_pt1-1">An insurance company determines vehicle insurance premiums based on known risk factors. If a person is considered a higher risk, their premiums will be higher. One potential factor is the color of your car. The insurance company believes that people with some color cars are more likely to get in accidents. To research this, they examine police reports for recent total-loss collisions. The data is summarized in this table.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r1 l1 t1 lines">Car Color</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Frequency of Total-<br>Loss Collisions</th>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Blue</th>
+<td class="c m b1 r1 l0 t0 lines">25</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Green</th>
+<td class="c m b1 r1 l0 t0 lines">52</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Red</th>
+<td class="c m b1 r1 l0 t0 lines">41</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">White</th>
+<td class="c m b1 r1 l0 t0 lines">36</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Black</th>
+<td class="c m b1 r1 l0 t0 lines">39</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Grey</th>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">216</td>
+</tr>
+</table></div></article></section><section class="subsection" id="statistics_describing_data-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Relative Frequency Tables</span>
+</h3>
+<div class="para" id="statistics_describing_data-7-2">Counts are usually not as easy to interpret as percentages, so we will add a column for the relative frequencies. A <em class="alert">relative frequency</em> is the percentage for the category, found by dividing each frequency by the total and converting to a percentage. You’ll notice the percentages may not add up to exactly 100% due to rounding.</div>
+<article class="example example-like" id="statistics_describing_data-7-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.6</span><span class="period">.</span>
+</h4>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r1 l1 t1 lines">Car Color</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Frequency of Total-<br>Loss Collisions</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Relative Frequency<br>of Total-Loss Collisions</th>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Blue</th>
+<td class="c m b1 r1 l0 t0 lines">25</td>
+<td class="l m b1 r1 l0 t0 lines">
+<span class="process-math">\(25/216 = 0.116\)</span> or 11.6%</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Green</th>
+<td class="c m b1 r1 l0 t0 lines">52</td>
+<td class="l m b1 r1 l0 t0 lines">
+<span class="process-math">\(52/216 = 0.241\)</span> or 24.1%</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Red</th>
+<td class="c m b1 r1 l0 t0 lines">41</td>
+<td class="l m b1 r1 l0 t0 lines">
+<span class="process-math">\(41/216 = 0.190\)</span> or 19.0%</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">White</th>
+<td class="c m b1 r1 l0 t0 lines">36</td>
+<td class="l m b1 r1 l0 t0 lines">
+<span class="process-math">\(36/216 = 0.167\)</span> or 16.7%</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Black</th>
+<td class="c m b1 r1 l0 t0 lines">39</td>
+<td class="l m b1 r1 l0 t0 lines">
+<span class="process-math">\(39/216 = 0.181\)</span> or 18.1%</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Grey</th>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="l m b1 r1 l0 t0 lines">
+<span class="process-math">\(23/216 = 0.107\)</span> or 10.7%</td>
+</tr>
+<tr>
+<th scope="row" class="l m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">216</td>
+<td class="l m b1 r1 l0 t0 lines">
+<span class="process-math">\(216/216 = 1.0\)</span> or 100%</td>
+</tr>
+</table></div> <div class="para" id="statistics_describing_data-7-3-2">It would be even more useful to have a visual to see what is going on, and this is where charts and graphs come in. For categorical data we can display our data using bar graphs and pie charts.</div></article></section><section class="subsection" id="statistics_describing_data-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Bar graphs</span>
+</h3>
+<div class="para" id="statistics_describing_data-8-2">A <em class="alert">bar graph</em> is a graph that displays a bar for each category with the height of the bar indicating the frequency of that category. To construct a bar graph with vertical bars, we label the horizontal axis with the categories. The vertical axis will have a scale for the frequency or relative frequency.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel middle" style="width:45%;"><div class="para" id="statistics_describing_data-8-3-1">The highest frequency in our car data is 52 collisions, so we will set our vertical axis to go from 0 to 55, with a scale of 5 units. To draw bar graphs by hand graph paper is useful, or you can use technology. It is also very helpful to label each bar with the frequency or relative frequency.</div></div>
+<div class="sbspanel middle" style="width:45%;"><img src="external/images/statistics/3_2/bar_graph.png" class="contained" alt="This is a bar graph. Along the x-axis it lists: blue, green, red, white, black and grey. The x-axis is labeled “Vehicle color involved in total-loss collision.” The y-axis is labeled “frequency” and goes from 0 to 55 with a scale of 5. Above each color there is a bar corresponding to the frequency. Blue 25; Green 52; Red 41; White 36; Black 39; Grey 23."></div>
+</div></div></section><section class="subsection" id="statistics_describing_data-9"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Pie Charts</span>
+</h3>
+<div class="para" id="statistics_describing_data-9-2">A natural way to visualize relative frequencies is with a pie chart. A <em class="alert">pie chart</em> is a circle with wedges cut of varying sizes like slices of pizza or pie. The size of each wedge corresponds to the relative frequency of the category. The slices add up to 100%, just like relative frequencies. Pie charts can often benefit from including frequencies or relative frequencies in the pie slices.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel middle" style="width:60%;"><div class="para" id="statistics_describing_data-9-3-1">Pie charts look nice but are harder to draw by hand than bar charts since to draw them accurately we would need to compute the angle each wedge cuts out of the circle, then measure the angle with a protractor. A spreadsheet is much better suited to drawing pie charts.</div></div>
+<div class="sbspanel middle" style="width:25%;"><img src="external/images/statistics/3_2/pie_chart.png" class="contained" alt="A pie chart for the same data as the previous bar chart. The relative frequencies are given in each pie piece: Green 24%; Red 19%; Black 18%; White 17%; Blue 11%; Grey 11%."></div>
+</div></div></section><section class="subsection" id="statistics_describing_data-10"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Using a Spreadsheet to Make Bar Charts and Pie Charts</span>
+</h3>
+<div class="para" id="statistics_describing_data-10-2">To make a graph using a spreadsheet, place the data from the frequency table into the cells. Then select the data, go to the Insert tab, and choose the bar graph or pie chart that you would like. For this example, we will choose a pie graph.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/use_sheet2.png" class="contained" alt="This is a screen shot of excel that includes both the data and the Insert tab with various circle graph options."></div></div></div>
+<div class="para" id="statistics_describing_data-10-4">After the spreadsheet has created your pie graph you can choose which design you prefer by clicking on the Chart Design tab. Since these pie pieces represent car colors, we matched the color of each wedge to the color of the car in our pie chart above.</div>
+<div class="para" id="statistics_describing_data-10-5">To give your graph a meaningful title, click on Chart Title. There are many other settings that you can experiment with.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/use_sheet3.png" class="contained" alt="This is a screenshots of excel that shows the frequency table and pie chart and shows the Chart Design Tab."></div></div></div></section><section class="subsection" id="statistics_describing_data-11"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Misleading Graphs</span>
+</h3>
+<div class="para" id="statistics_describing_data-11-2">Graphs can be misleading intentionally or unintentionally. It’s better to keep them simple, clear and well-labeled. People sometimes add features to graphs that don’t help convey their information.</div>
+<article class="example example-like" id="statistics_describing_data-11-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span>
+</h4>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel middle" style="width:44.4444444444444%;"><div class="para" id="statistics_describing_data-11-3-1-1">A 3-dimensional bar chart like the one shown is usually not as effective as a 2-dimensional graph. The extra dimension does not add any useful information.</div></div>
+<div class="sbspanel middle" style="width:44.4444444444444%;"><img src="external/images/statistics/3_2/misleading.png" class="contained" alt="A 3-D bar graph showing the car color data."></div>
+</div></div> <div class="para" id="statistics_describing_data-11-3-2">Here is another way that fanciness can sometimes lead to trouble. Instead of plain bars, it is tempting to substitute images. This type of graph is called a pictogram.</div></article></section><section class="subsection" id="statistics_describing_data-12"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Perceptual Distortion</span>
+</h3>
+<div class="para" id="statistics_describing_data-12-2">A <em class="alert">pictogram</em> is a statistical graphic in which the size of the picture is intended to represent the frequency or size of the values being represented. We need to be careful with these, because our brains perceive the relationship between the areas, not the heights.</div>
+<article class="example example-like" id="statistics_describing_data-12-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_describing_data-12-3-1">A labor union might produce this graph to show the difference between the average manager salary and the average worker salary.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel middle" style="width:60%;"><div class="para" id="statistics_describing_data-12-3-2-1">The average manager salary is twice as high as the average worker salary as in a bar graph, but the image is also twice as wide. That makes it look like the manager salary is 4 times as large as the worker salary. The area needs to accurately portray the relationship, otherwise we will have a perceptual distortion.</div></div>
+<div class="sbspanel middle" style="width:30%;"><img src="external/images/statistics/3_2/distortion.png" class="contained" alt="There are two bags of money shown. One is larger labeled Mananger Salaries. The other is half as tall and half as wide and labeled workers salaries. There are no numbers or scale shown."></div>
+</div></div></article></section><section class="subsection" id="statistics_describing_data-13"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Misleading Scale</span>
+</h3>
+<div class="para" id="statistics_describing_data-13-2">Another type of distortion in bar charts results from setting the baseline to a value other than zero. The baseline is the bottom of the vertical axis, representing the least number of cases that could have occurred in a category. Normally, this number should be zero.</div>
+<article class="example example-like" id="statistics_describing_data-13-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_describing_data-13-3-1">Compare the two graphs below showing support for same-sex marriage rights from a poll taken in December, 2008<details class="ptx-footnote" aria-live="polite" id="statistics_describing_data-13-3-1-1"><summary class="ptx-footnote__number" title="Footnote 3.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="statistics_describing_data-13-3-1-1">CNN/Opinion Research Corporation Poll.  Dec 19-21, 2008, from <a class="external" href="http://www.pollingreport.com/civil.htm" target="_blank"><code class="code-inline tex2jax_ignore">pollingreport.com/civil.htm</code></a>
+</div></details>. At a glance, the two graphs suggest very different stories. The second graph makes it look like more than three times as many people oppose marriage rights as support them. But when we look at the scale we can see that the difference is about 12%. By not starting at zero the difference looks enlarged.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:45%;"><img src="external/images/statistics/3_2/misleading_scale1.png" class="contained" alt="A bar graph with a scale from 0-100%; There is a bar for support at about 44% and a bar for oppose at about 56%."></div>
+<div class="sbspanel top" style="width:45%;"><img src="external/images/statistics/3_2/misleading_scale2.png" class="contained" alt="A bar graph of the same data but the scale goes from 40-60%; This magnifies the difference between the support and oppose groups."></div>
+</div></div></article></section><section class="subsection" id="statistics_describing_data-14"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Stacked Bar Graphs</span>
+</h3>
+<div class="para" id="statistics_describing_data-14-2">Another type of graph that can be hard to read and sometimes misleading is a stacked bar graph. In a <em class="alert">stacked bar graph</em>, the values we are comparing are stacked on top of each other vertically.</div>
+<article class="example example-like" id="statistics_describing_data-14-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_describing_data-14-3-1">The table lists college expenses for two different students and we want to compare them. A stacked bar graph shows the expenses stacked vertically, but we are interested in the differences, not the totals.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Expense</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Student 1</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Student 2</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Rent</th>
+<td class="c m b1 r1 l0 t0 lines">$500</td>
+<td class="c m b1 r1 l0 t0 lines">$650</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Food</th>
+<td class="c m b1 r1 l0 t0 lines">$125</td>
+<td class="c m b1 r1 l0 t0 lines">$125</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Tuition</th>
+<td class="c m b1 r1 l0 t0 lines">$1750</td>
+<td class="c m b1 r1 l0 t0 lines">$1450</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Books</th>
+<td class="c m b1 r1 l0 t0 lines">$325</td>
+<td class="c m b1 r1 l0 t0 lines">$275</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Misc</th>
+<td class="c m b1 r1 l0 t0 lines">$100</td>
+<td class="c m b1 r1 l0 t0 lines">$175</td>
+</tr>
+</table></div> <div class="sidebyside"><div class="sbsrow" style="margin-left:1.5%;margin-right:1.5%;">
+<div class="sbspanel top" style="width:48.4536082474227%;"><img src="external/images/statistics/3_2/stacked_bar1.png" class="contained" alt="A stacked bar graph with the bars for the expenses for student 2 placed on top of the bars for student 1."></div>
+<div class="sbspanel top" style="width:48.4536082474227%;"><img src="external/images/statistics/3_2/stacked_bar2.png" class="contained" alt="A side-by-side bar graph with the bars for each student right next to each other."></div>
+</div></div> <div class="para" id="statistics_describing_data-14-3-4">It is much easier to interpret the differences in a side-by-side bar chart.</div></article></section><section class="subsection" id="statistics_describing_data-15"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Presenting Quantitative Data</span>
+</h3>
+<div class="para" id="statistics_describing_data-15-2">With categorical data, the horizontal axis is the category, but with quantitative, or numerical, data we have numbers. If we have repeated values we can also make a frequency table.</div>
+<article class="example example-like" id="statistics_describing_data-15-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_describing_data-15-3-1">A teacher records scores on a 20-point quiz for the 30 students in their class. The scores in points are:</div> <div class="para" id="statistics_describing_data-15-3-2"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">19</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">19</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+<td class="c m b1 r1 l0 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+</tr>
+</table></div></div> <div class="para" id="statistics_describing_data-15-3-3">Here is a frequency table with the scores grouped and put in order.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">
+<em class="alert">Quiz</em><br><em class="alert">Score</em>
+</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">
+<em class="alert">Frequency</em><br><em class="alert">of Students</em>
+</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">0</th>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">12</th>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">15</th>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">16</th>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">17</th>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">18</th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">19</th>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">20</th>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+</tr>
+</table></div></article><div class="para" id="statistics_describing_data-15-4">Using this table, it would be possible to create a standard bar chart from this summary, like we did for categorical data. However, since the scores are numerical values, this chart wouldn’t make sense; the first and second bars would be five values apart, while the later bars would only be one value apart. Instead, we will treat the horizontal axis as a number line. This type of graph is called a histogram.</div></section><section class="subsection" id="statistics_describing_data-16"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Histograms</span>
+</h3>
+<div class="para" id="statistics_describing_data-16-2">A <em class="alert">histogram</em> is like a bar graph, but the horizontal axis is a number line. Unlike a bar graph, there are no spaces between the bars. Here are two histograms for the data given above. Notice that in the one on the left, the two scores of 15 are to the right of 15, or between 15 and 16. The horizontal scales on histograms can be confusing for this reason. Some people choose to have bars start at ½ values to avoid this ambiguity, as in the one on the right.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.5%;margin-right:1.5%;">
+<div class="sbspanel top" style="width:48.4536082474227%;"><img src="external/images/statistics/3_2/histogram1.png" class="contained" alt="This is a histogram the x-axis is labeled score and goes from 0 to 21, with a scale of 1. The y-axis is labeled frequency an goes from 0 to 9 with a scale of 1. There are no spaces between the bars."></div>
+<div class="sbspanel top" style="width:48.4536082474227%;"><img src="external/images/statistics/3_2/histogram2.png" class="contained" alt="This is a histogram of the same data but this time the spaces are labeled 0 to 20 instead of the tick marks."></div>
+</div></div>
+<div class="para" id="statistics_describing_data-16-4">If we have a large number of different data values, a frequency table listing every possible value would be way too long. There would be too many bars on the histogram to reveal any patterns. For this reason, it is common with quantitative data to group data into class intervals.</div></section><section class="subsection" id="statistics_describing_data-17"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Class Intervals</span>
+</h3>
+<div class="para logical" id="statistics_describing_data-17-2">
+<div class="para">
+<em class="alert">Class intervals</em> are groupings of the data. In general, we define class intervals so that:</div>
+<ol class="decimal">
+<li id="statistics_describing_data-17-2-2-1"><div class="para" id="statistics_describing_data-17-2-2-1-1">Each interval is equal in size. For example, if the first class contains values from 120 up to but not including 135, the second class should include values from 135 up to but not including 150.</div></li>
+<li id="statistics_describing_data-17-2-2-2"><div class="para" id="statistics_describing_data-17-2-2-2-1">We typically have somewhere between 5 and 20 classes, depending on the number of data values we’re working with.</div></li>
+</ol>
+</div>
+<div class="para" id="statistics_describing_data-17-3">In the next example, we’ll make a histogram using class intervals.</div>
+<article class="example example-like" id="statistics_describing_data-17-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_describing_data-17-4-1">Suppose we have collected weights from 100 subjects who identify as male, as part of a nutrition study. For our weight data, we have values ranging from a low of 121 pounds to a high of 263 pounds, giving a total span of <span class="process-math">\(263-121 = 142\text{.}\)</span>
+</div> <div class="para" id="statistics_describing_data-17-4-2">There are many ways to draw a histogram and we will explain one way as an example. We will create 10 classes by doing the following calculation: Take the range of 142 and divide it by 10 to find the class width.</div> <div class="para" id="statistics_describing_data-17-4-3"><span class="process-math">\(142/10 = 14.2\)</span></div> <div class="para" id="statistics_describing_data-17-4-4">Then we round up the class width so that the largest data value will be in one of the classes. So we round up to a class width of 15. Since the minimum data value is 121, we will choose 120 to start with since it is a multiple of 15 that is less than 121.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:1.5%;margin-right:1.5%;">
+<div class="sbspanel fixed-width bottom" style="width:48.4536082474227%;"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><em class="alert">Interval</em></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><em class="alert">Frequency</em></th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">120-134.99</th>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">135-149.99</th>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">150-164.99</th>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">165-179.99</th>
+<td class="c m b1 r1 l0 t0 lines">28</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">180-194.99</th>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">195-209.99</th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">210-224.99</th>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">225-239.99</th>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">240-254.99</th>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">255-269.99</th>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+</tr>
+</table></div>
+<div class="sbspanel bottom" style="width:48.4536082474227%;"><img src="external/images/statistics/3_2/class_intervals.png" class="contained" alt="This is a histogram of the data in the table; the x-axis is labeled weights(pounds) and goes from 120 to 270, with a scale of 15; The y-axis is labeled frequency and goes from 0 to 30 with a scale of 5. There are no spaces between the bars."></div>
+</div></div></article><div class="para" id="statistics_describing_data-17-5">When using class intervals, it is much easier to use technology that was specifically designed to make histograms. GeoGebra is one program that lets you adjust the class widths to see which graph best displays the data.</div></section><section class="subsection" id="statistics_describing_data-18"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Histograms Using Technology</span>
+</h3>
+<div class="para" id="statistics_describing_data-18-2">We will be using GeoGebra throughout this chapter to make graphs and calculate summary statistics. There is an online version and one you can download at <a class="external" href="http://www.geogebra.org/" target="_blank"><code class="code-inline tex2jax_ignore">geogebra.org</code></a>. To access the online version, select "GeoGebra Classic from the GeoGebra home page. To download it, select "App Downloads" from the home page. The instructions are similar for both.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel middle" style="width:61.5384615384615%;"><div class="para" id="statistics_describing_data-18-3-1">The first thing we need to do is enter the data in GeoGebra’s spreadsheet. You can access the spreadsheet from Main Menu <span class="process-math">\(\rightarrow\)</span>View <span class="process-math">\(\rightarrow\)</span>Spreadsheet. Next, enter your data and select that column. Then click on the histogram icon in the menu bar on the left side and select One Variable Analysis.</div></div>
+<div class="sbspanel middle" style="width:35.8974358974359%;"><img src="external/images/statistics/3_2/histogram_tech1.png" class="contained" alt="A screenshot of GeoGebra showing the icon for One Variable Analysis"></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel middle" style="width:61.5384615384615%;"><div class="para" id="statistics_describing_data-18-4-1">A new window will pop up showing a visual of the data. There is a drop-down menu for the type of graph, but histogram is the default. Notice that the bars are not lined up with the tick-marks at the bottom, so we want to edit this histogram. The slider bar at the top will let you see different class widths, but we want to choose our class widths manually.</div></div>
+<div class="sbspanel middle" style="width:35.8974358974359%;"><img src="external/images/statistics/3_2/histogram_tech2.png" class="contained" alt="A screenshot from GeoGebra showing the histogram"></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel middle" style="width:61.5384615384615%;"><div class="para" id="statistics_describing_data-18-5-1">If you close the menu at the top right by clicking on the left pointing triangle, you will see a settings wheel. Click on the wheel and check the box for set classes manually. To match our previous histogram, we will start at 120 pounds and set a class width of 15 pounds.</div></div>
+<div class="sbspanel middle" style="width:35.8974358974359%;"><img src="external/images/statistics/3_2/histogram_tech3.png" class="contained" alt="A screenshot from GeoGebra showing the box checked for Set Classes Manually."></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel middle" style="width:61.5384615384615%;"><div class="para" id="statistics_describing_data-18-6-1">Now the bars of the histogram match our previous graph, but we need to edit the axis labels to match. Click on the graph tab on the right side and uncheck the box for automatic dimensions. We set the x min, x max, x step, y min, y max and y step as shown.</div></div>
+<div class="sbspanel middle" style="width:35.8974358974359%;"><img src="external/images/statistics/3_2/histogram_tech4.png" class="contained" alt="A screenshot from GeoGebra showing the box uncheckd for Automatic Dimensions. The dimensions entered are xMin 111; xMax 275; xStep 15; yMin -3.4033; yMax: 30.8; yStep 5 (The y-dimensions were automatic)"></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel middle" style="width:61.5384615384615%;"><div class="para" id="statistics_describing_data-18-7-1">To put the graph in an assignment or a book such as this one, select the export icon and choose Export as Picture. The downloaded version also has a Copy to Clipboard option. Then insert the graph into any document and add axis labels.</div></div>
+<div class="sbspanel middle" style="width:35.8974358974359%;"><img src="external/images/statistics/3_2/histogram_tech5.png" class="contained" alt="A screenshot from GeoGebra showing the export icon"></div>
+</div></div>
+<div class="para" id="statistics_describing_data-18-8">Here is our finished histogram:</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/histogram_tech6.png" class="contained" alt="The finished histogram from GeoGebra copied into a Word document. This is the same histogram as in Example 10."></div></div></div></section><section class="subsection" id="statistics_describing_data-19"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Shape of a Distribution</span>
+</h3>
+<div class="para" id="statistics_describing_data-19-2">Once we have our histogram, we can use it to determine the shape of the data or <em class="alert">distribution</em>. When describing distributions, we are going to look at four characteristics: shape, center, spread and outliers. Center and spread (variation) will be covered in the next two sections.</div></section><section class="subsection" id="statistics_describing_data-20"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Modality</span>
+</h3>
+<div class="para logical" id="statistics_describing_data-20-2">
+<div class="para">The <em class="alert">modality</em> of a distribution indicates the number of peaks or hills in its histogram.</div>
+<ul class="disc">
+<li id="statistics_describing_data-20-2-2-1"><div class="para" id="statistics_describing_data-20-2-2-1-1">It is unimodal if it has one peak.</div></li>
+<li id="statistics_describing_data-20-2-2-2"><div class="para" id="statistics_describing_data-20-2-2-2-1">It is bimodal if it has two peaks.</div></li>
+<li id="statistics_describing_data-20-2-2-3"><div class="para" id="statistics_describing_data-20-2-2-3-1">It is multimodal if it has multiple peaks.</div></li>
+</ul>
+</div>
+<article class="example example-like" id="statistics_describing_data-20-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_describing_data-20-3-1">The first graph is <em class="alert">unimodal</em>, the second is <em class="alert">bimodal</em> and the third is <em class="alert">multimodal</em>.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/modality.png" class="contained" alt="Three histograms are shown. The first histogram has one peak. The second histograms has two peaks. The third histogram has three peaks."></div></div></div></article><div class="para" id="statistics_describing_data-20-4">A bimodal distribution can result when two different populations have been grouped together and they are overlapping. It would be better to separate them into two separate graphs. For example, the grams of sugar per serving in sugar and non-sugar cereals.</div></section><section class="subsection" id="statistics_describing_data-21"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Symmetry</span>
+</h3>
+<div class="para" id="statistics_describing_data-21-2">A distribution is <em class="alert">symmetric</em> if the left side of the graph mirrors the right side.</div>
+<article class="example example-like" id="statistics_describing_data-21-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="statistics_describing_data-21-3-1">The graph on the left is symmetric and unimodal while the graph on the right is roughly symmetric and bimodal.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/symmetry.png" class="contained" alt="Two histograms are shown. The first histogram has one peak in the middle and the bars taper down symmetrically on each side. The second histogram has two peaks. Each of the peaks are similar in size and the graph is roughly symmetric."></div></div></div></article></section><section class="subsection" id="statistics_describing_data-22"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Skewness</span>
+</h3>
+<div class="para" id="statistics_describing_data-22-2">If a distribution is not symmetric then we say it is skewed. A graph can be <em class="alert">skewed to the left</em> or <em class="alert">skewed to the right</em>. We say it is skewed in the direction of the longer tail.</div></section><section class="subsection" id="statistics_describing_data-23"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Skewed to the Left</span>
+</h3>
+<div class="para" id="statistics_describing_data-23-2">A left skewed graph is also called a <em class="alert">negatively skewed</em> graph. The longer tail will be on the left or negative side.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/left_skew.png" class="contained" alt="This is a histogram with 9 bars. The highest bar is to the right of center and the bars go down to the left gradually."></div></div></div></section><section class="subsection" id="statistics_describing_data-24"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Skewed to the Right</span>
+</h3>
+<div class="para" id="statistics_describing_data-24-2">A right skewed graph is also called a <em class="alert">positively skewed</em> graph. The longer tail will be on the right or positive side.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/right_skew.png" class="contained" alt="This is a histogram with 9 bars. The highest bar is to the left of center and the bars go down to the right gradually."></div></div></div></section><section class="subsection" id="statistics_describing_data-25"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Normal Distribution</span>
+</h3>
+<div class="para" id="statistics_describing_data-25-2">The <em class="alert">normal distribution</em> has a very specific shape. It is unimodal and symmetric with a bell-shaped graph.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/normal_dist.png" class="contained"></div></div></div></section><section class="subsection" id="statistics_describing_data-26"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Outlier</span>
+</h3>
+<div class="para" id="statistics_describing_data-26-2">
+<em class="alert">Outliers</em> are data values that are unusually far away from the rest of the data. There is often a gap between the outlier and the rest of the graph. This visual determination of outliers is often subjective and depends on the situation.</div>
+<article class="example example-like" id="statistics_describing_data-26-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.15</span><span class="period">.</span>
+</h4>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel middle" style="width:44.4444444444444%;"><div class="para" id="statistics_describing_data-26-3-1-1">In the graph to the right we have a unimodal distribution that is skewed to the right. There appears to be an outlier near 20.</div></div>
+<div class="sbspanel middle" style="width:44.4444444444444%;"><img src="external/images/statistics/3_2/outlier.png" class="contained" alt="This distribution has majority of it’s data on the left there is a gap in the graph with one bar further away."></div>
+</div></div></article></section><section class="exercises" id="statistics_describing_data-27"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="statistics_describing_data-27-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-2-1-1">True or False: The bars of a histogram should always touch.</div></article><article class="exercise exercise-like" id="statistics_describing_data-27-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-3-1-1">True or False: The bars of a bar graph should always touch.</div></article><article class="exercise exercise-like" id="statistics_describing_data-27-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-4-1-1">
+<div class="para">Is the data described categorial or quantitative?</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-4-1-1-1-1"><div class="para" id="statistics_describing_data-27-4-1-1-1-1-1">In a study, you ask the subjects their age in years.</div></li>
+<li id="statistics_describing_data-27-4-1-1-1-2"><div class="para" id="statistics_describing_data-27-4-1-1-1-2-1">In a study, you ask the subjects their gender.</div></li>
+<li id="statistics_describing_data-27-4-1-1-1-3"><div class="para" id="statistics_describing_data-27-4-1-1-1-3-1">In a study, you ask the subjects their ethnicity.</div></li>
+<li id="statistics_describing_data-27-4-1-1-1-4"><div class="para" id="statistics_describing_data-27-4-1-1-1-4-1">The daily high temperature of a city over several weeks.</div></li>
+<li id="statistics_describing_data-27-4-1-1-1-5"><div class="para" id="statistics_describing_data-27-4-1-1-1-5-1">A person’s annual income.</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="statistics_describing_data-27-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-5-1-1">
+<div class="para">Is the data described categorical or quantitative?</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-5-1-1-1-1"><div class="para" id="statistics_describing_data-27-5-1-1-1-1-1">In a study you ask the subjects how many siblings they have.</div></li>
+<li id="statistics_describing_data-27-5-1-1-1-2"><div class="para" id="statistics_describing_data-27-5-1-1-1-2-1">In a study you ask the subjects what their favorite movie genre is.</div></li>
+<li id="statistics_describing_data-27-5-1-1-1-3"><div class="para" id="statistics_describing_data-27-5-1-1-1-3-1">In a study to measure the subjects’ blood pressure.</div></li>
+<li id="statistics_describing_data-27-5-1-1-1-4"><div class="para" id="statistics_describing_data-27-5-1-1-1-4-1">The daily rainfall in a city over several weeks.</div></li>
+<li id="statistics_describing_data-27-5-1-1-1-5"><div class="para" id="statistics_describing_data-27-5-1-1-1-5-1">In a study you ask the subjects the amount they spend on housing each month</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="statistics_describing_data-27-6"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-6-1-1">What types of graphs are used for categorical data?</div></article><article class="exercise exercise-like" id="statistics_describing_data-27-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-7-1-1">What types of graphs are used for quantitative data?</div></article><article class="exercise exercise-like" id="statistics_describing_data-27-8"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-8-1-1">A group of adults were asked how many children they have in their family. The bar graph to the right shows the number of adults who indicated each number of children.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph1.png" class="contained" alt="A bar graph showing the frequency for amount of children: 0 kids 5; 2 kid 3; 2 kids 4; 3 kids 2; 4 kids 0; 5 kids 1."></div></div></div> <div class="para logical" id="statistics_describing_data-27-8-1-3"><ol class="lower-alpha">
+<li id="statistics_describing_data-27-8-1-3-1-1"><div class="para" id="statistics_describing_data-27-8-1-3-1-1-1">How many adults had 3 children?</div></li>
+<li id="statistics_describing_data-27-8-1-3-1-2"><div class="para" id="statistics_describing_data-27-8-1-3-1-2-1">How many adults where questioned?</div></li>
+<li id="statistics_describing_data-27-8-1-3-1-3"><div class="para" id="statistics_describing_data-27-8-1-3-1-3-1">What percentage of the adults questioned had 0 children?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-9"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-9-1-1">Jasmine was interested in how many days it would take a DVD order from Netflix to arrive at her door. The graph shows the data she collected.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:27.5%;margin-right:27.5%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph2.png" class="contained" alt="The x-axis is labeled shipping times (days) with 1, 2, 3, 4, and 5. The y-axis is labeld frequency. The bar for 1 goes up to 4, 2 goes up to 8, 3 goes up to 6, there’s no bar at 4 and 5 goes up to 1."></div></div></div> <div class="para logical" id="statistics_describing_data-27-9-1-3"><ol class="lower-alpha">
+<li id="statistics_describing_data-27-9-1-3-1-1"><div class="para" id="statistics_describing_data-27-9-1-3-1-1-1">How many movies took 2 days to arrive?</div></li>
+<li id="statistics_describing_data-27-9-1-3-1-2"><div class="para" id="statistics_describing_data-27-9-1-3-1-2-1">How many movies did she order in total?</div></li>
+<li id="statistics_describing_data-27-9-1-3-1-3"><div class="para" id="statistics_describing_data-27-9-1-3-1-3-1">What percentage of the movies arrived in one day?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-10"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-10-1-1">This relative frequency bar graph shows the percentage of students who received each letter grade on their last English paper. The class contains 20 students. What number of students earned an A on their paper?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:27.5%;margin-right:27.5%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph3.png" class="contained" alt="There are 4 bars labeled A, B, C, and D. The x-axis is labeled grade on English paper and the y-axis is labeled frequency (%). A goes up to 25%, B goes up to 35%, C goes up to 25% and D goes up to 15%."></div></div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-11"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-11-1-1">This relative frequency bar graph shows the percentage of each drink type served over the weekend at a local coffee shop. There were 120 drinks served in total. How many served drinks were lattes?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/drink_histogram.png" class="contained" alt="A relative frequency bar graph shows the percentage of each type of coffee drink served over a weekend. For coffee, the relative frequency is 45%. For tea, the relative frequency is 15%. For latte, the relative frequency is 20%. For mocha, the relative frequency is 10%. For cappuccino, the relative frequency is 5%. For other, the relative frequency is 5%."></div></div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-12"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-12-1-1">Corey categorized his spending for this month into four categories: Rent, Food, Fun, and Other. The percentages he spent in each category are pictured here. If he spent a total of $2,600 this month, how much did he spend on rent?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:35%;margin-right:35%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph4.png" class="contained" alt="This is a pie chart with four regions. Fun is labeled 16%, Food is labeled 24%, Rent is labeled 26% and Other is labeled 34%."></div></div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-13"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-13-1-1">Habiba categorized the amount of time spent each week into 5 categories: Work, Travel, Housework, Leisure, and Sleep. If there are a total of 168 hours each week, how many hours does Habiba spend travelling each week?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/habiba_circle_graph.png" class="contained" alt="This is a pie chart with five regions. Work is labled 29%, Travel is labeled 7%, Housework is labeled 12%, Leisure is labeled 23% and Sleep is labeled 29%."></div></div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-14"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-14-1-1">
+<div class="para">In a survey<details class="ptx-footnote" aria-live="polite" id="statistics_describing_data-27-14-1-1-1"><summary class="ptx-footnote__number" title="Footnote 3.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="statistics_describing_data-27-14-1-1-1">Gallup Poll. March 5-8, 2009. <a class="external" href="http://www.pollingreport.com/enviro.htm" target="_blank"><code class="code-inline tex2jax_ignore">pollingreport.com/enviro.htm</code></a>
+</div></details>, 1012 adults were asked whether they personally worried about a variety of environmental concerns. The number of people who indicated that they worried “a great deal” about some selected concerns is listed below.</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-14-1-1-3-1"><div class="para" id="statistics_describing_data-27-14-1-1-3-1-1">Is this categorical or quantitative data?</div></li>
+<li id="statistics_describing_data-27-14-1-1-3-2"><div class="para" id="statistics_describing_data-27-14-1-1-3-2-1">Make a bar chart for these data.</div></li>
+<li id="statistics_describing_data-27-14-1-1-3-3"><div class="para" id="statistics_describing_data-27-14-1-1-3-3-1">Why can’t we make a pie chart for these data?</div></li>
+</ol>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Environmenal Issue</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Frequency</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pollution of drinking water</th>
+<td class="c m b1 r1 l0 t0 lines">597</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Contamination of soil and water by toxic waste</th>
+<td class="c m b1 r1 l0 t0 lines">526</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Air pollution</th>
+<td class="c m b1 r1 l0 t0 lines">455</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Global warming</th>
+<td class="c m b1 r1 l0 t0 lines">354</td>
+</tr>
+</table></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-15"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-15-1-1">
+<div class="para">In a survey, 2056 adults were asked about their views on immigration. The percent of people who responded that immigrants to the United States are making each of the following situations in the country better are listed below.</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-15-1-1-1-1"><div class="para" id="statistics_describing_data-27-15-1-1-1-1-1">Is this categorical or quantitative data?</div></li>
+<li id="statistics_describing_data-27-15-1-1-1-2"><div class="para" id="statistics_describing_data-27-15-1-1-1-2-1">Make a relative frequency bar chart for these data.</div></li>
+<li id="statistics_describing_data-27-15-1-1-1-3"><div class="para" id="statistics_describing_data-27-15-1-1-1-3-1">Can we make a pie chart for these data?</div></li>
+</ol>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Situation</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Relative Frequency (%)</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Food, music and the arts</th>
+<td class="c m b1 r1 l0 t0 lines">57</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">The economy in general</th>
+<td class="c m b1 r1 l0 t0 lines">43</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Social and moral values</th>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Job opportunities for<br>you and your family</th>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Taxes</th>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Crime</th>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+</tr>
+</table></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-16"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-16-1-1">
+<div class="para">The following table is from a sample of five hundred homes in Oregon that were asked the primary source of heating in their home.</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-16-1-1-1-1"><div class="para" id="statistics_describing_data-27-16-1-1-1-1-1">How many of the households heat their home with firewood?</div></li>
+<li id="statistics_describing_data-27-16-1-1-1-2"><div class="para" id="statistics_describing_data-27-16-1-1-1-2-1">What percent of households heat their home with natural gas?</div></li>
+</ol>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Type of Heat</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Relative Frequency (%)</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Electricity</th>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Heating Oil</th>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Natural Gas</th>
+<td class="c m b1 r1 l0 t0 lines">50</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Firewood</th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Other</th>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+</tr>
+</table></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-17"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-17-1-1">
+<div class="para">The following table is from a sample of 50 undergraduate students at Portland State University.</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-17-1-1-1-1"><div class="para" id="statistics_describing_data-27-17-1-1-1-1-1">What percent of the sampled students are below senior class?</div></li>
+<li id="statistics_describing_data-27-17-1-1-1-2"><div class="para" id="statistics_describing_data-27-17-1-1-1-2-1">How many of the sampled students are freshmen?</div></li>
+</ol>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Class</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Relative Frequency (%)</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Freshman</th>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Sophmore</th>
+<td class="c m b1 r1 l0 t0 lines">13</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Junior</th>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Senior</th>
+<td class="c m b1 r1 l0 t0 lines">46</td>
+</tr>
+</table></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-18"><h4 class="heading"><span class="codenumber">17<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-18-1-1">
+<div class="para">A group of adults were asked how many cars they had in their household.</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-18-1-1-1-1"><div class="para" id="statistics_describing_data-27-18-1-1-1-1-1">Is this categorical or quantitative data?</div></li>
+<li id="statistics_describing_data-27-18-1-1-1-2"><div class="para" id="statistics_describing_data-27-18-1-1-1-2-1">Make a relative frequency table for the data.</div></li>
+<li id="statistics_describing_data-27-18-1-1-1-3"><div class="para" id="statistics_describing_data-27-18-1-1-1-3-1">Make a bar chart for the data.</div></li>
+<li id="statistics_describing_data-27-18-1-1-1-4">
+<div class="para" id="statistics_describing_data-27-18-1-1-1-4-1">Make a pie chart for the data.</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="c m b1 r1 l1 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+</tr></table></div>
+</li>
+</ol>
+</div></article><article class="exercise exercise-like" id="statistics_describing_data-27-19"><h4 class="heading"><span class="codenumber">18<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-19-1-1">
+<div class="para">The table below shows scores on a math test.</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-19-1-1-1-1"><div class="para" id="statistics_describing_data-27-19-1-1-1-1-1">Is this categorical or quantitative data?</div></li>
+<li id="statistics_describing_data-27-19-1-1-1-2"><div class="para" id="statistics_describing_data-27-19-1-1-1-2-1">Make a relative frequency table for the data using a class width of 10.</div></li>
+<li id="statistics_describing_data-27-19-1-1-1-3">
+<div class="para" id="statistics_describing_data-27-19-1-1-1-3-1">Construct a histogram of the data.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">82</td>
+<td class="c m b1 r1 l0 t1 lines">55</td>
+<td class="c m b1 r1 l0 t1 lines">51</td>
+<td class="c m b1 r1 l0 t1 lines">97</td>
+<td class="c m b1 r1 l0 t1 lines">73</td>
+<td class="c m b1 r1 l0 t1 lines">79</td>
+<td class="c m b1 r1 l0 t1 lines">100</td>
+<td class="c m b1 r1 l0 t1 lines">60</td>
+<td class="c m b1 r1 l0 t1 lines">71</td>
+<td class="c m b1 r1 l0 t1 lines">85</td>
+<td class="c m b1 r1 l0 t1 lines">78</td>
+<td class="c m b1 r1 l0 t1 lines">59</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">90</td>
+<td class="c m b1 r1 l0 t0 lines">100</td>
+<td class="c m b1 r1 l0 t0 lines">88</td>
+<td class="c m b1 r1 l0 t0 lines">72</td>
+<td class="c m b1 r1 l0 t0 lines">46</td>
+<td class="c m b1 r1 l0 t0 lines">82</td>
+<td class="c m b1 r1 l0 t0 lines">89</td>
+<td class="c m b1 r1 l0 t0 lines">70</td>
+<td class="c m b1 r1 l0 t0 lines">100</td>
+<td class="c m b1 r1 l0 t0 lines">68</td>
+<td class="c m b1 r1 l0 t0 lines">61</td>
+<td class="c m b1 r1 l0 t0 lines">52</td>
+</tr>
+</table></div>
+</li>
+</ol>
+</div></article><article class="exercise exercise-like" id="statistics_describing_data-27-20"><h4 class="heading"><span class="codenumber">19<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-20-1-1">This graph shows the number of adults and kids who prefer each type of soda. There were 130 adults and kids surveyed. Discuss some ways in which the graph could be improved.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph5.png" class="contained" alt="This is a 3 dimensional double bar graph. There is a bar for kids and a bar for adults. The x-axis is labeled coke, diet coke, sprite and cherry soda. The y-axis starts at 20  and goes to 45 with a scale of 5."></div></div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-21"><h4 class="heading"><span class="codenumber">20<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-21-1-1">A poll was taken asking people if they agreed with the positions of the 4 candidates for a county office. Does this pie chart present a good representation of these data? Explain.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/exercise_graph6.png" class="contained" alt="A pie chart with 4 regions: Nguyen is labeled 42%, McKee is labeled 35%, Jones is labeled 64% and Brown is labeled 52%."></div></div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-22"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-22-1-1">Why is this a misleading or poor graph?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/misleading_1.png" class="contained" alt='This is a bar graph and is titled "Favorite Drinks". The x-axis is labeled Drink Type and includes colas, lemon flavored, root beer, teas, coffee, and other. The y-axis is labeled frequency and has no scale.'></div></div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-23"><h4 class="heading"><span class="codenumber">22<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-23-1-1">Why is this a misleading or poor graph?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/images/statistics/3_2/misleading_2.png" class="contained" alt='This is a bar graph and is titled "Profit During First Half of Year". The x-axis is labeled Year and includes January, February, March, April, May, and June. The y-axis is labeled Profits in $. The scale goes from 0 to 4500 by 500. The bar for each month is labeled with the following values: January 4230, February 3760, March 2670, April -1320, May 750, and June 1560. The bar for April is colored red while the remaining bars are colored blue.'></div></div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-24"><h4 class="heading"><span class="codenumber">23<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-24-1-1">
+<div class="para">Match each description to one of the graphs.</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-24-1-1-1-1"><div class="para" id="statistics_describing_data-27-24-1-1-1-1-1">Normal distribution</div></li>
+<li id="statistics_describing_data-27-24-1-1-1-2"><div class="para" id="statistics_describing_data-27-24-1-1-1-2-1">Positive or right skewed</div></li>
+<li id="statistics_describing_data-27-24-1-1-1-3"><div class="para" id="statistics_describing_data-27-24-1-1-1-3-1">Negative or left skewed</div></li>
+<li id="statistics_describing_data-27-24-1-1-1-4"><div class="para" id="statistics_describing_data-27-24-1-1-1-4-1">Bimodal</div></li>
+</ol>
+</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel bottom" style="width:44.4444444444444%;"><figure class="figure figure-like" id="statistics_describing_data-27-24-1-2-1"><img src="external/images/statistics/3_2/exercise_graph7.png" class="contained" alt="This histogram has a tall bar on the left side, then the bars decrease significantly and then increase for a peak on the right side."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.16<span class="period">.</span></span><span class="space"> </span>The frequency of times between eruptions of the Old Faithful geyser.</figcaption></figure></div>
+<div class="sbspanel bottom" style="width:44.4444444444444%;"><figure class="figure figure-like" id="statistics_describing_data-27-24-1-2-2"><img src="external/images/statistics/3_2/exercise_graph8.png" class="contained" alt="This histogram has shorter bars to the left, which gradually get taller. The tallest bar is on the right side of the graph."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.17<span class="period">.</span></span><span class="space"> </span>Scores on a 20-point statistics quiz.</figcaption></figure></div>
+</div></div> <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel bottom" style="width:44.4444444444444%;"><figure class="figure figure-like" id="statistics_describing_data-27-24-1-3-1"><img src="external/images/statistics/3_2/exercise_graph9.png" class="contained" alt="This histogram increases sharply and then decreases gradually. The peak is just to the left of the center."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.18<span class="period">.</span></span><span class="space"> </span>The distribution of scores on a psychology test.</figcaption></figure></div>
+<div class="sbspanel bottom" style="width:44.4444444444444%;"><figure class="figure figure-like" id="statistics_describing_data-27-24-1-3-2"><img src="external/images/statistics/3_2/exercise_graph10.png" class="contained" alt="This histogram is symmetric. The highest bar is in the middle and the bars decrease in height as you move away from the middle."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.19<span class="period">.</span></span><span class="space"> </span>The number of heads in 24 sets of 100 coin flips.</figcaption></figure></div>
+</div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-25"><h4 class="heading"><span class="codenumber">24<span class="period">.</span></span></h4>
+<div class="para" id="statistics_describing_data-27-25-1-1">Write a sentence or two to describe each distribution in terms of modality, symmetry, skewness and outliers.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:9.5%;margin-right:9.5%;">
+<div class="sbspanel bottom" style="width:38.2716049382716%;"><img src="external/images/statistics/3_2/exercise_graph11.png" class="contained" alt="This histogram has the tallest bars on the left side and then decreases to the right."></div>
+<div class="sbspanel bottom" style="width:38.2716049382716%;"><img src="external/images/statistics/3_2/exercise_graph12.png" class="contained" alt="The bars in this histogram increase gradually to the center and then decrease. The bars drop off slightly faster to the right."></div>
+</div></div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel bottom" style="width:31%;"><img src="external/images/statistics/3_2/exercise_graph13.png" class="contained" alt="The bars in this histogram increase sharply to the tallest bars on the left side, then decrease and increase to the second tallest bar, then decrease again to the right."></div>
+<div class="sbspanel bottom" style="width:31%;"><img src="external/images/statistics/3_2/exercise_graph14.png" class="contained" alt="The bars on this histogram start out at a middle height and then go down and up in a U shape to the tallest bar to the right of center. Then the bars decrease and increase again for another tall bar on the right."></div>
+<div class="sbspanel bottom" style="width:31%;"><img src="external/images/statistics/3_2/exercise_graph15.png" class="contained" alt="The bars on this histogram gradually increase to the right and drop of quickly after the peak toward the right side of the graph."></div>
+</div></div></article><article class="exercise exercise-like" id="statistics_describing_data-27-26"><h4 class="heading"><span class="codenumber">25<span class="period">.</span></span></h4>
+<div class="para logical" id="statistics_describing_data-27-26-1-1">
+<div class="para">Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer drug is currently under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout their treatment. The following data (in months) are collected.</div>
+<ol class="lower-alpha">
+<li id="statistics_describing_data-27-26-1-1-1-1"><div class="para" id="statistics_describing_data-27-26-1-1-1-1-1">Create a histogram for each dataset, using the same class intervals and scales so you can compare them.</div></li>
+<li id="statistics_describing_data-27-26-1-1-1-2">
+<div class="para" id="statistics_describing_data-27-26-1-1-1-2-1">Compare and contrast the two distributions.</div>
+<div class="para" id="statistics_describing_data-27-26-1-1-1-2-2">Researcher 1 Patients (in months):</div>
+<div class="para" id="statistics_describing_data-27-26-1-1-1-2-3"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">11</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">22</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+<td class="c m b1 r1 l0 t1 lines">37</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">24</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">26</td>
+<td class="c m b1 r1 l0 t1 lines">27</td>
+<td class="c m b1 r1 l0 t1 lines">33</td>
+<td class="c m b1 r1 l0 t1 lines">29</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">22</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+<td class="c m b1 r1 l0 t0 lines">32</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">24</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">47</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+</tr>
+</table></div></div>
+<div class="para" id="statistics_describing_data-27-26-1-1-1-2-4">Researcher 2 Patients (in months):</div>
+<div class="para" id="statistics_describing_data-27-26-1-1-1-2-5"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">11</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">17</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">41</td>
+<td class="c m b1 r1 l0 t1 lines">31</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">26</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">21</td>
+<td class="c m b1 r1 l0 t1 lines">22</td>
+<td class="c m b1 r1 l0 t1 lines">31</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">41</td>
+<td class="c m b1 r1 l0 t0 lines">22</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">25</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">24</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">42</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+</tr>
+</table></div></div>
+</li>
+</ol>
+</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="statistics_statistical_process.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="statistics_measure_of_center.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

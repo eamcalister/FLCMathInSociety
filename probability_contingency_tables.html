@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Math In Society: Contingency Tables</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math in Society">
+<meta property="book:author" content="Fort Lewis College MATH 105">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.3.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runtime.00db6230172ad960.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.8328b60515045466.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.5d3fd44c34d81620.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.f64dcc3632d7a0c3.css">
+</head>
+<body id="PCC-Math In Society" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://spot.pcc.edu/math/mathinsociety/book-1.html"><img src="external/images/Portland_Oregon_Skyline.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
+<p class="byline">Fort Lewis College MATH 105</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="probability.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="probability.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="probability_theoretical_probability.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="language_logic_rules.html" class="internal"><span class="codenumber">1</span> <span class="title">Logic and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_logic.html" class="internal"><span class="codenumber">1.1</span> <span class="title">The Language and Rules of Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-4" class="internal"><span class="title">Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-5" class="internal"><span class="title">Propositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-6" class="internal"><span class="title">Negation (not)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-7" class="internal"><span class="title">Multiple Negations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-8" class="internal"><span class="title">Logical Connectors (and, or)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-9" class="internal"><span class="title">Exclusive vs. Inclusive <em class="emphasis">or</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-10" class="internal"><span class="title">Conditional Statements (if, then)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-11" class="internal"><span class="title">Basic Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-12" class="internal"><span class="title">Conditional Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-13" class="internal"><span class="title">Truth Tables for Complex Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-14" class="internal"><span class="title">Truth Tables with Three Propositions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-15" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_arguments.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Describing and Critiquing Arguments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-4" class="internal"><span class="title">Logical Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-5" class="internal"><span class="title">Inductive and Deductive Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-6" class="internal"><span class="title">Evaluating Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-7" class="internal"><span class="title">Evaluating Deductive Arguments Using Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-8" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_fallacies.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-3" class="internal"><span class="title">Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-4" class="internal"><span class="title">Common Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-5" class="internal"><span class="title">Personal Attack (Ad hominem)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-6" class="internal"><span class="title">Appeal to Ignorance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-7" class="internal"><span class="title">Appeal to Authority</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-8" class="internal"><span class="title">False Dilemma</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-9" class="internal"><span class="title">Straw Man (or Straw Person)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-10" class="internal"><span class="title">Post Hoc</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_review.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Language and Logic Rules Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="probability.html" class="internal"><span class="codenumber">2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="probability_contingency_tables.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Contingency Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-4" class="internal"><span class="title">Contingency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-5" class="internal"><span class="title">“And” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-6" class="internal"><span class="title">“Or” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-7" class="internal"><span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-8" class="internal"><span class="title">Contingency Tables with More Than Two Categories</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-9" class="internal"><span class="title">Empirical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-10" class="internal"><span class="title">Finding Empirical Probabilities with a Contingency Table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-11" class="internal"><span class="title">Conditional Probabilities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-12" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_theoretical_probability.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Theoretical Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-4" class="internal"><span class="title">Basic Probability Concepts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-5" class="internal"><span class="title">Experiment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-6" class="internal"><span class="title">Events and Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-7" class="internal"><span class="title">Sample Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-8" class="internal"><span class="title">Equally Likely Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-9" class="internal"><span class="title">Certain and Impossible Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-10" class="internal"><span class="title">Complementary Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-11" class="internal"><span class="title">Experimental vs. Theoretical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-12" class="internal"><span class="title">The Law of Large Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-13" class="internal"><span class="title">Probability of Compound Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-14" class="internal"><span class="title">“And” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-15" class="internal"><span class="title">Independent and Dependent Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-16" class="internal"><span class="title">“Or” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-17" class="internal"><span class="title">Overlapping or Disjoint Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-18" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_expected_value.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Expected Value</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-4" class="internal"><span class="title">Expected Value</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-5" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_review.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Probability Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics.html" class="internal"><span class="codenumber">3</span> <span class="title">Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_statistical_process.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Overview of the Statistical Process</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-4" class="internal"><span class="title">Statistical Process</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-5" class="internal"><span class="title">Population</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-6" class="internal"><span class="title">Parameter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-7" class="internal"><span class="title">Sample</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-8" class="internal"><span class="title">Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-9" class="internal"><span class="title">Sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-10" class="internal"><span class="title">Sampling Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-11" class="internal"><span class="title">Simple random sample (SRS)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-12" class="internal"><span class="title">Stratified sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-13" class="internal"><span class="title">Systematic sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-14" class="internal"><span class="title">Convenience sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-15" class="internal"><span class="title">Statistical Bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-16" class="internal"><span class="title">Types of bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-17" class="internal"><span class="title">Observational Studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-18" class="internal"><span class="title">Experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-19" class="internal"><span class="title">Confounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-20" class="internal"><span class="title">Control group</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-21" class="internal"><span class="title">Placebo effect</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-22" class="internal"><span class="title">Placebo and Placebo-controlled experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-23" class="internal"><span class="title">Blind studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-24" class="internal"><span class="title">Margin of Error and Confidence Intervals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-25" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_describing_data.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Describing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#types_of_data" class="internal"><span class="title">Types of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-5" class="internal"><span class="title">Presenting Categorical Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-6" class="internal"><span class="title">Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-7" class="internal"><span class="title">Relative Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-8" class="internal"><span class="title">Bar graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-9" class="internal"><span class="title">Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-10" class="internal"><span class="title">Using a Spreadsheet to Make Bar Charts and Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-11" class="internal"><span class="title">Misleading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-12" class="internal"><span class="title">Perceptual Distortion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-13" class="internal"><span class="title">Misleading Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-14" class="internal"><span class="title">Stacked Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-15" class="internal"><span class="title">Presenting Quantitative Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-16" class="internal"><span class="title">Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-17" class="internal"><span class="title">Class Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-18" class="internal"><span class="title">Histograms Using Technology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-19" class="internal"><span class="title">The Shape of a Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-20" class="internal"><span class="title">Modality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-21" class="internal"><span class="title">Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-22" class="internal"><span class="title">Skewness</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-23" class="internal"><span class="title">Skewed to the Left</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-24" class="internal"><span class="title">Skewed to the Right</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-25" class="internal"><span class="title">The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-26" class="internal"><span class="title">Outlier</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-27" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_center.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Summary Statistics: Measures of Center</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-4" class="internal"><span class="title">Calculating Summary Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-5" class="internal"><span class="title">Measures of Center</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-6" class="internal"><span class="title">Mode</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-7" class="internal"><span class="title">Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-8" class="internal"><span class="title">Median</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-9" class="internal"><span class="title">The Relationship Between the Mean and the Median</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-10" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Summary Statistics: Measures of Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-4" class="internal"><span class="title">Measures of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-5" class="internal"><span class="title">Standard Deviation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-6" class="internal"><span class="title">Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-7" class="internal"><span class="title">Quartiles and the Interquartile Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-8" class="internal"><span class="title">The Five-Number Summary and Boxplots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-9" class="internal"><span class="title">Modified Boxplot (Optional)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-10" class="internal"><span class="title">Percentiles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-11" class="internal"><span class="title">Comparing Distributions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-12" class="internal"><span class="title">Z-Scores</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-13" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_review.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Statisitcs Chapter Review</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_normal_model.html" class="internal"><span class="codenumber">3.6</span> <span class="title">The Normal Distribution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-4" class="internal"><span class="title">Introduction to The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-5" class="internal"><span class="title">Properties of the Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-6" class="internal"><span class="title">The Empirical Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-7" class="internal"><span class="title">Using the Empirical Rule to Calculate Approximate Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-8" class="internal"><span class="title">Using Technology to Calculate Exact Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-9" class="internal"><span class="title">The Standard Normal Distribution and Z-Scores</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-10" class="internal"><span class="title">Confidence Intervals and Margin of Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="financial_math.html" class="internal"><span class="codenumber">4</span> <span class="title">Financial Math</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Spreadsheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-4" class="internal"><span class="title">Basic Calculations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-5" class="internal"><span class="title">Cell References</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-6" class="internal"><span class="title">Cell Formatting</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-7" class="internal"><span class="title">Fill-Down Feature</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-8" class="internal"><span class="title">Formulas</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-9" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_simple_compound.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Simple and Compound Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-4" class="internal"><span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-5" class="internal"><span class="title">APR – Annual Percentage Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-6" class="internal"><span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-7" class="internal"><span class="title">The Future Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-8" class="internal"><span class="title">Comparing Simple and Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-9" class="internal"><span class="title">Finding the Principal, or Present Value</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-10" class="internal"><span class="title">The Present Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-11" class="internal"><span class="title">Continuously Compounded Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-12" class="internal"><span class="title">Finding the Amount of Interest Earned and the Percentage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-13" class="internal"><span class="title">Effective Rate</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-14" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_credit_cards.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Credit Cards</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#types_of_credit_cards" class="internal"><span class="title">Types of Credit Cards</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#credit_card_statements" class="internal"><span class="title">Credit Card Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#interest_balance_payments" class="internal"><span class="title">Compute Interest, Balance Due, and Minimum Payment Due for a Credit Card.</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_income_taxes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Income Taxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-4" class="internal"><span class="title">A Very Brief History of Taxes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-5" class="internal"><span class="title">Types of Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-6" class="internal"><span class="title">Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-7" class="internal"><span class="title">State Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-8" class="internal"><span class="title">Municipal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-9" class="internal"><span class="title">Calculating Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-10" class="internal"><span class="title">Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-11" class="internal"><span class="title">Adjusted Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-12" class="internal"><span class="title">Taxable Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-13" class="internal"><span class="title">Filing Status</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-14" class="internal"><span class="title">Tax Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-15" class="internal"><span class="title">Tax Credits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-16" class="internal"><span class="title">Calculating a Refund or Payment Due</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-17" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_loans.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Basics of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-4" class="internal"><span class="title">Reasons for Loans</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5" class="internal"><span class="title">The Terminology of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-3" class="internal"><span class="title">Credit Scores</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-4" class="internal"><span class="title">Where Do Interest Rates Come From?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-6" class="internal"><span class="title">Calculating Loan Payments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-7" class="internal"><span class="title">Reading Amortization Tables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Personal Budget</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#Creating_a_budget" class="internal"><span class="title">Creating a Budget</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html#The_50_30_20_budget_philosophy" class="internal"><span class="title">The 50-30-20 Budget Philosophy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#subsec_3" class="internal"><span class="title">Necessary Expenses and Expenses that are Wants</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4" class="internal"><span class="title">Distinguish Various Basic Forms of Savings Plans</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4-3" class="internal"><span class="title">Savings Account</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5" class="internal"><span class="title">Savings Plan Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-13" class="internal"><span class="title">Certificate of Deposits, or CDs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-16" class="internal"><span class="title">Money Market Account</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-19" class="internal"><span class="title">Return on Investment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-26" class="internal"><span class="title">Annuities as Savings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-27" class="internal"><span class="title">Compute Payment to Reach a Financial Goal</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-6" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_investment.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Investments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4" class="internal"><span class="title">Distinguish Between Basic Forms of Investments</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4-3" class="internal"><span class="title">Bonds</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5" class="internal"><span class="title">Stocks</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-4" class="internal"><span class="title">Mutual Funds</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6" class="internal"><span class="title">Retirement Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-3" class="internal"><span class="title">Individual Retirement Accounts</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-4" class="internal"><span class="title">401(k) Accounts</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_review.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Financial Math Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-1.html" class="internal"><span class="title">References</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="probability_contingency_tables"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.1</span><span class="space"> </span><span class="title">Contingency Tables</span>
+</h2>
+<article class="objectives goal-like" id="probability_contingency_tables-2"><h3 class="heading">
+<span class="type">Objectives:</span><span class="space"> </span><span class="title">Section 2.1 Contingency Tables</span>
+</h3>
+<div class="introduction" id="probability_contingency_tables-2-2"><div class="para" id="probability_contingency_tables-2-2-1">Students will be able to:</div></div>
+<ul class="disc">
+<li id="probability_contingency_tables-2-3-1"><div class="para" id="probability_contingency_tables-2-3-1-1">Calculate percentages from a contingency table</div></li>
+<li id="probability_contingency_tables-2-3-2"><div class="para" id="probability_contingency_tables-2-3-2-1">Calculate “and” empirical probabilities</div></li>
+<li id="probability_contingency_tables-2-3-3"><div class="para" id="probability_contingency_tables-2-3-3-1">Calculate “or” empirical probabilities</div></li>
+<li id="probability_contingency_tables-2-3-4"><div class="para" id="probability_contingency_tables-2-3-4-1">Calculate conditional probabilities</div></li>
+<li id="probability_contingency_tables-2-3-5"><div class="para" id="probability_contingency_tables-2-3-5-1">Determine whether two characteristics are independent</div></li>
+</ul></article><section class="introduction" id="probability_contingency_tables-3"><figure class="figure figure-like" id="probability_contingency_tables-3-1"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/_NCjGWdcNmQ?&amp;modestbranding=1&amp;rel=0" id="video-contingency-tables"></iframe></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.1<span class="period">.</span></span><span class="space"> </span>Alternative Video Lesson</figcaption></figure> <div class="para logical" id="probability_contingency_tables-3-2">
+<div class="para">In the next chapter we will study different types of data at length. In order to discuss probability we must first introduce a certain type of data called <dfn class="terminology">categorical data</dfn>. This is data that allows us to classify objects into categories. A <dfn class="terminology">categorical variable</dfn> is a way of describing an object in terms of categorical data. Here are a few examples:</div>
+<ul class="disc">
+<li id="probability_contingency_tables-3-2-3-1">
+<div class="para" id="probability_contingency_tables-3-2-3-1-1">
+<em class="emphasis">Variable:</em> Type of phone owned by a person.</div>
+<div class="para" id="probability_contingency_tables-3-2-3-1-2">
+<em class="emphasis">Possible Values:</em> Iphone, Android</div>
+<div class="para" id="probability_contingency_tables-3-2-3-1-3">This variable classifies a person by the type of phone they own.</div>
+</li>
+<li id="probability_contingency_tables-3-2-3-2">
+<div class="para" id="probability_contingency_tables-3-2-3-2-1">
+<em class="emphasis">Variable:</em> Type of motor in a car.</div>
+<div class="para" id="probability_contingency_tables-3-2-3-2-2">
+<em class="emphasis">Possible Values:</em> Gasoline, Diesel, Electric</div>
+<div class="para" id="probability_contingency_tables-3-2-3-2-3">This variable classifies a car by the type of motor that propels it.</div>
+</li>
+<li id="probability_contingency_tables-3-2-3-3">
+<div class="para" id="probability_contingency_tables-3-2-3-3-1">
+<em class="emphasis">Variable:</em> (Primary) position of a major league baseball player.</div>
+<div class="para" id="probability_contingency_tables-3-2-3-3-2">
+<em class="emphasis">Possible Values:</em> Pitcher, Catcher, 1st Base, 2nd Base, Shortstop, 3rd Base, Right Field, Center Field, Left, Field, Designated Hitter</div>
+<div class="para" id="probability_contingency_tables-3-2-3-3-3">This variable classifies a baseball player by their position. We have to indicate that this is their primary position because a player may play more than one position, but there is one that they play most.</div>
+</li>
+</ul>
+</div></section><section class="subsection" id="probability_contingency_tables-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Contingency Tables</span>
+</h3>
+<div class="para" id="probability_contingency_tables-4-2">A <em class="alert">contingency table</em> summarizes all the possible combinations for two categorical variables. Each value in the table represents the number of times a particular combination of outcomes occurs. For example, suppose we randomly select 250 households from the greater Portland area and ask whether they have a cat and whether they have a dog. In this case, “have a cat” and “have a dog” are the two variables, and each variable has two categories: Yes and No. To create the contingency table, we make columns for the categories of one variable, and rows for the categories of the other variable. We also add a row and column for the subtotals of each category. Each cell of the resulting table contains the number of outcomes having the characteristics of the intersecting row and column categories. For our dog and cat example, the table would look like this:</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Yes Cat and Yes Dog</em></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Yes Cat and No Dog</em></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Yes Cat Total</em></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Cat and Yes Dog</em></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Cat and No Dog</em></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Cat Total</em></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Yes Dog Total</em></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">No Dog Total</em></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="emphasis">Grand total</em></td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-4-4">Suppose that of the 250 households surveyed, 180 said they have a cat, 95 said they have a dog, and 52 said they have both a cat and a dog. We can use this information to fill in the cells of the table.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
+<td class="c m b1 r1 l0 t0 lines">52</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">180</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">95</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">250</td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-4-6">The first cell we can fill in is the <em class="alert">grand total</em>, which is the total number of subjects in the study. In this case, there are 250 households participating in the survey. The next two cells we can fill in are the total number of households that have a cat, 180, and the total number of households that have a dog, 95. The final cell we can fill in from the given information is the intersection of the having a dog column and a having a cat row, which is 52 households.</div>
+<div class="para" id="probability_contingency_tables-4-7">Since each row and column must sum to their totals, we can use subtraction to find the missing numbers as shown below.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
+<td class="c m b1 r1 l0 t0 lines">52</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(180-52=128\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">180</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(95-52=43\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">
+<span class="process-math">\(155-128=27\)</span><br>or<br><span class="process-math">\(70-43=27\)</span>
+</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(250-180=70\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">95</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(250-95=155\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">250</td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-4-9">Now that we have our contingency table completed, notice that the numbers in the central four cells add to the grand total as shown in the table on the left. The total row and the total column also add to the grand total as shown in the right table.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">52</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">128</code></td>
+<td class="c m b1 r1 l0 t0 lines">180</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">43</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">27</code></td>
+<td class="c m b1 r1 l0 t0 lines">70</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">95</td>
+<td class="c m b1 r1 l0 t0 lines">155</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">250</code></td>
+</tr>
+</table></div>
+<div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
+<td class="c m b1 r1 l0 t0 lines">52</td>
+<td class="c m b1 r1 l0 t0 lines">128</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">180</code></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
+<td class="c m b1 r1 l0 t0 lines">43</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">70</code></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">95</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">155</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">250</code></td>
+</tr>
+</table></div>
+</div></div></section><section class="subsection" id="probability_contingency_tables-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">“And” Statements</span>
+</h3>
+<div class="para" id="probability_contingency_tables-5-2">Now we can use the contingency table  to determine the percentage of households that meet certain conditions. For instance, what percent of those surveyed own a cat <em class="alert">and</em> do not own a dog? </div>
+<div class="para" id="probability_contingency_tables-5-3">In the contingency table we see the 128 households at the intersection of the row of households who own a cat and the column of households who do not own a dog. As a percentage, the total number of households surveyed, is <span class="process-math">\(\frac{128}{250}=0.512\)</span> or 51.2% that have a cat and no dog.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
+<td class="c m b1 r1 l0 t0 lines">52</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">128</code></td>
+<td class="c m b1 r1 l0 t0 lines">180</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
+<td class="c m b1 r1 l0 t0 lines">43</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">70</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">95</td>
+<td class="c m b1 r1 l0 t0 lines">155</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">250</code></td>
+</tr>
+</table></div></section><section class="subsection" id="probability_contingency_tables-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">“Or” Statements</span>
+</h3>
+<div class="para" id="probability_contingency_tables-6-2">How about the percentage of households surveyed that have a cat <em class="alert">or</em> a dog?   We can get the answer from the contingency table. By adding the cells for households who have a cat and not a dog, a dog and not a cat, and the households that have both a cat and a dog. This gives us 223 households.</div>
+<div class="para" id="probability_contingency_tables-6-3">There is another way to calculate an <em class="emphasis">or</em> statements from a contingency table. We could add the row and column totals for having a cat and having a dog, but then we have counted the 52 households in the intersection twice. We can subtract that number to get <span class="process-math">\(180+95-52=223\)</span> households with a dog or a cat, which we know is 89.2% of those surveyed.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">52</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">128</code></td>
+<td class="c m b1 r1 l0 t0 lines">180</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">43</code></td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">70</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">95</td>
+<td class="c m b1 r1 l0 t0 lines">155</td>
+<td class="c m b1 r1 l0 t0 lines">250</td>
+</tr>
+</table></div></section><section class="subsection" id="probability_contingency_tables-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Conditional Statements</span>
+</h3>
+<div class="para" id="probability_contingency_tables-7-2">Another question we can answer using a contingency table is what percentage of dog owning households also own a cat? In this case the group that we are interested in isn’t every household surveyed (the grand total), but just those households that own a dog.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><code class="code-inline tex2jax_ignore">Dog</code></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Dog</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">52</code></td>
+<td class="c m b1 r1 l0 t0 lines">128</td>
+<td class="c m b1 r1 l0 t0 lines">180</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cat</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">43</code></td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">70</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">95</code></td>
+<td class="c m b1 r1 l0 t0 lines">155</td>
+<td class="c m b1 r1 l0 t0 lines">250</td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-7-4">We call this a <em class="alert">conditional</em> statement because we are only considering the households with a certain condition. If we focus on the column representing the households that own a dog, we see that there is a total of 95 households with a dog, and that 52 of those 95 households also have a cat. Therefore, <span class="process-math">\(\frac{52}{95} \approx 0.547\)</span> or approximately 54.7% of the households with a dog also have a cat. Another way to phrase this conditional statement is, “What percent of households have a cat <em class="alert">given</em> they have a dog.” You will see the word given quite a bit in this chapter and that makes the denominator change. </div></section><section class="subsection" id="probability_contingency_tables-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Contingency Tables with More Than Two Categories</span>
+</h3>
+<article class="example example-like" id="probability_contingency_tables-8-2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_contingency_tables-8-2-1-1">910 randomly sampled registered voters from Tampa, FL were asked if they thought workers who have illegally entered the US should (i) be allowed to keep their jobs and apply for US citizenship, (ii) be allowed to keep their jobs as temporary guest workers but not be allowed to apply for US citizenship, or (iii) lose their jobs and have to leave the country. Not sure was also an option (iv). The results of the survey by political ideology are shown below<details class="ptx-footnote" aria-live="polite" id="probability_contingency_tables-8-2-1-1-1"><summary class="ptx-footnote__number" title="Footnote 2.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="probability_contingency_tables-8-2-1-1-1">SurveyUSA, <a class="external" href="http://www.surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2" target="_blank">News Poll #18927</a>, data collected Jan 27-29, 2012. Example adapted from <a class="external" href="https://www.openintro.org/" target="_blank">Open Intro: Advanced High School Statistics</a>, by Diez et al, used under <a class="external" href="https://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">CC-BY-SA 3.0</a>.</div></details>. Use the contingency table to answer the questions.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Conservative</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Moderate</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Liberal</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(i) Apply for citizenship</th>
+<td class="c m b1 r1 l0 t0 lines">57</td>
+<td class="c m b1 r1 l0 t0 lines">120</td>
+<td class="c m b1 r1 l0 t0 lines">101</td>
+<td class="c m b1 r1 l0 t0 lines">278</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(ii) Guest worker</th>
+<td class="c m b1 r1 l0 t0 lines">121</td>
+<td class="c m b1 r1 l0 t0 lines">113</td>
+<td class="c m b1 r1 l0 t0 lines">28</td>
+<td class="c m b1 r1 l0 t0 lines">262</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(iii) Leave the country</th>
+<td class="c m b1 r1 l0 t0 lines">179</td>
+<td class="c m b1 r1 l0 t0 lines">126</td>
+<td class="c m b1 r1 l0 t0 lines">45</td>
+<td class="c m b1 r1 l0 t0 lines">350</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(iv) Not sure</th>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">372</td>
+<td class="c m b1 r1 l0 t0 lines">363</td>
+<td class="c m b1 r1 l0 t0 lines">175</td>
+<td class="c m b1 r1 l0 t0 lines">910</td>
+</tr>
+</table></div> <div class="para logical" id="probability_contingency_tables-8-2-1-3"><ol class="lower-alpha">
+<li id="probability_contingency_tables-8-2-1-3-1-1"><div class="para" id="probability_contingency_tables-8-2-1-3-1-1-1">What percent of the sampled Tampa, FL voters identified themselves as conservatives?</div></li>
+<li id="probability_contingency_tables-8-2-1-3-1-2"><div class="para" id="probability_contingency_tables-8-2-1-3-1-2-1">What percent of the sampled voters are in favor of the citizenship option?</div></li>
+<li id="probability_contingency_tables-8-2-1-3-1-3"><div class="para" id="probability_contingency_tables-8-2-1-3-1-3-1">What percent of the sampled voters identify themselves as conservatives <em class="alert">and</em> are in favor of the citizenship option?</div></li>
+<li id="probability_contingency_tables-8-2-1-3-1-4"><div class="para" id="probability_contingency_tables-8-2-1-3-1-4-1">What percent of the sampled voters identify themselves as liberal <em class="alert">or</em> are in favor of the leaving the country option?</div></li>
+<li id="probability_contingency_tables-8-2-1-3-1-5"><div class="para" id="probability_contingency_tables-8-2-1-3-1-5-1">What percent of the sampled voters who identify as conservatives are also in favor of the citizenship option? What percent of moderate and liberal voters share this view?</div></li>
+</ol></div>
+<div class="solutions"><details id="probability_contingency_tables-8-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="probability_contingency_tables-8-2-2-1"><ol class="decimal">
+<li id="probability_contingency_tables-8-2-2-1-1-1"><div class="para" id="probability_contingency_tables-8-2-2-1-1-1-1">To answer this question, we find the conservative column and look to the bottom cell for the total number of conservative voters and divide that by the total number of voters surveyed. This gives us <span class="process-math">\(\frac{372}{910}\approx 0.409\)</span> or approximately 41% of the Tampa, FL voters who identify as conservative.</div></li>
+<li id="probability_contingency_tables-8-2-2-1-1-2"><div class="para" id="probability_contingency_tables-8-2-2-1-1-2-1">For this question we find the apply for citizenship row, look across to find the total, and divide this by the total number of voters surveyed. We get <span class="process-math">\(\frac{278}{910} \approx 0.305\)</span> or approximately 31% of these voters are in favor of the citizenship option.</div></li>
+<li id="probability_contingency_tables-8-2-2-1-1-3"><div class="para" id="probability_contingency_tables-8-2-2-1-1-3-1">For this question we are looking for the cell that is the intersection of those who identify as conservative and those who are in favor of the citizen option. This cell has 57 voters, so we divide that by the total number of voters. This gives us or <span class="process-math">\(\frac{57}{910} \approx 0.063\)</span> or approximately 6.3% of these voters identify as conservatives and are in favor of the citizenship option.</div></li>
+<li id="probability_contingency_tables-8-2-2-1-1-4">
+<div class="para" id="probability_contingency_tables-8-2-2-1-1-4-1">The <em class="emphasis">or</em> in this question is inclusive, so we need to determine the number of voters who identify as liberal, who are in favor of the leaving the country option, or both.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Conservative</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Moderate</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Liberal</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(i) Apply for citizenship</th>
+<td class="c m b1 r1 l0 t0 lines">57</td>
+<td class="c m b1 r1 l0 t0 lines">120</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">101</code></td>
+<td class="c m b1 r1 l0 t0 lines">278</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(ii) Guest worker</th>
+<td class="c m b1 r1 l0 t0 lines">121</td>
+<td class="c m b1 r1 l0 t0 lines">113</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">28</code></td>
+<td class="c m b1 r1 l0 t0 lines">262</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(iii) Leave the country</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">179</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">126</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">45</code></td>
+<td class="c m b1 r1 l0 t0 lines">350</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">(iv) Not sure</th>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">1</code></td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">372</td>
+<td class="c m b1 r1 l0 t0 lines">363</td>
+<td class="c m b1 r1 l0 t0 lines">175</td>
+<td class="c m b1 r1 l0 t0 lines">910</td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-8-2-2-1-1-4-3">In terms of the individual cells, the number of voters who have the specified characteristics is the sum <span class="process-math">\(179+126+101+28+45+1=480\text{,}\)</span> which we can divide by the total number of voters surveyed to get the percent. So, we have <span class="process-math">\(\frac{480}{910} \approx 0.527\)</span> or approximately 53% of the voters identify as liberal or are in favor of the leave the country option.</div>
+<div class="para" id="probability_contingency_tables-8-2-2-1-1-4-4">Another way to calculate this is to add the total number who identify as liberal (175 voters) and the total number who are in favor of the leave the country option (350 voters), then subtract the double counted cell (45 voters) who are liberal and in favor of the leave the country option: <span class="process-math">\(175+350-45=480\)</span>
+</div>
+</li>
+<li id="probability_contingency_tables-8-2-2-1-1-5">
+<div class="para" id="probability_contingency_tables-8-2-2-1-1-5-1">As we saw before, these are conditional statements. For the first part of this question, we want to focus just on those voters who identify as conservatives, and from among that group determine the percent in favor of the citizenship option. We calculate that <span class="process-math">\(\frac{57}{372} \approx 0.153\)</span> or approximately 15% of conservative voters are in favor of the citizenship option.</div>
+<div class="para" id="probability_contingency_tables-8-2-2-1-1-5-2">For the second part, we want to focus on just those voters who identify as moderate, and from among that group determine the percent in favor of the citizenship option. Then we have <span class="process-math">\(\frac{120}{363} \approx 0.33\)</span> or approximately 33% of moderate voters are in favor of the citizen option.</div>
+<div class="para" id="probability_contingency_tables-8-2-2-1-1-5-3">Finally, we want to focus on just those voters who identify as liberal, and from among that group determine the percent in favor of the citizenship option. We calculate <span class="process-math">\(\frac{101}{175} \approx 0.58\)</span> or approximately 58% of liberal voters are in favor of the citizenship option. Looking at these three percentages, it is clear that support of the citizenship option <em class="alert">depends</em> on political ideology. If support of the citizenship option were the same across political ideologies, then we would say that favoring the citizenship option and political ideology were <em class="alert">independent</em> of each other.</div>
+</li>
+</ol></div></div></details></div></article></section><section class="subsection" id="probability_contingency_tables-9"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Empirical Probability</span>
+</h3>
+<div class="para" id="probability_contingency_tables-9-2">If our sample is representative of the population, then we can also interpret a percentage we calculate from a contingency table as a <em class="alert">probability</em>, or the likelihood that something will happen. Since a contingency table is constructed from data collected through sampling or an experiment, we call it an <em class="alert">empirical</em> or <em class="alert">experimental</em> probability. This is different from a <em class="alert">theoretical</em> probability which we will look at in the next section.</div></section><section class="subsection" id="probability_contingency_tables-10"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Finding Empirical Probabilities with a Contingency Table</span>
+</h3>
+<div class="para" id="probability_contingency_tables-10-2">Suppose that 60% of students in our class have a summer birthday (June, July, or August). Now suppose everyone’s name and birth month are written on slips of paper and thrown into a bag. If we pull a slip of paper out of the bag at random, what is the probability that the selected student has a summer birthday? If you think there should be a 60% chance, you are right! The relative frequency of the characteristic of interest will be equal to its empirical probability. To write this as a probability statement, it would look like</div>
+<div class="para logical" id="probability_contingency_tables-10-3"><div class="displaymath process-math" id="probability_contingency_tables-10-3-1">
+\begin{gather*}
+\text{P(summer birthday)}=60\%
+\end{gather*}
+</div></div>
+<div class="para" id="probability_contingency_tables-10-4">Probability is a function named <em class="emphasis">P</em>, and the function is applied to what follows in the parentheses. Let’s look at another example where we write probability statements and find empirical probabilities.</div>
+<article class="example example-like" id="probability_contingency_tables-10-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_contingency_tables-10-5-1-1">A survey of licensed drivers asked whether they had received a speeding ticket in the last year and whether their car is red. The results of the survey are shown in the contingency table to the right.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">135</td>
+<td class="c m b1 r1 l0 t0 lines">150</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">45</td>
+<td class="c m b1 r1 l0 t0 lines">470</td>
+<td class="c m b1 r1 l0 t0 lines">515</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines">605</td>
+<td class="c m b1 r1 l0 t0 lines">665</td>
+</tr>
+</table></div> <div class="para logical" id="probability_contingency_tables-10-5-1-3">
+<div class="para">Find the probability that a randomly selected survey participant:</div>
+<ol class="lower-alpha">
+<li id="probability_contingency_tables-10-5-1-3-1-1"><div class="para" id="probability_contingency_tables-10-5-1-3-1-1-1">has a red car.</div></li>
+<li id="probability_contingency_tables-10-5-1-3-1-2"><div class="para" id="probability_contingency_tables-10-5-1-3-1-2-1">has had a speeding ticket in the last year.</div></li>
+<li id="probability_contingency_tables-10-5-1-3-1-3"><div class="para" id="probability_contingency_tables-10-5-1-3-1-3-1">has a red car and has not had a speeding ticket in the last year.</div></li>
+<li id="probability_contingency_tables-10-5-1-3-1-4"><div class="para" id="probability_contingency_tables-10-5-1-3-1-4-1">has a red car or has had a speeding ticket in the last year.</div></li>
+<li id="probability_contingency_tables-10-5-1-3-1-5"><div class="para" id="probability_contingency_tables-10-5-1-3-1-5-1">has had a speeding ticket in the last year given they have a red car.</div></li>
+<li id="probability_contingency_tables-10-5-1-3-1-6"><div class="para" id="probability_contingency_tables-10-5-1-3-1-6-1">who has received a speeding ticket in the last year also has a red car.</div></li>
+<li id="probability_contingency_tables-10-5-1-3-1-7"><div class="para" id="probability_contingency_tables-10-5-1-3-1-7-1">What do the answers to b and e suggest about the relationship between owning a red car and getting a speeding ticket?</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="probability_contingency_tables-10-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="probability_contingency_tables-10-5-2-1"><ol class="lower-alpha">
+<li id="probability_contingency_tables-10-5-2-1-1-1">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">135</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">150</code></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">45</td>
+<td class="c m b1 r1 l0 t0 lines">470</td>
+<td class="c m b1 r1 l0 t0 lines">515</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines">605</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-1-2">To find <span class="process-math">\(P(\text{red car})\text{,}\)</span> we divide the number of participants who own a red car by the total number of people surveyed:<span class="process-math">\(P(\text{red car})=\frac{150}{665} \approx 0.226\)</span> or 22.6%.</div>
+</li>
+<li id="probability_contingency_tables-10-5-2-1-1-2">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">135</td>
+<td class="c m b1 r1 l0 t0 lines">150</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">45</td>
+<td class="c m b1 r1 l0 t0 lines">470</td>
+<td class="c m b1 r1 l0 t0 lines">515</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">60</code></td>
+<td class="c m b1 r1 l0 t0 lines">605</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-2-2">
+<span class="process-math">\(P(\text{speeding ticket})\text{,}\)</span> we divide the number of participants who got a speeding ticket in the last year by the total number of people surveyed: <span class="process-math">\(P(\text{speeding ticket})=\frac{60}{665} \approx 0.09\)</span> or 9%.</div>
+</li>
+<li id="probability_contingency_tables-10-5-2-1-1-3">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">135</code></td>
+<td class="c m b1 r1 l0 t0 lines">150</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">45</td>
+<td class="c m b1 r1 l0 t0 lines">470</td>
+<td class="c m b1 r1 l0 t0 lines">515</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines">605</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-3-2">To find <span class="process-math">\(P(\text{red and no ticket})\)</span> , we find the intersection of the red car category and the no ticket category and divide by the total number of participants: <span class="process-math">\(P(\text{red and no ticket}) =\frac{135}{665} \approx 0.203\)</span> or 20.3%</div>
+</li>
+<li id="probability_contingency_tables-10-5-2-1-1-4">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">15</code></td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">135</code></td>
+<td class="c m b1 r1 l0 t0 lines">150</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">45</code></td>
+<td class="c m b1 r1 l0 t0 lines">470</td>
+<td class="c m b1 r1 l0 t0 lines">515</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines">605</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">665</code></td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-4-2">To find <span class="process-math">\(P(\text{red or ticket})\text{,}\)</span> we need to add those who drive a red car and did not have a speeding ticket (just red), those who had a speeding ticket and do not drive a red car (just ticket) and those who drive a red car and had a speeding ticket (both), and divide by the total number of participants:</div>
+<div class="para logical" id="probability_contingency_tables-10-5-2-1-1-4-3"><div class="displaymath process-math" id="probability_contingency_tables-10-5-2-1-1-4-3-1">
+\begin{gather*}
+P(\text{red and no ticket})=\frac{135+45+15}{665}=\frac{195}{665} \approx 0.293\text{ or } 29.3\%
+\end{gather*}
+</div></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-4-4">Recall from our earlier discussion that we could also calculate the or probability as:</div>
+<div class="para logical" id="probability_contingency_tables-10-5-2-1-1-4-5"><div class="displaymath process-math" id="probability_contingency_tables-10-5-2-1-1-4-5-1">
+\begin{align*}
+P(\text{red and no ticket})\amp= P(\text{red})+ P(\text{speeding ticket}) - P(\text{red and speeding ticket})\\
+\amp=\frac{150}{665}+\frac{60}{665}-\frac{15}{665}\\
+\amp=\frac{195}{665}
+\end{align*}
+</div></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-4-6">which gives us the same answer as counting the individual cells.</div>
+</li>
+<li id="probability_contingency_tables-10-5-2-1-1-5">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">15</code></td>
+<td class="c m b1 r1 l0 t0 lines">135</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">150</code></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">45</td>
+<td class="c m b1 r1 l0 t0 lines">470</td>
+<td class="c m b1 r1 l0 t0 lines">515</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines">605</td>
+<td class="c m b1 r1 l0 t0 lines">665</td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-5-2">The probability <span class="process-math">\(P(\text{speeding ticket given red car})\)</span> is a conditional probability as we have seen before since it is conditional on the given characteristic occurring. In this problem, the given characteristic is owning a red car, so we isolate our attention to just the row of 150 red car owners and see how many have had a speeding ticket in the last year. Looking at the table, we see that there were 15 red car owners who had a speeding ticket in the last year, so we calculate:</div>
+<div class="para logical" id="probability_contingency_tables-10-5-2-1-1-5-3"><div class="displaymath process-math" id="probability_contingency_tables-10-5-2-1-1-5-3-1">
+\begin{gather*}
+P(\text{speeding ticket given red car})=\frac{15}{150} = 0.10\text{ or } 10\%
+\end{gather*}
+</div></div>
+</li>
+<li id="probability_contingency_tables-10-5-2-1-1-6">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Speeding Ticket</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Red Car</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">15</code></td>
+<td class="c m b1 r1 l0 t0 lines">135</td>
+<td class="c m b1 r1 l0 t0 lines">150</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Red Car</th>
+<td class="c m b1 r1 l0 t0 lines">45</td>
+<td class="c m b1 r1 l0 t0 lines">470</td>
+<td class="c m b1 r1 l0 t0 lines">515</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">60</code></td>
+<td class="c m b1 r1 l0 t0 lines">605</td>
+<td class="c m b1 r1 l0 t0 lines">665</td>
+</tr>
+</table></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-6-2">This question is also asking for a conditional probability, <span class="process-math">\(P(\text{red car given speeding ticket})\text{,}\)</span> but it is phrased more like we would say it. In this case the given characteristic is that the person has received a speeding ticket, so we will isolate our attention to just the speeding ticket column. Among the 60 people who had a speeding ticket in the last year, we see that 15 also drove a red car. Now we can calculate the probability:</div>
+<div class="para logical" id="probability_contingency_tables-10-5-2-1-1-6-3"><div class="displaymath process-math" id="probability_contingency_tables-10-5-2-1-1-6-3-1">
+\begin{gather*}
+P(\text{red car given speeding ticket})=\frac{15}{60} = 0.25\text{ or }25\%
+\end{gather*}
+</div></div>
+<div class="para" id="probability_contingency_tables-10-5-2-1-1-6-4">Notice that compared with part e, when we change the conditional characteristic, we change the denominator of the fraction.</div>
+</li>
+<li id="probability_contingency_tables-10-5-2-1-1-7"><div class="para" id="probability_contingency_tables-10-5-2-1-1-7-1">In part b, we determined that there was a 9% chance of randomly selecting a participant who had received a speeding ticket in the last year. However, in part e we found that there was a 25% chance of receiving a ticket in the last year if the person had a red car. This seems to suggest that there is a higher likelihood of getting a speeding ticket if you own a red car. This means that getting a speeding ticket is <dfn class="terminology">dependent</dfn> on whether the person drives a red car, since that increases the probability of getting a ticket. We cannot say, however, whether driving a red car makes you speed or whether people who tend to drive faster buy red cars.</div></li>
+</ol></div></div></details></div></article></section><section class="subsection" id="probability_contingency_tables-11"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Conditional Probabilities</span>
+</h3>
+<div class="para" id="probability_contingency_tables-11-2">We have mentioned conditional probabilities, which we find by isolating our attention to the given row or column. Here is another example of finding conditional probabilities.</div>
+<article class="example example-like" id="probability_contingency_tables-11-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="probability_contingency_tables-11-3-1-1">
+<div class="para">A home pregnancy test was given to a sample of 93 cisgender women, and their pregnancy was then verified by a blood test. The contingency table below shows the home pregnancy test and whether or not they were actually pregnant as determined by the blood test. Find the probability that a randomly selected woman in the sample</div>
+<ol class="lower-alpha">
+<li id="probability_contingency_tables-11-3-1-1-1-1"><div class="para" id="probability_contingency_tables-11-3-1-1-1-1-1">was not pregnant given the home test was positive.</div></li>
+<li id="probability_contingency_tables-11-3-1-1-1-2"><div class="para" id="probability_contingency_tables-11-3-1-1-1-2-1">had a positive home pregnancy test given they were not pregnant.</div></li>
+</ol>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Negative Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pregnant</th>
+<td class="c m b1 r1 l0 t0 lines">70</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">74</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Pregnant</th>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">75</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">93</td>
+</tr>
+</table></div>
+<div class="solutions"><details id="probability_contingency_tables-11-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="probability_contingency_tables-11-3-2-1">
+<div class="para">Here are the solutions:</div>
+<ol class="lower-alpha">
+<li id="probability_contingency_tables-11-3-2-1-1-1">
+<div class="para" id="probability_contingency_tables-11-3-2-1-1-1-1">Since we are given the home test result was positive, we are limited to the 75 women in the positive test column, of which 5 were not pregnant. This gives:</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Negative Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pregnant</th>
+<td class="c m b1 r1 l0 t0 lines">70</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">74</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Pregnant</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">5</code></td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">75</code></td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">93</td>
+</tr>
+</table></div>
+<div class="para logical" id="probability_contingency_tables-11-3-2-1-1-1-3"><div class="displaymath process-math" id="probability_contingency_tables-11-3-2-1-1-1-3-1">
+\begin{gather*}
+P(\text{not pregnant given positve test})=\frac{5}{75} \approx 0.067\text{ or } 6.7\%
+\end{gather*}
+</div></div>
+</li>
+<li id="probability_contingency_tables-11-3-2-1-1-2">
+<div class="para" id="probability_contingency_tables-11-3-2-1-1-2-1">Since we are given the woman is not pregnant, we are limited to the 19 women in the not pregnant row, of which 5 had a positive test. This gives:</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Positive Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Negative Test</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pregnant</th>
+<td class="c m b1 r1 l0 t0 lines">70</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">74</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Pregnant</th>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">5</code></td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines"><code class="code-inline tex2jax_ignore">19</code></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">75</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">93</td>
+</tr>
+</table></div>
+<div class="para logical" id="probability_contingency_tables-11-3-2-1-1-2-3"><div class="displaymath process-math" id="probability_contingency_tables-11-3-2-1-1-2-3-1">
+\begin{gather*}
+P(\text{positive test given not pregnant})=\frac{5}{19} \approx 0.263\text{ or } 26.3\% 
+\end{gather*}
+</div></div>
+<div class="para" id="probability_contingency_tables-11-3-2-1-1-2-4">This result is referred to as a false positive: A positive test result when the woman is not actually pregnant.</div>
+</li>
+</ol>
+</div></div></details></div></article><div class="para" id="probability_contingency_tables-11-4">In this section we have learned about empirical probability. In the next section we will discuss another kind of probability that you may be familiar with – theoretical probability.</div></section><section class="exercises" id="probability_contingency_tables-12"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="probability_contingency_tables-12-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-2-1-1">A recent survey asked a random sample of FLC students if they are currently experiencing food insecurity and if they are currently experiencing housing insecurity. Fill in the missing entries of the contingency table below.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Food Insecure</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Not Food Insecure</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Housing Insecure</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Housing Insecure</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">460</td>
+<td class="c m b1 r1 l0 t0 lines">760</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">680</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-3-1-1">A recent survey asked a random sample of FLC students if they have purchased food from the cafeteria in the last week, and if they purchased their textbooks through the bookstore. Fill in the missing entries of the contingency table below.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Bookstore</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Bookstore</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Cafeteria</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">375</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Cafeteria</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">135</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">630</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">850</td>
+</tr>
+</table></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-4-1-1">Use the following information to complete the contingency table:</div> <div class="para logical" id="probability_contingency_tables-12-4-1-2"><ul class="disc">
+<li id="probability_contingency_tables-12-4-1-2-1-1"><div class="para" id="probability_contingency_tables-12-4-1-2-1-1-1"><span class="process-math">\(\displaystyle \text{P(A and B)} = 10/75\)</span></div></li>
+<li id="probability_contingency_tables-12-4-1-2-1-2"><div class="para" id="probability_contingency_tables-12-4-1-2-1-2-1"><span class="process-math">\(\displaystyle \text{P(A)} = 40/75 \)</span></div></li>
+<li id="probability_contingency_tables-12-4-1-2-1-3"><div class="para" id="probability_contingency_tables-12-4-1-2-1-3-1"><span class="process-math">\(\displaystyle \text{P(not B)} = 45/75\)</span></div></li>
+</ul></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">A</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Not A</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">B</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not B</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-5-1-1">Use the following information to complete the contingency table:</div> <div class="para logical" id="probability_contingency_tables-12-5-1-2"><ul class="disc">
+<li id="probability_contingency_tables-12-5-1-2-1-1"><div class="para" id="probability_contingency_tables-12-5-1-2-1-1-1"><span class="process-math">\(\displaystyle \text{P(A given B)} = 30/80\)</span></div></li>
+<li id="probability_contingency_tables-12-5-1-2-1-2"><div class="para" id="probability_contingency_tables-12-5-1-2-1-2-1"><span class="process-math">\(\displaystyle \text{P(Not A and Not B)} = 10/120\)</span></div></li>
+</ul></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">A</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Not A</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">B</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not B</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-6"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-6-1-1">A professor gave a test to students in a morning class and the same test to the afternoon class. The grades are summarized below.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">A</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">B</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">C</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Morning Class</th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">39</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Afternoon Class</th>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">22</td>
+<td class="c m b1 r1 l0 t0 lines">25</td>
+<td class="c m b1 r1 l0 t0 lines">65</td>
+</tr>
+</table></div> <div class="para logical" id="probability_contingency_tables-12-6-1-3">
+<div class="para">If one student was chosen at random:</div>
+<ol class="lower-alpha">
+<li id="probability_contingency_tables-12-6-1-3-1-1"><div class="para" id="probability_contingency_tables-12-6-1-3-1-1-1">What is the probability they were in the morning class?</div></li>
+<li id="probability_contingency_tables-12-6-1-3-1-2"><div class="para" id="probability_contingency_tables-12-6-1-3-1-2-1">What is the probability they earned a C?</div></li>
+<li id="probability_contingency_tables-12-6-1-3-1-3"><div class="para" id="probability_contingency_tables-12-6-1-3-1-3-1">What is the probability that they earned an A and they were in the afternoon class?</div></li>
+<li id="probability_contingency_tables-12-6-1-3-1-4"><div class="para" id="probability_contingency_tables-12-6-1-3-1-4-1">What is the probability that they earned an A given they were in the morning class?</div></li>
+<li id="probability_contingency_tables-12-6-1-3-1-5"><div class="para" id="probability_contingency_tables-12-6-1-3-1-5-1">What is the probability that they were in the morning class or they earned a B?</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-7-1-1">A professor surveyed students in her morning and afternoon Math 105 class, and asked what their class standing was. The class standings are summarized below:</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Freshman</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Sophomore</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Junior</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Senor</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Morning Class</th>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">32</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Afternoon Class</th>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">28</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">60</td>
+</tr>
+</table></div> <div class="para logical" id="probability_contingency_tables-12-7-1-3">
+<div class="para">If one student was chosen at random:</div>
+<ol class="lower-alpha">
+<li id="probability_contingency_tables-12-7-1-3-1-1"><div class="para" id="probability_contingency_tables-12-7-1-3-1-1-1">What is the probability they were in the morning class?</div></li>
+<li id="probability_contingency_tables-12-7-1-3-1-2"><div class="para" id="probability_contingency_tables-12-7-1-3-1-2-1">What is the probability they were a Freshman?</div></li>
+<li id="probability_contingency_tables-12-7-1-3-1-3"><div class="para" id="probability_contingency_tables-12-7-1-3-1-3-1">What is the probability that they were a Senior and they were in the afternoon class?</div></li>
+<li id="probability_contingency_tables-12-7-1-3-1-4"><div class="para" id="probability_contingency_tables-12-7-1-3-1-4-1">What is the probability that they were a Sophomore given they were in the morning class?</div></li>
+<li id="probability_contingency_tables-12-7-1-3-1-5"><div class="para" id="probability_contingency_tables-12-7-1-3-1-5-1">What is the probability that they were in the morning class or they were a Junior?</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-8"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-8-1-1">The contingency table below shows the number of credit cards owned by a group of individuals below the age of 35 and above the age of 35.  </div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Zero</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">One</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Two or more</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Between the ages<br>of 18-35</th>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Over age 35</th>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">48</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">39</td>
+<td class="c m b1 r1 l0 t0 lines">81</td>
+</tr>
+</table></div> <div class="para logical" id="probability_contingency_tables-12-8-1-3">
+<div class="para">If one person was chosen at random:</div>
+<ol class="lower-alpha">
+<li id="probability_contingency_tables-12-8-1-3-1-1"><div class="para" id="probability_contingency_tables-12-8-1-3-1-1-1">What is the probability they had no credit cards?</div></li>
+<li id="probability_contingency_tables-12-8-1-3-1-2"><div class="para" id="probability_contingency_tables-12-8-1-3-1-2-1">What is the probability they had one credit card?</div></li>
+<li id="probability_contingency_tables-12-8-1-3-1-3"><div class="para" id="probability_contingency_tables-12-8-1-3-1-3-1">What is the probability they had no credit cards and is over 35?</div></li>
+<li id="probability_contingency_tables-12-8-1-3-1-4"><div class="para" id="probability_contingency_tables-12-8-1-3-1-4-1">What is the probability they are between the ages of 18 and 35, or have zero credit cards?</div></li>
+<li id="probability_contingency_tables-12-8-1-3-1-5"><div class="para" id="probability_contingency_tables-12-8-1-3-1-5-1">What is the probability they had no credit cards given that they are between the ages of 18 and 35?</div></li>
+<li id="probability_contingency_tables-12-8-1-3-1-6"><div class="para" id="probability_contingency_tables-12-8-1-3-1-6-1">What is the probability they have no credit cards given that they are over age 35?</div></li>
+<li id="probability_contingency_tables-12-8-1-3-1-7"><div class="para" id="probability_contingency_tables-12-8-1-3-1-7-1">Does it appear that having no credit cards depends on age? Or are they independent? Use probability to support your claim.</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-9"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-9-1-1">The following contingency table provides data from a sample of 6,224 individuals who were exposed to smallpox in Boston.<details class="ptx-footnote" aria-live="polite" id="probability_contingency_tables-12-9-1-1-1"><summary class="ptx-footnote__number" title="Footnote 2.1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="probability_contingency_tables-12-9-1-1-1">Data taken from Mostly Harmless Probability &amp; Statistics by Rachel Webb</div></details>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Inoculated</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Not Inoculated</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Lived</th>
+<td class="c m b1 r1 l0 t0 lines">238</td>
+<td class="c m b1 r1 l0 t0 lines">5136</td>
+<td class="c m b1 r1 l0 t0 lines">5374</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Died</th>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">844</td>
+<td class="c m b1 r1 l0 t0 lines">850</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">244</td>
+<td class="c m b1 r1 l0 t0 lines">5980</td>
+<td class="c m b1 r1 l0 t0 lines">6224</td>
+</tr>
+</table></div> <div class="para logical" id="probability_contingency_tables-12-9-1-3"><ol class="lower-alpha">
+<li id="probability_contingency_tables-12-9-1-3-1-1"><div class="para" id="probability_contingency_tables-12-9-1-3-1-1-1">What is the probability that a person was inoculated?</div></li>
+<li id="probability_contingency_tables-12-9-1-3-1-2"><div class="para" id="probability_contingency_tables-12-9-1-3-1-2-1">What is the probability that a person lived?</div></li>
+<li id="probability_contingency_tables-12-9-1-3-1-3"><div class="para" id="probability_contingency_tables-12-9-1-3-1-3-1">What is the probability that a person died or was inoculated?</div></li>
+<li id="probability_contingency_tables-12-9-1-3-1-4"><div class="para" id="probability_contingency_tables-12-9-1-3-1-4-1">What is the probability that a person died given they were inoculated?</div></li>
+<li id="probability_contingency_tables-12-9-1-3-1-5"><div class="para" id="probability_contingency_tables-12-9-1-3-1-5-1">What is the probability that a person died given they were not inoculated?</div></li>
+<li id="probability_contingency_tables-12-9-1-3-1-6"><div class="para" id="probability_contingency_tables-12-9-1-3-1-6-1">Does it appear that survival depended on if a person were inoculated? Or are they independent? Use probability to support your claim.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-10"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-10-1-1">The contingency table below shows the survival data for the passengers of the Titanic.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">First</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Second</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Third</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Crew</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Survive</th>
+<td class="c m b1 r1 l0 t0 lines">203</td>
+<td class="c m b1 r1 l0 t0 lines">118</td>
+<td class="c m b1 r1 l0 t0 lines">178</td>
+<td class="c m b1 r1 l0 t0 lines">212</td>
+<td class="c m b1 r1 l0 t0 lines">711</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Survive</th>
+<td class="c m b1 r1 l0 t0 lines">122</td>
+<td class="c m b1 r1 l0 t0 lines">167</td>
+<td class="c m b1 r1 l0 t0 lines">528</td>
+<td class="c m b1 r1 l0 t0 lines">673</td>
+<td class="c m b1 r1 l0 t0 lines">1490</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">325</td>
+<td class="c m b1 r1 l0 t0 lines">285</td>
+<td class="c m b1 r1 l0 t0 lines">706</td>
+<td class="c m b1 r1 l0 t0 lines">885</td>
+<td class="c m b1 r1 l0 t0 lines">2201</td>
+</tr>
+</table></div> <div class="para logical" id="probability_contingency_tables-12-10-1-3"><ol class="lower-alpha">
+<li id="probability_contingency_tables-12-10-1-3-1-1"><div class="para" id="probability_contingency_tables-12-10-1-3-1-1-1">What is the probability that a passenger did not survive?</div></li>
+<li id="probability_contingency_tables-12-10-1-3-1-2"><div class="para" id="probability_contingency_tables-12-10-1-3-1-2-1">What is the probability that a passenger was crew?</div></li>
+<li id="probability_contingency_tables-12-10-1-3-1-3"><div class="para" id="probability_contingency_tables-12-10-1-3-1-3-1">What is the probability that a passenger was first class and did not survive?</div></li>
+<li id="probability_contingency_tables-12-10-1-3-1-4"><div class="para" id="probability_contingency_tables-12-10-1-3-1-4-1">What is the probability that a passenger did not survive or was crew?</div></li>
+<li id="probability_contingency_tables-12-10-1-3-1-5"><div class="para" id="probability_contingency_tables-12-10-1-3-1-5-1">What is the probability that a passenger survived given they were first class?</div></li>
+<li id="probability_contingency_tables-12-10-1-3-1-6"><div class="para" id="probability_contingency_tables-12-10-1-3-1-6-1">What is the probability that a passenger survived given they were second class?</div></li>
+<li id="probability_contingency_tables-12-10-1-3-1-7"><div class="para" id="probability_contingency_tables-12-10-1-3-1-7-1">What is the probability that a passenger survived given they were third class?</div></li>
+<li id="probability_contingency_tables-12-10-1-3-1-8"><div class="para" id="probability_contingency_tables-12-10-1-3-1-8-1">Does it appear that survival depended on the passenger’s class? Or are they independent? Use probability to support your claim.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-11"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-11-1-1">The following table shows the utility patents granted for a specific year.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Corporation</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Government</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Individual</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">United States</th>
+<td class="c m b1 r1 l0 t0 lines">45%</td>
+<td class="c m b1 r1 l0 t0 lines">2%</td>
+<td class="c m b1 r1 l0 t0 lines">8%</td>
+<td class="c m b1 r1 l0 t0 lines">55%</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Foreign</th>
+<td class="c m b1 r1 l0 t0 lines">41%</td>
+<td class="c m b1 r1 l0 t0 lines">1%</td>
+<td class="c m b1 r1 l0 t0 lines">3%</td>
+<td class="c m b1 r1 l0 t0 lines">45%</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines">86%</td>
+<td class="c m b1 r1 l0 t0 lines">11%</td>
+<td class="c m b1 r1 l0 t0 lines">3%</td>
+<td class="c m b1 r1 l0 t0 lines">100%</td>
+</tr>
+</table></div> <div class="para logical" id="probability_contingency_tables-12-11-1-3"><ol class="lower-alpha">
+<li id="probability_contingency_tables-12-11-1-3-1-1"><div class="para" id="probability_contingency_tables-12-11-1-3-1-1-1">What is the probability that a patent is foreign and from the government?</div></li>
+<li id="probability_contingency_tables-12-11-1-3-1-2"><div class="para" id="probability_contingency_tables-12-11-1-3-1-2-1">What is the probability that a patent is from the U.S. and from a corporation?</div></li>
+<li id="probability_contingency_tables-12-11-1-3-1-3"><div class="para" id="probability_contingency_tables-12-11-1-3-1-3-1">What is the probability that a patent is foreign or from the government?</div></li>
+<li id="probability_contingency_tables-12-11-1-3-1-4"><div class="para" id="probability_contingency_tables-12-11-1-3-1-4-1">What is the probability that a patent is from the U.S. given it is from an individual?</div></li>
+<li id="probability_contingency_tables-12-11-1-3-1-5"><div class="para" id="probability_contingency_tables-12-11-1-3-1-5-1">What is the probability that a patent is foreign given it is from the government?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-12"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-12-1-1">There is a 15% chance that a shopper entering a computer store will purchase a computer, a 25% chance they will purchase a game/software, and there is a 10% chance they will purchase both a computer and a game/software.</div> <div class="para logical" id="probability_contingency_tables-12-12-1-2"><ol class="lower-alpha">
+<li id="probability_contingency_tables-12-12-1-2-1-1">
+<div class="para" id="probability_contingency_tables-12-12-1-2-1-1-1">Create a contingency table for the information.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Game/Software</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Game/Software</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Computer</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Computer</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+</li>
+<li id="probability_contingency_tables-12-12-1-2-1-2"><div class="para" id="probability_contingency_tables-12-12-1-2-1-2-1">What is the probability that a shopper will not purchase a computer and will not purchase a game/software?</div></li>
+<li id="probability_contingency_tables-12-12-1-2-1-3"><div class="para" id="probability_contingency_tables-12-12-1-2-1-3-1">What is the probability that a shopper will purchase a computer or purchase a game/software?</div></li>
+<li id="probability_contingency_tables-12-12-1-2-1-4"><div class="para" id="probability_contingency_tables-12-12-1-2-1-4-1">What is the probability that a shopper will purchase a game/software given they have purchased a computer?</div></li>
+<li id="probability_contingency_tables-12-12-1-2-1-5"><div class="para" id="probability_contingency_tables-12-12-1-2-1-5-1">What is the probability that a shopper will purchase a game/software given they did not purchase a computer?</div></li>
+<li id="probability_contingency_tables-12-12-1-2-1-6"><div class="para" id="probability_contingency_tables-12-12-1-2-1-6-1">Does it appear that purchasing a game/software depends on whether the shopper purchased a computer? Or are they independent? Use probability to support your claim.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-13"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-13-1-1">A fitness center coach kept track over the last year of whether members stretched before they exercised, and whether or not they sustained an injury. Among the 400 members, 322 stretched before they exercised, 327 did not sustain an injury, and 270 both stretched and did not sustain an injury.</div> <div class="para logical" id="probability_contingency_tables-12-13-1-2"><ol class="lower-alpha">
+<li id="probability_contingency_tables-12-13-1-2-1-1">
+<div class="para" id="probability_contingency_tables-12-13-1-2-1-1-1">Create a contingency table for the information.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Injury</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Injury</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Stretched</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Not Stretched</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+</li>
+<li id="probability_contingency_tables-12-13-1-2-1-2"><div class="para" id="probability_contingency_tables-12-13-1-2-1-2-1">What is the probability that a member sustained an injury?</div></li>
+<li id="probability_contingency_tables-12-13-1-2-1-3"><div class="para" id="probability_contingency_tables-12-13-1-2-1-3-1">What is the probability that a member sustained an injury and did not stretch?</div></li>
+<li id="probability_contingency_tables-12-13-1-2-1-4"><div class="para" id="probability_contingency_tables-12-13-1-2-1-4-1">What is the probability that a member stretched or did not sustain an injury?</div></li>
+<li id="probability_contingency_tables-12-13-1-2-1-5"><div class="para" id="probability_contingency_tables-12-13-1-2-1-5-1">What is the probability that a member sustained an injury given they stretched?</div></li>
+<li id="probability_contingency_tables-12-13-1-2-1-6"><div class="para" id="probability_contingency_tables-12-13-1-2-1-6-1">What is the probability that a member sustained an injury given they did not stretch?</div></li>
+<li id="probability_contingency_tables-12-13-1-2-1-7"><div class="para" id="probability_contingency_tables-12-13-1-2-1-7-1">Does it appear that sustaining an injury depends on whether the member stretches before exercising? Or are they independent? Use probability to support your claim.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-14"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-14-1-1">Among the 95 books on a bookshelf, 72 are fiction, 28 are hardcover, and 87 are fiction or hardcover.</div> <div class="para logical" id="probability_contingency_tables-12-14-1-2"><ol class="lower-alpha">
+<li id="probability_contingency_tables-12-14-1-2-1-1">
+<div class="para" id="probability_contingency_tables-12-14-1-2-1-1-1">Create a contingency table for the information.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Hardcover</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Paperback</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Fiction</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Nonfiction</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+</li>
+<li id="probability_contingency_tables-12-14-1-2-1-2"><div class="para" id="probability_contingency_tables-12-14-1-2-1-2-1">What is the probability that a book is non-fiction and paperback?</div></li>
+<li id="probability_contingency_tables-12-14-1-2-1-3"><div class="para" id="probability_contingency_tables-12-14-1-2-1-3-1">What is the probability that a book is fiction given it is hardcover?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_contingency_tables-12-15"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<div class="para" id="probability_contingency_tables-12-15-1-1">After finishing the course, among the 32 students in a Math 105 class, 25 could successfully construct a contingency table, 27 passed the class, and 29 could successfully construct a contingency table or passed the class.</div> <div class="para logical" id="probability_contingency_tables-12-15-1-2"><ol class="lower-alpha">
+<li id="probability_contingency_tables-12-15-1-2-1-1">
+<div class="para" id="probability_contingency_tables-12-15-1-2-1-1-1">Create a contingency table for the information.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Contingency Table</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">No Contingency Table</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Total</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Pass</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">No Pass</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Total</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+</li>
+<li id="probability_contingency_tables-12-15-1-2-1-2"><div class="para" id="probability_contingency_tables-12-15-1-2-1-2-1">What is the probability that a student passed and could not successfully construct a contingency table?</div></li>
+<li id="probability_contingency_tables-12-15-1-2-1-3"><div class="para" id="probability_contingency_tables-12-15-1-2-1-3-1">What is the probability that a student passed given they could not successfully construct a contingency table?</div></li>
+</ol></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="probability.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="probability_theoretical_probability.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

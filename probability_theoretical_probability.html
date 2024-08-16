@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Math In Society: Theoretical Probability</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math in Society">
+<meta property="book:author" content="Fort Lewis College MATH 105">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.3.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runtime.00db6230172ad960.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.8328b60515045466.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.5d3fd44c34d81620.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.6/prefix-runestone.f64dcc3632d7a0c3.css">
+</head>
+<body id="PCC-Math In Society" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://spot.pcc.edu/math/mathinsociety/book-1.html"><img src="external/images/Portland_Oregon_Skyline.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Math in Society:</span> <span class="subtitle">Mathematics for Liberal Arts Majors</span></a></h1>
+<p class="byline">Fort Lewis College MATH 105</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="probability_contingency_tables.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="probability.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="probability_expected_value.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\highlight}[1]{{\color{blue}{{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Attributions</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="Notes.html" class="internal"><span class="title">Project Notes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="language_logic_rules.html" class="internal"><span class="codenumber">1</span> <span class="title">Logic and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_logic.html" class="internal"><span class="codenumber">1.1</span> <span class="title">The Language and Rules of Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-4" class="internal"><span class="title">Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-5" class="internal"><span class="title">Propositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-6" class="internal"><span class="title">Negation (not)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-7" class="internal"><span class="title">Multiple Negations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-8" class="internal"><span class="title">Logical Connectors (and, or)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-9" class="internal"><span class="title">Exclusive vs. Inclusive <em class="emphasis">or</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-10" class="internal"><span class="title">Conditional Statements (if, then)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-11" class="internal"><span class="title">Basic Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-12" class="internal"><span class="title">Conditional Truth Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-13" class="internal"><span class="title">Truth Tables for Complex Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-14" class="internal"><span class="title">Truth Tables with Three Propositions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_logic.html#language_logic_rules_logic-15" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_arguments.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Describing and Critiquing Arguments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-4" class="internal"><span class="title">Logical Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-5" class="internal"><span class="title">Inductive and Deductive Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-6" class="internal"><span class="title">Evaluating Arguments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-7" class="internal"><span class="title">Evaluating Deductive Arguments Using Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_arguments.html#language_logic_rules_arguments-8" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="language_logic_rules_fallacies.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Logical Fallacies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-3" class="internal"><span class="title">Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-4" class="internal"><span class="title">Common Logical Fallacies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-5" class="internal"><span class="title">Personal Attack (Ad hominem)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-6" class="internal"><span class="title">Appeal to Ignorance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-7" class="internal"><span class="title">Appeal to Authority</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-8" class="internal"><span class="title">False Dilemma</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-9" class="internal"><span class="title">Straw Man (or Straw Person)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-10" class="internal"><span class="title">Post Hoc</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_fallacies.html#language_logic_rules_fallacies-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="language_logic_rules_review.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Language and Logic Rules Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="probability.html" class="internal"><span class="codenumber">2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_contingency_tables.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Contingency Tables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-4" class="internal"><span class="title">Contingency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-5" class="internal"><span class="title">“And” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-6" class="internal"><span class="title">“Or” Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-7" class="internal"><span class="title">Conditional Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-8" class="internal"><span class="title">Contingency Tables with More Than Two Categories</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-9" class="internal"><span class="title">Empirical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-10" class="internal"><span class="title">Finding Empirical Probabilities with a Contingency Table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-11" class="internal"><span class="title">Conditional Probabilities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_contingency_tables.html#probability_contingency_tables-12" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="probability_theoretical_probability.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Theoretical Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-4" class="internal"><span class="title">Basic Probability Concepts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-5" class="internal"><span class="title">Experiment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-6" class="internal"><span class="title">Events and Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-7" class="internal"><span class="title">Sample Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-8" class="internal"><span class="title">Equally Likely Outcomes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-9" class="internal"><span class="title">Certain and Impossible Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-10" class="internal"><span class="title">Complementary Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-11" class="internal"><span class="title">Experimental vs. Theoretical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-12" class="internal"><span class="title">The Law of Large Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-13" class="internal"><span class="title">Probability of Compound Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-14" class="internal"><span class="title">“And” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-15" class="internal"><span class="title">Independent and Dependent Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-16" class="internal"><span class="title">“Or” Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-17" class="internal"><span class="title">Overlapping or Disjoint Sets</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_theoretical_probability.html#probability_theoretical_probability-18" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="probability_expected_value.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Expected Value</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-4" class="internal"><span class="title">Expected Value</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_expected_value.html#probability_expected_value-5" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="probability_review.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Probability Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics.html" class="internal"><span class="codenumber">3</span> <span class="title">Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_statistical_process.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Overview of the Statistical Process</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-4" class="internal"><span class="title">Statistical Process</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-5" class="internal"><span class="title">Population</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-6" class="internal"><span class="title">Parameter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-7" class="internal"><span class="title">Sample</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-8" class="internal"><span class="title">Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-9" class="internal"><span class="title">Sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-10" class="internal"><span class="title">Sampling Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-11" class="internal"><span class="title">Simple random sample (SRS)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-12" class="internal"><span class="title">Stratified sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-13" class="internal"><span class="title">Systematic sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-14" class="internal"><span class="title">Convenience sampling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-15" class="internal"><span class="title">Statistical Bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-16" class="internal"><span class="title">Types of bias</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-17" class="internal"><span class="title">Observational Studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-18" class="internal"><span class="title">Experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-19" class="internal"><span class="title">Confounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-20" class="internal"><span class="title">Control group</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-21" class="internal"><span class="title">Placebo effect</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-22" class="internal"><span class="title">Placebo and Placebo-controlled experiments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-23" class="internal"><span class="title">Blind studies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-24" class="internal"><span class="title">Margin of Error and Confidence Intervals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_statistical_process.html#statistics_statistical_process-25" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_describing_data.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Describing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#types_of_data" class="internal"><span class="title">Types of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-5" class="internal"><span class="title">Presenting Categorical Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-6" class="internal"><span class="title">Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-7" class="internal"><span class="title">Relative Frequency Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-8" class="internal"><span class="title">Bar graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-9" class="internal"><span class="title">Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-10" class="internal"><span class="title">Using a Spreadsheet to Make Bar Charts and Pie Charts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-11" class="internal"><span class="title">Misleading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-12" class="internal"><span class="title">Perceptual Distortion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-13" class="internal"><span class="title">Misleading Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-14" class="internal"><span class="title">Stacked Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-15" class="internal"><span class="title">Presenting Quantitative Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-16" class="internal"><span class="title">Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-17" class="internal"><span class="title">Class Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-18" class="internal"><span class="title">Histograms Using Technology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-19" class="internal"><span class="title">The Shape of a Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-20" class="internal"><span class="title">Modality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-21" class="internal"><span class="title">Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-22" class="internal"><span class="title">Skewness</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-23" class="internal"><span class="title">Skewed to the Left</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-24" class="internal"><span class="title">Skewed to the Right</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-25" class="internal"><span class="title">The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-26" class="internal"><span class="title">Outlier</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_describing_data.html#statistics_describing_data-27" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_center.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Summary Statistics: Measures of Center</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-4" class="internal"><span class="title">Calculating Summary Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-5" class="internal"><span class="title">Measures of Center</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-6" class="internal"><span class="title">Mode</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-7" class="internal"><span class="title">Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-8" class="internal"><span class="title">Median</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-9" class="internal"><span class="title">The Relationship Between the Mean and the Median</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_center.html#statistics_measure_of_center-10" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_measure_of_variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Summary Statistics: Measures of Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-4" class="internal"><span class="title">Measures of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-5" class="internal"><span class="title">Standard Deviation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-6" class="internal"><span class="title">Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-7" class="internal"><span class="title">Quartiles and the Interquartile Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-8" class="internal"><span class="title">The Five-Number Summary and Boxplots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-9" class="internal"><span class="title">Modified Boxplot (Optional)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-10" class="internal"><span class="title">Percentiles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-11" class="internal"><span class="title">Comparing Distributions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-12" class="internal"><span class="title">Z-Scores</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_measure_of_variation.html#statistics_measure_of_variation-13" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_review.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Statisitcs Chapter Review</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics_normal_model.html" class="internal"><span class="codenumber">3.6</span> <span class="title">The Normal Distribution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-4" class="internal"><span class="title">Introduction to The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-5" class="internal"><span class="title">Properties of the Normal Distribution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-6" class="internal"><span class="title">The Empirical Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-7" class="internal"><span class="title">Using the Empirical Rule to Calculate Approximate Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-8" class="internal"><span class="title">Using Technology to Calculate Exact Probabilities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-9" class="internal"><span class="title">The Standard Normal Distribution and Z-Scores</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-10" class="internal"><span class="title">Confidence Intervals and Margin of Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="statistics_normal_model.html#statistics_normal_model-11" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="financial_math.html" class="internal"><span class="codenumber">4</span> <span class="title">Financial Math</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Spreadsheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-4" class="internal"><span class="title">Basic Calculations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-5" class="internal"><span class="title">Cell References</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-6" class="internal"><span class="title">Cell Formatting</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-7" class="internal"><span class="title">Fill-Down Feature</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-8" class="internal"><span class="title">Formulas</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_intro_spreadsheet.html#financial_math_intro_spreadsheet-9" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_simple_compound.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Simple and Compound Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-4" class="internal"><span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-5" class="internal"><span class="title">APR – Annual Percentage Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-6" class="internal"><span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-7" class="internal"><span class="title">The Future Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-8" class="internal"><span class="title">Comparing Simple and Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-9" class="internal"><span class="title">Finding the Principal, or Present Value</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-10" class="internal"><span class="title">The Present Value Spreadsheet Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-11" class="internal"><span class="title">Continuously Compounded Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-12" class="internal"><span class="title">Finding the Amount of Interest Earned and the Percentage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-13" class="internal"><span class="title">Effective Rate</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_simple_compound.html#financial_math_simple_compound-14" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_credit_cards.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Credit Cards</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#types_of_credit_cards" class="internal"><span class="title">Types of Credit Cards</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#credit_card_statements" class="internal"><span class="title">Credit Card Statements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_credit_cards.html#interest_balance_payments" class="internal"><span class="title">Compute Interest, Balance Due, and Minimum Payment Due for a Credit Card.</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_income_taxes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Income Taxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-4" class="internal"><span class="title">A Very Brief History of Taxes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-5" class="internal"><span class="title">Types of Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-6" class="internal"><span class="title">Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-7" class="internal"><span class="title">State Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-8" class="internal"><span class="title">Municipal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-9" class="internal"><span class="title">Calculating Federal Income Tax</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-10" class="internal"><span class="title">Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-11" class="internal"><span class="title">Adjusted Gross Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-12" class="internal"><span class="title">Taxable Income</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-13" class="internal"><span class="title">Filing Status</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-14" class="internal"><span class="title">Tax Tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-15" class="internal"><span class="title">Tax Credits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-16" class="internal"><span class="title">Calculating a Refund or Payment Due</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_income_taxes.html#financial_math_income_taxes-17" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_loans.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Basics of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-4" class="internal"><span class="title">Reasons for Loans</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5" class="internal"><span class="title">The Terminology of Loans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-3" class="internal"><span class="title">Credit Scores</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-5-4" class="internal"><span class="title">Where Do Interest Rates Come From?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-6" class="internal"><span class="title">Calculating Loan Payments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_loans.html#financial_math_loans-7" class="internal"><span class="title">Reading Amortization Tables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Personal Budget</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#Creating_a_budget" class="internal"><span class="title">Creating a Budget</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_personal_budget.html#The_50_30_20_budget_philosophy" class="internal"><span class="title">The 50-30-20 Budget Philosophy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_personal_budget.html#subsec_3" class="internal"><span class="title">Necessary Expenses and Expenses that are Wants</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4" class="internal"><span class="title">Distinguish Various Basic Forms of Savings Plans</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-4-3" class="internal"><span class="title">Savings Account</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5" class="internal"><span class="title">Savings Plan Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-13" class="internal"><span class="title">Certificate of Deposits, or CDs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-16" class="internal"><span class="title">Money Market Account</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-19" class="internal"><span class="title">Return on Investment</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-26" class="internal"><span class="title">Annuities as Savings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-5-27" class="internal"><span class="title">Compute Payment to Reach a Financial Goal</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_savings_plan.html#financial_math_savings_plan-6" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="financial_math_investment.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Investments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4" class="internal"><span class="title">Distinguish Between Basic Forms of Investments</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-4-3" class="internal"><span class="title">Bonds</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5" class="internal"><span class="title">Stocks</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-5-4" class="internal"><span class="title">Mutual Funds</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6" class="internal"><span class="title">Retirement Savings Plans</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-3" class="internal"><span class="title">Individual Retirement Accounts</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="financial_math_investment.html#financial_math_investment-6-4" class="internal"><span class="title">401(k) Accounts</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="financial_math_review.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Financial Math Chapter Review</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-1.html" class="internal"><span class="title">References</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="probability_theoretical_probability"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.2</span><span class="space"> </span><span class="title">Theoretical Probability</span>
+</h2>
+<article class="objectives goal-like" id="probability_theoretical_probability-2"><h3 class="heading">
+<span class="type">Objectives:</span><span class="space"> </span><span class="title">Section 2.2 Theoretical Probability</span>
+</h3>
+<div class="introduction" id="probability_theoretical_probability-2-2"><div class="para" id="probability_theoretical_probability-2-2-1">Students will be able to:</div></div>
+<ul class="disc">
+<li id="probability_theoretical_probability-2-3-1"><div class="para" id="probability_theoretical_probability-2-3-1-1">Write the sample space for theoretical probability situations</div></li>
+<li id="probability_theoretical_probability-2-3-2"><div class="para" id="probability_theoretical_probability-2-3-2-1">Identify certain and impossible events</div></li>
+<li id="probability_theoretical_probability-2-3-3"><div class="para" id="probability_theoretical_probability-2-3-3-1">Calculate the theoretical probability of a complement</div></li>
+<li id="probability_theoretical_probability-2-3-4"><div class="para" id="probability_theoretical_probability-2-3-4-1">Determine the difference between empirical and theoretical probability</div></li>
+<li id="probability_theoretical_probability-2-3-5"><div class="para" id="probability_theoretical_probability-2-3-5-1">Explain the Law of Large Numbers</div></li>
+<li id="probability_theoretical_probability-2-3-6"><div class="para" id="probability_theoretical_probability-2-3-6-1">Identify independent and dependent events</div></li>
+<li id="probability_theoretical_probability-2-3-7"><div class="para" id="probability_theoretical_probability-2-3-7-1">Calculate “and” theoretical probabilities</div></li>
+<li id="probability_theoretical_probability-2-3-8"><div class="para" id="probability_theoretical_probability-2-3-8-1">Identify overlapping and disjoint sets</div></li>
+<li id="probability_theoretical_probability-2-3-9"><div class="para" id="probability_theoretical_probability-2-3-9-1">Calculate “or” theoretical probabilities</div></li>
+<li id="probability_theoretical_probability-2-3-10"><div class="para" id="probability_theoretical_probability-2-3-10-1">Calculate probability values for simple games</div></li>
+</ul></article><section class="introduction" id="probability_theoretical_probability-3"><div class="para" id="probability_theoretical_probability-3-1">As we saw in the last section, the <em class="alert">probability</em> of a specified event is the chance or likelihood that it will occur. We calculated empirical or experimental probabilities using contingency tables. In this section, we will focus on <em class="alert">theoretical</em> probability and compare the two types.</div> <figure class="figure figure-like" id="probability_theoretical_probability-3-2"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed?listType=playlist&amp;list=PLsFUxEAXGFKS2R2ViPUxIwQ4VNgONceEv&amp;modestbranding=1&amp;rel=0" id="video-theoretical-probability"></iframe></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.2.1<span class="period">.</span></span><span class="space"> </span>Alternative Video Lessons</figcaption></figure></section><section class="subsection" id="probability_theoretical_probability-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Basic Probability Concepts</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-4-2">Let’s begin with a brief introduction to some of the language and basic concepts of theoretical probability.</div></section><section class="subsection" id="probability_theoretical_probability-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Experiment</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-5-2">If you roll a die, pick a card from a deck of playing cards, or randomly select a person and observe their hair color, you are conducting an <em class="alert">experiment</em>.</div></section><section class="subsection" id="probability_theoretical_probability-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Events and Outcomes</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-6-2">The result of an experiment is an <em class="alert">outcome</em>. An <em class="alert">event</em> is any particular group of outcomes, like rolling a three or a five on a die. An event can be a <em class="alert">simple event</em>, which is a single outcome, or a combination of outcomes, called a <em class="alert">compound event</em>.</div></section><section class="subsection" id="probability_theoretical_probability-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Sample Space</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-7-2">The <em class="alert">sample space</em> is the set of all possible outcomes. For example, if we roll a six-sided die, the sample space <span class="process-math">\(S\)</span> is the set <span class="process-math">\(S={1,2,3,4,5,6}\text{.}\)</span>
+</div>
+<article class="example example-like" id="probability_theoretical_probability-7-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_theoretical_probability-7-3-1-1">If we roll an eight-sided die, describe the sample space and give at least two examples of simple events and compound events.</div>
+<div class="solutions"><details id="probability_theoretical_probability-7-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="probability_theoretical_probability-7-3-2-1">The sample space is the set of all possible outcomes, or equivalently, all simple events: <span class="process-math">\(S={1,2,3,4,5,6,7,8}\)</span>
+</div> <div class="para" id="probability_theoretical_probability-7-3-2-2">Examples of simple events are rolling a 1, rolling a 5, rolling a 6, and so on. Examples of compound events include rolling an even number, rolling a 5 or a 3, and rolling a number that is at least 4.</div>
+</div></details></div></article></section><section class="subsection" id="probability_theoretical_probability-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Equally Likely Outcomes</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-8-2">When the outcomes of an experiment are equally likely, we can calculate the probability of an event as the number of ways it can happen out of the total number of outcomes.</div>
+<article class="assemblage assemblage-like" id="probability_theoretical_probability-8-3"><h4 class="heading"><span class="title">Theoretical Probability.</span></h4>
+<div class="para logical" id="probability_theoretical_probability-8-3-2"><div class="displaymath process-math">
+\begin{equation*}
+P(E)=\frac{\text{number of outcomes corresponding to the event E}}{\text{total number of equally-likely outcomes}}
+\end{equation*}
+</div></div></article><div class="para" id="probability_theoretical_probability-8-4">We can write the result as a simplified fraction or as a decimal or percent.</div>
+<article class="example example-like" id="probability_theoretical_probability-8-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_theoretical_probability-8-5-1-1">Write the sample space for the sum of two fair six-sided dice and determine whether the outcomes are equally likely.</div>
+<div class="solutions"><details id="probability_theoretical_probability-8-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="probability_theoretical_probability-8-5-2-1">The sample space for the sum of two fair six-sided dice is <span class="process-math">\(S={2,3,4,5,6,7,8,9,10,11,12}\text{.}\)</span> The different sums, however, are not equally likely. If we look at a table of the different possible outcomes when rolling two dice, we see that there are 36 possible combinations. We will summarize this in a table by listing each outcome in the sample space. Then we find the probabilities by counting the number of ways each sum can occur and dividing it by 36.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">1</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">3</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">4</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">5</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">6</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">1</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+1=2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+2=3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+3=4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+4=5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+5=6\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+6=7\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+1=3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+2=4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+3=5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+4=6\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+5=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+6=8\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">3</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+1=4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+2=5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+3=6\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+4=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+5=8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+6=9\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">4</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+1=5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+2=6\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+3=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+4=8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+5=9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+6=10\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+1=6\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+2=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+3=8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+4=9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+5=10\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+6=11\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">6</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+1=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+2=8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+3=9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+4=10\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+5=11\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+6=12\)</span></td>
+</tr>
+</table></div> <div class="para" id="probability_theoretical_probability-8-5-2-3"></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Sum</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Probability</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{1}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">3</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{2}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">4</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{3}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{4}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">6</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{5}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">7</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{6}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">8</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{5}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">9</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{4}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">10</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{3}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">11</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{2}{36}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">12</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\sfrac{1}{36}\)</span></td>
+</tr>
+</table></div> <div class="para" id="probability_theoretical_probability-8-5-2-5">From the probability table we can see that rolling a sum of 7 has the highest probability and rolling a 2 or a 12 have the lowest probabilities.</div>
+</div></details></div></article><article class="example example-like" id="probability_theoretical_probability-8-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="probability_theoretical_probability-8-6-1-1">
+<div class="para">Suppose we roll a fair six-sided die. Calculate the probability of:</div>
+<ol class="decimal">
+<li id="probability_theoretical_probability-8-6-1-1-1-1"><div class="para" id="probability_theoretical_probability-8-6-1-1-1-1-1">rolling a 6.</div></li>
+<li id="probability_theoretical_probability-8-6-1-1-1-2"><div class="para" id="probability_theoretical_probability-8-6-1-1-1-2-1">rolling a number that is at least 4.</div></li>
+<li id="probability_theoretical_probability-8-6-1-1-1-3"><div class="para" id="probability_theoretical_probability-8-6-1-1-1-3-1">rolling an even number.</div></li>
+<li id="probability_theoretical_probability-8-6-1-1-1-4"><div class="para" id="probability_theoretical_probability-8-6-1-1-1-4-1">rolling a 5 or a 3.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="probability_theoretical_probability-8-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="probability_theoretical_probability-8-6-2-1">
+<div class="para">Recall that the sample space is <span class="process-math">\(S={1,2,3,4,5,6}\text{.}\)</span> Since each of the outcomes in the sample space is equally likely, we can find the probability of each event by counting the number of outcomes corresponding to the event and dividing by 6, the total number of equally likely outcomes.</div>
+<ol class="decimal">
+<li id="probability_theoretical_probability-8-6-2-1-2-1"><div class="para" id="probability_theoretical_probability-8-6-2-1-2-1-1">There is only one way to roll a 6, so <span class="process-math">\(P(\text{rolling a 6}) =\frac{1}{6}\)</span> or approximately 16.7% There is a 16.7% chance of rolling a 6.</div></li>
+<li id="probability_theoretical_probability-8-6-2-1-2-2"><div class="para" id="probability_theoretical_probability-8-6-2-1-2-2-1">In probability we will often come across the phrases “at least” and “at most.” <em class="alert">At least</em> means that value or greater. <em class="alert">At most</em> means that value or less. Since we are looking for the probability of rolling a number that is at least 4, we need the number of outcomes that are 4 or greater. There are 3 values that meet this condition: 4, 5, and 6. The probability is <span class="process-math">\(P(\text{rolling a number that is at least 4})=\frac{3}{6}=\frac{1}{2}\)</span> or 50%</div></li>
+<li id="probability_theoretical_probability-8-6-2-1-2-3"><div class="para" id="probability_theoretical_probability-8-6-2-1-2-3-1">Half of the numbers on a die are even, so we calculate: <span class="process-math">\(P(\text{rolling an even number})=\frac{3}{6}=\frac{1}{2}\)</span> or 50%</div></li>
+<li id="probability_theoretical_probability-8-6-2-1-2-4"><div class="para" id="probability_theoretical_probability-8-6-2-1-2-4-1">There are two ways to roll a 5 or a 3, so <span class="process-math">\(P(\text{rolling a 5 or a 3})=\frac{2}{6}=\frac{1}{3}\)</span> or approxiamtely 33.3%. There is a 33.3% chance of rolling a 5 or a 3.</div></li>
+</ol>
+</div></div></details></div></article><article class="example example-like" id="probability_theoretical_probability-8-7"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_theoretical_probability-8-7-1-1">Suppose you have a bag containing 14 sweet cherries and 6 sour cherries. If you pick a cherry at random, what is the probability it will be sweet?</div>
+<div class="solutions"><details id="probability_theoretical_probability-8-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="probability_theoretical_probability-8-7-2-1">Each of the cherries are equally likely to be selected since our selection is random and we can assume there is no way to distinguish one cherry from another. This means that the probability of selecting a sweet cherry will be equal to the number of sweet cherries in the bag dived by the total number of cherries in the bag. Since there are 14 sweet cherries and a total of 20 cherries in the bag, we have:</div> <div class="para logical" id="probability_theoretical_probability-8-7-2-2"><div class="displaymath process-math" id="probability_theoretical_probability-8-7-2-2-1">
+\begin{gather*}
+P(\text{sweet})=\frac{14}{20}=\frac{7}{10}\text{ or } 70\%
+\end{gather*}
+</div></div> <div class="para" id="probability_theoretical_probability-8-7-2-3">There is a 70% chance of selecting a sweet cherry from the bag.</div>
+</div></details></div></article></section><section class="subsection" id="probability_theoretical_probability-9"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Certain and Impossible Events</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-9-2">A probability is always a value between 0 and 1, or from 0% to 100%. If the probability of an event is 0 there are no outcomes that correspond with that event and we say it is <em class="alert">impossible</em>. If the probability of an event is 1 then every outcome corresponds to that event and we say it is <em class="alert">certain</em>.</div>
+<article class="example example-like" id="probability_theoretical_probability-9-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.6</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="probability_theoretical_probability-9-3-1-1"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-9-3-1-1-1-1"><div class="para" id="probability_theoretical_probability-9-3-1-1-1-1-1">What is the probability of rolling an odd or even number on a six-sided die?</div></li>
+<li id="probability_theoretical_probability-9-3-1-1-1-2"><div class="para" id="probability_theoretical_probability-9-3-1-1-1-2-1">What is the probability of rolling an 8 on a six-sided die?</div></li>
+</ol></div>
+<div class="solutions"><details id="probability_theoretical_probability-9-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="probability_theoretical_probability-9-3-2-1"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-9-3-2-1-1-1"><div class="para" id="probability_theoretical_probability-9-3-2-1-1-1-1">Since all the numbers are either even or odd, this event includes all of the outcomes in the sample space. This event is certain. <span class="process-math">\(P(\text{odd or even})=\frac{6}{6}=1\text{ or } 100\%\)</span>
+</div></li>
+<li id="probability_theoretical_probability-9-3-2-1-1-2"><div class="para" id="probability_theoretical_probability-9-3-2-1-1-2-1">Since 8 is not one of the outcomes in the sample space, the event is impossible. <span class="process-math">\(P(\text{roll an 8})=\frac{0}{8}=0\text{ or } 0\%\)</span>
+</div></li>
+</ol></div></div></details></div></article></section><section class="subsection" id="probability_theoretical_probability-10"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Complementary Events</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-10-2">The <em class="alert">complement</em> of an event <span class="process-math">\(A\)</span> means <span class="process-math">\(A\)</span> does not happen. We can refer to the complement as <em class="alert"><span class="process-math">\(A^C\)</span></em>. For example, consider the experiment of rolling a six-sided die and the simple event <span class="process-math">\(A\)</span> = rolling a 6. The complement of event <span class="process-math">\(A\)</span> is everything in the sample space that is not a 6: <span class="process-math">\(A^C = {1, 2, 3, 4, 5}\text{.}\)</span> </div>
+<div class="para" id="probability_theoretical_probability-10-3">Notice that the outcomes from set A and the outcomes from set <span class="process-math">\(A^{C}\)</span> will together equal the entire sample space. The probabilities must add up to 1 or 100%. Therefore, we can use subtraction to find the probability of a complement.</div>
+<article class="assemblage assemblage-like" id="probability_theoretical_probability-10-4"><h4 class="heading"><span class="title">Complement of an Event.</span></h4>
+<div class="para logical" id="probability_theoretical_probability-10-4-2"><div class="displaymath process-math">
+\begin{equation*}
+P(\text{not}A)=1-P(A)
+\end{equation*}
+</div></div></article><article class="example example-like" id="probability_theoretical_probability-10-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_theoretical_probability-10-5-1-1">If you roll an eight-sided die, what’s the probability you don’t get a 6?</div>
+<div class="solutions"><details id="probability_theoretical_probability-10-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="probability_theoretical_probability-10-5-2-1">Not rolling a 6 is the complement of rolling a 6, which is easier to calculate. Since there are 8 possible numbers to roll, we have:</div> <div class="para logical" id="probability_theoretical_probability-10-5-2-2"><div class="displaymath process-math" id="probability_theoretical_probability-10-5-2-2-1">
+\begin{gather*}
+P(\text{not rolling a 6})=1-P(\text{rolling a 6})=1-\frac{1}{8}=\frac{7}{8}\text{ or } 0.875
+\end{gather*}
+</div></div> <div class="para" id="probability_theoretical_probability-10-5-2-3">There is an 87.5% chance of not rolling a 6.</div>
+</div></details></div></article></section><section class="subsection" id="probability_theoretical_probability-11"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Experimental vs. Theoretical Probability</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-11-2">Now that we have calculated experimental and theoretical probabilities, we can compare them. When we flip a fair coin, we say there is a 50% chance of getting heads. This is a theoretical probability because there are two equally likely outcomes - heads and tails - so we expect to get heads half of the time. But if you flip a coin, say 100 times, will you get heads exactly 50 times? Maybe, but you are more likely to get some number around 50 times. The number of heads you actually observe out of the total number of times you flip the coin is the experimental probability.</div>
+<article class="example example-like" id="probability_theoretical_probability-11-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_theoretical_probability-11-3-1-1">The table shows the numbers that came up after rolling a six-sided die 10 times. What is the experimental probability of rolling a 6? What is the theoretical probability of rolling a 6?</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines">Roll</th>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">6</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">8</td>
+<td class="c m b1 r1 l0 t1 lines">9</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">Outcome</th>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+</tr>
+</table></div>
+<div class="solutions"><details id="probability_theoretical_probability-11-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="probability_theoretical_probability-11-3-2-1">To find the experimental probability of rolling a 6, it would be helpful to change this into a frequency table. We list all the possible outcomes and count how many times each occurred.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Outcome</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Frequency</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">1</th>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2</th>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">3</th>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">4</th>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">6</th>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+</tr>
+</table></div> <div class="para" id="probability_theoretical_probability-11-3-2-3">According to our frequency table, we see that a 6 was rolled three times, so the experimental probability of rolling a 6 is <span class="process-math">\(P(\text{roll 6})=\frac{3}{10}\)</span> or 30%.</div> <div class="para" id="probability_theoretical_probability-11-3-2-4">Theoretically, however, we would expect the number 6 to come up 1 out of 6 times since there are 6 equally likely outcomes. Thus, the theoretical probability of rolling a 6 is <span class="process-math">\(P(\text{roll 6})=\frac{1}{6}\)</span> or approximately 16.7%</div>
+</div></details></div></article></section><section class="subsection" id="probability_theoretical_probability-12"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Law of Large Numbers</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-12-2">As we saw in the previous example, theoretical and experimental probabilities are not necessarily equal. However, experimental probability will eventually approach theoretical probability as we conduct more and more trials. This phenomenon is called the <em class="alert">Law of Large Numbers</em>. This means if you flip a fair coin a <ins class="insert">small number of times</ins>, the experimental probability is likely to be different each time and could be very different from the theoretical probability. But if you flip a coin a <ins class="insert">large number of times</ins>, the experimental probability becomes very close to the theoretical probability of 50%. The Law of Large Numbers is extremely powerful in that it allows us to approximate the theoretical probability of complex events - like changes in beliefs and opinions, likelihood of natural disasters, climate change effects - through repeated sampling and simulation.</div></section><section class="subsection" id="probability_theoretical_probability-13"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Probability of Compound Events</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-13-2">Now that we have the basics in place, let’s look at some compound probability problems that we will be studying in this course.</div></section><section class="subsection" id="probability_theoretical_probability-14"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">“And” Probabilities</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-14-2">As we saw with truth tables, the event <em class="alert"><span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span></em> refers to an event where both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> occur. These events may occur at the same time or they could happen in a sequence such as <em class="alert"><span class="process-math">\(A\)</span> and then <span class="process-math">\(B\)</span></em>. How we calculate the theoretical probability of the event <em class="emphasis"><span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span></em> (or <em class="emphasis"><span class="process-math">\(A\)</span> and then <span class="process-math">\(B\)</span></em>) depends on whether the two events are independent or dependent.</div></section><section class="subsection" id="probability_theoretical_probability-15"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Independent and Dependent Events</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-15-2">Two events <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are <em class="alert">independent</em> if the probability of <span class="process-math">\(B\)</span> occurring is the same whether or not <span class="process-math">\(A\)</span> occurs. If the probability of <span class="process-math">\(B\)</span> is affected by the occurrence of <span class="process-math">\(A\text{,}\)</span> then we say that the events are <em class="alert">dependent</em>.</div>
+<div class="para" id="probability_theoretical_probability-15-3">Coin flips and die rolls are common examples of independent events - flipping heads does not change the probability of flipping heads the next time, nor does rolling a six change the probability that the next roll will be a six.</div>
+<div class="para" id="probability_theoretical_probability-15-4">Another type of event is a selection event, such as randomly selecting or drawing items from a bag, etc. These are also independent if we <em class="alert">draw with replacement</em>. By replacing the item, we reset the probability back to what it was before we made the selection. Since the probability of each subsequent selection is the same as the first selection, the events are independent.</div>
+<div class="para" id="probability_theoretical_probability-15-5">If we draw <em class="alert">without replacement</em>, however, like selecting multiple people for a committee, we change the total number of possible outcomes, thereby changing the probability of subsequent selections. Therefore, if we draw without replacement, the events will be <em class="alert">dependent</em>.</div>
+<article class="example example-like" id="probability_theoretical_probability-15-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.9</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="probability_theoretical_probability-15-6-1-1">
+<div class="para">Determine whether the following events are independent or dependent.</div>
+<ol class="lower-alpha">
+<li id="probability_theoretical_probability-15-6-1-1-1-1"><div class="para" id="probability_theoretical_probability-15-6-1-1-1-1-1">Flipping a fair coin twice and getting heads both times.</div></li>
+<li id="probability_theoretical_probability-15-6-1-1-1-2"><div class="para" id="probability_theoretical_probability-15-6-1-1-1-2-1">Selecting a president and then a vice president at random from a pool of five equally qualified individuals.</div></li>
+<li id="probability_theoretical_probability-15-6-1-1-1-3"><div class="para" id="probability_theoretical_probability-15-6-1-1-1-3-1">The event that it will rain in Portland tomorrow and the event that it will rain in Beaverton tomorrow.</div></li>
+<li id="probability_theoretical_probability-15-6-1-1-1-4"><div class="para" id="probability_theoretical_probability-15-6-1-1-1-4-1">Wearing your lucky socks and getting an A on your exam.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="probability_theoretical_probability-15-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="probability_theoretical_probability-15-6-2-1"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-15-6-2-1-1-1"><div class="para" id="probability_theoretical_probability-15-6-2-1-1-1-1">The probability of getting heads on the first flip is 0.5 or 50%. After flipping heads, the probability of getting heads on the second flip is still 0.5 or 50%. Since the probability of flipping heads on the second flip did not change because we flipped heads on the first flip, the events are <em class="alert">independent</em>.</div></li>
+<li id="probability_theoretical_probability-15-6-2-1-1-2"><div class="para" id="probability_theoretical_probability-15-6-2-1-1-2-1">Since two different people will be put in the role of president and vice president, we are drawing without replacement and the events are therefore <em class="alert">dependent</em>.</div></li>
+<li id="probability_theoretical_probability-15-6-2-1-1-3"><div class="para" id="probability_theoretical_probability-15-6-2-1-1-3-1">If it is raining in Portland it is more likely that it will rain in Beaverton, so the events are <em class="alert">dependent</em>.</div></li>
+<li id="probability_theoretical_probability-15-6-2-1-1-4"><div class="para" id="probability_theoretical_probability-15-6-2-1-1-4-1">Although there may some sort of placebo effect at play in terms of confidence and persistence, the socks you wear do not have a direct effect on how well you do on your exam, so these events are <em class="alert">independent</em>.</div></li>
+</ol></div></div></details></div></article><div class="para" id="probability_theoretical_probability-15-7">To calculate “and” probabilities we multiply, but we need to determine whether the events are independent or dependent. If they are independent, then we can multiply the individual probability of each event because one does not affect the other. If the events are dependent, then we need to multiply by the conditional probability based on what has previously happened. Here is a summary of this.</div>
+<article class="assemblage assemblage-like" id="probability_theoretical_probability-15-8"><h4 class="heading"><span class="title">“And”.</span></h4>
+<div class="para" id="probability_theoretical_probability-15-8-2">Probabilities If events A and B are independent, then <span class="process-math">\(P(A \text{ and } B)=P(A)\cdot P(B)\)</span>
+</div>
+<div class="para" id="probability_theoretical_probability-15-8-3">If events A and B are dependent, then <span class="process-math">\(P(A \text{ and } B)=P(A)\cdot P(B \text{ given } A)\)</span>
+</div></article><div class="para" id="probability_theoretical_probability-15-9">The probability of <em class="emphasis"><span class="process-math">\(B\)</span> given <span class="process-math">\(A\)</span></em> is called a <em class="alert">conditional probability</em> since it depends, or is conditional, on <span class="process-math">\(A\)</span> occurring. We saw examples of conditional probability when we looked at contingency tables in the previous section.</div>
+<article class="example example-like" id="probability_theoretical_probability-15-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.10</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="probability_theoretical_probability-15-10-1-1">
+<div class="para">Suppose you have a bag containing 6 red Legos, 4 green Legos, and 3 black Legos. We will make exactly two lego selections from the bag. What is the probability of selecting:</div>
+<ol class="lower-alpha">
+<li id="probability_theoretical_probability-15-10-1-1-1-1"><div class="para" id="probability_theoretical_probability-15-10-1-1-1-1-1">two red Legos in a row if we put the first red Lego back in the bag?</div></li>
+<li id="probability_theoretical_probability-15-10-1-1-1-2"><div class="para" id="probability_theoretical_probability-15-10-1-1-1-2-1">two red Legos in a row if we don’t put the first Lego back in the bag?</div></li>
+<li id="probability_theoretical_probability-15-10-1-1-1-3"><div class="para" id="probability_theoretical_probability-15-10-1-1-1-3-1">a red Lego and then a green Lego if we do not put the red Lego back in the bag?</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="probability_theoretical_probability-15-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="probability_theoretical_probability-15-10-2-1"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-15-10-2-1-1-1">
+<div class="para" id="probability_theoretical_probability-15-10-2-1-1-1-1">Since the outcomes are equally likely, the probability of selecting a red Lego is the number of red Legos divided by the total number of Legos, or <span class="process-math">\(P(\text{red})=\frac{6}{13}\text{.}\)</span>
+</div>
+<div class="para" id="probability_theoretical_probability-15-10-2-1-1-1-2">If we replace the red Lego we selected (selections are independent), we go back to having 6 red Legos in the bag of 13 Legos total. Therefore,</div>
+<div class="para logical" id="probability_theoretical_probability-15-10-2-1-1-1-3"><div class="displaymath process-math" id="probability_theoretical_probability-15-10-2-1-1-1-3-1">
+\begin{align*}
+P(\text{red and then red})\amp=P(\text{red})\cdot P(\text{red})\\
+\amp=\frac{6}{13}\cdot\frac{6}{13}\\
+\amp\approx 0.213 \text{ or } 21.3\%
+\end{align*}
+</div></div>
+</li>
+<li id="probability_theoretical_probability-15-10-2-1-1-2">
+<div class="para" id="probability_theoretical_probability-15-10-2-1-1-2-1">If we do not replace the first red Lego (selections are dependent), then on our second draw there will only be 5 red Legos remaining, and 12 Legos in total. Therefore,</div>
+<div class="para logical" id="probability_theoretical_probability-15-10-2-1-1-2-2"><div class="displaymath process-math" id="probability_theoretical_probability-15-10-2-1-1-2-2-1">
+\begin{align*}
+P(\text{red and then red})\amp=P(\text{red})\cdot P(\text{red given red taken out})\\
+\amp=\frac{6}{13}\cdot\frac{5}{12}\\
+\amp\approx 0.192 \text{ or } 19.2\%
+\end{align*}
+</div></div>
+</li>
+<li id="probability_theoretical_probability-15-10-2-1-1-3">
+<div class="para" id="probability_theoretical_probability-15-10-2-1-1-3-1">The probability of selecting a red Lego on the first draw is the same as in parts a and b. Since we are not putting the red Lego back into the bag, we will have only 12 Lego left in total, of which 4 are green. Therefore,</div>
+<div class="para logical" id="probability_theoretical_probability-15-10-2-1-1-3-2"><div class="displaymath process-math" id="probability_theoretical_probability-15-10-2-1-1-3-2-1">
+\begin{align*}
+P(\text{red and then green})\amp=P(\text{red})\cdot P(\text{green given red taken out})\\
+\amp=\frac{6}{13}\cdot\frac{4}{12}\\
+\amp=\frac{6}{13}\cdot\frac{1}{3}\\
+\amp\approx 0.154 \text{ or } 15.4\%
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article><div class="para" id="probability_theoretical_probability-15-11">Let’s look at an example where we repeat an event many times.</div>
+<article class="example example-like" id="probability_theoretical_probability-15-12"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_theoretical_probability-15-12-1-1">Suppose there is a 6% chance you will receive a citation if you ride the MAX train without a ticket. What is the probability that you get away without a single citation if you ride without purchasing a ticket for 20 days this month?</div>
+<div class="solutions"><details id="probability_theoretical_probability-15-12-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="probability_theoretical_probability-15-12-2-1">The first thing we want to recognize is that this question is essentially asking for the probability of no citation and no citation and no citation…. twenty times (one for each day you ride without buying a ticket). Since the outcomes are connected by an “and”, we know we will be multiplying the probabilities. In this case the the outcomes are independent (you are not more or less likely to get a citation if you already received a citation). Therefore,</div> <div class="para logical" id="probability_theoretical_probability-15-12-2-2"><div class="displaymath process-math" id="probability_theoretical_probability-15-12-2-2-1">
+\begin{align*}
+P(\text{no citation in 20 rides})\amp=P(\text{no citation on a single ride})^{20}\\
+\amp=(1-0.06)^{20}\\
+\amp=(0.94)^{20}\\
+\amp\approx 0.290 \text{ or } 29.0\%
+\end{align*}
+</div></div>
+</div></details></div></article></section><section class="subsection" id="probability_theoretical_probability-16"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">“Or” Probabilities</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-16-2">The event <em class="alert"><span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span></em> refers to an event that includes the outcomes of <span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span> or <em class="emphasis">both</em>. We have seen the inclusive “or” both in terms of sets and logic, and in terms of contingency tables. The way we calculate the probability of <em class="emphasis"><span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span></em> depends on whether the events have characteristics that are overlapping or disjoint.</div></section><section class="subsection" id="probability_theoretical_probability-17"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Overlapping or Disjoint Sets</span>
+</h3>
+<div class="para" id="probability_theoretical_probability-17-2">Sets being <em class="alert">disjoint</em> means the same thing as <em class="alert">not overlapping</em>. If the sets in question are events (subsets of the sample space) <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> then <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> being disjoint means that <span class="process-math">\(A\)</span> cannot happen when <span class="process-math">\(B\)</span> does, and vice versa. When events are disjoint, we may also call them <em class="alert">mutually exclusive</em>.</div>
+<div class="para" id="probability_theoretical_probability-17-3">To apply this to probability, we will look at an example of events that have overlapping characteristics, such as color and shape.</div>
+<article class="example example-like" id="probability_theoretical_probability-17-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.12</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="probability_theoretical_probability-17-4-1-1">
+<div class="para">A prize machine is filled with 10 yellow erasers, 6 green erasers, 4 red pencil sharpeners, 8 yellow pencil sharpeners, and 5 red bouncy balls. Each prize is inside a plastic sphere, and the spheres are well mixed in the prize machine. Each game will get you just one prize. Determine the probability of</div>
+<ol class="lower-alpha">
+<li id="probability_theoretical_probability-17-4-1-1-1-1"><div class="para" id="probability_theoretical_probability-17-4-1-1-1-1-1">getting a yellow prize.</div></li>
+<li id="probability_theoretical_probability-17-4-1-1-1-2"><div class="para" id="probability_theoretical_probability-17-4-1-1-1-2-1">getting a red or yellow prize.</div></li>
+<li id="probability_theoretical_probability-17-4-1-1-1-3"><div class="para" id="probability_theoretical_probability-17-4-1-1-1-3-1">getting a prize that is yellow or an eraser.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="probability_theoretical_probability-17-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="probability_theoretical_probability-17-4-2-1"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-17-4-2-1-1-1">
+<div class="para" id="probability_theoretical_probability-17-4-2-1-1-1-1">Since yellow is a single event, we just need to know how many prizes there are in total, and how many of the prizes are yellow. The yellow prizes include the 10 yellow erasers and the 8 yellow pencil sharpeners.</div>
+<div class="para logical" id="probability_theoretical_probability-17-4-2-1-1-1-2"><div class="displaymath process-math" id="probability_theoretical_probability-17-4-2-1-1-1-2-1">
+\begin{align*}
+P(\text{yellow})\amp=\frac{18}{33}\\
+\amp\approx 0.545 \text{ or } 54.5\%
+\end{align*}
+</div></div>
+</li>
+<li id="probability_theoretical_probability-17-4-2-1-1-2">
+<div class="para" id="probability_theoretical_probability-17-4-2-1-1-2-1">For a red or yellow prize, the set of red and the set of yellow do not overlap. They are disjoint sets, so we will add the probability of getting a red prize to the probability of getting a yellow prize.</div>
+<div class="para logical" id="probability_theoretical_probability-17-4-2-1-1-2-2"><div class="displaymath process-math" id="probability_theoretical_probability-17-4-2-1-1-2-2-1">
+\begin{align*}
+P(\text{red or yellow})\amp=P(\text{red})+P(\text{yellow})\\
+\amp=\frac{9}{33}+\frac{18}{33}\\
+\amp=\frac{27}{33}\\
+\amp\approx 0.818 \text{ or } 81.8\%
+\end{align*}
+</div></div>
+</li>
+<li id="probability_theoretical_probability-17-4-2-1-1-3">
+<div class="para" id="probability_theoretical_probability-17-4-2-1-1-3-1">To find the probability of getting a prize that is yellow or an eraser, we need to be careful because these are overlapping sets. There are two ways to calculate this, and it is a lot like what we did with contingency tables. The first way is to add all the items separately, being careful not to double count.</div>
+<div class="para logical" id="probability_theoretical_probability-17-4-2-1-1-3-2"><div class="displaymath process-math" id="probability_theoretical_probability-17-4-2-1-1-3-2-1">
+\begin{align*}
+P(\text{yellow or eraser})\amp=P(\text{yellow eraser})+P(\text{yellow pencil sharpener})+P(\text{green eraser})\\
+\amp=\frac{10}{33}+\frac{8}{33}+\frac{6}{33}\\
+\amp=\frac{24}{33}\\
+\amp\approx 0.727 \text{ or } 72.7\%
+\end{align*}
+</div></div>
+<div class="para" id="probability_theoretical_probability-17-4-2-1-1-3-3">The second way is to count the total of yellow items and the total of erasers, but the yellow erasers are in both sets, or the overlap. We would be counting them twice and so we subtract their joint probability.</div>
+<div class="para logical" id="probability_theoretical_probability-17-4-2-1-1-3-4"><div class="displaymath process-math" id="probability_theoretical_probability-17-4-2-1-1-3-4-1">
+\begin{align*}
+P(\text{yellow or eraser})\amp=P(\text{yellow})+P(\text{eraser})-P(\text{yellow and eraser})\\
+\amp=\frac{18}{33}+\frac{16}{33}-\frac{10}{33}\\
+\amp=\frac{24}{33}\\
+\amp\approx 0.727 \text{ or } 72.7\%
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article><div class="para" id="probability_theoretical_probability-17-5">Here is a summary of how we found the “or” probabilities.</div>
+<article class="assemblage assemblage-like" id="probability_theoretical_probability-17-6"><h4 class="heading"><span class="title">“Or” Probabilities.</span></h4>
+<div class="para" id="probability_theoretical_probability-17-6-2">If the sets are disjoint, <span class="process-math">\(P(A \text{ or } B) = P(A) + P(B)\)</span>
+</div>
+<div class="para" id="probability_theoretical_probability-17-6-3">If the sets are overlapping, <span class="process-math">\(P(A \text{ or } B) = P(A) + P(B) - P(A \text{ and } B)\)</span>
+</div></article><div class="para" id="probability_theoretical_probability-17-7">We could also use the overlapping formula as a general formula, because in the case of disjoint sets <span class="process-math">\(P(A \text{ and } B)=0\text{.}\)</span> Here is another example with overlapping events.</div>
+<article class="example example-like" id="probability_theoretical_probability-17-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="probability_theoretical_probability-17-8-1-1">What is the probability of rolling two fair dice and getting a pair or a sum of 6?</div>
+<div class="solutions"><details id="probability_theoretical_probability-17-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="probability_theoretical_probability-17-8-2-1">For complicated events it’s a good idea to list all of the outcomes. Here we list them in a table. Looking at the table of outcomes, we see that there are 36 in total. Six outcomes that are pairs lie along the upper-to-lower diagonal that goes through <span class="process-math">\(\highlight{3+3=6}\text{.}\)</span> There are 5 outcomes that add to 6 along the lower-to-upper diagonal line that also goes through <span class="process-math">\(\highlight{3+3=6}\text{.}\)</span> That outcome is both a pair and a sum of 6, so the events are overlapping.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">1</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">3</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">4</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">5</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">6</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">1</th>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{1+1=2}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+2=3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+3=4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+4=5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{1+5=6}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(1+6=7\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">2</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+1=3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{2+2=4}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+3=5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{2+4=6}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+5=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2+6=8\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">3</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+1=4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+2=5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{3+3=6}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+4=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+5=8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3+6=9\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">4</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+1=5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{4+2=6}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+3=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{4+4=8}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+5=9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4+6=10\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">5</th>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{5+1=6}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+2=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+3=8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+4=9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{5+5=10}\)</span></em></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5+6=11\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">6</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+1=7\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+2=8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+3=9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+4=10\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6+5=11\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><em class="alert"><span class="process-math">\(\highlight{6+6=12}\)</span></em></td>
+</tr>
+</table></div> <div class="para" id="probability_theoretical_probability-17-8-2-3">As in the last example, there are two ways to do this.</div> <div class="para" id="probability_theoretical_probability-17-8-2-4">If we add all of the pairs and sums of 6 without double counting, we get:</div> <div class="para logical" id="probability_theoretical_probability-17-8-2-5"><div class="displaymath process-math" id="probability_theoretical_probability-17-8-2-5-1">
+\begin{align*}
+P(\text{pair or sum of 6})\amp=P(\text{pair})+P(\text{sum of 6 that haven't been counted})\\
+\amp=\frac{6}{36}+\frac{4}{36}\\
+\amp=\frac{10}{36}\\
+\amp\approx 0.278 \text{ or } 27.8\%
+\end{align*}
+</div></div> <div class="para" id="probability_theoretical_probability-17-8-2-6">To use the subtraction method, we need to add the probability of rolling a pair to the probability of rolling a sum of 6 and subtract the overlap. Thus we have:</div> <div class="para logical" id="probability_theoretical_probability-17-8-2-7"><div class="displaymath process-math" id="probability_theoretical_probability-17-8-2-7-1">
+\begin{align*}
+P(\text{pair or sum of 6})\amp=P(\text{pair})+P(\text{sum of 6})-P(\text{pair and a sum of 6})\\
+\amp=\frac{6}{36}+\frac{5}{36}-\frac{1}{36}\\
+\amp=\frac{10}{36}\\
+\amp\approx 0.278 \text{ or } 27.8\%
+\end{align*}
+</div></div> <div class="para" id="probability_theoretical_probability-17-8-2-8">Now that we have looked at empirical and theoretical probability, we will be able to use them for something very important in the next section - expected value.</div>
+</div></details></div></article></section><section class="exercises" id="probability_theoretical_probability-18"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="probability_theoretical_probability-18-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-2-1-1">A ball is drawn randomly from a jar containing 6 red marbles, 2 white marbles, and 5 yellow marbles. Find the probability of:</div> <div class="para logical" id="probability_theoretical_probability-18-2-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-2-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-2-1-2-1-1-1">Drawing a white marble.</div></li>
+<li id="probability_theoretical_probability-18-2-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-2-1-2-1-2-1">Drawing a red marble.</div></li>
+<li id="probability_theoretical_probability-18-2-1-2-1-3"><div class="para" id="probability_theoretical_probability-18-2-1-2-1-3-1">Drawing a green marble.</div></li>
+<li id="probability_theoretical_probability-18-2-1-2-1-4"><div class="para" id="probability_theoretical_probability-18-2-1-2-1-4-1">Drawing two yellow marbles if you draw with replacement.</div></li>
+<li id="probability_theoretical_probability-18-2-1-2-1-5"><div class="para" id="probability_theoretical_probability-18-2-1-2-1-5-1">Drawing first a red marble then a white marble if marbles are drawn without replacement.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-3-1-1">Compute the probability of tossing a fair six-sided die and getting:</div> <div class="para logical" id="probability_theoretical_probability-18-3-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-3-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-3-1-2-1-1-1">an even number.</div></li>
+<li id="probability_theoretical_probability-18-3-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-3-1-2-1-2-1">a number less than 3.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-4-1-1">Compute the probability of rolling a fair 12-sided die and getting:</div> <div class="para logical" id="probability_theoretical_probability-18-4-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-4-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-4-1-2-1-1-1">a number other than 8.</div></li>
+<li id="probability_theoretical_probability-18-4-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-4-1-2-1-2-1">a 2 or 7.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-5-1-1">A fair six-sided die is rolled twice. What is the probability of getting:</div> <div class="para logical" id="probability_theoretical_probability-18-5-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-5-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-5-1-2-1-1-1">a 6 on both rolls?</div></li>
+<li id="probability_theoretical_probability-18-5-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-5-1-2-1-2-1">a 5 on the first roll and an even number on the second roll?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-6"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-6-1-1">Suppose that 21% of people own dogs. If you pick two people at random, what is the probability that neither own a dog?</div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-7-1-1">At some random moment, you look at your digital clock and note the minutes reading.</div> <div class="para logical" id="probability_theoretical_probability-18-7-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-7-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-7-1-2-1-1-1">What is probability the minutes reading is 15?</div></li>
+<li id="probability_theoretical_probability-18-7-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-7-1-2-1-2-1">What is the probability the minutes reading is 15 or less?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-8"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-8-1-1">What is the probability of flipping a fair coin three times</div> <div class="para logical" id="probability_theoretical_probability-18-8-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-8-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-8-1-2-1-1-1">and getting a head each time?</div></li>
+<li id="probability_theoretical_probability-18-8-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-8-1-2-1-2-1">not getting a head at all?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-9"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-9-1-1">What is the probability of rolling two fair six-sided dice</div> <div class="para logical" id="probability_theoretical_probability-18-9-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-9-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-9-1-2-1-1-1">and getting a sum greater than or equal to 7?</div></li>
+<li id="probability_theoretical_probability-18-9-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-9-1-2-1-2-1">getting an even sum or a sum greater than 7?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-10"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-10-1-1">A box contains four black pieces of cloth, two striped pieces, and six dotted pieces. A piece is selected randomly and then placed back in the box. A second piece is selected randomly. What is the probability that:</div> <div class="para logical" id="probability_theoretical_probability-18-10-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-10-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-10-1-2-1-1-1">both pieces are dotted?</div></li>
+<li id="probability_theoretical_probability-18-10-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-10-1-2-1-2-1">the first piece is black, and the second piece is dotted?</div></li>
+<li id="probability_theoretical_probability-18-10-1-2-1-3"><div class="para" id="probability_theoretical_probability-18-10-1-2-1-3-1">one piece is black, and one piece is striped?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-11"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-11-1-1">Compute the probability of rolling five fair six-sided dice (each side has equal probability of landing face up on each roll) and getting:</div> <div class="para logical" id="probability_theoretical_probability-18-11-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-11-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-11-1-2-1-1-1">a 3 on all five dice.</div></li>
+<li id="probability_theoretical_probability-18-11-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-11-1-2-1-2-1">at least one of the die shows a 3.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-12"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-12-1-1">If you pick a card from a standard deck of 52 cards, what is the probability of getting</div> <div class="para logical" id="probability_theoretical_probability-18-12-1-2"><ol class="lower-alpha">
+<li id="probability_theoretical_probability-18-12-1-2-1-1"><div class="para" id="probability_theoretical_probability-18-12-1-2-1-1-1">a 7?</div></li>
+<li id="probability_theoretical_probability-18-12-1-2-1-2"><div class="para" id="probability_theoretical_probability-18-12-1-2-1-2-1">a club?</div></li>
+<li id="probability_theoretical_probability-18-12-1-2-1-3"><div class="para" id="probability_theoretical_probability-18-12-1-2-1-3-1">a spade or a club?</div></li>
+<li id="probability_theoretical_probability-18-12-1-2-1-4"><div class="para" id="probability_theoretical_probability-18-12-1-2-1-4-1">a diamond or a 5?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-13"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-13-1-1">A box of chocolates contains 7 dark chocolate pieces and 3 milk chocolate pieces (and no others). If you randomly pick 2 pieces and eat each chocolate after choosing it, what is the probability of choosing at least one dark chocolate? Write the probability in all three forms.</div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-14"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-14-1-1">A bag contains 3 green marbles, 4 red marbles, and 5 blue marbles (and no others). If you randomly pull out three marbles all at once, what is the probability that you choose 3 blue marbles? Write the probability in all three forms.</div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-15"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-15-1-1">A bag contains 3 green marbles, 4 red marbles, and 5 blue marbles (and no others). If you randomly pull out a marble and put the marble back 3 times, what is the probability that you pull out a blue marble all 3 times? Write the probability in all three forms.</div></article><article class="exercise exercise-like" id="probability_theoretical_probability-18-16"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
+<div class="para" id="probability_theoretical_probability-18-16-1-1">A bag contains 3 green marbles, 4 red marbles, and 5 blue marbles (and no others). If you randomly pull out three marbles all at once, what is the probability that you choose at least 1 blue marble? Write the probability in all three forms.</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="probability_contingency_tables.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="probability_expected_value.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
