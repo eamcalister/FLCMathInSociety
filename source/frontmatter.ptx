@@ -32,7 +32,7 @@
 				by David Lippman et al., used under
 				<url href="https://creativecommons.org/licenses/by-sa/3.0/us/"
 					visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.
-				This version was created from Pretext source for <url href="https://spot.pcc.edu/math/mathinsociety/book-1.html" visual="https://spot.pcc.edu/math/mathinsociety/book-1.html">Math in Society: Mathematics for Liberal Arts Majors</url>, by Portland Community College Math Department, used under  <url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
+				This version was created from Pretext source for <url href="https://spot.pcc.edu/math/mathinsociety/book-1.html" visual="https://spot.pcc.edu/math/mathinsociety/book-1.html">Math in Society: Mathematics for Liberal Arts Majors</url>, by Portland Community College Math Department (Project Lead Cara Lee), used under  <url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
 				visual="creativecommons.org/licenses/by-sa/4.0/us">CC BY-SA 4.0</url>
 				Other sections are based on <url href="https://openstax.org/books/contemporary-mathematics/pages/1-introduction" visual="openstax.org/books/contemporary-mathematics/pages/1-introduction">OpenStax Contemporary Mathematics</url> used under <url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
 				visual="creativecommons.org/licenses/by-sa/4.0/us">CC BY-SA 4.0</url>.
@@ -58,6 +58,12 @@
 	<preface>
 		<title>Attributions</title>
 		<p>
+			This book is licensed by the Fort Lewis College Mathematics Department under <url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
+			visual="creativecommons.org/licenses/by-sa/4.0/us">CC BY-SA 4.0</url>.  Except for Chapter 4, it was created from Pretext source for <url href="https://spot.pcc.edu/math/mathinsociety/book-1.html" visual="https://spot.pcc.edu/math/mathinsociety/book-1.html">Math in Society: Mathematics for Liberal Arts Majors</url>, by Portland Community College Math Department (Project Lead Cara Lee), used under  <url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
+			visual="creativecommons.org/licenses/by-sa/4.0/us">CC BY-SA 4.0</url>.
+		</p>
+		<p>	
+			The Portland Community College Math Department provides the following attributions:
 			This book is Licensed by the Portland Community College Math Department under
 			<url href="https://creativecommons.org/licenses/by-sa/4.0/us/"
 				visual="creativecommons.org/licenses/by-sa/4.0/us">CC BY-SA 4.0</url>.
@@ -100,14 +106,18 @@
 					</p>
 				</li>
 			</ul>
-		</p>
+		The material in	<xref ref="financial_math"/> is remixed from <url href="https://openstax.org/details/books/contemporary-mathematics" visual="https://openstax.org/details/books/contemporary-mathematics">OpenStax Contemporary Mathematics</url>, used under <url href="https://creativecommons.org/licenses/by/4.0/"
+		visual="creativecommons.org/licenses/by/4.0/">CC-BY 4.0</url>.
+	</p>
 		<p>
 			<alert>How to cite this book:</alert>
-			<url href="https://spot.pcc.edu/math/mathinsociety/"
+			<!-- <url href="https://spot.pcc.edu/math/mathinsociety/"
 				visual="spot.pcc.edu/math/mathinsociety"><q>Math In Society: Mathematics for liberal arts majors, Edition 1.1</q></url>
 			by Lee et al., Portland Community College Math Department is licensed under
 			<url href="http://creativecommons.org/licenses/by-sa/4.0"
-				visual="creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</url>
+				visual="creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</url>  -->
+			<q>Math In Society: Mathematics for Liberal Arts Majors (Fort Lewis College MATH 105, Edition 1)</q> by Asante et al., Fort Lewis College Mathematics Department is licensed under <url href="http://creativecommons.org/licenses/by-sa/4.0"
+			visual="creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</url>	
 		</p>
 		<p>
 			<alert>Attributions:</alert>
@@ -136,8 +146,8 @@
 				</li>
 				<li>
 					<p>
-						<xref ref="financial_math_simple_compound"/>, <xref ref="financial_math_savings_plan"/>,
-						and <xref ref="financial_math_loans"/> are a derivative of
+						<xref ref="financial_math_simple_compound"/> <!--, <xref ref="financial_math_savings_plan"/>,
+						and <xref ref="financial_math_loans"/> --> is a derivative of
 						<url href="http://www.opentextbookstore.com/mathinsociety"
 							visual="opentextbookstore.com/mathinsociety">Math in Society: Finance</url>,
 						by David Lippman, used under
